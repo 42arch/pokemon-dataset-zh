@@ -1,0 +1,552 @@
+{
+    "name": "豆蟋蟀",
+    "profile": "豆蟋蟀的身体是白色的，分为三段，其余部分大部分是黑色。它的第三对脚折叠在身体上方，上面有一个白色圆环图案。他的眼睛周围有四瓣花瓣一样的橙色花纹，眼睛的形状与花纹形状一致，为黑色。\n豆蟋蟀总是将第3双脚折起来，拥有陷入危机时能够跳跃10米以上的脚力。活用跳跃力来闪避攻击，并同时给予对手伤害，是它很擅长的战斗方式。\n",
+    "forms": [
+        {
+            "name": "豆蟋蟀",
+            "index": "#0919",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0919-豆蟋蟀.png",
+            "types": [
+                "虫"
+            ],
+            "genus": "蝗虫宝可梦",
+            "ability": [
+                {
+                    "name": "虫之预感",
+                    "is_hidden": false
+                },
+                {
+                    "name": "有色眼镜",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.2m",
+            "weight": "1.0kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "虫形",
+            "color": "灰色",
+            "catch_rate": {
+                "number": "190",
+                "rate": "24.8%"
+            },
+            "egg_groups": [
+                "虫"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "33",
+            "attack": "46",
+            "defense": "40",
+            "sp_attack": "21",
+            "sp_defense": "25"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "总是将第３双脚折起来。拥有陷入危机时能够跳跃１０米以上的脚力。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "活用跳跃力来闪避攻击，并同时给予对手伤害，是它很擅长的战斗方式。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "豆蟋蟀",
+                "stage": "未进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "烈腿蝗",
+                "stage": "1阶进化",
+                "text": "等级24以上",
+                "back_text": "",
+                "from": "豆蟋蟀",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "豆蟋蟀",
+        "zh_hant": "豆蟋蟀",
+        "en": "Nymble",
+        "fr": "Nymble",
+        "de": "Micrick",
+        "it": "Nymble",
+        "es": "Nymble",
+        "ja": "マメバッタ",
+        "ko": "콩알뚜기"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "撞击",
+            "flavor_text": "用整个身体撞向对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "35"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "瞪眼",
+            "flavor_text": "用犀利的眼神使其害怕，从而降低对手的防御。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": "4",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "虫之抵抗",
+            "flavor_text": "抵抗并攻击对手。会降低对手的特攻。",
+            "type": "虫",
+            "category": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "6",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "惊吓",
+            "flavor_text": "用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。",
+            "type": "幽灵",
+            "category": "物理",
+            "power": "30",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "9",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "恶意追击",
+            "flavor_text": "如果此回合内对手已经受到伤害的话，招式威力会变成２倍。",
+            "type": "恶",
+            "category": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "11",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "二连踢",
+            "flavor_text": "用２只脚踢飞对手进行攻击。连续２次给予伤害。",
+            "type": "格斗",
+            "category": "物理",
+            "power": "30",
+            "accuracy": "100",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": "14",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "刺耳声",
+            "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "85",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": "18",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "22",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "虫咬",
+            "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
+            "type": "虫",
+            "category": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "26",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "佯攻",
+            "flavor_text": "能够攻击正在使用守住或看穿等招式的对手。解除其守护效果。",
+            "type": "一般",
+            "category": "物理",
+            "power": "30",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "30",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "高速移动",
+            "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
+            "type": "超能力",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": "38",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "突袭",
+            "flavor_text": "可以比对手先攻击。对手使出的招式如果不是攻击招式则会失败。",
+            "type": "恶",
+            "category": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": "41",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "迎头一击",
+            "flavor_text": "威力很高的招式，但只有在出场战斗时，立刻使出才能成功。",
+            "type": "虫",
+            "category": "物理",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００１",
+            "method": "招式学习器",
+            "name": "猛撞",
+            "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+            "type": "一般",
+            "class": "物理",
+            "power": "90",
+            "accuracy": "85",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００４",
+            "method": "招式学习器",
+            "name": "高速移动",
+            "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００７",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１５",
+            "method": "招式学习器",
+            "name": "虫之抵抗",
+            "flavor_text": "抵抗并攻击对手。会降低对手的特攻。",
+            "type": "虫",
+            "class": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１８",
+            "method": "招式学习器",
+            "name": "小偷",
+            "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
+            "type": "恶",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２０",
+            "method": "招式学习器",
+            "name": "起草",
+            "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
+            "type": "草",
+            "class": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２１",
+            "method": "招式学习器",
+            "name": "虫扑",
+            "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
+            "type": "虫",
+            "class": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２５",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４７",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４９",
+            "method": "招式学习器",
+            "name": "大晴天",
+            "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+            "type": "火",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５０",
+            "method": "招式学习器",
+            "name": "求雨",
+            "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+            "type": "水",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０６０",
+            "method": "招式学习器",
+            "name": "急速折返",
+            "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
+            "type": "虫",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７０",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８５",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０９５",
+            "method": "招式学习器",
+            "name": "汲取",
+            "flavor_text": "吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ。",
+            "type": "虫",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０３",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０５",
+            "method": "招式学习器",
+            "name": "十字剪",
+            "flavor_text": "将镰刀或爪子像剪刀般地交叉，顺势劈开对手。",
+            "type": "虫",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１６２",
+            "method": "招式学习器",
+            "name": "虫鸣",
+            "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
+            "type": "虫",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７１",
+            "method": "招式学习器",
+            "name": "太晶爆发",
+            "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+            "type": "一般",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１８２",
+            "method": "招式学习器",
+            "name": "虫咬",
+            "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
+            "type": "虫",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２１９",
+            "method": "招式学习器",
+            "name": "爬击",
+            "flavor_text": "从对手背后爬近后进行攻击。会降低对手的特攻。",
+            "type": "虫",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "90",
+            "pp": "10"
+        }
+    ]
+}

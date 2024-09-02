@@ -1,0 +1,610 @@
+{
+    "name": "贪心栗鼠",
+    "profile": "贪心栗鼠的外观看起来就像是现实的松鼠，有着深灰色和浅灰色的皮毛，鼓鼓囊囊的两颊，尾巴十分巨大。它的个体比较小，有着比较突出的牙齿，尾巴的毛发颜色呈两段分布，而蓬松的皮毛也会炸开来。贪心栗鼠的耳朵很有特色，呈现两段分开的外观，且有不一样颜色的花纹。\n贪心栗鼠在伽勒尔随处可见，会出现在田地里寻找树果。不管吃得再怎么饱都还是会担心肚子饿，因此会往脸颊和尾巴里储存树果。如果不往两边的颊囊里塞满树果，它就会感到不安。嘴馋却又没有树果时，会含着小石子忍过去。由于它无论何时都在吃树果，使得它比外表看起来还要顽强。擅长专心致志地追寻猎物足迹的猫鼬探长似乎觉得个性单纯的贪心栗鼠追起来不够过瘾。\n",
+    "forms": [
+        {
+            "name": "贪心栗鼠",
+            "index": "#0819",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0819-贪心栗鼠.png",
+            "types": [
+                "一般"
+            ],
+            "genus": "贪吃宝可梦",
+            "ability": [
+                {
+                    "name": "颊囊",
+                    "is_hidden": false
+                },
+                {
+                    "name": "贪吃鬼",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.3m",
+            "weight": "2.5kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "双足兽形",
+            "color": "褐色",
+            "catch_rate": {
+                "number": "255",
+                "rate": "33.3%"
+            },
+            "egg_groups": [
+                "陆上"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "70",
+            "attack": "55",
+            "defense": "55",
+            "sp_attack": "35",
+            "sp_defense": "35"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "在伽勒尔随处可见。如果不往两边的颊囊里塞满树果，就会感到不安。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "由于它无论何时都在吃树果，使得它比外表看起来还要顽强。会出现在田地里寻找树果。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "会把树果囤积在脸颊。嘴馋却又没有树果时，会含着小石子忍过去。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "不管吃得再怎么饱都还是会担心肚子饿，因此会往脸颊和尾巴里储存树果。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "贪心栗鼠",
+                "stage": "未进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "藏饱栗鼠",
+                "stage": "1阶进化",
+                "text": "等级24以上",
+                "back_text": "",
+                "from": "贪心栗鼠",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "贪心栗鼠",
+        "zh_hant": "貪心栗鼠",
+        "en": "Skwovet",
+        "fr": "Skwovet",
+        "de": "Raffel",
+        "it": "Skwovet",
+        "es": "Skwovet",
+        "ja": "ホシガリス",
+        "ko": "탐리스"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "撞击",
+            "flavor_text": "用整个身体撞向对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "35"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "摇尾巴",
+            "flavor_text": "可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": "5",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "咬住",
+            "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
+            "type": "恶",
+            "category": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": "10",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "大快朵颐",
+            "flavor_text": "吃掉携带的树果，大幅提高防御。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "15",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "蓄力",
+            "flavor_text": "积蓄力量，提高自己的防御和特防。最多积蓄３次。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "15",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "喷出",
+            "flavor_text": "将积蓄的力量撞向对手进行攻击。积蓄得越多，威力越大。",
+            "type": "一般",
+            "category": "特殊",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "15",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "吞下",
+            "flavor_text": "将积蓄的力量吞下，从而回复自己的ＨＰ。积蓄得越多，回复越大。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "20",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "泰山压顶",
+            "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+            "type": "一般",
+            "category": "物理",
+            "power": "85",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "25",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": "30",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "双倍奉还",
+            "flavor_text": "从对手那里受到物理攻击的伤害将以２倍返还给同一个对手。",
+            "type": "格斗",
+            "category": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "35",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "种子机关枪",
+            "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
+            "type": "草",
+            "category": "物理",
+            "power": "25",
+            "accuracy": "100",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": "40",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "愤怒门牙",
+            "flavor_text": "用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半。",
+            "type": "一般",
+            "category": "物理",
+            "power": "变化",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "45",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "打嗝",
+            "flavor_text": "朝着对手打嗝，并给予伤害。如果不吃树果则无法使出。",
+            "type": "毒",
+            "category": "特殊",
+            "power": "120",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００１",
+            "method": "招式学习器",
+            "name": "猛撞",
+            "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+            "type": "一般",
+            "class": "物理",
+            "power": "90",
+            "accuracy": "85",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００５",
+            "method": "招式学习器",
+            "name": "掷泥",
+            "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
+            "type": "地面",
+            "class": "特殊",
+            "power": "20",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００７",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１８",
+            "method": "招式学习器",
+            "name": "小偷",
+            "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
+            "type": "恶",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２０",
+            "method": "招式学习器",
+            "name": "起草",
+            "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
+            "type": "草",
+            "class": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２５",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３５",
+            "method": "招式学习器",
+            "name": "泥巴射击",
+            "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
+            "type": "地面",
+            "class": "特殊",
+            "power": "55",
+            "accuracy": "95",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４３",
+            "method": "招式学习器",
+            "name": "投掷",
+            "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
+            "type": "恶",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４７",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５５",
+            "method": "招式学习器",
+            "name": "挖洞",
+            "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
+            "type": "地面",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５６",
+            "method": "招式学习器",
+            "name": "种子机关枪",
+            "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
+            "type": "草",
+            "class": "物理",
+            "power": "25",
+            "accuracy": "100",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０６６",
+            "method": "招式学习器",
+            "name": "泰山压顶",
+            "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+            "type": "一般",
+            "class": "物理",
+            "power": "85",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７０",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７１",
+            "method": "招式学习器",
+            "name": "种子炸弹",
+            "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
+            "type": "草",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８５",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０３",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０８",
+            "method": "招式学习器",
+            "name": "咬碎",
+            "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
+            "type": "恶",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１１７",
+            "method": "招式学习器",
+            "name": "巨声",
+            "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１２８",
+            "method": "招式学习器",
+            "name": "瞬间失忆",
+            "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７１",
+            "method": "招式学习器",
+            "name": "太晶爆发",
+            "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+            "type": "一般",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１８０",
+            "method": "招式学习器",
+            "name": "陀螺球",
+            "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
+            "type": "钢",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１８３",
+            "method": "招式学习器",
+            "name": "愤怒门牙",
+            "flavor_text": "用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半。",
+            "type": "一般",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０４",
+            "method": "招式学习器",
+            "name": "舍身冲撞",
+            "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
+            "type": "一般",
+            "class": "物理",
+            "power": "120",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０５",
+            "method": "招式学习器",
+            "name": "蛮干",
+            "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
+            "type": "一般",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２２４",
+            "method": "招式学习器",
+            "name": "咒术",
+            "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
+            "type": "幽灵",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        }
+    ]
+}

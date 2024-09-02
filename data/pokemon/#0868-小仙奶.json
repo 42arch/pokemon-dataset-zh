@@ -1,0 +1,452 @@
+{
+    "name": "小仙奶",
+    "profile": "小仙奶是空气中甜甜香气的成分集中之后诞生的，身体由鲜奶油构成。它有两个眼睛和一个嘴巴，眼睛看起来就像是中间鲜奶油空出来的部位，呈现白色，它身上的部位呈现液体状，这让小仙奶的形象并非是固定保持不变的，小仙奶旁边溅出来的鲜奶油看起来就像是它的两个小手，小仙奶并没有脚，但是它可以在空中飘浮保持运动。小仙奶只有雌性，也没有对应的雄性宝可梦。\n小仙奶吸取越多甜甜香气，身体就会胀得越大，可当能量减少时就会蔫掉。它遭到敌人袭击时会使出撞击，或是令敌人沾满奶油而封住视线，或是趁敌人惊叹美味时逃之夭夭。据说有小仙奶现身过的蛋糕店保证能生意兴隆。\n",
+    "forms": [
+        {
+            "name": "小仙奶",
+            "index": "#0868",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0868-小仙奶.png",
+            "types": [
+                "妖精"
+            ],
+            "genus": "鲜奶油宝可梦",
+            "ability": [
+                {
+                    "name": "甜幕",
+                    "is_hidden": false
+                },
+                {
+                    "name": "芳香幕",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.2m",
+            "weight": "0.3kg",
+            "gender_rate": null,
+            "shape": "球形",
+            "color": "白色",
+            "catch_rate": {
+                "number": "200",
+                "rate": "26.1%"
+            },
+            "egg_groups": [
+                "妖精",
+                "不定形"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "45",
+            "attack": "40",
+            "defense": "40",
+            "sp_attack": "50",
+            "sp_defense": "61"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "空气中甜甜香气的成分集中之后诞生。身体由鲜奶油构成。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "据说有小仙奶现身过的蛋糕店保证能生意兴隆。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "吸取越多甜甜香气，身体就会胀得越大，可当能量减少时就会蔫掉。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "遭到敌人袭击时会使出撞击，或是令敌人沾满奶油而封住视线，或是趁敌人惊叹美味时逃之夭夭。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "小仙奶",
+                "stage": "未进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "霜奶仙",
+                "stage": "1阶进化",
+                "text": "主角结束原地旋转（携带糖饰）",
+                "back_text": "",
+                "from": "小仙奶",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "小仙奶",
+        "zh_hant": "小仙奶",
+        "en": "Milcery",
+        "fr": "Milcery",
+        "de": "Hokumil",
+        "it": "Milcery",
+        "es": "Milcery",
+        "ja": "マホミル",
+        "ko": "마빌크"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "撞击",
+            "flavor_text": "用整个身体撞向对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "35"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "芳香薄雾",
+            "flavor_text": "通过神奇的芳香，提高我方宝可梦的特防。",
+            "type": "妖精",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "5",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "天使之吻",
+            "flavor_text": "像天使般可爱地亲吻对手，从而使对手混乱。",
+            "type": "妖精",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "75",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "10",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "甜甜香气",
+            "flavor_text": "用香气大幅降低对手的闪避率。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "15",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "吸取之吻",
+            "flavor_text": "用一个吻吸取对手的ＨＰ。回复给予对手伤害的一半以上的ＨＰ。",
+            "type": "妖精",
+            "category": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "20",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "撒娇",
+            "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
+            "type": "妖精",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "25",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "迷人",
+            "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "30",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "溶化",
+            "flavor_text": "通过细胞的变化进行液化，从而大幅提高自己的防御。",
+            "type": "毒",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "35",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "魔法闪耀",
+            "flavor_text": "向对手发射强光，并给予伤害。",
+            "type": "妖精",
+            "category": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "40",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "自我再生",
+            "flavor_text": "让细胞再生，从而回复自己最大ＨＰ的一半。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": "45",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "薄雾场地",
+            "flavor_text": "在５回合内，地面上的宝可梦不会陷入异常状态。龙属性招式的伤害也会减半。",
+            "type": "妖精",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "50",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "找伙伴",
+            "flavor_text": "用神奇的节奏跳舞。使对手模仿自己的动作，从而将特性变成一样。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００２",
+            "method": "招式学习器",
+            "name": "撒娇",
+            "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
+            "type": "妖精",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００７",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２５",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３７",
+            "method": "招式学习器",
+            "name": "吸取之吻",
+            "flavor_text": "用一个吻吸取对手的ＨＰ。回复给予对手伤害的一半以上的ＨＰ。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４１",
+            "method": "招式学习器",
+            "name": "辅助力量",
+            "flavor_text": "用蓄积起来的力量攻击对手。自己的能力提高得越多，威力就越大。",
+            "type": "超能力",
+            "class": "特殊",
+            "power": "20",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４７",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７０",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７９",
+            "method": "招式学习器",
+            "name": "魔法闪耀",
+            "flavor_text": "向对手发射强光，并给予伤害。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８５",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０３",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３０",
+            "method": "招式学习器",
+            "name": "帮助",
+            "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３９",
+            "method": "招式学习器",
+            "name": "薄雾场地",
+            "flavor_text": "在５回合内，地面上的宝可梦不会陷入异常状态。龙属性招式的伤害也会减半。",
+            "type": "妖精",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７１",
+            "method": "招式学习器",
+            "name": "太晶爆发",
+            "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+            "type": "一般",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        }
+    ]
+}

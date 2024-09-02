@@ -1,0 +1,727 @@
+{
+    "name": "敲音猴",
+    "profile": "敲音猴拥有绿色的身躯，四肢末端则为橘红色。其尾巴与耳朵呈棕色，脸庞上则有着米黄色的眼眶与橘红色的嘴廓。敲音猴的头顶另有一株形似绿叶的构造，其中串着一根木棍，且有5只手指与3只脚趾。绿色的体毛能够利用阳光来生成能量。\n敲音猴手上的木棒原本只是一根栖息着猴群的森林里的普通树枝，经过独特变化后成了现在这个样子。它会用木棒连续击打来攻击。在以飞快的速度击打的同时，情绪也会变得越来越高涨。因长年受敲音猴体内的能量影响，它手上的木棒变得能够发挥出特殊效果。当它用特别的木棒敲奏时，能够给予花草活力的力量就会变成音波扩散开来。敲音猴在花草附近挥动木棒玩耍时，绿叶会变得更加翠绿，枯萎的花朵会重新变得鲜艳。\n",
+    "forms": [
+        {
+            "name": "敲音猴",
+            "index": "#0810",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0810-敲音猴.png",
+            "types": [
+                "草"
+            ],
+            "genus": "小猴宝可梦",
+            "ability": [
+                {
+                    "name": "茂盛",
+                    "is_hidden": false
+                },
+                {
+                    "name": "青草制造者",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,059,860",
+                "speed": "较慢"
+            },
+            "height": "0.3m",
+            "weight": "5.0kg",
+            "gender_rate": {
+                "male": "5%",
+                "female": "5%"
+            },
+            "shape": "双足兽形",
+            "color": "绿色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "陆上",
+                "植物"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "50",
+            "attack": "65",
+            "defense": "50",
+            "sp_attack": "40",
+            "sp_defense": "40"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "当它用特别的木棒敲奏时，能够给予花草活力的力量就会变成音波扩散开来。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "会用木棒连续击打来攻击。在以飞快的速度击打的同时，情绪也会变得越来越高涨。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "拿着的木棒在沐浴了来自敲音猴体内的能量后，坚硬度和柔韧度都有了提升。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "在用木棒敲打各种东西的过程中变得越来越愉快，节奏也会变得越来越好。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "敲音猴",
+                "stage": "未进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "啪咚猴",
+                "stage": "1阶进化",
+                "text": "等级16以上",
+                "back_text": "",
+                "from": "敲音猴",
+                "form_name": null
+            },
+            {
+                "name": "轰擂金刚猩",
+                "stage": "2阶进化",
+                "text": "等级35以上",
+                "back_text": "",
+                "from": "啪咚猴",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "敲音猴",
+        "zh_hant": "敲音猴",
+        "en": "Grookey",
+        "fr": "Grookey",
+        "de": "Chimpep",
+        "it": "Grookey",
+        "es": "Grookey",
+        "ja": "サルノリ",
+        "ko": "흥나숭"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "抓",
+            "flavor_text": "用坚硬且无比锋利的爪子抓对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "35"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "叫声",
+            "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": "6",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "木枝突刺",
+            "flavor_text": "使用尖锐的树枝刺向对手进行攻击。",
+            "type": "草",
+            "category": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": "8",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "挑衅",
+            "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+            "type": "恶",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "12",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "飞叶快刀",
+            "flavor_text": "飞出叶片，切斩对手进行攻击。容易击中要害。",
+            "type": "草",
+            "category": "物理",
+            "power": "55",
+            "accuracy": "95",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": "17",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "刺耳声",
+            "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "85",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": "20",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "拍落",
+            "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
+            "type": "恶",
+            "category": "物理",
+            "power": "65",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "24",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "摔打",
+            "flavor_text": "使用长长的尾巴或藤蔓等摔打对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "80",
+            "accuracy": "75",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "28",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "吵闹",
+            "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
+            "type": "一般",
+            "category": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "32",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "木槌",
+            "flavor_text": "用坚硬的躯体撞击对手进行攻击。自己也会受到不小的伤害。",
+            "type": "草",
+            "category": "物理",
+            "power": "120",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "36",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "蛮干",
+            "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
+            "type": "一般",
+            "category": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００１",
+            "method": "招式学习器",
+            "name": "猛撞",
+            "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+            "type": "一般",
+            "class": "物理",
+            "power": "90",
+            "accuracy": "85",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００７",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１２",
+            "method": "招式学习器",
+            "name": "踢倒",
+            "flavor_text": "用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。",
+            "type": "格斗",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１４",
+            "method": "招式学习器",
+            "name": "杂技",
+            "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
+            "type": "飞行",
+            "class": "物理",
+            "power": "55",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１８",
+            "method": "招式学习器",
+            "name": "小偷",
+            "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
+            "type": "恶",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２０",
+            "method": "招式学习器",
+            "name": "起草",
+            "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
+            "type": "草",
+            "class": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２５",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３２",
+            "method": "招式学习器",
+            "name": "高速星星",
+            "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "60",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３３",
+            "method": "招式学习器",
+            "name": "魔法叶",
+            "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
+            "type": "草",
+            "class": "特殊",
+            "power": "60",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４３",
+            "method": "招式学习器",
+            "name": "投掷",
+            "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
+            "type": "恶",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４７",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４９",
+            "method": "招式学习器",
+            "name": "大晴天",
+            "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+            "type": "火",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５６",
+            "method": "招式学习器",
+            "name": "种子机关枪",
+            "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
+            "type": "草",
+            "class": "物理",
+            "power": "25",
+            "accuracy": "100",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５７",
+            "method": "招式学习器",
+            "name": "点到为止",
+            "flavor_text": "对手的ＨＰ至少会留下１ＨＰ，如此般手下留情地攻击。",
+            "type": "一般",
+            "class": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０６０",
+            "method": "招式学习器",
+            "name": "急速折返",
+            "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
+            "type": "虫",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０６６",
+            "method": "招式学习器",
+            "name": "泰山压顶",
+            "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+            "type": "一般",
+            "class": "物理",
+            "power": "85",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７０",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７１",
+            "method": "招式学习器",
+            "name": "种子炸弹",
+            "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
+            "type": "草",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７３",
+            "method": "招式学习器",
+            "name": "吸取拳",
+            "flavor_text": "用拳头吸取对手的力量。可以回复给予对手伤害的一半ＨＰ。",
+            "type": "格斗",
+            "class": "物理",
+            "power": "75",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８１",
+            "method": "招式学习器",
+            "name": "打草结",
+            "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
+            "type": "草",
+            "class": "特殊",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８５",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８７",
+            "method": "招式学习器",
+            "name": "挑衅",
+            "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+            "type": "恶",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８８",
+            "method": "招式学习器",
+            "name": "剑舞",
+            "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０３",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１１１",
+            "method": "招式学习器",
+            "name": "终极吸取",
+            "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
+            "type": "草",
+            "class": "特殊",
+            "power": "75",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１１９",
+            "method": "招式学习器",
+            "name": "能量球",
+            "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
+            "type": "草",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３７",
+            "method": "招式学习器",
+            "name": "青草场地",
+            "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
+            "type": "草",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１４６",
+            "method": "招式学习器",
+            "name": "草之誓约",
+            "flavor_text": "用草柱进行攻击。如果和水组合，威力就会提高，周围会变成湿地。",
+            "type": "草",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１５９",
+            "method": "招式学习器",
+            "name": "飞叶风暴",
+            "flavor_text": "用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。",
+            "type": "草",
+            "class": "特殊",
+            "power": "130",
+            "accuracy": "90",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１６８",
+            "method": "招式学习器",
+            "name": "日光束",
+            "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
+            "type": "草",
+            "class": "特殊",
+            "power": "120",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７１",
+            "method": "招式学习器",
+            "name": "太晶爆发",
+            "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+            "type": "一般",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１８１",
+            "method": "招式学习器",
+            "name": "拍落",
+            "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
+            "type": "恶",
+            "class": "物理",
+            "power": "65",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１９０",
+            "method": "招式学习器",
+            "name": "日光刃",
+            "flavor_text": "第１回合收集满满的日光，第２回合将此力量集中在剑上进行攻击。",
+            "type": "草",
+            "class": "物理",
+            "power": "125",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１９１",
+            "method": "招式学习器",
+            "name": "吵闹",
+            "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１９４",
+            "method": "招式学习器",
+            "name": "青草滑梯",
+            "flavor_text": "仿佛在地面上滑行般地攻击对手。在青草场地上，必定能够先制攻击。",
+            "type": "草",
+            "class": "物理",
+            "power": "55",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０５",
+            "method": "招式学习器",
+            "name": "蛮干",
+            "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
+            "type": "一般",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "5"
+        }
+    ]
+}

@@ -1,0 +1,544 @@
+{
+    "name": "烧火蚣",
+    "profile": "烧火蚣的身体扁而长且分成了七节，通体鲜红，有著暗褐色的背部。烧火蚣在头尾都有两搓燃烧的火苗，腹部的黄色圆圈是全身温度最高的地方。共有五对步足，嘴巴旁长著一对小附肢。第一节的上方有黄色的三角形花纹。\n烧火蚣靠储存在体内的可燃气体来发热，热度最高的是腹部的黄色部分。它会用滚烫的身体勒紧猎物，等到烤得恰到好处之时，就把它们大口大口地吃掉。虽然与百足蜈蚣是种类相近的伙伴，但是一见面就会大打一番。它的祖先和钳尾蝎的祖先是近亲。\n",
+    "forms": [
+        {
+            "name": "烧火蚣",
+            "index": "#0850",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0850-烧火蚣.png",
+            "types": [
+                "火",
+                "虫"
+            ],
+            "genus": "发热宝可梦",
+            "ability": [
+                {
+                    "name": "引火",
+                    "is_hidden": false
+                },
+                {
+                    "name": "白色烟雾",
+                    "is_hidden": false
+                },
+                {
+                    "name": "火焰之躯",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.7m",
+            "weight": "1.0kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "触手形",
+            "color": "红色",
+            "catch_rate": {
+                "number": "190",
+                "rate": "24.8%"
+            },
+            "egg_groups": [
+                "虫"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "50",
+            "attack": "65",
+            "defense": "45",
+            "sp_attack": "50",
+            "sp_defense": "50"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "靠储存在体内的可燃气体来发热。热度最高的是腹部的黄色部分。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "会用滚烫的身体勒紧猎物，等到烤得恰到好处之时，就把它们大口大口地吃掉。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": []
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "烧火蚣",
+                "stage": "未进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "焚焰蚣",
+                "stage": "1阶进化",
+                "text": "等级28以上",
+                "back_text": "",
+                "from": "烧火蚣",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "烧火蚣",
+        "zh_hant": "燒火蚣",
+        "en": "Sizzlipede",
+        "fr": "Sizzlipede",
+        "de": "Thermopod",
+        "it": "Sizzlipede",
+        "es": "Sizzlipede",
+        "ja": "ヤクデ",
+        "ko": "태우지네"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "烟幕",
+            "flavor_text": "向对手喷出烟或墨汁等，从而降低对手的命中率。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "火花",
+            "flavor_text": "向对手发射小型火焰进行攻击。有时会让对手陷入灼伤状态。",
+            "type": "火",
+            "category": "特殊",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": "5",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "紧束",
+            "flavor_text": "使用长长的身体或藤蔓等，在４～５回合内紧束对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "15",
+            "accuracy": "90",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "10",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "咬住",
+            "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
+            "type": "恶",
+            "category": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": "15",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "火焰轮",
+            "flavor_text": "让火焰覆盖全身，猛撞向对手进行攻击。有时会让对手陷入灼伤状态。",
+            "type": "火",
+            "category": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": "20",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "虫咬",
+            "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
+            "type": "虫",
+            "category": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "25",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "盘蜷",
+            "flavor_text": "盘蜷着集中精神。提高自己的攻击、防御和命中率。",
+            "type": "毒",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "30",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "摔打",
+            "flavor_text": "使用长长的尾巴或藤蔓等摔打对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "80",
+            "accuracy": "75",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "35",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "火焰旋涡",
+            "flavor_text": "将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击。",
+            "type": "火",
+            "category": "特殊",
+            "power": "35",
+            "accuracy": "85",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "40",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "咬碎",
+            "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
+            "type": "恶",
+            "category": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "45",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "火焰鞭",
+            "flavor_text": "用燃烧的鞭子抽打对手。受到攻击的对手防御会降低。",
+            "type": "火",
+            "category": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "50",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "猛扑",
+            "flavor_text": "全力猛扑对手进行攻击。从而降低对手的攻击。",
+            "type": "虫",
+            "category": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "55",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "燃尽",
+            "flavor_text": "将自己全身燃烧起火焰来，给予对手大大的伤害。自己的火属性将会消失。",
+            "type": "火",
+            "category": "特殊",
+            "power": "130",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３",
+            "method": "招式学习器",
+            "name": "火焰旋涡",
+            "flavor_text": "将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击。",
+            "type": "火",
+            "class": "特殊",
+            "power": "35",
+            "accuracy": "85",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２１",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２４",
+            "method": "招式学习器",
+            "name": "打鼾",
+            "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２５",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器３１",
+            "method": "招式学习器",
+            "name": "迷人",
+            "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器３４",
+            "method": "招式学习器",
+            "name": "大晴天",
+            "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+            "type": "火",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器３９",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器７４",
+            "method": "招式学习器",
+            "name": "毒液冲击",
+            "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
+            "type": "毒",
+            "class": "特殊",
+            "power": "65",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器７６",
+            "method": "招式学习器",
+            "name": "轮唱",
+            "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器９７",
+            "method": "招式学习器",
+            "name": "狂舞挥打",
+            "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
+            "type": "恶",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录１８",
+            "method": "招式学习器",
+            "name": "吸血",
+            "flavor_text": "吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ。",
+            "type": "虫",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录２０",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录２６",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录２７",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录３２",
+            "method": "招式学习器",
+            "name": "咬碎",
+            "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
+            "type": "恶",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录３６",
+            "method": "招式学习器",
+            "name": "热风",
+            "flavor_text": "将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态。",
+            "type": "火",
+            "class": "特殊",
+            "power": "95",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录６１",
+            "method": "招式学习器",
+            "name": "虫鸣",
+            "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
+            "type": "虫",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录７２",
+            "method": "招式学习器",
+            "name": "强力鞭打",
+            "flavor_text": "激烈地挥舞青藤或触手摔打对手进行攻击。",
+            "type": "草",
+            "class": "物理",
+            "power": "120",
+            "accuracy": "85",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录８４",
+            "method": "招式学习器",
+            "name": "热水",
+            "flavor_text": "向对手喷射煮得翻滚的开水进行攻击。有时会让对手陷入灼伤状态。",
+            "type": "水",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式记录８８",
+            "method": "招式学习器",
+            "name": "高温重压",
+            "flavor_text": "用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大。",
+            "type": "火",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "10"
+        }
+    ]
+}

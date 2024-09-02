@@ -1,0 +1,658 @@
+{
+    "name": "小炭仔",
+    "profile": "从外表来看的话，小炭仔看起来就像是一团聚合起来的煤炭，不过实际上小炭仔和普通的煤炭有着很大的区别，它的身体前面有一个很大的眼睛，它的眼睛一面比较大，一面则比较小，看起来就像是斜着的眼神一般。它的身体也有凸出来的岩石。\n小炭仔在大约400年前在煤矿坑中被人们发现，身体绝大部分的成分都和煤炭相同，靠燃烧煤炭维持生命。它会用红色的眼睛照亮前路，身上的煤炭能像车轮一样旋转，以此在煤矿或矿山里移动。即使在满是岩石、路面凹凸不平的崎岖之路上也能像独轮车那样自在移动、如履平地。晴天时它会在草原东奔西跑，然后吃掉被卷进它那仿佛是车轮的脚里的草。直到100年前左右，小炭仔还是家家户户必不可少的宝可梦。从它身上脱落的老旧体表一直以来都被当成燃料来代替煤炭使用，经常被用作料理或壁炉的燃料。时至今日，它仍在户外活动等场面大显身手。能够破坏石头的石居蟹是它的天敌。\n",
+    "forms": [
+        {
+            "name": "小炭仔",
+            "index": "#0837",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0837-小炭仔.png",
+            "types": [
+                "岩石"
+            ],
+            "genus": "煤炭宝可梦",
+            "ability": [
+                {
+                    "name": "蒸汽机",
+                    "is_hidden": false
+                },
+                {
+                    "name": "耐热",
+                    "is_hidden": false
+                },
+                {
+                    "name": "引火",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,059,860",
+                "speed": "较慢"
+            },
+            "height": "0.3m",
+            "weight": "12.0kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "球形",
+            "color": "黑色",
+            "catch_rate": {
+                "number": "255",
+                "rate": "33.3%"
+            },
+            "egg_groups": [
+                "矿物"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "30",
+            "attack": "40",
+            "defense": "50",
+            "sp_attack": "40",
+            "sp_defense": "50"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "大约４００年前在煤矿坑中被人们发现。身体绝大部分的成分都和煤炭相同。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "在满是岩石的崎岖之路上也能像独轮车那样自在移动。靠燃烧煤炭维持生命。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "晴天时会在草原东奔西跑，然后吃掉被卷进它那仿佛是车轮的脚里的草。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "脱落的老旧体表一直以来都被当成燃料来代替煤炭使用。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "小炭仔",
+                "stage": "未进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "大炭车",
+                "stage": "1阶进化",
+                "text": "等级18以上",
+                "back_text": "",
+                "from": "小炭仔",
+                "form_name": null
+            },
+            {
+                "name": "巨炭山",
+                "stage": "2阶进化",
+                "text": "等级34以上",
+                "back_text": "",
+                "from": "大炭车",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "小炭仔",
+        "zh_hant": "小炭仔",
+        "en": "Rolycoly",
+        "fr": "Rolycoly",
+        "de": "Klonkett",
+        "it": "Rolycoly",
+        "es": "Rolycoly",
+        "ja": "タンドン",
+        "ko": "탄동"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "撞击",
+            "flavor_text": "用整个身体撞向对手进行攻击。",
+            "type": "一般",
+            "category": "物理",
+            "power": "40",
+            "accuracy": "100",
+            "pp": "35"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "烟幕",
+            "flavor_text": "向对手喷出烟或墨汁等，从而降低对手的命中率。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "5",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "高速旋转",
+            "flavor_text": "通过旋转来攻击对手。可以摆脱绑紧、紧束、寄生种子等招式。还能提高自己的速度。",
+            "type": "一般",
+            "category": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": "10",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "击落",
+            "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
+            "type": "岩石",
+            "category": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "15",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "岩石打磨",
+            "flavor_text": "打磨自己的身体，减少空气阻力。可以大幅提高自己的速度。",
+            "type": "岩石",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "20",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "原始之力",
+            "flavor_text": "用原始之力进行攻击。有时会提高自己所有的能力。",
+            "type": "岩石",
+            "category": "特殊",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": "25",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "烧净",
+            "flavor_text": "用火焰攻击对手。对手携带树果等时，会烧掉，使其不能使用。",
+            "type": "火",
+            "category": "特殊",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "30",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "隐形岩",
+            "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
+            "type": "岩石",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "35",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "高温重压",
+            "flavor_text": "用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大。",
+            "type": "火",
+            "category": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "40",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "岩石爆击",
+            "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
+            "type": "岩石",
+            "category": "物理",
+            "power": "25",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００１",
+            "method": "招式学习器",
+            "name": "猛撞",
+            "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+            "type": "一般",
+            "class": "物理",
+            "power": "90",
+            "accuracy": "85",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００５",
+            "method": "招式学习器",
+            "name": "掷泥",
+            "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
+            "type": "地面",
+            "class": "特殊",
+            "power": "20",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００７",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２５",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２８",
+            "method": "招式学习器",
+            "name": "重踏",
+            "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
+            "type": "地面",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３６",
+            "method": "招式学习器",
+            "name": "岩石封锁",
+            "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
+            "type": "岩石",
+            "class": "物理",
+            "power": "60",
+            "accuracy": "95",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４７",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５１",
+            "method": "招式学习器",
+            "name": "沙暴",
+            "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
+            "type": "岩石",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５５",
+            "method": "招式学习器",
+            "name": "挖洞",
+            "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
+            "type": "地面",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０６６",
+            "method": "招式学习器",
+            "name": "泰山压顶",
+            "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+            "type": "一般",
+            "class": "物理",
+            "power": "85",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７０",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７４",
+            "method": "招式学习器",
+            "name": "反射壁",
+            "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７６",
+            "method": "招式学习器",
+            "name": "岩石爆击",
+            "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
+            "type": "岩石",
+            "class": "物理",
+            "power": "25",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８５",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８６",
+            "method": "招式学习器",
+            "name": "岩崩",
+            "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
+            "type": "岩石",
+            "class": "物理",
+            "power": "75",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０９０",
+            "method": "招式学习器",
+            "name": "撒菱",
+            "flavor_text": "在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害。",
+            "type": "地面",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０９９",
+            "method": "招式学习器",
+            "name": "铁头",
+            "flavor_text": "用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。",
+            "type": "钢",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０１",
+            "method": "招式学习器",
+            "name": "力量宝石",
+            "flavor_text": "发射如宝石般闪耀的光芒攻击对手。",
+            "type": "岩石",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０３",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０４",
+            "method": "招式学习器",
+            "name": "铁壁",
+            "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
+            "type": "钢",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０７",
+            "method": "招式学习器",
+            "name": "磷火",
+            "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
+            "type": "火",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "85",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１１６",
+            "method": "招式学习器",
+            "name": "隐形岩",
+            "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
+            "type": "岩石",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１５０",
+            "method": "招式学习器",
+            "name": "尖石攻击",
+            "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
+            "type": "岩石",
+            "class": "物理",
+            "power": "100",
+            "accuracy": "80",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７１",
+            "method": "招式学习器",
+            "name": "太晶爆发",
+            "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+            "type": "一般",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７６",
+            "method": "招式学习器",
+            "name": "流沙深渊",
+            "flavor_text": "将对手困在铺天盖地的沙暴中，在４～５回合内进行攻击。",
+            "type": "地面",
+            "class": "物理",
+            "power": "35",
+            "accuracy": "85",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７９",
+            "method": "招式学习器",
+            "name": "击落",
+            "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
+            "type": "岩石",
+            "class": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１８０",
+            "method": "招式学习器",
+            "name": "陀螺球",
+            "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
+            "type": "钢",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１８９",
+            "method": "招式学习器",
+            "name": "高温重压",
+            "flavor_text": "用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大。",
+            "type": "火",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０７",
+            "method": "招式学习器",
+            "name": "豁出去",
+            "flavor_text": "以自暴自弃的气势进行攻击。如果上一回合招式没有命中，威力就会翻倍。",
+            "type": "火",
+            "class": "物理",
+            "power": "75",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２２０",
+            "method": "招式学习器",
+            "name": "流星光束",
+            "flavor_text": "第１回合聚集宇宙之力提高特攻，第２回合攻击对手。",
+            "type": "岩石",
+            "class": "特殊",
+            "power": "120",
+            "accuracy": "90",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２２４",
+            "method": "招式学习器",
+            "name": "咒术",
+            "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
+            "type": "幽灵",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        }
+    ]
+}

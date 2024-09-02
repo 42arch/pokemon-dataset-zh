@@ -1,0 +1,965 @@
+{
+    "name": "花洁夫人",
+    "profile": "与花蓓蓓一样，与花洁夫人共生的花朵颜色有5种，与进化前相同。花洁夫人外表看起来就像是一朵拟人化的花朵，身体的下半部分有着类似茎叶的结构，而头部则看起来像是一朵花，根据形态的不同，花洁夫人身上的花以及身体的颜色也会因此发生改变，花洁夫人有着纤细的身体，看起来就像是人类女性一般。花洁夫人只有雌性，没有与它对应的雄性宝可梦。\n花洁夫人的领地是漂亮的花园，会在自己的地盘内打造出漂亮的花园。虽然性情慈悲为怀，但对于破坏花园的家伙也绝不留情。它会狠狠地教训糟蹋花草的家伙，即使求饶也会被它穷追不舍，会如同炮台般发射威力强大的光束来展开攻击。它拥有几百年的寿命，据说会终其一生不断地守护着庭园，曾有花洁夫人持续保护城堡的庭院长达300年以上。过去的城堡主人们为了装饰庭园而招待花洁夫人进入，会精心培育花洁夫人，让其建造花园。它沐浴着花草释放的能量，作为自己的力量，据说由它打造的花园中会源源不断地倾注着能够治愈身心的力量。它会操纵自己培育的花，所释放的落英缤纷，其美貌和力量都是压倒性的。过去蓝色的颜料价格十分昂贵，因此画有蓝色个体的绘画拥有极高的价值。白花的花洁夫人打造的花园由色彩缤纷的花草点缀，十分美丽动人。由白花装饰的个体也能与各种不同的颜色同步波长，激发力量。\n",
+    "forms": [
+        {
+            "name": "红花",
+            "index": "#0671",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0671-红花.png",
+            "types": [
+                "妖精"
+            ],
+            "genus": "花园宝可梦",
+            "ability": [
+                {
+                    "name": "花幕",
+                    "is_hidden": false
+                },
+                {
+                    "name": "共生",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.1m",
+            "weight": "10.0kg",
+            "gender_rate": null,
+            "shape": "双手形",
+            "color": "白色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "妖精"
+            ]
+        },
+        {
+            "name": "橙花",
+            "index": "#0671.1",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0671.1-橙花.png",
+            "types": [
+                "妖精"
+            ],
+            "genus": "花园宝可梦",
+            "ability": [
+                {
+                    "name": "花幕",
+                    "is_hidden": false
+                },
+                {
+                    "name": "共生",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.1m",
+            "weight": "10.0kg",
+            "gender_rate": null,
+            "shape": "双手形",
+            "color": "白色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "妖精"
+            ]
+        },
+        {
+            "name": "蓝花",
+            "index": "#0671.2",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0671.2-蓝花.png",
+            "types": [
+                "妖精"
+            ],
+            "genus": "花园宝可梦",
+            "ability": [
+                {
+                    "name": "花幕",
+                    "is_hidden": false
+                },
+                {
+                    "name": "共生",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.1m",
+            "weight": "10.0kg",
+            "gender_rate": null,
+            "shape": "双手形",
+            "color": "白色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "妖精"
+            ]
+        },
+        {
+            "name": "白花",
+            "index": "#0671.3",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0671.3-白花.png",
+            "types": [
+                "妖精"
+            ],
+            "genus": "花园宝可梦",
+            "ability": [
+                {
+                    "name": "花幕",
+                    "is_hidden": false
+                },
+                {
+                    "name": "共生",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.1m",
+            "weight": "10.0kg",
+            "gender_rate": null,
+            "shape": "双手形",
+            "color": "白色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "妖精"
+            ]
+        },
+        {
+            "name": "黄花",
+            "index": "#0671.4",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "#0671.4-黄花.png",
+            "types": [
+                "妖精"
+            ],
+            "genus": "花园宝可梦",
+            "ability": [
+                {
+                    "name": "花幕",
+                    "is_hidden": false
+                },
+                {
+                    "name": "共生",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.1m",
+            "weight": "10.0kg",
+            "gender_rate": null,
+            "shape": "双手形",
+            "color": "白色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "妖精"
+            ]
+        }
+    ],
+    "stats": {
+        "common": {
+            "hp": "78",
+            "attack": "65",
+            "defense": "68",
+            "sp_attack": "112",
+            "sp_defense": "154"
+        },
+        "mega": null
+    },
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": [
+                {
+                    "name": "Ｘ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "领地是漂亮的花园。沐浴着花草释放的能量，作为自己的力量。"
+                },
+                {
+                    "name": "Ｙ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "过去的城堡主人们为了装饰庭园而招待花洁夫人进入，让其建造花园。"
+                },
+                {
+                    "name": "欧米伽红宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "领地是漂亮的花园。沐浴着花草释放的能量，作为自己的力量。"
+                },
+                {
+                    "name": "阿尔法蓝宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "过去的城堡主人们为了装饰庭园而招待花洁夫人进入，让其建造花园。"
+                }
+            ]
+        },
+        {
+            "name": "第七世代",
+            "versions": [
+                {
+                    "name": "究极之日",
+                    "group": "精灵宝可梦 究极之日／究极之月",
+                    "text": "会操纵自己培育的花。花洁夫人释放的落英缤纷，其美貌和力量都是压倒性的。"
+                },
+                {
+                    "name": "究极之月",
+                    "group": "精灵宝可梦 究极之日／究极之月",
+                    "text": "拥有几百年的寿命。据说会终其一生不断地守护着庭园。"
+                }
+            ]
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "会在自己的地盘内打造出漂亮的花园。能激发颈部上红花的力量。（红花）\n据说曾有花洁夫人持续保护城堡的庭院长达３００年以上。（黄花）\n橙花会如同炮台般发射威力强大的光束来展开攻击。（橙花）\n虽然性情慈悲为怀，但对于破坏花园的家伙也绝不留情，即使求饶也会被它穷追不舍。（蓝花）\n白花的花洁夫人打造的花园由色彩缤纷的花草点缀，十分美丽动人。（白花）"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "据说由花洁夫人打造的花园中会源源不断地倾注着能够治愈身心的力量。（红花）\n能激发出黄花的力量来战斗。会狠狠地教训糟蹋花草的家伙，绝不会手下留情。（黄花）\n过去的城主们为了维护城堡庭院的美观，会精心培育花洁夫人。（橙花）\n过去蓝色的颜料价格十分昂贵，因此画有蓝色个体的绘画拥有极高的价值。（蓝花）\n由白花装饰的个体也能与各种不同的颜色同步波长，激发力量。（白花）"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "花蓓蓓",
+                "stage": "不进化",
+                "text": null,
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "花叶蒂",
+                "stage": "1阶进化",
+                "text": "等级19以上",
+                "back_text": "",
+                "from": "花蓓蓓",
+                "form_name": null
+            },
+            {
+                "name": "花洁夫人",
+                "stage": "2阶进化",
+                "text": "使用光之石",
+                "back_text": "",
+                "from": "花叶蒂",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "花洁夫人",
+        "zh_hant": "花潔夫人",
+        "en": "Florges",
+        "fr": "Florges",
+        "de": "Florges",
+        "it": "Florges",
+        "es": "Florges",
+        "ja": "フラージェス",
+        "ko": "플라제스"
+    },
+    "moves": [
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "日光束",
+            "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
+            "type": "草",
+            "category": "特殊",
+            "power": "120",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "花瓣舞",
+            "flavor_text": "在２～３回合内，散落花瓣攻击对手。之后自己会陷入混乱。",
+            "type": "草",
+            "category": "特殊",
+            "power": "120",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "神秘守护",
+            "flavor_text": "在５回合内被神奇的力量守护，从而不会陷入异常状态。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "25"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "光合作用",
+            "flavor_text": "回复自己的ＨＰ。根据天气的不同，回复量也会有所变化。",
+            "type": "草",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "祈愿",
+            "flavor_text": "在下一回合回复自己或是替换出场的宝可梦最大ＨＰ的一半。",
+            "type": "一般",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "魔法叶",
+            "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
+            "type": "草",
+            "category": "特殊",
+            "power": "60",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "打草结",
+            "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
+            "type": "草",
+            "category": "特殊",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "落英缤纷",
+            "flavor_text": "猛烈地刮起飞雪般的落花，攻击周围所有的宝可梦，并给予伤害。",
+            "type": "草",
+            "category": "物理",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "魅惑之声",
+            "flavor_text": "发出魅惑的叫声，给予对手精神上的伤害。攻击必定会命中。",
+            "type": "妖精",
+            "category": "特殊",
+            "power": "40",
+            "accuracy": "—",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "青草场地",
+            "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
+            "type": "草",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "—",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "薄雾场地",
+            "flavor_text": "在５回合内，地面上的宝可梦不会陷入异常状态。龙属性招式的伤害也会减半。",
+            "type": "妖精",
+            "category": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": "5",
+            "machine_used": null,
+            "method": "提升等级",
+            "name": "月亮之力",
+            "flavor_text": "借用月亮的力量攻击对手。有时会降低对手的特攻。",
+            "type": "妖精",
+            "category": "特殊",
+            "power": "95",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００２",
+            "method": "招式学习器",
+            "name": "撒娇",
+            "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
+            "type": "妖精",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器００７",
+            "method": "招式学习器",
+            "name": "守住",
+            "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０１９",
+            "method": "招式学习器",
+            "name": "魅惑之声",
+            "flavor_text": "发出魅惑的叫声，给予对手精神上的伤害。攻击必定会命中。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "40",
+            "accuracy": "—",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２０",
+            "method": "招式学习器",
+            "name": "起草",
+            "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
+            "type": "草",
+            "class": "物理",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２２",
+            "method": "招式学习器",
+            "name": "泼冷水",
+            "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
+            "type": "水",
+            "class": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０２５",
+            "method": "招式学习器",
+            "name": "硬撑",
+            "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+            "type": "一般",
+            "class": "物理",
+            "power": "70",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３２",
+            "method": "招式学习器",
+            "name": "高速星星",
+            "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "60",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３３",
+            "method": "招式学习器",
+            "name": "魔法叶",
+            "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
+            "type": "草",
+            "class": "特殊",
+            "power": "60",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０３７",
+            "method": "招式学习器",
+            "name": "吸取之吻",
+            "flavor_text": "用一个吻吸取对手的ＨＰ。回复给予对手伤害的一半以上的ＨＰ。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "50",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４１",
+            "method": "招式学习器",
+            "name": "辅助力量",
+            "flavor_text": "用蓄积起来的力量攻击对手。自己的能力提高得越多，威力就越大。",
+            "type": "超能力",
+            "class": "特殊",
+            "power": "20",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４７",
+            "method": "招式学习器",
+            "name": "挺住",
+            "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０４９",
+            "method": "招式学习器",
+            "name": "大晴天",
+            "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+            "type": "火",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０５０",
+            "method": "招式学习器",
+            "name": "求雨",
+            "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+            "type": "水",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７０",
+            "method": "招式学习器",
+            "name": "梦话",
+            "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７１",
+            "method": "招式学习器",
+            "name": "种子炸弹",
+            "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
+            "type": "草",
+            "class": "物理",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７５",
+            "method": "招式学习器",
+            "name": "光墙",
+            "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "30"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０７９",
+            "method": "招式学习器",
+            "name": "魔法闪耀",
+            "flavor_text": "向对手发射强光，并给予伤害。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８０",
+            "method": "招式学习器",
+            "name": "挥指",
+            "flavor_text": "挥动手指刺激自己的大脑，从许多的招式中随机使出１个。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８１",
+            "method": "招式学习器",
+            "name": "打草结",
+            "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
+            "type": "草",
+            "class": "特殊",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０８５",
+            "method": "招式学习器",
+            "name": "睡觉",
+            "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器０９８",
+            "method": "招式学习器",
+            "name": "特性互换",
+            "flavor_text": "利用超能力互换自己和对手的特性。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０３",
+            "method": "招式学习器",
+            "name": "替身",
+            "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１０９",
+            "method": "招式学习器",
+            "name": "戏法",
+            "flavor_text": "抓住对手的空隙，交换自己和对手的持有物。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１１１",
+            "method": "招式学习器",
+            "name": "终极吸取",
+            "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
+            "type": "草",
+            "class": "特殊",
+            "power": "75",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１１９",
+            "method": "招式学习器",
+            "name": "能量球",
+            "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
+            "type": "草",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１２０",
+            "method": "招式学习器",
+            "name": "精神强念",
+            "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
+            "type": "超能力",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１２９",
+            "method": "招式学习器",
+            "name": "冥想",
+            "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
+            "type": "超能力",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３０",
+            "method": "招式学习器",
+            "name": "帮助",
+            "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "20"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３１",
+            "method": "招式学习器",
+            "name": "花粉团",
+            "flavor_text": "对敌人使用是会爆炸的团子。对我方使用则是给予回复的团子。",
+            "type": "虫",
+            "class": "特殊",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３２",
+            "method": "招式学习器",
+            "name": "接棒",
+            "flavor_text": "和后备宝可梦进行替换。换上的宝可梦能直接继承其能力的变化。",
+            "type": "一般",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "40"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３７",
+            "method": "招式学习器",
+            "name": "青草场地",
+            "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
+            "type": "草",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１３９",
+            "method": "招式学习器",
+            "name": "薄雾场地",
+            "flavor_text": "在５回合内，地面上的宝可梦不会陷入异常状态。龙属性招式的伤害也会减半。",
+            "type": "妖精",
+            "class": "变化",
+            "power": "—",
+            "accuracy": "—",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１５２",
+            "method": "招式学习器",
+            "name": "终极冲击",
+            "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
+            "type": "一般",
+            "class": "物理",
+            "power": "150",
+            "accuracy": "90",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１６３",
+            "method": "招式学习器",
+            "name": "破坏光线",
+            "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+            "type": "一般",
+            "class": "特殊",
+            "power": "150",
+            "accuracy": "90",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１６８",
+            "method": "招式学习器",
+            "name": "日光束",
+            "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
+            "type": "草",
+            "class": "特殊",
+            "power": "120",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器１７１",
+            "method": "招式学习器",
+            "name": "太晶爆发",
+            "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+            "type": "一般",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０１",
+            "method": "招式学习器",
+            "name": "薄雾炸裂",
+            "flavor_text": "对自己周围的所有宝可梦进行攻击，但使出后，自己会陷入昏厥。在薄雾场地上，招式威力会提高。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "100",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０５",
+            "method": "招式学习器",
+            "name": "蛮干",
+            "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
+            "type": "一般",
+            "class": "物理",
+            "power": "变化",
+            "accuracy": "100",
+            "pp": "5"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２０６",
+            "method": "招式学习器",
+            "name": "落英缤纷",
+            "flavor_text": "猛烈地刮起飞雪般的落花，攻击周围所有的宝可梦，并给予伤害。",
+            "type": "草",
+            "class": "物理",
+            "power": "90",
+            "accuracy": "100",
+            "pp": "15"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２２７",
+            "method": "招式学习器",
+            "name": "魅诱之声",
+            "flavor_text": "用天使般的歌声攻击对手。会让此回合内能力有提高的宝可梦陷入混乱状态。",
+            "type": "妖精",
+            "class": "特殊",
+            "power": "80",
+            "accuracy": "100",
+            "pp": "10"
+        },
+        {
+            "level_learned_at": null,
+            "machine_used": "招式学习器２２８",
+            "method": "招式学习器",
+            "name": "精神噪音",
+            "flavor_text": "用令对手不舒服的音波进行攻击。让对手在２回合内无法通过招式、特性或携带的道具回复ＨＰ。",
+            "type": "超能力",
+            "class": "特殊",
+            "power": "75",
+            "accuracy": "100",
+            "pp": "10"
+        }
+    ]
+}
