@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 from pokemon import get_pokemon_data
-from utils import save_to_file
+from utils import file_exists, save_to_file
 
 
 def get_pokemon_list():
@@ -33,8 +33,14 @@ def get_pokemon_list():
 if __name__ == '__main__':
   pokemon_list = get_pokemon_list()
   for pokemon in pokemon_list:
+
     index = pokemon['index']
     name = pokemon['name']
+    file_name = f'./data/pokemon/{index}-{name}.json'
+    if file_exists(file_name):
+      print(f'{name} already exists, skipping...')
+      continue
+
     print(f'Getting data for {name}...')
-    data = get_pokemon_data(name)
-    save_to_file(f'./data/pokemon/{index}-{name}.json', data)
+    data = get_pokemon_data(name, index)
+    save_to_file(file_name, data)

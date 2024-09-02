@@ -5,10 +5,10 @@ import re
 from bs4 import BeautifulSoup
 import requests
 
-from utils import save_to_file
+from utils import save_image, save_to_file
 
 
-def get_pokemon_data(name):
+def get_pokemon_data(name, index):
   headers = {
     'Accept-Language': 'zh-Hans'
   }
@@ -29,17 +29,20 @@ def get_pokemon_data(name):
   names = get_form_names(soup)
 
   lang_names = get_names(soup, name)
-  forms = get_form_infos(soup, names)
+  forms = get_form_infos(soup, names, name, index)
   profile = get_profile(soup)
   flavor_texts = get_flavor_texts(soup)
-  evolution_chains = get_evolution_chains(soup, name)
+  # 部分宝可梦进化链手动处理
+  evolution_chains = get_evolution_chains(soup, name) if name not in ['伊布', '结草儿', '结草贵妇', '月月熊'] else []
   stats = get_stats(soup)
+  moves = get_moves(soup)
   data['profile'] = profile
   data['forms'] = forms
   data['stats'] = stats
   data['flavor_texts'] = flavor_texts
   data['evolution_chains'] = evolution_chains
   data['names'] = lang_names
+  data['moves'] = moves
 
   return data
 
@@ -56,15 +59,16 @@ def get_form_names(soup):
 
   return names
 
-def get_form_infos(soup, names):
+def get_form_infos(soup, names, pokemon_name, pokemon_index):
   infos = []
   info_table_list = soup.select('table.roundy.a-r.at-c')
 
   for index, form in enumerate(info_table_list):
     if index < len(names):
-      name = names[index]
+      name = names[index] if names[index] != '' else pokemon_name
       form_info = {
         "name": name,
+        "index": pokemon_index if index == 0 else f'{pokemon_index}.{index}',
         "is_mega": False,
         "is_gmax": False,
       }
@@ -73,6 +77,8 @@ def get_form_infos(soup, names):
       elif '极巨化' in name:
         form_info['is_gmax'] = True
 
+      image_name = f'{form_info["index"]}-{name}'
+      form_info['image'] = f'{image_name}.png'
       td_list = form.select('.fulltable')
 
       for td in td_list:
@@ -119,7 +125,7 @@ def get_form_infos(soup, names):
 
           for el in experience_el:
             exp = el.select('td')[0].contents[0].text.strip()
-            speed = el.select('small')[0].text.strip().replace('（', '').replace('）', '')
+            speed = el.select('small')[0].text.strip().replace('（', '').replace('）', '') if el.select('small') else ''
             form_info['experience'] = {
               'number': exp,
               'speed': speed
@@ -135,6 +141,13 @@ def get_form_infos(soup, names):
           weight = td.select('td.roundy')[0].text.strip()
           form_info['weight'] = weight
 
+      # image
+      img_el = form.select('.roundy.bgwhite.fulltable')[0].find('img')
+
+      image_url = img_el.get('data-url')
+      image_path = f'./data/pokemon/images/{image_name}.png'
+      save_image(image_path, f'https:{image_url}')
+      
       # gender rate
       gender_a = form.find('a', attrs={'title': '宝可梦列表（按性别比例分类）'})
       if gender_a:
@@ -170,7 +183,7 @@ def get_form_infos(soup, names):
       if catch_a:
         catch_el = catch_a.parent.find_next('table').find('td')
         num = catch_el.contents[0].strip()
-        rate = catch_el.find('span').text.strip()
+        rate = catch_el.find('span').text.strip() if catch_el.find('span') else None
         form_info['catch_rate'] = {
           'number': num,
           'rate': rate
@@ -200,7 +213,7 @@ def get_names(soup, name):
   name_tr_list = name_table.select('tr.varname1')
 
   for tr in name_tr_list:
-    tr_cn = tr.find_all(string=lambda text: '任天堂' in text if text else False)
+    tr_cn = tr.find_all(string=lambda text: '任天堂' == text if text else False)
     tr_en = tr.find_all(string=lambda text: '英文' in text if text else False)
     tr_fr = tr.find_all(string=lambda text: '英文' in text if text else False)
     tr_es = tr.find_all(string=lambda text: '西班牙文' in text if text else False)
@@ -208,7 +221,7 @@ def get_names(soup, name):
     tr_de = tr.find_all(string=lambda text: '德文' in text if text else False)
 
     if tr_cn:
-      name_zh_hant = tr.select('td')[2].contents[0].strip()
+      name_zh_hant = tr.select('td')[2].contents[0].strip() if tr.select('td') else name
       names['zh_hant'] = name_zh_hant
     if tr_en:
       name_en = tr.select('td')[2].text.strip()
@@ -228,8 +241,8 @@ def get_names(soup, name):
 
   name_ja = name_table.find('span', attrs={'lang': 'ja'}).text.strip()
   names['ja'] = name_ja
-  name_ko = name_table.find('span', attrs={'lang': 'ko'}).text.strip()
-  names['ko'] = name_ko
+  name_ko = name_table.find('span', attrs={'lang': 'ko'})
+  names['ko'] = name_ko.text.strip() if name_ko else None
   return names
 
 def get_profile(soup):
@@ -246,7 +259,8 @@ def get_profile(soup):
 
 def get_flavor_texts(soup):
   texts = []
-  flavor_table = soup.find('span', id='图鉴介绍').parent.find_next_sibling()
+  # flavor_table = soup.find('span', id='图鉴介绍').parent.find_next_sibling()
+  flavor_table = soup.find('span', id=lambda x: x in ['图鉴介绍', '圖鑑介绍', '圖鑑介紹']).parent.find_next_sibling()
   generation_th_list = flavor_table.select('th.roundytop-5')
 
   for th in generation_th_list:
@@ -340,7 +354,10 @@ def get_single_evolution_chain(tr_list):
   for tr in tr_list:
     td_list = tr.find_all('td', recursive=False)
     for td in td_list:
-      all_td_list.append(td)
+      if td.get('class') and 'hide' in td.get('class'):
+        continue
+      if td.text.strip() != '进化时，如果……':
+        all_td_list.append(td)
 
   nodes = []
   for index, td in enumerate(all_td_list):
@@ -476,9 +493,61 @@ def get_stats(soup):
     return stats
 
 
+def get_moves(soup):
+  moves = []
+  learned_moves_table = soup.find('span', id="可学会的招式").parent.find_next('table')
+  learned_move_tr_list = learned_moves_table.find_all('tr', class_='at-c')
+
+  for tr in learned_move_tr_list:
+    for td in tr.find_all('td', class_='hide'):
+      td.decompose()
+    for td in tr.find_all('td', attrs={
+      'style': 'display: none'
+    }):
+      td.decompose()
+    td_list = tr.find_all('td')
+    move= {
+      "level_learned_at": td_list[0].text.strip(),
+      "machine_used": None,
+      "method": '提升等级',
+      "name": td_list[1].find('a').text.strip(),
+      "flavor_text": td_list[1].find('span', class_='explain').get('title'),
+      "type": td_list[2].find('a').text.strip(),
+      "category": td_list[3].text.strip(),
+      "power": td_list[4].text.strip(),
+      "accuracy": td_list[5].text.strip(),
+      "pp": td_list[6].text.strip(),
+    }
+    moves.append(move)
+
+  machine_moves_table = soup.find('span', id="能使用的招式学习器").parent.find_next('table')
+  machine_move_tr_list = machine_moves_table.find_all('tr', class_='at-c')
+  for tr in machine_move_tr_list:
+    for td in tr.find_all('td', class_='hide'):
+      td.decompose()
+    for td in tr.find_all('td', attrs={
+      'style': 'display: none'
+    }):
+      td.decompose()
+    td_list = tr.find_all('td')
+    move= {
+      "level_learned_at": None,
+      "machine_used": td_list[1].find('a').text.strip(),
+      "method": '招式学习器',
+      "name": td_list[2].find('a').text.strip(),
+      "flavor_text": td_list[2].find('span', class_='explain').get('title'),
+      "type": td_list[3].find('a').text.strip(),
+      "class": td_list[4].text.strip(),
+      "power": td_list[5].text.strip(),
+      "accuracy": td_list[6].text.strip(),
+      "pp": td_list[7].text.strip(),
+    }
+    moves.append(move)
+  return moves
+
 if __name__ == '__main__':
-  name = '多刺菊石兽'
-  data = get_pokemon_data(name)
+  name = '水箭龟'
+  data = get_pokemon_data(name, index='111')
   save_to_file(f'./data/pokemon/{name}.json', data)
 
 
