@@ -5,6 +5,7 @@ import re
 from bs4 import BeautifulSoup
 import requests
 
+from fixed_data import FIXED_EVOLUTION_DATA, FIXED_EVOLUTION_POKEMONS
 from utils import save_image, save_to_file
 
 
@@ -33,7 +34,7 @@ def get_pokemon_data(name, index):
   profile = get_profile(soup)
   flavor_texts = get_flavor_texts(soup)
   # 部分宝可梦进化链手动处理
-  evolution_chains = get_evolution_chains(soup, name) if name not in ['伊布', '结草儿', '结草贵妇', '月月熊'] else []
+  evolution_chains = get_evolution_chains(soup, name) if name not in FIXED_EVOLUTION_POKEMONS else FIXED_EVOLUTION_DATA[name]
   stats = get_stats(soup)
   moves = get_moves(soup)
   data['profile'] = profile
@@ -341,15 +342,18 @@ def get_single_evolution_chain(tr_list):
   def get_pokemon(td):
     name_el = td.select('table tbody tr .textblack')[0].find('a')
     name = name_el.text
-    form_name = td.find('a', {
-      'title': '地区形态'
-    })
+    form_name = None
+    
+    if td.find('a', { 'title': '地区形态'}):
+      form_name = td.find('a', { 'title': '地区形态' }).text
+    if td.find('a', { 'title': '形态变化' }):
+      form_name = td.find('a', { 'title': '形态变化' }).text
     # if form_name:
     #   name = name + '-' + form_name.text
     
     stage_el = name_el.parent.parent.find_previous('tr').find('small')
     stage = stage_el.text
-    return {"name": name, "stage": stage, "form_name": form_name.text if form_name else None}
+    return {"name": name, "stage": stage, "form_name": form_name}
 
   for tr in tr_list:
     td_list = tr.find_all('td', recursive=False)
@@ -451,17 +455,18 @@ def get_stats(soup):
     stats_tag = soup.find('span', id='种族值').parent
     table_el = stats_tag.find_next('table')
     table_list = []
+    stats_form_names = []
     if 'at-c' in table_el.get('class'):
-      stats_table_size = table_el.find_all('span', class_='toggle-pbase')
-      for i in range(len(stats_table_size)):
+      stats_table_forms = table_el.find_all('span', class_='toggle-pbase')
+      for sp in stats_table_forms:
+        stats_form_names.append(sp.text.strip())
+      for i in range(len(stats_table_forms)):
         table_list.append(table_el.find_next('table'))
         table_el = table_el.find_next('table')
     else:
       table_list = [table_el]
-    stats = {
-      "common": None,
-      "mega": None,
-    }
+      stats_form_names = ['一般']
+    stats =[]
 
     for index, stats_table in enumerate(table_list):
       hp = stats_table.find('tr', class_='bgl-HP').find('span', attrs={
@@ -480,73 +485,156 @@ def get_stats(soup):
         'style': 'float:right'
       }).text
       result = {
-        'hp': hp,
-        'attack': attack,
-        'defense': defense,
-        'sp_attack': sp_attack,
-        'sp_defense': sp_defense
+        'form': stats_form_names[index],
+        'data': {
+          'hp': hp,
+          'attack': attack,
+          'defense': defense,
+          'sp_attack': sp_attack,
+          'sp_defense': sp_defense
+        }
       }
-      if index == 0:
-        stats['common'] = result
-      else:
-        stats['mega'] = result
+      stats.append(result)
     return stats
 
 
 def get_moves(soup):
   moves = []
-  learned_moves_table = soup.find('span', id="可学会的招式").parent.find_next('table')
-  learned_move_tr_list = learned_moves_table.find_all('tr', class_='at-c')
+  all_learned_moves = []
+  all_machine_moves = []
+  learned_table_list  = []
+  machine_table_list = []
+  learned_form_names = []
+  machine_form_names = []
 
-  for tr in learned_move_tr_list:
-    for td in tr.find_all('td', class_='hide'):
-      td.decompose()
-    for td in tr.find_all('td', attrs={
-      'style': 'display: none'
-    }):
-      td.decompose()
-    td_list = tr.find_all('td')
-    move= {
-      "level_learned_at": td_list[0].text.strip(),
-      "machine_used": None,
-      "method": '提升等级',
-      "name": td_list[1].find('a').text.strip(),
-      "flavor_text": td_list[1].find('span', class_='explain').get('title'),
-      "type": td_list[2].find('a').text.strip(),
-      "category": td_list[3].text.strip(),
-      "power": td_list[4].text.strip(),
-      "accuracy": td_list[5].text.strip(),
-      "pp": td_list[6].text.strip(),
-    }
-    moves.append(move)
+  learned_table_el = soup.find('span', id="可学会的招式").parent.find_next('table')
+  if 'fulltable' in learned_table_el.get('class'):
+    form_names_els = learned_table_el.find_all('span', class_='toggle-p')
+    for sp in form_names_els:
+      learned_form_names.append(sp.text.strip())
+    for i in range(len(form_names_els)):
+      next_table = learned_table_el.find_next('table', class_='at-c')
+      learned_table_list.append(next_table)
+      learned_table_el = next_table
+  else:
+    learned_table_list = [learned_table_el]
+    learned_form_names = ['一般']
 
-  machine_moves_table = soup.find('span', id="能使用的招式学习器").parent.find_next('table')
-  machine_move_tr_list = machine_moves_table.find_all('tr', class_='at-c')
-  for tr in machine_move_tr_list:
-    for td in tr.find_all('td', class_='hide'):
-      td.decompose()
-    for td in tr.find_all('td', attrs={
-      'style': 'display: none'
-    }):
-      td.decompose()
-    td_list = tr.find_all('td')
-    move= {
-      "level_learned_at": None,
-      "machine_used": td_list[1].find('a').text.strip(),
-      "method": '招式学习器',
-      "name": td_list[2].find('a').text.strip(),
-      "flavor_text": td_list[2].find('span', class_='explain').get('title'),
-      "type": td_list[3].find('a').text.strip(),
-      "class": td_list[4].text.strip(),
-      "power": td_list[5].text.strip(),
-      "accuracy": td_list[6].text.strip(),
-      "pp": td_list[7].text.strip(),
+  for index, move_table in enumerate(learned_table_list):
+    learned_move_tr_list = move_table.find_all('tr', class_='at-c')
+    learned_moves = []
+
+    for tr in learned_move_tr_list:
+      for td in tr.find_all('td', class_='hide'):
+        td.decompose()
+      for td in tr.find_all('td', attrs={
+        'style': 'display: none'
+      }):
+        td.decompose()
+      td_list = tr.find_all('td')
+      move= {
+        "level_learned_at": td_list[0].text.strip(),
+        "machine_used": None,
+        "method": '提升等级',
+        "name": td_list[1].find('a').text.strip(),
+        "flavor_text": td_list[1].find('span', class_='explain').get('title'),
+        "type": td_list[2].find('a').text.strip(),
+        "category": td_list[3].text.strip(),
+        "power": td_list[4].text.strip(),
+        "accuracy": td_list[5].text.strip(),
+        "pp": td_list[6].text.strip(),
+      }
+      learned_moves.append(move)
+
+    result = {
+      "form": learned_form_names[index],
+      "data": learned_moves
     }
-    moves.append(move)
-  return moves
+    all_learned_moves.append(result)
+
+
+  machine_table_el = soup.find('span', id="能使用的招式学习器").parent.find_next('table')
+  if 'fulltable' in machine_table_el.get('class'):
+    form_names_els = machine_table_el.find_all('span', class_='toggle-p')
+    for sp in form_names_els:
+      machine_form_names.append(sp.text.strip())
+    for i in range(len(form_names_els)):
+      next_table = machine_table_el.find_next('table', class_='at-c')
+      machine_table_list.append(next_table)
+      machine_table_el = next_table
+  else:
+    machine_table_list = [machine_table_el]
+    machine_form_names = ['一般']
+  
+  print(learned_form_names, machine_form_names)
+
+  for index, move_table in enumerate(machine_table_list):
+    machine_move_tr_list = move_table.find_all('tr', class_='at-c')
+    machine_moves = []
+    for tr in machine_move_tr_list:
+      for td in tr.find_all('td', class_='hide'):
+        td.decompose()
+      for td in tr.find_all('td', attrs={
+        'style': 'display: none'
+      }):
+        td.decompose()
+      td_list = tr.find_all('td')
+      move= {
+        "level_learned_at": None,
+        "machine_used": td_list[1].find('a').text.strip(),
+        "method": '招式学习器',
+        "name": td_list[2].find('a').text.strip(),
+        "flavor_text": td_list[2].find('span', class_='explain').get('title'),
+        "type": td_list[3].find('a').text.strip(),
+        "class": td_list[4].text.strip(),
+        "power": td_list[5].text.strip(),
+        "accuracy": td_list[6].text.strip(),
+        "pp": td_list[7].text.strip(),
+      }
+      machine_moves.append(move)
+
+    result = {
+      "form": machine_form_names[index],
+      "data": machine_moves
+    }
+    all_machine_moves.append(result)
+
+
+  # machine_move_tr_list = machine_moves_table.find_all('tr', class_='at-c')
+  # for tr in machine_move_tr_list:
+  #   for td in tr.find_all('td', class_='hide'):
+  #     td.decompose()
+  #   for td in tr.find_all('td', attrs={
+  #     'style': 'display: none'
+  #   }):
+  #     td.decompose()
+  #   td_list = tr.find_all('td')
+  #   move= {
+  #     "level_learned_at": None,
+  #     "machine_used": td_list[1].find('a').text.strip(),
+  #     "method": '招式学习器',
+  #     "name": td_list[2].find('a').text.strip(),
+  #     "flavor_text": td_list[2].find('span', class_='explain').get('title'),
+  #     "type": td_list[3].find('a').text.strip(),
+  #     "class": td_list[4].text.strip(),
+  #     "power": td_list[5].text.strip(),
+  #     "accuracy": td_list[6].text.strip(),
+  #     "pp": td_list[7].text.strip(),
+  #   }
+  #   moves.append(move)
+
+  # print({
+  #   "learned": all_learned_moves,
+  #   "machine": all_machine_moves
+  # })
+
+  return {
+    "learned": all_learned_moves,
+    "machine": all_machine_moves
+  }
 
 if __name__ == '__main__':
-  name = '水箭龟'
+  name = '鬃岩狼人'
   data = get_pokemon_data(name, index='111')
   save_to_file(f'./data/pokemon/{name}.json', data)
 
