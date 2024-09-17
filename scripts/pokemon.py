@@ -624,13 +624,13 @@ def get_home_images(soup, name, index):
     extra_image_el_list = td.find_all('img')
     for el in extra_image_el_list:
       if '糖饰' in el.get('alt'):
-        extra_name = f'''{el.get('alt')}'''
+        extra_name = f'''-{el.get('alt')}'''
 
     form_name = td.text.strip().replace('?', '？')
-    item_name = f'{name}-{form_name}-{extra_name}' if form_name else name
+    item_name = f'{name}-{form_name}{extra_name}' if form_name else name
     image = td.find('img').get('data-url')
     if is_shiny is False:
-      image_name = f'{index}-{name}-{form_name}-{extra_name}.png' if form_name else f'{index}-{name}-{extra_name}.png'
+      image_name = f'{index}-{name}-{form_name}{extra_name}.png' if form_name else f'{index}-{name}{extra_name}.png'
       save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
       item = {
         'name': item_name,
@@ -638,7 +638,7 @@ def get_home_images(soup, name, index):
       }
       home_images.append(item)
     else:
-      image_name =  f'{index}-{name}-{form_name}-{extra_name}-shiny.png' if form_name else f'{index}-{name}-{extra_name}-shiny.png'
+      image_name =  f'{index}-{name}-{form_name}{extra_name}-shiny.png' if form_name else f'{index}-{name}{extra_name}-shiny.png'
       save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
       exist_item = next((item for item in home_images if item["name"] == item_name), None)
       if exist_item:
@@ -648,12 +648,12 @@ def get_home_images(soup, name, index):
           'name': item_name,
           'shiny': image_name,
         }
-      home_images.append(item)
+        home_images.append(item)
 
   return home_images
 
 if __name__ == '__main__':
-  name = '太乐巴戈斯'
+  name = '够赞狗'
   data = get_pokemon_data(name, index='111')
   save_to_file(f'{PATH}/pokemon/{name}.json', data)
 
