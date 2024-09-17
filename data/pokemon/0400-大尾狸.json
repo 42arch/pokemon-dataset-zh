@@ -1,0 +1,943 @@
+{
+    "name": "大尾狸",
+    "profile": "大尾狸的身体是棕色的，腹部则是浅黄色的。它有着两个大牙齿和非常大的尾部，尾部有黄色条纹。雄性大尾狸的面部米色的部分更大。\n大尾狸以勤劳而闻名。它能勤劳地用锐利的门牙啃断树枝和树根，用树干和泥巴筑坝堵住河流，堆积起来在水边筑巢。只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激它。虽然在陆地上行动迟缓，但游起泳来却快得和丑丑鱼不相上下。它的体毛有着极佳的防水效果，且保温性十足，性能十分优秀。\n",
+    "forms": [
+        {
+            "name": "大尾狸",
+            "index": "0400",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0400-大尾狸.png",
+            "types": [
+                "一般",
+                "水"
+            ],
+            "genus": "河狸宝可梦",
+            "ability": [
+                {
+                    "name": "单纯",
+                    "is_hidden": false
+                },
+                {
+                    "name": "纯朴",
+                    "is_hidden": false
+                },
+                {
+                    "name": "心情不定",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.0m",
+            "weight": "31.5kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "双足兽形",
+            "color": "褐色",
+            "catch_rate": {
+                "number": "127",
+                "rate": "16.6%"
+            },
+            "egg_groups": [
+                "水中1",
+                "陆上"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "一般",
+            "data": {
+                "hp": "79",
+                "attack": "85",
+                "defense": "60",
+                "sp_attack": "55",
+                "sp_defense": "60"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": [
+                {
+                    "name": "钻石",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "用树干和泥巴筑坝堵住河流，建造住所。以勤劳而闻名。"
+                },
+                {
+                    "name": "珍珠",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "虽然在陆地上行动迟缓，但游起泳来却快得和丑丑鱼不相上下。"
+                },
+                {
+                    "name": "白金",
+                    "group": "宝可梦 白金",
+                    "text": "只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激。*"
+                },
+                {
+                    "name": "心金",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "勤劳地用锐利的门牙啃断树枝和树根，堆积起来在水边筑巢。"
+                },
+                {
+                    "name": "魂银",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "勤劳地用锐利的门牙啃断树枝和树根，堆积起来在水边筑巢。"
+                }
+            ]
+        },
+        {
+            "name": "第五世代",
+            "versions": [
+                {
+                    "name": "黑",
+                    "group": "宝可梦 黑／白",
+                    "text": "只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激。*"
+                },
+                {
+                    "name": "白",
+                    "group": "宝可梦 黑／白",
+                    "text": "只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激。*"
+                },
+                {
+                    "name": "黑２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激。*"
+                },
+                {
+                    "name": "白２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "只要有大尾狸筑坝的河流，绝对不会发生洪灾，因此附近的居民非常感激。*"
+                }
+            ]
+        },
+        {
+            "name": "第六世代",
+            "versions": [
+                {
+                    "name": "Ｘ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "勤劳地用锐利的门牙啃断树枝和树根，堆积起来在水边筑巢。"
+                },
+                {
+                    "name": "Ｙ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "用树干和泥巴筑坝堵住河流，建造住所。以勤劳而闻名。"
+                },
+                {
+                    "name": "欧米伽红宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "勤劳地用锐利的门牙啃断树枝和树根，堆积起来在水边筑巢。"
+                },
+                {
+                    "name": "阿尔法蓝宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "用树干和泥巴筑坝堵住河流，建造住所。以勤劳而闻名。"
+                }
+            ]
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "晶灿钻石",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "用树干和泥巴筑坝堵住河流，建造住所。以勤劳而闻名。"
+                },
+                {
+                    "name": "明亮珍珠",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "虽然在陆地上行动迟缓，但游起泳来却快得和丑丑鱼不相上下。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": "体毛有着极佳的防水效果，且保温性十足，性能十分优秀。会在河中筑起堤坝当作巢穴。"
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": []
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "大牙狸",
+                "stage": "未进化",
+                "text": null,
+                "image": "399Bidoof_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "大尾狸",
+                "stage": "1阶进化",
+                "text": "等级15以上",
+                "image": "400Bibarel_Dream.png",
+                "back_text": "",
+                "from": "大牙狸",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "大尾狸",
+        "en": "비버통 Bibeotong",
+        "fr": "비버통 Bibeotong",
+        "zh_hant": "大尾狸",
+        "de": "Bidifas",
+        "it": "Bibarel",
+        "es": "Bibarel",
+        "ja": "ビーダル",
+        "ko": "비버통"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "进化",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水枪",
+                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
+                        "type": "水",
+                        "category": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水枪",
+                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
+                        "type": "水",
+                        "category": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水流喷射",
+                        "flavor_text": "以迅雷不及掩耳之势扑向对手。必定能够先制攻击。",
+                        "type": "水",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "撞击",
+                        "flavor_text": "用整个身体撞向对手进行攻击。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "35"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "叫声",
+                        "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "5",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "变圆",
+                        "flavor_text": "将身体蜷曲变圆，从而提高自己的防御。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "9",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "滚动",
+                        "flavor_text": "在５回合内连续滚动攻击对手。招式每次击中，威力就会提高。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "30",
+                        "accuracy": "90",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "13",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "头锤",
+                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "18",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "挑衅",
+                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+                        "type": "恶",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "23",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "哈欠",
+                        "flavor_text": "打个大哈欠引起睡意。在下一回合让对手陷入睡眠状态。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "28",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "咬碎",
+                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
+                        "type": "恶",
+                        "category": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "33",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "猛撞",
+                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "38",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "愤怒门牙",
+                        "flavor_text": "用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "变化",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "43",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "剑舞",
+                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "48",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "瞬间失忆",
+                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
+                        "type": "超能力",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "53",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "蛮力",
+                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
+                        "type": "格斗",
+                        "category": "物理",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "58",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "诅咒",
+                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
+                        "type": "幽灵",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１",
+                        "method": "招式学习器",
+                        "name": "真气拳",
+                        "flavor_text": "集中精神出拳。在招式使出前若受到攻击则会失败。",
+                        "type": "格斗",
+                        "class": "物理",
+                        "power": "150",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３",
+                        "method": "招式学习器",
+                        "name": "水之波动",
+                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０",
+                        "method": "招式学习器",
+                        "name": "自我激励",
+                        "flavor_text": "激励自己，从而提高攻击和特攻。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１１",
+                        "method": "招式学习器",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２",
+                        "method": "招式学习器",
+                        "name": "挑衅",
+                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+                        "type": "恶",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３",
+                        "method": "招式学习器",
+                        "name": "冰冻光束",
+                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
+                        "type": "冰",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４",
+                        "method": "招式学习器",
+                        "name": "暴风雪",
+                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
+                        "type": "冰",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１５",
+                        "method": "招式学习器",
+                        "name": "破坏光线",
+                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１８",
+                        "method": "招式学习器",
+                        "name": "求雨",
+                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+                        "type": "水",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２３",
+                        "method": "招式学习器",
+                        "name": "铁尾",
+                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "100",
+                        "accuracy": "75",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２４",
+                        "method": "招式学习器",
+                        "name": "十万伏特",
+                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２５",
+                        "method": "招式学习器",
+                        "name": "打雷",
+                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２８",
+                        "method": "招式学习器",
+                        "name": "挖洞",
+                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
+                        "type": "地面",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３０",
+                        "method": "招式学习器",
+                        "name": "暗影球",
+                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
+                        "type": "幽灵",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３２",
+                        "method": "招式学习器",
+                        "name": "影子分身",
+                        "flavor_text": "通过快速移动来制造分身，扰乱对手，从而提高闪避率。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３４",
+                        "method": "招式学习器",
+                        "name": "电击波",
+                        "flavor_text": "向对手快速发出电击。攻击必定会命中。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "60",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４２",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４４",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４５",
+                        "method": "招式学习器",
+                        "name": "迷人",
+                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４６",
+                        "method": "招式学习器",
+                        "name": "小偷",
+                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
+                        "type": "恶",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４９",
+                        "method": "招式学习器",
+                        "name": "热水",
+                        "flavor_text": "向对手喷射煮得翻滚的开水进行攻击。有时会让对手陷入灼伤状态。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器５６",
+                        "method": "招式学习器",
+                        "name": "投掷",
+                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
+                        "type": "恶",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器５７",
+                        "method": "招式学习器",
+                        "name": "充电光束",
+                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器５８",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器６８",
+                        "method": "招式学习器",
+                        "name": "终极冲击",
+                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器７３",
+                        "method": "招式学习器",
+                        "name": "电磁波",
+                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器７５",
+                        "method": "招式学习器",
+                        "name": "剑舞",
+                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器７６",
+                        "method": "招式学习器",
+                        "name": "隐形岩",
+                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
+                        "type": "岩石",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８２",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８３",
+                        "method": "招式学习器",
+                        "name": "重踏",
+                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
+                        "type": "地面",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８６",
+                        "method": "招式学习器",
+                        "name": "打草结",
+                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８７",
+                        "method": "招式学习器",
+                        "name": "虚张声势",
+                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８８",
+                        "method": "招式学习器",
+                        "name": "啄食",
+                        "flavor_text": "用喙进行攻击。当对手携带树果时，可以食用并获得其效果。",
+                        "type": "飞行",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９０",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９３",
+                        "method": "招式学习器",
+                        "name": "居合劈",
+                        "flavor_text": "用镰刀或爪子等切斩对手进行攻击。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "50",
+                        "accuracy": "95",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９５",
+                        "method": "招式学习器",
+                        "name": "冲浪",
+                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９６",
+                        "method": "招式学习器",
+                        "name": "怪力",
+                        "flavor_text": "使出浑身力气殴打对手进行攻击。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９８",
+                        "method": "招式学习器",
+                        "name": "碎岩",
+                        "flavor_text": "用拳头进行攻击。有时会降低对手的防御。",
+                        "type": "格斗",
+                        "class": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器９９",
+                        "method": "招式学习器",
+                        "name": "攀瀑",
+                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
+                        "type": "水",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１００",
+                        "method": "招式学习器",
+                        "name": "攀岩",
+                        "flavor_text": "发动猛撞攻击，有时会使对手混乱。是宝可表的秘传招式之一。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "大尾狸-雄性",
+            "image": "0400-大尾狸-雄性.png",
+            "shiny": "0400-大尾狸-雄性-shiny.png"
+        },
+        {
+            "name": "大尾狸-雌性",
+            "image": "0400-大尾狸-雌性.png",
+            "shiny": "0400-大尾狸-雌性-shiny.png"
+        }
+    ]
+}

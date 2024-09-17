@@ -1,0 +1,932 @@
+{
+    "name": "瓦斯弹",
+    "profile": "瓦斯弹全身为紫色，有着薄薄的气球状身体。它的身上有凸起，部分凸起会散发出毒气。它的嘴里有两颗向下的尖牙，腹部有一个骷髅形的图案。\n瓦斯弹会为了寻求湿垃圾腐烂的气味而来到垃圾场，污浊的空气是它的美味大餐。它通过让湿垃圾和体内的毒素产生化学反应来制造剧毒的瓦斯，薄薄的气球状身体里充满了让人忍不住眼泪、咳嗽和鼻涕的瓦斯。它靠过来的话，会感觉很臭。据说在昔日的伽勒尔地区曾经存在着更多的瓦斯弹。它体内的毒瓦斯的成分比空气要轻一点，因此总是能够稍微飘在空中。在炎热的地方，它体内积攒着的很多有毒的瓦斯会由于膨胀而产生爆炸的危险。气温越高，可以生成的瓦斯就越多，胀成一个圆圆的球后会发生大爆炸。刺激它的话，瓦斯的毒素就会变强，并会从身体各处猛烈喷出。如果接近喷出剧毒的瓦斯弹可以透过薄薄的皮肤看到体内的瓦斯在打转的样子。\n",
+    "forms": [
+        {
+            "name": "瓦斯弹",
+            "index": "0109",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0109-瓦斯弹.png",
+            "types": [
+                "毒"
+            ],
+            "genus": "毒气宝可梦",
+            "ability": [
+                {
+                    "name": "飘浮",
+                    "is_hidden": false
+                },
+                {
+                    "name": "化学变化气体",
+                    "is_hidden": false
+                },
+                {
+                    "name": "恶臭",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.6m",
+            "weight": "1.0kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "球形",
+            "color": "紫色",
+            "catch_rate": {
+                "number": "190",
+                "rate": "24.8%"
+            },
+            "egg_groups": [
+                "不定形"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "一般",
+            "data": {
+                "hp": "40",
+                "attack": "65",
+                "defense": "95",
+                "sp_attack": "60",
+                "sp_defense": "45"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": [
+                {
+                    "name": "红",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯。它靠过来的话，会感觉很臭。"
+                },
+                {
+                    "name": "绿",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯。它靠过来的话，会感觉很臭。"
+                },
+                {
+                    "name": "蓝",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "体内储存了数种有毒气体，很容易在无预警之下爆炸。"
+                },
+                {
+                    "name": "皮卡丘",
+                    "group": "宝可梦 皮卡丘",
+                    "text": "在炎热的地方，它体内的气体会由于膨胀而产生爆炸的危险，需要注意。"
+                }
+            ]
+        },
+        {
+            "name": "第二世代",
+            "versions": [
+                {
+                    "name": "金",
+                    "group": "宝可梦 金／银",
+                    "text": "薄膜状的身体内部充满了让人忍不住眼泪、咳嗽和鼻涕的瓦斯。*"
+                },
+                {
+                    "name": "银",
+                    "group": "宝可梦 金／银",
+                    "text": "体内的毒瓦斯的成分比空气要轻一点，因此总是能够稍微飘在空中。"
+                },
+                {
+                    "name": "水晶版",
+                    "group": "宝可梦 水晶版",
+                    "text": "如果接近喷出剧毒的瓦斯弹可以看到体内的瓦斯在打转的样子。*"
+                }
+            ]
+        },
+        {
+            "name": "第三世代",
+            "versions": [
+                {
+                    "name": "红宝石",
+                    "group": "宝可梦 红宝石／蓝宝石",
+                    "text": "刺激它的话，瓦斯的毒素就会变强，并会从身体各处猛烈喷出。胀成一个圆圆的球后会发生大爆炸。"
+                },
+                {
+                    "name": "蓝宝石",
+                    "group": "宝可梦 红宝石／蓝宝石",
+                    "text": "通过让湿垃圾和体内的毒素产生化学反应来制造剧毒的瓦斯。气温越高，可以生成的瓦斯就越多。"
+                },
+                {
+                    "name": "绿宝石",
+                    "group": "宝可梦 绿宝石",
+                    "text": "接近瓦斯弹的话可以透过薄薄的皮肤观察到毒瓦斯在打旋的样子。会因为一点刺激就引发大爆炸。*"
+                },
+                {
+                    "name": "火红",
+                    "group": "宝可梦 火红／叶绿",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯。它靠过来的话，会感觉很臭。"
+                },
+                {
+                    "name": "叶绿",
+                    "group": "宝可梦 火红／叶绿",
+                    "text": "体内储存了数种有毒气体，很容易在无预警之下爆炸。"
+                }
+            ]
+        },
+        {
+            "name": "第四世代",
+            "versions": [
+                {
+                    "name": "钻石",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "珍珠",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "白金",
+                    "group": "宝可梦 白金",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "心金",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "薄膜状的身体内部充满了让人忍不住眼泪、咳嗽和鼻涕的瓦斯。*"
+                },
+                {
+                    "name": "魂银",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "体内的毒瓦斯的成分比空气要轻一点，因此总是能够稍微飘在空中。"
+                }
+            ]
+        },
+        {
+            "name": "第五世代",
+            "versions": [
+                {
+                    "name": "黑",
+                    "group": "宝可梦 黑／白",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "白",
+                    "group": "宝可梦 黑／白",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "黑２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯，因此有时会发生大爆炸。"
+                },
+                {
+                    "name": "白２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯，因此有时会发生大爆炸。"
+                }
+            ]
+        },
+        {
+            "name": "第六世代",
+            "versions": [
+                {
+                    "name": "Ｘ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯。它靠过来的话，会感觉很臭。"
+                },
+                {
+                    "name": "Ｙ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "欧米伽红宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "刺激它的话，瓦斯的毒素就会变强，并会从身体各处猛烈喷出。胀成一个圆圆的球后会发生大爆炸。"
+                },
+                {
+                    "name": "阿尔法蓝宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "通过让湿垃圾和体内的毒素产生化学反应来制造剧毒的瓦斯。气温越高，可以生成的瓦斯就越多。"
+                }
+            ]
+        },
+        {
+            "name": "第七世代",
+            "versions": [
+                {
+                    "name": "Let's Go! 皮卡丘",
+                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+                    "text": "在炎热的地方，它体内的气体会由于膨胀而产生爆炸的危险，需要注意。"
+                },
+                {
+                    "name": "Let's Go! 伊布",
+                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+                    "text": "在炎热的地方，它体内的气体会由于膨胀而产生爆炸的危险，需要注意。"
+                }
+            ]
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "身体里充满了毒气。会为了寻求湿垃圾腐烂的气味而来到垃圾场。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "污浊的空气是它的美味大餐。据说在昔日的伽勒尔地区曾经存在着更多的瓦斯弹。"
+                },
+                {
+                    "name": "晶灿钻石",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "明亮珍珠",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "会通过往体内储存比空气还轻的瓦斯浮在空中。瓦斯不但很臭还会爆炸。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "薄薄的气球状身体里贮满了剧毒的瓦斯，因此有时会发生大爆炸。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "体内的毒瓦斯的成分比空气要轻一点，因此总是能够稍微飘在空中。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "瓦斯弹",
+                "stage": "未进化",
+                "text": null,
+                "image": "109Koffing_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "双弹瓦斯",
+                "stage": "1阶进化",
+                "text": "等级35以上",
+                "image": "110Weezing_Dream.png",
+                "back_text": "",
+                "from": "瓦斯弹",
+                "form_name": null
+            },
+            {
+                "name": "双弹瓦斯",
+                "stage": "1阶进化",
+                "text": "等级35以上（在伽勒尔地区）",
+                "image": "110Weezing-Galar_Dream.png",
+                "back_text": "",
+                "from": "瓦斯弹",
+                "form_name": "伽勒尔的样子"
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "瓦斯弹",
+        "zh_hant": "瓦斯彈",
+        "en": "Koffing",
+        "fr": "Koffing",
+        "de": "Smogon",
+        "it": "Koffing",
+        "es": "Koffing",
+        "ja": "ドガース",
+        "ko": "또가스"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "撞击",
+                        "flavor_text": "用整个身体撞向对手进行攻击。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "35"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "毒瓦斯",
+                        "flavor_text": "将毒瓦斯吹到对手的脸上，从而让对手陷入中毒状态。",
+                        "type": "毒",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "4",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "浊雾",
+                        "flavor_text": "将肮脏的浓雾吹向对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "30",
+                        "accuracy": "70",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "8",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "烟幕",
+                        "flavor_text": "向对手喷出烟或墨汁等，从而降低对手的命中率。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "12",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "清除之烟",
+                        "flavor_text": "向对手投掷特殊的泥块进行攻击。使其能力变回原点。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "50",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "16",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "恶意追击",
+                        "flavor_text": "如果此回合内对手已经受到伤害的话，招式威力会变成２倍。",
+                        "type": "恶",
+                        "category": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "20",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "污泥攻击",
+                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "24",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "黑雾",
+                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
+                        "type": "冰",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "28",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "玉石俱碎",
+                        "flavor_text": "引发爆炸，攻击自己周围所有的宝可梦。使用后陷入昏厥。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "200",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "32",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "污泥炸弹",
+                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "36",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "剧毒",
+                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
+                        "type": "毒",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "40",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "打嗝",
+                        "flavor_text": "朝着对手打嗝，并给予伤害。如果不吃树果则无法使出。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "120",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "44",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "大爆炸",
+                        "flavor_text": "引发大爆炸，攻击自己周围所有的宝可梦。使用后自己会陷入昏厥。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "250",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "48",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "临别礼物",
+                        "flavor_text": "虽然会使自己陷入昏厥，但是能够大幅降低对手的攻击和特攻。",
+                        "type": "恶",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "52",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "同命",
+                        "flavor_text": "使出招式后，当受到对手攻击陷入昏厥时，对手也会一同昏厥。连续使出则会失败。",
+                        "type": "幽灵",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００１",
+                        "method": "招式学习器",
+                        "name": "猛撞",
+                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００６",
+                        "method": "招式学习器",
+                        "name": "可怕面孔",
+                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００７",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１３",
+                        "method": "招式学习器",
+                        "name": "酸液炸弹",
+                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１６",
+                        "method": "招式学习器",
+                        "name": "幻象光线",
+                        "flavor_text": "向对手发射神奇的光线进行攻击。有时会使对手混乱。",
+                        "type": "超能力",
+                        "class": "特殊",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１８",
+                        "method": "招式学习器",
+                        "name": "小偷",
+                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
+                        "type": "恶",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２５",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４５",
+                        "method": "招式学习器",
+                        "name": "毒液冲击",
+                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４７",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４９",
+                        "method": "招式学习器",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５０",
+                        "method": "招式学习器",
+                        "name": "求雨",
+                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+                        "type": "水",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０６６",
+                        "method": "招式学习器",
+                        "name": "泰山压顶",
+                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７０",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８５",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８７",
+                        "method": "招式学习器",
+                        "name": "挑衅",
+                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+                        "type": "恶",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９１",
+                        "method": "招式学习器",
+                        "name": "毒菱",
+                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
+                        "type": "毒",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９４",
+                        "method": "招式学习器",
+                        "name": "恶之波动",
+                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
+                        "type": "恶",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０２",
+                        "method": "招式学习器",
+                        "name": "垃圾射击",
+                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "class": "物理",
+                        "power": "120",
+                        "accuracy": "80",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０３",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０７",
+                        "method": "招式学习器",
+                        "name": "磷火",
+                        "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
+                        "type": "火",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１１４",
+                        "method": "招式学习器",
+                        "name": "暗影球",
+                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
+                        "type": "幽灵",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２５",
+                        "method": "招式学习器",
+                        "name": "喷射火焰",
+                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
+                        "type": "火",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２６",
+                        "method": "招式学习器",
+                        "name": "十万伏特",
+                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４１",
+                        "method": "招式学习器",
+                        "name": "大字爆炎",
+                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
+                        "type": "火",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "85",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４８",
+                        "method": "招式学习器",
+                        "name": "污泥炸弹",
+                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６６",
+                        "method": "招式学习器",
+                        "name": "打雷",
+                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７１",
+                        "method": "招式学习器",
+                        "name": "太晶爆发",
+                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７４",
+                        "method": "招式学习器",
+                        "name": "黑雾",
+                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
+                        "type": "冰",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７５",
+                        "method": "招式学习器",
+                        "name": "剧毒",
+                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
+                        "type": "毒",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７７",
+                        "method": "招式学习器",
+                        "name": "怨恨",
+                        "flavor_text": "对对手最后使用的招式怀有怨恨，减少４ＰＰ该招式。",
+                        "type": "幽灵",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１８０",
+                        "method": "招式学习器",
+                        "name": "陀螺球",
+                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２０２",
+                        "method": "招式学习器",
+                        "name": "分担痛楚",
+                        "flavor_text": "将自己的ＨＰ和对手的ＨＰ相加，然后自己和对手友好地平分。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２１４",
+                        "method": "招式学习器",
+                        "name": "污泥波",
+                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "95",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２２４",
+                        "method": "招式学习器",
+                        "name": "咒术",
+                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
+                        "type": "幽灵",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "瓦斯弹",
+            "image": "0109-瓦斯弹.png",
+            "shiny": "0109-瓦斯弹-shiny.png"
+        }
+    ]
+}

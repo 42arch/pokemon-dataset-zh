@@ -1,0 +1,939 @@
+{
+    "name": "密勒顿",
+    "profile": "密勒顿似乎就是古老的书籍中提及的铁大蛇，传说它曾用雷电将大地变为灰烬。它与摩托蜥有着相似的印象，但强大与冷酷的程度远超摩托蜥。关于它的详情尚且不明，密勒顿这个名字是由发现它的博士命名而来。它拥有连人格都能看穿的观察力和洞察力，虽然似乎已经适应了人类，但还是会严格地挑选对手。它拥有沉着冷静的特质，在战斗中会预测对手的行动，攻击对手的弱点。它的表情很少发生变化，只能看到眼球的颜色和瞳孔的变化。但这些变化也没有生机，应该很难解读它感情的细微表现。当它处于完整模式时，面对地上的敌人总是会浮在有利的位置来进行牵制。它用爪子和牙齿发出的攻击会带电，而且不管对手的身体有多结实，都能利用摔尾巴时由内部器官产生的能量将对手一击至晕。\n",
+    "forms": [
+        {
+            "name": "密勒顿",
+            "index": "1008",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "1008-密勒顿.png",
+            "types": [
+                "电",
+                "龙"
+            ],
+            "genus": "悖谬宝可梦",
+            "ability": [
+                {
+                    "name": "强子引擎",
+                    "is_hidden": false
+                }
+            ],
+            "experience": {
+                "number": "1,250,000",
+                "speed": "慢"
+            },
+            "height": "3.5m",
+            "weight": "240.0kg",
+            "gender_rate": null,
+            "shape": "双足兽形",
+            "color": "紫色",
+            "catch_rate": {
+                "number": "3",
+                "rate": "0.4%"
+            },
+            "egg_groups": [
+                "未发现"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "一般",
+            "data": {
+                "hp": "100",
+                "attack": "85",
+                "defense": "100",
+                "sp_attack": "135",
+                "sp_defense": "115"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "关于它的详情尚且不明。与摩托蜥有着相似的印象，但强大与冷酷的程度远超摩托蜥。（完整模式）\n古老的探险记中记载的一种叫做铁大蛇的神秘物体与它的特征一致。（受限模式）"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "它似乎就是古老的书籍中提及的铁大蛇。传说它曾用雷电将大地变为灰烬。（完整模式）\n密勒顿这个名字是由发现它的博士命名而来。生态等详情尚且不明。（受限模式）"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "密勒顿",
+                "stage": "不进化",
+                "text": null,
+                "image": "1008Miraidon_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "密勒顿",
+        "en": "Miraidon",
+        "fr": "Miraidon",
+        "es": "Miraidon",
+        "zh_hant": "密勒頓",
+        "de": "Miraidon",
+        "it": "Miraidon",
+        "ja": "ミライドン",
+        "ko": "미라이돈"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电击",
+                        "flavor_text": "发出电流刺激对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "龙息",
+                        "flavor_text": "将强烈的气息吹向对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "龙",
+                        "category": "特殊",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电气场地",
+                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
+                        "type": "电",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "7",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电击波",
+                        "flavor_text": "向对手快速发出电击。攻击必定会命中。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "60",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "14",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "充电",
+                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
+                        "type": "电",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "21",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "抛物面充电",
+                        "flavor_text": "给周围全体宝可梦造成伤害。可以回复给予伤害的一半HP。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "28",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "放电",
+                        "flavor_text": "用耀眼的电击攻击自己周围所有的宝可梦。有时会陷入麻痹状态。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "35",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "高速移动",
+                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
+                        "type": "超能力",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "42",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "龙之波动",
+                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
+                        "type": "龙",
+                        "category": "特殊",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "56",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "闪电猛冲",
+                        "flavor_text": "边变形边高速奔走，并以未知的电击贯穿对手。若针对到弱点，威力会进一步。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "100",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "63",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "金属音",
+                        "flavor_text": "让对手听摩擦金属般讨厌的声音。大幅降低对手的特防。",
+                        "type": "钢",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "70",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "镜面反射",
+                        "flavor_text": "从对手那里受到特殊攻击的伤害将以２倍返还给同一个对手。",
+                        "type": "超能力",
+                        "category": "特殊",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "77",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "逆鳞",
+                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
+                        "type": "龙",
+                        "category": "物理",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "84",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "打雷",
+                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "91",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "过热",
+                        "flavor_text": "使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。",
+                        "type": "火",
+                        "category": "特殊",
+                        "power": "130",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "98",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "破坏光线",
+                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "category": "特殊",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００１",
+                        "method": "招式学习器",
+                        "name": "猛撞",
+                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００４",
+                        "method": "招式学习器",
+                        "name": "高速移动",
+                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００６",
+                        "method": "招式学习器",
+                        "name": "可怕面孔",
+                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００７",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１４",
+                        "method": "招式学习器",
+                        "name": "杂技",
+                        "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
+                        "type": "飞行",
+                        "class": "物理",
+                        "power": "55",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１７",
+                        "method": "招式学习器",
+                        "name": "奇异之光",
+                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
+                        "type": "幽灵",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２３",
+                        "method": "招式学习器",
+                        "name": "充电光束",
+                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２５",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３０",
+                        "method": "招式学习器",
+                        "name": "大声咆哮",
+                        "flavor_text": "没完没了地大声斥责，从而降低对手的特攻。",
+                        "type": "恶",
+                        "class": "特殊",
+                        "power": "55",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４４",
+                        "method": "招式学习器",
+                        "name": "龙尾",
+                        "flavor_text": "弹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
+                        "type": "龙",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４７",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４８",
+                        "method": "招式学习器",
+                        "name": "伏特替换",
+                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５９",
+                        "method": "招式学习器",
+                        "name": "意念头锤",
+                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
+                        "type": "超能力",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "90",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０６０",
+                        "method": "招式学习器",
+                        "name": "急速折返",
+                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
+                        "type": "虫",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０６６",
+                        "method": "招式学习器",
+                        "name": "泰山压顶",
+                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７０",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７２",
+                        "method": "招式学习器",
+                        "name": "电球",
+                        "flavor_text": "用电气团撞向对手。自己比对手速度越快，威力越大。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７４",
+                        "method": "招式学习器",
+                        "name": "反射壁",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７５",
+                        "method": "招式学习器",
+                        "name": "光墙",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７８",
+                        "method": "招式学习器",
+                        "name": "龙爪",
+                        "flavor_text": "用尖锐的巨爪劈开对手进行攻击。",
+                        "type": "龙",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７９",
+                        "method": "招式学习器",
+                        "name": "魔法闪耀",
+                        "flavor_text": "向对手发射强光，并给予伤害。",
+                        "type": "妖精",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８２",
+                        "method": "招式学习器",
+                        "name": "电磁波",
+                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８５",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８７",
+                        "method": "招式学习器",
+                        "name": "挑衅",
+                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
+                        "type": "恶",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８８",
+                        "method": "招式学习器",
+                        "name": "剑舞",
+                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９３",
+                        "method": "招式学习器",
+                        "name": "加农光炮",
+                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
+                        "type": "钢",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９６",
+                        "method": "招式学习器",
+                        "name": "怪异电波",
+                        "flavor_text": "从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０１",
+                        "method": "招式学习器",
+                        "name": "力量宝石",
+                        "flavor_text": "发射如宝石般闪耀的光芒攻击对手。",
+                        "type": "岩石",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０３",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０８",
+                        "method": "招式学习器",
+                        "name": "咬碎",
+                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
+                        "type": "恶",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１１５",
+                        "method": "招式学习器",
+                        "name": "龙之波动",
+                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
+                        "type": "龙",
+                        "class": "特殊",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２１",
+                        "method": "招式学习器",
+                        "name": "重磅冲撞",
+                        "flavor_text": "用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２６",
+                        "method": "招式学习器",
+                        "name": "十万伏特",
+                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２９",
+                        "method": "招式学习器",
+                        "name": "冥想",
+                        "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３０",
+                        "method": "招式学习器",
+                        "name": "帮助",
+                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３６",
+                        "method": "招式学习器",
+                        "name": "电气场地",
+                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４７",
+                        "method": "招式学习器",
+                        "name": "疯狂伏特",
+                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "电",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１５２",
+                        "method": "招式学习器",
+                        "name": "终极冲击",
+                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１５６",
+                        "method": "招式学习器",
+                        "name": "逆鳞",
+                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
+                        "type": "龙",
+                        "class": "物理",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１５７",
+                        "method": "招式学习器",
+                        "name": "过热",
+                        "flavor_text": "使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。",
+                        "type": "火",
+                        "class": "特殊",
+                        "power": "130",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６３",
+                        "method": "招式学习器",
+                        "name": "破坏光线",
+                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６６",
+                        "method": "招式学习器",
+                        "name": "打雷",
+                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６８",
+                        "method": "招式学习器",
+                        "name": "日光束",
+                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６９",
+                        "method": "招式学习器",
+                        "name": "流星群",
+                        "flavor_text": "从天空中向对手落下陨石。使用之后因为反作用力，自己的特攻会大幅降低。",
+                        "type": "龙",
+                        "class": "特殊",
+                        "power": "130",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７１",
+                        "method": "招式学习器",
+                        "name": "太晶爆发",
+                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７３",
+                        "method": "招式学习器",
+                        "name": "充电",
+                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２１０",
+                        "method": "招式学习器",
+                        "name": "闪电强袭",
+                        "flavor_text": "让身体带电后压向对手。如果没有命中则自己会受到伤害。",
+                        "type": "电",
+                        "class": "物理",
+                        "power": "100",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２２３",
+                        "method": "招式学习器",
+                        "name": "金属音",
+                        "flavor_text": "让对手听摩擦金属般讨厌的声音。大幅降低对手的特防。",
+                        "type": "钢",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２２６",
+                        "method": "招式学习器",
+                        "name": "龙声鼓舞",
+                        "flavor_text": "以龙之鼓舞提高士气，让我方的招式变得容易击中要害。对龙属性的鼓舞效果会更强。",
+                        "type": "龙",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "密勒顿",
+            "image": "1008-密勒顿-.png",
+            "shiny": "1008-密勒顿--shiny.png"
+        },
+        {
+            "name": "密勒顿",
+            "image": "1008-密勒顿-.png",
+            "shiny": "1008-密勒顿--shiny.png"
+        }
+    ]
+}

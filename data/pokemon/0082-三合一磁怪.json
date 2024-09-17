@@ -1,0 +1,998 @@
+{
+    "name": "三合一磁怪",
+    "profile": "三合一磁怪是三只小磁怪通过磁力连接在一起诞生的宝可梦。它磁铁的位置有所改变，下部中间的两个磁铁向前伸出，旁边的两个小磁怪身上只有两个螺丝钉。\n三合一磁怪由三只小磁怪聚集起来进化而成，会发出强力的磁力和高电压。连接的时候，三只小磁怪的脑袋也会连成一体，但并不会变得三倍聪明，大约有小磁怪三倍的电力。小磁怪之间连结着的磁力非常强，甚至可以让周围水分蒸发，一靠近它就会感到强烈的耳鸣。它一直在发射神秘的电波，半径1公里内的气温会升高2度。雨云形成后，它们就会聚集在高处，等待着从天上落下雷电。听说这种连在一起的小磁怪会在太阳黑子多的时候大量地出现，身体也会变大，引起电磁暴扰乱通信，使电视机无法清楚地播放。它会通过放出强力的电波来观测周围的状况，在三合一磁怪栖息的地方，精密机器会发生故障。由于会发出强大的磁力，研究它时总是碰上机器被破坏的问题。因为会用很强的磁力破坏机器，所以当三合一磁怪大量出现时，大城镇都会拉响警报通知大家。据说在有些城镇不将其放入精灵球，就会受到警告。\n",
+    "forms": [
+        {
+            "name": "三合一磁怪",
+            "index": "0082",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0082-三合一磁怪.png",
+            "types": [
+                "电",
+                "钢"
+            ],
+            "genus": "磁铁宝可梦",
+            "ability": [
+                {
+                    "name": "磁力",
+                    "is_hidden": false
+                },
+                {
+                    "name": "结实",
+                    "is_hidden": false
+                },
+                {
+                    "name": "分析",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "1.0m",
+            "weight": "60.0kg",
+            "gender_rate": null,
+            "shape": "组合形",
+            "color": "灰色",
+            "catch_rate": {
+                "number": "60",
+                "rate": "7.8%"
+            },
+            "egg_groups": [
+                "矿物"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "一般",
+            "data": {
+                "hp": "50",
+                "attack": "60",
+                "defense": "95",
+                "sp_attack": "120",
+                "sp_defense": "70"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": [
+                {
+                    "name": "红",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "由多个小磁怪连接而成，会发出强力的磁力和高电压。"
+                },
+                {
+                    "name": "绿",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "由多个小磁怪连接而成，会发出强力的磁力和高电压。"
+                },
+                {
+                    "name": "蓝",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "听说这种连在一起的小磁怪会在太阳黑子多的时候大量地出现。"
+                },
+                {
+                    "name": "皮卡丘",
+                    "group": "宝可梦 皮卡丘",
+                    "text": "一直在发射神秘的电波，半径１公里内的气温会升高２度。"
+                }
+            ]
+        },
+        {
+            "name": "第二世代",
+            "versions": [
+                {
+                    "name": "金",
+                    "group": "宝可梦 金／银",
+                    "text": "３只小磁怪由强大的磁力结合在一起。一靠近它就会感到强烈的耳鸣。"
+                },
+                {
+                    "name": "银",
+                    "group": "宝可梦 金／银",
+                    "text": "小磁怪之间连结着的磁力非常强，甚至可以让周围水分蒸发。*"
+                },
+                {
+                    "name": "水晶版",
+                    "group": "宝可梦 水晶版",
+                    "text": "三合一磁怪大量出现时会发生电磁暴扰乱通信。*"
+                }
+            ]
+        },
+        {
+            "name": "第三世代",
+            "versions": [
+                {
+                    "name": "红宝石",
+                    "group": "宝可梦 红宝石／蓝宝石",
+                    "text": "因为会用很强的磁力破坏机器，所以当三合一磁怪大量出现时，大城镇都会拉响警报通知大家。"
+                },
+                {
+                    "name": "蓝宝石",
+                    "group": "宝可梦 红宝石／蓝宝石",
+                    "text": "会用强力的磁力破坏精密机器，所以据说在有些城镇不将其放入精灵球，就会受到警告。"
+                },
+                {
+                    "name": "绿宝石",
+                    "group": "宝可梦 绿宝石",
+                    "text": "由三个小磁怪连接起来。由于会发出强大的电波，因此在半径一公里范围内的气温会升高2度。*"
+                },
+                {
+                    "name": "火红",
+                    "group": "宝可梦 火红／叶绿",
+                    "text": "由多个小磁怪连接而成，会发出强力的磁力和高电压。"
+                },
+                {
+                    "name": "叶绿",
+                    "group": "宝可梦 火红／叶绿",
+                    "text": "听说这种连在一起的小磁怪会在太阳黑子多的时候大量地出现。"
+                }
+            ]
+        },
+        {
+            "name": "第四世代",
+            "versions": [
+                {
+                    "name": "钻石",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "３只小磁怪通过磁力连接在一起诞生的宝可梦。三合一磁怪增多的话会发生磁暴。"
+                },
+                {
+                    "name": "珍珠",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "３只小磁怪通过磁力连接在一起诞生的宝可梦。三合一磁怪增多的话会发生磁暴。"
+                },
+                {
+                    "name": "白金",
+                    "group": "宝可梦 白金",
+                    "text": "太阳黑子增多的话不知为何三合一磁怪会变大，使电视机无法清楚地播放。*"
+                },
+                {
+                    "name": "心金",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "３只小磁怪由强大的磁力结合在一起。一靠近它就会感到强烈的耳鸣。"
+                },
+                {
+                    "name": "魂银",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "小磁怪之间连结着的磁力非常强，甚至可以让周围水分蒸发。*"
+                }
+            ]
+        },
+        {
+            "name": "第五世代",
+            "versions": [
+                {
+                    "name": "黑",
+                    "group": "宝可梦 黑／白",
+                    "text": "太阳黑子增多的话不知为何三合一磁怪会变大，使电视机无法清楚地播放。*"
+                },
+                {
+                    "name": "白",
+                    "group": "宝可梦 黑／白",
+                    "text": "太阳黑子增多的话不知为何三合一磁怪会变大，使电视机无法清楚地播放。*"
+                },
+                {
+                    "name": "黑２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "三只小磁怪连接在一起释放出的强力电磁波足以让周围的水分蒸发。*"
+                },
+                {
+                    "name": "白２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "三只小磁怪连接在一起释放出的强力电磁波足以让周围的水分蒸发。*"
+                }
+            ]
+        },
+        {
+            "name": "第六世代",
+            "versions": [
+                {
+                    "name": "Ｘ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "由多个小磁怪连接而成，会发出强力的磁力和高电压。"
+                },
+                {
+                    "name": "Ｙ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "一直在发射神秘的电波，半径１公里内的气温会升高２度。"
+                },
+                {
+                    "name": "欧米伽红宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "因为会用很强的磁力破坏机器，所以当三合一磁怪大量出现时，大城镇都会拉响警报通知大家。"
+                },
+                {
+                    "name": "阿尔法蓝宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "会用强力的磁力破坏精密机器，所以据说在有些城镇不将其放入精灵球，就会受到警告。"
+                }
+            ]
+        },
+        {
+            "name": "第七世代",
+            "versions": [
+                {
+                    "name": "太阳",
+                    "group": "精灵宝可梦 太阳／月亮",
+                    "text": "连接的时候，３只小磁怪的脑袋也会连成一体。但并不会变得３倍聪明。"
+                },
+                {
+                    "name": "月亮",
+                    "group": "精灵宝可梦 太阳／月亮",
+                    "text": "大约有小磁怪３倍的电力。不知为何会在太阳黑子多的时候大量出现。"
+                },
+                {
+                    "name": "究极之日",
+                    "group": "精灵宝可梦 究极之日／究极之月",
+                    "text": "会发出神秘的电波，在三合一磁怪栖息的地方，精密机器会发生故障。"
+                },
+                {
+                    "name": "究极之月",
+                    "group": "精灵宝可梦 究极之日／究极之月",
+                    "text": "雨云形成后，它们就会聚集在高处，等待着从天上落下雷电。"
+                },
+                {
+                    "name": "Let's Go! 皮卡丘",
+                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+                    "text": "一直在发射神秘的电波，半径１公里内的气温会升高２度。"
+                },
+                {
+                    "name": "Let's Go! 伊布",
+                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+                    "text": "一直在发射神秘的电波，半径１公里内的气温会升高２度。"
+                }
+            ]
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "３只小磁怪连在了一起。会通过放出强力的电波来观测周围的状况。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "会不断释放很强的的磁力。在三合一磁怪接近时，大多数电脑都会发生异常情况。"
+                },
+                {
+                    "name": "晶灿钻石",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "３只小磁怪通过磁力连接在一起诞生的宝可梦。三合一磁怪增多的话会发生磁暴。"
+                },
+                {
+                    "name": "明亮珍珠",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "３只小磁怪通过磁力连接在一起诞生的宝可梦。三合一磁怪增多的话会发生磁暴。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": "由三只小磁怪聚集起来进化而成。由于会发出强大的磁力，研究它时总是碰上机器被破坏的问题。"
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "３只小磁怪由强大的磁力结合在一起。一靠近它就会感到强烈的耳鸣。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "听说这种连在一起的小磁怪会在太阳黑子多的时候大量地出现。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "小磁怪",
+                "stage": "未进化",
+                "text": null,
+                "image": "081Magnemite_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "三合一磁怪",
+                "stage": "1阶进化",
+                "text": "等级30以上",
+                "image": "082Magneton_Dream.png",
+                "back_text": "",
+                "from": "小磁怪",
+                "form_name": null
+            },
+            {
+                "name": "自爆磁怪",
+                "stage": "2阶进化",
+                "text": "来到特殊磁场附近提升等级",
+                "image": "462Magnezone_Dream.png",
+                "back_text": "",
+                "from": "三合一磁怪",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "三合一磁怪",
+        "en": "Magneton",
+        "fr": "Magneton",
+        "zh_hant": "三合一磁怪",
+        "de": "Magneton",
+        "it": "Magneton",
+        "es": "Magneton",
+        "ja": "レアコイル",
+        "ko": "레어코일"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "进化",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "三重攻击",
+                        "flavor_text": "用３种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。",
+                        "type": "一般",
+                        "category": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电磁波",
+                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
+                        "type": "电",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电气场地",
+                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
+                        "type": "电",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "撞击",
+                        "flavor_text": "用整个身体撞向对手进行攻击。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "35"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "超音波",
+                        "flavor_text": "从身体发出特殊的音波，从而使对手混乱。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "55",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电击",
+                        "flavor_text": "发出电流刺激对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "12",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电球",
+                        "flavor_text": "用电气团撞向对手。自己比对手速度越快，威力越大。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "16",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "陀螺球",
+                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
+                        "type": "钢",
+                        "category": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "20",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电光",
+                        "flavor_text": "让电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "category": "物理",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "24",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "刺耳声",
+                        "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "28",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电磁飘浮",
+                        "flavor_text": "利用电气产生的磁力浮在空中。在５回合内可以飘浮。",
+                        "type": "电",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "34",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "加农光炮",
+                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
+                        "type": "钢",
+                        "category": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "40",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "放电",
+                        "flavor_text": "用耀眼的电击攻击自己周围所有的宝可梦。有时会陷入麻痹状态。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "46",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "金属音",
+                        "flavor_text": "让对手听摩擦金属般讨厌的声音。大幅降低对手的特防。",
+                        "type": "钢",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "52",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "光墙",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
+                        "type": "超能力",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "58",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "锁定",
+                        "flavor_text": "紧紧瞄准对手，下次攻击必定会打中。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "64",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "电磁炮",
+                        "flavor_text": "发射大炮一样的电流进行攻击。让对手陷入麻痹状态。",
+                        "type": "电",
+                        "category": "特殊",
+                        "power": "120",
+                        "accuracy": "50",
+                        "pp": "5"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００１",
+                        "method": "招式学习器",
+                        "name": "猛撞",
+                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００７",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１７",
+                        "method": "招式学习器",
+                        "name": "奇异之光",
+                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
+                        "type": "幽灵",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２３",
+                        "method": "招式学习器",
+                        "name": "充电光束",
+                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２５",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３２",
+                        "method": "招式学习器",
+                        "name": "高速星星",
+                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "60",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４７",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４８",
+                        "method": "招式学习器",
+                        "name": "伏特替换",
+                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４９",
+                        "method": "招式学习器",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５０",
+                        "method": "招式学习器",
+                        "name": "求雨",
+                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+                        "type": "水",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５１",
+                        "method": "招式学习器",
+                        "name": "沙暴",
+                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
+                        "type": "岩石",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７０",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７２",
+                        "method": "招式学习器",
+                        "name": "电球",
+                        "flavor_text": "用电气团撞向对手。自己比对手速度越快，威力越大。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７４",
+                        "method": "招式学习器",
+                        "name": "反射壁",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７５",
+                        "method": "招式学习器",
+                        "name": "光墙",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８２",
+                        "method": "招式学习器",
+                        "name": "电磁波",
+                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８５",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９３",
+                        "method": "招式学习器",
+                        "name": "加农光炮",
+                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
+                        "type": "钢",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９６",
+                        "method": "招式学习器",
+                        "name": "怪异电波",
+                        "flavor_text": "从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９９",
+                        "method": "招式学习器",
+                        "name": "铁头",
+                        "flavor_text": "用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０３",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０４",
+                        "method": "招式学习器",
+                        "name": "铁壁",
+                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
+                        "type": "钢",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２１",
+                        "method": "招式学习器",
+                        "name": "重磅冲撞",
+                        "flavor_text": "用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２６",
+                        "method": "招式学习器",
+                        "name": "十万伏特",
+                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３０",
+                        "method": "招式学习器",
+                        "name": "帮助",
+                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３６",
+                        "method": "招式学习器",
+                        "name": "电气场地",
+                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４７",
+                        "method": "招式学习器",
+                        "name": "疯狂伏特",
+                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "电",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６３",
+                        "method": "招式学习器",
+                        "name": "破坏光线",
+                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１６６",
+                        "method": "招式学习器",
+                        "name": "打雷",
+                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７０",
+                        "method": "招式学习器",
+                        "name": "铁蹄光线",
+                        "flavor_text": "将从全身聚集的钢铁化为光束，激烈地发射出去。自己也会受到伤害。",
+                        "type": "钢",
+                        "class": "特殊",
+                        "power": "140",
+                        "accuracy": "95",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７１",
+                        "method": "招式学习器",
+                        "name": "太晶爆发",
+                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７３",
+                        "method": "招式学习器",
+                        "name": "充电",
+                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
+                        "type": "电",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７８",
+                        "method": "招式学习器",
+                        "name": "重力",
+                        "flavor_text": "在５回合内，飘浮特性和飞行属性的宝可梦会被地面属性的招式击中。飞向空中的招式也将无法使用。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１８０",
+                        "method": "招式学习器",
+                        "name": "陀螺球",
+                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２１１",
+                        "method": "招式学习器",
+                        "name": "电网",
+                        "flavor_text": "用电网捉住对手进行攻击。会降低对手的速度。",
+                        "type": "电",
+                        "class": "特殊",
+                        "power": "55",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２２３",
+                        "method": "招式学习器",
+                        "name": "金属音",
+                        "flavor_text": "让对手听摩擦金属般讨厌的声音。大幅降低对手的特防。",
+                        "type": "钢",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "85",
+                        "pp": "40"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "三合一磁怪",
+            "image": "0082-三合一磁怪.png",
+            "shiny": "0082-三合一磁怪-shiny.png"
+        }
+    ]
+}

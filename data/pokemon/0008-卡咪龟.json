@@ -1,0 +1,941 @@
+{
+    "name": "卡咪龟",
+    "profile": "卡咪龟的身体呈较淡的靛蓝色，椭圆的头上长着一对类似翅膀的毛茸茸耳朵。它的眼睛呈褐色，在嘴部可看见它微小的獠牙，脸颊上有小块的深蓝色椭圆状斑纹。它的前肢有三个锋利的爪子，尾巴是毛茸茸的。\n卡咪龟作为宠物来说，活得比人类还久。据说它有着1万年的寿命，被视为长寿的象征。如果卡咪龟的壳上长着苔藓，代表它已经活了非常久了，甲壳上的伤痕是强者的证明。它长长的蓬松的尾巴是长寿的象征，颜色会随着年龄的增长而越变越深，在老人当中特别受欢迎。如果拍打它的头部，它会把头缩进壳里，但尾巴还是会露出来一点点。它会躲藏在水中猎取食物，当它游得很快的时候会灵巧地摆动自己毛茸茸的耳朵和尾巴，借此在水中保持平衡。\n",
+    "forms": [
+        {
+            "name": "卡咪龟",
+            "index": "0008",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0008-卡咪龟.png",
+            "types": [
+                "水"
+            ],
+            "genus": "龟宝可梦",
+            "ability": [
+                {
+                    "name": "激流",
+                    "is_hidden": false
+                },
+                {
+                    "name": "雨盘",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,059,860",
+                "speed": "较慢"
+            },
+            "height": "1.0m",
+            "weight": "22.5kg",
+            "gender_rate": {
+                "male": "5%",
+                "female": "5%"
+            },
+            "shape": "双足兽形",
+            "color": "蓝色",
+            "catch_rate": {
+                "number": "45",
+                "rate": "5.9%"
+            },
+            "egg_groups": [
+                "怪兽",
+                "水中1"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "一般",
+            "data": {
+                "hp": "59",
+                "attack": "63",
+                "defense": "80",
+                "sp_attack": "65",
+                "sp_defense": "80"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": [
+                {
+                    "name": "红",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "作为宠物来说，活得比人类还久。另外，它膨大的尾巴是长寿象征。*"
+                },
+                {
+                    "name": "绿",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "作为宠物来说，活得比人类还久。另外，它膨大的尾巴是长寿象征。*"
+                },
+                {
+                    "name": "蓝",
+                    "group": "宝可梦 红／绿／蓝",
+                    "text": "经常潜伏在水中伺机袭击猎物。高速游泳时会用耳朵来保持平衡。"
+                },
+                {
+                    "name": "皮卡丘",
+                    "group": "宝可梦 皮卡丘",
+                    "text": "如果拍打它的头部，它会把头缩进壳里，但尾巴还是会露出来一点点。"
+                }
+            ]
+        },
+        {
+            "name": "第二世代",
+            "versions": [
+                {
+                    "name": "金",
+                    "group": "宝可梦 金／银",
+                    "text": "被视为长寿的象征。如果卡咪龟的壳上长着苔藓，代表它已经活了非常久了。"
+                },
+                {
+                    "name": "银",
+                    "group": "宝可梦 金／银",
+                    "text": "会灵巧地摆动自己毛茸茸的耳朵和尾巴，借此在水中保持平衡。"
+                },
+                {
+                    "name": "水晶版",
+                    "group": "宝可梦 水晶版",
+                    "text": "长而蓬松的尾巴是长寿的象征，深受长者的喜爱。"
+                }
+            ]
+        },
+        {
+            "name": "第三世代",
+            "versions": [
+                {
+                    "name": "红宝石",
+                    "group": "宝可梦 红宝石／蓝宝石",
+                    "text": "长满蓬松毛发的大尾巴的颜色，会随着年龄的增长而越变越深。甲壳上的伤痕是强者的证明。"
+                },
+                {
+                    "name": "蓝宝石",
+                    "group": "宝可梦 红宝石／蓝宝石",
+                    "text": "长满蓬松毛发的大尾巴的颜色，会随着年龄的增长而越变越深。甲壳上的伤痕是强者的证明。"
+                },
+                {
+                    "name": "绿宝石",
+                    "group": "宝可梦 绿宝石",
+                    "text": "长满蓬松毛发的大尾巴的颜色，会随着年龄的增长而越变越深。甲壳上的伤痕是强者的证明。"
+                },
+                {
+                    "name": "火红",
+                    "group": "宝可梦 火红／叶绿",
+                    "text": "作为宠物来说，活得比人类还久。另外，它膨大的尾巴是长寿象征。*"
+                },
+                {
+                    "name": "叶绿",
+                    "group": "宝可梦 火红／叶绿",
+                    "text": "经常潜伏在水中伺机袭击猎物。高速游泳时会用耳朵来保持平衡。"
+                }
+            ]
+        },
+        {
+            "name": "第四世代",
+            "versions": [
+                {
+                    "name": "钻石",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "珍珠",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "白金",
+                    "group": "宝可梦 白金",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "心金",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "被视为长寿的象征。如果卡咪龟的壳上长着苔藓，代表它已经活了非常久了。"
+                },
+                {
+                    "name": "魂银",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "会灵巧地摆动自己毛茸茸的耳朵和尾巴，借此在水中保持平衡。"
+                }
+            ]
+        },
+        {
+            "name": "第五世代",
+            "versions": [
+                {
+                    "name": "黑",
+                    "group": "宝可梦 黑／白",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "白",
+                    "group": "宝可梦 黑／白",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "黑２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "白２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                }
+            ]
+        },
+        {
+            "name": "第六世代",
+            "versions": [
+                {
+                    "name": "Ｘ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "被“啪”地打到头的时候，它就会缩起身体躲进甲壳里。但是会露出一小段尾巴呢。"
+                },
+                {
+                    "name": "Ｙ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "欧米伽红宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "长满蓬松毛发的大尾巴的颜色，会随着年龄的增长而越变越深。甲壳上的伤痕是强者的证明。"
+                },
+                {
+                    "name": "阿尔法蓝宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "长满蓬松毛发的大尾巴的颜色，会随着年龄的增长而越变越深。甲壳上的伤痕是强者的证明。"
+                }
+            ]
+        },
+        {
+            "name": "第七世代",
+            "versions": [
+                {
+                    "name": "Let's Go! 皮卡丘",
+                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+                    "text": "如果拍打它的头部，它会把头缩进壳里，但尾巴还是会露出来一点点。"
+                },
+                {
+                    "name": "Let's Go! 伊布",
+                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+                    "text": "如果拍打它的头部，它会把头缩进壳里，但尾巴还是会露出来一点点。"
+                }
+            ]
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "被视为长寿的象征。如果卡咪龟的壳上长着苔藓，代表它已经活了非常久了。"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "会灵巧地摆动自己毛茸茸的耳朵和尾巴，借此在水中保持平衡。"
+                },
+                {
+                    "name": "晶灿钻石",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "明亮珍珠",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "据说它有着１万年的寿命。蓬松的尾巴是长寿的象征，深受人们的喜爱。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "长而蓬松的尾巴是长寿的象征，深受长者的喜爱。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "经常潜伏在水中伺机袭击猎物。高速游泳时会用耳朵来保持平衡。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "杰尼龟",
+                "stage": "未进化",
+                "text": null,
+                "image": "007Squirtle_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "卡咪龟",
+                "stage": "1阶进化",
+                "text": "等级16以上",
+                "image": "008Wartortle_Dream.png",
+                "back_text": "",
+                "from": "杰尼龟",
+                "form_name": null
+            },
+            {
+                "name": "水箭龟",
+                "stage": "2阶进化",
+                "text": "等级36以上",
+                "image": "009Blastoise_Dream.png",
+                "back_text": "",
+                "from": "卡咪龟",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "卡咪龟",
+        "en": "Wartortle",
+        "fr": "Wartortle",
+        "zh_hant": "卡咪龜",
+        "de": "Schillok",
+        "it": "Wartortle",
+        "es": "Wartortle",
+        "ja": "カメール",
+        "ko": "어니부기"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "撞击",
+                        "flavor_text": "用整个身体撞向对手进行攻击。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "35"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "摇尾巴",
+                        "flavor_text": "可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水枪",
+                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
+                        "type": "水",
+                        "category": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "缩入壳中",
+                        "flavor_text": "缩入壳里保护身体，从而提高自己的防御。",
+                        "type": "水",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "9",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "高速旋转",
+                        "flavor_text": "通过旋转来攻击对手。可以摆脱绑紧、紧束、寄生种子等招式。还能提高自己的速度。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "12",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "咬住",
+                        "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
+                        "type": "恶",
+                        "category": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": "15",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水之波动",
+                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
+                        "type": "水",
+                        "category": "特殊",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "20",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "25",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "求雨",
+                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+                        "type": "水",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "30",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水流尾",
+                        "flavor_text": "如惊涛骇浪般挥动大尾巴攻击对手。",
+                        "type": "水",
+                        "category": "物理",
+                        "power": "90",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "35",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "破壳",
+                        "flavor_text": "打破外壳，降低自己的防御和特防，但大幅提高攻击、特攻和速度。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "40",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "铁壁",
+                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
+                        "type": "钢",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "45",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "水炮",
+                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
+                        "type": "水",
+                        "category": "特殊",
+                        "power": "110",
+                        "accuracy": "80",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "50",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "波动冲",
+                        "flavor_text": "让水覆盖全身后撞向对手。自己也会受到不少伤害。",
+                        "type": "水",
+                        "category": "物理",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００１",
+                        "method": "招式学习器",
+                        "name": "猛撞",
+                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００７",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１１",
+                        "method": "招式学习器",
+                        "name": "水之波动",
+                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２２",
+                        "method": "招式学习器",
+                        "name": "泼冷水",
+                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２５",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３４",
+                        "method": "招式学习器",
+                        "name": "冰冻之风",
+                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
+                        "type": "冰",
+                        "class": "特殊",
+                        "power": "55",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３５",
+                        "method": "招式学习器",
+                        "name": "泥巴射击",
+                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
+                        "type": "地面",
+                        "class": "特殊",
+                        "power": "55",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４３",
+                        "method": "招式学习器",
+                        "name": "投掷",
+                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
+                        "type": "恶",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４７",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５０",
+                        "method": "招式学习器",
+                        "name": "求雨",
+                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+                        "type": "水",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５５",
+                        "method": "招式学习器",
+                        "name": "挖洞",
+                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
+                        "type": "地面",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５８",
+                        "method": "招式学习器",
+                        "name": "劈瓦",
+                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
+                        "type": "格斗",
+                        "class": "物理",
+                        "power": "75",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５９",
+                        "method": "招式学习器",
+                        "name": "意念头锤",
+                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
+                        "type": "超能力",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "90",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０６６",
+                        "method": "招式学习器",
+                        "name": "泰山压顶",
+                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０６９",
+                        "method": "招式学习器",
+                        "name": "冰冻拳",
+                        "flavor_text": "用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态。",
+                        "type": "冰",
+                        "class": "物理",
+                        "power": "75",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７０",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８５",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０３",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０４",
+                        "method": "招式学习器",
+                        "name": "铁壁",
+                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
+                        "type": "钢",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１１０",
+                        "method": "招式学习器",
+                        "name": "水流裂破",
+                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
+                        "type": "水",
+                        "class": "物理",
+                        "power": "85",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２３",
+                        "method": "招式学习器",
+                        "name": "冲浪",
+                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２４",
+                        "method": "招式学习器",
+                        "name": "冰旋",
+                        "flavor_text": "脚上覆盖薄冰，旋转着撞击对手。通过旋转的动作破坏场地。",
+                        "type": "冰",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３０",
+                        "method": "招式学习器",
+                        "name": "帮助",
+                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１３５",
+                        "method": "招式学习器",
+                        "name": "冰冻光束",
+                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
+                        "type": "冰",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４２",
+                        "method": "招式学习器",
+                        "name": "水炮",
+                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "80",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４３",
+                        "method": "招式学习器",
+                        "name": "暴风雪",
+                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
+                        "type": "冰",
+                        "class": "特殊",
+                        "power": "110",
+                        "accuracy": "70",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４５",
+                        "method": "招式学习器",
+                        "name": "水之誓约",
+                        "flavor_text": "用水柱进行攻击。如果和火组合，威力就会提高，天空中会挂上彩虹。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７１",
+                        "method": "招式学习器",
+                        "name": "太晶爆发",
+                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７４",
+                        "method": "招式学习器",
+                        "name": "黑雾",
+                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
+                        "type": "冰",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１８０",
+                        "method": "招式学习器",
+                        "name": "陀螺球",
+                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
+                        "type": "钢",
+                        "class": "物理",
+                        "power": "变化",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１９２",
+                        "method": "招式学习器",
+                        "name": "真气拳",
+                        "flavor_text": "集中精神出拳。在招式使出前若受到攻击则会失败。",
+                        "type": "格斗",
+                        "class": "物理",
+                        "power": "150",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１９３",
+                        "method": "招式学习器",
+                        "name": "气象球",
+                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１９６",
+                        "method": "招式学习器",
+                        "name": "快速折返",
+                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
+                        "type": "水",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２０４",
+                        "method": "招式学习器",
+                        "name": "舍身冲撞",
+                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２０８",
+                        "method": "招式学习器",
+                        "name": "潮旋",
+                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "35",
+                        "accuracy": "85",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２０９",
+                        "method": "招式学习器",
+                        "name": "浊流",
+                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
+                        "type": "水",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "卡咪龟",
+            "image": "0008-卡咪龟.png",
+            "shiny": "0008-卡咪龟-shiny.png"
+        }
+    ]
+}

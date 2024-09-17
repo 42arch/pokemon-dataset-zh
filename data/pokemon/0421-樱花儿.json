@@ -1,0 +1,823 @@
+{
+    "name": "樱花儿",
+    "profile": "樱花儿根据天气的不同拥有两种不同的形态。阴天形态的樱花儿的身体被两片交叉的紫色花瓣包裹，头上覆盖着一片绿色的叶萼，两只脚是深粉色。晴天形态的樱花儿身着由粉色樱花瓣组成的短裙，头部是黄色的，头发像花瓣一样分为五瓣，另有两个像浆果一样的小球点缀在它的头发上。它的两只脚是黄色的。\n樱花儿花苞形态的时候性格稳重，几乎不会动，只是静静地等待太阳光的出现。从紧闭的花瓣中泄漏而出的香气会吸引多种宝可梦聚集而来。盖起来的花瓣很硬。即使被鸟宝可梦啄到，也完全没问题。如果感受到强烈的阳光，它就会绽开合着的花瓣，全身沐浴在阳光下，将花苞形态的时候忍受的积愤一下子发泄出来。它开花后则一直笑容满面，充分沐浴到阳光后活力满满的样子会一直持续到日落。但只要太阳被遮住，就会立刻闭上花瓣停止动作，天如果阴下来就会变回花苞。盛开的花瓣中散发出的微微的香气会吸引虫宝可梦聚集而来。\n",
+    "forms": [
+        {
+            "name": "樱花儿-阴天形态",
+            "index": "0421",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0421-樱花儿-阴天形态.png",
+            "types": [
+                "草"
+            ],
+            "genus": "樱花宝可梦",
+            "ability": [
+                {
+                    "name": "花之礼",
+                    "is_hidden": false
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.5m",
+            "weight": "9.3kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "双腿形",
+            "color": "紫色",
+            "catch_rate": {
+                "number": "75",
+                "rate": "9.8%"
+            },
+            "egg_groups": [
+                "妖精",
+                "植物"
+            ]
+        },
+        {
+            "name": "樱花儿-晴天形态",
+            "index": "0421.1",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0421.1-樱花儿-晴天形态.png",
+            "types": [
+                "草"
+            ],
+            "genus": "樱花宝可梦",
+            "ability": [
+                {
+                    "name": "花之礼",
+                    "is_hidden": false
+                }
+            ],
+            "experience": {
+                "number": "1,000,000",
+                "speed": "较快"
+            },
+            "height": "0.5m",
+            "weight": "9.3kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "双腿形",
+            "color": "粉红色",
+            "catch_rate": {
+                "number": "75",
+                "rate": "9.8%"
+            },
+            "egg_groups": [
+                "妖精",
+                "植物"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "阴天形态／晴天形态（除《传说 阿尔宙斯》外）",
+            "data": {
+                "hp": "70",
+                "attack": "60",
+                "defense": "70",
+                "sp_attack": "87",
+                "sp_defense": "78"
+            }
+        },
+        {
+            "form": "晴天形态（仅《传说 阿尔宙斯》中）",
+            "data": {
+                "hp": "70",
+                "attack": "90",
+                "defense": "70",
+                "sp_attack": "87",
+                "sp_defense": "117"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": [
+                {
+                    "name": "钻石",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "如果阳光变得强烈就会开花。花苞形态的时候忍受的积愤会一下子发泄出来。"
+                },
+                {
+                    "name": "珍珠",
+                    "group": "宝可梦 钻石／珍珠",
+                    "text": "花苞形态的时候性格稳重，开花后则一直笑容满面。天如果阴下来就会变回花苞。"
+                },
+                {
+                    "name": "白金",
+                    "group": "宝可梦 白金",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                },
+                {
+                    "name": "心金",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "花苞沐浴阳光后，会绽开花瓣并活泼地动起来。"
+                },
+                {
+                    "name": "魂银",
+                    "group": "宝可梦 心金／魂银",
+                    "text": "花苞沐浴阳光后，会绽开花瓣并活泼地动起来。"
+                }
+            ]
+        },
+        {
+            "name": "第五世代",
+            "versions": [
+                {
+                    "name": "黑",
+                    "group": "宝可梦 黑／白",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                },
+                {
+                    "name": "白",
+                    "group": "宝可梦 黑／白",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                },
+                {
+                    "name": "黑２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                },
+                {
+                    "name": "白２",
+                    "group": "宝可梦 黑２／白２",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                }
+            ]
+        },
+        {
+            "name": "第六世代",
+            "versions": [
+                {
+                    "name": "Ｘ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "花苞沐浴阳光后，会绽开花瓣并活泼地动起来。"
+                },
+                {
+                    "name": "Ｙ",
+                    "group": "宝可梦 Ｘ／Ｙ",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                },
+                {
+                    "name": "欧米伽红宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "花苞沐浴阳光后，会绽开花瓣并活泼地动起来。"
+                },
+                {
+                    "name": "阿尔法蓝宝石",
+                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+                    "text": "如果感受到强烈的阳光，就会绽开合着的花瓣，全身沐浴在阳光下。"
+                }
+            ]
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "剑",
+                    "group": "宝可梦 剑／盾",
+                    "text": "花苞形态时性格稳重，几乎不会动，只是静静地等待太阳光的出现。（阴天形态）\n充分沐浴到阳光后活力满满的样子。会一直活泼到日落。（晴天形态）"
+                },
+                {
+                    "name": "盾",
+                    "group": "宝可梦 剑／盾",
+                    "text": "盖起来的花瓣很硬。即使被鸟宝可梦啄到，也完全没问题。（阴天形态）\n盛开的花瓣中散发出的微微的香气会吸引虫宝可梦聚集而来。（晴天形态）"
+                },
+                {
+                    "name": "晶灿钻石",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "如果阳光变得强烈就会开花。花苞形态的时候忍受的积愤会一下子发泄出来。"
+                },
+                {
+                    "name": "明亮珍珠",
+                    "group": "宝可梦 晶灿钻石／明亮珍珠",
+                    "text": "花苞形态的时候性格稳重，开花后则一直笑容满面。天如果阴下来就会变回花苞。"
+                },
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": "除了偶尔颤动之外几乎动也不动。从紧闭的花瓣中泄漏而出的香气会吸引多种宝可梦聚集而来。（阴天形态）\n一到了晴天就会非常积极地活动起来，但只要太阳被遮住，就会立刻闭上花瓣停止动作。（晴天形态）"
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": []
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "樱花宝",
+                "stage": "未进化",
+                "text": null,
+                "image": "420Cherubi_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "樱花儿",
+                "stage": "1阶进化",
+                "text": "等级25以上",
+                "image": "421Cherrim_Dream.png",
+                "back_text": "",
+                "from": "樱花宝",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "樱花儿",
+        "zh_hant": "櫻花兒",
+        "en": "Cherrim",
+        "fr": "Cherrim",
+        "de": "Kinoso",
+        "it": "Cherrim",
+        "es": "Cherrim",
+        "ja": "チェリム",
+        "ko": "체리꼬"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "晨光",
+                        "flavor_text": "回复自己的ＨＰ。根据天气的不同，回复量也会有所变化。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "撞击",
+                        "flavor_text": "用整个身体撞向对手进行攻击。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "35"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "树叶",
+                        "flavor_text": "将叶片打向对手，进行攻击。",
+                        "type": "草",
+                        "category": "物理",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "40"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "生长",
+                        "flavor_text": "让身体一下子长大，从而提高攻击和特攻。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "鲜花防守",
+                        "flavor_text": "使用神奇的力量提高在场的所有草属性宝可梦的防御。",
+                        "type": "妖精",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "进化",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "15",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "帮助",
+                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "20",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "魔法叶",
+                        "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
+                        "type": "草",
+                        "category": "特殊",
+                        "power": "60",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "28",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "寄生种子",
+                        "flavor_text": "植入寄生种子后，将在每回合一点一点吸取对手的ＨＰ，从而用来回复自己的ＨＰ。",
+                        "type": "草",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "34",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "猛撞",
+                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "90",
+                        "accuracy": "85",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "41",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "落英缤纷",
+                        "flavor_text": "猛烈地刮起飞雪般的落花，攻击周围所有的宝可梦，并给予伤害。",
+                        "type": "草",
+                        "category": "物理",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "48",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "烦恼种子",
+                        "flavor_text": "种植心神不宁的种子。使对手不能入眠，并将特性变成不眠。",
+                        "type": "草",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "55",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "日光束",
+                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
+                        "type": "草",
+                        "category": "特殊",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "62",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "花瓣舞",
+                        "flavor_text": "在２～３回合内，散落花瓣攻击对手。之后自己会陷入混乱。",
+                        "type": "草",
+                        "category": "特殊",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８",
+                        "method": "招式学习器",
+                        "name": "破坏光线",
+                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９",
+                        "method": "招式学习器",
+                        "name": "终极冲击",
+                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "150",
+                        "accuracy": "90",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０",
+                        "method": "招式学习器",
+                        "name": "魔法叶",
+                        "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "60",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１１",
+                        "method": "招式学习器",
+                        "name": "日光束",
+                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "120",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１２",
+                        "method": "招式学习器",
+                        "name": "日光刃",
+                        "flavor_text": "第１回合收集满满的日光，第２回合将此力量集中在剑上进行攻击。",
+                        "type": "草",
+                        "class": "物理",
+                        "power": "125",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１９",
+                        "method": "招式学习器",
+                        "name": "神秘守护",
+                        "flavor_text": "在５回合内被神奇的力量守护，从而不会陷入异常状态。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "25"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２１",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２４",
+                        "method": "招式学习器",
+                        "name": "打鼾",
+                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２５",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２８",
+                        "method": "招式学习器",
+                        "name": "终极吸取",
+                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "75",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３１",
+                        "method": "招式学习器",
+                        "name": "迷人",
+                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３４",
+                        "method": "招式学习器",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器３９",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４１",
+                        "method": "招式学习器",
+                        "name": "帮助",
+                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器４６",
+                        "method": "招式学习器",
+                        "name": "气象球",
+                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器５０",
+                        "method": "招式学习器",
+                        "name": "种子机关枪",
+                        "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
+                        "type": "草",
+                        "class": "物理",
+                        "power": "25",
+                        "accuracy": "100",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器７６",
+                        "method": "招式学习器",
+                        "name": "轮唱",
+                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８７",
+                        "method": "招式学习器",
+                        "name": "吸取之吻",
+                        "flavor_text": "用一个吻吸取对手的ＨＰ。回复给予对手伤害的一半以上的ＨＰ。",
+                        "type": "妖精",
+                        "class": "特殊",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器８８",
+                        "method": "招式学习器",
+                        "name": "青草场地",
+                        "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
+                        "type": "草",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录００",
+                        "method": "招式学习器",
+                        "name": "剑舞",
+                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录２０",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录２６",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录２７",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录５９",
+                        "method": "招式学习器",
+                        "name": "种子炸弹",
+                        "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
+                        "type": "草",
+                        "class": "物理",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录６５",
+                        "method": "招式学习器",
+                        "name": "能量球",
+                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录７７",
+                        "method": "招式学习器",
+                        "name": "打草结",
+                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
+                        "type": "草",
+                        "class": "特殊",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录９０",
+                        "method": "招式学习器",
+                        "name": "嬉闹",
+                        "flavor_text": "与对手嬉闹并攻击。有时会降低对手的攻击。",
+                        "type": "妖精",
+                        "class": "物理",
+                        "power": "90",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录９２",
+                        "method": "招式学习器",
+                        "name": "魔法闪耀",
+                        "flavor_text": "向对手发射强光，并给予伤害。",
+                        "type": "妖精",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式记录９６",
+                        "method": "招式学习器",
+                        "name": "花粉团",
+                        "flavor_text": "对敌人使用是会爆炸的团子。对我方使用则是给予回复的团子。",
+                        "type": "虫",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "15"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "樱花儿-阴天形态",
+            "image": "0421-樱花儿-阴天形态.png",
+            "shiny": "0421-樱花儿-阴天形态-shiny.png"
+        },
+        {
+            "name": "樱花儿-晴天形态",
+            "image": "0421-樱花儿-晴天形态.png",
+            "shiny": "0421-樱花儿-晴天形态-shiny.png"
+        }
+    ]
+}

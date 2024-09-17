@@ -1,0 +1,739 @@
+{
+    "name": "晶光芽",
+    "profile": "晶光芽从洞窟的壁上吸取营养，包覆在身上的花瓣是用毒所凝聚的结晶做成的，会像撒花粉一样撒出毒粉来保护自身安全。\n",
+    "forms": [
+        {
+            "name": "晶光芽",
+            "index": "0969",
+            "is_mega": false,
+            "is_gmax": false,
+            "image": "0969-晶光芽.png",
+            "types": [
+                "岩石",
+                "毒"
+            ],
+            "genus": "矿石宝可梦",
+            "ability": [
+                {
+                    "name": "毒满地",
+                    "is_hidden": false
+                },
+                {
+                    "name": "腐蚀",
+                    "is_hidden": true
+                }
+            ],
+            "experience": {
+                "number": "1,059,860",
+                "speed": "较慢"
+            },
+            "height": "0.7m",
+            "weight": "8.0kg",
+            "gender_rate": {
+                "male": "50%",
+                "female": "50%"
+            },
+            "shape": "球形",
+            "color": "蓝色",
+            "catch_rate": {
+                "number": "70",
+                "rate": "9.2%"
+            },
+            "egg_groups": [
+                "矿物"
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "form": "一般",
+            "data": {
+                "hp": "48",
+                "attack": "35",
+                "defense": "42",
+                "sp_attack": "105",
+                "sp_defense": "60"
+            }
+        }
+    ],
+    "flavor_texts": [
+        {
+            "name": "第一世代",
+            "versions": []
+        },
+        {
+            "name": "第二世代",
+            "versions": []
+        },
+        {
+            "name": "第三世代",
+            "versions": []
+        },
+        {
+            "name": "第四世代",
+            "versions": []
+        },
+        {
+            "name": "第五世代",
+            "versions": []
+        },
+        {
+            "name": "第六世代",
+            "versions": []
+        },
+        {
+            "name": "第七世代",
+            "versions": []
+        },
+        {
+            "name": "第八世代",
+            "versions": [
+                {
+                    "name": "传说 阿尔宙斯",
+                    "group": "宝可梦传说 阿尔宙斯",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "第九世代",
+            "versions": [
+                {
+                    "name": "朱",
+                    "group": "宝可梦 朱／紫",
+                    "text": "从洞窟的壁上吸取营养。包覆在身上的花瓣是用毒所凝聚的结晶做成的。"
+                },
+                {
+                    "name": "紫",
+                    "group": "宝可梦 朱／紫",
+                    "text": "成分为毒的结晶看起来就像是花瓣。会像撒花粉一样撒出毒粉来保护自身安全。"
+                }
+            ]
+        }
+    ],
+    "evolution_chains": [
+        [
+            {
+                "name": "晶光芽",
+                "stage": "未进化",
+                "text": null,
+                "image": "969Glimmet_Dream.png",
+                "back_text": null,
+                "from": null,
+                "form_name": null
+            },
+            {
+                "name": "晶光花",
+                "stage": "1阶进化",
+                "text": "等级35以上",
+                "image": "970Glimmora_Dream.png",
+                "back_text": "",
+                "from": "晶光芽",
+                "form_name": null
+            }
+        ]
+    ],
+    "names": {
+        "zh_hans": "晶光芽",
+        "zh_hant": "晶光芽",
+        "en": "Glimmet",
+        "fr": "Glimmet",
+        "de": "Lumispross",
+        "it": "Glimmet",
+        "es": "Glimmet",
+        "ja": "キラーメ",
+        "ko": "초롱순"
+    },
+    "moves": {
+        "learned": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "落石",
+                        "flavor_text": "拿起小岩石，投掷对手进行攻击。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "50",
+                        "accuracy": "90",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "变硬",
+                        "flavor_text": "全身使劲，让身体变硬，从而提高自己的防御。",
+                        "type": "一般",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": "—",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "击落",
+                        "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": "7",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "酸液炸弹",
+                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "11",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "原始之力",
+                        "flavor_text": "用原始之力进行攻击。有时会提高自己所有的能力。",
+                        "type": "岩石",
+                        "category": "特殊",
+                        "power": "60",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "15",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "岩石打磨",
+                        "flavor_text": "打磨自己的身体，减少空气阻力。可以大幅提高自己的速度。",
+                        "type": "岩石",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "18",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "隐形岩",
+                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
+                        "type": "岩石",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "22",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "毒液冲击",
+                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "26",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "沙暴",
+                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
+                        "type": "岩石",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "29",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "玉石俱碎",
+                        "flavor_text": "引发爆炸，攻击自己周围所有的宝可梦。使用后陷入昏厥。",
+                        "type": "一般",
+                        "category": "物理",
+                        "power": "200",
+                        "accuracy": "100",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": "33",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "岩崩",
+                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
+                        "type": "岩石",
+                        "category": "物理",
+                        "power": "75",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": "37",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "力量宝石",
+                        "flavor_text": "发射如宝石般闪耀的光芒攻击对手。",
+                        "type": "岩石",
+                        "category": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "41",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "溶化",
+                        "flavor_text": "通过细胞的变化进行液化，从而大幅提高自己的防御。",
+                        "type": "毒",
+                        "category": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": "46",
+                        "machine_used": null,
+                        "method": "提升等级",
+                        "name": "污泥波",
+                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
+                        "type": "毒",
+                        "category": "特殊",
+                        "power": "95",
+                        "accuracy": "100",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ],
+        "machine": [
+            {
+                "form": "一般",
+                "data": [
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器００７",
+                        "method": "招式学习器",
+                        "name": "守住",
+                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１３",
+                        "method": "招式学习器",
+                        "name": "酸液炸弹",
+                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "40",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０１７",
+                        "method": "招式学习器",
+                        "name": "奇异之光",
+                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
+                        "type": "幽灵",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０２５",
+                        "method": "招式学习器",
+                        "name": "硬撑",
+                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
+                        "type": "一般",
+                        "class": "物理",
+                        "power": "70",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３５",
+                        "method": "招式学习器",
+                        "name": "泥巴射击",
+                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
+                        "type": "地面",
+                        "class": "特殊",
+                        "power": "55",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０３６",
+                        "method": "招式学习器",
+                        "name": "岩石封锁",
+                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
+                        "type": "岩石",
+                        "class": "物理",
+                        "power": "60",
+                        "accuracy": "95",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４５",
+                        "method": "招式学习器",
+                        "name": "毒液冲击",
+                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "65",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４７",
+                        "method": "招式学习器",
+                        "name": "挺住",
+                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０４９",
+                        "method": "招式学习器",
+                        "name": "大晴天",
+                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
+                        "type": "火",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５０",
+                        "method": "招式学习器",
+                        "name": "求雨",
+                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
+                        "type": "水",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０５１",
+                        "method": "招式学习器",
+                        "name": "沙暴",
+                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
+                        "type": "岩石",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７０",
+                        "method": "招式学习器",
+                        "name": "梦话",
+                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７４",
+                        "method": "招式学习器",
+                        "name": "反射壁",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７５",
+                        "method": "招式学习器",
+                        "name": "光墙",
+                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "30"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７６",
+                        "method": "招式学习器",
+                        "name": "岩石爆击",
+                        "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
+                        "type": "岩石",
+                        "class": "物理",
+                        "power": "25",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０７９",
+                        "method": "招式学习器",
+                        "name": "魔法闪耀",
+                        "flavor_text": "向对手发射强光，并给予伤害。",
+                        "type": "妖精",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８５",
+                        "method": "招式学习器",
+                        "name": "睡觉",
+                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
+                        "type": "超能力",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０８６",
+                        "method": "招式学习器",
+                        "name": "岩崩",
+                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
+                        "type": "岩石",
+                        "class": "物理",
+                        "power": "75",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９０",
+                        "method": "招式学习器",
+                        "name": "撒菱",
+                        "flavor_text": "在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害。",
+                        "type": "地面",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器０９１",
+                        "method": "招式学习器",
+                        "name": "毒菱",
+                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
+                        "type": "毒",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０１",
+                        "method": "招式学习器",
+                        "name": "力量宝石",
+                        "flavor_text": "发射如宝石般闪耀的光芒攻击对手。",
+                        "type": "岩石",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０２",
+                        "method": "招式学习器",
+                        "name": "垃圾射击",
+                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "class": "物理",
+                        "power": "120",
+                        "accuracy": "80",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０３",
+                        "method": "招式学习器",
+                        "name": "替身",
+                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+                        "type": "一般",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１０４",
+                        "method": "招式学习器",
+                        "name": "铁壁",
+                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
+                        "type": "钢",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１１６",
+                        "method": "招式学习器",
+                        "name": "隐形岩",
+                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
+                        "type": "岩石",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "—",
+                        "pp": "20"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１４８",
+                        "method": "招式学习器",
+                        "name": "污泥炸弹",
+                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "90",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１５０",
+                        "method": "招式学习器",
+                        "name": "尖石攻击",
+                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
+                        "type": "岩石",
+                        "class": "物理",
+                        "power": "100",
+                        "accuracy": "80",
+                        "pp": "5"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７１",
+                        "method": "招式学习器",
+                        "name": "太晶爆发",
+                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
+                        "type": "一般",
+                        "class": "特殊",
+                        "power": "80",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７５",
+                        "method": "招式学习器",
+                        "name": "剧毒",
+                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
+                        "type": "毒",
+                        "class": "变化",
+                        "power": "—",
+                        "accuracy": "90",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７６",
+                        "method": "招式学习器",
+                        "name": "流沙深渊",
+                        "flavor_text": "将对手困在铺天盖地的沙暴中，在４～５回合内进行攻击。",
+                        "type": "地面",
+                        "class": "物理",
+                        "power": "35",
+                        "accuracy": "85",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器１７９",
+                        "method": "招式学习器",
+                        "name": "击落",
+                        "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
+                        "type": "岩石",
+                        "class": "物理",
+                        "power": "50",
+                        "accuracy": "100",
+                        "pp": "15"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２１４",
+                        "method": "招式学习器",
+                        "name": "污泥波",
+                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
+                        "type": "毒",
+                        "class": "特殊",
+                        "power": "95",
+                        "accuracy": "100",
+                        "pp": "10"
+                    },
+                    {
+                        "level_learned_at": null,
+                        "machine_used": "招式学习器２２０",
+                        "method": "招式学习器",
+                        "name": "流星光束",
+                        "flavor_text": "第１回合聚集宇宙之力提高特攻，第２回合攻击对手。",
+                        "type": "岩石",
+                        "class": "特殊",
+                        "power": "120",
+                        "accuracy": "90",
+                        "pp": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    "home_images": [
+        {
+            "name": "晶光芽",
+            "image": "0969-晶光芽-.png",
+            "shiny": "0969-晶光芽--shiny.png"
+        },
+        {
+            "name": "晶光芽",
+            "image": "0969-晶光芽-.png",
+            "shiny": "0969-晶光芽--shiny.png"
+        }
+    ]
+}
