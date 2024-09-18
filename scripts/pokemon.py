@@ -149,7 +149,7 @@ def get_form_infos(soup, names, pokemon_name, pokemon_index):
 
       image_url = img_el.get('data-url')
       image_path = f'{PATH}/image/official/{image_name}.png'
-      save_image(image_path, f'https:{image_url}')
+      # save_image(image_path, f'https:{image_url}')
       
       # gender rate
       gender_a = form.find('a', attrs={'title': '宝可梦列表（按性别比例分类）'})
@@ -158,11 +158,13 @@ def get_form_infos(soup, names, pokemon_name, pokemon_index):
         male_el = gender_table.find('span', attrs={
           'style': 'color:#00F;'
         })
-        male = re.search(r'\d+%', male_el.text.strip()).group() if male_el else None
+        male = re.findall(r'\d+\.?\d*%', male_el.text.strip())[0] if male_el else None
+        # male = re.search(r'\d+%', male_el.text.strip()).group() if male_el else None
         female_el = gender_table.find('span', attrs={
           'style': 'color:#FF6060;'
         })
-        female = re.search(r'\d+%', female_el.text.strip()).group() if female_el else None
+        female = re.findall(r'\d+\.?\d*%', female_el.text.strip())[0] if female_el else None
+        # female = re.search(r'\d+%', female_el.text.strip()).group() if female_el else None
         form_info['gender_rate'] = {
           'male': male,
           'female': female
@@ -631,7 +633,7 @@ def get_home_images(soup, name, index):
     image = td.find('img').get('data-url')
     if is_shiny is False:
       image_name = f'{index}-{name}-{form_name}{extra_name}.png' if form_name else f'{index}-{name}{extra_name}.png'
-      save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
+      # save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
       item = {
         'name': item_name,
         'image': image_name,
@@ -639,7 +641,7 @@ def get_home_images(soup, name, index):
       home_images.append(item)
     else:
       image_name =  f'{index}-{name}-{form_name}{extra_name}-shiny.png' if form_name else f'{index}-{name}{extra_name}-shiny.png'
-      save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
+      # save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
       exist_item = next((item for item in home_images if item["name"] == item_name), None)
       if exist_item:
         exist_item['shiny'] = image_name
@@ -653,7 +655,7 @@ def get_home_images(soup, name, index):
   return home_images
 
 if __name__ == '__main__':
-  name = '够赞狗'
+  name = '妙蛙种子'
   data = get_pokemon_data(name, index='111')
   save_to_file(f'{PATH}/pokemon/{name}.json', data)
 
