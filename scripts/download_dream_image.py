@@ -5,7 +5,7 @@ from utils import save_image
 
 TOTAL_PAGE = math.floor(1371 / 200) + 1
 URL = 'https://wiki.52poke.com/index.php?title=Category:宝可梦版权绘'
-PATH = './../data/image/dream/'
+PATH = './../data/images/dream/'
 
 page = 1
 

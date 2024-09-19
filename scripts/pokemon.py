@@ -148,7 +148,7 @@ def get_form_infos(soup, names, pokemon_name, pokemon_index):
       img_el = form.select('.roundy.bgwhite.fulltable')[0].find('img')
 
       image_url = img_el.get('data-url')
-      image_path = f'{PATH}/image/official/{image_name}.png'
+      image_path = f'{PATH}/images/official/{image_name}.png'
       # save_image(image_path, f'https:{image_url}')
       
       # gender rate
@@ -274,7 +274,6 @@ def get_flavor_texts(soup):
     }
     tr = th.find_parent('tr')
     text_table_list = tr.find_next_sibling().find_all('table')
-    version_groups = []
     versions = []
 
 
@@ -298,7 +297,7 @@ def get_flavor_texts(soup):
             version_group_name = a.get('title')
             version_name = a.text.strip()
 
-            if "{{{" in text or "}}}" in text:
+            if "{{{" in text or "}}}" in text or text == "":
               pass
             else:
               version = {
@@ -633,7 +632,7 @@ def get_home_images(soup, name, index):
     image = td.find('img').get('data-url')
     if is_shiny is False:
       image_name = f'{index}-{name}-{form_name}{extra_name}.png' if form_name else f'{index}-{name}{extra_name}.png'
-      # save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
+      # save_image(f'{PATH}/images/home/{image_name}', f'https:{image}')
       item = {
         'name': item_name,
         'image': image_name,
@@ -641,7 +640,7 @@ def get_home_images(soup, name, index):
       home_images.append(item)
     else:
       image_name =  f'{index}-{name}-{form_name}{extra_name}-shiny.png' if form_name else f'{index}-{name}{extra_name}-shiny.png'
-      # save_image(f'{PATH}/image/home/{image_name}', f'https:{image}')
+      # save_image(f'{PATH}/images/home/{image_name}', f'https:{image}')
       exist_item = next((item for item in home_images if item["name"] == item_name), None)
       if exist_item:
         exist_item['shiny'] = image_name
@@ -655,7 +654,7 @@ def get_home_images(soup, name, index):
   return home_images
 
 if __name__ == '__main__':
-  name = '妙蛙种子'
+  name = '妙蛙草'
   data = get_pokemon_data(name, index='111')
   save_to_file(f'{PATH}/pokemon/{name}.json', data)
 
