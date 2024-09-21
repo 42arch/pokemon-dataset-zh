@@ -23,8 +23,8 @@ def get_pokemon_full_list():
 
   table_list = soup.find_all('table', class_="eplist")
 
-  for index, table in enumerate(table_list):
-    generation = index + 1
+  for table in table_list:
+    generation = table.find_previous('h2').text.strip().replace("宝可梦", "")
     tr_list = table.find('tbody').find_all('tr')
     for tr in tr_list:
       if tr.get("data-type") is not None:
@@ -33,7 +33,7 @@ def get_pokemon_full_list():
         name = f'''{td_list[3].find('a').text}-{td_list[3].find('small').text}''' if td_list[3].find('small') else td_list[3].find('a').text
         name_jp = td_list[4].text.strip()
         name_en = td_list[5].text.strip()
-        types = tr.get('data-type').strip().split(':')
+        types = tr.get('data-type').replace('惡', '恶').strip().split(':')
         image_class = td_list[1].find('span').get('class')[-1]
 
         image_style = driver.find_elements(By.CLASS_NAME, image_class)[0]

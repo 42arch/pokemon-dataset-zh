@@ -5,6 +5,7 @@ import requests
 
 from utils import save_to_file
 
+PATH = './../data'
 
 def get_move_list():
   url = 'https://wiki.52poke.com/wiki/招式列表'
@@ -27,7 +28,7 @@ def get_move_list():
           'name': tds[1].find('a').text.strip(),
           'name_jp': tds[2].text.strip(),
           'name_en': tds[3].text.strip(),
-          'type': tds[4].find('a').text.strip(),
+          'type': tds[4].find('a').text.replace('惡', '恶').strip(),
           'category': tds[5].find('a').text.strip(),
           'power': tds[6].text.strip(),
           'accuracy': tds[7].text.strip(),
@@ -35,7 +36,7 @@ def get_move_list():
           'text': tds[9].text.strip(),
         }
         moves.append(move)
-  save_to_file('./data/move_list.json', moves)
+  save_to_file(f'{PATH}/move_list.json', moves)
   return moves
 
 if __name__ == '__main__':
