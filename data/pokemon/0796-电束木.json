@@ -342,7 +342,7 @@
                         "name": "雷电拳",
                         "flavor_text": "用充满电流的拳头攻击对手。有时会让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "75",
                         "accuracy": "100",
                         "pp": "15"
@@ -354,7 +354,7 @@
                         "name": "破坏光线",
                         "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "150",
                         "accuracy": "90",
                         "pp": "5"
@@ -366,7 +366,7 @@
                         "name": "终极冲击",
                         "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
                         "type": "一般",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "150",
                         "accuracy": "90",
                         "pp": "5"
@@ -378,7 +378,7 @@
                         "name": "日光束",
                         "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "120",
                         "accuracy": "100",
                         "pp": "10"
@@ -390,7 +390,7 @@
                         "name": "电磁波",
                         "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "90",
                         "pp": "20"
@@ -402,7 +402,7 @@
                         "name": "光墙",
                         "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "30"
@@ -414,7 +414,7 @@
                         "name": "反射壁",
                         "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -426,7 +426,7 @@
                         "name": "睡觉",
                         "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -438,7 +438,7 @@
                         "name": "打鼾",
                         "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "50",
                         "accuracy": "100",
                         "pp": "15"
@@ -450,7 +450,7 @@
                         "name": "守住",
                         "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -462,7 +462,7 @@
                         "name": "求雨",
                         "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
                         "type": "水",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "5"
@@ -474,7 +474,7 @@
                         "name": "大晴天",
                         "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
                         "type": "火",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "5"
@@ -486,7 +486,7 @@
                         "name": "硬撑",
                         "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
                         "type": "一般",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -498,7 +498,7 @@
                         "name": "投掷",
                         "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
                         "type": "恶",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "10"
@@ -510,7 +510,7 @@
                         "name": "轮唱",
                         "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "15"
@@ -522,7 +522,7 @@
                         "name": "伏特替换",
                         "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -534,7 +534,7 @@
                         "name": "电网",
                         "flavor_text": "用电网捉住对手进行攻击。会降低对手的速度。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "55",
                         "accuracy": "95",
                         "pp": "15"
@@ -546,7 +546,7 @@
                         "name": "电气场地",
                         "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
                         "type": "电",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -558,7 +558,7 @@
                         "name": "怪异电波",
                         "flavor_text": "从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻。",
                         "type": "电",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "15"
@@ -570,7 +570,7 @@
                         "name": "狂舞挥打",
                         "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
                         "type": "恶",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "20"
@@ -582,7 +582,7 @@
                         "name": "十万伏特",
                         "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "15"
@@ -594,7 +594,7 @@
                         "name": "打雷",
                         "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "110",
                         "accuracy": "70",
                         "pp": "10"
@@ -606,7 +606,7 @@
                         "name": "替身",
                         "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -618,7 +618,7 @@
                         "name": "挺住",
                         "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -630,7 +630,7 @@
                         "name": "梦话",
                         "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -642,7 +642,7 @@
                         "name": "冥想",
                         "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -654,7 +654,7 @@
                         "name": "能量球",
                         "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -666,7 +666,7 @@
                         "name": "强力鞭打",
                         "flavor_text": "激烈地挥舞青藤或触手摔打对手进行攻击。",
                         "type": "草",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "120",
                         "accuracy": "85",
                         "pp": "10"
@@ -678,7 +678,7 @@
                         "name": "打草结",
                         "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "20"
@@ -690,7 +690,7 @@
                         "name": "电球",
                         "flavor_text": "用电气团撞向对手。自己比对手速度越快，威力越大。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "10"
@@ -702,7 +702,7 @@
                         "name": "疯狂伏特",
                         "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
                         "type": "电",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "15"
@@ -714,7 +714,7 @@
                         "name": "魔法闪耀",
                         "flavor_text": "向对手发射强光，并给予伤害。",
                         "type": "妖精",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "10"

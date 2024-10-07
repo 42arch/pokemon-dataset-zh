@@ -593,7 +593,7 @@ def get_moves(soup):
         "name": td_list[2].find('a').text.strip(),
         "flavor_text": td_list[2].find('span', class_='explain').get('title'),
         "type": td_list[3].find('a').text.strip(),
-        "class": td_list[4].text.strip(),
+        "category": td_list[4].text.strip(),
         "power": td_list[5].text.strip(),
         "accuracy": td_list[6].text.strip(),
         "pp": td_list[7].text.strip(),

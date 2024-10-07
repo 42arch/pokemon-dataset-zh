@@ -370,7 +370,7 @@
                         "name": "飞翔",
                         "flavor_text": "第１回合飞上天空，第２回合攻击对手。",
                         "type": "飞行",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "90",
                         "accuracy": "95",
                         "pp": "15"
@@ -382,7 +382,7 @@
                         "name": "电磁波",
                         "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "90",
                         "pp": "20"
@@ -394,7 +394,7 @@
                         "name": "光墙",
                         "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "30"
@@ -406,7 +406,7 @@
                         "name": "反射壁",
                         "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -418,7 +418,7 @@
                         "name": "神秘守护",
                         "flavor_text": "在５回合内被神奇的力量守护，从而不会陷入异常状态。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "25"
@@ -430,7 +430,7 @@
                         "name": "睡觉",
                         "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -442,7 +442,7 @@
                         "name": "小偷",
                         "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
                         "type": "恶",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "25"
@@ -454,7 +454,7 @@
                         "name": "打鼾",
                         "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "50",
                         "accuracy": "100",
                         "pp": "15"
@@ -466,7 +466,7 @@
                         "name": "守住",
                         "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -478,7 +478,7 @@
                         "name": "终极吸取",
                         "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "75",
                         "accuracy": "100",
                         "pp": "10"
@@ -490,7 +490,7 @@
                         "name": "撒娇",
                         "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
                         "type": "妖精",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "20"
@@ -502,7 +502,7 @@
                         "name": "钢翼",
                         "flavor_text": "用坚硬的翅膀敲打对手进行攻击。有时会提高自己的防御。",
                         "type": "钢",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "90",
                         "pp": "25"
@@ -514,7 +514,7 @@
                         "name": "迷人",
                         "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "15"
@@ -526,7 +526,7 @@
                         "name": "求雨",
                         "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
                         "type": "水",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "5"
@@ -538,7 +538,7 @@
                         "name": "硬撑",
                         "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
                         "type": "一般",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -550,7 +550,7 @@
                         "name": "高速星星",
                         "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "60",
                         "accuracy": "—",
                         "pp": "20"
@@ -562,7 +562,7 @@
                         "name": "帮助",
                         "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -574,7 +574,7 @@
                         "name": "封印",
                         "flavor_text": "如果对手有和自己相同的招式，那么只有对手无法使用该招式。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -586,7 +586,7 @@
                         "name": "假哭",
                         "flavor_text": "装哭流泪。使对手不知所措，从而大幅降低对手的特防。",
                         "type": "恶",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "20"
@@ -598,7 +598,7 @@
                         "name": "急速折返",
                         "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
                         "type": "虫",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -610,7 +610,7 @@
                         "name": "恶意追击",
                         "flavor_text": "如果此回合内对手已经受到伤害的话，招式威力会变成２倍。",
                         "type": "恶",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "10"
@@ -622,7 +622,7 @@
                         "name": "速度互换",
                         "flavor_text": "将对手和自己的速度进行互换。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -634,7 +634,7 @@
                         "name": "精神利刃",
                         "flavor_text": "用实体化的心之利刃劈开对手。容易击中要害。",
                         "type": "超能力",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -646,7 +646,7 @@
                         "name": "戏法空间",
                         "flavor_text": "制造出离奇的空间。在５回合内速度慢的宝可梦可以先行动。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "5"
@@ -658,7 +658,7 @@
                         "name": "轮唱",
                         "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "15"
@@ -670,7 +670,7 @@
                         "name": "杂技",
                         "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
                         "type": "飞行",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "55",
                         "accuracy": "100",
                         "pp": "15"
@@ -682,7 +682,7 @@
                         "name": "空气之刃",
                         "flavor_text": "用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。",
                         "type": "飞行",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "75",
                         "accuracy": "95",
                         "pp": "15"
@@ -694,7 +694,7 @@
                         "name": "精神强念",
                         "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
                         "type": "超能力",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -706,7 +706,7 @@
                         "name": "瞬间失忆",
                         "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -718,7 +718,7 @@
                         "name": "替身",
                         "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -730,7 +730,7 @@
                         "name": "精神冲击",
                         "flavor_text": "将神奇的念波实体化攻击对手。给予物理伤害。",
                         "type": "超能力",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "10"
@@ -742,7 +742,7 @@
                         "name": "挺住",
                         "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -754,7 +754,7 @@
                         "name": "梦话",
                         "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -766,7 +766,7 @@
                         "name": "接棒",
                         "flavor_text": "和后备宝可梦进行替换。换上的宝可梦能直接继承其能力的变化。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "40"
@@ -778,7 +778,7 @@
                         "name": "暗影球",
                         "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
                         "type": "幽灵",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "15"
@@ -790,7 +790,7 @@
                         "name": "预知未来",
                         "flavor_text": "在使用招式２回合后，向对手发送一团念力进行攻击。",
                         "type": "超能力",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "120",
                         "accuracy": "100",
                         "pp": "10"
@@ -802,7 +802,7 @@
                         "name": "吵闹",
                         "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -814,7 +814,7 @@
                         "name": "热风",
                         "flavor_text": "将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态。",
                         "type": "火",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "95",
                         "accuracy": "90",
                         "pp": "10"
@@ -826,7 +826,7 @@
                         "name": "挑衅",
                         "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
                         "type": "恶",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "20"
@@ -838,7 +838,7 @@
                         "name": "戏法",
                         "flavor_text": "抓住对手的空隙，交换自己和对手的持有物。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "10"
@@ -850,7 +850,7 @@
                         "name": "特性互换",
                         "flavor_text": "利用超能力互换自己和对手的特性。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -862,7 +862,7 @@
                         "name": "冥想",
                         "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -874,7 +874,7 @@
                         "name": "陀螺球",
                         "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
                         "type": "钢",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "5"
@@ -886,7 +886,7 @@
                         "name": "能量球",
                         "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -898,7 +898,7 @@
                         "name": "诡计",
                         "flavor_text": "谋划诡计，激活头脑。大幅提高自己的特攻。",
                         "type": "恶",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -910,7 +910,7 @@
                         "name": "意念头锤",
                         "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
                         "type": "超能力",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "80",
                         "accuracy": "90",
                         "pp": "15"
@@ -922,7 +922,7 @@
                         "name": "辅助力量",
                         "flavor_text": "用蓄积起来的力量攻击对手。自己的能力提高得越多，威力就越大。",
                         "type": "超能力",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "20",
                         "accuracy": "100",
                         "pp": "10"
@@ -934,7 +934,7 @@
                         "name": "交换场地",
                         "flavor_text": "用神奇的力量瞬间移动，互换自己和同伴所在的位置。连续使出则容易失败。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "15"
@@ -946,7 +946,7 @@
                         "name": "毒液陷阱",
                         "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，其攻击、特攻和速度都会降低。",
                         "type": "毒",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "100",
                         "pp": "20"

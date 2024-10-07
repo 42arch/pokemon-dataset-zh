@@ -404,7 +404,7 @@ FIXED_EVOLUTION_DATA = {
             "image": "128Tauros-Combat_Dream.png",
             "back_text": "",
             "from": None,
-            "form_name": "火炽种"
+            "form_name": "斗战种"
         }
       ],
       [
@@ -426,8 +426,20 @@ FIXED_EVOLUTION_DATA = {
             "image": "128Tauros-Aqua_Dream.png",
             "back_text": "",
             "from": None,
-            "form_name": "火炽种"
+            "form_name": "水澜种"
         }
       ]
+    ],
+    "小陨星": [
+        [
+            {
+                "name": "小陨星",
+                "stage": "不进化",
+                "image": "774Minior_Dream.png",
+                "text": None,
+                "back_text": None,
+                "from": None
+            }
+        ]
     ]
 }

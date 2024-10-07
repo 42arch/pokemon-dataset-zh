@@ -352,7 +352,7 @@
                         "name": "飞翔",
                         "flavor_text": "第１回合飞上天空，第２回合攻击对手。",
                         "type": "飞行",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "90",
                         "accuracy": "95",
                         "pp": "15"
@@ -364,7 +364,7 @@
                         "name": "破坏光线",
                         "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "150",
                         "accuracy": "90",
                         "pp": "5"
@@ -376,7 +376,7 @@
                         "name": "终极冲击",
                         "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
                         "type": "一般",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "150",
                         "accuracy": "90",
                         "pp": "5"
@@ -388,7 +388,7 @@
                         "name": "日光束",
                         "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "120",
                         "accuracy": "100",
                         "pp": "10"
@@ -400,7 +400,7 @@
                         "name": "电磁波",
                         "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "90",
                         "pp": "20"
@@ -412,7 +412,7 @@
                         "name": "刺耳声",
                         "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "85",
                         "pp": "40"
@@ -424,7 +424,7 @@
                         "name": "光墙",
                         "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "30"
@@ -436,7 +436,7 @@
                         "name": "反射壁",
                         "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "20"
@@ -448,7 +448,7 @@
                         "name": "玉石俱碎",
                         "flavor_text": "引发爆炸，攻击自己周围所有的宝可梦。使用后陷入昏厥。",
                         "type": "一般",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "200",
                         "accuracy": "100",
                         "pp": "5"
@@ -460,7 +460,7 @@
                         "name": "睡觉",
                         "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -472,7 +472,7 @@
                         "name": "打鼾",
                         "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "50",
                         "accuracy": "100",
                         "pp": "15"
@@ -484,7 +484,7 @@
                         "name": "守住",
                         "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -496,7 +496,7 @@
                         "name": "终极吸取",
                         "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "75",
                         "accuracy": "100",
                         "pp": "10"
@@ -508,7 +508,7 @@
                         "name": "硬撑",
                         "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
                         "type": "一般",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -520,7 +520,7 @@
                         "name": "高速星星",
                         "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "60",
                         "accuracy": "—",
                         "pp": "20"
@@ -532,7 +532,7 @@
                         "name": "急速折返",
                         "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
                         "type": "虫",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "20"
@@ -544,7 +544,7 @@
                         "name": "恶意追击",
                         "flavor_text": "如果此回合内对手已经受到伤害的话，招式威力会变成２倍。",
                         "type": "恶",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "10"
@@ -556,7 +556,7 @@
                         "name": "暗影爪",
                         "flavor_text": "以影子做成的锐爪，劈开对手。容易击中要害。",
                         "type": "幽灵",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "70",
                         "accuracy": "100",
                         "pp": "15"
@@ -568,7 +568,7 @@
                         "name": "轮唱",
                         "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "60",
                         "accuracy": "100",
                         "pp": "15"
@@ -580,7 +580,7 @@
                         "name": "电网",
                         "flavor_text": "用电网捉住对手进行攻击。会降低对手的速度。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "55",
                         "accuracy": "95",
                         "pp": "15"
@@ -592,7 +592,7 @@
                         "name": "喷射火焰",
                         "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
                         "type": "火",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "15"
@@ -604,7 +604,7 @@
                         "name": "冰冻光束",
                         "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
                         "type": "冰",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -616,7 +616,7 @@
                         "name": "暴风雪",
                         "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
                         "type": "冰",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "110",
                         "accuracy": "70",
                         "pp": "5"
@@ -628,7 +628,7 @@
                         "name": "十万伏特",
                         "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "15"
@@ -640,7 +640,7 @@
                         "name": "打雷",
                         "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
                         "type": "电",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "110",
                         "accuracy": "70",
                         "pp": "10"
@@ -652,7 +652,7 @@
                         "name": "精神强念",
                         "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
                         "type": "超能力",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -664,7 +664,7 @@
                         "name": "吸血",
                         "flavor_text": "吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ。",
                         "type": "虫",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "10"
@@ -676,7 +676,7 @@
                         "name": "三重攻击",
                         "flavor_text": "用３种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。",
                         "type": "一般",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "10"
@@ -688,7 +688,7 @@
                         "name": "替身",
                         "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -700,7 +700,7 @@
                         "name": "挺住",
                         "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -712,7 +712,7 @@
                         "name": "梦话",
                         "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
                         "type": "一般",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "10"
@@ -724,7 +724,7 @@
                         "name": "火焰踢",
                         "flavor_text": "攻击对手后，有时会使其陷入灼伤状态。也容易击中要害。",
                         "type": "火",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "85",
                         "accuracy": "90",
                         "pp": "10"
@@ -736,7 +736,7 @@
                         "name": "铁壁",
                         "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
                         "type": "钢",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "15"
@@ -748,7 +748,7 @@
                         "name": "恶之波动",
                         "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
                         "type": "恶",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "15"
@@ -760,7 +760,7 @@
                         "name": "十字剪",
                         "flavor_text": "将镰刀或爪子像剪刀般地交叉，顺势劈开对手。",
                         "type": "虫",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "15"
@@ -772,7 +772,7 @@
                         "name": "虫鸣",
                         "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
                         "type": "虫",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -784,7 +784,7 @@
                         "name": "能量球",
                         "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
                         "type": "草",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "90",
                         "accuracy": "100",
                         "pp": "10"
@@ -796,7 +796,7 @@
                         "name": "意念头锤",
                         "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
                         "type": "超能力",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "80",
                         "accuracy": "90",
                         "pp": "15"
@@ -808,7 +808,7 @@
                         "name": "加农光炮",
                         "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
                         "type": "钢",
-                        "class": "特殊",
+                        "category": "特殊",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "10"
@@ -820,7 +820,7 @@
                         "name": "垃圾射击",
                         "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
                         "type": "毒",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "120",
                         "accuracy": "80",
                         "pp": "5"
@@ -832,7 +832,7 @@
                         "name": "铁头",
                         "flavor_text": "用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。",
                         "type": "钢",
-                        "class": "物理",
+                        "category": "物理",
                         "power": "80",
                         "accuracy": "100",
                         "pp": "15"
@@ -844,7 +844,7 @@
                         "name": "交换场地",
                         "flavor_text": "用神奇的力量瞬间移动，互换自己和同伴所在的位置。连续使出则容易失败。",
                         "type": "超能力",
-                        "class": "变化",
+                        "category": "变化",
                         "power": "—",
                         "accuracy": "—",
                         "pp": "15"
