@@ -3,13 +3,17 @@
 from bs4 import BeautifulSoup
 import requests
 
-from utils import save_to_file
+from move import get_move
+from utils import file_exists, save_to_file
 
 PATH = './../data'
 
 def get_move_list():
+  headers = {
+    'Accept-Language': 'zh-Hans'
+  }
   url = 'https://wiki.52poke.com/wiki/招式列表'
-  response = requests.get(url)
+  response = requests.get(url, headers=headers)
   response.raise_for_status()
   soup = BeautifulSoup(response.text, "html.parser")
 
@@ -28,7 +32,7 @@ def get_move_list():
           'name': tds[1].find('a').text.strip(),
           'name_jp': tds[2].text.strip(),
           'name_en': tds[3].text.strip(),
-          'type': tds[4].find('a').text.replace('惡', '恶').strip(),
+          'type': tds[4].find('a').text.replace('惡', '恶').replace("格鬥", "格斗").strip(),
           'category': tds[5].find('a').text.strip(),
           'power': tds[6].text.strip(),
           'accuracy': tds[7].text.strip(),
@@ -40,4 +44,15 @@ def get_move_list():
   return moves
 
 if __name__ == '__main__':
-  get_move_list()
+  move_list = get_move_list()
+  for move in move_list:
+    # get_move(move)
+    index = move['index']
+    name = move['name']
+    file_name = f'{PATH}/move/{index}-{name}.json'
+    if file_exists(file_name):
+      print(f'{name} 已存在, 跳过...')
+      continue
+    print(f'正在获取 {name}...')
+    data = get_move(move_simple=move)
+    save_to_file(file_name, data)

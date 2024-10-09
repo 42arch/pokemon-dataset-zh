@@ -34,7 +34,6 @@ def get_pokemon_list():
 if __name__ == '__main__':
   pokemon_list = get_pokemon_list()
   for pokemon in pokemon_list:
-
     index = pokemon['index']
     name = pokemon['name']
     file_name = f'{PATH}/pokemon/{index}-{name}.json'
