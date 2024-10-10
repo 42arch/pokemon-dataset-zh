@@ -13,7 +13,7 @@ def get_move(move_simple):
     'Accept-Language': 'zh-Hans'
   }
   name = move_simple['name']
-  url = f'https://wiki.52poke.com/wiki/{name}'
+  url = f'https://wiki.52poke.com/wiki/{name}（招式）'
   response = requests.get(url, headers=headers)
   response.raise_for_status()
   soup = BeautifulSoup(response.text, "html.parser")
@@ -50,9 +50,9 @@ def get_move(move_simple):
     "tutor": [],
   }
   # level
-  level_el = soup.find('span', id="通过招式学习器")
+  level_el = soup.find('span', id="通过等级提升")
   if level_el:
-    level_table = level_el.find_parent('h3').find_next_sibling('table')
+    level_table = level_el.find_parent(['h3', 'h4']).find_next_sibling('table')
     level_tr_list = level_table.find_all('tr', class_="bgwhite")
     for tr in level_tr_list:
         tds = tr.find_all('td')
@@ -78,7 +78,7 @@ def get_move(move_simple):
         pokemons["machine"].append(pokemon)
 
   # egg
-  egg_el = soup.find('span', id=lambda x: x in ["通过遺傳", "通过遗传"])
+  egg_el = soup.find('span', id=lambda x: x in ["通过遺傳", "通过遗传", "通過遺傳"])
   if egg_el:
     egg_table = egg_el.find_parent('h3').find_next_sibling('table')
     egg_tr_list = egg_table.find_all('tr', class_="bgwhite")

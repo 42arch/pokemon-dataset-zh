@@ -29,7 +29,7 @@ def get_move_list():
         move = {
           'index': tds[0].text.strip(),
           'generation': generation,
-          'name': tds[1].find('a').text.strip(),
+          'name': tds[1].text.strip(),
           'name_jp': tds[2].text.strip(),
           'name_en': tds[3].text.strip(),
           'type': tds[4].find('a').text.replace('惡', '恶').replace("格鬥", "格斗").strip(),
