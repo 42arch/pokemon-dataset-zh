@@ -7,13 +7,15 @@ from utils import save_to_file
 
 PATH = './../data/move'
 
+T_MOVE = ['灼热暴冲', '黑暗暴冲', '剧毒暴冲', '格斗暴冲', '魔法暴冲']
 
 def get_move(move_simple):
   headers = {
     'Accept-Language': 'zh-Hans'
   }
   name = move_simple['name']
-  url = f'https://wiki.52poke.com/wiki/{name}（招式）'
+  generation = move_simple['generation']
+  url = f'https://wiki.52poke.com/wiki/{name}（招式）' if name in T_MOVE else f'https://wiki.52poke.com/wiki/{name}'
   response = requests.get(url, headers=headers)
   response.raise_for_status()
   soup = BeautifulSoup(response.text, "html.parser")
