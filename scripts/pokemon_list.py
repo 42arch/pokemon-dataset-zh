@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 from pokemon import get_pokemon_data
+from fixed_data import NEW_NAMES
 from utils import file_exists, save_to_file
 
 PATH = './../data'
@@ -25,7 +26,7 @@ def get_pokemon_list():
       name_en = td_list[3].find('a').text.strip()
       pokemon_simple_list.append({
         'index': index_no,
-        'name': name,
+        'name': NEW_NAMES[name] if NEW_NAMES[name] else name,
         'name_en': name_en
       })
   save_to_file(f'{PATH}/pokemon_list.json', pokemon_simple_list)

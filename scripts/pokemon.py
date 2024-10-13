@@ -168,7 +168,7 @@ def get_form_infos(soup, names, pokemon_name, pokemon_index):
         form_info['gender_rate'] = {
           'male': male,
           'female': female
-        } if male and female else None
+        } if male or female else None
       infos.append(form_info)
 
       # shape
@@ -654,7 +654,7 @@ def get_home_images(soup, name, index):
   return home_images
 
 if __name__ == '__main__':
-  name = '妙蛙草'
+  name = '尼多朗'
   data = get_pokemon_data(name, index='111')
   save_to_file(f'{PATH}/pokemon/{name}.json', data)
 

@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import requests
+from fixed_data import NEW_NAMES
 from utils import save_to_file
 
 
@@ -43,7 +44,7 @@ def get_pokemon_full_list():
         icon_position = image_style.value_of_css_property("background-position")
         pokemon = {
           "index": idx,
-          "name": name,
+          "name": NEW_NAMES[name] if NEW_NAMES[name] else name,
           "name_jp": name_jp,
           "name_en": name_en,
           "generation": generation,
