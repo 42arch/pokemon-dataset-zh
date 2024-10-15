@@ -24,10 +24,12 @@ def get_pokemon_list():
       index_no = td_list[0].text.strip().replace('#', '')
       name = td_list[1].find('a').text.strip()
       name_en = td_list[3].find('a').text.strip()
+      name_jp = td_list[2].find('a').text.strip()
       pokemon_simple_list.append({
         'index': index_no,
-        'name': NEW_NAMES[name] if NEW_NAMES[name] else name,
-        'name_en': name_en
+        'name': NEW_NAMES[name] if name in NEW_NAMES else name,
+        'name_en': name_en,
+        'name_jp': name_jp
       })
   save_to_file(f'{PATH}/pokemon_list.json', pokemon_simple_list)
   return pokemon_simple_list
@@ -37,11 +39,14 @@ if __name__ == '__main__':
   for pokemon in pokemon_list:
     index = pokemon['index']
     name = pokemon['name']
+    name_en = pokemon['name_en']
+    name_jp = pokemon['name_jp']
+
     file_name = f'{PATH}/pokemon/{index}-{name}.json'
     if file_exists(file_name):
       print(f'{name} 已存在, 跳过...')
       continue
 
     print(f'正在获取 {name}...')
-    data = get_pokemon_data(name, index)
+    data = get_pokemon_data(name, index, name_en, name_jp)
     save_to_file(file_name, data)

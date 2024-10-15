@@ -8,7 +8,7 @@ from utils import save_image, save_to_file
 
 PATH = './../data'
 
-def get_pokemon_data(name, index):
+def get_pokemon_data(name, index, name_en, name_jp):
   headers = {
     'Accept-Language': 'zh-Hans'
   }
@@ -24,6 +24,9 @@ def get_pokemon_data(name, index):
 
   data = {
     'name': name,
+    'index': index,
+    'name_en': name_en,
+    'name_jp': name_jp
   }
 
   names = get_form_names(soup)
@@ -493,6 +496,9 @@ def get_stats(soup):
       sp_defense = stats_table.find('tr', class_='bgl-特防').find('span', attrs={
         'style': 'float:right'
       }).text
+      speed = stats_table.find('tr', class_='bgl-速度').find('span', attrs={
+        'style': 'float:right'
+      }).text
       result = {
         'form': stats_form_names[index],
         'data': {
@@ -500,7 +506,8 @@ def get_stats(soup):
           'attack': attack,
           'defense': defense,
           'sp_attack': sp_attack,
-          'sp_defense': sp_defense
+          'sp_defense': sp_defense,
+          'speed': speed
         }
       }
       stats.append(result)
@@ -655,7 +662,7 @@ def get_home_images(soup, name, index):
 
 if __name__ == '__main__':
   name = '尼多朗'
-  data = get_pokemon_data(name, index='111')
+  data = get_pokemon_data(name, index='111', name_en='1', name_jp='1')
   save_to_file(f'{PATH}/pokemon/{name}.json', data)
 
 
