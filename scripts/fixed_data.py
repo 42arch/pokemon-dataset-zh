@@ -5,10 +5,11 @@
 # 新旧名称映射
 NEW_NAMES = {
   '偷儿狐' : '狡小狐',
-  '猾大狐': '猾大狐'
+  '狐大盗': '猾大狐',
+  '流氓熊猫': '霸道熊猫'
 }
 
-FIXED_EVOLUTION_POKEMONS = ['伊布', '结草儿', '结草贵妇', '月月熊', '岩狗狗', '鬃岩狼人', '肯泰罗', '小陨星']
+FIXED_EVOLUTION_POKEMONS = ['伊布', '结草儿', '结草贵妇', '月月熊', '岩狗狗', '鬃岩狼人', '肯泰罗', '小陨星', '太乐巴戈斯']
 
 FIXED_EVOLUTION_DATA = {
   "伊布": [
@@ -443,6 +444,18 @@ FIXED_EVOLUTION_DATA = {
                 "stage": "不进化",
                 "image": "774Minior_Dream.png",
                 "text": None,
+                "back_text": None,
+                "from": None
+            }
+        ]
+    ],
+    "太乐巴戈斯": [
+        [
+            {
+                "name": "太乐巴戈斯",
+                "stage": "不进化",
+                "text": None,
+                "image": "1024Terapagos-Normal_Dream.png",
                 "back_text": None,
                 "from": None
             }
