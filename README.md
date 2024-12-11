@@ -29,7 +29,7 @@
 
   宝可梦特性详细信息
 
-- dat/images
+- data/images
 
   official: 宝可梦的官方形象绘图；
 
