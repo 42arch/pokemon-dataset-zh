@@ -9,7 +9,7 @@ NEW_NAMES = {
   '流氓熊猫': '霸道熊猫'
 }
 
-FIXED_EVOLUTION_POKEMONS = ['伊布', '结草儿', '结草贵妇', '月月熊', '岩狗狗', '鬃岩狼人', '肯泰罗', '小陨星', '太乐巴戈斯']
+FIXED_EVOLUTION_POKEMONS = ['谜拟Ｑ', '伊布', '结草儿', '结草贵妇', '月月熊', '岩狗狗', '鬃岩狼人', '肯泰罗', '小陨星', '太乐巴戈斯', '差不多娃娃']
 
 FIXED_EVOLUTION_DATA = {
   "伊布": [
@@ -437,28 +437,44 @@ FIXED_EVOLUTION_DATA = {
         }
       ]
     ],
-    "小陨星": [
-        [
-            {
-                "name": "小陨星",
-                "stage": "不进化",
-                "image": "774Minior_Dream.png",
-                "text": None,
-                "back_text": None,
-                "from": None
-            }
-        ]
-    ],
-    "太乐巴戈斯": [
-        [
-            {
-                "name": "太乐巴戈斯",
-                "stage": "不进化",
-                "text": None,
-                "image": "1024Terapagos-Normal_Dream.png",
-                "back_text": None,
-                "from": None
-            }
-        ]
-    ]
+  "小陨星": [
+      [
+          {
+              "name": "小陨星",
+              "stage": "不进化",
+              "image": "774Minior_Dream.png",
+              "text": None,
+              "back_text": None,
+              "from": None
+          }
+      ]
+  ],
+  "太乐巴戈斯": [
+      [
+          {
+              "name": "太乐巴戈斯",
+              "stage": "不进化",
+              "text": None,
+              "image": "1024Terapagos-Normal_Dream.png",
+              "back_text": None,
+              "from": None
+          }
+      ]
+  ],
+  "差不多娃娃": [[{
+      "name": "差不多娃娃",
+      "stage": "不进化",
+      "text": None,
+      "image": "531Audino_Dream.png",
+      "back_text": None,
+      "from": None
+  }]],
+  "谜拟Ｑ": [[{
+      "name": "谜拟Ｑ",
+      "stage": "不进化",
+      "text": None,
+      "image": "778Mimikyu_Dream.png",
+      "back_text": None,
+      "from": None
+  }]]
 }
