@@ -1,14 +1,15 @@
 
+from importlib import metadata
 from bs4 import BeautifulSoup
 import requests
-
-from pokemon import get_pokemon_data
+import json
 from fixed_data import NEW_NAMES
-from utils import file_exists, save_to_file
+from utils import save_to_file
 
-PATH = 'data'
+PATH = 'data/pokedex'
 
-NATIONAL_URL = 'https://wiki.52poke.com/wiki/宝可梦列表（按全国图鉴编号）/简单版'
+NATIONAL_SIMPLE_URL = 'https://wiki.52poke.com/wiki/宝可梦列表（按全国图鉴编号）/简单版'
+NATIONAL_URL = 'https://wiki.52poke.com/wiki/宝可梦列表（按全国图鉴编号）'
 KANTO_URL = 'https://wiki.52poke.com/wiki/宝可梦列表（按关都图鉴编号）'
 JOHTO_URL = 'https://wiki.52poke.com/wiki/宝可梦列表（按城都图鉴编号）'
 HOENN_URL = 'https://wiki.52poke.com/wiki/宝可梦列表（按丰缘图鉴编号）'
@@ -30,8 +31,8 @@ headers = {
   'Accept-Language': 'zh-Hans'
 }
 
-def get_national_pokemon_list():
-  url = NATIONAL_URL
+def get_national_pokemon_simple_list():
+  url = NATIONAL_SIMPLE_URL
   response = requests.get(url, headers=headers)
   response.raise_for_status()
   soup = BeautifulSoup(response.text, "html.parser")
@@ -55,9 +56,67 @@ def get_national_pokemon_list():
         'name_en': name_en,
         'name_jp': name_jp
       })
-  save_to_file(f'{PATH}/pokedex_national.json', pokemon_list)
+  save_to_file(f'{PATH}/pokedex_national_simple.json', pokemon_list)
 
   return pokemon_list
+
+
+def get_meta_info(meta_data_list, name):
+  for meta_data in meta_data_list:
+    if meta_data['name'] == name:
+      return meta_data['meta']
+  return None
+
+
+def get_national_pokemon_list():
+
+  meta_data_list = []
+  with open('./scripts/pokemon_full_list.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
+    meta_data_list = data
+
+  url = NATIONAL_URL
+  response = requests.get(url, headers=headers)
+  response.raise_for_status()
+  soup = BeautifulSoup(response.text, "html.parser")
+
+  pokemon_list = []
+
+  table_list = soup.find_all('table', class_="eplist")
+
+  for table in table_list:
+    generation = table.find_previous('h2').text.strip().replace("宝可梦", "")
+    tr_list = table.find('tbody').find_all('tr')
+    for tr in tr_list:
+      if tr.get("data-type") is not None:
+        td_list = tr.find_all('td')
+        idx = td_list[0].text.strip().replace("#", "")
+        name = f'''{td_list[3].find('a').text}-{td_list[3].find('small').text}''' if td_list[3].find('small') else td_list[3].find('a').text
+        name_jp = td_list[4].text.strip()
+        name_en = td_list[5].text.strip()
+        types = tr.get('data-type').strip().split(':')
+        filter = tr.get('data-filter').strip()
+
+        meta_data = get_meta_info(meta_data_list, name)
+
+        print(idx, name, name_jp, name_en, types, meta_data)
+
+        pokemon = {
+          "index": idx,
+          "name": name,
+          "name_jp": name_jp,
+          "name_en": name_en,
+          "generation": generation,
+          "filter": filter,
+          "types": [x for x in types if x != ""],
+          "meta": meta_data
+        }
+        pokemon_list.append(pokemon)
+
+
+  save_to_file(f'{PATH}/pokedex_national.json', pokemon_list)
+  return pokemon_list
+
 
 def get_kanto_pokemon_list():
   url = KANTO_URL
@@ -649,7 +708,8 @@ def get_lumiose_pokemon_list():
 
 
 if __name__ == '__main__':
-  # national_pokemon_list = get_national_pokemon_list()
+  # national_pokemon_list = get_national_pokemon_simple_list()
+  national_pokemon_list = get_national_pokemon_list()
   # kanto_pokemon_list = get_kanto_pokemon_list()
   # johto_pokemon_list = get_johto_pokemon_list()
   # hoenn_pokemon_list = get_hoenn_pokemon_list()
@@ -665,5 +725,5 @@ if __name__ == '__main__':
   # paldea_pokemon_list = get_paldea_pokemon_list()
   # kitakami_pokemon_list = get_kitakami_pokemon_list()
   # blueberry_pokemon_list = get_blueberry_pokemon_list()
-  lumiose_pokemon_list = get_lumiose_pokemon_list()
+  # lumiose_pokemon_list = get_lumiose_pokemon_list()
 

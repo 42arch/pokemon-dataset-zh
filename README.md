@@ -13,9 +13,9 @@
 
 ## 数据
 
-- data/pokemon_list.json
+- data/pokedex/\*\*.json
 
-  按照全国图鉴编号顺序排列的宝可梦列表
+  全国图鉴和地区图鉴
 
 - data/pokemon/\*\*.json
 
