@@ -94,7 +94,10 @@ def get_national_pokemon_list():
         name = f'''{td_list[3].find('a').text}-{td_list[3].find('small').text}''' if td_list[3].find('small') else td_list[3].find('a').text
         name_jp = td_list[4].text.strip()
         name_en = td_list[5].text.strip()
-        types = tr.get('data-type').strip().split(':')
+        # types = tr.get('data-type').strip().split(':')
+        type1 = td_list[6].text.strip()
+        type2 = td_list[7].text.strip() if td_list[7].find('a') else None
+        types = [type1, type2] if type2 else [type1]
         filter = tr.get('data-filter').strip()
 
         meta_data = get_meta_info(meta_data_list, name)
@@ -107,9 +110,11 @@ def get_national_pokemon_list():
           "name_jp": name_jp,
           "name_en": name_en,
           "generation": generation,
-          "filter": filter,
           "types": [x for x in types if x != ""],
-          "meta": meta_data
+          "meta": {
+            "filter": filter,
+            "icon_position": meta_data['icon_position'] if meta_data else ""
+          }
         }
         pokemon_list.append(pokemon)
 
