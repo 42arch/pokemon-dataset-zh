@@ -1,968 +1,842 @@
 {
-    "name": "铁脖颈",
-    "index": "0993",
-    "name_en": "Iron Jugulis",
-    "name_jp": "テツノコウベ",
-    "profile": "在帕底亚某处被人目击与三首恶龙相似的铁脖颈，据说它会放射高能将建筑物彻底破坏，随后仿佛寻求下一个目标般飞走不见。有传闻认为，由于该物体集合了三首恶龙的凶暴和机械的冷酷，因此可能是机械与三首恶龙的结合体。\n",
-    "forms": [
-        {
-            "name": "铁脖颈",
-            "index": "0993",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0993-铁脖颈.png",
-            "types": [
-                "恶",
-                "飞行"
-            ],
-            "genus": "悖谬宝可梦",
-            "ability": [
-                {
-                    "name": "夸克充能",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "1.3m",
-            "weight": "111.0kg",
-            "gender_rate": null,
-            "shape": "双足兽形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "30",
-                "rate": "3.9%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "94",
-                "attack": "80",
-                "defense": "86",
-                "sp_attack": "122",
-                "sp_defense": "80",
-                "speed": "108"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "它与超自然杂志曾报道过的宝可梦很相似。报道中的宝可梦是爱上机器人的三首恶龙所生的孩子。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "古老的书籍中所记载的叫做铁脖颈的物体说不定就是这只宝可梦。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "铁脖颈",
-                "stage": "不进化",
-                "text": null,
-                "image": "993Iron_Jugulis_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "铁脖颈",
-        "zh_hant": "鐵脖頸",
-        "en": "Iron Jugulis",
-        "fr": "Iron Jugulis",
-        "de": "Eisenhals",
-        "it": "Colloferreo",
-        "es": "Ferrocuello",
-        "ja": "テツノコウベ",
-        "ko": "무쇠머리"
+  "name_zh": "铁脖颈",
+  "name_ja": "テツノコウベ",
+  "name_en": "Iron Jugulis",
+  "pokedex_id": "0993",
+  "description": "铁脖颈（日文︰テツノコウベ，英文︰Iron Jugulis）是恶属性／飞行属性悖谬宝可梦。",
+  "profile": "在帕底亚某处被人目击与三首恶龙相似的铁脖颈，据说它会放射高能将建筑物彻底破坏，随后仿佛寻求下一个目标般飞走不见。有传闻认为，由于该物体集合了三首恶龙的凶暴和机械的冷酷，因此可能是机械与三首恶龙的结合体。",
+  "prototype": "铁脖颈在三首恶龙的基础上加入了更多机械的元素，这可能来自三首恶龙的设计原型之一——战车。\n无良杂志报道的三首恶龙爱上机器人而生下铁脖颈的情节可能讽刺了2004年以来欧美的知名网络模因龙车恋。这让它显著区别于其他机械改造或者机械造物的未来悖谬宝可梦。\n悖谬宝可梦\n古代宝可梦\n未来宝可梦\n乐园守护龙\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步铁脖颈（Pokémon GO）。\n←\nNo.0992：铁臂膀\n宝可梦\nNo.0994：铁毒蛾\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "テツノコウベ Tetsunokoube",
+      "origin": "来自“鉄（てつ）の首（こうべ）”（铁的头）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "聚气",
-                        "flavor_text": "深深地吸口气，集中精神。自己的攻击会变得容易击中要害。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "三重攻击",
-                        "flavor_text": "用３种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "空气利刃",
-                        "flavor_text": "用锐利的风切斩对手进行攻击。容易击中要害。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "7",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吼叫",
-                        "flavor_text": "放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "14",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "恶意追击",
-                        "flavor_text": "如果此回合内对手已经受到伤害的话，招式威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙息",
-                        "flavor_text": "将强烈的气息吹向对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大声咆哮",
-                        "flavor_text": "没完没了地大声斥责，从而降低对手的特攻。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "42",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "56",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "空气之刃",
-                        "flavor_text": "用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "63",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "70",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "77",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "逆鳞",
-                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "84",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "91",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００６",
-                        "method": "招式学习器",
-                        "name": "可怕面孔",
-                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００８",
-                        "method": "招式学习器",
-                        "name": "火焰牙",
-                        "flavor_text": "用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１４",
-                        "method": "招式学习器",
-                        "name": "杂技",
-                        "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２３",
-                        "method": "招式学习器",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３０",
-                        "method": "招式学习器",
-                        "name": "大声咆哮",
-                        "flavor_text": "没完没了地大声斥责，从而降低对手的特攻。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３６",
-                        "method": "招式学习器",
-                        "name": "岩石封锁",
-                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４０",
-                        "method": "招式学习器",
-                        "name": "空气利刃",
-                        "flavor_text": "用锐利的风切斩对手进行攻击。容易击中要害。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４４",
-                        "method": "招式学习器",
-                        "name": "龙尾",
-                        "flavor_text": "弹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５９",
-                        "method": "招式学习器",
-                        "name": "意念头锤",
-                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６０",
-                        "method": "招式学习器",
-                        "name": "急速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６５",
-                        "method": "招式学习器",
-                        "name": "空气之刃",
-                        "flavor_text": "用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８７",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９３",
-                        "method": "招式学习器",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９４",
-                        "method": "招式学习器",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９７",
-                        "method": "招式学习器",
-                        "name": "飞翔",
-                        "flavor_text": "第１回合飞上天空，第２回合攻击对手。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９９",
-                        "method": "招式学习器",
-                        "name": "铁头",
-                        "flavor_text": "用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０８",
-                        "method": "招式学习器",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１３",
-                        "method": "招式学习器",
-                        "name": "顺风",
-                        "flavor_text": "刮起猛烈的旋风，在４回合内提高我方全员的速度。",
-                        "type": "飞行",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１５",
-                        "method": "招式学习器",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１７",
-                        "method": "招式学习器",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１８",
-                        "method": "招式学习器",
-                        "name": "热风",
-                        "flavor_text": "将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２５",
-                        "method": "招式学习器",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３３",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３６",
-                        "method": "招式学习器",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４１",
-                        "method": "招式学习器",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５６",
-                        "method": "招式学习器",
-                        "name": "逆鳞",
-                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５８",
-                        "method": "招式学习器",
-                        "name": "真气弹",
-                        "flavor_text": "提高气势，释放出全部力量。有时会降低对手的特防。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６０",
-                        "method": "招式学习器",
-                        "name": "暴风",
-                        "flavor_text": "用强烈的风席卷对手进行攻击。有时会使对手混乱。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７２",
-                        "method": "招式学习器",
-                        "name": "吼叫",
-                        "flavor_text": "放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８１",
-                        "method": "招式学习器",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９７",
-                        "method": "招式学习器",
-                        "name": "双翼",
-                        "flavor_text": "将翅膀撞向对手进行攻击。连续２次给予伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９９",
-                        "method": "招式学习器",
-                        "name": "泄愤",
-                        "flavor_text": "攻击对手以发泄对其感到的恼怒情绪。如果在该回合内自身能力遭到降低，招式的威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２０",
-                        "method": "招式学习器",
-                        "name": "流星光束",
-                        "flavor_text": "第１回合聚集宇宙之力提高特攻，第２回合攻击对手。",
-                        "type": "岩石",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２１",
-                        "method": "招式学习器",
-                        "name": "深渊突刺",
-                        "flavor_text": "受到此招式攻击的对手，会因为地狱般的痛苦，在２回合内，变得无法使出声音类招式。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２３",
-                        "method": "招式学习器",
-                        "name": "金属音",
-                        "flavor_text": "让对手听摩擦金属般讨厌的声音。大幅降低对手的特防。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２６",
-                        "method": "招式学习器",
-                        "name": "龙声鼓舞",
-                        "flavor_text": "以龙之鼓舞提高士气，让我方的招式变得容易击中要害。对龙属性的鼓舞效果会更强。",
-                        "type": "龙",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "鐵脖頸铁脖颈",
+      "origin": "来自“铁”和“脖颈”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Iron Jugulis",
+      "origin": "来自 iron（铁）和拉丁文 jugulum（颈；喉咙）。"
+    },
+    {
+      "language": "法文",
+      "name": "Têtes-de-Fer",
+      "origin": "来自 tête（头）和 de fer（铁的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Eisenhals",
+      "origin": "来自 Eisen（铁）和 Hals（颈；喉咙）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Colloferreo",
+      "origin": "来自 collo（颈）和 ferreo（铁的）。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Ferrocuello",
+      "origin": "来自前缀 ferro-（表示“铁”）和 cuello（颈）。"
+    },
+    {
+      "language": "韩文",
+      "name": "무쇠머리 Musoemeori",
+      "origin": "来自“무쇠”（铸铁）和“머리”（头）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "铁脖颈",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "category": "悖谬宝可梦",
+      "abilities": [
         {
-            "name": "铁脖颈",
-            "image": "0993-铁脖颈.png",
-            "shiny": "0993-铁脖颈-shiny.png"
+          "name": "夸克充能",
+          "is_hidden": false
         }
+      ],
+      "height": "1.3m",
+      "weight": "111.0kg",
+      "color": "蓝色",
+      "catch_rate": "30（3.9%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "50 孵化周期*（12850步）",
+      "shape": "Body06.png",
+      "footprint": "FUnknown.png",
+      "image": "993Iron_Jugulis.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "94",
+        "attack": "80",
+        "defense": "86",
+        "sp_attack": "122",
+        "sp_defense": "80",
+        "speed": "108"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "0"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0.5"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "0"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "0.5"
+    },
+    {
+      "type": "妖精",
+      "damage": "2"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "它与超自然杂志曾报道过的宝可梦很相似。报道中的宝可梦是爱上机器人的三首恶龙所生的孩子。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "古老的书籍中所记载的叫做铁脖颈的物体说不定就是这只宝可梦。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "铁脖颈",
+        "stage": "不进化",
+        "text": null,
+        "image": "993Iron_Jugulis_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "聚气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "三重攻击",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "空气利刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "level": "7",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "14",
+      "name": "恶意追击",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "21",
+      "name": "龙息",
+      "type": "龙",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "28",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "35",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "42",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "56",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "63",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "70",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "77",
+      "name": "逆鳞",
+      "type": "龙",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "84",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "91",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００８",
+      "name": "火焰牙",
+      "type": "火",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０１４",
+      "name": "杂技",
+      "type": "飞行",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０２３",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３０",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３６",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４０",
+      "name": "空气利刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０４４",
+      "name": "龙尾",
+      "type": "龙",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６０",
+      "name": "急速折返",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０６５",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９３",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９４",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０９７",
+      "name": "飞翔",
+      "type": "飞行",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０９９",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０８",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１３",
+      "name": "顺风",
+      "type": "飞行",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１５",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１７",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１８",
+      "name": "热风",
+      "type": "火",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３３",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３６",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４１",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５６",
+      "name": "逆鳞",
+      "type": "龙",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５８",
+      "name": "真气弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６０",
+      "name": "暴风",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７２",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８１",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１９７",
+      "name": "双翼",
+      "type": "飞行",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９９",
+      "name": "泄愤",
+      "type": "恶",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２２０",
+      "name": "流星光束",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２１",
+      "name": "深渊突刺",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２２３",
+      "name": "金属音",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器２２６",
+      "name": "龙声鼓舞",
+      "type": "龙",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "铁脖颈",
+      "image": "0993-铁脖颈.png",
+      "shiny": "0993-铁脖颈-shiny.png"
+    }
+  ]
 }

@@ -1,648 +1,812 @@
 {
-    "name": "拳拳蛸",
-    "index": "0852",
-    "name_en": "Clobbopus",
-    "name_jp": "タタッコ",
-    "profile": "拳拳蛸的外形是一只奶油色的小章鱼，拥有圆圆的脑袋，蓝色的眼睛里是线状的瞳孔，面部的橙色花纹形似眼罩，头领排列着两道圆形斑点，触手中最发达的一对端部如同拳击手套。虽然触手经常断掉，但因为能再生，所以它并不在意。\n拳拳蛸会为了寻找食物而登上陆地。拥有旺盛的好奇心，不管看到什么，都会先用触手打一打再说。智商大致相当于3岁的儿童。\n",
-    "forms": [
-        {
-            "name": "拳拳蛸",
-            "index": "0852",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0852-拳拳蛸.png",
-            "types": [
-                "格斗"
-            ],
-            "genus": "缠人宝可梦",
-            "ability": [
-                {
-                    "name": "柔软",
-                    "is_hidden": false
-                },
-                {
-                    "name": "技术高手",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "0.6m",
-            "weight": "4.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "触手形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "180",
-                "rate": "23.5%"
-            },
-            "egg_groups": [
-                "水中1",
-                "人型"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "50",
-                "attack": "68",
-                "defense": "60",
-                "sp_attack": "50",
-                "sp_defense": "50",
-                "speed": "32"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会为了寻找食物而登上陆地。拥有旺盛的好奇心，不管看到什么，都会先用触手打一打再说。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "智商大致相当于３岁的儿童。虽然触手经常断掉，但因为能再生，所以它并不在意。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "拳拳蛸",
-                "stage": "未进化",
-                "text": null,
-                "image": "852Clobbopus_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "八爪武师",
-                "stage": "1阶进化",
-                "text": "学会挑衅时提升等级",
-                "image": "853Grapploct_Dream.png",
-                "back_text": "",
-                "from": "拳拳蛸",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "拳拳蛸",
-        "zh_hant": "拳拳蛸",
-        "en": "Clobbopus",
-        "fr": "Clobbopus",
-        "de": "Klopptopus",
-        "it": "Clobbopus",
-        "es": "Clobbopus",
-        "ja": "タタッコ",
-        "ko": "때때무노"
+  "name_zh": "拳拳蛸",
+  "name_ja": "タタッコ",
+  "name_en": "Clobbopus",
+  "pokedex_id": "0852",
+  "description": "拳拳蛸（日文︰タタッコ，英文︰Clobbopus）是格斗属性宝可梦。",
+  "profile": "拳拳蛸的外形是一只奶油色的小章鱼，拥有圆圆的脑袋，蓝色的眼睛里是线状的瞳孔，面部的橙色花纹形似眼罩，头领排列着两道圆形斑点，触手中最发达的一对端部如同拳击手套。虽然触手经常断掉，但因为能再生，所以它并不在意。\n拳拳蛸会为了寻找食物而登上陆地。它触手前端鼓鼓的，很擅长一个劲地敲打，但极不擅长抓取东西。它拥有旺盛的好奇心，不管看到什么，都会先用触手打一打再说，智商大致相当于３岁的儿童。",
+  "prototype": "拳拳蛸的原型可能是基于章鱼和拳击手，头部的点状斑纹可能类似于和尚的戒疤。\n它的面部来源于墨西哥摔跤手面具。\n章鱼的腕足末端蜷缩时类似于拳头的造型，这可能是拳拳蛸的灵感来源。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步拳拳蛸（Pokémon GO）。\n←\nNo.0851：焚焰蚣\n宝可梦\nNo.0853：八爪武师\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "タタッコ Tatakko",
+      "origin": "来自“叩（たた）く”（打）、“蛸（たこ）”（章鱼）和“駄々（だだ）っ子（こ）”（磨人的孩子；同其分类的名字）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "碎岩",
-                        "flavor_text": "用拳头进行攻击。有时会降低对手的防御。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞪眼",
-                        "flavor_text": "用犀利的眼神使其害怕，从而降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "佯攻",
-                        "flavor_text": "能够攻击正在使用守住或看穿等招式的对手。解除其守护效果。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "绑紧",
-                        "flavor_text": "使用长长的身体或藤蔓等，在４～５回合内绑紧对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "15",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "看穿",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "格斗",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "健美",
-                        "flavor_text": "使出全身力气绷紧肌肉，从而提高自己的攻击和防御。",
-                        "type": "格斗",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "深渊翻滚",
-                        "flavor_text": "将对手连同自己一起摔向地面进行攻击。自己也会受到少许伤害。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "80",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "绝处逢生",
-                        "flavor_text": "竭尽全力进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蛮力",
-                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００",
-                        "method": "招式学习器",
-                        "name": "百万吨重拳",
-                        "flavor_text": "用充满力量的拳头攻击对手。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４",
-                        "method": "招式学习器",
-                        "name": "冰冻拳",
-                        "flavor_text": "用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４２",
-                        "method": "招式学习器",
-                        "name": "报复",
-                        "flavor_text": "如果受到对手的招式攻击，就能给予对手２倍的伤害。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４３",
-                        "method": "招式学习器",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４５",
-                        "method": "招式学习器",
-                        "name": "潜水",
-                        "flavor_text": "第１回合潜入水中，第２回合浮上来进行攻击。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５３",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５５",
-                        "method": "招式学习器",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５７",
-                        "method": "招式学习器",
-                        "name": "以牙还牙",
-                        "flavor_text": "蓄力攻击。如果能在对手之后攻击，招式的威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７９",
-                        "method": "招式学习器",
-                        "name": "报仇",
-                        "flavor_text": "为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会提高。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１６",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２１",
-                        "method": "招式学习器",
-                        "name": "绝处逢生",
-                        "flavor_text": "竭尽全力进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３７",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３９",
-                        "method": "招式学习器",
-                        "name": "蛮力",
-                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４５",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４８",
-                        "method": "招式学习器",
-                        "name": "健美",
-                        "flavor_text": "使出全身力气绷紧肌肉，从而提高自己的攻击和防御。",
-                        "type": "格斗",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５３",
-                        "method": "招式学习器",
-                        "name": "近身战",
-                        "flavor_text": "放弃守护，向对手的怀里突击。自己的防御和特防会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６４",
-                        "method": "招式学习器",
-                        "name": "真气弹",
-                        "flavor_text": "提高气势，释放出全部力量。有时会降低对手的特防。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录８５",
-                        "method": "招式学习器",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录９８",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "拳拳蛸",
+      "origin": "来自“拳”和“蛸”（章鱼的学名）。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Clobbopus",
+      "origin": "来自 clobber（狠揍）和 octopus（章鱼）。"
+    },
+    {
+      "language": "法文",
+      "name": "Poulpaf",
+      "origin": "来自 poulpe（章鱼）和 paf（砰啪声）。"
+    },
+    {
+      "language": "德文",
+      "name": "Klopptopus",
+      "origin": "来自 kloppen（【口语】殴打）和 Oktopus（章鱼）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Clobbopus",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Clobbopus",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "때때무노 Ttaettaemuno",
+      "origin": "来自“때리다”（打）和“문어〈文魚〉”（章鱼）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "拳拳蛸",
+      "types": [
+        "格斗"
+      ],
+      "category": "缠人宝可梦",
+      "abilities": [
         {
-            "name": "拳拳蛸",
-            "image": "0852-拳拳蛸.png",
-            "shiny": "0852-拳拳蛸-shiny.png"
+          "name": "柔软",
+          "is_hidden": false
+        },
+        {
+          "name": "技术高手",
+          "is_hidden": true
         }
+      ],
+      "height": "0.6m",
+      "weight": "4.0kg",
+      "color": "褐色",
+      "catch_rate": "180（23.5%）",
+      "egg_groups": [
+        "水中1",
+        "人型群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body10.png",
+      "footprint": "FUnknown.png",
+      "image": "852Clobbopus.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "50",
+        "attack": "68",
+        "defense": "60",
+        "sp_attack": "50",
+        "sp_defense": "50",
+        "speed": "32"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "0.5"
+    },
+    {
+      "type": "妖精",
+      "damage": "2"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "会为了寻找食物而登上陆地。拥有旺盛的好奇心，不管看到什么，都会先用触手打一打再说。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "智商大致相当于３岁的儿童。虽然触手经常断掉，但因为能再生，所以它并不在意。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "触手前端鼓鼓的，很擅长一个劲地敲打，但极不擅长抓取东西。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "拳拳蛸",
+        "stage": "未进化",
+        "text": null,
+        "image": "852Clobbopus_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "八爪武师",
+        "stage": "1阶进化",
+        "text": "学会挑衅时提升等级",
+        "image": "853Grapploct_Dream.png",
+        "back_text": "",
+        "from": "拳拳蛸",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "碎岩",
+      "type": "格斗",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "5",
+      "name": "佯攻",
+      "type": "一般",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "10",
+      "name": "绑紧",
+      "type": "一般",
+      "category": "物理",
+      "power": "15",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "15",
+      "name": "看穿",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "20",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "25",
+      "name": "健美",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "30",
+      "name": "深渊翻滚",
+      "type": "格斗",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "80",
+      "pp": "20"
+    },
+    {
+      "level": "35",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "绝处逢生",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "45",
+      "name": "蛮力",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００",
+      "name": "百万吨重拳",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４",
+      "name": "冰冻拳",
+      "type": "冰",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "报复",
+      "type": "格斗",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４３",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４５",
+      "name": "潜水",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５３",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５５",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５７",
+      "name": "以牙还牙",
+      "type": "恶",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器７９",
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录０１",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录１６",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２１",
+      "name": "绝处逢生",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录３７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录３９",
+      "name": "蛮力",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录４５",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录４８",
+      "name": "健美",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录５３",
+      "name": "近身战",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录６４",
+      "name": "真气弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录８５",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式记录９８",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "拳海参"
+        }
+      ],
+      "name": "分担痛楚",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "223",
+          "name": "铁炮鱼"
+        },
+        {
+          "id": "224",
+          "name": "章鱼桶"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "752",
+          "name": "滴蛛霸"
+        },
+        {
+          "id": "771",
+          "name": "拳海参"
+        },
+        {
+          "id": "816",
+          "name": "泪眼蜥"
+        },
+        {
+          "id": null,
+          "name": "变涩蜥"
+        },
+        {
+          "id": null,
+          "name": "千面避役"
+        }
+      ],
+      "name": "浸水",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "122",
+          "name": "魔墙人偶"
+        },
+        {
+          "id": "122G",
+          "name": "魔墙人偶"
+        },
+        {
+          "id": "237",
+          "name": "战舞郎"
+        },
+        {
+          "id": "453",
+          "name": "不良蛙"
+        },
+        {
+          "id": "454",
+          "name": "毒骷蛙"
+        },
+        {
+          "id": "618",
+          "name": "泥巴鱼"
+        },
+        {
+          "id": "618G",
+          "name": "泥巴鱼"
+        },
+        {
+          "id": "816",
+          "name": "泪眼蜥"
+        },
+        {
+          "id": "817",
+          "name": "变涩蜥"
+        },
+        {
+          "id": "818",
+          "name": "千面避役"
+        },
+        {
+          "id": "859",
+          "name": "捣蛋小妖"
+        },
+        {
+          "id": "860",
+          "name": "诈唬魔"
+        },
+        {
+          "id": null,
+          "name": "长毛巨魔"
+        },
+        {
+          "id": null,
+          "name": "踏冰人偶"
+        }
+      ],
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "062",
+          "name": "蚊香泳士"
+        },
+        {
+          "id": "538",
+          "name": "投摔鬼"
+        },
+        {
+          "id": "674",
+          "name": "顽皮熊猫"
+        },
+        {
+          "id": null,
+          "name": "霸道熊猫"
+        }
+      ],
+      "name": "巴投",
+      "type": "格斗",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "066",
+          "name": "腕力"
+        },
+        {
+          "id": "067",
+          "name": "豪力"
+        },
+        {
+          "id": "068",
+          "name": "怪力"
+        },
+        {
+          "id": null,
+          "name": "投摔鬼"
+        }
+      ],
+      "name": "地球上投",
+      "type": "格斗",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "107",
+          "name": "快拳郎"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "861",
+          "name": "长毛巨魔"
+        }
+      ],
+      "name": "增强拳",
+      "type": "格斗",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "拳拳蛸",
+      "image": "0852-拳拳蛸.png",
+      "shiny": "0852-拳拳蛸-shiny.png"
+    }
+  ]
 }

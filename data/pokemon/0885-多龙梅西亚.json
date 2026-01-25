@@ -1,421 +1,808 @@
 {
-    "name": "多龙梅西亚",
-    "index": "0885",
-    "name_en": "Dreepy",
-    "name_jp": "ドラメシヤ",
-    "profile": "多龙梅西亚看起来就像是小小的龙，它有着宽大而扁平的头部，两只眼睛比较突出，嘴巴也比较尖，而身体则相对比较狭长，有两个小手，有两个角，每个角下面似乎还有两个小角，尾巴和腹部中间有一个连接处，连接的部位颜色要深一点，有“三根刺”。\n多龙梅西亚曾经栖息在古代的大海，在重生为幽灵宝可梦后，会在昔日的住处徘徊。傍晚时它会成群结队地快速环游在海上，戳水里的宝可梦玩，明明不吃却又会咬住铁臂枪虾不放，听说这是它生前遗留下来的活动习性。虽然单独一只弱得甚至敌不过小孩，但会和伙伴合作一起锻炼，通过进化而变得更强。\n",
-    "forms": [
-        {
-            "name": "多龙梅西亚",
-            "index": "0885",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0885-多龙梅西亚.png",
-            "types": [
-                "龙",
-                "幽灵"
-            ],
-            "genus": "哀怨宝可梦",
-            "ability": [
-                {
-                    "name": "恒净之躯",
-                    "is_hidden": false
-                },
-                {
-                    "name": "穿透",
-                    "is_hidden": false
-                },
-                {
-                    "name": "咒术之躯",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.5m",
-            "weight": "2.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "蛇形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "不定形",
-                "龙"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "28",
-                "attack": "60",
-                "defense": "30",
-                "sp_attack": "40",
-                "sp_defense": "30",
-                "speed": "82"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "曾经栖息在古代的大海。在重生为幽灵宝可梦后，会在昔日的住处徘徊。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "虽然单独１只弱得甚至敌不过小孩，但会和伙伴合作一起锻炼，通过进化而变得更强。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "傍晚时会成群结队地快速环游在海上，戳水里的宝可梦玩。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "明明不吃却又会咬住铁臂枪虾不放。听说这是它生前遗留下来的活动习性。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "多龙梅西亚",
-                "stage": "未进化",
-                "text": null,
-                "image": "885Dreepy_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "多龙奇",
-                "stage": "1阶进化",
-                "text": "等级50以上",
-                "image": "886Drakloak_Dream.png",
-                "back_text": "",
-                "from": "多龙梅西亚",
-                "form_name": null
-            },
-            {
-                "name": "多龙巴鲁托",
-                "stage": "2阶进化",
-                "text": "等级60以上",
-                "image": "887Dragapult_Dream.png",
-                "back_text": "",
-                "from": "多龙奇",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "多龙梅西亚",
-        "en": "드라꼰 Deurakkon",
-        "fr": "드라꼰 Deurakkon",
-        "zh_hant": "多龍梅西亞",
-        "de": "Grolldra",
-        "it": "Dreepy",
-        "es": "Dreepy",
-        "ja": "ドラメシヤ",
-        "ko": "드라꼰"
+  "name_zh": "多龙梅西亚",
+  "name_ja": "ドラメシヤ",
+  "name_en": "Dreepy",
+  "pokedex_id": "0885",
+  "description": "多龙梅西亚（日文︰ドラメシヤ，英文︰Dreepy）是龙属性／幽灵属性宝可梦。",
+  "profile": "多龙梅西亚看起来就像是小小的龙，它有着宽大而扁平的头部，两只眼睛比较突出，嘴巴也比较尖，而身体则相对比较狭长，有两个小手，有两个角，每个角下面似乎还有两个小角，尾巴和腹部中间有一个连接处，连接的部位颜色要深一点，有“三根刺”。\n多龙梅西亚曾经栖息在古代的大海，在重生为幽灵宝可梦后，会在昔日的住处徘徊。傍晚时它会成群结队地快速环游在海上，戳水里的宝可梦玩，明明不吃却又会咬住铁臂枪虾不放，听说这是它生前遗留下来的活动习性。虽然单独一只弱得甚至敌不过小孩，但会和伙伴合作一起锻炼，通过进化而变得更强。",
+  "prototype": "多龙梅西亚的原型可能是基于笠头螈，具有幽灵属性可能是因为笠头螈属于绝种动物。\n它细长的圆柱形身体也可能来自洞螈，龙属性则是因为洞螈在东南欧洲的斯拉夫民间故事中被视作龙的幼崽。\n多龙梅西亚也有与乌波相似的设定，头两侧的外鳃凸显了蝾螈幼体的特征。现实中大多数蝾螈会随着成长失去外鳃，但如墨西哥钝口螈等部分种类终生具外鳃。\n从它被最终进化型发射出去这点看，多龙梅西亚也有导弹和箭矢的设计元素。",
+  "detail": "一种在西双版纳发现的蜘蛛被命名为多龙瘤蟹蛛Phrynarachne dreepy，因为这种蜘蛛的肚子颜色和形状很像多龙梅西亚的脑壳。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ドラメシヤ Dorameshiya",
+      "origin": "来自英文 dragon（龙）和“怨めしや”（“好恨啊”：幽灵登场常用台词）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬住",
-                        "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电光一闪",
-                        "flavor_text": "以迅雷不及掩耳之势扑向对手。必定能够先制攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "惊吓",
-                        "flavor_text": "用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "纠缠不休",
-                        "flavor_text": "在４～５回合内死缠烂打地进行攻击。在此期间对手将无法逃走。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "20"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１７",
-                        "method": "招式学习器",
-                        "name": "奇异之光",
-                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４４",
-                        "method": "招式学习器",
-                        "name": "龙尾",
-                        "flavor_text": "弹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８２",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３２",
-                        "method": "招式学习器",
-                        "name": "接棒",
-                        "flavor_text": "和后备宝可梦进行替换。换上的宝可梦能直接继承其能力的变化。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６９",
-                        "method": "招式学习器",
-                        "name": "流星群",
-                        "flavor_text": "从天空中向对手落下陨石。使用之后因为反作用力，自己的特攻会大幅降低。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２４",
-                        "method": "招式学习器",
-                        "name": "咒术",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "多龍梅西亞多龙梅西亚",
+      "origin": "来自“龙”和日文名的音译。"
     },
-    "home_images": [
+    {
+      "language": "中文-台湾",
+      "name": "多龍梅西亞",
+      "origin": "来自“龙”和日文名的音译。"
+    },
+    {
+      "language": "英文",
+      "name": "Dreepy",
+      "origin": "来自 dragon（龙）和 creepy（令人毛骨悚然的）。"
+    },
+    {
+      "language": "法文",
+      "name": "Fantyrm",
+      "origin": "来自 fantôme（幽灵）和古英语 wyrm（龙）。"
+    },
+    {
+      "language": "德文",
+      "name": "Grolldra",
+      "origin": "来自 Groll（怨恨）或 grollen （发轰鸣声；抱怨）和 Drache（龙）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Dreepy",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Dreepy",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "드라꼰 Drakkon",
+      "origin": "来自英文 dragon（龙）、“꼬마”（小孩）和“혼〈魂〉”（魂）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "多龙梅西亚",
+      "types": [
+        "龙",
+        "幽灵"
+      ],
+      "category": "哀怨宝可梦",
+      "abilities": [
         {
-            "name": "多龙梅西亚",
-            "image": "0885-多龙梅西亚.png",
-            "shiny": "0885-多龙梅西亚-shiny.png"
+          "name": "恒净之躯",
+          "is_hidden": false
+        },
+        {
+          "name": "穿透",
+          "is_hidden": false
+        },
+        {
+          "name": "咒术之躯",
+          "is_hidden": true
         }
+      ],
+      "height": "0.5m",
+      "weight": "2.0kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "不定形",
+        "龙群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "40 孵化周期（10280步）",
+      "shape": "Body02.png",
+      "footprint": "FUnknown.png",
+      "image": "885Dreepy.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "28",
+        "attack": "60",
+        "defense": "30",
+        "sp_attack": "40",
+        "sp_defense": "30",
+        "speed": "82"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0"
+    },
+    {
+      "type": "格斗",
+      "damage": "0"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "2"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "2"
+    },
+    {
+      "type": "恶",
+      "damage": "2"
+    },
+    {
+      "type": "妖精",
+      "damage": "2"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "曾经栖息在古代的大海。在重生为幽灵宝可梦后，会在昔日的住处徘徊。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "虽然单独１只弱得甚至敌不过小孩，但会和伙伴合作一起锻炼，通过进化而变得更强。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "傍晚时会成群结队地快速环游在海上，戳水里的宝可梦玩。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "明明不吃却又会咬住铁臂枪虾不放。听说这是它生前遗留下来的活动习性。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "多龙梅西亚",
+        "stage": "未进化",
+        "text": null,
+        "image": "885Dreepy_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "多龙奇",
+        "stage": "1阶进化",
+        "text": "等级50以上",
+        "image": "886Drakloak_Dream.png",
+        "back_text": "",
+        "from": "多龙梅西亚",
+        "form_name": null
+      },
+      {
+        "name": "多龙巴鲁托",
+        "stage": "2阶进化",
+        "text": "等级60以上",
+        "image": "887Dragapult_Dream.png",
+        "back_text": "",
+        "from": "多龙奇",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "咬住",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "电光一闪",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "纠缠不休",
+      "type": "虫",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１７",
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４４",
+      "name": "龙尾",
+      "type": "龙",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８２",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３２",
+      "name": "接棒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器１６９",
+      "name": "流星群",
+      "type": "龙",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0088",
+          "name": "臭泥"
+        },
+        {
+          "id": "0088A",
+          "name": "臭泥"
+        },
+        {
+          "id": "0089",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "0089A",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "0355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "0356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "0477",
+          "name": "黑夜魔灵"
+        }
+      ],
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0252",
+          "name": "木守宫"
+        },
+        {
+          "id": "0253",
+          "name": "森林蜥蜴"
+        },
+        {
+          "id": "0254",
+          "name": "蜥蜴王"
+        },
+        {
+          "id": "0280",
+          "name": "拉鲁拉丝"
+        },
+        {
+          "id": "0281",
+          "name": "奇鲁莉安"
+        },
+        {
+          "id": "0282",
+          "name": "沙奈朵"
+        },
+        {
+          "id": "0475",
+          "name": "艾路雷朵"
+        },
+        {
+          "id": "0690",
+          "name": "垃垃藻"
+        },
+        {
+          "id": "0691",
+          "name": "毒藻龙"
+        },
+        {
+          "id": "0714",
+          "name": "嗡蝠"
+        },
+        {
+          "id": "0715",
+          "name": "音波龙"
+        },
+        {
+          "id": "0778",
+          "name": "谜拟Ｑ"
+        }
+      ],
+      "name": "影子分身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "0092",
+          "name": "鬼斯"
+        },
+        {
+          "id": "0093",
+          "name": "鬼斯通"
+        },
+        {
+          "id": "0094",
+          "name": "耿鬼"
+        },
+        {
+          "id": "0200",
+          "name": "梦妖"
+        },
+        {
+          "id": "0355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "0356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "0442",
+          "name": "花岩怪"
+        },
+        {
+          "id": "0477",
+          "name": "黑夜魔灵"
+        },
+        {
+          "id": "0607",
+          "name": "烛光灵"
+        },
+        {
+          "id": "0608",
+          "name": "灯火幽灵"
+        },
+        {
+          "id": "0609",
+          "name": "水晶灯火灵"
+        },
+        {
+          "id": "0708",
+          "name": "小木灵"
+        },
+        {
+          "id": "0709",
+          "name": "朽木妖"
+        }
+      ],
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0092",
+          "name": "鬼斯"
+        },
+        {
+          "id": "0093",
+          "name": "鬼斯通"
+        },
+        {
+          "id": "0094",
+          "name": "耿鬼"
+        },
+        {
+          "id": "0353",
+          "name": "怨影娃娃"
+        },
+        {
+          "id": "0354",
+          "name": "诅咒娃娃"
+        },
+        {
+          "id": "0355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "0356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "0442",
+          "name": "花岩怪"
+        },
+        {
+          "id": "0477",
+          "name": "黑夜魔灵"
+        },
+        {
+          "id": "0607",
+          "name": "烛光灵"
+        },
+        {
+          "id": "0608",
+          "name": "灯火幽灵"
+        },
+        {
+          "id": "0609",
+          "name": "水晶灯火灵"
+        },
+        {
+          "id": "0704",
+          "name": "黏黏宝"
+        },
+        {
+          "id": "0705",
+          "name": "黏美儿"
+        },
+        {
+          "id": "0705H",
+          "name": "黏美儿"
+        },
+        {
+          "id": "0706",
+          "name": "黏美龙"
+        },
+        {
+          "id": "0706H",
+          "name": "黏美龙"
+        },
+        {
+          "id": "0708",
+          "name": "小木灵"
+        },
+        {
+          "id": "0709",
+          "name": "朽木妖"
+        },
+        {
+          "id": "0842",
+          "name": "丰蜜龙"
+        },
+        {
+          "id": "0871",
+          "name": "啪嚓海胆"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0092",
+          "name": "鬼斯"
+        },
+        {
+          "id": "0093",
+          "name": "鬼斯通"
+        },
+        {
+          "id": "0094",
+          "name": "耿鬼"
+        },
+        {
+          "id": "0353",
+          "name": "怨影娃娃"
+        },
+        {
+          "id": "0354",
+          "name": "诅咒娃娃"
+        },
+        {
+          "id": "0442",
+          "name": "花岩怪"
+        }
+      ],
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0147",
+          "name": "迷你龙"
+        },
+        {
+          "id": "0148",
+          "name": "哈克龙"
+        },
+        {
+          "id": "0149",
+          "name": "快龙"
+        },
+        {
+          "id": "0329",
+          "name": "超音波幼虫"
+        },
+        {
+          "id": "0330",
+          "name": "沙漠蜻蜓"
+        },
+        {
+          "id": "0350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "0373",
+          "name": "暴飞龙"
+        },
+        {
+          "id": "0782",
+          "name": "心鳞宝"
+        },
+        {
+          "id": "0783",
+          "name": "鳞甲龙"
+        },
+        {
+          "id": "0784",
+          "name": "杖尾鳞甲龙"
+        },
+        {
+          "id": "0884",
+          "name": "铝钢龙"
+        },
+        {
+          "id": "0996",
+          "name": "凉脊龙"
+        },
+        {
+          "id": "0997",
+          "name": "冻脊龙"
+        },
+        {
+          "id": "0998",
+          "name": "戟脊龙"
+        },
+        {
+          "id": "1011",
+          "name": "裹蜜虫"
+        },
+        {
+          "id": "1018",
+          "name": "铝钢桥龙"
+        },
+        {
+          "id": "1019",
+          "name": "蜜集大蛇"
+        }
+      ],
+      "name": "龙尾",
+      "type": "龙",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "90",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "多龙梅西亚",
+      "image": "0885-多龙梅西亚.png",
+      "shiny": "0885-多龙梅西亚-shiny.png"
+    }
+  ]
 }

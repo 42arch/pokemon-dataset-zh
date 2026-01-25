@@ -1,747 +1,806 @@
 {
-    "name": "电肚蛙",
-    "index": "0939",
-    "name_en": "Bellibolt",
-    "name_jp": "ハラバリー",
-    "profile": "电肚蛙的头部与背部是青色的，腹部则是灰黑色的，在它的腹部有一个黄色的“发电脐”。它头部两侧的突起不是它的眼球，其实是放电器官。它真正的眼睛是在嘴巴上面的。\n电肚蛙会伸缩富有弹性的胖嘟嘟的身体，用看似肚脐的器官发电，产生大量的电气。它产生的大量电气能量，会从头部左右两边看似眼球的突起处释放。而它真正的眼睛又小又圆，想要展现压迫感的时候，看似眼球的突起似乎能派上用场。它的性格悠闲，直到受到攻击才会反应过来。要想培养出让它拥有不受到攻击就能开始对战的干劲，可不是一件容易的事。在电肚蛙的栖息地，日落以后能听到“咕莫～咕莫～”的奇妙声音。现在已知这并不是它的叫声，而是从肚子里发出的声音，是电肚蛙在宣告自己的肚子空空如也。\n",
-    "forms": [
-        {
-            "name": "电肚蛙",
-            "index": "0939",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0939-电肚蛙.png",
-            "types": [
-                "电"
-            ],
-            "genus": "电蛙宝可梦",
-            "ability": [
-                {
-                    "name": "电力转换",
-                    "is_hidden": false
-                },
-                {
-                    "name": "静电",
-                    "is_hidden": false
-                },
-                {
-                    "name": "湿气",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "1.2m",
-            "weight": "113.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双手形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "50",
-                "rate": "6.5%"
-            },
-            "egg_groups": [
-                "水中1"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "109",
-                "attack": "64",
-                "defense": "91",
-                "sp_attack": "103",
-                "sp_defense": "83",
-                "speed": "45"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "只要伸缩胖嘟嘟的身体，就能让肚子上的发电脐产生大量的电气。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "看似眼球的部位其实是放电器官，能够用来发射腹部的发电脐所制造的电力。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "光蚪仔",
-                "stage": "未进化",
-                "text": null,
-                "image": "938Tadbulb_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "电肚蛙",
-                "stage": "1阶进化",
-                "text": "使用雷之石",
-                "image": "939Bellibolt_Dream.png",
-                "back_text": "",
-                "from": "光蚪仔",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "电肚蛙",
-        "en": "찌리배리 Jjiribaeri",
-        "fr": "찌리배리 Jjiribaeri",
-        "zh_hant": "電肚蛙",
-        "de": "Wampitz",
-        "it": "Bellibolt",
-        "es": "Bellibolt",
-        "ja": "ハラバリー",
-        "ko": "찌리배리"
+  "name_zh": "电肚蛙",
+  "name_ja": "ハラバリー",
+  "name_en": "Bellibolt",
+  "pokedex_id": "0939",
+  "description": "电肚蛙（日文︰ハラバリー，英文︰Bellibolt）是电属性宝可梦。电肚蛙于2022年10月14日正式公开。电肚蛙的形象设计者是西田敦子。",
+  "profile": "电肚蛙的头部与背部是青色的，腹部则是灰黑色的，在它的腹部有一个黄色的“发电脐”。它头部两侧的突起不是它的眼球，其实是放电器官。它真正的眼睛是在嘴巴上面的。\n电肚蛙会伸缩富有弹性的胖嘟嘟的身体，用看似肚脐的器官发电，产生大量的电气。它产生的大量电气能量，会从头部左右两边看似眼球的突起处释放。而它真正的眼睛又小又圆，想要展现压迫感的时候，看似眼球的突起似乎能派上用场。它的性格悠闲，直到受到攻击才会反应过来。要想培养出让它拥有不受到攻击就能开始对战的干劲，可不是一件容易的事。在电肚蛙的栖息地，日落以后能听到“咕莫～咕莫～”的奇妙声音。现在已知这并不是它的叫声，而是从肚子里发出的声音，是电肚蛙在宣告自己的肚子空空如也。[1]",
+  "prototype": "电肚蛙的设计基于蛙类：\n考虑到体色和帕底亚地区的原型，它可能参考了欧洲树蛙。\n它眼睛和嘴部较小、身体圆润有弹性的特点也类似短头蛙、花狭口蛙或紫蛙。\n电肚蛙头部两侧的突起可能来自蛙的鸣囊和纳特泡蟾的假眼。\n其形象也可能参考了一些青蛙造型的玩具，如挤压玩偶或发条青蛙。\n电肚蛙也有照明装置的设计元素，它腹部的放电器官类似等离子灯，背部的花纹可能源自电离辐射标志，头部两侧的突起可能来自灯泡。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ハラバリー Harabarie",
+      "origin": "来自“腹（はら）”（腹部，肚子）和“バリバリ”（震天响）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "掷泥",
-                        "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "偷懒",
-                        "flavor_text": "偷懒休息。回复自己最大ＨＰ的一半。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "7",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电击",
-                        "flavor_text": "发出电流刺激对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "11",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "17",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "充电",
-                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电光",
-                        "flavor_text": "让电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抓狂",
-                        "flavor_text": "抓狂般乱打进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "放电",
-                        "flavor_text": "用耀眼的电击攻击自己周围所有的宝可梦。有时会陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "突袭",
-                        "flavor_text": "可以比对手先攻击。对手使出的招式如果不是攻击招式则会失败。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电磁炮",
-                        "flavor_text": "发射大炮一样的电流进行攻击。让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "50",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００５",
-                        "method": "招式学习器",
-                        "name": "掷泥",
-                        "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１７",
-                        "method": "招式学习器",
-                        "name": "奇异之光",
-                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２３",
-                        "method": "招式学习器",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３５",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４８",
-                        "method": "招式学习器",
-                        "name": "伏特替换",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７２",
-                        "method": "招式学习器",
-                        "name": "电球",
-                        "flavor_text": "用电气团撞向对手。自己比对手速度越快，威力越大。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７４",
-                        "method": "招式学习器",
-                        "name": "反射壁",
-                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７５",
-                        "method": "招式学习器",
-                        "name": "光墙",
-                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８２",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９６",
-                        "method": "招式学习器",
-                        "name": "怪异电波",
-                        "flavor_text": "从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１７",
-                        "method": "招式学习器",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２６",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３６",
-                        "method": "招式学习器",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４７",
-                        "method": "招式学习器",
-                        "name": "疯狂伏特",
-                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６６",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７３",
-                        "method": "招式学习器",
-                        "name": "充电",
-                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０９",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１０",
-                        "method": "招式学习器",
-                        "name": "闪电强袭",
-                        "flavor_text": "让身体带电后压向对手。如果没有命中则自己会受到伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１１",
-                        "method": "招式学习器",
-                        "name": "电网",
-                        "flavor_text": "用电网捉住对手进行攻击。会降低对手的速度。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "電肚蛙电肚蛙",
+      "origin": "来自“电”、“肚子”和“蛙”。"
     },
-    "home_images": [
+    {
+      "language": "中文-台湾",
+      "name": "電肚蛙",
+      "origin": "来自“电”、“肚子”和“蛙”。"
+    },
+    {
+      "language": "英文",
+      "name": "Bellibolt",
+      "origin": "来自 belly（肚子）和 bolt（闪电）。"
+    },
+    {
+      "language": "法文",
+      "name": "Ampibidou",
+      "origin": "来自 ampère（安培：电流强度的单位）或 ampoule（灯泡）、amphibien（两栖动物）和 bidou（【儿语】肚子）。"
+    },
+    {
+      "language": "德文",
+      "name": "Wampitz",
+      "origin": "来自 Wampe（【口语】大肚子）和 Blitz（闪电）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Bellibolt",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Bellibolt",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "찌리배리 Jjiribaeri",
+      "origin": "来自“찌릿찌릿”（电得发麻的样子）、“배”（肚子）及英文 belly（肚子）和“개구리”（青蛙）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "电肚蛙",
+      "types": [
+        "电"
+      ],
+      "category": "电蛙宝可梦",
+      "abilities": [
         {
-            "name": "电肚蛙",
-            "image": "0939-电肚蛙.png",
-            "shiny": "0939-电肚蛙-shiny.png"
+          "name": "电力转换",
+          "is_hidden": false
+        },
+        {
+          "name": "静电",
+          "is_hidden": false
+        },
+        {
+          "name": "湿气",
+          "is_hidden": true
         }
+      ],
+      "height": "1.2m",
+      "weight": "113.0kg",
+      "color": "绿色",
+      "catch_rate": "50（6.5%）",
+      "egg_groups": [
+        "水中1群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body04.png",
+      "footprint": "FUnknown.png",
+      "image": "939Bellibolt.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "109",
+        "attack": "64",
+        "defense": "91",
+        "sp_attack": "103",
+        "sp_defense": "83",
+        "speed": "45"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "只要伸缩胖嘟嘟的身体，就能让肚子上的发电脐产生大量的电气。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "看似眼球的部位其实是放电器官，能够用来发射腹部的发电脐所制造的电力。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "光蚪仔",
+        "stage": "未进化",
+        "text": null,
+        "image": "938Tadbulb_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "电肚蛙",
+        "stage": "1阶进化",
+        "text": "使用雷之石",
+        "image": "939Bellibolt_Dream.png",
+        "back_text": "",
+        "from": "光蚪仔",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "偷懒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "7",
+      "name": "电击",
+      "type": "电",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "11",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "17",
+      "name": "充电",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "21",
+      "name": "电光",
+      "type": "电",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "24",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "25",
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "32",
+      "name": "放电",
+      "type": "电",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "36",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "40",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "45",
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "50",
+      "name": "电磁炮",
+      "type": "电",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "50",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００５",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１７",
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２３",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４８",
+      "name": "伏特替换",
+      "type": "电",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７２",
+      "name": "电球",
+      "type": "电",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７４",
+      "name": "反射壁",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０７５",
+      "name": "光墙",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０８２",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９６",
+      "name": "怪异电波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１７",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２６",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３６",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４７",
+      "name": "疯狂伏特",
+      "type": "电",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６６",
+      "name": "打雷",
+      "type": "电",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７３",
+      "name": "充电",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０９",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１０",
+      "name": "闪电强袭",
+      "type": "电",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２１１",
+      "name": "电网",
+      "type": "电",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "194",
+          "name": "乌波"
+        },
+        {
+          "id": "195",
+          "name": "沼王"
+        },
+        {
+          "id": "259",
+          "name": "沼跃鱼"
+        },
+        {
+          "id": "260",
+          "name": "巨沼怪"
+        },
+        {
+          "id": "422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "693",
+          "name": "钢炮臂虾"
+        }
+      ],
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "0055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "0284",
+          "name": "雨翅蛾"
+        },
+        {
+          "id": "0418",
+          "name": "泳圈鼬"
+        },
+        {
+          "id": "0419",
+          "name": "浮潜鼬"
+        },
+        {
+          "id": "0594",
+          "name": "保姆曼波"
+        },
+        {
+          "id": "0751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "0752",
+          "name": "滴蛛霸"
+        },
+        {
+          "id": "0816",
+          "name": "泪眼蜥"
+        },
+        {
+          "id": "0817",
+          "name": "变涩蜥"
+        },
+        {
+          "id": "0818",
+          "name": "千面避役"
+        }
+      ],
+      "name": "浸水",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "抛物面充电",
+      "type": "电",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "电肚蛙",
+      "image": "0939-电肚蛙.png",
+      "shiny": "0939-电肚蛙-shiny.png"
+    }
+  ]
 }

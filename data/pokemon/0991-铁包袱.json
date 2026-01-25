@@ -1,764 +1,689 @@
 {
-    "name": "铁包袱",
-    "index": "0991",
-    "name_en": "Iron Bundle",
-    "name_jp": "テツノツツミ",
-    "profile": "据说铁包袱有与信使鸟相似的形状，会从球体装置中喷射出大量的冰，从而在雪原上移动。它在过去只被目击过两次。关于其真面目虽然众说纷纭，但较为有力的说法认为，铁包袱是超古代文明的产物。根据太古的文献中留下的记录，曾有疑似铁包袱的机械被设计出来并使用。其名取自奇书《紫之书》中所记载的神秘物体。\n",
-    "forms": [
-        {
-            "name": "铁包袱",
-            "index": "0991",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0991-铁包袱.png",
-            "types": [
-                "冰",
-                "水"
-            ],
-            "genus": "悖谬宝可梦",
-            "ability": [
-                {
-                    "name": "夸克充能",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.6m",
-            "weight": "11.0kg",
-            "gender_rate": null,
-            "shape": "双足兽形",
-            "color": "红色",
-            "catch_rate": {
-                "number": "50",
-                "rate": "6.5%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "56",
-                "attack": "80",
-                "defense": "114",
-                "sp_attack": "124",
-                "sp_defense": "60",
-                "speed": "136"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "它的外形就像是超自然杂志所报道的诞生于太古文明的机器人。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "与古老的书籍中记载的神秘物体相似的宝可梦。过去只被目击过２次。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "铁包袱",
-                "stage": "不进化",
-                "text": null,
-                "image": "991Iron_Bundle_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "铁包袱",
-        "zh_hant": "鐵包袱",
-        "en": "Iron Bundle",
-        "fr": "Iron Bundle",
-        "de": "Eisenbündel",
-        "it": "Saccoferreo",
-        "es": "Ferrosaco",
-        "ja": "テツノツツミ",
-        "ko": "무쇠보따리"
+  "name_zh": "铁包袱",
+  "name_ja": "テツノツツミ",
+  "name_en": "Iron Bundle",
+  "pokedex_id": "0991",
+  "description": "铁包袱（日文︰テツノツツミ，英文︰Iron Bundle）是冰属性／水属性悖谬宝可梦。",
+  "profile": "据说铁包袱有与信使鸟相似的形状，会从球体装置中喷射出大量的冰，从而在雪原上移动。它在过去只被目击过两次。关于其真面目虽然众说纷纭，但较为有力的说法认为，铁包袱是超古代文明的产物。[1]根据太古的文献中留下的记录，曾有疑似铁包袱的机械被设计出来并使用。其名取自奇书《紫之书》中所记载的神秘物体。",
+  "prototype": "铁包袱在信使鸟的基础上加入了更多科技的元素。\n其弹出的头部可能参考了玩偶盒等弹簧玩具。\n其修长的足部可能参考了滑雪板。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "テツノツツミ Tetsunotsutsumi",
+      "origin": "来自“鉄（てつ）の包（つつみ）”（铁的包袱）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "礼物",
-                        "flavor_text": "递给对手设有圈套的盒子进行攻击。也有可能回复对手ＨＰ。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "7",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "细雪",
-                        "flavor_text": "将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "14",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "啄钻",
-                        "flavor_text": "一边旋转，一边将尖喙刺入对手进行攻击。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "42",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冷冻干燥",
-                        "flavor_text": "急剧冷冻对手，有时会让对手陷入冰冻状态。对于水属性宝可梦也是效果绝佳。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "49",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "快速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "56",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "63",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "70",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "雪景",
-                        "flavor_text": "在５回合内会下雪。冰属性的防御会提高。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "77",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "84",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "极光幕",
-                        "flavor_text": "在５回合内减弱物理和特殊的伤害。只有下雪时才能使出。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "91",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００４",
-                        "method": "招式学习器",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１４",
-                        "method": "招式学习器",
-                        "name": "杂技",
-                        "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４０",
-                        "method": "招式学习器",
-                        "name": "空气利刃",
-                        "flavor_text": "用锐利的风切斩对手进行攻击。容易击中要害。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４３",
-                        "method": "招式学习器",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４６",
-                        "method": "招式学习器",
-                        "name": "雪崩",
-                        "flavor_text": "如果受到对手的招式攻击，就能给予该对手２倍威力的攻击。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５２",
-                        "method": "招式学习器",
-                        "name": "雪景",
-                        "flavor_text": "在５回合内会下雪。冰属性的防御会提高。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６０",
-                        "method": "招式学习器",
-                        "name": "急速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６９",
-                        "method": "招式学习器",
-                        "name": "冰冻拳",
-                        "flavor_text": "用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８７",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２２",
-                        "method": "招式学习器",
-                        "name": "再来一次",
-                        "flavor_text": "让对手接受再来一次，连续３次使出最后使用的招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２４",
-                        "method": "招式学习器",
-                        "name": "冰旋",
-                        "flavor_text": "脚上覆盖薄冰，旋转着撞击对手。通过旋转的动作破坏场地。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２７",
-                        "method": "招式学习器",
-                        "name": "嬉闹",
-                        "flavor_text": "与对手嬉闹并攻击。有时会降低对手的攻击。",
-                        "type": "妖精",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３６",
-                        "method": "招式学习器",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４３",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９６",
-                        "method": "招式学习器",
-                        "name": "快速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０８",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "鐵包袱铁包袱",
+      "origin": "来自“铁”和“包袱”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Iron Bundle",
+      "origin": "来自 iron（铁）和 bundle（包袱）。"
+    },
+    {
+      "language": "法文",
+      "name": "Hotte-de-Fer",
+      "origin": "来自 hotte（背篓，也指圣诞礼物袋）和 de fer（铁的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Eisenbündel",
+      "origin": "来自 Eisen（铁）和 Bündel（包裹）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Saccoferreo",
+      "origin": "来自 sacco（袋、包）和 ferreo（铁的）。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Ferrosaco",
+      "origin": "来自前缀 ferro-（表示“铁”）和 saco（袋、包）。"
+    },
+    {
+      "language": "韩文",
+      "name": "무쇠보따리 Musoebottari",
+      "origin": "来自“무쇠”（铸铁）和“보따리”（包袱）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "铁包袱",
+      "types": [
+        "冰",
+        "水"
+      ],
+      "category": "悖谬宝可梦",
+      "abilities": [
         {
-            "name": "铁包袱",
-            "image": "0991-铁包袱.png",
-            "shiny": "0991-铁包袱-shiny.png"
+          "name": "夸克充能",
+          "is_hidden": false
         }
+      ],
+      "height": "0.6m",
+      "weight": "11.0kg",
+      "color": "红色",
+      "catch_rate": "50（6.5%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "50 孵化周期*（12850步）",
+      "shape": "Body06.png",
+      "footprint": "FUnknown.png",
+      "image": "991Iron_Bundle.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "56",
+        "attack": "80",
+        "defense": "114",
+        "sp_attack": "124",
+        "sp_defense": "60",
+        "speed": "136"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.25"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "它的外形就像是超自然杂志所报道的诞生于太古文明的机器人。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "与古老的书籍中记载的神秘物体相似的宝可梦。过去只被目击过２次。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "铁包袱",
+        "stage": "不进化",
+        "text": null,
+        "image": "991Iron_Bundle_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "礼物",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "level": "7",
+      "name": "细雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "14",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "21",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "28",
+      "name": "啄钻",
+      "type": "飞行",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "35",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "42",
+      "name": "冷冻干燥",
+      "type": "冰",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "49",
+      "name": "快速折返",
+      "type": "水",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "56",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "63",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "70",
+      "name": "雪景",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "77",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "level": "84",
+      "name": "极光幕",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "91",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "level": "回忆",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００４",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１４",
+      "name": "杂技",
+      "type": "飞行",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４０",
+      "name": "空气利刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０４３",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４６",
+      "name": "雪崩",
+      "type": "冰",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５２",
+      "name": "雪景",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６０",
+      "name": "急速折返",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６９",
+      "name": "冰冻拳",
+      "type": "冰",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２２",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１２４",
+      "name": "冰旋",
+      "type": "冰",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２７",
+      "name": "嬉闹",
+      "type": "妖精",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３６",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９６",
+      "name": "快速折返",
+      "type": "水",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０８",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "铁包袱",
+      "image": "0991-铁包袱.png",
+      "shiny": "0991-铁包袱-shiny.png"
+    }
+  ]
 }

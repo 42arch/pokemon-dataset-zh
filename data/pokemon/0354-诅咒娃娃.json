@@ -1,1155 +1,1249 @@
 {
-    "name": "诅咒娃娃",
-    "index": "0354",
-    "name_en": "Banette",
-    "name_jp": "ジュペッタ",
-    "profile": "诅咒娃娃像一只嘴上有拉链的普通布偶。超级诅咒娃娃全身像是穿上了拉链服。\n诅咒娃娃原本只是被丢弃的可怜玩偶。诅咒的能量渗入被丢弃玩偶的棉花里，强烈的怨念将玩偶变成了宝可梦。它以垃圾场作为栖息地，可以在昏暗的巷子里发现它。据说它会寻找遗弃它的小孩，并在它周围到处走动，打算寻找丢弃自己的人来报仇。听说，如果满足它受重视的需求，就会变回原来的玩偶。它用针刺伤自己的身体时，就会产生强烈的诅咒能量。如果张开嘴，诅咒的能量就会从口中逃走。\n超级诅咒娃娃因为超级进化而怨念增强，拉链里面收纳着的诅咒之力满溢了出来。过大的能量增强了诅咒，无法压制。就连自己的训练家也会憎恨。\n",
-    "forms": [
-        {
-            "name": "诅咒娃娃",
-            "index": "0354",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0354-诅咒娃娃.png",
-            "types": [
-                "幽灵"
-            ],
-            "genus": "布偶宝可梦",
-            "ability": [
-                {
-                    "name": "不眠",
-                    "is_hidden": false
-                },
-                {
-                    "name": "察觉",
-                    "is_hidden": false
-                },
-                {
-                    "name": "咒术之躯",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "800,000",
-                "speed": "快"
-            },
-            "height": "1.1m",
-            "weight": "12.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双足兽形",
-            "color": "黑色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "不定形"
-            ]
-        },
-        {
-            "name": "超级诅咒娃娃",
-            "index": "0354.1",
-            "is_mega": true,
-            "is_gmax": false,
-            "image": "0354.1-超级诅咒娃娃.png",
-            "types": [
-                "幽灵"
-            ],
-            "genus": "布偶宝可梦",
-            "ability": [
-                {
-                    "name": "恶作剧之心",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "800,000",
-                "speed": "快"
-            },
-            "height": "1.2m",
-            "weight": "13.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双足兽形",
-            "color": "黑色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "不定形"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "64",
-                "attack": "115",
-                "defense": "65",
-                "sp_attack": "83",
-                "sp_defense": "63",
-                "speed": "65"
-            }
-        },
-        {
-            "form": "超级进化",
-            "data": {
-                "hp": "64",
-                "attack": "165",
-                "defense": "75",
-                "sp_attack": "93",
-                "sp_defense": "83",
-                "speed": "75"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "用针刺伤自己的身体时，就会产生强烈的诅咒能量。原本是个被丢弃的可怜玩偶。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "诅咒的能量渗入被丢弃玩偶的棉花里，变成了宝可梦。如果张开嘴，能量就会逃走。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "由被丢弃的布偶所变成的宝可梦。以垃圾场作为栖息地，据说会寻找遗弃它的小孩，并在它周围到处走动。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "怨念积存在被丢弃的布偶里，从而变为了宝可梦。可以在昏暗的巷子里发现它。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "怨念积存在被丢弃的布偶里，从而变为了宝可梦。可以在昏暗的巷子里发现它。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "怨念在被遗弃的布偶中积聚形成的宝可梦。一直在寻找抛弃自己的孩子。*"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "怨念在被遗弃的布偶中积聚形成的宝可梦。一直在寻找抛弃自己的孩子。*"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "用针刺伤自己的身体时，就会产生强烈的诅咒能量。原本是个被丢弃的可怜玩偶。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "诅咒的能量渗入被丢弃玩偶的棉花里，变成了宝可梦。如果张开嘴，能量就会逃走。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "怨念附在被丢弃的玩偶身上，打算寻找丢弃自己的人来报仇。过大的能量增强了诅咒，无法压制。就连自己的训练家也会憎恨。（超级进化）"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "因被丢弃的怨念而诞生。听说，如果满足它受重视的需求，就会变回原来的玩偶。因为超级进化，怨念增强。拉链里面收纳着的诅咒之力满溢出来。（超级进化）"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "怨念积存在被丢弃的布偶里，从而变为了宝可梦。可以在昏暗的巷子里发现它。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "怨影娃娃",
-                "stage": "未进化",
-                "text": null,
-                "image": "353Shuppet_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "诅咒娃娃",
-                "stage": "1阶进化",
-                "text": "等级37以上",
-                "image": "354Banette_Dream.png",
-                "back_text": "",
-                "from": "怨影娃娃",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "诅咒娃娃",
-        "zh_hant": "詛咒娃娃",
-        "en": "다크펫 Dakeu'pet",
-        "fr": "다크펫 Dakeu'pet",
-        "de": "Banette",
-        "it": "Banette",
-        "es": "Banette",
-        "ja": "ジュペッタ",
-        "ko": "다크펫"
+  "name_zh": "诅咒娃娃",
+  "name_ja": "ジュペッタ",
+  "name_en": "Banette",
+  "pokedex_id": "0354",
+  "description": "诅咒娃娃（日文︰ジュペッタ，英文︰Banette）是幽灵属性宝可梦。",
+  "profile": "诅咒娃娃像一只嘴上有拉链的普通布偶。超级诅咒娃娃全身像是穿上了拉链服。\n诅咒娃娃原本只是被丢弃的可怜玩偶。咒术的能量渗入被丢弃玩偶的棉花里，强烈的怨念将玩偶变成了宝可梦。它以垃圾场作为栖息地，可以在昏暗的巷子里发现它。据说它会寻找遗弃它的小孩，并在它周围到处走动，打算寻找丢弃自己的人来报仇。听说，如果满足它受重视的需求，就会变回原来的玩偶。它用针刺伤自己的身体时，就会产生强烈的咒术能量。如果张开嘴，咒术的能量就会从口中逃走。\n超级诅咒娃娃因为超级进化而怨念增强，拉链里面收纳着的咒术之力满溢了出来。过大的能量增强了咒术，无法压制。就连自己的训练家也会憎恨。",
+  "prototype": "根据诅咒娃娃的外观，可能来自巫毒教娃娃或类似于付丧神。\n尾巴造型类似压胜人偶术中所使用的大头针。",
+  "detail": "在《Ｘ／Ｙ》官方全国图鉴攻略本中，双打对战栏目中对超级诅咒娃娃的叙述有误，其内容为“讲究围巾可以将速度变为1.5倍，但是只能锁定一个招式。使用戏法把道具交换给对手，在先手使用恶作剧之心搭配定身法，就能让对手在4个回合内只能使用挣扎”。而实际上宝可梦需要携带超级石才能超级进化，宝可梦不能同时携带两个道具，故在之后的再版得到了修正。将内容改成“在双打对战中，让队友来使用戏法把围巾换给对手”。\n此时没有任何一只宝可梦可以单独使用这个战术，直到《剑／盾》起拥有恶作剧之心特性的勾魂眼可以同时学会戏法与定身法。\n全国图鉴攻略本中的谬误\n再版后的修正\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步诅咒娃娃（Pokémon GO）。\n←\nNo.0353：怨影娃娃\n宝可梦\nNo.0355：夜巡灵\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ジュペッタ Juppeta",
+      "origin": "来自“呪（じゅ）”（咒术）和英文 puppet（戏偶、傀儡）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "黑夜魔影",
-                        "flavor_text": "显示恐怖幻影，只给予对手和自己等级相同的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "刺耳声",
-                        "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "怨恨",
-                        "flavor_text": "对对手最后使用的招式怀有怨恨，减少４ＰＰ该招式。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "磷火",
-                        "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "19",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "影子偷袭",
-                        "flavor_text": "伸长影子，从对手的背后进行攻击。必定能够先制攻击。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "22",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "祸不单行",
-                        "flavor_text": "接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "26",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咒术",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "34",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "扮演",
-                        "flavor_text": "扮演对手，让自己的特性变得和对手相同。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "突袭",
-                        "flavor_text": "可以比对手先攻击。对手使出的招式如果不是攻击招式则会失败。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "46",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "戏法",
-                        "flavor_text": "抓住对手的空隙，交换自己和对手的持有物。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "53",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "潜灵奇袭",
-                        "flavor_text": "第１回合消失在某处，第２回合攻击对手。可以无视守护进行攻击。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００６",
-                        "method": "招式学习器",
-                        "name": "可怕面孔",
-                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１６",
-                        "method": "招式学习器",
-                        "name": "幻象光线",
-                        "flavor_text": "向对手发射神奇的光线进行攻击。有时会使对手混乱。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１７",
-                        "method": "招式学习器",
-                        "name": "奇异之光",
-                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２０",
-                        "method": "招式学习器",
-                        "name": "起草",
-                        "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２１",
-                        "method": "招式学习器",
-                        "name": "虫扑",
-                        "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２３",
-                        "method": "招式学习器",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２９",
-                        "method": "招式学习器",
-                        "name": "祸不单行",
-                        "flavor_text": "接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４２",
-                        "method": "招式学习器",
-                        "name": "黑夜魔影",
-                        "flavor_text": "显示恐怖幻影，只给予对手和自己等级相同的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４３",
-                        "method": "招式学习器",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６１",
-                        "method": "招式学习器",
-                        "name": "暗影爪",
-                        "flavor_text": "以影子做成的锐爪，劈开对手。容易击中要害。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６２",
-                        "method": "招式学习器",
-                        "name": "移花接木",
-                        "flavor_text": "利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７９",
-                        "method": "招式学习器",
-                        "name": "魔法闪耀",
-                        "flavor_text": "向对手发射强光，并给予伤害。",
-                        "type": "妖精",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８０",
-                        "method": "招式学习器",
-                        "name": "挥指",
-                        "flavor_text": "挥动手指刺激自己的大脑，从许多的招式中随机使出１个。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８２",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８７",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８８",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９２",
-                        "method": "招式学习器",
-                        "name": "封印",
-                        "flavor_text": "如果对手有和自己相同的招式，那么只有对手无法使用该招式。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９４",
-                        "method": "招式学习器",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９８",
-                        "method": "招式学习器",
-                        "name": "特性互换",
-                        "flavor_text": "利用超能力互换自己和对手的特性。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０２",
-                        "method": "招式学习器",
-                        "name": "垃圾射击",
-                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０７",
-                        "method": "招式学习器",
-                        "name": "磷火",
-                        "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０９",
-                        "method": "招式学习器",
-                        "name": "戏法",
-                        "flavor_text": "抓住对手的空隙，交换自己和对手的持有物。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１４",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２０",
-                        "method": "招式学习器",
-                        "name": "精神强念",
-                        "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２２",
-                        "method": "招式学习器",
-                        "name": "再来一次",
-                        "flavor_text": "让对手接受再来一次，连续３次使出最后使用的招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２６",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２９",
-                        "method": "招式学习器",
-                        "name": "冥想",
-                        "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４０",
-                        "method": "招式学习器",
-                        "name": "诡计",
-                        "flavor_text": "谋划诡计，激活头脑。大幅提高自己的特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５１",
-                        "method": "招式学习器",
-                        "name": "潜灵奇袭",
-                        "flavor_text": "第１回合消失在某处，第２回合攻击对手。可以无视守护进行攻击。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６１",
-                        "method": "招式学习器",
-                        "name": "戏法空间",
-                        "flavor_text": "制造出离奇的空间。在５回合内速度慢的宝可梦可以先行动。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６６",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７７",
-                        "method": "招式学习器",
-                        "name": "怨恨",
-                        "flavor_text": "对对手最后使用的招式怀有怨恨，减少４ＰＰ该招式。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８１",
-                        "method": "招式学习器",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９５",
-                        "method": "招式学习器",
-                        "name": "妒火",
-                        "flavor_text": "用嫉妒的能量攻击对手。会让在该回合内能力有所提高的宝可梦陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９８",
-                        "method": "招式学习器",
-                        "name": "灵骚",
-                        "flavor_text": "操纵对手的持有物进行攻击。当对手没有携带道具时，使出此招式时便会失败。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "110",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９９",
-                        "method": "招式学习器",
-                        "name": "泄愤",
-                        "flavor_text": "攻击对手以发泄对其感到的恼怒情绪。如果在该回合内自身能力遭到降低，招式的威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０２",
-                        "method": "招式学习器",
-                        "name": "分担痛楚",
-                        "flavor_text": "将自己的ＨＰ和对手的ＨＰ相加，然后自己和对手友好地平分。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０３",
-                        "method": "招式学习器",
-                        "name": "自我暗示",
-                        "flavor_text": "向自己施以自我暗示，将能力变化的状态变得和对手一样。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１９",
-                        "method": "招式学习器",
-                        "name": "爬击",
-                        "flavor_text": "从对手背后爬近后进行攻击。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２１",
-                        "method": "招式学习器",
-                        "name": "深渊突刺",
-                        "flavor_text": "受到此招式攻击的对手，会因为地狱般的痛苦，在２回合内，变得无法使出声音类招式。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２４",
-                        "method": "招式学习器",
-                        "name": "咒术",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "詛咒娃娃诅咒娃娃",
+      "origin": "来自“咒术”和“娃娃”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "诅咒娃娃",
+      "origin": "来自“咒术”和“娃娃”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "詛咒娃娃",
+      "origin": "来自“咒术”和“娃娃”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "詛咒娃娃",
+      "origin": "来自“咒术”和“娃娃”。"
+    },
+    {
+      "language": "英文",
+      "name": "Banette",
+      "origin": "来自 bane（危害；毁灭）和 marionette（悬丝傀儡）。"
+    },
+    {
+      "language": "法文",
+      "name": "Branette",
+      "origin": "来自 braguette（裤拉链）和 marionnette（悬丝傀儡）。"
+    },
+    {
+      "language": "德文",
+      "name": "Banette",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Banette",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Banette",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "다크펫 Darkpet",
+      "origin": "来自英文 dark（黑暗）和英文 puppet（戏偶、傀儡）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "诅咒娃娃",
+      "types": [
+        "幽灵"
+      ],
+      "category": "布偶宝可梦",
+      "abilities": [
         {
-            "name": "诅咒娃娃",
-            "image": "0354-诅咒娃娃.png",
-            "shiny": "0354-诅咒娃娃-shiny.png"
+          "name": "不眠",
+          "is_hidden": false
         },
         {
-            "name": "诅咒娃娃-超级诅咒娃娃",
-            "image": "0354-诅咒娃娃-超级诅咒娃娃.png",
-            "shiny": "0354-诅咒娃娃-超级诅咒娃娃-shiny.png"
+          "name": "察觉",
+          "is_hidden": false
+        },
+        {
+          "name": "咒术之躯",
+          "is_hidden": true
         }
+      ],
+      "height": "1.1m",
+      "weight": "12.5kg",
+      "color": "黑色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "不定形群"
+      ],
+      "experience_100": "800,000（快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body06.png",
+      "footprint": "F354.png",
+      "image": "354Banette.png"
+    },
+    {
+      "name": "超级诅咒娃娃",
+      "types": [
+        "幽灵"
+      ],
+      "category": "布偶宝可梦",
+      "abilities": [
+        {
+          "name": "恶作剧之心",
+          "is_hidden": false
+        }
+      ],
+      "height": "1.2m",
+      "weight": "13.0kg",
+      "color": "黑色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "不定形群"
+      ],
+      "experience_100": "800,000（快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body06.png",
+      "footprint": "F354.png",
+      "image": "354Banette-Mega.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "64",
+        "attack": "115",
+        "defense": "65",
+        "sp_attack": "83",
+        "sp_defense": "63",
+        "speed": "65"
+      }
+    },
+    {
+      "form": "超级进化",
+      "data": {
+        "hp": "64",
+        "attack": "165",
+        "defense": "75",
+        "sp_attack": "93",
+        "sp_defense": "83",
+        "speed": "75"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0"
+    },
+    {
+      "type": "格斗",
+      "damage": "0"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "2"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "2"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "用针刺伤自己的身体时，就会产生强烈的诅咒能量。原本是个被丢弃的可怜玩偶。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "诅咒的能量渗入被丢弃玩偶的棉花里，变成了宝可梦。如果张开嘴，能量就会逃走。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "由被丢弃的布偶所变成的宝可梦。以垃圾场作为栖息地，据说会寻找遗弃它的小孩，并在他周围到处走动。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "怨念积存在被丢弃的布偶里，从而变为了宝可梦。可以在昏暗的巷子里发现它。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "怨念积存在被丢弃的布偶里，从而变为了宝可梦。可以在昏暗的巷子里发现它。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "用针刺伤自己的身体时，就会产生强烈的诅咒能量。原本是个被丢弃的可怜玩偶。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "诅咒的能量渗入被丢弃玩偶的棉花里，变成了宝可梦。如果张开嘴，能量就会逃走。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "怨念积存在被丢弃的布偶里，从而变为了宝可梦。可以在昏暗的巷子里发现它。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "强烈的怨念将玩偶变成了宝可梦。如果张开嘴，诅咒的能量就会从口中逃走。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "怨念附在被丢弃的玩偶身上，变成了宝可梦。会一直寻找丢弃自己的孩子。因为超级进化，怨念增强。拉链里面收纳着的诅咒之力满溢出来。（超级进化）"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "怨影娃娃",
+        "stage": "未进化",
+        "text": null,
+        "image": "353Shuppet_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "诅咒娃娃",
+        "stage": "1阶进化",
+        "text": "等级37以上",
+        "image": "354Banette_Dream.png",
+        "back_text": "",
+        "from": "怨影娃娃",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [
+    {
+      "name": "诅咒娃娃",
+      "form_name": "超级诅咒娃娃",
+      "image": "354Banette-Mega_Dream.png"
+    }
+  ],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "黑夜魔影",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "刺耳声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "怨恨",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "16",
+      "name": "磷火",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "19",
+      "name": "影子偷袭",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "22",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "26",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "30",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "34",
+      "name": "扮演",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "40",
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "46",
+      "name": "戏法",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "53",
+      "name": "潜灵奇袭",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１６",
+      "name": "幻象光线",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１７",
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２０",
+      "name": "起草",
+      "type": "草",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２１",
+      "name": "虫扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２３",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２９",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４２",
+      "name": "黑夜魔影",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４３",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０６１",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６２",
+      "name": "移花接木",
+      "type": "恶",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７９",
+      "name": "魔法闪耀",
+      "type": "妖精",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８０",
+      "name": "挥指",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８２",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８８",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９２",
+      "name": "封印",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９４",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０９８",
+      "name": "特性互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０２",
+      "name": "垃圾射击",
+      "type": "毒",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０７",
+      "name": "磷火",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０９",
+      "name": "戏法",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１４",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２０",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２２",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１２６",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２９",
+      "name": "冥想",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１４０",
+      "name": "诡计",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１５１",
+      "name": "潜灵奇袭",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６１",
+      "name": "戏法空间",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６６",
+      "name": "打雷",
+      "type": "电",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７７",
+      "name": "怨恨",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８１",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１９５",
+      "name": "妒火",
+      "type": "火",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１９８",
+      "name": "灵骚",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "110",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１９９",
+      "name": "泄愤",
+      "type": "恶",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０２",
+      "name": "分担痛楚",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０３",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１９",
+      "name": "爬击",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２１",
+      "name": "深渊突刺",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0088",
+          "name": "臭泥"
+        },
+        {
+          "id": "0088A",
+          "name": "臭泥"
+        },
+        {
+          "id": "0089",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "0089A",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "0355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "0356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "0477",
+          "name": "黑夜魔灵"
+        }
+      ],
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0092",
+          "name": "鬼斯"
+        },
+        {
+          "id": "0093",
+          "name": "鬼斯通"
+        },
+        {
+          "id": "0094",
+          "name": "耿鬼"
+        },
+        {
+          "id": "0200",
+          "name": "梦妖"
+        },
+        {
+          "id": "0355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "0356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "0442",
+          "name": "花岩怪"
+        },
+        {
+          "id": "0477",
+          "name": "黑夜魔灵"
+        },
+        {
+          "id": "0607",
+          "name": "烛光灵"
+        },
+        {
+          "id": "0608",
+          "name": "灯火幽灵"
+        },
+        {
+          "id": "0609",
+          "name": "水晶灯火灵"
+        },
+        {
+          "id": "0708",
+          "name": "小木灵"
+        },
+        {
+          "id": "0709",
+          "name": "朽木妖"
+        }
+      ],
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0092",
+          "name": "鬼斯"
+        },
+        {
+          "id": "0093",
+          "name": "鬼斯通"
+        },
+        {
+          "id": "0094",
+          "name": "耿鬼"
+        },
+        {
+          "id": "0109",
+          "name": "瓦斯弹"
+        },
+        {
+          "id": "0110",
+          "name": "双弹瓦斯"
+        },
+        {
+          "id": "0110G",
+          "name": "双弹瓦斯"
+        },
+        {
+          "id": "0425",
+          "name": "飘飘球"
+        },
+        {
+          "id": "0426",
+          "name": "随风球"
+        },
+        {
+          "id": "0477",
+          "name": "黑夜魔灵"
+        },
+        {
+          "id": "0708",
+          "name": "小木灵"
+        },
+        {
+          "id": "0709",
+          "name": "朽木妖"
+        }
+      ],
+      "name": "同命",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0475",
+          "name": "艾路雷朵"
+        },
+        {
+          "id": "0607",
+          "name": "烛光灵"
+        },
+        {
+          "id": "0608",
+          "name": "灯火幽灵"
+        },
+        {
+          "id": "0609",
+          "name": "水晶灯火灵"
+        }
+      ],
+      "name": "封印",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0088",
+          "name": "臭泥"
+        },
+        {
+          "id": "0088A",
+          "name": "臭泥"
+        },
+        {
+          "id": "0089",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "0089A",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "0316",
+          "name": "溶食兽"
+        },
+        {
+          "id": "0317",
+          "name": "吞食兽"
+        }
+      ],
+      "name": "垃圾射击",
+      "type": "毒",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "80",
+      "pp": "5"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "诅咒娃娃",
+      "image": "0354-诅咒娃娃.png",
+      "shiny": "0354-诅咒娃娃-shiny.png"
+    },
+    {
+      "name": "诅咒娃娃-超级诅咒娃娃",
+      "image": "0354-诅咒娃娃-超级诅咒娃娃.png",
+      "shiny": "0354-诅咒娃娃-超级诅咒娃娃-shiny.png"
+    }
+  ]
 }

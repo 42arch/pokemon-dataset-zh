@@ -1,795 +1,968 @@
 {
-    "name": "铁臂枪虾",
-    "index": "0692",
-    "name_en": "Clauncher",
-    "name_jp": "ウデッポウ",
-    "profile": "铁臂枪虾的一只钳子远比另一只大。它有三对浅灰色的腿和两对蓝色尖刺钳子，每个钳子的顶部都有黑色条纹。它有一对黄色触角，黄色眼睛。背部有三条黑色条纹，将其身体分成几个部分，底部为浅灰色。\n铁臂枪虾会通过体内气体的爆炸像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。极近距离的话，能击碎岩石。在海上的多龙梅西亚明明不吃但又会咬住铁臂枪虾不放。钳子就算在战斗中掉落也还会再长出来，在再生之前会悄悄地生活。不同于铁螯龙虾钳子里面的肉有臭泥味，实在很难吃，铁臂枪虾钳子里的肉是在伽勒尔广受欢迎的珍奇美食，但由于味道太独特因此很挑喜好。它可以从右侧的钳子里喷出水来移动，因为平衡性很差，所以不擅长直线游泳。\n",
-    "forms": [
-        {
-            "name": "铁臂枪虾",
-            "index": "0692",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0692-铁臂枪虾.png",
-            "types": [
-                "水"
-            ],
-            "genus": "水枪宝可梦",
-            "ability": [
-                {
-                    "name": "超级发射器",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.5m",
-            "weight": "8.3kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "虫形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "225",
-                "rate": "29.4%"
-            },
-            "egg_groups": [
-                "水中1",
-                "水中3"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "50",
-                "attack": "53",
-                "defense": "62",
-                "sp_attack": "58",
-                "sp_defense": "63",
-                "speed": "44"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "通过体内气体的爆炸，像手枪一样发射水。极近距离的话，能击碎岩石。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "通过体内气体的爆炸，像手枪一样发射水。极近距离的话，能击碎岩石。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "钳子时常会掉落，在再生之前，会悄悄地生活。钳子里面的肉非常美味哦。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "从右侧的钳子里喷出水来移动。因为平衡性很差，所以不擅长直线游泳。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "钳子就算在战斗中掉落也还会再长出来。钳子里的肉是在伽勒尔广受欢迎的珍奇美食。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "通过引爆积蓄在右臂钳子中的气体，像发射子弹般将水喷射出去，击倒敌人。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "从右侧的钳子里让气体爆炸来发射水。会狙击飞在空中的宝可梦。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "钳子即使脱落也会再长出来，里面的肉虽然可以食用，但由于味道太独特因此很挑喜好。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "铁臂枪虾",
-                "stage": "未进化",
-                "text": null,
-                "image": "692Clauncher_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "钢炮臂虾",
-                "stage": "1阶进化",
-                "text": "等级37以上",
-                "image": "693Clawitzer_Dream.png",
-                "back_text": "",
-                "from": "铁臂枪虾",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "铁臂枪虾",
-        "zh_hant": "鐵臂槍蝦",
-        "en": "Clauncher",
-        "fr": "Clauncher",
-        "de": "Scampisto",
-        "it": "Clauncher",
-        "es": "Clauncher",
-        "ja": "ウデッポウ",
-        "ko": "완철포"
+  "name_zh": "铁臂枪虾",
+  "name_ja": "ウデッポウ",
+  "name_en": "Clauncher",
+  "pokedex_id": "0692",
+  "description": "铁臂枪虾（日文︰ウデッポウ，英文︰Clauncher）是水属性宝可梦。",
+  "profile": "铁臂枪虾的一只钳子远比另一只大。它有三对浅灰色的腿和两对蓝色尖刺钳子，每个钳子的顶部都有黑色条纹。它有一对黄色触角，黄色眼睛。背部有三条黑色条纹，将其身体分成几个部分，底部为浅灰色。\n铁臂枪虾会通过体内气体的爆炸像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。极近距离的话，能击碎岩石。在海上的多龙梅西亚明明不吃但又会咬住铁臂枪虾不放。钳子就算在战斗中掉落也还会再长出来，在再生之前会悄悄地生活。不同于铁螯龙虾钳子里面的肉有臭泥味，实在很难吃，铁臂枪虾钳子里的肉是在伽勒尔广受欢迎的珍奇美食，但由于味道太独特因此很挑喜好。它可以从右侧的钳子里喷出水来移动，因为平衡性很差，所以不擅长直线游泳。",
+  "prototype": "铁臂枪虾基于枪虾。枪虾有一大一小两个螯，它可以闭合大螯产生时速高达100km/h的水流，同时由于空穴现象生成一个低压气泡，气泡崩裂时产生高温和巨响，击杀附近的猎物。\n其蓝色的体色类似天空蓝魔虾或佛罗里达蓝螯虾。\n其钳子也可能基于水枪。",
+  "detail": "游戏中铁臂枪虾较大的钳子仅在右臂；不过根据大木博士的宝可梦全息影像通讯器，动画中的铁臂枪虾也有较大的钳子在左臂的种类。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步铁臂枪虾（Pokémon GO）。\n←\nNo.0691：毒藻龙\n宝可梦\nNo.0693：钢炮臂虾\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ウデッポウ Udeppo",
+      "origin": "来自“腕（うで）”（臂）、“鉄砲（てっぽう）”（枪械） 和“無（む）鉄砲（てっぽう）”（鲁莽）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "跃起",
-                        "flavor_text": "也不攻击只是一蹦一蹦地跳，什么都不会发生……",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "夹住",
-                        "flavor_text": "将对手从两侧夹住，给予伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抓狂",
-                        "flavor_text": "抓狂般乱打进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水流喷射",
-                        "flavor_text": "以迅雷不及掩耳之势扑向对手。必定能够先制攻击。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "击落",
-                        "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "磨爪",
-                        "flavor_text": "将爪子磨得更加锋利。提高自己的攻击和命中率。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "波导弹",
-                        "flavor_text": "从体内产生出波导之力，然后向对手发出。攻击必定会命中。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "弹跳",
-                        "flavor_text": "弹跳到高高的空中，第２回合攻击对手。有时会让对手陷入麻痹状态。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "55",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蟹钳锤",
-                        "flavor_text": "用大钳子敲打对手进行攻击。容易击中要害。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "90",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００５",
-                        "method": "招式学习器",
-                        "name": "掷泥",
-                        "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２１",
-                        "method": "招式学习器",
-                        "name": "虫扑",
-                        "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３５",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６０",
-                        "method": "招式学习器",
-                        "name": "急速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７７",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８６",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８８",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９３",
-                        "method": "招式学习器",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９４",
-                        "method": "招式学习器",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１０",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１２",
-                        "method": "招式学习器",
-                        "name": "波导弹",
-                        "flavor_text": "从体内产生出波导之力，然后向对手发出。攻击必定会命中。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１５",
-                        "method": "招式学习器",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４３",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７９",
-                        "method": "招式学习器",
-                        "name": "击落",
-                        "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９６",
-                        "method": "招式学习器",
-                        "name": "快速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０９",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１４",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "鐵臂槍蝦铁臂枪虾",
+      "origin": "来自“铁臂”、“枪”和“枪虾”。"
     },
-    "home_images": [
+    {
+      "language": "中文-台湾",
+      "name": "鐵臂槍蝦",
+      "origin": "来自“铁臂”、“枪”和“枪虾”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "鐵臂槍蝦",
+      "origin": "来自“铁臂”、“枪”和“枪虾”。"
+    },
+    {
+      "language": "英文",
+      "name": "Clauncher",
+      "origin": "来自 claw（螯）和 launcher（发射器）。"
+    },
+    {
+      "language": "法文",
+      "name": "Flingouste",
+      "origin": "来自俚语 flingue （枪械）和 langoustine （挪威海螯虾）。"
+    },
+    {
+      "language": "德文",
+      "name": "Scampisto",
+      "origin": "来自 Scampi （挪威海蛰虾）和 Pistole（手枪）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Clauncher",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Clauncher",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "완철포 Wancheolpo",
+      "origin": "来自“완〈腕〉”（腕）和“철포〈鐵炮〉”（枪炮）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "铁臂枪虾",
+      "types": [
+        "水"
+      ],
+      "category": "水枪宝可梦",
+      "abilities": [
         {
-            "name": "铁臂枪虾",
-            "image": "0692-铁臂枪虾.png",
-            "shiny": "0692-铁臂枪虾-shiny.png"
+          "name": "超级发射器",
+          "is_hidden": false
         }
+      ],
+      "height": "0.5m",
+      "weight": "8.3kg",
+      "color": "蓝色",
+      "catch_rate": "225（29.4%）",
+      "egg_groups": [
+        "水中1",
+        "水中3群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body14.png",
+      "footprint": "FUnknown.png",
+      "image": "692Clauncher.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "50",
+        "attack": "53",
+        "defense": "62",
+        "sp_attack": "58",
+        "sp_defense": "63",
+        "speed": "44"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "通过体内气体的爆炸，像手枪一样发射水。极近距离的话，能击碎岩石。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "通过体内气体的爆炸，像手枪一样发射水。极近距离的话，能击碎岩石。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "钳子就算在战斗中掉落也还会再长出来。钳子里的肉是在伽勒尔广受欢迎的珍奇美食。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "通过引爆积蓄在右臂钳子中的气体，像发射子弹般将水喷射出去，击倒敌人。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "从右侧的钳子里让气体爆炸来发射水。会狙击飞在空中的宝可梦。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "钳子即使脱落也会再长出来，里面的肉虽然可以食用，但由于味道太独特因此很挑喜好。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "铁臂枪虾",
+        "stage": "未进化",
+        "text": null,
+        "image": "692Clauncher_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "钢炮臂虾",
+        "stage": "1阶进化",
+        "text": "等级37以上",
+        "image": "693Clawitzer_Dream.png",
+        "back_text": "",
+        "from": "铁臂枪虾",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "跃起",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "5",
+      "name": "夹住",
+      "type": "一般",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "10",
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "15",
+      "name": "水流喷射",
+      "type": "水",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "20",
+      "name": "击落",
+      "type": "岩石",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "25",
+      "name": "磨爪",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "30",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "35",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "波导弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "45",
+      "name": "弹跳",
+      "type": "飞行",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "level": "50",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "level": "55",
+      "name": "蟹钳锤",
+      "type": "水",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "90",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００５",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２１",
+      "name": "虫扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０６０",
+      "name": "急速折返",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８６",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８８",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９３",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９４",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１０",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１２",
+      "name": "波导弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１１５",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７９",
+      "name": "击落",
+      "type": "岩石",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９６",
+      "name": "快速折返",
+      "type": "水",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０９",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１４",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0060",
+          "name": "蚊香蝌蚪"
+        },
+        {
+          "id": "0061",
+          "name": "蚊香君"
+        },
+        {
+          "id": "0062",
+          "name": "蚊香泳士"
+        },
+        {
+          "id": "0072",
+          "name": "玛瑙水母"
+        },
+        {
+          "id": "0073",
+          "name": "毒刺水母"
+        },
+        {
+          "id": "0116",
+          "name": "墨海马"
+        },
+        {
+          "id": "0117",
+          "name": "海刺龙"
+        },
+        {
+          "id": "0183",
+          "name": "玛力露"
+        },
+        {
+          "id": "0184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "0230",
+          "name": "刺龙王"
+        },
+        {
+          "id": "0270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "0271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "0272",
+          "name": "乐天河童"
+        },
+        {
+          "id": "0283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "0341",
+          "name": "龙虾小兵"
+        },
+        {
+          "id": "0342",
+          "name": "铁螯龙虾"
+        },
+        {
+          "id": "0393",
+          "name": "波加曼"
+        },
+        {
+          "id": "0394",
+          "name": "波皇子"
+        },
+        {
+          "id": "0395",
+          "name": "帝王拿波"
+        },
+        {
+          "id": "0580",
+          "name": "鸭宝宝"
+        },
+        {
+          "id": "0581",
+          "name": "舞天鹅"
+        },
+        {
+          "id": "0728",
+          "name": "球球海狮"
+        },
+        {
+          "id": "0729",
+          "name": "花漾海狮"
+        },
+        {
+          "id": "0730",
+          "name": "西狮海壬"
+        },
+        {
+          "id": "0739",
+          "name": "好胜蟹"
+        },
+        {
+          "id": "0740",
+          "name": "好胜毛蟹"
+        },
+        {
+          "id": "0751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "0752",
+          "name": "滴蛛霸"
+        },
+        {
+          "id": "0871",
+          "name": "啪嚓海胆"
+        }
+      ],
+      "name": "泡沫光线",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0007",
+          "name": "杰尼龟"
+        },
+        {
+          "id": "0008",
+          "name": "卡咪龟"
+        },
+        {
+          "id": "0009",
+          "name": "水箭龟"
+        },
+        {
+          "id": "0054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "0055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "0086",
+          "name": "小海狮"
+        },
+        {
+          "id": "0087",
+          "name": "白海狮"
+        },
+        {
+          "id": "0147",
+          "name": "迷你龙"
+        },
+        {
+          "id": "0148",
+          "name": "哈克龙"
+        },
+        {
+          "id": "0149",
+          "name": "快龙"
+        },
+        {
+          "id": "0158",
+          "name": "小锯鳄"
+        },
+        {
+          "id": "0159",
+          "name": "蓝鳄"
+        },
+        {
+          "id": "0160",
+          "name": "大力鳄"
+        },
+        {
+          "id": "0183",
+          "name": "玛力露"
+        },
+        {
+          "id": "0184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "0194",
+          "name": "乌波"
+        },
+        {
+          "id": "0195",
+          "name": "沼王"
+        },
+        {
+          "id": "0350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "0418",
+          "name": "泳圈鼬"
+        },
+        {
+          "id": "0419",
+          "name": "浮潜鼬"
+        },
+        {
+          "id": "0690",
+          "name": "垃垃藻"
+        },
+        {
+          "id": "0691",
+          "name": "毒藻龙"
+        }
+      ],
+      "name": "水流尾",
+      "type": "水",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "0752",
+          "name": "滴蛛霸"
+        }
+      ],
+      "name": "找伙伴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "铁臂枪虾",
+      "image": "0692-铁臂枪虾.png",
+      "shiny": "0692-铁臂枪虾-shiny.png"
+    }
+  ]
 }

@@ -1,191 +1,356 @@
 {
-    "name": "索侦虫",
-    "index": "0824",
-    "name_en": "Blipbug",
-    "name_jp": "サッチムシ",
-    "profile": "索侦虫有着非常奇异的外观，它的头部非常长，而身体的颜色也以黄色以及蓝色两种颜色为主，虽然头部让索侦虫看起来很长，但实际上索侦虫的身子很短，而索侦虫的眼睛也很大，眼睛占据了头部的大部分位置，眼睛分为两种颜色，上半部分是白色的眼白，而下半部分则是灰色的眼球，索侦虫身上还有凸出来的一些触觉之类的部位。\n索侦虫是经常出现在田地里的宝可梦。它总是孜孜不倦地收集情报，会通过长在身体上的毛来感应周围发生的事。它的头脑相当地聪明，但力量方面就差了一些。\n",
-    "forms": [
-        {
-            "name": "索侦虫",
-            "index": "0824",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0824-索侦虫.png",
-            "types": [
-                "虫"
-            ],
-            "genus": "幼虫宝可梦",
-            "ability": [
-                {
-                    "name": "虫之预感",
-                    "is_hidden": false
-                },
-                {
-                    "name": "复眼",
-                    "is_hidden": false
-                },
-                {
-                    "name": "心灵感应",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.4m",
-            "weight": "8.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "虫形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "虫"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "25",
-                "attack": "20",
-                "defense": "20",
-                "sp_attack": "25",
-                "sp_defense": "45",
-                "speed": "45"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "总是孜孜不倦地收集情报，所以头脑相当地聪明，但力量方面就差了一些。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "经常出现在田地里的宝可梦。会通过长在身体上的毛来感应周围发生的事。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "索侦虫",
-                "stage": "未进化",
-                "text": null,
-                "image": "824Blipbug_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "天罩虫",
-                "stage": "1阶进化",
-                "text": "等级10以上",
-                "image": "825Dottler_Dream.png",
-                "back_text": "",
-                "from": "索侦虫",
-                "form_name": null
-            },
-            {
-                "name": "以欧路普",
-                "stage": "2阶进化",
-                "text": "等级30以上",
-                "image": "826Orbeetle_Dream.png",
-                "back_text": "",
-                "from": "天罩虫",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "索侦虫",
-        "zh_hant": "索偵蟲",
-        "en": "Blipbug",
-        "fr": "Blipbug",
-        "de": "Sensect",
-        "it": "Blipbug",
-        "es": "Blipbug",
-        "ja": "サッチムシ",
-        "ko": "두루지벌레"
+  "name_zh": "索侦虫",
+  "name_ja": "サッチムシ",
+  "name_en": "Blipbug",
+  "pokedex_id": "0824",
+  "description": "索侦虫（日文︰サッチムシ，英文︰Blipbug）是虫属性宝可梦。",
+  "profile": "索侦虫有着非常奇异的外观，它的头部非常长，而身体的颜色也以黄色以及蓝色两种颜色为主，虽然头部让索侦虫看起来很长，但实际上索侦虫的身子很短，而索侦虫的眼睛也很大，眼睛占据了头部的大部分位置，眼睛分为两种颜色，上半部分是白色的眼白，而下半部分则是灰色的眼球，索侦虫身上还有凸出来的一些触觉之类的部位。\n索侦虫是经常出现在田地里的宝可梦。它总是孜孜不倦地收集情报，会通过长在身体上的毛来感应周围发生的事。它的头脑相当地聪明，但力量方面就差了一些。",
+  "prototype": "索侦虫基于七星瓢虫的幼虫。\n索侦虫的拟人元素可能基于人们对于科技工作人员等的刻板印象，具体指戴着高度眼镜，打着领结。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步索侦虫（Pokémon GO）。\n←\nNo.0823：钢铠鸦\n宝可梦\nNo.0825：天罩虫\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "サッチムシ Sacchimushi",
+      "origin": "来自“察（さっ）知（ち）”（察觉）、英文 search（检索）和“虫（むし）”。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "虫之抵抗",
-                        "flavor_text": "抵抗并攻击对手。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": []
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "索偵蟲索侦虫",
+      "origin": "来自“检索”、“侦查”和“虫”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Blipbug",
+      "origin": "来自 blip（雷达屏幕的光点）和 bug（虫）"
+    },
+    {
+      "language": "法文",
+      "name": "Larvadar",
+      "origin": "来自 larve（幼虫）和 radar（雷达）。"
+    },
+    {
+      "language": "德文",
+      "name": "Sensect",
+      "origin": "来自 Sensor（传感器）和 Insekt（昆虫）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Blipbug",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Blipbug",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "두루지벌레 Durujibeolle",
+      "origin": "来自“두루”（遍）、“찰지〈察知〉”（察觉）和“벌레”（虫）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "索侦虫",
+      "types": [
+        "虫"
+      ],
+      "category": "幼虫宝可梦",
+      "abilities": [
         {
-            "name": "索侦虫",
-            "image": "0824-索侦虫.png",
-            "shiny": "0824-索侦虫-shiny.png"
+          "name": "虫之预感",
+          "is_hidden": false
+        },
+        {
+          "name": "复眼",
+          "is_hidden": false
+        },
+        {
+          "name": "心灵感应",
+          "is_hidden": true
         }
+      ],
+      "height": "0.4m",
+      "weight": "8.0kg",
+      "color": "蓝色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "虫群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body14.png",
+      "footprint": "FUnknown.png",
+      "image": "824Blipbug.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "25",
+        "attack": "20",
+        "defense": "20",
+        "sp_attack": "25",
+        "sp_defense": "45",
+        "speed": "45"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "0.5"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "0.5"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "总是孜孜不倦地收集情报，所以头脑相当地聪明，但力量方面就差了一些。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "经常出现在田地里的宝可梦。会通过长在身体上的毛来感应周围发生的事。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "索侦虫",
+        "stage": "未进化",
+        "text": null,
+        "image": "824Blipbug_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "天罩虫",
+        "stage": "1阶进化",
+        "text": "等级10以上",
+        "image": "825Dottler_Dream.png",
+        "back_text": "",
+        "from": "索侦虫",
+        "form_name": null
+      },
+      {
+        "name": "以欧路普",
+        "stage": "2阶进化",
+        "text": "等级30以上",
+        "image": "826Orbeetle_Dream.png",
+        "back_text": "",
+        "from": "天罩虫",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "虫之抵抗",
+      "type": "虫",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "machine_moves": [],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "752",
+          "name": "滴蛛霸"
+        },
+        {
+          "id": "873",
+          "name": "雪绒蛾"
+        }
+      ],
+      "name": "纠缠不休",
+      "type": "虫",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "012",
+          "name": "巴大蝶"
+        },
+        {
+          "id": "329",
+          "name": "超音波幼虫"
+        },
+        {
+          "id": "330",
+          "name": "沙漠蜻蜓"
+        }
+      ],
+      "name": "超音波",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "55",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "213",
+          "name": "壶壶"
+        },
+        {
+          "id": "596",
+          "name": "电蜘蛛"
+        },
+        {
+          "id": "736",
+          "name": "强颚鸡母虫"
+        },
+        {
+          "id": null,
+          "name": "虫电宝"
+        },
+        {
+          "id": null,
+          "name": "锹农炮虫"
+        }
+      ],
+      "name": "黏黏网",
+      "type": "虫",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "小嘴蜗"
+        },
+        {
+          "id": null,
+          "name": "敏捷虫"
+        }
+      ],
+      "name": "自我再生",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "索侦虫",
+      "image": "0824-索侦虫.png",
+      "shiny": "0824-索侦虫-shiny.png"
+    }
+  ]
 }

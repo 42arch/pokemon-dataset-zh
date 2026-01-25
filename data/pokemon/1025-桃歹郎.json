@@ -1,620 +1,581 @@
 {
-    "name": "桃歹郎",
-    "index": "1025",
-    "name_en": "Pecharunt",
-    "name_jp": "モモワロウ",
-    "profile": "桃歹郎桃形的壳是剧毒的储存库。它会将从壳分泌出的毒揉成“锁链粘糕”供人类和宝可梦享用，待对方吃下后再用锁链操控对方。“锁链粘糕”不仅非常美味，似乎还有会激发出食用者藏在深处的愿望和能力的效果。另外，桃歹郎还有狡猾的一面，它会通过用假哭骗取同情等手段，表现得像个柔弱的婴儿一样。有种说法认为，它为了得到在很久以前和自己一起生活的老夫妇想要的面具，而用“锁链粘糕”让宝伴随从自己，并动身前往了北上乡。在和厄诡椪争夺面具的战斗中落败后，它把自己关在了壳内。不知从什么时候起，人们开始将其称为“不腐之桃”。乍看之下它就像是摆在店铺前的饰品，但其实它似乎随时都在迫不及待地盼望着复活的时机。\n",
-    "forms": [
-        {
-            "name": "桃歹郎",
-            "index": "1025",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "1025-桃歹郎.png",
-            "types": [
-                "毒",
-                "幽灵"
-            ],
-            "genus": "支配宝可梦",
-            "ability": [
-                {
-                    "name": "毒傀儡",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.3m",
-            "weight": "0.3kg",
-            "gender_rate": null,
-            "shape": "球形",
-            "color": "紫色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "88",
-                "attack": "88",
-                "defense": "160",
-                "sp_attack": "88",
-                "sp_defense": "88",
-                "speed": "88"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "会让对手吃下能提升欲望和能力的毒粘糕，然后通过锁链控制对手。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "桃形的壳是剧毒的储存库。会制作毒粘糕来款待人和宝可梦。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "桃歹郎",
-                "stage": "不进化",
-                "text": null,
-                "image": "1025Pecharunt_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "桃歹郎",
-        "zh_hant": "桃歹郎",
-        "en": "Pecharunt",
-        "fr": "Pecharunt",
-        "de": "Infamomo",
-        "it": "Pecharunt",
-        "es": "Pecharunt",
-        "ja": "モモワロウ",
-        "ko": "복숭악동"
+  "name_zh": "桃歹郎",
+  "name_ja": "モモワロウ",
+  "name_en": "Pecharunt",
+  "pokedex_id": "1025",
+  "description": "桃歹郎（日文︰モモワロウ，英文︰Pecharunt）是毒属性／幽灵属性幻之宝可梦。",
+  "profile": "桃歹郎桃形的壳是剧毒的储存库。它会将从壳分泌出的毒揉成“锁链粘糕”供人类和宝可梦享用，待对方吃下后再用锁链操控对方。“锁链粘糕”不仅非常美味，似乎还有会激发出食用者藏在深处的愿望和能力的效果。另外，桃歹郎还有狡猾的一面，它会通过用假哭骗取同情等手段，表现得像个柔弱的婴儿一样。有种说法认为，它为了得到在很久以前和自己一起生活的老夫妇想要的面具，而用“锁链粘糕”让宝伴随从自己，并动身前往了北上乡。在和厄诡椪争夺面具的战斗中落败后，它把自己关在了壳内。不知从什么时候起，人们开始将其称为“不腐之桃”。乍看之下它就像是摆在店铺前的饰品，但其实它似乎随时都在迫不及待地盼望着复活的时机。[1]",
+  "prototype": "桃歹郎的命名和形象来自日本民间故事《桃太郎》的同名主人公。在当代通行版本中，桃太郎是从桃子中诞生的幼童，起初只有几寸高。\n其本体部分基于桃核和桃太郎的发型，毒属性可能对应未经处理的桃仁所含有的剧毒，因为桃仁中富集扁桃苷等水溶性氰苷。\n桃歹郎与数字88的联系可能是日语“やば”（不妙、危险）的文字游戏。",
+  "detail": "在《朱／紫》中获得幻之桃桃果后，可在北上乡桃泽商店与货摊上的桃型的摆饰唤醒桃歹郎。调查桃歹郎的摆饰及通电话后，背包里的幻之桃桃果会与其一起不翼而飞。\n在《外传：咭呗咭呗团团乱》中挑战桃歹郎时，若派出宝伴上场，会触发桃歹郎的特殊台词；若派出厄诡椪，会触发厄诡椪的特殊台词。但若派出通过幻觉幻化成这些宝可梦的宝可梦则无法触发台词。\n桃歹郎是唯一一只在所有语言译名中都完全没有音译成分的幻之宝可梦。\n桃歹郎所有能习得新技能的等级都是8的倍数，这点与宝伴相同。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "モモワロウ Momowarou",
+      "origin": "来自“桃太郎（ももたろう）”（桃太郎）、“悪（わろ）し”（【古语】恶）和“和郎（わろ）”（家伙；小子）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "浊雾",
-                        "flavor_text": "将肮脏的浓雾吹向对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "30",
-                        "accuracy": "70",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒瓦斯",
-                        "flavor_text": "将毒瓦斯吹到对手的脸上，从而让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "临别礼物",
-                        "flavor_text": "虽然会使自己陷入昏厥，但是能够大幅降低对手的攻击和特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "惊吓",
-                        "flavor_text": "用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "8",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "缩入壳中",
-                        "flavor_text": "缩入壳里保护身体，从而提高自己的防御。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "同命",
-                        "flavor_text": "使出招式后，当受到对手攻击陷入昏厥时，对手也会一同昏厥。连续使出则会失败。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "假哭",
-                        "flavor_text": "装哭流泪。使对手不知所措，从而大幅降低对手的特防。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抛下狠话",
-                        "flavor_text": "抛下狠话威吓对手，降低攻击和特攻后，和后备宝可梦进行替换。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "邪毒锁链",
-                        "flavor_text": "用由毒形成的锁链缠住对手注入毒素加以侵蚀。有时会让对手陷入剧毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "56",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "64",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "诡计",
-                        "flavor_text": "谋划诡计，激活头脑。大幅提高自己的特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "72",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "自我再生",
-                        "flavor_text": "让细胞再生，从而回复自己最大ＨＰ的一半。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "变圆",
-                        "flavor_text": "将身体蜷曲变圆，从而提高自己的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "滚动",
-                        "flavor_text": "在５回合内连续滚动攻击对手。招式每次击中，威力就会提高。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "黑色目光",
-                        "flavor_text": "用好似要勾人心魂的黑色目光一动不动地凝视对手，使其不能从战斗中逃走。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００３",
-                        "method": "招式学习器",
-                        "name": "假哭",
-                        "flavor_text": "装哭流泪。使对手不知所措，从而大幅降低对手的特防。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２９",
-                        "method": "招式学习器",
-                        "name": "祸不单行",
-                        "flavor_text": "接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４２",
-                        "method": "招式学习器",
-                        "name": "黑夜魔影",
-                        "flavor_text": "显示恐怖幻影，只给予对手和自己等级相同的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６２",
-                        "method": "招式学习器",
-                        "name": "移花接木",
-                        "flavor_text": "利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９２",
-                        "method": "招式学习器",
-                        "name": "封印",
-                        "flavor_text": "如果对手有和自己相同的招式，那么只有对手无法使用该招式。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０２",
-                        "method": "招式学习器",
-                        "name": "垃圾射击",
-                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１４",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４０",
-                        "method": "招式学习器",
-                        "name": "诡计",
-                        "flavor_text": "谋划诡计，激活头脑。大幅提高自己的特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４８",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５１",
-                        "method": "招式学习器",
-                        "name": "潜灵奇袭",
-                        "flavor_text": "第１回合消失在某处，第２回合攻击对手。可以无视守护进行攻击。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７７",
-                        "method": "招式学习器",
-                        "name": "怨恨",
-                        "flavor_text": "对对手最后使用的招式怀有怨恨，减少４ＰＰ该招式。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９８",
-                        "method": "招式学习器",
-                        "name": "灵骚",
-                        "flavor_text": "操纵对手的持有物进行攻击。当对手没有携带道具时，使出此招式时便会失败。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "110",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１４",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２４",
-                        "method": "招式学习器",
-                        "name": "咒术",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "桃歹郎",
+      "origin": "来自“桃太郎”、“歹毒”和闽南语“歹人”（坏人）。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Pecharunt",
+      "origin": "来自 peach（桃）及 Pecha Berry（桃桃果）和 runt（小不点、微不足道的人）。"
+    },
+    {
+      "language": "法文",
+      "name": "Pêchaminus",
+      "origin": "来自 pêche（桃）及 Baie Pêcha（桃桃果）、péché（罪恶）和 minus（【俗语】笨蛋）。"
+    },
+    {
+      "language": "德文",
+      "name": "Infamomo",
+      "origin": "来自拉丁文 īnfāns （婴儿）、拉丁文 infamis（恶名昭彰的）和日文“桃（もも）”（桃）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Pecharunt",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Pecharunt",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "복숭악동 Boksung-akdong",
+      "origin": "来自“복숭아”（桃）和“악동〈惡童〉”（恶童）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "桃歹郎",
+      "types": [
+        "毒",
+        "幽灵"
+      ],
+      "category": "支配宝可梦",
+      "abilities": [
         {
-            "name": "桃歹郎",
-            "image": "1025-桃歹郎.png",
-            "shiny": "1025-桃歹郎-shiny.png"
+          "name": "毒傀儡",
+          "is_hidden": false
         }
+      ],
+      "height": "0.3m",
+      "weight": "0.3kg",
+      "color": "紫色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "孵化周期（未知步）",
+      "shape": "Body01.png",
+      "footprint": "FUnknown.png",
+      "image": "1025Pecharunt.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "88",
+        "attack": "88",
+        "defense": "160",
+        "sp_attack": "88",
+        "sp_defense": "88",
+        "speed": "88"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0"
+    },
+    {
+      "type": "格斗",
+      "damage": "0"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.25"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "0.25"
+    },
+    {
+      "type": "幽灵",
+      "damage": "2"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "2"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "会让对手吃下能提升欲望和能力的毒粘糕，然后通过锁链控制对手。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "桃形的壳是剧毒的储存库。会制作毒粘糕来款待人和宝可梦。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "桃歹郎",
+        "stage": "不进化",
+        "text": null,
+        "image": "1025Pecharunt_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "浊雾",
+      "type": "毒",
+      "category": "特殊",
+      "power": "30",
+      "accuracy": "70",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "毒瓦斯",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "临别礼物",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "8",
+      "name": "缩入壳中",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "16",
+      "name": "同命",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "24",
+      "name": "假哭",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "32",
+      "name": "抛下狠话",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "48",
+      "name": "邪毒锁链",
+      "type": "毒",
+      "category": "特殊",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "56",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "64",
+      "name": "诡计",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "72",
+      "name": "自我再生",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "回忆",
+      "name": "变圆",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "回忆",
+      "name": "滚动",
+      "type": "岩石",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "level": "回忆",
+      "name": "黑色目光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００３",
+      "name": "假哭",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２９",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４２",
+      "name": "黑夜魔影",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６２",
+      "name": "移花接木",
+      "type": "恶",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９２",
+      "name": "封印",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０２",
+      "name": "垃圾射击",
+      "type": "毒",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１４",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１４０",
+      "name": "诡计",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１４８",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５１",
+      "name": "潜灵奇袭",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７７",
+      "name": "怨恨",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９８",
+      "name": "灵骚",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "110",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２１４",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "桃歹郎",
+      "image": "1025-桃歹郎.png",
+      "shiny": "1025-桃歹郎-shiny.png"
+    }
+  ]
 }

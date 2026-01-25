@@ -1,411 +1,433 @@
 {
-    "name": "美录坦",
-    "index": "0808",
-    "name_en": "Meltan",
-    "name_jp": "メルタン",
-    "profile": "美录坦的身体是融化成液状的钢铁，它会用液态的手脚来侵蚀其他金属并吸收到自己体内。它的头部像一个金色的六角螺母，里面漂浮着黑色的小球。这个球体充当它的眼睛。它有一条红色的尾巴，像一根电线，末端有两个小突起。\n美录坦能够将土壤中的铁或其它金属溶解后吸收进体内，把从外部吸收到的金属转化为电能。这些电能除了用来维持它的身体机能外，还能从眼睛发射出去攻击对手。美录坦拥有旺盛的好奇心，对任何事物都非常感兴趣。它的性情非常天真无邪，表情极其丰富。美录坦们虽然聚在一起生活，但当时机到来，会由最强的那一只吸收其他的伙伴来进化。\n",
-    "forms": [
-        {
-            "name": "美录坦",
-            "index": "0808",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0808-美录坦.png",
-            "types": [
-                "钢"
-            ],
-            "genus": "螺帽宝可梦",
-            "ability": [
-                {
-                    "name": "磁力",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.2m",
-            "weight": "8.0kg",
-            "gender_rate": null,
-            "shape": "球形",
-            "color": "灰色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "46",
-                "attack": "65",
-                "defense": "65",
-                "sp_attack": "55",
-                "sp_defense": "35",
-                "speed": "34"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "身体是融化成液状的钢铁。它能够将土壤中的铁或其它金属溶解后吸收进体内。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "身体是融化成液状的钢铁。它能够将土壤中的铁或其它金属溶解后吸收进体内。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会溶解金属然后吃掉。通过让液态金属在体内循环来制造能量。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "美录坦们虽然聚在一起生活，但当时机到来，会由最强的那１只吸收其他的伙伴来进化。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "美录坦",
-                "stage": "未进化",
-                "text": null,
-                "image": "808Meltan_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "美录梅塔",
-                "stage": "1阶进化",
-                "text": "消耗400个美录坦的糖果（Pokémon GO中）",
-                "image": "809Melmetal_Dream.png",
-                "back_text": "",
-                "from": "美录坦",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "美录坦",
-        "zh_hant": "美錄坦",
-        "en": "Meltan",
-        "fr": "Meltan",
-        "de": "Meltan",
-        "it": "Meltan",
-        "es": "Meltan",
-        "ja": "メルタン",
-        "ko": "멜탄"
+  "name_zh": "美录坦",
+  "name_ja": "メルタン",
+  "name_en": "Meltan",
+  "pokedex_id": "0808",
+  "description": "美录坦（日文︰メルタン，英文︰Meltan）是钢属性的幻之宝可梦。",
+  "profile": "美录坦的身体是融化成液状的钢铁，它会用液态的手脚来侵蚀其他金属并吸收到自己体内。它的头部像一个金色的六角螺母，里面漂浮着黑色的小球。这个球体充当它的眼睛。它有一条红色的尾巴，像一根电线，末端有两个小突起。\n美录坦能够将土壤中的铁或其它金属溶解后吸收进体内，把从外部吸收到的金属转化为电能。这些电能除了用来维持它的身体机能外，还能从眼睛发射出去攻击对手。美录坦拥有旺盛的好奇心，对任何事物都非常感兴趣。它的性情非常天真无邪，表情极其丰富。美录坦们虽然聚在一起生活，但当时机到来，会由最强的那一只吸收其他的伙伴来进化。[1]",
+  "prototype": "美录坦的头部基于螺帽，身体基于汞（水银），尾巴基于裸露的电线。\n美录坦的整体造型可能参考了2012年伦敦奥运会的吉祥物文洛克。\n美录坦的习性源于金属用于氧化还原反应提供能量。",
+  "detail": "将美录坦给王冠雪原车站的研究员看，可以得到小螺帽图纹的帽子。\n2020宝可梦日的宣传影片和活动人气投票中，美录坦和美录梅塔在伽勒尔地区的宝可梦中。而在官方网站的宝可梦图鉴、Pokémon GO和Pokémon HOME中，它们都被归类在未知地区。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "メルタン Meltan",
+      "origin": "来自英文 melt（熔化）、英文 metal（金属）和“～たん”（日文中对年幼或可爱的女孩的亲密称呼，常音译为“碳”）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "变硬",
-                        "flavor_text": "全身使劲，让身体变硬，从而提高自己的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电击",
-                        "flavor_text": "发出电流刺激对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "8",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摇尾巴",
-                        "flavor_text": "可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "头锤",
-                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "溶化",
-                        "flavor_text": "通过细胞的变化进行液化，从而大幅提高自己的防御。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０８",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４６",
-                        "method": "招式学习器",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５２",
-                        "method": "招式学习器",
-                        "name": "陀螺球",
-                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７０",
-                        "method": "招式学习器",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "美錄坦美录坦",
+      "origin": "来自日文名的音译。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Meltan",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "法文",
+      "name": "Meltan",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Meltan",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Meltan",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Meltan",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "멜탄 Meltan",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "美录坦",
+      "types": [
+        "钢"
+      ],
+      "category": "螺帽宝可梦",
+      "abilities": [
         {
-            "name": "美录坦",
-            "image": "0808-美录坦.png",
-            "shiny": "0808-美录坦-shiny.png"
+          "name": "磁力",
+          "is_hidden": false
         }
+      ],
+      "height": "0.2m",
+      "weight": "8.0kg",
+      "color": "灰色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "120 孵化周期*（30840步）",
+      "shape": "Body01.png",
+      "footprint": "FUnknown.png",
+      "image": "808Meltan.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "46",
+        "attack": "65",
+        "defense": "65",
+        "sp_attack": "55",
+        "sp_defense": "35",
+        "speed": "34"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0.5"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "0"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "0.5"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "0.5"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "身体是融化成液状的钢铁。它能够将土壤中的铁或其它金属溶解后吸收进体内。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "身体是融化成液状的钢铁。它能够将土壤中的铁或其它金属溶解后吸收进体内。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "会溶解金属然后吃掉。通过让液态金属在体内循环来制造能量。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "美录坦们虽然聚在一起生活，但当时机到来，会由最强的那１只吸收其他的伙伴来进化。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "身体是化成液状的钢铁。它能够将土壤中的铁或其它金属溶解后吸收进体内。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "美录坦",
+        "stage": "未进化",
+        "text": null,
+        "image": "808Meltan_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "美录梅塔",
+        "stage": "1阶进化",
+        "text": "消耗400个美录坦的糖果（Pokémon GO中）",
+        "image": "809Melmetal_Dream.png",
+        "back_text": "",
+        "from": "美录坦",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "变硬",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "电击",
+      "type": "电",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "8",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "16",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "24",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "level": "32",
+      "name": "溶化",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器１４",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录０８",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录４６",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录５２",
+      "name": "陀螺球",
+      "type": "钢",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录７０",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "美录坦",
+      "image": "0808-美录坦.png",
+      "shiny": "0808-美录坦-shiny.png"
+    }
+  ]
 }

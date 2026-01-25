@@ -1,1039 +1,1075 @@
 {
-    "name": "刺甲贝",
-    "index": "0091",
-    "name_en": "Cloyster",
-    "name_jp": "パルシェン",
-    "profile": "刺甲贝被双重贝壳保护，本体上面有一个突出来的角，最外边的壳也有一些突出来的角。它的嘴巴显露了出来，但内部的真面目无人知晓。它拥有非常坚硬的外壳，连燃烧弹都无法破坏。用于刺穿对手的刺远比用凝固汽油弹都炸不坏的壳还要硬。\n刺甲贝在分类上与海兔兽是亲戚。它栖息在激流涌动的海里，它壳上的刺又大又尖锐。它会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开，只有攻击的时候才会张开。它外壳上的伤痕会逐渐隆起，长成大大的尖刺。受到攻击之后不但有比钻石还要坚硬的外壳保护着，外壳的刺还会接二连三地飞出来，不太好对付。从狩猎民族的古墓中大量出土了使用壳上拔下的尖刺制造而成的长矛。它非常喜欢吃呆呆兽的尾巴，有时甚至会爬到陆地上来寻找呆呆兽。\n",
-    "forms": [
-        {
-            "name": "刺甲贝",
-            "index": "0091",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0091-刺甲贝.png",
-            "types": [
-                "水",
-                "冰"
-            ],
-            "genus": "双壳贝宝可梦",
-            "ability": [
-                {
-                    "name": "硬壳盔甲",
-                    "is_hidden": false
-                },
-                {
-                    "name": "连续攻击",
-                    "is_hidden": false
-                },
-                {
-                    "name": "防尘",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "1.5m",
-            "weight": "132.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "紫色",
-            "catch_rate": {
-                "number": "60",
-                "rate": "7.8%"
-            },
-            "egg_groups": [
-                "水中3"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "50",
-                "attack": "95",
-                "defense": "180",
-                "sp_attack": "85",
-                "sp_defense": "45",
-                "speed": "70"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "一旦遭受攻击，外壳的刺就会接二连三地飞出来，内部的真面目无人知晓。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "不但有比钻石还要坚硬的外壳保护着，还能发射壳上的刺，不太好对付。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开。"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "生活在潮流汹涌的海中的刺甲贝壳上的刺会变得既大又尖利。*"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "用于刺穿对手的刺远比用凝固汽油弹都炸不坏的壳还要硬。*"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "一旦遭受攻击，外壳的刺就会接二连三地飞出来，内部的真面目无人知晓。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "生活在潮流汹涌的海中的刺甲贝壳上的刺会变得既大又尖利。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "刺甲贝栖息在激流涌动的海里，它壳上的刺又大又尖锐。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "太阳",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "坚硬的外壳连燃烧弹也无法击碎。壳中的正身至今不明。"
-                },
-                {
-                    "name": "月亮",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "从狩猎民族的古墓中大量出土了使用壳上拔下的尖刺制造而成的长矛。"
-                },
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "拥有非常坚硬的外壳。外壳上的伤痕会逐渐隆起，长成大大的尖刺。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "非常喜欢吃呆呆兽的尾巴。有时甚至会爬到陆地上来寻找呆呆兽。"
-                },
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "不但有比钻石还要坚硬的外壳保护着，还能发射壳上的刺，不太好对付。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "不但有比钻石还要坚硬的外壳保护着，还能发射壳上的刺，不太好对付。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "刺甲贝栖息在激流涌动的海里，它壳上的刺又大又尖锐。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "一旦遭受攻击，外壳的刺就会接二连三地飞出来，内部的真面目无人知晓。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "大舌贝",
-                "stage": "未进化",
-                "text": null,
-                "image": "090Shellder_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "刺甲贝",
-                "stage": "1阶进化",
-                "text": "使用水之石",
-                "image": "091Cloyster_Dream.png",
-                "back_text": "",
-                "from": "大舌贝",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "刺甲贝",
-        "en": "Cloyster",
-        "fr": "Cloyster",
-        "zh_hant": "刺甲貝",
-        "de": "Austos",
-        "it": "Cloyster",
-        "es": "Cloyster",
-        "ja": "パルシェン",
-        "ko": "파르셀"
+  "name_zh": "刺甲贝",
+  "name_ja": "パルシェン",
+  "name_en": "Cloyster",
+  "pokedex_id": "0091",
+  "description": "刺甲贝（日文︰パルシェン，英文︰Cloyster）是水属性／冰属性宝可梦。",
+  "profile": "刺甲贝被双重贝壳保护，本体上面有一个突出来的角，最外边的壳也有一些突出来的角。它的嘴巴显露了出来，但内部的真面目无人知晓。它拥有非常坚硬的外壳，连燃烧弹都无法破坏。用于刺穿对手的刺远比用凝固汽油弹都炸不坏的壳还要硬。\n刺甲贝在分类上与海兔兽是亲戚。它栖息在激流涌动的海里，它壳上的刺又大又尖锐。它会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开，只有攻击的时候才会张开。它外壳上的伤痕会逐渐隆起，长成大大的尖刺。受到攻击之后不但有比钻石还要坚硬的外壳保护着，外壳的刺还会接二连三地飞出来，不太好对付。从狩猎民族的古墓中大量出土了使用壳上拔下的尖刺制造而成的长矛。它非常喜欢吃呆呆兽的尾巴，有时甚至会爬到陆地上来寻找呆呆兽。",
+  "prototype": "刺甲贝基于蛤蜊和牡蛎等双壳纲贝类。其外壳有刺的特征基于海菊蛤，核心部分源于黑珍珠。\n刺甲贝庞大的体型类似大砗磲。",
+  "detail": "刺甲贝在《蓝》游戏中贝壳是上下排列的，在其它版本中都是左右排列的。\n第二世代中异色刺甲贝的配色为更深的紫色，而在以后的世代中则是蓝色。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步刺甲贝（Pokémon GO）。\n←\nNo.0090：大舌贝\n宝可梦\nNo.0092：鬼斯\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "パルシェン Parshen",
+      "origin": "来自英文 pearl（珍珠）和“シェルダー”（大舌贝）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰锥",
-                        "flavor_text": "向对手发射锋利的冰柱进行攻击。连续攻击２～５次。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰柱坠击",
-                        "flavor_text": "用大冰柱激烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "破壳",
-                        "flavor_text": "打破外壳，降低自己的防御和特防，但大幅提高攻击、特攻和速度。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰砾",
-                        "flavor_text": "瞬间制作冰块，快速地扔向对手。必定能够先制攻击。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒菱",
-                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撒菱",
-                        "flavor_text": "在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害。",
-                        "type": "地面",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "缩入壳中",
-                        "flavor_text": "缩入壳里保护身体，从而提高自己的防御。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "极光束",
-                        "flavor_text": "向对手发射虹色光束进行攻击。有时会降低对手的攻击。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "超音波",
-                        "flavor_text": "从身体发出特殊的音波，从而使对手混乱。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "55",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞪眼",
-                        "flavor_text": "用犀利的眼神使其害怕，从而降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "贝壳刃",
-                        "flavor_text": "用锋利的贝壳切斩对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００６",
-                        "method": "招式学习器",
-                        "name": "可怕面孔",
-                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３５",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４６",
-                        "method": "招式学习器",
-                        "name": "雪崩",
-                        "flavor_text": "如果受到对手的招式攻击，就能给予该对手２倍威力的攻击。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５２",
-                        "method": "招式学习器",
-                        "name": "雪景",
-                        "flavor_text": "在５回合内会下雪。冰属性的防御会提高。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５３",
-                        "method": "招式学习器",
-                        "name": "修长之角",
-                        "flavor_text": "用尖尖的角刺入对手进行攻击。攻击必定会命中。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７５",
-                        "method": "招式学习器",
-                        "name": "光墙",
-                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７６",
-                        "method": "招式学习器",
-                        "name": "岩石爆击",
-                        "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７７",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８３",
-                        "method": "招式学习器",
-                        "name": "毒击",
-                        "flavor_text": "用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９０",
-                        "method": "招式学习器",
-                        "name": "撒菱",
-                        "flavor_text": "在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害。",
-                        "type": "地面",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９１",
-                        "method": "招式学习器",
-                        "name": "毒菱",
-                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０４",
-                        "method": "招式学习器",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０６",
-                        "method": "招式学习器",
-                        "name": "直冲钻",
-                        "flavor_text": "像钢钻一样，一边旋转身体一边撞击对手。容易击中要害。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "95",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１０",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２４",
-                        "method": "招式学习器",
-                        "name": "冰旋",
-                        "flavor_text": "脚上覆盖薄冰，旋转着撞击对手。通过旋转的动作破坏场地。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４３",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８７",
-                        "method": "招式学习器",
-                        "name": "冰锥",
-                        "flavor_text": "向对手发射锋利的冰柱进行攻击。连续攻击２～５次。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０８",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "刺甲貝刺甲贝",
+      "origin": "来自“刺”、“甲壳”和“贝”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "铁甲貝",
+      "origin": "来自“铁”、“甲壳”和“贝”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "刺甲貝",
+      "origin": "来自“刺”、“甲壳”和“贝”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "鐵甲貝",
+      "origin": "来自“铁甲”和“贝”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "鐵甲貝",
+      "origin": "来自“铁甲”和“贝”。"
+    },
+    {
+      "language": "英文",
+      "name": "Cloyster",
+      "origin": "来自 cluster（群、簇）和 oyster（牡蛎）。"
+    },
+    {
+      "language": "法文",
+      "name": "Crustabri",
+      "origin": "来自 crustacé（甲壳动物）和 abri（隐蔽所）。"
+    },
+    {
+      "language": "德文",
+      "name": "Austos",
+      "origin": "来自 Auster（牡蛎）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Cloyster",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Cloyster",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "파르셀 Parsell",
+      "origin": "来自英文 pearl（珍珠）和“셀러”（大舌贝）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "刺甲贝",
+      "types": [
+        "水",
+        "冰"
+      ],
+      "category": "双壳贝宝可梦",
+      "abilities": [
         {
-            "name": "刺甲贝",
-            "image": "0091-刺甲贝.png",
-            "shiny": "0091-刺甲贝-shiny.png"
+          "name": "硬壳盔甲",
+          "is_hidden": false
+        },
+        {
+          "name": "连续攻击",
+          "is_hidden": false
+        },
+        {
+          "name": "防尘",
+          "is_hidden": true
         }
+      ],
+      "height": "1.5m",
+      "weight": "132.5kg",
+      "color": "紫色",
+      "catch_rate": "60（7.8%）",
+      "egg_groups": [
+        "水中3群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body01.png",
+      "footprint": "Fnone.png",
+      "image": "091Cloyster.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "50",
+        "attack": "95",
+        "defense": "180",
+        "sp_attack": "85",
+        "sp_defense": "45",
+        "speed": "70"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.25"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "一旦遭受攻击，外壳的刺就会接二连三地飞出来，内部的真面目无人知晓。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "不但有比钻石还要坚硬的外壳保护着，还能发射壳上的刺，不太好对付。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "刺甲贝栖息在激流涌动的海里，它壳上的刺又大又尖锐。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "用于刺穿对手的刺远比用凝固汽油弹都炸不坏的壳还要硬。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "一旦遭受攻击，外壳的刺就会接二连三地飞出来，内部的真面目无人知晓。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "刺甲贝栖息在激流涌动的海里，它壳上的刺又大又尖锐。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "刺甲贝栖息在激流涌动的海里，它壳上的刺又大又尖锐。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会通过把吞入的海水一鼓作气向后喷射出去这样的方法在海里游泳。这和发射刺的原理也是相同的。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "坚硬的外壳连燃烧弹也无法击碎。壳中的正身至今不明。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "从狩猎民族的古墓中大量出土了使用壳上拔下的尖刺制造而成的长矛。"
+        },
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "不但有比钻石还要坚硬的外壳保护着，还能发射壳上的刺，不太好对付。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "不但有比钻石还要坚硬的外壳保护着，还能发射壳上的刺，不太好对付。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "贝壳非常坚硬，连燃烧弹都无法破坏。只有攻击的时候才会张开。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "一旦它把壳闭上，无论是拥有什么样怪力的人都无法将其打开。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "会使用一边紧闭外壳保护自身，一边发射尖刺击退敌人的战法。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "刺甲贝栖息在激流涌动的海里，它壳上的刺又大又尖锐。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "一旦遭受攻击，外壳的刺就会接二连三地飞出来，内部的真面目无人知晓。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "大舌贝",
+        "stage": "未进化",
+        "text": null,
+        "image": "090Shellder_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "刺甲贝",
+        "stage": "1阶进化",
+        "text": "使用水之石",
+        "image": "091Cloyster_Dream.png",
+        "back_text": "",
+        "from": "大舌贝",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "冰锥",
+      "type": "冰",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "冰柱坠击",
+      "type": "冰",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "破壳",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "冰砾",
+      "type": "冰",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "撒菱",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "缩入壳中",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "极光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "超音波",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "55",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "5",
+      "name": "贝壳刃",
+      "type": "水",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４６",
+      "name": "雪崩",
+      "type": "冰",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５２",
+      "name": "雪景",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５３",
+      "name": "修长之角",
+      "type": "钢",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７５",
+      "name": "光墙",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０７６",
+      "name": "岩石爆击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８３",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９０",
+      "name": "撒菱",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９１",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０４",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０６",
+      "name": "直冲钻",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "95",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１０",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２４",
+      "name": "冰旋",
+      "type": "冰",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８７",
+      "name": "冰锥",
+      "type": "冰",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０８",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0072",
+          "name": "玛瑙水母"
+        },
+        {
+          "id": "0073",
+          "name": "毒刺水母"
+        },
+        {
+          "id": "0341",
+          "name": "龙虾小兵"
+        },
+        {
+          "id": "0342",
+          "name": "铁螯龙虾"
+        },
+        {
+          "id": "0739",
+          "name": "好胜蟹"
+        },
+        {
+          "id": "0740",
+          "name": "好胜毛蟹"
+        }
+      ],
+      "name": "泡沫光线",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0072",
+          "name": "玛瑙水母"
+        },
+        {
+          "id": "0073",
+          "name": "毒刺水母"
+        },
+        {
+          "id": "0692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "0693",
+          "name": "钢炮臂虾"
+        },
+        {
+          "id": "0960",
+          "name": "海地鼠"
+        },
+        {
+          "id": "0961",
+          "name": "三海地鼠"
+        }
+      ],
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "水流环",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "生命水滴",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "刺甲贝",
+      "image": "0091-刺甲贝.png",
+      "shiny": "0091-刺甲贝-shiny.png"
+    }
+  ]
 }

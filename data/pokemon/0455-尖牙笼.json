@@ -1,683 +1,1272 @@
 {
-    "name": "尖牙笼",
-    "index": "0455",
-    "name_en": "Carnivine",
-    "name_jp": "マスキッパ",
-    "profile": "尖牙笼的外形基于捕蝇草。它有圆形的眼睛和小的瞳仁。尖牙笼黄色带着绿色斑点的茎干下连接着红色和绿色的藤蔓，看起来像触手一般。它的叶子能像手臂一样使用，看起来有三个叶子做的手指。\n尖牙笼虽是草木形态的宝可梦，但性情却是贪婪粗暴，会张开大口袭击猎物。它缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉后用大颚大口地嚼。它要花一整天吃掉猎物。它能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。它将触手缠绕上树枝后一动不动的样子像极了植物，会张开大嘴等待猎物上钩。\n",
-    "forms": [
-        {
-            "name": "尖牙笼",
-            "index": "0455",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0455-尖牙笼.png",
-            "types": [
-                "草"
-            ],
-            "genus": "捕虫宝可梦",
-            "ability": [
-                {
-                    "name": "飘浮",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "1.4m",
-            "weight": "27.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "触手形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "200",
-                "rate": "26.1%"
-            },
-            "egg_groups": [
-                "植物"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "74",
-                "attack": "100",
-                "defense": "72",
-                "sp_attack": "90",
-                "sp_defense": "72",
-                "speed": "46"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "将触手缠绕上树枝后一动不动的样子像极了植物。会张开大嘴等待猎物上钩。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。*"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "将触手绕在树枝上，坐等被唾液的甜美气味诱惑的猎物的到来。*"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "将触手绕在树枝上，坐等被唾液的甜美气味诱惑的猎物的到来。*"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "将触手缠绕上树枝后一动不动的样子像极了植物。会张开大嘴等待猎物上钩。"
-                },
-                {
-                    "name": "传说 阿尔宙斯",
-                    "group": "宝可梦传说 阿尔宙斯",
-                    "text": "虽是草木形态的宝可梦，但性情却是贪婪粗暴，会张开大口袭击猎物。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "尖牙笼",
-                "stage": "不进化",
-                "text": null,
-                "image": "455Carnivine_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "尖牙笼",
-        "zh_hant": "尖牙籠",
-        "en": "Carnivine",
-        "fr": "Carnivine",
-        "de": "Venuflibis",
-        "it": "Carnivine",
-        "es": "Carnivine",
-        "ja": "マスキッパ",
-        "ko": "무스틈니"
+  "name_zh": "尖牙笼",
+  "name_ja": "マスキッパ",
+  "name_en": "Carnivine",
+  "pokedex_id": "0455",
+  "description": "尖牙笼（日文︰マスキッパ，英文︰Carnivine）是草属性宝可梦。",
+  "profile": "尖牙笼的外形基于捕蝇草。它有圆形的眼睛和小的瞳仁。尖牙笼黄色带着绿色斑点的茎干下连接着红色和绿色的藤蔓，看起来像触手一般。它的叶子能像手臂一样使用，看起来有三个叶子做的手指。\n尖牙笼虽是草木形态的宝可梦，但性情却是贪婪粗暴，会张开大口袭击猎物。它缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉后用大颚大口地嚼。它要花一整天吃掉猎物。它能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。它将触手缠绕上树枝后一动不动的样子像极了植物，会张开大嘴等待猎物上钩。",
+  "prototype": "尖牙笼来自食虫植物中的捕蝇草。\n黄色的腹部可能基于吊式花盆，其飘浮特性证实了这一点。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步尖牙笼（Pokémon GO）。\n←\nNo.0454：毒骷蛙\n宝可梦\nNo.0456：荧光鱼\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "マスキッパ Muskippa",
+      "origin": "来自学名 Dionaea muscipula（捕蝇草）和“すきっ歯（ぱ）”（牙缝）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "绑紧",
-                        "flavor_text": "使用长长的身体或藤蔓等，在４～５回合内绑紧对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "15",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "生长",
-                        "flavor_text": "让身体一下子长大，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "7",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬住",
-                        "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "11",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "藤鞭",
-                        "flavor_text": "用如同鞭子般弯曲而细长的藤蔓摔打对手进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "45",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "17",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "甜甜香气",
-                        "flavor_text": "用香气大幅降低对手的闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "扎根",
-                        "flavor_text": "在大地上扎根，每回合回复自己的ＨＰ。因为扎根了，所以不能替换宝可梦。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "27",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "31",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "青草搅拌器",
-                        "flavor_text": "用锋利的叶片包裹住对手进行攻击。有时会降低对手的命中率。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蓄力",
-                        "flavor_text": "积蓄力量，提高自己的防御和特防。最多积蓄３次。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "喷出",
-                        "flavor_text": "将积蓄的力量撞向对手进行攻击。积蓄得越多，威力越大。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吞下",
-                        "flavor_text": "将积蓄的力量吞下，从而回复自己的ＨＰ。积蓄得越多，回复越大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "41",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "47",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "种子炸弹",
-                        "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "强力鞭打",
-                        "flavor_text": "激烈地挥舞青藤或触手摔打对手进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "85",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９",
-                        "method": "招式学习器",
-                        "name": "种子机关枪",
-                        "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９",
-                        "method": "招式学习器",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "影子分身",
-                        "flavor_text": "通过快速移动来制造分身，扰乱对手，从而提高闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３６",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４２",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４４",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４５",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４６",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５３",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５６",
-                        "method": "招式学习器",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５８",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器６６",
-                        "method": "招式学习器",
-                        "name": "以牙还牙",
-                        "flavor_text": "蓄力攻击。如果能在对手之后攻击，招式的威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器６８",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７０",
-                        "method": "招式学习器",
-                        "name": "闪光",
-                        "flavor_text": "使出光芒，从而降低对手的命中率。也可在阴暗的洞窟里照亮四周。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７５",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８２",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８６",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８７",
-                        "method": "招式学习器",
-                        "name": "虚张声势",
-                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９３",
-                        "method": "招式学习器",
-                        "name": "居合劈",
-                        "flavor_text": "用镰刀或爪子等切斩对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "95",
-                        "pp": "30"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "尖牙籠尖牙笼",
+      "origin": "来自“尖牙”和“猪笼草”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "尖牙笼",
+      "origin": "来自“尖牙”和“猪笼草”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "尖牙籠",
+      "origin": "来自“尖牙”和“猪笼草”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "尖牙籠",
+      "origin": "来自“尖牙”和“猪笼草”。"
+    },
+    {
+      "language": "英文",
+      "name": "Carnivine",
+      "origin": "来自 carnivorous plant（食肉植物）和 vine（藤蔓）。"
+    },
+    {
+      "language": "法文",
+      "name": "Vortente",
+      "origin": "来自 plante carnivore（食肉植物）和 tentacule（触手）及 tentation（诱惑）。"
+    },
+    {
+      "language": "德文",
+      "name": "Venuflibis",
+      "origin": "来自 Venusfliegenfalle（捕蝇草）和 Gebiss（一副牙齿）及 Biss（咬）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Carnivine",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Carnivine",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "무스틈니 Museuteumni",
+      "origin": "来自学名 Dionaea muscipula（捕蝇草）、“틈”（缝隙）和“이”（牙）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "尖牙笼",
+      "types": [
+        "草"
+      ],
+      "category": "捕虫宝可梦",
+      "abilities": [
         {
-            "name": "尖牙笼",
-            "image": "0455-尖牙笼.png",
-            "shiny": "0455-尖牙笼-shiny.png"
+          "name": "飘浮",
+          "is_hidden": false
         }
+      ],
+      "height": "1.4m",
+      "weight": "27.0kg",
+      "color": "绿色",
+      "catch_rate": "200（26.1%）",
+      "egg_groups": [
+        "植物群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body10.png",
+      "footprint": "F455.png",
+      "image": "455Carnivine.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "74",
+        "attack": "100",
+        "defense": "72",
+        "sp_attack": "90",
+        "sp_defense": "72",
+        "speed": "46"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "2"
+    },
+    {
+      "type": "地面",
+      "damage": "0.5"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "2"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "将触手缠绕上树枝后一动不动的样子像极了植物。会张开大嘴等待猎物上钩。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "能灵巧地用触手来回行走，以寻找适合伏击猎物的树枝。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "缠绕在潮湿地带生长的树木上，用甜香的唾液不断引诱猎物，再一口吃掉。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "先用甜香的唾液引诱猎物，然后用大颚大口地嚼。要花１整天吃掉猎物。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "将触手缠绕上树枝后一动不动的样子像极了植物。会张开大嘴等待猎物上钩。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": "虽是草木形态的宝可梦，但性情却是贪婪粗暴，会张开大口袭击猎物。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "尖牙笼",
+        "stage": "不进化",
+        "text": null,
+        "image": "455Carnivine_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "绑紧",
+      "type": "一般",
+      "category": "物理",
+      "power": "15",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "生长",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "7",
+      "name": "咬住",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "11",
+      "name": "藤鞭",
+      "type": "草",
+      "category": "物理",
+      "power": "45",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "17",
+      "name": "甜甜香气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "21",
+      "name": "扎根",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "27",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "31",
+      "name": "青草搅拌器",
+      "type": "草",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "37",
+      "name": "蓄力",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "37",
+      "name": "喷出",
+      "type": "一般",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "37",
+      "name": "吞下",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "41",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "47",
+      "name": "种子炸弹",
+      "type": "草",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "50",
+      "name": "强力鞭打",
+      "type": "草",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "85",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０９",
+      "name": "种子机关枪",
+      "type": "草",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１１",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "影子分身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３６",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４４",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４５",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４６",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器５３",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５６",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５８",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６６",
+      "name": "以牙还牙",
+      "type": "恶",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６８",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器７０",
+      "name": "闪光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７５",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器８２",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８６",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器８７",
+      "name": "虚张声势",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器９０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器９３",
+      "name": "居合劈",
+      "type": "一般",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "95",
+      "pp": "30"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "043",
+          "name": "走路草"
+        },
+        {
+          "id": "044",
+          "name": "臭臭花"
+        },
+        {
+          "id": "045",
+          "name": "霸王花"
+        },
+        {
+          "id": "069",
+          "name": "喇叭芽"
+        },
+        {
+          "id": "070",
+          "name": "口呆花"
+        },
+        {
+          "id": "071",
+          "name": "大食花"
+        },
+        {
+          "id": "114",
+          "name": "蔓藤怪"
+        },
+        {
+          "id": "182",
+          "name": "美丽花"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "465",
+          "name": "巨蔓藤"
+        }
+      ],
+      "name": "催眠粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "043",
+          "name": "走路草"
+        },
+        {
+          "id": "044",
+          "name": "臭臭花"
+        },
+        {
+          "id": "045",
+          "name": "霸王花"
+        },
+        {
+          "id": "046",
+          "name": "派拉斯"
+        },
+        {
+          "id": "047",
+          "name": "派拉斯特"
+        },
+        {
+          "id": "069",
+          "name": "喇叭芽"
+        },
+        {
+          "id": "070",
+          "name": "口呆花"
+        },
+        {
+          "id": "071",
+          "name": "大食花"
+        },
+        {
+          "id": "114",
+          "name": "蔓藤怪"
+        },
+        {
+          "id": "182",
+          "name": "美丽花"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "285",
+          "name": "蘑蘑菇"
+        },
+        {
+          "id": "286",
+          "name": "斗笠菇"
+        },
+        {
+          "id": "315",
+          "name": "毒蔷薇"
+        },
+        {
+          "id": "407",
+          "name": "罗丝雷朵"
+        },
+        {
+          "id": "465",
+          "name": "巨蔓藤"
+        }
+      ],
+      "name": "麻痹粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "069",
+          "name": "喇叭芽"
+        },
+        {
+          "id": "070",
+          "name": "口呆花"
+        },
+        {
+          "id": "071",
+          "name": "大食花"
+        },
+        {
+          "id": "152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "275",
+          "name": "狡猾天狗"
+        },
+        {
+          "id": "357",
+          "name": "热带龙"
+        },
+        {
+          "id": "387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "388",
+          "name": "树林龟"
+        },
+        {
+          "id": "389",
+          "name": "土台龟"
+        },
+        {
+          "id": "459",
+          "name": "雪笠怪"
+        },
+        {
+          "id": "460",
+          "name": "暴雪王"
+        }
+      ],
+      "name": "飞叶快刀",
+      "type": "草",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "parents": [
+        {
+          "id": "069",
+          "name": "喇叭芽"
+        },
+        {
+          "id": "070",
+          "name": "口呆花"
+        },
+        {
+          "id": "071",
+          "name": "大食花"
+        },
+        {
+          "id": "114",
+          "name": "蔓藤怪"
+        },
+        {
+          "id": "465",
+          "name": "巨蔓藤"
+        }
+      ],
+      "name": "摔打",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "75",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "273",
+          "name": "橡实果"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "275",
+          "name": "狡猾天狗"
+        },
+        {
+          "id": "315",
+          "name": "毒蔷薇"
+        },
+        {
+          "id": "357",
+          "name": "热带龙"
+        },
+        {
+          "id": "387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "388",
+          "name": "树林龟"
+        },
+        {
+          "id": "389",
+          "name": "土台龟"
+        },
+        {
+          "id": "407",
+          "name": "罗丝雷朵"
+        }
+      ],
+      "name": "光合作用",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "315",
+          "name": "毒蔷薇"
+        },
+        {
+          "id": "357",
+          "name": "热带龙"
+        },
+        {
+          "id": "407",
+          "name": "罗丝雷朵"
+        },
+        {
+          "id": "420",
+          "name": "樱花宝"
+        },
+        {
+          "id": "421",
+          "name": "樱花儿"
+        }
+      ],
+      "name": "魔法叶",
+      "type": "草",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "285",
+          "name": "蘑蘑菇"
+        },
+        {
+          "id": "286",
+          "name": "斗笠菇"
+        },
+        {
+          "id": "315",
+          "name": "毒蔷薇"
+        },
+        {
+          "id": "331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "332",
+          "name": "梦歌仙人掌"
+        },
+        {
+          "id": "387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "388",
+          "name": "树林龟"
+        },
+        {
+          "id": "389",
+          "name": "土台龟"
+        },
+        {
+          "id": "407",
+          "name": "罗丝雷朵"
+        },
+        {
+          "id": "420",
+          "name": "樱花宝"
+        },
+        {
+          "id": "421",
+          "name": "樱花儿"
+        }
+      ],
+      "name": "寄生种子",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "285",
+          "name": "蘑蘑菇"
+        },
+        {
+          "id": "286",
+          "name": "斗笠菇"
+        },
+        {
+          "id": "315",
+          "name": "毒蔷薇"
+        },
+        {
+          "id": "407",
+          "name": "罗丝雷朵"
+        },
+        {
+          "id": "420",
+          "name": "樱花宝"
+        },
+        {
+          "id": "421",
+          "name": "樱花儿"
+        }
+      ],
+      "name": "烦恼种子",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "046",
+          "name": "派拉斯"
+        },
+        {
+          "id": "047",
+          "name": "派拉斯特"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        }
+      ],
+      "name": "愤怒粉",
+      "type": "虫",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [],
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "尖牙笼",
+      "image": "0455-尖牙笼.png",
+      "shiny": "0455-尖牙笼-shiny.png"
+    }
+  ]
 }

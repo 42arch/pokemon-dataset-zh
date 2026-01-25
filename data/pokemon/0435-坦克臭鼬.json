@@ -1,1070 +1,1684 @@
 {
-    "name": "坦克臭鼬",
-    "index": "0435",
-    "name_en": "Skuntank",
-    "name_jp": "スカタンク",
-    "profile": "坦克臭鼬通体呈紫色，夹杂有乳白色的花纹。它的獠牙微微露出嘴边，头上多了一缕乳白色的长毛，庞大的身躯使它看上去就像坦克一样。坦克臭鼬下体与爪子呈奶油色，尾巴背在背上。\n坦克臭鼬会在地面上挖洞建造巢穴。它会在肚子里囤满臭液，在与猎物对峙时从尾巴尖端喷出奇臭无比的液体进行攻击。液体在肚子里发酵的时间越长，气味就会变得越臭，连发时臭味会减轻。它喷射距离能达到50米以上，然而面对来自上方的攻击时会不知所措。液体的臭味会因吃下的东西而不同。有时会因为自身的毒液过于恶臭难耐，而吃不下到手的猎物。\n",
-    "forms": [
-        {
-            "name": "坦克臭鼬",
-            "index": "0435",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0435-坦克臭鼬.png",
-            "types": [
-                "毒",
-                "恶"
-            ],
-            "genus": "臭鼬宝可梦",
-            "ability": [
-                {
-                    "name": "恶臭",
-                    "is_hidden": false
-                },
-                {
-                    "name": "引爆",
-                    "is_hidden": false
-                },
-                {
-                    "name": "锐利目光",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "1.0m",
-            "weight": "38.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "紫色",
-            "catch_rate": {
-                "number": "60",
-                "rate": "7.8%"
-            },
-            "egg_groups": [
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "103",
-                "attack": "93",
-                "defense": "67",
-                "sp_attack": "71",
-                "sp_defense": "61",
-                "speed": "84"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "从尾巴尖端喷出散发臭味的液体进行攻击。连发时臭味会减轻。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "从尾巴尖端喷出散发臭味的液体进行攻击。连发时臭味会减轻。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会在肚子里囤满臭液，从尾巴喷出臭液攻击敌人。臭味会因吃下的东西而不同。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "从尾巴尖端喷出的液体带有强烈的恶臭。会在地面上挖洞建造巢穴。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
-                },
-                {
-                    "name": "传说 阿尔宙斯",
-                    "group": "宝可梦传说 阿尔宙斯",
-                    "text": "与猎物对峙时会喷出毒液。有时会因为自身的毒液过于恶臭难耐，而吃不下到手的猎物。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "从尾巴尖端喷出散发臭味的液体进行攻击。连发时臭味会减轻。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "臭鼬噗",
-                "stage": "未进化",
-                "text": null,
-                "image": "434Stunky_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "坦克臭鼬",
-                "stage": "1阶进化",
-                "text": "等级34以上",
-                "image": "435Skuntank_Dream.png",
-                "back_text": "",
-                "from": "臭鼬噗",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "坦克臭鼬",
-        "zh_hant": "坦克臭鼬",
-        "en": "Skuntank",
-        "fr": "Skuntank",
-        "de": "Skuntank",
-        "it": "Skuntank",
-        "es": "Skuntank",
-        "ja": "スカタンク",
-        "ko": "스컹탱크"
+  "name_zh": "坦克臭鼬",
+  "name_ja": "スカタンク",
+  "name_en": "Skuntank",
+  "pokedex_id": "0435",
+  "description": "坦克臭鼬（日文︰スカタンク，英文︰Skuntank）是毒属性／恶属性宝可梦。",
+  "profile": "坦克臭鼬通体呈紫色，夹杂有乳白色的花纹。它的獠牙微微露出嘴边，头上多了一缕乳白色的长毛，庞大的身躯使它看上去就像坦克一样。坦克臭鼬下体与爪子呈奶油色，尾巴背在背上。\n坦克臭鼬会在地面上挖洞建造巢穴。它会在肚子里囤满臭液，在与猎物对峙时从尾巴尖端喷出奇臭无比的液体进行攻击。液体在肚子里发酵的时间越长，气味就会变得越臭，连发时臭味会减轻。它喷射距离能达到50米以上，然而面对来自上方的攻击时会不知所措。液体的臭味会因吃下的东西而不同。有时会因为自身的毒液过于恶臭难耐，而吃不下到手的猎物。",
+  "prototype": "坦克臭鼬的原型为臭鼬。根据圆润的身体及短小的四肢，以及两道白色花纹的走向，可能主要源自条纹臭鼬。\n尾部紧贴后背及头顶的姿态可能参考了庞帕多发型，特点是前额部分的头发会往上方梳理，向后卷起。",
+  "detail": "在第六世代中德语版本中，如果在未获得坦克臭鼬图鉴的情况下，在GTS进行交换时，输入shunktank或shuntank均无法搜索到坦克臭鼬的交换信息，并且用自己的宝可梦上传，在想要的宝可梦那一栏填写shuntank后会提示无此宝可梦，输入shunktank虽然可以成功上传但也无法换到坦克臭鼬，如果在获得坦克臭鼬的图鉴后，才可以交换到和搜索到。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步坦克臭鼬（Pokémon GO）。\n←\nNo.0434：臭鼬噗\n宝可梦\nNo.0436：铜镜怪\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "スカタンク Skutank",
+      "origin": "来自英文 skunk（臭鼬）和英文 tank（坦克，也称战车）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抓",
-                        "flavor_text": "用坚硬且无比锋利的爪子抓对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "烟幕",
-                        "flavor_text": "向对手喷出烟或墨汁等，从而降低对手的命中率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒瓦斯",
-                        "flavor_text": "将毒瓦斯吹到对手的脸上，从而让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "佯攻",
-                        "flavor_text": "能够攻击正在使用守住或看穿等招式的对手。解除其守护效果。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "乱抓",
-                        "flavor_text": "用爪子或镰刀等抓对手进行攻击。连续攻击２～５次。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "18",
-                        "accuracy": "80",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "聚气",
-                        "flavor_text": "深深地吸口气，集中精神。自己的攻击会变得容易击中要害。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "18",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬住",
-                        "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "刺耳声",
-                        "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "27",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "突袭",
-                        "flavor_text": "可以比对手先攻击。对手使出的招式如果不是攻击招式则会失败。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "33",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "临别礼物",
-                        "flavor_text": "虽然会使自己陷入昏厥，但是能够大幅降低对手的攻击和特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "38",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暗袭要害",
-                        "flavor_text": "抓住瞬间的空隙切斩对手。容易击中要害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "打嗝",
-                        "flavor_text": "朝着对手打嗝，并给予伤害。如果不吃树果则无法使出。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大爆炸",
-                        "flavor_text": "引发大爆炸，攻击自己周围所有的宝可梦。使用后自己会陷入昏厥。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "250",
-                        "accuracy": "100",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００６",
-                        "method": "招式学习器",
-                        "name": "可怕面孔",
-                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２０",
-                        "method": "招式学习器",
-                        "name": "起草",
-                        "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２４",
-                        "method": "招式学习器",
-                        "name": "火焰旋涡",
-                        "flavor_text": "将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２６",
-                        "method": "招式学习器",
-                        "name": "毒尾",
-                        "flavor_text": "用尾巴拍打。有时会让对手陷入中毒状态，也容易击中要害。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２９",
-                        "method": "招式学习器",
-                        "name": "祸不单行",
-                        "flavor_text": "接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３０",
-                        "method": "招式学习器",
-                        "name": "大声咆哮",
-                        "flavor_text": "没完没了地大声斥责，从而降低对手的特攻。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６１",
-                        "method": "招式学习器",
-                        "name": "暗影爪",
-                        "flavor_text": "以影子做成的锐爪，劈开对手。容易击中要害。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６２",
-                        "method": "招式学习器",
-                        "name": "移花接木",
-                        "flavor_text": "利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８３",
-                        "method": "招式学习器",
-                        "name": "毒击",
-                        "flavor_text": "用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８７",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９１",
-                        "method": "招式学习器",
-                        "name": "毒菱",
-                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９４",
-                        "method": "招式学习器",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０２",
-                        "method": "招式学习器",
-                        "name": "垃圾射击",
-                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０８",
-                        "method": "招式学习器",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１４",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２５",
-                        "method": "招式学习器",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２７",
-                        "method": "招式学习器",
-                        "name": "嬉闹",
-                        "flavor_text": "与对手嬉闹并攻击。有时会降低对手的攻击。",
-                        "type": "妖精",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４０",
-                        "method": "招式学习器",
-                        "name": "诡计",
-                        "flavor_text": "谋划诡计，激活头脑。大幅提高自己的特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４１",
-                        "method": "招式学习器",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４８",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７２",
-                        "method": "招式学习器",
-                        "name": "吼叫",
-                        "flavor_text": "放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７４",
-                        "method": "招式学习器",
-                        "name": "黑雾",
-                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８１",
-                        "method": "招式学习器",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８３",
-                        "method": "招式学习器",
-                        "name": "愤怒门牙",
-                        "flavor_text": "用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９５",
-                        "method": "招式学习器",
-                        "name": "妒火",
-                        "flavor_text": "用嫉妒的能量攻击对手。会让在该回合内能力有所提高的宝可梦陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９９",
-                        "method": "招式学习器",
-                        "name": "泄愤",
-                        "flavor_text": "攻击对手以发泄对其感到的恼怒情绪。如果在该回合内自身能力遭到降低，招式的威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０５",
-                        "method": "招式学习器",
-                        "name": "蛮干",
-                        "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０７",
-                        "method": "招式学习器",
-                        "name": "豁出去",
-                        "flavor_text": "以自暴自弃的气势进行攻击。如果上一回合招式没有命中，威力就会翻倍。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１４",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２１",
-                        "method": "招式学习器",
-                        "name": "深渊突刺",
-                        "flavor_text": "受到此招式攻击的对手，会因为地狱般的痛苦，在２回合内，变得无法使出声音类招式。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "坦克臭鼬",
+      "origin": "来自“坦克”和“臭鼬”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "坦克臭鼬",
+      "origin": "来自“坦克”和“臭鼬”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "坦克臭鼬",
+      "origin": "来自“坦克”和“臭鼬”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "坦克臭鼬",
+      "origin": "来自“坦克”和“臭鼬”。"
+    },
+    {
+      "language": "英文",
+      "name": "Skuntank",
+      "origin": "来自 skunk（臭鼬）和 tank（坦克）。"
+    },
+    {
+      "language": "法文",
+      "name": "Moufflair",
+      "origin": "来自 moufette（臭鼬）和 flair（嗅觉）及 Char Leclerc（勒克莱尔主战坦克）。"
+    },
+    {
+      "language": "德文",
+      "name": "Skuntank",
+      "origin": "来自 Skunk（臭鼬）和 Tank（坦克）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Skuntank",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Skuntank",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "스컹탱크 Skuntank",
+      "origin": "来自英文 skunk（臭鼬）和英文 tank（坦克）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "坦克臭鼬",
+      "types": [
+        "毒",
+        "恶"
+      ],
+      "category": "臭鼬宝可梦",
+      "abilities": [
         {
-            "name": "坦克臭鼬",
-            "image": "0435-坦克臭鼬.png",
-            "shiny": "0435-坦克臭鼬-shiny.png"
+          "name": "恶臭",
+          "is_hidden": false
+        },
+        {
+          "name": "诱爆",
+          "is_hidden": false
+        },
+        {
+          "name": "锐利目光",
+          "is_hidden": true
         }
+      ],
+      "height": "1.0m",
+      "weight": "38.0kg",
+      "color": "紫色",
+      "catch_rate": "60（7.8%）",
+      "egg_groups": [
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "F435.png",
+      "image": "435Skuntank.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "103",
+        "attack": "93",
+        "defense": "67",
+        "sp_attack": "71",
+        "sp_defense": "61",
+        "speed": "84"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0.5"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "0"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "0.5"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "从尾巴尖端喷出散发臭味的液体进行攻击。连发时臭味会减轻。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "从尾巴尖端喷出散发臭味的液体进行攻击。连发时臭味会减轻。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "会在肚子里囤满臭液，从尾巴喷出臭液攻击敌人。臭味会因吃下的东西而不同。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "从尾巴尖端喷出的液体带有强烈的恶臭。会在地面上挖洞建造巢穴。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "从尾巴尖端喷出带有恶臭的液体进行攻击。喷射距离能达到５０米以上。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "从尾部喷出臭液。液体在肚子里发酵的时间越长，气味就会变得越臭。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": "与猎物对峙时会喷出毒液。有时会因为自身的毒液过于恶臭难耐，而吃不下到手的猎物。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "会从尾巴尖端喷出奇臭无比的液体进行攻击，然而面对来自上方的攻击时会不知所措。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "从尾巴尖端喷出散发臭味的液体进行攻击。连发时臭味会减轻。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "臭鼬噗",
+        "stage": "未进化",
+        "text": null,
+        "image": "434Stunky_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "坦克臭鼬",
+        "stage": "1阶进化",
+        "text": "等级34以上",
+        "image": "435Skuntank_Dream.png",
+        "back_text": "",
+        "from": "臭鼬噗",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "抓",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "烟幕",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "毒瓦斯",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "佯攻",
+      "type": "一般",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "12",
+      "name": "乱抓",
+      "type": "一般",
+      "category": "物理",
+      "power": "18",
+      "accuracy": "80",
+      "pp": "15"
+    },
+    {
+      "level": "15",
+      "name": "聚气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "18",
+      "name": "咬住",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "21",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "刺耳声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "level": "27",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "30",
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "33",
+      "name": "临别礼物",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "38",
+      "name": "暗袭要害",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "43",
+      "name": "打嗝",
+      "type": "毒",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "大爆炸",
+      "type": "一般",
+      "category": "物理",
+      "power": "250",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２０",
+      "name": "起草",
+      "type": "草",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２４",
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２６",
+      "name": "毒尾",
+      "type": "毒",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２９",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０３０",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６１",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６２",
+      "name": "移花接木",
+      "type": "恶",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８３",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９１",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９４",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０２",
+      "name": "垃圾射击",
+      "type": "毒",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０８",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１４",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２７",
+      "name": "嬉闹",
+      "type": "妖精",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１４０",
+      "name": "诡计",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１４１",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４８",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７２",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１７４",
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８１",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８３",
+      "name": "愤怒门牙",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９５",
+      "name": "妒火",
+      "type": "火",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１９９",
+      "name": "泄愤",
+      "type": "恶",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０５",
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０７",
+      "name": "豁出去",
+      "type": "火",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１４",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２１",
+      "name": "深渊突刺",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "128",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "0128PC",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "0136",
+          "name": "火伊布"
+        },
+        {
+          "id": "155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "157H",
+          "name": "火暴兽"
+        },
+        {
+          "id": "161",
+          "name": "尾立"
+        },
+        {
+          "id": "162",
+          "name": "大尾立"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "231",
+          "name": "小小象"
+        },
+        {
+          "id": "234",
+          "name": "惊角鹿"
+        },
+        {
+          "id": "322",
+          "name": "呆火驼"
+        },
+        {
+          "id": "0449",
+          "name": "沙河马"
+        },
+        {
+          "id": "0450",
+          "name": "河马兽"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "585",
+          "name": "四季鹿"
+        },
+        {
+          "id": "586",
+          "name": "萌芽鹿"
+        },
+        {
+          "id": "672",
+          "name": "坐骑小羊"
+        },
+        {
+          "id": "673",
+          "name": "坐骑山羊"
+        },
+        {
+          "id": "700",
+          "name": "仙子伊布"
+        },
+        {
+          "id": "0766",
+          "name": "投掷猴"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        },
+        {
+          "id": "899",
+          "name": "诡角鹿"
+        },
+        {
+          "id": "915",
+          "name": "爱吃豚"
+        },
+        {
+          "id": "916",
+          "name": "飘香豚"
+        },
+        {
+          "id": "926",
+          "name": "狗仔包"
+        },
+        {
+          "id": "927",
+          "name": "麻花犬"
+        },
+        {
+          "id": "942",
+          "name": "偶叫獒"
+        },
+        {
+          "id": "943",
+          "name": "獒教父"
+        },
+        {
+          "id": "967",
+          "name": "摩托蜥"
+        },
+        {
+          "id": "971",
+          "name": "墓仔狗"
+        },
+        {
+          "id": "972",
+          "name": "墓扬犬"
+        },
+        {
+          "id": "974",
+          "name": "走鲸"
+        },
+        {
+          "id": "975",
+          "name": "浩大鲸"
+        },
+        {
+          "id": "982",
+          "name": "土龙节节"
+        }
+      ],
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0056",
+          "name": "猴怪"
+        },
+        {
+          "id": "0057",
+          "name": "火暴猴"
+        },
+        {
+          "id": "0058",
+          "name": "卡蒂狗"
+        },
+        {
+          "id": "0058H",
+          "name": "卡蒂狗"
+        },
+        {
+          "id": "0059",
+          "name": "风速狗"
+        },
+        {
+          "id": "0059H",
+          "name": "风速狗"
+        },
+        {
+          "id": "0155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "0156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "0157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "0157H",
+          "name": "火暴兽"
+        },
+        {
+          "id": "0215",
+          "name": "狃拉"
+        },
+        {
+          "id": "0215H",
+          "name": "狃拉"
+        },
+        {
+          "id": "0217",
+          "name": "圈圈熊"
+        },
+        {
+          "id": "0228",
+          "name": "戴鲁比"
+        },
+        {
+          "id": "0229",
+          "name": "黑鲁加"
+        },
+        {
+          "id": "0234",
+          "name": "惊角鹿"
+        },
+        {
+          "id": "0261",
+          "name": "土狼犬"
+        },
+        {
+          "id": "0262",
+          "name": "大狼犬"
+        },
+        {
+          "id": "0335",
+          "name": "猫鼬斩"
+        },
+        {
+          "id": "0390",
+          "name": "小火焰猴"
+        },
+        {
+          "id": "0391",
+          "name": "猛火猴"
+        },
+        {
+          "id": "0392",
+          "name": "烈焰猴"
+        },
+        {
+          "id": "0403",
+          "name": "小猫怪"
+        },
+        {
+          "id": "0404",
+          "name": "勒克猫"
+        },
+        {
+          "id": "0405",
+          "name": "伦琴猫"
+        },
+        {
+          "id": "0461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "0495",
+          "name": "藤藤蛇"
+        },
+        {
+          "id": "0496",
+          "name": "青藤蛇"
+        },
+        {
+          "id": "0497",
+          "name": "君主蛇"
+        },
+        {
+          "id": "0551",
+          "name": "黑眼鳄"
+        },
+        {
+          "id": "0552",
+          "name": "混混鳄"
+        },
+        {
+          "id": "0553",
+          "name": "流氓鳄"
+        },
+        {
+          "id": "0559",
+          "name": "滑滑小子"
+        },
+        {
+          "id": "0560",
+          "name": "头巾混混"
+        },
+        {
+          "id": "0570",
+          "name": "索罗亚"
+        },
+        {
+          "id": "0570H",
+          "name": "索罗亚"
+        },
+        {
+          "id": "0571",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "0571H",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "0667",
+          "name": "小狮狮"
+        },
+        {
+          "id": "0668",
+          "name": "火炎狮"
+        },
+        {
+          "id": "0677",
+          "name": "妙喵"
+        },
+        {
+          "id": "0678",
+          "name": "超能妙喵"
+        },
+        {
+          "id": "0734",
+          "name": "猫鼬少"
+        },
+        {
+          "id": "0735",
+          "name": "猫鼬探长"
+        },
+        {
+          "id": "0744",
+          "name": "岩狗狗"
+        },
+        {
+          "id": "0745",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "0745Mn",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "0745D",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "0766",
+          "name": "投掷猴"
+        },
+        {
+          "id": "0877",
+          "name": "莫鲁贝可"
+        },
+        {
+          "id": "0899",
+          "name": "诡角鹿"
+        },
+        {
+          "id": "0901",
+          "name": "月月熊"
+        },
+        {
+          "id": "0901B",
+          "name": "月月熊"
+        },
+        {
+          "id": "0903",
+          "name": "大狃拉"
+        },
+        {
+          "id": "0909",
+          "name": "呆火鳄"
+        },
+        {
+          "id": "0910",
+          "name": "炙烫鳄"
+        },
+        {
+          "id": "0911",
+          "name": "骨纹巨声鳄"
+        },
+        {
+          "id": "0942",
+          "name": "偶叫獒"
+        },
+        {
+          "id": "0943",
+          "name": "獒教父"
+        },
+        {
+          "id": "0944",
+          "name": "滋汁鼹"
+        },
+        {
+          "id": "0945",
+          "name": "涂标客"
+        },
+        {
+          "id": "0979",
+          "name": "弃世猴"
+        }
+      ],
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0134",
+          "name": "水伊布"
+        },
+        {
+          "id": "0194",
+          "name": "乌波"
+        },
+        {
+          "id": "0195",
+          "name": "沼王"
+        },
+        {
+          "id": "0336",
+          "name": "饭匙蛇"
+        }
+      ],
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "0136",
+          "name": "火伊布"
+        },
+        {
+          "id": "0228",
+          "name": "戴鲁比"
+        },
+        {
+          "id": "0229",
+          "name": "黑鲁加"
+        },
+        {
+          "id": "0324",
+          "name": "煤炭龟"
+        },
+        {
+          "id": "0498",
+          "name": "暖暖猪"
+        },
+        {
+          "id": "0499",
+          "name": "炒炒猪"
+        },
+        {
+          "id": "0500",
+          "name": "炎武王"
+        }
+      ],
+      "name": "浊雾",
+      "type": "毒",
+      "category": "特殊",
+      "power": "30",
+      "accuracy": "70",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0027",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "0027A",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "0028",
+          "name": "穿山王"
+        },
+        {
+          "id": "0028A",
+          "name": "穿山王"
+        },
+        {
+          "id": "0050",
+          "name": "地鼠"
+        },
+        {
+          "id": "0051",
+          "name": "三地鼠"
+        },
+        {
+          "id": "0052",
+          "name": "喵喵"
+        },
+        {
+          "id": "0052G",
+          "name": "喵喵"
+        },
+        {
+          "id": "0053",
+          "name": "猫老大"
+        },
+        {
+          "id": "0215",
+          "name": "狃拉"
+        },
+        {
+          "id": "0215H",
+          "name": "狃拉"
+        },
+        {
+          "id": "0216",
+          "name": "熊宝宝"
+        },
+        {
+          "id": "0217",
+          "name": "圈圈熊"
+        },
+        {
+          "id": "0255",
+          "name": "火稚鸡"
+        },
+        {
+          "id": "0256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "0257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "0288",
+          "name": "过动猿"
+        },
+        {
+          "id": "0335",
+          "name": "猫鼬斩"
+        },
+        {
+          "id": "0461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "0503",
+          "name": "大剑鬼"
+        },
+        {
+          "id": "0503H",
+          "name": "大剑鬼"
+        },
+        {
+          "id": "0613",
+          "name": "喷嚏熊"
+        },
+        {
+          "id": "0614",
+          "name": "冻原熊"
+        },
+        {
+          "id": "0863",
+          "name": "喵头目"
+        },
+        {
+          "id": "0901",
+          "name": "月月熊"
+        },
+        {
+          "id": "0901B",
+          "name": "月月熊"
+        },
+        {
+          "id": "0903",
+          "name": "大狃拉"
+        },
+        {
+          "id": "0906",
+          "name": "新叶喵"
+        },
+        {
+          "id": "0907",
+          "name": "蒂蕾喵"
+        },
+        {
+          "id": "0908",
+          "name": "魔幻假面喵"
+        },
+        {
+          "id": "0944",
+          "name": "滋汁鼹"
+        },
+        {
+          "id": "0945",
+          "name": "涂标客"
+        }
+      ],
+      "name": "劈开",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "050",
+          "name": "地鼠"
+        },
+        {
+          "id": "050A",
+          "name": "地鼠"
+        },
+        {
+          "id": "051",
+          "name": "三地鼠"
+        },
+        {
+          "id": "051A",
+          "name": "三地鼠"
+        },
+        {
+          "id": "0190",
+          "name": "长尾怪手"
+        },
+        {
+          "id": "203",
+          "name": "麒麟奇"
+        },
+        {
+          "id": "234",
+          "name": "惊角鹿"
+        },
+        {
+          "id": "0273",
+          "name": "橡实果"
+        },
+        {
+          "id": "0274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "0424",
+          "name": "双尾怪手"
+        },
+        {
+          "id": "899",
+          "name": "诡角鹿"
+        },
+        {
+          "id": "963",
+          "name": "波普海豚"
+        },
+        {
+          "id": "964",
+          "name": "海豚侠"
+        },
+        {
+          "id": "981",
+          "name": "奇麒麟"
+        }
+      ],
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "坦克臭鼬",
+      "image": "0435-坦克臭鼬.png",
+      "shiny": "0435-坦克臭鼬-shiny.png"
+    }
+  ]
 }

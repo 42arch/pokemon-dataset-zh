@@ -1,965 +1,1420 @@
 {
-    "name": "土王",
-    "index": "0980",
-    "name_en": "Clodsire",
-    "name_jp": "ドオー",
-    "profile": "土王有肥胖的深褐色身躯，背部的颜色比腹部还深。它有两个黑点一样的眼睛和一张大嘴。它的背部有六个白色的斑点。\n土王栖息在池塘或沼泽的底部。会让乌波坐在自己背上，然后游着泳把它送到对岸去。一旦它遭到敌人袭击，就会从躯体伸出粗粗的刺来反击。此招式很危险，需有切断身体承受巨痛的觉悟。 \n",
-    "forms": [
-        {
-            "name": "土王",
-            "index": "0980",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0980-土王.png",
-            "types": [
-                "毒",
-                "地面"
-            ],
-            "genus": "刺鱼宝可梦",
-            "ability": [
-                {
-                    "name": "毒刺",
-                    "is_hidden": false
-                },
-                {
-                    "name": "储水",
-                    "is_hidden": false
-                },
-                {
-                    "name": "纯朴",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "1.8m",
-            "weight": "223.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "90",
-                "rate": "11.8%"
-            },
-            "egg_groups": [
-                "水中1",
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "130",
-                "attack": "75",
-                "defense": "60",
-                "sp_attack": "45",
-                "sp_defense": "100",
-                "speed": "20"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "一旦遭到敌人袭击，就会从躯体伸出粗粗的刺来反击。此招式很危险，需有切断身体的觉悟。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "栖息在池塘或沼泽的底部。会让乌波坐在自己背上，然后游着泳把它送到对岸去。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "乌波",
-                "stage": "未进化",
-                "text": null,
-                "image": "194Wooper-Paldea_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": "帕底亚的样子"
-            },
-            {
-                "name": "土王",
-                "stage": "1阶进化",
-                "text": "等级20以上",
-                "image": "980Clodsire_Dream.png",
-                "back_text": "",
-                "from": "乌波",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "土王",
-        "zh_hant": "土王",
-        "en": "Clodsire",
-        "fr": "Clodsire",
-        "de": "Suelord",
-        "it": "Clodsire",
-        "es": "Clodsire",
-        "ja": "ドオー",
-        "ko": "토오"
+  "name_zh": "土王",
+  "name_ja": "ドオー",
+  "name_en": "Clodsire",
+  "pokedex_id": "0980",
+  "description": "土王（日文︰ドオー，英文︰Clodsire）是毒属性／地面属性宝可梦。",
+  "profile": "土王有肥胖的深褐色身躯，背部的颜色比腹部还深。它有两个黑点一样的眼睛和一张大嘴。它的背部有六个白色的斑点。\n土王栖息在池塘或沼泽的底部。会让乌波坐在自己背上，然后游着泳把它送到对岸去。一旦它遭到敌人袭击，就会从躯体伸出粗粗的刺来反击。此招式很危险，需有切断身体承受巨痛的觉悟。",
+  "prototype": "和沼王类似，土王的形象可能参考了日本大鲵。\n从背上伸出尖刺的行为可能基于西班牙肋突螈。这种蝾螈在遇到危险时会将自己的肋骨刺穿皮肤，并分泌毒液涂在锋利的肋骨尖端上，以此来刺伤敌人。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步土王（Pokémon GO）。\n←\nNo.0979：弃世猴\n宝可梦\nNo.0981：奇麒麟\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ドオー Dooh",
+      "origin": "来自“土（ど）”（土）和“王（おう）”（王），对应沼王的名字“ヌオー”。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞬间失忆",
-                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摇尾巴",
-                        "flavor_text": "可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒针",
-                        "flavor_text": "将有毒的针刺入对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "15",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "4",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒菱",
-                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "8",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒尾",
-                        "flavor_text": "用尾巴拍打。有时会让对手陷入中毒状态，也容易击中要害。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摔打",
-                        "flavor_text": "使用长长的尾巴或藤蔓等摔打对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "75",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "哈欠",
-                        "flavor_text": "打个大哈欠引起睡意。在下一回合让对手陷入睡眠状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒击",
-                        "flavor_text": "用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "超级角击",
-                        "flavor_text": "用坚硬且华丽的角狠狠地刺入对手进行攻击。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００５",
-                        "method": "招式学习器",
-                        "name": "掷泥",
-                        "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１２",
-                        "method": "招式学习器",
-                        "name": "踢倒",
-                        "flavor_text": "用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２０",
-                        "method": "招式学习器",
-                        "name": "起草",
-                        "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２６",
-                        "method": "招式学习器",
-                        "name": "毒尾",
-                        "flavor_text": "用尾巴拍打。有时会让对手陷入中毒状态，也容易击中要害。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２８",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３５",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３６",
-                        "method": "招式学习器",
-                        "name": "岩石封锁",
-                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５１",
-                        "method": "招式学习器",
-                        "name": "沙暴",
-                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５９",
-                        "method": "招式学习器",
-                        "name": "意念头锤",
-                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７７",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８３",
-                        "method": "招式学习器",
-                        "name": "毒击",
-                        "flavor_text": "用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８４",
-                        "method": "招式学习器",
-                        "name": "跺脚",
-                        "flavor_text": "化悔恨为力量进行攻击。如果上一回合招式没有打中，威力就会翻倍。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８６",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８９",
-                        "method": "招式学习器",
-                        "name": "扑击",
-                        "flavor_text": "用身体撞向对手进行攻击。防御越高，给予的伤害就越高。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９０",
-                        "method": "招式学习器",
-                        "name": "撒菱",
-                        "flavor_text": "在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害。",
-                        "type": "地面",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９１",
-                        "method": "招式学习器",
-                        "name": "毒菱",
-                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９９",
-                        "method": "招式学习器",
-                        "name": "铁头",
-                        "flavor_text": "用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０２",
-                        "method": "招式学习器",
-                        "name": "垃圾射击",
-                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１０",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１６",
-                        "method": "招式学习器",
-                        "name": "隐形岩",
-                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２１",
-                        "method": "招式学习器",
-                        "name": "重磅冲撞",
-                        "flavor_text": "用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２８",
-                        "method": "招式学习器",
-                        "name": "瞬间失忆",
-                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３３",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４８",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４９",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５０",
-                        "method": "招式学习器",
-                        "name": "尖石攻击",
-                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７４",
-                        "method": "招式学习器",
-                        "name": "黑雾",
-                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８６",
-                        "method": "招式学习器",
-                        "name": "十万马力",
-                        "flavor_text": "使出全身力量，猛攻对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "95",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０９",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１４",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２４",
-                        "method": "招式学习器",
-                        "name": "咒术",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "土王",
+      "origin": "来自“土”和“王”，对应沼王的名字。"
     },
-    "home_images": [
+    {
+      "language": "中文-台湾",
+      "name": "土王",
+      "origin": "来自“土”和“王”，对应沼王的名字。"
+    },
+    {
+      "language": "英文",
+      "name": "Clodsire",
+      "origin": "来自 clod（土块）和 sire（殿下），对应 Quagsire（沼王）。"
+    },
+    {
+      "language": "法文",
+      "name": "Terraiste",
+      "origin": "来自 terre（土地）、marais（草沼）和 majesté（殿下），对应 Maraiste（沼王）。"
+    },
+    {
+      "language": "德文",
+      "name": "Suelord",
+      "origin": "来自西班牙文 suelo（土）和 Lord（勋爵、领主），对应 Morlord。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Clodsire",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Clodsire",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "토오 Too",
+      "origin": "来自“토〈土〉”（土）和日文名的音译，对应“누오”（沼王）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "土王",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "category": "刺鱼宝可梦",
+      "abilities": [
         {
-            "name": "土王",
-            "image": "0980-土王.png",
-            "shiny": "0980-土王-shiny.png"
+          "name": "毒刺",
+          "is_hidden": false
+        },
+        {
+          "name": "储水",
+          "is_hidden": false
+        },
+        {
+          "name": "纯朴",
+          "is_hidden": true
         }
+      ],
+      "height": "1.8m",
+      "weight": "223.0kg",
+      "color": "褐色",
+      "catch_rate": "90（11.8%）",
+      "egg_groups": [
+        "水中1",
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "FUnknown.png",
+      "image": "980Clodsire.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "130",
+        "attack": "75",
+        "defense": "60",
+        "sp_attack": "45",
+        "sp_defense": "100",
+        "speed": "20"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "0.5"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.25"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "2"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "0"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "一旦遭到敌人袭击，就会从躯体伸出粗粗的刺来反击。此招式很危险，需有切断身体的觉悟。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "栖息在池塘或沼泽的底部。会让乌波坐在自己背上，然后游着泳把它送到对岸去。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "乌波",
+        "stage": "未进化",
+        "text": null,
+        "image": "194Wooper-Paldea_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "帕底亚的样子"
+      },
+      {
+        "name": "土王",
+        "stage": "1阶进化",
+        "text": "等级20以上",
+        "image": "980Clodsire_Dream.png",
+        "back_text": "",
+        "from": "乌波",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "毒针",
+      "type": "毒",
+      "category": "物理",
+      "power": "15",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "4",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "8",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "12",
+      "name": "毒尾",
+      "type": "毒",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "16",
+      "name": "摔打",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "75",
+      "pp": "20"
+    },
+    {
+      "level": "21",
+      "name": "哈欠",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "30",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "36",
+      "name": "超级角击",
+      "type": "虫",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "level": "40",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００５",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１２",
+      "name": "踢倒",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２０",
+      "name": "起草",
+      "type": "草",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２６",
+      "name": "毒尾",
+      "type": "毒",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２８",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３６",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５１",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８３",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８４",
+      "name": "跺脚",
+      "type": "地面",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８６",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８９",
+      "name": "扑击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９０",
+      "name": "撒菱",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９１",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９９",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０２",
+      "name": "垃圾射击",
+      "type": "毒",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１０",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１２１",
+      "name": "重磅冲撞",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２８",
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３３",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４８",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４９",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５０",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７４",
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８６",
+      "name": "十万马力",
+      "type": "地面",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "95",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０９",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１４",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "128PC",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "128PB",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "128PA",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "0256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "0257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "585",
+          "name": "四季鹿"
+        },
+        {
+          "id": "586",
+          "name": "萌芽鹿"
+        },
+        {
+          "id": "725",
+          "name": "火斑喵"
+        },
+        {
+          "id": "726",
+          "name": "炎热喵"
+        },
+        {
+          "id": "727",
+          "name": "炽焰咆哮虎"
+        },
+        {
+          "id": "749",
+          "name": "泥驴仔"
+        },
+        {
+          "id": "750",
+          "name": "重泥挽马"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        }
+      ],
+      "name": "二连踢",
+      "type": "格斗",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "0027A",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "0037A",
+          "name": "六尾"
+        },
+        {
+          "id": "0131",
+          "name": "拉普拉斯"
+        },
+        {
+          "id": "0194",
+          "name": "乌波"
+        },
+        {
+          "id": "0195",
+          "name": "沼王"
+        },
+        {
+          "id": "0220",
+          "name": "小山猪"
+        },
+        {
+          "id": "0221",
+          "name": "长毛猪"
+        },
+        {
+          "id": "0270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "0271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "0278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "0393",
+          "name": "波加曼"
+        },
+        {
+          "id": "0394",
+          "name": "波皇子"
+        },
+        {
+          "id": "0395",
+          "name": "帝王拿波"
+        },
+        {
+          "id": "0473",
+          "name": "象牙猪"
+        },
+        {
+          "id": "0875",
+          "name": "冰砌鹅"
+        },
+        {
+          "id": "0963",
+          "name": "波普海豚"
+        },
+        {
+          "id": "0964",
+          "name": "海豚侠"
+        }
+      ],
+      "name": "白雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "287",
+          "name": "懒人獭"
+        },
+        {
+          "id": "288",
+          "name": "过动猿"
+        },
+        {
+          "id": "289",
+          "name": "请假王"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "745Mn",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "745D",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "749",
+          "name": "泥驴仔"
+        },
+        {
+          "id": "750",
+          "name": "重泥挽马"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        },
+        {
+          "id": "819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "0833",
+          "name": "咬咬龟"
+        },
+        {
+          "id": "0834",
+          "name": "暴噬龟"
+        },
+        {
+          "id": "0979",
+          "name": "弃世猴"
+        }
+      ],
+      "name": "双倍奉还",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "0422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "0423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "0747",
+          "name": "好坏星"
+        },
+        {
+          "id": "0748",
+          "name": "超坏星"
+        },
+        {
+          "id": "0871",
+          "name": "啪嚓海胆"
+        }
+      ],
+      "name": "自我再生",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0134",
+          "name": "水伊布"
+        },
+        {
+          "id": "0194",
+          "name": "乌波"
+        },
+        {
+          "id": "0195",
+          "name": "沼王"
+        },
+        {
+          "id": "0283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "0336",
+          "name": "饭匙蛇"
+        },
+        {
+          "id": "0658",
+          "name": "甲贺忍蛙"
+        }
+      ],
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "0079",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "0079G",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "0080",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "0080G",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "0199",
+          "name": "呆呆王"
+        },
+        {
+          "id": "0199G",
+          "name": "呆呆王"
+        },
+        {
+          "id": "0322",
+          "name": "呆火驼"
+        },
+        {
+          "id": "0323",
+          "name": "喷火驼"
+        },
+        {
+          "id": "0324",
+          "name": "煤炭龟"
+        },
+        {
+          "id": "0570H",
+          "name": "索罗亚"
+        },
+        {
+          "id": "0571H",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "0871",
+          "name": "啪嚓海胆"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "0221",
+          "name": "长毛猪"
+        },
+        {
+          "id": "0422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "0423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "0473",
+          "name": "象牙猪"
+        },
+        {
+          "id": "0982",
+          "name": "土龙节节"
+        }
+      ],
+      "name": "原始之力",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0775",
+          "name": "树枕尾熊"
+        },
+        {
+          "id": "0819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "0820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "0845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "蓄力",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0775",
+          "name": "树枕尾熊"
+        },
+        {
+          "id": "0819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "0820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "0845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "喷出",
+      "type": "一般",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0775",
+          "name": "树枕尾熊"
+        },
+        {
+          "id": "0819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "0820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "0845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "吞下",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0434",
+          "name": "臭鼬噗"
+        },
+        {
+          "id": "0747",
+          "name": "好坏星"
+        },
+        {
+          "id": "0748",
+          "name": "超坏星"
+        },
+        {
+          "id": "0944",
+          "name": "滋汁鼹"
+        },
+        {
+          "id": "0945",
+          "name": "涂标客"
+        }
+      ],
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0572",
+          "name": "泡沫栗鼠"
+        },
+        {
+          "id": "0765",
+          "name": "智挥猩"
+        }
+      ],
+      "name": "您先请",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "土王",
+      "image": "0980-土王.png",
+      "shiny": "0980-土王-shiny.png"
+    }
+  ]
 }

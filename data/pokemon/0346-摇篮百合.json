@@ -1,919 +1,944 @@
 {
-    "name": "摇篮百合",
-    "index": "0346",
-    "name_en": "Cradily",
-    "name_jp": "ユレイドル",
-    "profile": "摇篮百合是一种与植物相似的绿色宝可梦。它的头部、脖子和躯干上有着不同式样的黄色标记。它的头上有着新月形的开口，开口上还有一对圆形的黄色眼点，有八条粉色的触须环绕在它的头部根处。它依靠四条粗短的腿蹲坐在地上，腹部部上还有一个椭圆形的黄色靶状物。\n摇篮百合是古代海里的食肉宝可梦。它平常栖息在温暖的海洋浅滩底部，会拖着沉重的身体在海底来回走动寻找食物。它会在退潮的时候爬到陆地上四处寻找猎物，把那些藏在沙滩里的猎物挖出来吃掉。它的身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。它虽然脚很短走得慢，但脖子和触手能伸长3倍。因为它无法快速移动，所以会藏在海藻之间，靠伸长触手来获取食物。它会随意地伸长如同树枝般的脖子，然后再用八只触手捕捉猎物。用触手将猎物缠住后，它会从触手分泌出强力的消化液将其溶化，然后大口大口地吃掉，吸收其中的养分。\n",
-    "forms": [
-        {
-            "name": "摇篮百合",
-            "index": "0346",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0346-摇篮百合.png",
-            "types": [
-                "岩石",
-                "草"
-            ],
-            "genus": "藤壶宝可梦",
-            "ability": [
-                {
-                    "name": "吸盘",
-                    "is_hidden": false
-                },
-                {
-                    "name": "引水",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "600,000",
-                "speed": "最快"
-            },
-            "height": "1.5m",
-            "weight": "60.4kg",
-            "gender_rate": {
-                "male": "87.5%",
-                "female": "12.5%"
-            },
-            "shape": "柱形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "水中3"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "86",
-                "attack": "81",
-                "defense": "97",
-                "sp_attack": "81",
-                "sp_defense": "107",
-                "speed": "43"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "会在海底来回走动寻找食物。会随意地伸长如同树枝般的脖子，然后再用８只触手捕捉猎物。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。会从触手分泌出强力的消化液。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "拖着沉重的身体在海底移动。以温暖海域里的浅滩作为栖息之地。当潮水退去时就会现身在沙滩上。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "会用８只触手缠住猎物，再用强力的消化液将其溶化，然后大口大口地吃掉。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "会用８只触手缠住猎物，再用强力的消化液将其溶化，然后大口大口地吃掉。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "生活在温暖的海中，因为身体变重连海水也无法推动它了。*"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "生活在温暖的海中，因为身体变重连海水也无法推动它了。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "会用８只触手缠住猎物，再用强力的消化液将其溶化，然后大口大口地吃掉。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会在海底来回走动寻找食物。会随意地伸长如同树枝般的脖子，然后再用８只触手捕捉猎物。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。会从触手分泌出强力的消化液。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "平常栖息在海的浅滩底部，退潮的时候就爬到陆地上，四处寻找猎物。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "古代海里的食肉宝可梦。能用８根触手捕捉猎物，一边用消化液溶化一边吃。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "虽然脚很短走得慢，但脖子和触手能伸长３倍，因此能捉到远处的猎物。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "用触手将猎物缠住后，会用消化液将其溶化，然后吸收其中的养分。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "触手百合",
-                "stage": "未进化",
-                "text": null,
-                "image": "345Lileep_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "摇篮百合",
-                "stage": "1阶进化",
-                "text": "等级40以上",
-                "image": "346Cradily_Dream.png",
-                "back_text": "",
-                "from": "触手百合",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "摇篮百合",
-        "en": "릴리요 Lilliyo",
-        "fr": "릴리요 Lilliyo",
-        "zh_hant": "搖籃百合",
-        "de": "Wielie",
-        "it": "Cradily",
-        "es": "Cradily",
-        "ja": "ユレイドル",
-        "ko": "릴리요"
+  "name_zh": "摇篮百合",
+  "name_ja": "ユレイドル",
+  "name_en": "Cradily",
+  "pokedex_id": "0346",
+  "description": "摇篮百合（日文︰ユレイドル，英文︰Cradily）是岩石属性／草属性宝可梦。",
+  "profile": "摇篮百合是一种与植物相似的绿色宝可梦。它的头部、脖子和躯干上有着不同式样的黄色标记。它的头上有着新月形的开口，开口上还有一对圆形的黄色眼点，有八条粉色的触须环绕在它的头部根处。它依靠四条粗短的腿蹲坐在地上，腹部部上还有一个椭圆形的黄色靶状物。\n摇篮百合是古代海里的食肉宝可梦。它平常栖息在温暖的海洋浅滩底部，会拖着沉重的身体在海底来回走动寻找食物。它会在退潮的时候爬到陆地上四处寻找猎物，把那些藏在沙滩里的猎物挖出来吃掉。它的身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。它虽然脚很短走得慢，但脖子和触手能伸长3倍。因为它无法快速移动，所以会藏在海藻之间，靠伸长触手来获取食物。它会随意地伸长如同树枝般的脖子，然后再用八只触手捕捉猎物。用触手将猎物缠住后，它会从触手分泌出强力的消化液将其溶化，然后大口大口地吃掉，吸收其中的养分。",
+  "prototype": "摇篮百合的原型为来自奥陶纪的古代棘皮动物海百合亚门中的有柄种类，不同于无柄海百合，它们多以茎柄固着生活。\n摇篮百合在分类上被归为“藤壶宝可梦”，其形象可能也借鉴了有柄藤壶，尤其是其头部展现了藤壶本体藏于可开合的石灰质外壳中这一特征。\n摇篮百合捕食器和茎的姿态类似于掠食性海鞘，但这一物种被发现于2014年，远远晚于摇篮百合初次登场的第三世代的发售。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步摇篮百合（Pokémon GO）。\n←\nNo.0345：触手百合\n宝可梦\nNo.0347：太古羽虫\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ユレイドル Yuradle",
+      "origin": "来自“海（うみ）百合（ゆり）”（海百合）、“揺（ゆ）れ”（摇晃）和英文 cradle（摇篮）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "寄生种子",
-                        "flavor_text": "植入寄生种子后，将在每回合一点一点吸取对手的ＨＰ，从而用来回复自己的ＨＰ。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "绞紧",
-                        "flavor_text": "用力勒紧对手进行攻击。对手的HP越多，威力越大。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "惊吓",
-                        "flavor_text": "用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "溶解液",
-                        "flavor_text": "将强酸泼向对手进行攻击。有时会降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "奇异之光",
-                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "扎根",
-                        "flavor_text": "在大地上扎根，每回合回复自己的ＨＰ。因为扎根了，所以不能替换宝可梦。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "原始之力",
-                        "flavor_text": "用原始之力进行攻击。有时会提高自己所有的能力。",
-                        "type": "岩石",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "超级吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞬间失忆",
-                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "胃液",
-                        "flavor_text": "将胃液吐向对手的身体。沾上的胃液会消除对手的特性效果。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蓄力",
-                        "flavor_text": "积蓄力量，提高自己的防御和特防。最多积蓄３次。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "喷出",
-                        "flavor_text": "将积蓄的力量撞向对手进行攻击。积蓄得越多，威力越大。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吞下",
-                        "flavor_text": "将积蓄的力量吞下，从而回复自己的ＨＰ。积蓄得越多，回复越大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２８",
-                        "method": "招式学习器",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "沙暴",
-                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４８",
-                        "method": "招式学习器",
-                        "name": "岩石封锁",
-                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５０",
-                        "method": "招式学习器",
-                        "name": "种子机关枪",
-                        "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５３",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５４",
-                        "method": "招式学习器",
-                        "name": "岩石爆击",
-                        "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５５",
-                        "method": "招式学习器",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８１",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８８",
-                        "method": "招式学习器",
-                        "name": "青草场地",
-                        "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录００",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１０",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１７",
-                        "method": "招式学习器",
-                        "name": "瞬间失忆",
-                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２２",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５９",
-                        "method": "招式学习器",
-                        "name": "种子炸弹",
-                        "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６５",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６７",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７２",
-                        "method": "招式学习器",
-                        "name": "强力鞭打",
-                        "flavor_text": "激烈地挥舞青藤或触手摔打对手进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７５",
-                        "method": "招式学习器",
-                        "name": "尖石攻击",
-                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７６",
-                        "method": "招式学习器",
-                        "name": "隐形岩",
-                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７７",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７８",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "搖籃百合摇篮百合",
+      "origin": "来自“摇篮”和“百合”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "摇篮百合",
+      "origin": "来自“摇篮”和“百合”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "搖籃百合",
+      "origin": "来自“摇篮”和“百合”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "搖籃百合",
+      "origin": "来自“摇篮”和“百合”。"
+    },
+    {
+      "language": "英文",
+      "name": "Cradily",
+      "origin": "来自 cradle（摇篮）和 lily（百合）。"
+    },
+    {
+      "language": "法文",
+      "name": "Vacilys",
+      "origin": "来自 vague（波浪）、vaciller（摇晃）和 lys（百合）。"
+    },
+    {
+      "language": "德文",
+      "name": "Wielie",
+      "origin": "来自 Wiege（摇篮）和 Lilie（百合）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Cradily",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Cradily",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "릴리요 Lilliyo",
+      "origin": "来自英文 lily（百合）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "摇篮百合",
+      "types": [
+        "岩石",
+        "草"
+      ],
+      "category": "藤壶宝可梦",
+      "abilities": [
         {
-            "name": "摇篮百合",
-            "image": "0346-摇篮百合.png",
-            "shiny": "0346-摇篮百合-shiny.png"
+          "name": "吸盘",
+          "is_hidden": false
+        },
+        {
+          "name": "引水",
+          "is_hidden": true
         }
+      ],
+      "height": "1.5m",
+      "weight": "60.4kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "水中3群"
+      ],
+      "experience_100": "600,000（最快）",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "30 孵化周期（7710步）",
+      "shape": "Body05.png",
+      "footprint": "F346.png",
+      "image": "346Cradily.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "86",
+        "attack": "81",
+        "defense": "97",
+        "sp_attack": "81",
+        "sp_defense": "107",
+        "speed": "43"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0.5"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "2"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "2"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会在海底来回走动寻找食物。会随意地伸长如同树枝般的脖子，然后再用８只触手捕捉猎物。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。会从触手分泌出强力的消化液。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "拖着沉重的身体在海底移动。以温暖海域里的浅滩作为栖息之地。当潮水退去时就会现身在沙滩上。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "会用８只触手缠住猎物，再用强力的消化液将其溶化，然后大口大口地吃掉。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "会用８只触手缠住猎物，再用强力的消化液将其溶化，然后大口大口地吃掉。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "生活在温暖的海中，因为身体变重连海水也无法推动它了。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "生活在温暖的海中，因为身体变重连海水也无法推动它了。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "会用８只触手缠住猎物，再用强力的消化液将其溶化，然后大口大口地吃掉。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会在海底来回走动寻找食物。会随意地伸长如同树枝般的脖子，然后再用８只触手捕捉猎物。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "身体像秤砣一样，所以就算大海再波涛汹涌也不会被冲走。会从触手分泌出强力的消化液。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "虽然脚很短走得慢，但脖子和触手能伸长３倍，因此能捉到远处的猎物。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "用触手将猎物缠住后，会用消化液将其溶化，然后吸收其中的养分。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "会待在温暖的海洋浅滩上。退潮后就会去把那些藏在沙滩里的猎物挖出来吃掉。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "触手百合",
+        "stage": "未进化",
+        "text": null,
+        "image": "345Lileep_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "摇篮百合",
+        "stage": "1阶进化",
+        "text": "等级40以上",
+        "image": "346Cradily_Dream.png",
+        "back_text": "",
+        "from": "触手百合",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "寄生种子",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "绞紧",
+      "type": "一般",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "—",
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "溶解液",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "12",
+      "name": "扎根",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "16",
+      "name": "原始之力",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "20",
+      "name": "超级吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "24",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "28",
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "32",
+      "name": "胃液",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "36",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "43",
+      "name": "蓄力",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "43",
+      "name": "喷出",
+      "type": "一般",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "43",
+      "name": "吞下",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０８",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１１",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２８",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４８",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５０",
+      "name": "种子机关枪",
+      "type": "草",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器５３",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５４",
+      "name": "岩石爆击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５５",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器８１",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器８８",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录００",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录０１",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录１０",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录１７",
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２２",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录５９",
+      "name": "种子炸弹",
+      "type": "草",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录６５",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录６７",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录７２",
+      "name": "强力鞭打",
+      "type": "草",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录７５",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录７６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录７７",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录７８",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "太阳珊瑚"
+        }
+      ],
+      "name": "自我再生",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "222",
+          "name": "太阳珊瑚"
+        },
+        {
+          "id": "222G",
+          "name": "太阳珊瑚"
+        },
+        {
+          "id": "864",
+          "name": "魔灵珊瑚"
+        }
+      ],
+      "name": "镜面反射",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "玛瑙水母"
+        },
+        {
+          "id": null,
+          "name": "菊石兽"
+        }
+      ],
+      "name": "挠痒*",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "菊石兽"
+        },
+        {
+          "id": null,
+          "name": "多刺菊石兽"
+        }
+      ],
+      "name": "绑紧",
+      "type": "一般",
+      "category": "物理",
+      "power": "15",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "222G",
+          "name": "太阳珊瑚"
+        },
+        {
+          "id": "564",
+          "name": "原盖海龟"
+        },
+        {
+          "id": "565",
+          "name": "肋骨海龟"
+        },
+        {
+          "id": null,
+          "name": "魔灵珊瑚"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "摇篮百合",
+      "image": "0346-摇篮百合.png",
+      "shiny": "0346-摇篮百合-shiny.png"
+    }
+  ]
 }

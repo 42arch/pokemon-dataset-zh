@@ -1,852 +1,991 @@
 {
-    "name": "小狮狮",
-    "index": "0667",
-    "name_en": "Litleo",
-    "name_jp": "シシコ",
-    "profile": "小狮狮是一种深褐色的狮子宝可梦。它的脸部、耳朵、脚掌和尾巴末端的一簇毛是浅棕色的。小狮狮的鼻子和头上的火焰般的毛发都是鲜艳的红色，尾巴端是一团类似勾玉或者蝎子尾巴的浅色毛发。\n小狮狮小时候会与伙伴们群居生活，雌性的火炎狮会教导它如何狩猎，一旦自己能捕猎后就会被赶出群体独立生活。它血气方刚且好奇心旺盛，会通过与强敌战斗来锻炼身心，越多的锻炼能使它鬃毛的温度变得越高。如果生气或是开始战斗，短短的鬃毛就会变热。面对的对手越强大，鬃毛的温度就变得越高，全身都充满了力量。\n",
-    "forms": [
-        {
-            "name": "小狮狮",
-            "index": "0667",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0667-小狮狮.png",
-            "types": [
-                "火",
-                "一般"
-            ],
-            "genus": "幼狮宝可梦",
-            "ability": [
-                {
-                    "name": "斗争心",
-                    "is_hidden": false
-                },
-                {
-                    "name": "紧张感",
-                    "is_hidden": false
-                },
-                {
-                    "name": "自信过度",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "0.6m",
-            "weight": "13.5kg",
-            "gender_rate": {
-                "male": "12.5%",
-                "female": "87.5%"
-            },
-            "shape": "四足兽形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "220",
-                "rate": "28.8%"
-            },
-            "egg_groups": [
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "62",
-                "attack": "50",
-                "defense": "58",
-                "sp_attack": "73",
-                "sp_defense": "54",
-                "speed": "72"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "面对的对手越强大，鬃毛的温度就变得越高，全身都充满了力量。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "为了变强而开始离开群体，独自生活。血气旺盛，很冲动。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "面对的对手越强大，鬃毛的温度就变得越高，全身都充满了力量。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "为了变强而开始离开群体，独自生活。血气旺盛，很冲动。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "小时候会与伙伴们群居生活。一旦自己能捕猎后，就会被赶出群体独立生活。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "血气方刚且好奇心旺盛。如果生气或是开始战斗，短短的鬃毛就会变热。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "年幼时会由雌性的火炎狮来教导它如何狩猎，等到长大后就会离群索居。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "小狮狮会通过与强敌战斗来锻炼身心。越多的锻炼能使它鬃毛的温度变得越高。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "小狮狮",
-                "stage": "未进化",
-                "text": null,
-                "image": "667Litleo_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "火炎狮",
-                "stage": "1阶进化",
-                "text": "等级35以上",
-                "image": "668Pyroar_Dream.png",
-                "back_text": "",
-                "from": "小狮狮",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "小狮狮",
-        "zh_hant": "小獅獅",
-        "en": "Litleo",
-        "fr": "Litleo",
-        "de": "Leufeo",
-        "it": "Litleo",
-        "es": "Litleo",
-        "ja": "シシコ",
-        "ko": "레오꼬"
+  "name_zh": "小狮狮",
+  "name_ja": "シシコ",
+  "name_en": "Litleo",
+  "pokedex_id": "0667",
+  "description": "小狮狮（日文︰シシコ，英文︰Litleo）是火属性／一般属性宝可梦。",
+  "profile": "小狮狮是一种深褐色的狮子宝可梦。它的脸部、耳朵、脚掌和尾巴末端的一簇毛是浅棕色的。小狮狮的鼻子和头上的火焰般的毛发都是鲜艳的红色，尾巴端是一团类似勾玉或者蝎子尾巴的浅色毛发。\n小狮狮小时候会与伙伴们群居生活，雌性的火炎狮会教导它如何狩猎，一旦自己能捕猎后就会被赶出群体独立生活。它血气方刚且好奇心旺盛，会通过与强敌战斗来锻炼身心，越多的锻炼能使它鬃毛的温度变得越高。如果生气或是开始战斗，短短的鬃毛就会变热。面对的对手越强大，鬃毛的温度就变得越高，全身都充满了力量。",
+  "prototype": "小狮狮基于狮子的幼崽。\n其在《究极之日》中的图鉴描述来自现实中雄狮在成年后通常会被其父亲赶出狮群这一事实。\n其钩状的尾巴尖端可能参考了传说生物蝎尾狮。",
+  "detail": "小狮狮是有唯一属性组合的宝可梦，火属性／一般属性组合。\n小狮狮是卡洛斯地区的星座之一。与合众的勇士雄鹰都代表了现实中的狮子宫。\n小狮狮家族是唯一性别比例7 ♀ : 1 ♂的宝可梦家族。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步小狮狮（Pokémon GO）。\n←\nNo.0666：彩粉蝶\n宝可梦\nNo.0668：火炎狮\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "シシコ Shishiko",
+      "origin": "来自“獅子（しし）”（狮子）和“子（こ）”（子） 。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞪眼",
-                        "flavor_text": "用犀利的眼神使其害怕，从而降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "火花",
-                        "flavor_text": "向对手发射小型火焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "8",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "11",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "头锤",
-                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "战吼",
-                        "flavor_text": "发出战吼威吓对手，从而降低对手的攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "23",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "火焰牙",
-                        "flavor_text": "用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蛮干",
-                        "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "33",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "回声",
-                        "flavor_text": "用回声攻击对手。如果每回合都有宝可梦接着使用该招式，威力就会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "39",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "46",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "烧净",
-                        "flavor_text": "用火焰攻击对手。对手携带树果等时，会烧掉，使其不能使用。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "过热",
-                        "flavor_text": "使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００５",
-                        "method": "招式学习器",
-                        "name": "掷泥",
-                        "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００８",
-                        "method": "招式学习器",
-                        "name": "火焰牙",
-                        "flavor_text": "用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００９",
-                        "method": "招式学习器",
-                        "name": "雷电牙",
-                        "flavor_text": "用蓄满电流的牙齿咬住对手。有时会使对手畏缩或陷入麻痹状态。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１４",
-                        "method": "招式学习器",
-                        "name": "杂技",
-                        "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２０",
-                        "method": "招式学习器",
-                        "name": "起草",
-                        "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２４",
-                        "method": "招式学习器",
-                        "name": "火焰旋涡",
-                        "flavor_text": "将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２８",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３０",
-                        "method": "招式学习器",
-                        "name": "大声咆哮",
-                        "flavor_text": "没完没了地大声斥责，从而降低对手的特攻。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３８",
-                        "method": "招式学习器",
-                        "name": "蓄能焰袭",
-                        "flavor_text": "让火焰覆盖全身，攻击对手。积蓄力量来提高自己的速度。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６３",
-                        "method": "招式学习器",
-                        "name": "精神之牙",
-                        "flavor_text": "利用精神力量咬住对手进行攻击。还可以破坏光墙和反射壁等。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８７",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０７",
-                        "method": "招式学习器",
-                        "name": "磷火",
-                        "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０８",
-                        "method": "招式学习器",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１７",
-                        "method": "招式学习器",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１８",
-                        "method": "招式学习器",
-                        "name": "热风",
-                        "flavor_text": "将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２５",
-                        "method": "招式学习器",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４１",
-                        "method": "招式学习器",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４７",
-                        "method": "招式学习器",
-                        "name": "疯狂伏特",
-                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５７",
-                        "method": "招式学习器",
-                        "name": "过热",
-                        "flavor_text": "使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６５",
-                        "method": "招式学习器",
-                        "name": "闪焰冲锋",
-                        "flavor_text": "让火焰覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６８",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７２",
-                        "method": "招式学习器",
-                        "name": "吼叫",
-                        "flavor_text": "放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０５",
-                        "method": "招式学习器",
-                        "name": "蛮干",
-                        "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "小獅獅小狮狮",
+      "origin": "来自“小狮子”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Litleo",
+      "origin": "来自 little（小的）和拉丁文 leo（狮子）。"
+    },
+    {
+      "language": "法文",
+      "name": "Hélionceau",
+      "origin": "来自 Hélios（赫利俄斯：希腊神话中的太阳神）和 lionceau（幼狮）。"
+    },
+    {
+      "language": "德文",
+      "name": "Leufeo",
+      "origin": "来自 Leu（狮子的古称）、Feuer（火）和拉丁文 leo（狮子）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Litleo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Litleo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "레오꼬 Leokko",
+      "origin": "来自拉丁文 leo（狮子）和“꼬마”（小孩）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "小狮狮",
+      "types": [
+        "火",
+        "一般"
+      ],
+      "category": "幼狮宝可梦",
+      "abilities": [
         {
-            "name": "小狮狮",
-            "image": "0667-小狮狮.png",
-            "shiny": "0667-小狮狮-shiny.png"
+          "name": "斗争心",
+          "is_hidden": false
+        },
+        {
+          "name": "紧张感",
+          "is_hidden": false
+        },
+        {
+          "name": "自信过度",
+          "is_hidden": true
         }
+      ],
+      "height": "0.6m",
+      "weight": "13.5kg",
+      "color": "褐色",
+      "catch_rate": "220（28.8%）",
+      "egg_groups": [
+        "陆上群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 12.5,
+        "female": 87.5
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "FUnknown.png",
+      "image": "667Litleo.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "62",
+        "attack": "50",
+        "defense": "58",
+        "sp_attack": "73",
+        "sp_defense": "54",
+        "speed": "72"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "2"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "面对的对手越强大，鬃毛的温度就变得越高，全身都充满了力量。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "为了变强而开始离开群体，独自生活。血气旺盛，很冲动。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "面对的对手越强大，鬃毛的温度就变得越高，全身都充满了力量。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "为了变强而开始离开群体，独自生活。血气旺盛，很冲动。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "年幼时会由雌性的火炎狮来教导它如何狩猎，等到长大后就会离群索居。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "小狮狮会通过与强敌战斗来锻炼身心。越多的锻炼能使它鬃毛的温度变得越高。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "为了变强而开始离开群体，独自生活。血气旺盛，很冲动。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "小狮狮",
+        "stage": "未进化",
+        "text": null,
+        "image": "667Litleo_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "火炎狮",
+        "stage": "1阶进化",
+        "text": "等级35以上",
+        "image": "668Pyroar_Dream.png",
+        "back_text": "",
+        "from": "小狮狮",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "5",
+      "name": "火花",
+      "type": "火",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "8",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "11",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "15",
+      "name": "战吼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "20",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "23",
+      "name": "火焰牙",
+      "type": "火",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "28",
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "33",
+      "name": "回声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "36",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "39",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "43",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "46",
+      "name": "烧净",
+      "type": "火",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "50",
+      "name": "过热",
+      "type": "火",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００５",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００８",
+      "name": "火焰牙",
+      "type": "火",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器００９",
+      "name": "雷电牙",
+      "type": "电",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０１４",
+      "name": "杂技",
+      "type": "飞行",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２０",
+      "name": "起草",
+      "type": "草",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２４",
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２８",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３０",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３８",
+      "name": "蓄能焰袭",
+      "type": "火",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６３",
+      "name": "精神之牙",
+      "type": "超能力",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０７",
+      "name": "磷火",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０８",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１７",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１８",
+      "name": "热风",
+      "type": "火",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１４１",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４７",
+      "name": "疯狂伏特",
+      "type": "电",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１５７",
+      "name": "过热",
+      "type": "火",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６５",
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７２",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０５",
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0037",
+          "name": "六尾"
+        },
+        {
+          "id": "0136",
+          "name": "火伊布"
+        },
+        {
+          "id": "0390",
+          "name": "小火焰猴"
+        },
+        {
+          "id": "0391",
+          "name": "猛火猴"
+        },
+        {
+          "id": "0392",
+          "name": "烈焰猴"
+        },
+        {
+          "id": "0653",
+          "name": "火狐狸"
+        },
+        {
+          "id": "0654",
+          "name": "长尾火狐"
+        },
+        {
+          "id": "0655",
+          "name": "妖火红狐"
+        }
+      ],
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "0194",
+          "name": "乌波"
+        },
+        {
+          "id": "0194P",
+          "name": "乌波"
+        },
+        {
+          "id": "0195",
+          "name": "沼王"
+        },
+        {
+          "id": "0206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "0261",
+          "name": "土狼犬"
+        },
+        {
+          "id": "0262",
+          "name": "大狼犬"
+        },
+        {
+          "id": "0287",
+          "name": "懒人獭"
+        },
+        {
+          "id": "0289",
+          "name": "请假王"
+        },
+        {
+          "id": "0323",
+          "name": "喷火驼"
+        },
+        {
+          "id": "0449",
+          "name": "沙河马"
+        },
+        {
+          "id": "0450",
+          "name": "河马兽"
+        },
+        {
+          "id": "0734",
+          "name": "猫鼬少"
+        },
+        {
+          "id": "0735",
+          "name": "猫鼬探长"
+        },
+        {
+          "id": "0775",
+          "name": "树枕尾熊"
+        },
+        {
+          "id": "0909",
+          "name": "呆火鳄"
+        },
+        {
+          "id": "0910",
+          "name": "炙烫鳄"
+        },
+        {
+          "id": "0915",
+          "name": "爱吃豚"
+        },
+        {
+          "id": "0916",
+          "name": "飘香豚"
+        },
+        {
+          "id": "0980",
+          "name": "土王"
+        },
+        {
+          "id": "0982",
+          "name": "土龙节节"
+        }
+      ],
+      "name": "哈欠",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0058",
+          "name": "卡蒂狗"
+        },
+        {
+          "id": "0058H",
+          "name": "卡蒂狗"
+        },
+        {
+          "id": "0059",
+          "name": "风速狗"
+        },
+        {
+          "id": "0059H",
+          "name": "风速狗"
+        },
+        {
+          "id": "0136",
+          "name": "火伊布"
+        },
+        {
+          "id": "0255",
+          "name": "火稚鸡"
+        },
+        {
+          "id": "0256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "0257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "0391",
+          "name": "猛火猴"
+        },
+        {
+          "id": "0392",
+          "name": "烈焰猴"
+        },
+        {
+          "id": "0498",
+          "name": "暖暖猪"
+        },
+        {
+          "id": "0499",
+          "name": "炒炒猪"
+        },
+        {
+          "id": "0500",
+          "name": "炎武王"
+        },
+        {
+          "id": "0725",
+          "name": "火斑喵"
+        },
+        {
+          "id": "0726",
+          "name": "炎热喵"
+        },
+        {
+          "id": "0727",
+          "name": "炽焰咆哮虎"
+        }
+      ],
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "0702",
+          "name": "咚咚鼠"
+        },
+        {
+          "id": "0921",
+          "name": "布拨"
+        },
+        {
+          "id": "0922",
+          "name": "布土拨"
+        },
+        {
+          "id": "0923",
+          "name": "巴布土拨"
+        }
+      ],
+      "name": "找伙伴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "小狮狮",
+      "image": "0667-小狮狮.png",
+      "shiny": "0667-小狮狮-shiny.png"
+    }
+  ]
 }

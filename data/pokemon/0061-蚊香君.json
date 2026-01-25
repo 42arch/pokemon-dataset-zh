@@ -1,1044 +1,1310 @@
 {
-    "name": "蚊香君",
-    "index": "0061",
-    "name_en": "Poliwhirl",
-    "name_jp": "ニョロゾ",
-    "profile": "蚊香君的皮肤为蓝色，身体表面一直覆盖有一层黏黏的湿湿的液体。它拥有从头顶突出的球形的眼睛，两眼中间有细小的鼻孔。它白色的肚子上有黑色的逆时针螺纹。两只手看上去如同戴了白色的连指手套。它的脚是圆形的，没有脚趾。　\n蚊香君不管是陆地还是水中都能生活，在地上时会一直通过出汗来使皮肤保持黏滑。即使被敌人捉住，也能哧溜一下滑走逃脱。它的两条腿很发达，擅长行走。它虽然已经能在陆地上生活，但因为天敌的宝可梦较少，还是更喜欢栖息在有大量鱼宝可梦可捕食的水中。它在陆地上四处游走，会搜寻虫宝可梦作为猎物，回到安全的水中食用。它皮肤干燥就会失去活力，所以经常给它补充水分吧。它全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。腹部的漩涡有着微妙的弯曲，一直盯着的话就会慢慢睡着。据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。它也会利用这花纹来代替摇篮曲去哄孩子睡觉。\n",
-    "forms": [
-        {
-            "name": "蚊香君",
-            "index": "0061",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0061-蚊香君.png",
-            "types": [
-                "水"
-            ],
-            "genus": "蝌蚪宝可梦",
-            "ability": [
-                {
-                    "name": "储水",
-                    "is_hidden": false
-                },
-                {
-                    "name": "湿气",
-                    "is_hidden": false
-                },
-                {
-                    "name": "悠游自如",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "1.0m",
-            "weight": "20.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "人形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "120",
-                "rate": "15.7%"
-            },
-            "egg_groups": [
-                "水中1"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "65",
-                "attack": "65",
-                "defense": "65",
-                "sp_attack": "50",
-                "sp_defense": "50",
-                "speed": "90"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "不管是陆地还是水中都能生活。在地上时会一直通过出汗来使皮肤保持黏滑。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "腹部的漩涡有着微妙的弯曲，一直盯着的话就会慢慢睡着。*"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "虽然擅长行走，但因为在水中不易被袭击而喜欢在水中生活。*"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "不管是陆地还是水中都能生活。在地上时会一直通过出汗来使皮肤保持黏滑。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "腹部的漩涡有着微妙的弯曲，一直盯着的话就会慢慢睡着。*"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "不管是陆地还是水中都能生活。在地上时会一直通过出汗来使皮肤保持黏滑。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "太阳",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "即使在陆地上也能正常生活，但因为天敌的宝可梦较少，所以更喜欢在水中生活。"
-                },
-                {
-                    "name": "月亮",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "在陆地上四处游走，搜寻猎物——虫宝可梦。回到安全的水中食用。"
-                },
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "虽然已经能在陆地上生活，但还是栖息在有大量鱼宝可梦可捕食的水中。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "皮肤干燥就会失去活力，所以经常给它补充水分吧。"
-                },
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "如果一直盯着它腹部的旋涡看，就会变得很困。它会利用这花纹来代替摇篮曲去哄孩子睡觉。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "流出的汗是黏滑的粘液状。即使被敌人捉住，也能哧溜一下滑走逃脱。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "蚊香蝌蚪",
-                "stage": "未进化",
-                "text": null,
-                "image": "060Poliwag_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "蚊香君",
-                "stage": "1阶进化",
-                "text": "等级25以上",
-                "image": "061Poliwhirl_Dream.png",
-                "back_text": "",
-                "from": "蚊香蝌蚪",
-                "form_name": null
-            },
-            {
-                "name": "蚊香泳士",
-                "stage": "2阶进化",
-                "text": "使用水之石",
-                "image": "062Poliwrath_Dream.png",
-                "back_text": "",
-                "from": "蚊香君",
-                "form_name": null
-            },
-            {
-                "name": "蚊香蛙皇",
-                "stage": "2阶进化",
-                "text": "携带王者之证连接交换",
-                "image": "186Politoed_Dream.png",
-                "back_text": "",
-                "from": "蚊香君",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "蚊香君",
-        "zh_hant": "蚊香君",
-        "en": "Poliwhirl",
-        "fr": "Poliwhirl",
-        "de": "Quaputzi",
-        "it": "Poliwhirl",
-        "es": "Poliwhirl",
-        "ja": "ニョロゾ",
-        "ko": "슈륙챙이"
+  "name_zh": "蚊香君",
+  "name_ja": "ニョロゾ",
+  "name_en": "Poliwhirl",
+  "pokedex_id": "0061",
+  "description": "蚊香君（日文︰ニョロゾ，英文︰Poliwhirl）是水属性宝可梦。",
+  "profile": "蚊香君的皮肤为蓝色，身体表面一直覆盖有一层黏黏的湿湿的液体。它拥有从头顶突出的球形的眼睛，两眼中间有细小的鼻孔。它白色的肚子上有黑色的逆时针螺纹。两只手看上去如同戴了白色的连指手套。它的脚是圆形的，没有脚趾。\n蚊香君不管是陆地还是水中都能生活，在地上时会一直通过出汗来使皮肤保持黏滑。即使被敌人捉住，也能哧溜一下滑走逃脱。它的两条腿很发达，擅长行走。它虽然已经能在陆地上生活，但因为天敌的宝可梦较少，还是更喜欢栖息在有大量鱼宝可梦可捕食的水中。它在陆地上四处游走，会搜寻虫宝可梦作为猎物，回到安全的水中食用。它皮肤干燥就会失去活力，所以经常给它补充水分吧。它全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。腹部的漩涡有着微妙的弯曲，一直盯着的话就会慢慢睡着。据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。它也会利用这花纹来代替摇篮曲去哄孩子睡觉。",
+  "prototype": "蚊香君的原型为蝌蚪及刚完成变态发育的蛙类。\n现实中的蛙类在尾巴消失后就已经完成了变态的过程，而蚊香君没有尾巴却依然属于蝌蚪宝可梦。",
+  "detail": "跟蚊香蝌蚪不同，蚊香君肚子上的螺旋是逆时针内旋的。\n但是《蓝》里的蚊香君却是顺时针。\n田尻智最喜欢的宝可梦是蚊香蝌蚪、蚊香君和蚊香泳士，蝌蚪在被捡起来观察的时候可以看到内部的器官，进而有了蚊香君腹部的花纹代表其肠道的创作灵感。\n在第一世代和第二世代游戏中，以及一些早期的卡牌绘图（如小霞的蚊香君），蚊香君手上是白色的四指手套。而之后的游戏中，形象转变为类似拳击手套的联指手套。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步蚊香君（Pokémon GO）。\n←\nNo.0060：蚊香蝌蚪\n宝可梦\nNo.0062：蚊香泳士\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ニョロゾ Nyorozo",
+      "origin": "来自“ニョロニョロ”（蜿蜒状）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "拍击",
-                        "flavor_text": "使用长长的尾巴或手等拍打对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "催眠术",
-                        "flavor_text": "施以诱导睡意的暗示，让对手陷入睡眠状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "60",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "18",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泡沫光线",
-                        "flavor_text": "向对手猛烈地喷射泡沫进行攻击。有时会降低对手的速度。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "56",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "腹鼓",
-                        "flavor_text": "将自己的ＨＰ减少到最大ＨＰ的一半，从而最大限度提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "66",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００５",
-                        "method": "招式学习器",
-                        "name": "掷泥",
-                        "flavor_text": "向对手的脸等投掷泥块进行攻击。会降低对手的命中率。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１２",
-                        "method": "招式学习器",
-                        "name": "踢倒",
-                        "flavor_text": "用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２８",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３５",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３９",
-                        "method": "招式学习器",
-                        "name": "下盘踢",
-                        "flavor_text": "以敏捷的动作瞄准对手的脚进行攻击。会降低对手的速度。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４３",
-                        "method": "招式学习器",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５８",
-                        "method": "招式学习器",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６９",
-                        "method": "招式学习器",
-                        "name": "冰冻拳",
-                        "flavor_text": "用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７７",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８０",
-                        "method": "招式学习器",
-                        "name": "挥指",
-                        "flavor_text": "挥动手指刺激自己的大脑，从许多的招式中随机使出１个。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１０",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２０",
-                        "method": "招式学习器",
-                        "name": "精神强念",
-                        "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２２",
-                        "method": "招式学习器",
-                        "name": "再来一次",
-                        "flavor_text": "让对手接受再来一次，连续３次使出最后使用的招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２８",
-                        "method": "招式学习器",
-                        "name": "瞬间失忆",
-                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３３",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４３",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４９",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７４",
-                        "method": "招式学习器",
-                        "name": "黑雾",
-                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９２",
-                        "method": "招式学习器",
-                        "name": "真气拳",
-                        "flavor_text": "集中精神出拳。在招式使出前若受到攻击则会失败。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０３",
-                        "method": "招式学习器",
-                        "name": "自我暗示",
-                        "flavor_text": "向自己施以自我暗示，将能力变化的状态变得和对手一样。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０５",
-                        "method": "招式学习器",
-                        "name": "蛮干",
-                        "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０８",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０９",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "蚊香君",
+      "origin": "来自“蚊香”和日文“～君（くん）”（对同辈或晚辈的称呼）。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "蚊香君",
+      "origin": "来自“蚊香”和日文“～君（くん）”（对同辈或晚辈的称呼）。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "蚊香蛙",
+      "origin": "来自“蚊香”和“蛙”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "蚊香蛙",
+      "origin": "来自“蚊香”和“蛙”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "蚊香君",
+      "origin": "来自“蚊香”和日文“～君（くん）”（对同辈或晚辈的称呼）。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "蚊香蛙",
+      "origin": "来自“蚊香”和“蛙”。"
+    },
+    {
+      "language": "英文",
+      "name": "Poliwhirl",
+      "origin": "来自 polliwog（蝌蚪）和 whirl（漩涡）。"
+    },
+    {
+      "language": "法文",
+      "name": "Têtarte",
+      "origin": "来自 têtard（蝌蚪）和 tarte（打击；果挞）。"
+    },
+    {
+      "language": "德文",
+      "name": "Quaputzi",
+      "origin": "来自 Kaulquappe（蝌蚪）和英文 jacuzzi（按摩浴缸）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Poliwhirl",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Poliwhirl",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "슈륙챙이 Syuryukchaengi",
+      "origin": "来自“수륙〈水陸〉”（水陆）和“올챙이”（蝌蚪）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "蚊香君",
+      "types": [
+        "水"
+      ],
+      "category": "蝌蚪宝可梦",
+      "abilities": [
         {
-            "name": "蚊香君",
-            "image": "0061-蚊香君.png",
-            "shiny": "0061-蚊香君-shiny.png"
+          "name": "储水",
+          "is_hidden": false
+        },
+        {
+          "name": "湿气",
+          "is_hidden": false
+        },
+        {
+          "name": "悠游自如",
+          "is_hidden": true
         }
+      ],
+      "height": "1.0m",
+      "weight": "20.0kg",
+      "color": "蓝色",
+      "catch_rate": "120（15.7%）",
+      "egg_groups": [
+        "水中1群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body12.png",
+      "footprint": "F061.png",
+      "image": "061Poliwhirl.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "65",
+        "attack": "65",
+        "defense": "65",
+        "sp_attack": "50",
+        "sp_defense": "50",
+        "speed": "90"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "不管是陆地还是水中都能生活。在地上时会一直通过出汗来使皮肤保持黏滑。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "腹部的漩涡有着微妙的弯曲，一直盯着的话就会慢慢睡着。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "虽然擅长行走，但因为在水中不易被袭击而喜欢在水中生活。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "不管是陆地还是水中都能生活。在地上时会一直通过出汗来使皮肤保持黏滑。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "腹部的漩涡有着微妙的弯曲，一直盯着的话就会慢慢睡着。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "不管是陆地还是水中都能生活。在地上时会一直通过出汗来使皮肤保持黏滑。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "身体表面一直覆盖有一层液体，所以黏黏的湿湿的，即使被敌人抓住，也可以哧溜一下滑走逃脱。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "即使在陆地上也能正常生活，但因为天敌的宝可梦较少，所以更喜欢在水中生活。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "在陆地上四处游走，搜寻猎物——虫宝可梦。回到安全的水中食用。"
+        },
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "据说它会在要被对手攻击时用腹部的漩涡让对方睡着，趁机逃跑。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "如果一直盯着它腹部的旋涡看，就会变得很困。它会利用这花纹来代替摇篮曲去哄孩子睡觉。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "流出的汗是黏滑的粘液状。即使被敌人捉住，也能哧溜一下滑走逃脱。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "腹部的漩涡有着微妙的弯曲，如果一直盯着看的话会昏昏欲睡。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "２条腿很发达，虽然可以在地上生活，但不知为何更喜欢生活在水里。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "全身的皮肤都是湿的，但腹部旋涡的部分摸上去感觉很光滑。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "蚊香蝌蚪",
+        "stage": "未进化",
+        "text": null,
+        "image": "060Poliwag_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "蚊香君",
+        "stage": "1阶进化",
+        "text": "等级25以上",
+        "image": "061Poliwhirl_Dream.png",
+        "back_text": "",
+        "from": "蚊香蝌蚪",
+        "form_name": null
+      },
+      {
+        "name": "蚊香泳士",
+        "stage": "2阶进化",
+        "text": "使用水之石",
+        "image": "062Poliwrath_Dream.png",
+        "back_text": "",
+        "from": "蚊香君",
+        "form_name": null
+      },
+      {
+        "name": "蚊香蛙皇",
+        "stage": "2阶进化",
+        "text": "携带王者之证连接交换",
+        "image": "186Politoed_Dream.png",
+        "back_text": "",
+        "from": "蚊香君",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "拍击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "催眠术",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "60",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "18",
+      "name": "泡沫光线",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "24",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "32",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "40",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "level": "56",
+      "name": "腹鼓",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "66",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００５",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１２",
+      "name": "踢倒",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２８",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３９",
+      "name": "下盘踢",
+      "type": "格斗",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４３",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５８",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６９",
+      "name": "冰冻拳",
+      "type": "冰",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８０",
+      "name": "挥指",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１０",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２０",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２２",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２８",
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３３",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４９",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７４",
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１９２",
+      "name": "真气拳",
+      "type": "格斗",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０３",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０５",
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０８",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０９",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "131",
+          "name": "拉普拉斯"
+        },
+        {
+          "id": "194",
+          "name": "乌波"
+        },
+        {
+          "id": "195",
+          "name": "沼王"
+        },
+        {
+          "id": "270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "393",
+          "name": "波加曼"
+        },
+        {
+          "id": "394",
+          "name": "波皇子"
+        },
+        {
+          "id": "395",
+          "name": "帝王拿波"
+        },
+        {
+          "id": "0875",
+          "name": "冰砌鹅"
+        }
+      ],
+      "name": "白雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "349",
+          "name": "丑丑鱼"
+        },
+        {
+          "id": "350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "693",
+          "name": "钢炮臂虾"
+        }
+      ],
+      "name": "跃起",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "258",
+          "name": "水跃鱼"
+        },
+        {
+          "id": "259",
+          "name": "沼跃鱼"
+        },
+        {
+          "id": "260",
+          "name": "巨沼怪"
+        },
+        {
+          "id": "341",
+          "name": "龙虾小兵"
+        },
+        {
+          "id": "342",
+          "name": "铁螯龙虾"
+        }
+      ],
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "194",
+          "name": "乌波"
+        },
+        {
+          "id": "195",
+          "name": "沼王"
+        },
+        {
+          "id": "259",
+          "name": "沼跃鱼"
+        },
+        {
+          "id": "260",
+          "name": "巨沼怪"
+        },
+        {
+          "id": "422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "693",
+          "name": "钢炮臂虾"
+        }
+      ],
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "007",
+          "name": "杰尼龟"
+        },
+        {
+          "id": "008",
+          "name": "卡咪龟"
+        },
+        {
+          "id": "009",
+          "name": "水箭龟"
+        },
+        {
+          "id": "054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "079",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "0079G",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "080",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "0080G",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "116",
+          "name": "墨海马"
+        },
+        {
+          "id": "117",
+          "name": "海刺龙"
+        },
+        {
+          "id": "131",
+          "name": "拉普拉斯"
+        },
+        {
+          "id": "199",
+          "name": "呆呆王"
+        },
+        {
+          "id": "0199G",
+          "name": "呆呆王"
+        },
+        {
+          "id": "223",
+          "name": "铁炮鱼"
+        },
+        {
+          "id": "226",
+          "name": "巨翅飞鱼"
+        },
+        {
+          "id": "230",
+          "name": "刺龙王"
+        },
+        {
+          "id": "258",
+          "name": "水跃鱼"
+        },
+        {
+          "id": "259",
+          "name": "沼跃鱼"
+        },
+        {
+          "id": "260",
+          "name": "巨沼怪"
+        },
+        {
+          "id": "278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "580",
+          "name": "鸭宝宝"
+        },
+        {
+          "id": "581",
+          "name": "舞天鹅"
+        },
+        {
+          "id": "594",
+          "name": "保姆曼波"
+        },
+        {
+          "id": "656",
+          "name": "呱呱泡蛙"
+        },
+        {
+          "id": "657",
+          "name": "呱头蛙"
+        },
+        {
+          "id": "658",
+          "name": "甲贺忍蛙"
+        },
+        {
+          "id": "690",
+          "name": "垃垃藻"
+        },
+        {
+          "id": "691",
+          "name": "毒藻龙"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "693",
+          "name": "钢炮臂虾"
+        },
+        {
+          "id": "816",
+          "name": "泪眼蜥"
+        },
+        {
+          "id": "817",
+          "name": "变涩蜥"
+        },
+        {
+          "id": "818",
+          "name": "千面避役"
+        },
+        {
+          "id": "0913",
+          "name": "涌跃鸭"
+        },
+        {
+          "id": "0914",
+          "name": "狂欢浪舞鸭"
+        }
+      ],
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "蚊香君",
+      "image": "0061-蚊香君.png",
+      "shiny": "0061-蚊香君-shiny.png"
+    }
+  ]
 }

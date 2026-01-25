@@ -1,744 +1,1462 @@
 {
-    "name": "葱游兵",
-    "index": "0865",
-    "name_en": "Sirfetch’d",
-    "name_jp": "ネギガナイト",
-    "profile": "葱游兵的外形与大葱鸭相似，但羽毛为白色，大葱鸭时期的“V”字状斑纹变得更粗大，像连在一起的眉毛。葱游兵的双手分别持有葱茎状的剑和葱叶构成的盾。它的葱既是武器也是食材。\n葱游兵是生息在伽勒尔地区的大葱鸭经历过无数战斗后进化成的宝可梦。性格沉着冷静，以堂堂正正战斗作为自身的信条。它战斗时的英姿气质非凡，甚至因此被人们选为绘画的主题。描绘了葱游兵与骑士蜗牛决斗场面的绘画在伽勒尔地区可是众人皆知的作品。它在战斗时会像挥舞长枪一般挥舞锋利的葱茎，厚厚的葱叶则被当作盾牌来使。对葱游兵来说，陪伴自己多年的大葱比什么都重要。大葱一旦枯萎，葱游兵就会离开战场，从此不再对战。\n",
-    "forms": [
-        {
-            "name": "葱游兵",
-            "index": "0865",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0865-葱游兵.png",
-            "types": [
-                "格斗"
-            ],
-            "genus": "黄嘴鸭宝可梦",
-            "ability": [
-                {
-                    "name": "不屈之心",
-                    "is_hidden": false
-                },
-                {
-                    "name": "胆量",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.8m",
-            "weight": "117.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双翅形",
-            "color": "白色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "飞行",
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "62",
-                "attack": "135",
-                "defense": "95",
-                "sp_attack": "68",
-                "sp_defense": "82",
-                "speed": "65"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "只有经历过无数战斗的大葱鸭才能进化成这个样子。当大葱枯萎了就会离开战场。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会用坚硬的葱叶抵挡攻击，接着用锋利的茎反击。它的葱既是武器也是食材。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "大葱鸭",
-                "stage": "未进化",
-                "text": null,
-                "image": "083Farfetch%27d-Galar_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": "伽勒尔的样子"
-            },
-            {
-                "name": "葱游兵",
-                "stage": "1阶进化",
-                "text": "对战中击中要害3次或以上结束对战",
-                "image": "865Sirfetch%27d_Dream.png",
-                "back_text": "",
-                "from": "大葱鸭",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "葱游兵",
-        "zh_hant": "蔥遊兵",
-        "en": "Sirfetch'd",
-        "fr": "Sirfetch'd",
-        "de": "Lauchzelot",
-        "it": "Sirfetch'd",
-        "es": "Sirfetch'd",
-        "ja": "ネギガナイト",
-        "ko": "창파나이트"
+  "name_zh": "葱游兵",
+  "name_ja": "ネギガナイト",
+  "name_en": "Sirfetch'd",
+  "pokedex_id": "0865",
+  "description": "葱游兵（日文︰ネギガナイト，英文︰Sirfetch'd）是格斗属性宝可梦。",
+  "profile": "葱游兵的外形与大葱鸭相似，但羽毛为白色，大葱鸭时期的“V”字状斑纹变得更粗大，像连在一起的眉毛。葱游兵的双手分别持有葱茎状的剑和葱叶构成的盾。它的葱既是武器也是食材。\n葱游兵是生息在伽勒尔地区的大葱鸭经历过无数战斗后进化成的宝可梦。它的性格沉着冷静，以堂堂正正战斗作为自身的信条，以华丽的葱术在战场上立功。它战斗时的英姿气质非凡，甚至因此被人们选为绘画的主题。描绘了葱游兵与骑士蜗牛决斗场面的绘画在伽勒尔地区可是众人皆知的作品。它在战斗时会像挥舞长枪一般挥舞锋利的葱茎，厚厚的葱叶则被当作盾牌来使。对葱游兵来说，倾注心血培育的陪伴自己多年的大葱比什么都重要。大葱一旦枯萎，葱游兵就会离开战场，从此不再对战。[1]",
+  "prototype": "葱游兵的形象来自于鸭子、韭葱和骑士的组合。在伽勒尔地区的取景地英国，韭葱被视为威尔士的国家级植物。\n葱游兵格斗属性的设计可能来自欧洲的剑术。\n它的设计概念可能来源于圆桌骑士团中的成员之一——兰斯洛特，而威尔士也有名为兰斯洛特的韭葱品种。\n官网介绍的葱游兵和骑士蜗牛的对战可能来源于中世纪抄本绘图中骑士和蜗牛对决的场面。\n葱游兵相对于进化前的大葱鸭体色有巨大的变化，这点可能参考了家鸭生长过程中的换羽现象，例如樱桃谷鸭的雏鸟呈棕黄色，成鸟为白羽鸭。",
+  "detail": "葱游兵初次于2019年9月13日公开，但部分信息因洛托姆恶作剧而被模糊化且反转表示。2019年9月17日发布的新信息称该现象为页面错误，预定修复时间为2019年9月18日21:00（UTC+8），此外信息称此次事件对官网其他页面没有造成任何影响。\n野生的大葱鸭（伽勒尔的样子）在对战中击中要害3次或以上并被训练家捕捉后或逃离战斗后，不会因这场战斗而进化。\n《剑／盾》中，由于机擎竞技场的道馆任务对战胜利不会提供经验值，故可以通过正常流程得到1级葱游兵。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ネギガナイト Negigaknight",
+      "origin": "来自“葱（ねぎ）”（葱）、英文前缀 giga-（十亿）和英文 knight（骑士），谐音“葱が無いと”（没有葱可不行）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "连斩",
-                        "flavor_text": "用镰刀或爪子等切斩对手进行攻击。连续击中，威力就会提高。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "95",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "啄",
-                        "flavor_text": "用尖锐的喙或角刺向对手进行攻击。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "35",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞪眼",
-                        "flavor_text": "用犀利的眼神使其害怕，从而降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "迎头一击",
-                        "flavor_text": "威力很高的招式，但只有在出场战斗时，立刻使出才能成功。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泼沙",
-                        "flavor_text": "向对手脸上泼沙子，从而降低命中率。",
-                        "type": "地面",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "碎岩",
-                        "flavor_text": "用拳头进行攻击。有时会降低对手的防御。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "狂舞挥打",
-                        "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "看穿",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "格斗",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "清除浓雾",
-                        "flavor_text": "用强风吹开对手的反射壁或光墙等。也会降低对手的闪避率。",
-                        "type": "飞行",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摔打",
-                        "flavor_text": "使用长长的尾巴或藤蔓等摔打对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "75",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "55",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叶刃",
-                        "flavor_text": "像用剑一般操纵叶片切斩对手进行攻击。容易击中要害。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "60",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "搏命",
-                        "flavor_text": "拼命攻击对手。虽然自己陷入昏厥，但会给予对手和自己目前ＨＰ等量的伤害。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "65",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "勇鸟猛攻",
-                        "flavor_text": "收拢翅膀，通过低空飞行突击对手。自己也会受到不小的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "70",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "流星突击",
-                        "flavor_text": "大力挥舞粗壮的茎进行攻击。但同时自己也会被晃晕，下一回合自己将无法动弹。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "100",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２",
-                        "method": "招式学习器",
-                        "name": "日光刃",
-                        "flavor_text": "第１回合收集满满的日光，第２回合将此力量集中在剑上进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "125",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３０",
-                        "method": "招式学习器",
-                        "name": "钢翼",
-                        "flavor_text": "用坚硬的翅膀敲打对手进行攻击。有时会提高自己的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "90",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４１",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４２",
-                        "method": "招式学习器",
-                        "name": "报复",
-                        "flavor_text": "如果受到对手的招式攻击，就能给予对手２倍的伤害。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４３",
-                        "method": "招式学习器",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５８",
-                        "method": "招式学习器",
-                        "name": "恶意追击",
-                        "flavor_text": "如果此回合内对手已经受到伤害的话，招式威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７９",
-                        "method": "招式学习器",
-                        "name": "报仇",
-                        "flavor_text": "为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会提高。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９７",
-                        "method": "招式学习器",
-                        "name": "狂舞挥打",
-                        "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录００",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１３",
-                        "method": "招式学习器",
-                        "name": "聚气",
-                        "flavor_text": "深深地吸口气，集中精神。自己的攻击会变得容易击中要害。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３９",
-                        "method": "招式学习器",
-                        "name": "蛮力",
-                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４６",
-                        "method": "招式学习器",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５０",
-                        "method": "招式学习器",
-                        "name": "叶刃",
-                        "flavor_text": "像用剑一般操纵叶片切斩对手进行攻击。容易击中要害。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５３",
-                        "method": "招式学习器",
-                        "name": "近身战",
-                        "flavor_text": "放弃守护，向对手的怀里突击。自己的防御和特防会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５７",
-                        "method": "招式学习器",
-                        "name": "毒击",
-                        "flavor_text": "用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６６",
-                        "method": "招式学习器",
-                        "name": "勇鸟猛攻",
-                        "flavor_text": "收拢翅膀，通过低空飞行突击对手。自己也会受到不小的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录８５",
-                        "method": "招式学习器",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录９５",
-                        "method": "招式学习器",
-                        "name": "深渊突刺",
-                        "flavor_text": "受到此招式攻击的对手，会因为地狱般的痛苦，在２回合内，变得无法使出声音类招式。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "蔥遊兵葱游兵",
+      "origin": "来自“葱”和“游兵”，谐音“葱油饼”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Sirfetch'd",
+      "origin": "来自 sir（爵士：对骑士的敬称）和 Farfetch'd（大葱鸭）。"
+    },
+    {
+      "language": "法文",
+      "name": "Palarticho",
+      "origin": "来自 paladin（圣骑士）和 artichaut（菜蓟），谐音 pas l'artichaut（不是菜蓟）。"
+    },
+    {
+      "language": "德文",
+      "name": "Lauchzelot",
+      "origin": "来自 Lauch（韭葱）和 Lanzelot（兰斯洛特：亚瑟王传说中的骑士）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Sirfetch'd",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Sirfetch'd",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "창파나이트 Changpanaiteu",
+      "origin": "来自“창〈槍〉”（枪）、“파”（葱）和英文 knight（骑士）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "葱游兵",
+      "types": [
+        "格斗"
+      ],
+      "category": "黄嘴鸭宝可梦",
+      "abilities": [
         {
-            "name": "葱游兵",
-            "image": "0865-葱游兵.png",
-            "shiny": "0865-葱游兵-shiny.png"
+          "name": "不屈之心",
+          "is_hidden": false
+        },
+        {
+          "name": "胆量",
+          "is_hidden": true
         }
+      ],
+      "height": "0.8m",
+      "weight": "117.0kg",
+      "color": "白色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "飞行",
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body09.png",
+      "footprint": "FUnknown.png",
+      "image": "865Sirfetch%27d.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "62",
+        "attack": "135",
+        "defense": "95",
+        "sp_attack": "68",
+        "sp_defense": "82",
+        "speed": "65"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "0.5"
+    },
+    {
+      "type": "妖精",
+      "damage": "2"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "只有经历过无数战斗的大葱鸭才能进化成这个样子。当大葱枯萎了就会离开战场。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "会用坚硬的葱叶抵挡攻击，接着用锋利的茎反击。它的葱既是武器也是食材。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "对于葱游兵来说，倾注心血培育的葱比任何事物都重要。以华丽的葱术在战场上立功。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "大葱鸭",
+        "stage": "未进化",
+        "text": null,
+        "image": "083Farfetch%27d-Galar_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "伽勒尔的样子"
+      },
+      {
+        "name": "葱游兵",
+        "stage": "1阶进化",
+        "text": "对战中击中要害3次或以上结束对战",
+        "image": "865Sirfetch%27d_Dream.png",
+        "back_text": "",
+        "from": "大葱鸭",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "连斩",
+      "type": "虫",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "95",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "啄",
+      "type": "飞行",
+      "category": "物理",
+      "power": "35",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "迎头一击",
+      "type": "虫",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "泼沙",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "15",
+      "name": "碎岩",
+      "type": "格斗",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "20",
+      "name": "狂舞挥打",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "25",
+      "name": "看穿",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "30",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "35",
+      "name": "清除浓雾",
+      "type": "飞行",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "40",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "45",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "50",
+      "name": "摔打",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "75",
+      "pp": "20"
+    },
+    {
+      "level": "55",
+      "name": "叶刃",
+      "type": "草",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "60",
+      "name": "搏命",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "65",
+      "name": "勇鸟猛攻",
+      "type": "飞行",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "70",
+      "name": "流星突击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器１２",
+      "name": "日光刃",
+      "type": "草",
+      "category": "物理",
+      "power": "125",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３０",
+      "name": "钢翼",
+      "type": "钢",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "90",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４１",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "报复",
+      "type": "格斗",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４３",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５８",
+      "name": "恶意追击",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器７９",
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器９７",
+      "name": "狂舞挥打",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录００",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录０１",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录１３",
+      "name": "聚气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录３９",
+      "name": "蛮力",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录４６",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录５０",
+      "name": "叶刃",
+      "type": "草",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录５３",
+      "name": "近身战",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录５７",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录６６",
+      "name": "勇鸟猛攻",
+      "type": "飞行",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录８５",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式记录９５",
+      "name": "深渊突刺",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "263G",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "264G",
+          "name": "直冲熊"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "745D",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "745Mn",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "749",
+          "name": "泥驴仔"
+        },
+        {
+          "id": "750",
+          "name": "重泥挽马"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        },
+        {
+          "id": "819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": null,
+          "name": "堵拦熊"
+        }
+      ],
+      "name": "双倍奉还",
+      "type": "格斗",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "025",
+          "name": "皮卡丘"
+        },
+        {
+          "id": "026",
+          "name": "雷丘"
+        },
+        {
+          "id": "026A",
+          "name": "雷丘"
+        },
+        {
+          "id": "037",
+          "name": "六尾"
+        },
+        {
+          "id": "038",
+          "name": "九尾"
+        },
+        {
+          "id": "078",
+          "name": "烈焰马"
+        },
+        {
+          "id": "078G",
+          "name": "烈焰马"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "215",
+          "name": "狃拉"
+        },
+        {
+          "id": "255",
+          "name": "火稚鸡"
+        },
+        {
+          "id": "256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "309",
+          "name": "落雷兽"
+        },
+        {
+          "id": "310",
+          "name": "雷电兽"
+        },
+        {
+          "id": "359",
+          "name": "阿勃梭鲁"
+        },
+        {
+          "id": "427",
+          "name": "卷卷耳"
+        },
+        {
+          "id": "428",
+          "name": "长耳兔"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "519",
+          "name": "豆豆鸽"
+        },
+        {
+          "id": "520",
+          "name": "咕咕鸽"
+        },
+        {
+          "id": "521",
+          "name": "高傲雉鸡"
+        },
+        {
+          "id": "566",
+          "name": "始祖小鸟"
+        },
+        {
+          "id": "567",
+          "name": "始祖大鸟"
+        },
+        {
+          "id": "587",
+          "name": "电飞鼠"
+        },
+        {
+          "id": "659",
+          "name": "掘掘兔"
+        },
+        {
+          "id": "660",
+          "name": "掘地兔"
+        },
+        {
+          "id": "661",
+          "name": "小箭雀"
+        },
+        {
+          "id": "662",
+          "name": "火箭雀"
+        },
+        {
+          "id": "663",
+          "name": "烈箭鹰"
+        },
+        {
+          "id": "700",
+          "name": "仙子伊布"
+        },
+        {
+          "id": "745",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "745D",
+          "name": "鬃岩狼人"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        },
+        {
+          "id": "827",
+          "name": "狡小狐"
+        },
+        {
+          "id": "828",
+          "name": "猾大狐"
+        },
+        {
+          "id": "877",
+          "name": "莫鲁贝可"
+        }
+      ],
+      "name": "电光一闪",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "220",
+          "name": "小山猪"
+        },
+        {
+          "id": "221",
+          "name": "长毛猪"
+        },
+        {
+          "id": "263",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "264",
+          "name": "直冲熊"
+        },
+        {
+          "id": "473",
+          "name": "象牙猪"
+        },
+        {
+          "id": "613",
+          "name": "喷嚏熊"
+        },
+        {
+          "id": "614",
+          "name": "冻原熊"
+        },
+        {
+          "id": "659",
+          "name": "掘掘兔"
+        },
+        {
+          "id": "660",
+          "name": "掘地兔"
+        },
+        {
+          "id": "661",
+          "name": "小箭雀"
+        },
+        {
+          "id": "662",
+          "name": "火箭雀"
+        },
+        {
+          "id": "663",
+          "name": "烈箭鹰"
+        },
+        {
+          "id": "759",
+          "name": "童偶熊"
+        },
+        {
+          "id": "760",
+          "name": "穿着熊"
+        }
+      ],
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "041",
+          "name": "超音蝠"
+        },
+        {
+          "id": "042",
+          "name": "大嘴蝠"
+        },
+        {
+          "id": "169",
+          "name": "叉字蝠"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "566",
+          "name": "始祖小鸟"
+        },
+        {
+          "id": "567",
+          "name": "始祖大鸟"
+        },
+        {
+          "id": "619",
+          "name": "功夫鼬"
+        },
+        {
+          "id": "620",
+          "name": "师父鼬"
+        },
+        {
+          "id": "678",
+          "name": "超能妙喵"
+        },
+        {
+          "id": null,
+          "name": "鬃岩狼人"
+        }
+      ],
+      "name": "快速防守",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "煤炭龟"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "263",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "264",
+          "name": "直冲熊"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "677",
+          "name": "妙喵"
+        },
+        {
+          "id": "678",
+          "name": "超能妙喵"
+        },
+        {
+          "id": null,
+          "name": "仙子伊布"
+        },
+        {
+          "id": null,
+          "name": "藏饱栗鼠"
+        }
+      ],
+      "name": "渴望",
+      "type": "一般",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "parents": [
+        {
+          "id": "051",
+          "name": "三地鼠"
+        },
+        {
+          "id": "051A",
+          "name": "三地鼠"
+        },
+        {
+          "id": "052A",
+          "name": "喵喵"
+        },
+        {
+          "id": "053A",
+          "name": "猫老大"
+        },
+        {
+          "id": "264G",
+          "name": "直冲熊"
+        },
+        {
+          "id": "359",
+          "name": "阿勃梭鲁"
+        },
+        {
+          "id": "434",
+          "name": "臭鼬噗"
+        },
+        {
+          "id": "435",
+          "name": "坦克臭鼬"
+        },
+        {
+          "id": "461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "509",
+          "name": "扒手猫"
+        },
+        {
+          "id": "510",
+          "name": "酷豹"
+        },
+        {
+          "id": "571",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "675",
+          "name": "霸道熊猫"
+        },
+        {
+          "id": "827",
+          "name": "狡小狐"
+        },
+        {
+          "id": "828",
+          "name": "猾大狐"
+        },
+        {
+          "id": null,
+          "name": "堵拦熊"
+        }
+      ],
+      "name": "暗袭要害",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "滚滚蝙蝠"
+        },
+        {
+          "id": null,
+          "name": "心蝙蝠"
+        }
+      ],
+      "name": "单纯光束",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "128",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "176",
+          "name": "波克基古"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "263",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "263G",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "264",
+          "name": "直冲熊"
+        },
+        {
+          "id": "264G",
+          "name": "直冲熊"
+        },
+        {
+          "id": "449",
+          "name": "沙河马"
+        },
+        {
+          "id": "450",
+          "name": "河马兽"
+        },
+        {
+          "id": "468",
+          "name": "波克基斯"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "700",
+          "name": "仙子伊布"
+        },
+        {
+          "id": "759",
+          "name": "童偶熊"
+        },
+        {
+          "id": "760",
+          "name": "穿着熊"
+        },
+        {
+          "id": "766",
+          "name": "投掷猴"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        },
+        {
+          "id": "831",
+          "name": "毛辫羊"
+        },
+        {
+          "id": "832",
+          "name": "毛毛角羊"
+        },
+        {
+          "id": null,
+          "name": "堵拦熊"
+        }
+      ],
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "025",
+          "name": "皮卡丘"
+        },
+        {
+          "id": "026",
+          "name": "雷丘"
+        },
+        {
+          "id": "026A",
+          "name": "雷丘"
+        },
+        {
+          "id": "052",
+          "name": "喵喵"
+        },
+        {
+          "id": "052A",
+          "name": "喵喵"
+        },
+        {
+          "id": "053",
+          "name": "猫老大"
+        },
+        {
+          "id": "053A",
+          "name": "猫老大"
+        },
+        {
+          "id": "434",
+          "name": "臭鼬噗"
+        },
+        {
+          "id": "435",
+          "name": "坦克臭鼬"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "662",
+          "name": "火箭雀"
+        },
+        {
+          "id": "663",
+          "name": "烈箭鹰"
+        },
+        {
+          "id": null,
+          "name": "闪焰王牌"
+        }
+      ],
+      "name": "佯攻",
+      "type": "一般",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "164",
+          "name": "猫头夜鹰"
+        },
+        {
+          "id": "334",
+          "name": "七夕青鸟"
+        },
+        {
+          "id": "468",
+          "name": "波克基斯"
+        },
+        {
+          "id": "519",
+          "name": "豆豆鸽"
+        },
+        {
+          "id": "520",
+          "name": "咕咕鸽"
+        },
+        {
+          "id": "521",
+          "name": "高傲雉鸡"
+        },
+        {
+          "id": "561",
+          "name": "象征鸟"
+        },
+        {
+          "id": "628",
+          "name": "勇士雄鹰"
+        },
+        {
+          "id": "701",
+          "name": "摔角鹰人"
+        }
+      ],
+      "name": "神鸟猛击",
+      "type": "飞行",
+      "category": "物理",
+      "power": "140",
+      "accuracy": "90",
+      "pp": "5"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "葱游兵",
+      "image": "0865-葱游兵.png",
+      "shiny": "0865-葱游兵-shiny.png"
+    }
+  ]
 }

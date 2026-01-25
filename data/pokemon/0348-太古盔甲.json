@@ -1,919 +1,1010 @@
 {
-    "name": "太古盔甲",
-    "index": "0348",
-    "name_en": "Armaldo",
-    "name_jp": "アーマルド",
-    "profile": "太古盔甲是一只蓝色的甲壳宝可梦，全身被坚固的铠甲所覆盖，十分结实。它下颚、翅膀边缘和腹部有黄色花纹。它的脑袋中央、前肢末端、膝盖、翅膀和尾巴上的鳍状物都是黑色的，头上的黑色斑块上还有两块红色斑点，薄薄的眼睛在脑袋两边。太古盔甲的脖子两边各有三片白色配红色的羽状物，它的背后有一块带刺的甲壳，压着两片巨大的翅膀。\n太古盔甲是很久以前就灭绝了的某种宝可梦。据了解，它是一部分虫宝可梦的祖先。它从海里变成了在陆地生活，据说为了能在地上更便利地生活，变成了用双脚走路。虽然太古盔甲平常都住在地底下，不过在捕捉猎物的时候就会潜入海中，利用两片巨大的翅膀来游泳。它身上的甲壳能反弹一切攻击，下半身得到了强化，尾巴的攻击破坏力极强。锐利的爪子是它最大的武器，两只能伸缩的巨爪有着连铁板都能刺穿的威力。它会用锋利的爪子刺穿猎物，然后将其吃掉。\n",
-    "forms": [
-        {
-            "name": "太古盔甲",
-            "index": "0348",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0348-太古盔甲.png",
-            "types": [
-                "岩石",
-                "虫"
-            ],
-            "genus": "甲胄宝可梦",
-            "ability": [
-                {
-                    "name": "战斗盔甲",
-                    "is_hidden": false
-                },
-                {
-                    "name": "悠游自如",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "600,000",
-                "speed": "最快"
-            },
-            "height": "1.5m",
-            "weight": "68.2kg",
-            "gender_rate": {
-                "male": "87.5%",
-                "female": "12.5%"
-            },
-            "shape": "双足兽形",
-            "color": "灰色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "水中3"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "75",
-                "attack": "125",
-                "defense": "100",
-                "sp_attack": "70",
-                "sp_defense": "80",
-                "speed": "45"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "身上的甲壳能反弹一切攻击。２只能伸缩的巨爪有着连铁板都能刺穿的威力。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "很久以前就灭绝了的某种宝可梦。据说为了能在地上更便利地生活，变成了用双脚走路。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "虽然太古盔甲平常都住在地底下，不过在捕捉猎物的时候就会潜入海中，利用两片巨大的翅膀来游泳。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "覆盖有甲壳的身体十分结实。会用锋利的爪子刺穿猎物，然后将其吃掉。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "覆盖有甲壳的身体十分结实。会用锋利的爪子刺穿猎物，然后将其吃掉。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "会用能伸缩的巨大爪子刺穿并捕捉猎物。身披坚固的铠甲。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "会用能伸缩的巨大爪子刺穿并捕捉猎物。身披坚固的铠甲。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "会用能伸缩的巨大爪子刺穿并捕捉猎物。身披坚固的铠甲。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "覆盖有甲壳的身体十分结实。会用锋利的爪子刺穿猎物，然后将其吃掉。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "身上的甲壳能反弹一切攻击。２只能伸缩的巨爪有着连铁板都能刺穿的威力。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "很久以前就灭绝了的某种宝可梦。据说为了能在地上更便利地生活，变成了用双脚走路。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "生活在陆地上，曾为了寻找猎物而出发去海里狩猎。锐利的爪子是它最大的武器。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "从海里变成了在陆地生活。据了解，是一部分虫宝可梦的祖先。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "进化之后登上了陆地。下半身得到了强化，尾巴的攻击破坏力极强。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "栖息在陆地，但也擅长游泳。会潜入大海寻找猎物，用锋利的爪子给予致命一击。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "太古羽虫",
-                "stage": "未进化",
-                "text": null,
-                "image": "347Anorith_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "太古盔甲",
-                "stage": "1阶进化",
-                "text": "等级40以上",
-                "image": "348Armaldo_Dream.png",
-                "back_text": "",
-                "from": "太古羽虫",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "太古盔甲",
-        "en": "Armaldo",
-        "fr": "Armaldo",
-        "zh_hant": "太古盔甲",
-        "de": "Armaldo",
-        "it": "Armaldo",
-        "es": "Armaldo",
-        "ja": "アーマルド",
-        "ko": "아말도"
+  "name_zh": "太古盔甲",
+  "name_ja": "アーマルド",
+  "name_en": "Armaldo",
+  "pokedex_id": "0348",
+  "description": "太古盔甲（日文︰アーマルド，英文︰Armaldo）是岩石属性／虫属性宝可梦。",
+  "profile": "太古盔甲是一只蓝色的甲壳宝可梦，全身被坚固的铠甲所覆盖，十分结实。它下颚、翅膀边缘和腹部有黄色花纹。它的脑袋中央、前肢末端、膝盖、翅膀和尾巴上的鳍状物都是黑色的，头上的黑色斑块上还有两块红色斑点，薄薄的眼睛在脑袋两边。太古盔甲的脖子两边各有三片白色配红色的羽状物，它的背后有一块带刺的甲壳，压着两片巨大的翅膀。\n太古盔甲是很久以前就灭绝了的某种宝可梦。据了解，它是一部分虫宝可梦的祖先。它从海里变成了在陆地生活，据说为了能在地上更便利地生活，变成了用双脚走路。虽然太古盔甲平常都住在地底下，不过在捕捉猎物的时候就会潜入海中，利用两片巨大的翅膀来游泳。它身上的甲壳能反弹一切攻击，下半身得到了强化，尾巴的攻击破坏力极强。锐利的爪子是它最大的武器，两只能伸缩的巨爪有着连铁板都能刺穿的威力。它会用锋利的爪子刺穿猎物，然后将其吃掉。",
+  "prototype": "太古盔甲基于古生物奇虾或巨型羽翅鲎。也融入了一些特摄怪兽的特征。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步太古盔甲（Pokémon GO）。\n←\nNo.0347：太古羽虫\n宝可梦\nNo.0349：丑丑鱼\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "アーマルド Armaldo",
+      "origin": "来自英文 armor（盔甲）和学名 Anomalocaris canadensis（加拿大奇虾）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "连斩",
-                        "flavor_text": "用镰刀或爪子等切斩对手进行攻击。连续击中，威力就会提高。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "95",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "变硬",
-                        "flavor_text": "全身使劲，让身体变硬，从而提高自己的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "击落",
-                        "flavor_text": "扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "金属爪",
-                        "flavor_text": "用钢铁之爪劈开对手进行攻击。有时会提高自己的攻击。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "95",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "原始之力",
-                        "flavor_text": "用原始之力进行攻击。有时会提高自己所有的能力。",
-                        "type": "岩石",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "虫咬",
-                        "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "劈开",
-                        "flavor_text": "用爪子或镰刀等劈开对手进行攻击。容易击中要害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撕裂爪",
-                        "flavor_text": "用坚硬的锐爪劈开对手进行攻击。有时会降低对手的防御。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "岩石爆击",
-                        "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "十字剪",
-                        "flavor_text": "将镰刀或爪子像剪刀般地交叉，顺势劈开对手。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６",
-                        "method": "招式学习器",
-                        "name": "刺耳声",
-                        "flavor_text": "发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "沙暴",
-                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４３",
-                        "method": "招式学习器",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４８",
-                        "method": "招式学习器",
-                        "name": "岩石封锁",
-                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５３",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５４",
-                        "method": "招式学习器",
-                        "name": "岩石爆击",
-                        "flavor_text": "向对手发射坚硬的岩石进行攻击。连续攻击２～５次。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５５",
-                        "method": "招式学习器",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器６５",
-                        "method": "招式学习器",
-                        "name": "暗影爪",
-                        "flavor_text": "以影子做成的锐爪，劈开对手。容易击中要害。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７３",
-                        "method": "招式学习器",
-                        "name": "十字毒刃",
-                        "flavor_text": "用毒刃劈开对手。有时会让对手陷入中毒状态，也容易击中要害。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８１",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９４",
-                        "method": "招式学习器",
-                        "name": "点到为止",
-                        "flavor_text": "对手的ＨＰ至少会留下１ＨＰ，如此般手下留情地攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９７",
-                        "method": "招式学习器",
-                        "name": "狂舞挥打",
-                        "flavor_text": "用自己的身体狂舞挥打，给予对手伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９８",
-                        "method": "招式学习器",
-                        "name": "跺脚",
-                        "flavor_text": "化悔恨为力量进行攻击。如果上一回合招式没有打中，威力就会翻倍。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录００",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０７",
-                        "method": "招式学习器",
-                        "name": "踢倒",
-                        "flavor_text": "用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１０",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３１",
-                        "method": "招式学习器",
-                        "name": "铁尾",
-                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３９",
-                        "method": "招式学习器",
-                        "name": "蛮力",
-                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４６",
-                        "method": "招式学习器",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６０",
-                        "method": "招式学习器",
-                        "name": "十字剪",
-                        "flavor_text": "将镰刀或爪子像剪刀般地交叉，顺势劈开对手。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６７",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７０",
-                        "method": "招式学习器",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７５",
-                        "method": "招式学习器",
-                        "name": "尖石攻击",
-                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７６",
-                        "method": "招式学习器",
-                        "name": "隐形岩",
-                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录９８",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "太古盔甲",
+      "origin": "来自“太古”和“盔甲”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "太古盔甲",
+      "origin": "来自“太古”和“盔甲”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "太古盔甲",
+      "origin": "来自“太古”和“盔甲”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "太古盔甲",
+      "origin": "来自“太古”和“盔甲”。"
+    },
+    {
+      "language": "英文",
+      "name": "Armaldo",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "法文",
+      "name": "Armaldo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Armaldo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Armaldo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Armaldo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "아말도 Amaldo",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "太古盔甲",
+      "types": [
+        "岩石",
+        "虫"
+      ],
+      "category": "甲胄宝可梦",
+      "abilities": [
         {
-            "name": "太古盔甲",
-            "image": "0348-太古盔甲.png",
-            "shiny": "0348-太古盔甲-shiny.png"
+          "name": "战斗盔甲",
+          "is_hidden": false
+        },
+        {
+          "name": "悠游自如",
+          "is_hidden": true
         }
+      ],
+      "height": "1.5m",
+      "weight": "68.2kg",
+      "color": "灰色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "水中3群"
+      ],
+      "experience_100": "600,000（最快）",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "30 孵化周期（7710步）",
+      "shape": "Body06.png",
+      "footprint": "F348.png",
+      "image": "348Armaldo.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "75",
+        "attack": "125",
+        "defense": "100",
+        "sp_attack": "70",
+        "sp_defense": "80",
+        "speed": "45"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0.5"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "2"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "2"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "身上的甲壳能反弹一切攻击。２只能伸缩的巨爪有着连铁板都能刺穿的威力。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "很久以前就灭绝了的某种宝可梦。据说为了能在地上更便利地生活，变成了用双脚走路。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "虽然太古盔甲平常都住在地底下，不过在捕捉猎物的时候就会潜入海中，利用两片巨大的翅膀来游泳。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "覆盖有甲壳的身体十分结实。会用锋利的爪子刺穿猎物，然后将其吃掉。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "覆盖有甲壳的身体十分结实。会用锋利的爪子刺穿猎物，然后将其吃掉。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "会用能伸缩的巨大爪子刺穿并捕捉猎物。身披坚固的铠甲。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "会用能伸缩的巨大爪子刺穿并捕捉猎物。身披坚固的铠甲。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "会用能伸缩的巨大爪子刺穿并捕捉猎物。身披坚固的铠甲。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "覆盖有甲壳的身体十分结实。会用锋利的爪子刺穿猎物，然后将其吃掉。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "身上的甲壳能反弹一切攻击。２只能伸缩的巨爪有着连铁板都能刺穿的威力。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "很久以前就灭绝了的某种宝可梦。据说为了能在地上更便利地生活，变成了用双脚走路。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "进化之后登上了陆地。下半身得到了强化，尾巴的攻击破坏力极强。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "栖息在陆地，但也擅长游泳。会潜入大海寻找猎物，用锋利的爪子给予致命一击。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "通过进化适应了陆地上的生活。全身被坚固的铠甲所覆盖。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "太古羽虫",
+        "stage": "未进化",
+        "text": null,
+        "image": "347Anorith_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "太古盔甲",
+        "stage": "1阶进化",
+        "text": "等级40以上",
+        "image": "348Armaldo_Dream.png",
+        "back_text": "",
+        "from": "太古羽虫",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "连斩",
+      "type": "虫",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "95",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "变硬",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "击落",
+      "type": "岩石",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "12",
+      "name": "金属爪",
+      "type": "钢",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "95",
+      "pp": "35"
+    },
+    {
+      "level": "16",
+      "name": "原始之力",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "20",
+      "name": "虫咬",
+      "type": "虫",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "24",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "28",
+      "name": "劈开",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "32",
+      "name": "撕裂爪",
+      "type": "一般",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "10"
+    },
+    {
+      "level": "36",
+      "name": "岩石爆击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "43",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "十字剪",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０８",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６",
+      "name": "刺耳声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４３",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４８",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５３",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５４",
+      "name": "岩石爆击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５５",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６５",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器７３",
+      "name": "十字毒刃",
+      "type": "毒",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器８１",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器９４",
+      "name": "点到为止",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器９７",
+      "name": "狂舞挥打",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器９８",
+      "name": "跺脚",
+      "type": "地面",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录００",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录０１",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录０７",
+      "name": "踢倒",
+      "type": "格斗",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录１０",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录３１",
+      "name": "铁尾",
+      "type": "钢",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录３９",
+      "name": "蛮力",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录４６",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录６０",
+      "name": "十字剪",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录６７",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录７０",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录７５",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录７６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录９８",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "341",
+          "name": "龙虾小兵"
+        },
+        {
+          "id": "342",
+          "name": "铁螯龙虾"
+        },
+        {
+          "id": "451",
+          "name": "钳尾蝎"
+        },
+        {
+          "id": null,
+          "name": "龙王蝎"
+        }
+      ],
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "222G",
+          "name": "太阳珊瑚"
+        },
+        {
+          "id": "564",
+          "name": "原盖海龟"
+        },
+        {
+          "id": "565",
+          "name": "肋骨海龟"
+        },
+        {
+          "id": null,
+          "name": "魔灵珊瑚"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "玛瑙水母"
+        },
+        {
+          "id": null,
+          "name": "化石盔"
+        }
+      ],
+      "name": "高速旋转*",
+      "type": "一般",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "138",
+          "name": "菊石兽"
+        },
+        {
+          "id": "139",
+          "name": "多刺菊石兽"
+        },
+        {
+          "id": "140",
+          "name": "化石盔"
+        },
+        {
+          "id": "141",
+          "name": "镰刀盔"
+        },
+        {
+          "id": "767",
+          "name": "胆小虫"
+        },
+        {
+          "id": "768",
+          "name": "具甲武者"
+        }
+      ],
+      "name": "泼沙",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "072",
+          "name": "玛瑙水母"
+        },
+        {
+          "id": "073",
+          "name": "毒刺水母"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": null,
+          "name": "钢炮臂虾"
+        }
+      ],
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "140",
+          "name": "化石盔"
+        },
+        {
+          "id": "141",
+          "name": "镰刀盔"
+        },
+        {
+          "id": "564",
+          "name": "原盖海龟"
+        },
+        {
+          "id": "565",
+          "name": "肋骨海龟"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "693",
+          "name": "钢炮臂虾"
+        }
+      ],
+      "name": "水流喷射",
+      "type": "水",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "太古盔甲",
+      "image": "0348-太古盔甲.png",
+      "shiny": "0348-太古盔甲-shiny.png"
+    }
+  ]
 }

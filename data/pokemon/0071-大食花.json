@@ -1,953 +1,1261 @@
 {
-    "name": "大食花",
-    "index": "0071",
-    "name_en": "Victreebel",
-    "name_jp": "ウツボット",
-    "profile": "大食花的外表是黄色的带有深黄斑点的花。它的头部长出了一片叶子以遮住它朝天的巨口，叶子末端是带有黄色小叶片的褐色长藤鞭。它的口部长出了尖利的牙齿，嘴巴下方有一双很小的眼睛。它的双手是身体两侧的叶子。\n大食花是凶暴的植物宝可梦。在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。它会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物，等猎物接近时就会张开大嘴一口吞掉。它嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。一旦被像蜜一样的香味吸引到它的口中就会无法得救，只会被它的溶解液溶化掉。被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉，只要1天就会溶解到连骨头都不剩。溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。\n",
-    "forms": [
-        {
-            "name": "大食花",
-            "index": "0071",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0071-大食花.png",
-            "types": [
-                "草",
-                "毒"
-            ],
-            "genus": "捕蝇宝可梦",
-            "ability": [
-                {
-                    "name": "叶绿素",
-                    "is_hidden": false
-                },
-                {
-                    "name": "贪吃鬼",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "1.7m",
-            "weight": "15.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "柱形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "植物"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "第六世代起",
-            "data": {
-                "hp": "80",
-                "attack": "105",
-                "defense": "65",
-                "sp_attack": "100",
-                "sp_defense": "70",
-                "speed": "70"
-            }
-        },
-        {
-            "form": "第六世代之前",
-            "data": {
-                "hp": "80",
-                "attack": "105",
-                "defense": "65",
-                "sp_attack": "100",
-                "sp_defense": "60",
-                "speed": "70"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "用花蜜的香味引诱猎物。据说被它吞入嘴里的东西，只要1天就会溶解到连骨头都不剩。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "把因花蜜的香味聚集而来的猎物全部溶解，是凶暴的植物宝可梦。*"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "把因花蜜的香味聚集而来的猎物全部溶解，是凶暴的植物宝可梦。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "用花蜜的香味引诱猎物。据说被它吞入嘴里的东西，只要1天就会溶解到连骨头都不剩。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "用花蜜的香味引诱猎物。据说被它吞入嘴里的东西，只要1天就会溶解到连骨头都不剩。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "喇叭芽",
-                "stage": "未进化",
-                "text": null,
-                "image": "069Bellsprout_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "口呆花",
-                "stage": "1阶进化",
-                "text": "等级21以上",
-                "image": "070Weepinbell_Dream.png",
-                "back_text": "",
-                "from": "喇叭芽",
-                "form_name": null
-            },
-            {
-                "name": "大食花",
-                "stage": "2阶进化",
-                "text": "使用叶之石",
-                "image": "071Victreebel_Dream.png",
-                "back_text": "",
-                "from": "口呆花",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "大食花",
-        "en": "Victreebel",
-        "fr": "Victreebel",
-        "zh_hant": "大食花",
-        "de": "Sarzenia",
-        "it": "Victreebel",
-        "es": "Victreebel",
-        "ja": "ウツボット",
-        "ko": "우츠보트"
+  "name_zh": "大食花",
+  "name_ja": "ウツボット",
+  "name_en": "Victreebel",
+  "pokedex_id": "0071",
+  "description": "大食花（日文︰ウツボット，英文︰Victreebel）是草属性／毒属性宝可梦，它的设计者是西田敦子。超级大食花于2025年8月21日在宣传动画《散发甜美诱惑的大楼事件》中首次公开。",
+  "profile": "大食花的外表是黄色的带有深黄斑点的花。它的头部长出了一片叶子以遮住它朝天的巨口，叶子末端是带有黄色小叶片的褐色长藤鞭。它的口部长出了尖利的牙齿，嘴巴下方有一双很小的眼睛。它的双手是身体两侧的叶子。\n大食花是凶暴的植物宝可梦。在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。它会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物，等猎物接近时就会张开大嘴一口吞掉。它嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。一旦被像蜜一样的香味吸引到它的口中就会无法得救，只会被它的溶解液溶化掉。被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉，只要1天就会溶解到连骨头都不剩。溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。\n超级进化的能量让大食花体内产生了大量溶解液，甚至到了自己不得不束缚喉部的程度。一不留神就会从嘴里溢出。熟成后的溶解液会散发出令人头晕目眩的甜味，溶解性也进一步提升了。它不会像大食花那样张着嘴等待猎物，而是会积极主动地了结猎物。扇动头上的叶子，让对手沐浴在气味中并使其无法动弹，从而在战斗中占据优势。这种好战的风格是它的特征，以巨大的身体使出的撞击也拥有超群的破坏力。由于溶解液连混凝土和铁都能溶解，使用超级大食花战斗的训练家需要格外谨慎。[1]",
+  "prototype": "大食花基于猪笼草，一种肉食类植物；\n也可能基于瓶子草，一种肉食类植物。\n超级大食花的造型可能参考了束口袋和圆底烧瓶。其用于束缚喉部的藤蔓基于许多植物的缠绕茎。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ウツボット Utsubot",
+      "origin": "来自“ウツドン”（口呆花）及“靫（うつぼ）葛（かずら）”（莱佛士猪笼草）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "飞叶风暴",
-                        "flavor_text": "用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "藤鞭",
-                        "flavor_text": "用如同鞭子般弯曲而细长的藤蔓摔打对手进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "45",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "飞叶快刀",
-                        "flavor_text": "飞出叶片，切斩对手进行攻击。容易击中要害。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "催眠粉",
-                        "flavor_text": "撒出催眠粉，从而让对手陷入睡眠状态。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "甜甜香气",
-                        "flavor_text": "用香气大幅降低对手的闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "44",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叶刃",
-                        "flavor_text": "像用剑一般操纵叶片切斩对手进行攻击。容易击中要害。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蓄力",
-                        "flavor_text": "积蓄力量，提高自己的防御和特防。最多积蓄３次。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "喷出",
-                        "flavor_text": "将积蓄的力量撞向对手进行攻击。积蓄得越多，威力越大。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吞下",
-                        "flavor_text": "将积蓄的力量吞下，从而回复自己的ＨＰ。积蓄得越多，回复越大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "胃液",
-                        "flavor_text": "将胃液吐向对手的身体。沾上的胃液会消除对手的特性效果。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "回忆",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "强力鞭打",
-                        "flavor_text": "激烈地挥舞青藤或触手摔打对手进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "85",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００６",
-                        "method": "招式学习器",
-                        "name": "可怕面孔",
-                        "flavor_text": "用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２０",
-                        "method": "招式学习器",
-                        "name": "起草",
-                        "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２１",
-                        "method": "招式学习器",
-                        "name": "虫扑",
-                        "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３３",
-                        "method": "招式学习器",
-                        "name": "魔法叶",
-                        "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５６",
-                        "method": "招式学习器",
-                        "name": "种子机关枪",
-                        "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７１",
-                        "method": "招式学习器",
-                        "name": "种子炸弹",
-                        "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７４",
-                        "method": "招式学习器",
-                        "name": "反射壁",
-                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８１",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８３",
-                        "method": "招式学习器",
-                        "name": "毒击",
-                        "flavor_text": "用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８８",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９５",
-                        "method": "招式学习器",
-                        "name": "汲取",
-                        "flavor_text": "吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１１",
-                        "method": "招式学习器",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１９",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２２",
-                        "method": "招式学习器",
-                        "name": "再来一次",
-                        "flavor_text": "让对手接受再来一次，连续３次使出最后使用的招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３７",
-                        "method": "招式学习器",
-                        "name": "青草场地",
-                        "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４８",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５９",
-                        "method": "招式学习器",
-                        "name": "飞叶风暴",
-                        "flavor_text": "用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６８",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８１",
-                        "method": "招式学习器",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８２",
-                        "method": "招式学习器",
-                        "name": "虫咬",
-                        "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８５",
-                        "method": "招式学习器",
-                        "name": "猛扑",
-                        "flavor_text": "全力猛扑对手进行攻击。从而降低对手的攻击。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９４",
-                        "method": "招式学习器",
-                        "name": "青草滑梯",
-                        "flavor_text": "仿佛在地面上滑行般地攻击对手。在青草场地上，必定能够先制攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１４",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "大食花",
+      "origin": "来自“大”、“食”和“花”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "大食花",
+      "origin": "来自“大”、“食”和“花”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "大食花",
+      "origin": "来自“大”、“食”和“花”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "大食花",
+      "origin": "来自“大”、“食”和“花”。"
+    },
+    {
+      "language": "英文",
+      "name": "Victreebel",
+      "origin": "来自 victory（胜利）、tree（树）和 bell（钟），引喻 Liberty Bell（自由钟）。"
+    },
+    {
+      "language": "法文",
+      "name": "Empiflor",
+      "origin": "来自 empiffrer（暴食）和 flore（植物群）。"
+    },
+    {
+      "language": "德文",
+      "name": "Sarzenia",
+      "origin": "来自学名 Sarracenia（瓶子草属：北美的食虫植物）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Victreebel",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Victreebel",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "우츠보트 Uchubot",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "大食花",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "category": "捕蝇宝可梦",
+      "abilities": [
         {
-            "name": "大食花",
-            "image": "0071-大食花.png",
-            "shiny": "0071-大食花-shiny.png"
+          "name": "叶绿素",
+          "is_hidden": false
+        },
+        {
+          "name": "贪吃鬼",
+          "is_hidden": true
         }
+      ],
+      "height": "1.7m",
+      "weight": "15.5kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "植物群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body05.png",
+      "footprint": "Fnone.png",
+      "image": "071Victreebel.png"
+    },
+    {
+      "name": "超级大食花",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "category": "捕蝇宝可梦",
+      "abilities": [
+        {
+          "name": "未知",
+          "is_hidden": false
+        }
+      ],
+      "height": "4.5m",
+      "weight": "125.5kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "植物群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body05.png",
+      "footprint": "Fnone.png",
+      "image": "071Victreebel-Mega.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "第六世代起",
+      "data": {
+        "hp": "80",
+        "attack": "105",
+        "defense": "65",
+        "sp_attack": "100",
+        "sp_defense": "70",
+        "speed": "70"
+      }
+    },
+    {
+      "form": "超级进化",
+      "data": {
+        "hp": "80",
+        "attack": "125",
+        "defense": "85",
+        "sp_attack": "135",
+        "sp_defense": "95",
+        "speed": "70"
+      }
+    },
+    {
+      "form": "第六世代之前",
+      "data": {
+        "hp": "80",
+        "attack": "105",
+        "defense": "65",
+        "sp_attack": "100",
+        "sp_defense": "60",
+        "speed": "70"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "0.5"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "0.25"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "用花蜜的香味引诱猎物。据说被它吞入嘴里的东西，只要1天就会溶解到连骨头都不剩。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "把因花蜜的香味聚集而来的猎物全部溶解，是凶暴的植物宝可梦。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "把因花蜜的香味聚集而来的猎物全部溶解，是凶暴的植物宝可梦。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "在丛林深处有一处遍地都是大食花的地带，进去后就再也出不来了。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会让长在脑袋上的藤蔓像小生物一样动来动去引诱猎物。等猎物接近时就会张开大嘴一口吞掉。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "用花蜜的香味引诱猎物。据说被它吞入嘴里的东西，只要1天就会溶解到连骨头都不剩。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "用花蜜的香味引诱猎物。据说被它吞入嘴里的东西，只要1天就会溶解到连骨头都不剩。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "嘴里积蓄的液体虽然散发着蜜一般的香气，却是可溶化一切的溶解液。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "一旦被像蜜一样的香味吸引到它的口中就会无法得救。只会被它的溶解液溶化掉。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "溶掉了大量食物的溶解液会更加甜美，从而变得更容易吸引猎物上门。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。口中充满因超级进化而增加的溶解液。一不留神就会从嘴里溢出。（超级进化）"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "喇叭芽",
+        "stage": "未进化",
+        "text": null,
+        "image": "069Bellsprout_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "口呆花",
+        "stage": "1阶进化",
+        "text": "等级21以上",
+        "image": "070Weepinbell_Dream.png",
+        "back_text": "",
+        "from": "喇叭芽",
+        "form_name": null
+      },
+      {
+        "name": "大食花",
+        "stage": "2阶进化",
+        "text": "使用叶之石",
+        "image": "071Victreebel_Dream.png",
+        "back_text": "",
+        "from": "口呆花",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [
+    {
+      "name": "大食花",
+      "form_name": "超级大食花",
+      "image": "071Victreebel-Mega.png"
+    }
+  ],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "飞叶风暴",
+      "type": "草",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "level": "—",
+      "name": "藤鞭",
+      "type": "草",
+      "category": "物理",
+      "power": "45",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "飞叶快刀",
+      "type": "草",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "催眠粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "甜甜香气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "44",
+      "name": "叶刃",
+      "type": "草",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "回忆",
+      "name": "蓄力",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "回忆",
+      "name": "喷出",
+      "type": "一般",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "回忆",
+      "name": "吞下",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "回忆",
+      "name": "胃液",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "回忆",
+      "name": "强力鞭打",
+      "type": "草",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "85",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２０",
+      "name": "起草",
+      "type": "草",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２１",
+      "name": "虫扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３３",
+      "name": "魔法叶",
+      "type": "草",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５６",
+      "name": "种子机关枪",
+      "type": "草",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７１",
+      "name": "种子炸弹",
+      "type": "草",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７４",
+      "name": "反射壁",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８１",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８３",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８８",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９５",
+      "name": "汲取",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１１",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１９",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２２",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１３７",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４８",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５９",
+      "name": "飞叶风暴",
+      "type": "草",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８１",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８２",
+      "name": "虫咬",
+      "type": "虫",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８５",
+      "name": "猛扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９４",
+      "name": "青草滑梯",
+      "type": "草",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２１４",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "103A",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "273",
+          "name": "橡实果"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "357",
+          "name": "热带龙"
+        },
+        {
+          "id": "387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "388",
+          "name": "树林龟"
+        },
+        {
+          "id": "389",
+          "name": "土台龟"
+        },
+        {
+          "id": "0549H",
+          "name": "裙儿小姐"
+        },
+        {
+          "id": "590",
+          "name": "哎呀球菇"
+        },
+        {
+          "id": "591",
+          "name": "败露球菇"
+        },
+        {
+          "id": "753",
+          "name": "伪螳草"
+        },
+        {
+          "id": "754",
+          "name": "兰螳花"
+        },
+        {
+          "id": "764",
+          "name": "花疗环环"
+        }
+      ],
+      "name": "光合作用",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "332",
+          "name": "梦歌仙人掌"
+        },
+        {
+          "id": "459",
+          "name": "雪笠怪"
+        },
+        {
+          "id": "460",
+          "name": "暴雪王"
+        },
+        {
+          "id": "590",
+          "name": "哎呀球菇"
+        },
+        {
+          "id": "591",
+          "name": "败露球菇"
+        },
+        {
+          "id": "708",
+          "name": "小木灵"
+        },
+        {
+          "id": "709",
+          "name": "朽木妖"
+        },
+        {
+          "id": "753",
+          "name": "伪螳草"
+        },
+        {
+          "id": "754",
+          "name": "兰螳花"
+        }
+      ],
+      "name": "扎根",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "挠痒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "103A",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "286",
+          "name": "斗笠菇"
+        },
+        {
+          "id": "906",
+          "name": "新叶喵"
+        },
+        {
+          "id": "907",
+          "name": "蒂蕾喵"
+        },
+        {
+          "id": "908",
+          "name": "魔幻假面喵"
+        },
+        {
+          "id": "952",
+          "name": "狠辣椒"
+        }
+      ],
+      "name": "烦恼种子",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "273",
+          "name": "橡实果"
+        },
+        {
+          "id": "0274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "332",
+          "name": "梦歌仙人掌"
+        }
+      ],
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "590",
+          "name": "哎呀球菇"
+        },
+        {
+          "id": "591",
+          "name": "败露球菇"
+        }
+      ],
+      "name": "清除之烟",
+      "type": "毒",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "吸取力量",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "大食花",
+      "image": "0071-大食花.png",
+      "shiny": "0071-大食花-shiny.png"
+    }
+  ]
 }

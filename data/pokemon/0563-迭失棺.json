@@ -1,0 +1,889 @@
+{
+  "name_zh": "迭失棺",
+  "name_ja": "デスカーン",
+  "name_en": "Cofagrigus",
+  "pokedex_id": "0563",
+  "description": "迭失棺（日文︰デスカーン，英文︰Cofagrigus）是幽灵属性宝可梦。",
+  "profile": "迭失棺是外形类似棺材的宝可梦。它拥有闪亮亮的黄金之躯，身上覆盖的是纯金。它的眼睛是红色的，上方有一个面具。有四只如影子般灰色的手。\n迭失棺会假装成漂亮的棺材，会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内做成木乃伊。据说它已再也无法记起自己曾是人类。迭失棺喜欢吃金块，象征着国王的财富，因此许多古墓里都有它的壁画。",
+  "prototype": "迭失棺的形象可能来自于图坦卡蒙的金棺。在1922年，霍华德·卡特发现了坟墓，但是先进入坟墓的人不明原因而死，被媒体炒作成法老的咒术。\n它的木乃伊特性可能来源于影视作品中的“僵尸病毒”。",
+  "detail": "2020年10月20日宝可梦官方发布消息称部分宝可梦的简体中文名称有所变更，将死神棺改成了迭失棺。2020年10月23日《剑／盾》和Pokémon HOME更新后在游戏中正式启用新简体中文名。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "デスカーン Desukarn",
+      "origin": "来自英文 Death（死神）和“棺（かん）桶（おけ）”（棺材）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "死神棺死神棺 → 迭失棺",
+      "origin": "死神棺：来自“死神”和“棺材”迭失棺：来自日文名部分的音译、“失去”和“棺材”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "死神棺",
+      "origin": "来自“死神”和“棺材”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "死神棺",
+      "origin": "来自“死神”和“棺材”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "死神棺",
+      "origin": "来自“死神”和“棺材”。"
+    },
+    {
+      "language": "英文",
+      "name": "Cofagrigus",
+      "origin": "来自 coffin（棺材）、sarcophagus（石棺）和 egregious（惊人的）。"
+    },
+    {
+      "language": "法文",
+      "name": "Tutankafer",
+      "origin": "来自英文 Tutankhamun（图坦卡蒙：古埃及的一位法老）和 fer（铁），谐音 tant qu'à faire（既然如此）。"
+    },
+    {
+      "language": "德文",
+      "name": "Echnatoll",
+      "origin": "来自 Echnaton（埃赫那吞：古埃及的一位法老）和 toll（极好的），谐音 Echt, na toll（【讽刺】哦，太好了）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Cofagrigus",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Cofagrigus",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "데스니칸 Deseunikan",
+      "origin": "来自日文名的音译，谐音“됐습니까”（好了吗？）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "迭失棺",
+      "types": [
+        "幽灵"
+      ],
+      "category": "棺木宝可梦",
+      "abilities": [
+        {
+          "name": "木乃伊",
+          "is_hidden": false
+        }
+      ],
+      "height": "1.7m",
+      "weight": "76.5kg",
+      "color": "黄色",
+      "catch_rate": "90（11.8%）",
+      "egg_groups": [
+        "矿物",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body05.png",
+      "footprint": "Fnone.png",
+      "image": "563Cofagrigus.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "58",
+        "attack": "50",
+        "defense": "145",
+        "sp_attack": "95",
+        "sp_defense": "105",
+        "speed": "30"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0"
+    },
+    {
+      "type": "格斗",
+      "damage": "0"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "2"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "2"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "有传言说，它会吞掉接近它的人类，做成木乃伊。喜欢吃金块。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "假装成漂亮的棺材惩罚盗墓贼。身上覆盖的是纯金。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "有传言说，它会吞掉接近它的人类，做成木乃伊。喜欢吃金块。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "有传言说，它会吞掉接近它的人类，做成木乃伊。喜欢吃金块。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "拥有闪亮亮的黄金之躯。据说它已再也无法记起自己曾是人类。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "死神棺象征着国王的财富，因此许多古墓里都有它的壁画。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "哭哭面具",
+        "stage": "未进化",
+        "text": null,
+        "image": "562Yamask_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "迭失棺",
+        "stage": "1阶进化",
+        "text": "等级34以上",
+        "image": "563Cofagrigus_Dream.png",
+        "back_text": "",
+        "from": "哭哭面具",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "黑夜魔影",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "12",
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "16",
+      "name": "磷火",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "20",
+      "name": "戏法防守",
+      "type": "妖精",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "28",
+      "name": "黑色目光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "32",
+      "name": "怨念",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "38",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "44",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "50",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "56",
+      "name": "力量平分",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "56",
+      "name": "防守平分",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "62",
+      "name": "同命",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０８",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１９",
+      "name": "神秘守护",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２３",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３３",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器３８",
+      "name": "磷火",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "报复",
+      "type": "格斗",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４４",
+      "name": "封印",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４７",
+      "name": "假哭",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器５７",
+      "name": "以牙还牙",
+      "type": "恶",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６０",
+      "name": "力量互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６１",
+      "name": "防守互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６５",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器７０",
+      "name": "戏法空间",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器７１",
+      "name": "奇妙空间",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器７７",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８６",
+      "name": "潜灵奇袭",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录１１",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录３３",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录３８",
+      "name": "戏法",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录４０",
+      "name": "特性互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录４６",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录４９",
+      "name": "冥想",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录５４",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录５８",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录６５",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录６８",
+      "name": "诡计",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录６９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录７７",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录８３",
+      "name": "交换场地",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录９９",
+      "name": "扑击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "109",
+          "name": "瓦斯弹"
+        },
+        {
+          "id": "110",
+          "name": "双弹瓦斯"
+        },
+        {
+          "id": "110G",
+          "name": "双弹瓦斯"
+        },
+        {
+          "id": "422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "422E",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "423E",
+          "name": "海兔兽"
+        },
+        {
+          "id": "442",
+          "name": "花岩怪"
+        },
+        {
+          "id": "607",
+          "name": "烛光灵"
+        },
+        {
+          "id": null,
+          "name": "灯火幽灵"
+        },
+        {
+          "id": null,
+          "name": "水晶灯火灵"
+        }
+      ],
+      "name": "临别礼物",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "迭失棺",
+      "image": "0563-迭失棺.png",
+      "shiny": "0563-迭失棺-shiny.png"
+    }
+  ]
+}

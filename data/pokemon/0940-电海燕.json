@@ -1,737 +1,873 @@
 {
-    "name": "电海燕",
-    "index": "0940",
-    "name_en": "Wattrel",
-    "name_jp": "カイデン",
-    "profile": "电海燕会在海岸的悬崖上筑巢。它的巢具有在嘴里蹦跳的神奇口感，因此是受欢迎的珍味佳肴。当它翅膀的骨头受到风吹时，就能制造电力，会冲进海里让猎物触电后将其捕获。因吃太饱而动作变得迟缓的刺梭鱼会先遭到电海燕的群体袭击。\n",
-    "forms": [
-        {
-            "name": "电海燕",
-            "index": "0940",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0940-电海燕.png",
-            "types": [
-                "电",
-                "飞行"
-            ],
-            "genus": "海燕宝可梦",
-            "ability": [
-                {
-                    "name": "风力发电",
-                    "is_hidden": false
-                },
-                {
-                    "name": "蓄电",
-                    "is_hidden": false
-                },
-                {
-                    "name": "好胜",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "0.4m",
-            "weight": "3.6kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双翅形",
-            "color": "黑色",
-            "catch_rate": {
-                "number": "180",
-                "rate": "23.5%"
-            },
-            "egg_groups": [
-                "水中1",
-                "飞行"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "40",
-                "attack": "40",
-                "defense": "35",
-                "sp_attack": "55",
-                "sp_defense": "40",
-                "speed": "70"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "当翅膀的骨头受到风吹时，就能制造电力。会冲进海里让猎物触电后将其捕获。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "在海岸的悬崖上筑巢。它的巢具有在嘴里蹦跳的神奇口感，因此是受欢迎的珍味佳肴。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "电海燕",
-                "stage": "未进化",
-                "text": null,
-                "image": "940Wattrel_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "大电海燕",
-                "stage": "1阶进化",
-                "text": "等级25以上",
-                "image": "941Kilowattrel_Dream.png",
-                "back_text": "",
-                "from": "电海燕",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "电海燕",
-        "zh_hant": "電海燕",
-        "en": "Wattrel",
-        "fr": "Wattrel",
-        "de": "Voltrel",
-        "it": "Wattrel",
-        "es": "Wattrel",
-        "ja": "カイデン",
-        "ko": "찌리비"
+  "name_zh": "电海燕",
+  "name_ja": "カイデン",
+  "name_en": "Wattrel",
+  "pokedex_id": "0940",
+  "description": "电海燕（日文︰カイデン，英文︰Wattrel）是电属性／飞行属性宝可梦。",
+  "profile": "电海燕会在海岸的悬崖上筑巢。它的巢具有在嘴里蹦跳的神奇口感，因此是受欢迎的珍味佳肴。当它翅膀的骨头受到风吹时，就能制造电力，会冲进海里让猎物触电后将其捕获。因吃太饱而动作变得迟缓的刺梭鱼会先遭到电海燕的群体袭击。",
+  "prototype": "电海燕可能基于海燕，尤其是欧洲风暴海燕。其电属性可能来自欧洲水手对海燕的传统认识，即海燕会带来雷电和风暴。在近现代社会运动中，海燕因此被赋予了不畏暴风雨的勇气。\n现实中比斯开湾、巴伦西亚湾以及巴利阿里群岛是欧洲风暴海燕的筑巢地点，电海燕在帕底亚地区的分布与之对应。\n图鉴提到电海燕的巢是受欢迎的珍味佳肴，这可能基于金丝燕的巢（即“燕窝”）常被人视作珍贵的食物，而水生动物来源的唾液酸与蛋白质也在巴斯克饮食文化中占有重要地位。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步电海燕（Pokémon GO）。\n←\nNo.0939：电肚蛙\n宝可梦\nNo.0941：大电海燕\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "カイデン Kaiden",
+      "origin": "来自“海（かい）”（海）、“電（でん）”（电）和“海燕（かいえん）”（海燕）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叫声",
-                        "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "啄",
-                        "flavor_text": "用尖锐的喙或角刺向对手进行攻击。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "35",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "4",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电击",
-                        "flavor_text": "发出电流刺激对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "7",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电光一闪",
-                        "flavor_text": "以迅雷不及掩耳之势扑向对手。必定能够先制攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "11",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "啄食",
-                        "flavor_text": "用喙进行攻击。当对手携带树果时，可以食用并获得其效果。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电光",
-                        "flavor_text": "让电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "19",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吵闹",
-                        "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "23",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "羽栖",
-                        "flavor_text": "降到地面，使身体休息。回复自己最大ＨＰ的一半。",
-                        "type": "飞行",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "27",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "双翼",
-                        "flavor_text": "将翅膀撞向对手进行攻击。连续２次给予伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "伏特替换",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "43",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "放电",
-                        "flavor_text": "用耀眼的电击攻击自己周围所有的宝可梦。有时会陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００４",
-                        "method": "招式学习器",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１４",
-                        "method": "招式学习器",
-                        "name": "杂技",
-                        "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２３",
-                        "method": "招式学习器",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２７",
-                        "method": "招式学习器",
-                        "name": "燕返",
-                        "flavor_text": "以敏捷的动作戏弄对手后进行切斩。攻击必定会命中。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４０",
-                        "method": "招式学习器",
-                        "name": "空气利刃",
-                        "flavor_text": "用锐利的风切斩对手进行攻击。容易击中要害。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４８",
-                        "method": "招式学习器",
-                        "name": "伏特替换",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６０",
-                        "method": "招式学习器",
-                        "name": "急速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６５",
-                        "method": "招式学习器",
-                        "name": "空气之刃",
-                        "flavor_text": "用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７２",
-                        "method": "招式学习器",
-                        "name": "电球",
-                        "flavor_text": "用电气团撞向对手。自己比对手速度越快，威力越大。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８２",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９６",
-                        "method": "招式学习器",
-                        "name": "怪异电波",
-                        "flavor_text": "从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９７",
-                        "method": "招式学习器",
-                        "name": "飞翔",
-                        "flavor_text": "第１回合飞上天空，第２回合攻击对手。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１３",
-                        "method": "招式学习器",
-                        "name": "顺风",
-                        "flavor_text": "刮起猛烈的旋风，在４回合内提高我方全员的速度。",
-                        "type": "飞行",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２６",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３６",
-                        "method": "招式学习器",
-                        "name": "电气场地",
-                        "flavor_text": "在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４７",
-                        "method": "招式学习器",
-                        "name": "疯狂伏特",
-                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６０",
-                        "method": "招式学习器",
-                        "name": "暴风",
-                        "flavor_text": "用强烈的风席卷对手进行攻击。有时会使对手混乱。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６４",
-                        "method": "招式学习器",
-                        "name": "勇鸟猛攻",
-                        "flavor_text": "收拢翅膀，通过低空飞行突击对手。自己也会受到不小的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６６",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７３",
-                        "method": "招式学习器",
-                        "name": "充电",
-                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９１",
-                        "method": "招式学习器",
-                        "name": "吵闹",
-                        "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９７",
-                        "method": "招式学习器",
-                        "name": "双翼",
-                        "flavor_text": "将翅膀撞向对手进行攻击。连续２次给予伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０５",
-                        "method": "招式学习器",
-                        "name": "蛮干",
-                        "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１１",
-                        "method": "招式学习器",
-                        "name": "电网",
-                        "flavor_text": "用电网捉住对手进行攻击。会降低对手的速度。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１６",
-                        "method": "招式学习器",
-                        "name": "羽毛舞",
-                        "flavor_text": "撒出羽毛，笼罩在对手的周围。大幅降低对手的攻击。",
-                        "type": "飞行",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "電海燕电海燕",
+      "origin": "来自“电”和“海燕”。"
     },
-    "home_images": [
+    {
+      "language": "中文-台湾",
+      "name": "電海燕",
+      "origin": "来自“电”和“海燕”。"
+    },
+    {
+      "language": "英文",
+      "name": "Wattrel",
+      "origin": "来自 watt（瓦特：国际单位制的功率单位）和 petrel（海燕类）。"
+    },
+    {
+      "language": "法文",
+      "name": "Zapétrel",
+      "origin": "来自 zap（表示“电击”的拟声词）和 pétrel（海燕类）。"
+    },
+    {
+      "language": "德文",
+      "name": "Voltrel",
+      "origin": "来自 Volt（伏特：电位、电压、电动势的单位）和 Petrel（海燕类）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Wattrel",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Wattrel",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "찌리비 Jjiribi",
+      "origin": "来自“찌릿찌릿”（电得发麻的样子）和“바다제비”（海燕）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "电海燕",
+      "types": [
+        "电",
+        "飞行"
+      ],
+      "category": "海燕宝可梦",
+      "abilities": [
         {
-            "name": "电海燕",
-            "image": "0940-电海燕.png",
-            "shiny": "0940-电海燕-shiny.png"
+          "name": "风力发电",
+          "is_hidden": false
+        },
+        {
+          "name": "蓄电",
+          "is_hidden": false
+        },
+        {
+          "name": "好胜",
+          "is_hidden": true
         }
+      ],
+      "height": "0.4m",
+      "weight": "3.6kg",
+      "color": "黑色",
+      "catch_rate": "180（23.5%）",
+      "egg_groups": [
+        "水中1",
+        "飞行群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body09.png",
+      "footprint": "FUnknown.png",
+      "image": "940Wattrel.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "40",
+        "attack": "40",
+        "defense": "35",
+        "sp_attack": "55",
+        "sp_defense": "40",
+        "speed": "70"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "0.5"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "0"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "当翅膀的骨头受到风吹时，就能制造电力。会冲进海里让猎物触电后将其捕获。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "在海岸的悬崖上筑巢。它的巢具有在嘴里蹦跳的神奇口感，因此是受欢迎的珍味佳肴。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "电海燕",
+        "stage": "未进化",
+        "text": null,
+        "image": "940Wattrel_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "大电海燕",
+        "stage": "1阶进化",
+        "text": "等级25以上",
+        "image": "941Kilowattrel_Dream.png",
+        "back_text": "",
+        "from": "电海燕",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "啄",
+      "type": "飞行",
+      "category": "物理",
+      "power": "35",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "4",
+      "name": "电击",
+      "type": "电",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "7",
+      "name": "电光一闪",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "11",
+      "name": "啄食",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "15",
+      "name": "电光",
+      "type": "电",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "19",
+      "name": "吵闹",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "23",
+      "name": "羽栖",
+      "type": "飞行",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "27",
+      "name": "双翼",
+      "type": "飞行",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "32",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "37",
+      "name": "伏特替换",
+      "type": "电",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "43",
+      "name": "放电",
+      "type": "电",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００４",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１４",
+      "name": "杂技",
+      "type": "飞行",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０２３",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２７",
+      "name": "燕返",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４０",
+      "name": "空气利刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４８",
+      "name": "伏特替换",
+      "type": "电",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０６０",
+      "name": "急速折返",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０６５",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７２",
+      "name": "电球",
+      "type": "电",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８２",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９６",
+      "name": "怪异电波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０９７",
+      "name": "飞翔",
+      "type": "飞行",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１３",
+      "name": "顺风",
+      "type": "飞行",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２６",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３６",
+      "name": "电气场地",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４７",
+      "name": "疯狂伏特",
+      "type": "电",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１６０",
+      "name": "暴风",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６４",
+      "name": "勇鸟猛攻",
+      "type": "飞行",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１６６",
+      "name": "打雷",
+      "type": "电",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７３",
+      "name": "充电",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１９１",
+      "name": "吵闹",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９７",
+      "name": "双翼",
+      "type": "飞行",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０５",
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２１１",
+      "name": "电网",
+      "type": "电",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２１６",
+      "name": "羽毛舞",
+      "type": "飞行",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "蓄力",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "喷出",
+      "type": "一般",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "0845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "吞下",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0084",
+          "name": "嘟嘟"
+        },
+        {
+          "id": "0085",
+          "name": "嘟嘟利"
+        },
+        {
+          "id": "258",
+          "name": "水跃鱼"
+        },
+        {
+          "id": "259",
+          "name": "沼跃鱼"
+        },
+        {
+          "id": "260",
+          "name": "巨沼怪"
+        },
+        {
+          "id": "341",
+          "name": "龙虾小兵"
+        },
+        {
+          "id": "342",
+          "name": "铁螯龙虾"
+        },
+        {
+          "id": "0396",
+          "name": "姆克儿"
+        },
+        {
+          "id": "0397",
+          "name": "姆克鸟"
+        },
+        {
+          "id": "0398",
+          "name": "姆克鹰"
+        },
+        {
+          "id": "0701",
+          "name": "摔角鹰人"
+        }
+      ],
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0580",
+          "name": "鸭宝宝"
+        },
+        {
+          "id": "0581",
+          "name": "舞天鹅"
+        },
+        {
+          "id": "0701",
+          "name": "摔角鹰人"
+        },
+        {
+          "id": "0722",
+          "name": "木木枭"
+        },
+        {
+          "id": "0723",
+          "name": "投羽枭"
+        },
+        {
+          "id": "0724",
+          "name": "狙射树枭"
+        },
+        {
+          "id": "0724H",
+          "name": "狙射树枭"
+        },
+        {
+          "id": "0731",
+          "name": "小笃儿"
+        },
+        {
+          "id": "0732",
+          "name": "喇叭啄鸟"
+        },
+        {
+          "id": "0733",
+          "name": "铳嘴大鸟"
+        },
+        {
+          "id": "0741",
+          "name": "花舞鸟"
+        },
+        {
+          "id": "0913",
+          "name": "涌跃鸭"
+        },
+        {
+          "id": "0914",
+          "name": "狂欢浪舞鸭"
+        },
+        {
+          "id": "0956",
+          "name": "超能艳鸵"
+        }
+      ],
+      "name": "羽毛舞",
+      "type": "飞行",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "0875",
+          "name": "冰砌鹅"
+        },
+        {
+          "id": "0938",
+          "name": "光蚪仔"
+        },
+        {
+          "id": "0939",
+          "name": "电肚蛙"
+        }
+      ],
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "电海燕",
+      "image": "0940-电海燕.png",
+      "shiny": "0940-电海燕-shiny.png"
+    }
+  ]
 }

@@ -1,712 +1,661 @@
 {
-    "name": "斯魔茶",
-    "index": "1012",
-    "name_en": "Poltchageist",
-    "name_jp": "チャデス",
-    "profile": "斯魔茶的头部是个黑白相间的破损茶罐，茶罐上白色的部分构成其脸部，并有类似黑色涂鸦的双眼与嘴部。其右额头上有三点黑色图案，左侧额头部分的茶罐有绿色裂痕。茶罐左右两侧有破洞，从中伸出绿色茶粉构成的手部，右手执茶杓。斯魔茶的部分身体可以顶开头上的盖子从茶罐中冒出，身体也由绿色茶粉构成，呈圆头状，具有黄色漩涡。斯魔茶所拥有的漩涡和被认为是来悲茶弱点的漩涡很像，但不同的一点是这个漩涡似乎并非斯魔茶的弱点。它看似是来悲茶的地区形态，但最近被发现其实两者之间毫无关系。高档货的样子的斯魔茶住在昂贵茶罐中的样子，虽然与便宜货不同，但外行人分辨不出来。\n斯魔茶据说是死前未能在茶道上登峰造极的茶道家的遗恨附到抹茶上所变成的宝可梦。它会把由粉末构成的部分身体撒到食物上让对手吃掉，或是直接撒到对手身上，吸收其精气并化为自己的能量。它喜欢栖息在古老民宅中，白天会待在阴冷处不动。但太阳下山后，它就会开始到城镇或郊外彷徨。它平时喜好修复裂掉或破掉的东西，有时还会擅自使用金继工艺去修复所住民宅中的餐具等东西。“要是浪费食物，就会被斯魔茶撒抹茶。”在北上都是这样教育人的。在那里，连抹茶香料都是禁用的。\n",
-    "forms": [
-        {
-            "name": "斯魔茶",
-            "index": "1012",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "1012-斯魔茶.png",
-            "types": [
-                "草",
-                "幽灵"
-            ],
-            "genus": "抹茶宝可梦",
-            "ability": [
-                {
-                    "name": "款待",
-                    "is_hidden": false
-                },
-                {
-                    "name": "耐热",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.1m",
-            "weight": "1.1kg",
-            "gender_rate": null,
-            "shape": "球形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "120",
-                "rate": "15.7%"
-            },
-            "egg_groups": [
-                "矿物",
-                "不定形"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "40",
-                "attack": "45",
-                "defense": "45",
-                "sp_attack": "74",
-                "sp_defense": "54",
-                "speed": "50"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "据说是死前未能在茶道上登峰造极的茶道家的遗恨附到抹茶上所变成的宝可梦。（冒牌货的样子）\n会将由粉末构成的身体中的一部分洒到食物上，然后吸取舔了粉末的对手的精气。（高档货的样子）"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "看似是来悲茶的地区形态，但最近被发现其实两者之间毫无关系。（冒牌货的样子）\n住在昂贵茶罐中的样子。虽然与便宜货不同，但外行人分辨不出来。（高档货的样子）"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "斯魔茶",
-                "stage": "未进化",
-                "text": null,
-                "image": "1012Poltchageist_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": "冒牌货的样子"
-            },
-            {
-                "name": "来悲粗茶",
-                "stage": "1阶进化",
-                "text": "使用凡作茶碗",
-                "image": "1013Sinistcha_Dream.png",
-                "back_text": "",
-                "from": "斯魔茶",
-                "form_name": "凡作的样子"
-            }
-        ],
-        [
-            {
-                "name": "斯魔茶",
-                "stage": "未进化",
-                "text": null,
-                "image": "1012Poltchageist_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": "高档货的样子"
-            },
-            {
-                "name": "来悲粗茶",
-                "stage": "1阶进化",
-                "text": "使用杰作茶碗",
-                "image": "1013Sinistcha_Dream.png",
-                "back_text": "",
-                "from": "斯魔茶",
-                "form_name": "杰作的样子"
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "斯魔茶",
-        "en": "Poltchageist",
-        "fr": "Poltchageist",
-        "zh_hant": "斯魔茶",
-        "de": "Mortcha",
-        "it": "Poltchageist",
-        "es": "Poltchageist",
-        "ja": "チャデス",
-        "ko": "차데스"
+  "name_zh": "斯魔茶",
+  "name_ja": "チャデス",
+  "name_en": "Poltchageist",
+  "pokedex_id": "1012",
+  "description": "斯魔茶（日文︰チャデス，英文︰Poltchageist）是草属性／幽灵属性宝可梦。斯魔茶在2023年8月22日正式公布。",
+  "profile": "斯魔茶的头部是个黑白相间的破损茶罐，茶罐上白色的部分构成其脸部，并有类似黑色涂鸦的双眼与嘴部。其右额头上有三点黑色图案，左侧额头部分的茶罐有绿色裂痕。茶罐左右两侧有破洞，从中伸出绿色茶粉构成的手部，右手执茶杓。斯魔茶的部分身体可以顶开头上的盖子从茶罐中冒出，身体也由绿色茶粉构成，呈圆头状，具有黄色漩涡。斯魔茶所拥有的漩涡和被认为是来悲茶弱点的漩涡很像，但不同的一点是这个漩涡似乎并非斯魔茶的弱点。它看似是来悲茶的地区形态，但最近被发现其实两者之间毫无关系。高档货的样子的斯魔茶住在昂贵茶罐中的样子，虽然与便宜货不同，但外行人分辨不出来。\n斯魔茶据说是死前未能在茶道上登峰造极的茶道家的遗恨附到抹茶上所变成的宝可梦。它会把由粉末构成的部分身体撒到食物上让对手吃掉，或是直接撒到对手身上，吸收其精气并化为自己的能量。它喜欢栖息在古老民宅中，白天会待在阴冷处不动。但太阳下山后，它就会开始到城镇或郊外彷徨。它平时喜好修复裂掉或破掉的东西，有时还会擅自使用金继工艺去修复所住民宅中的餐具等东西。[1]“要是浪费食物，就会被斯魔茶撒抹茶。”在北上都是这样教育人的。在那里，连抹茶香料都是禁用的。[2]",
+  "prototype": "斯魔茶的整体形象可能来源于抹茶及相关器具：\n其身体主体可能来源于茶入，泛指装抹茶粉的陶瓷茶器，从造型来看属于肩冲。\n其手部来源于抹茶茶粉，手上拿的道具来源于茶杓，一种将抹茶从茶器里取出并放入茶碗里的汤匙状的道具。\n其头上的三点黑色图案参考日本地图上的茶园符号。\n与来悲茶家族的原型骚灵类似，斯魔茶可能基于日本文化中类似的妖怪类别付丧神。\n斯魔茶身体部分的裂痕参考了金继工艺，而斯魔茶本身也有喜好使用金继工艺来修补器具的设定。",
+  "detail": "斯魔茶和来悲茶有完全相同的种族值分布。\n斯魔茶的名字在所有语言中都与怖思壶相对应，而其进化型来悲粗茶的名字在所有语言中则与来悲茶相对应。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "チャデス Chadeath",
+      "origin": "来自“茶（ちゃ）”（茶）和 英文 death（死亡），谐音“茶（ちゃ）です”（是茶），对应怖思壶的名字“ポットデス”。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "麻痹粉",
-                        "flavor_text": "撒出麻痹粉，从而让对手陷入麻痹状态。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "缩入壳中",
-                        "flavor_text": "缩入壳里保护身体，从而提高自己的防御。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "惊吓",
-                        "flavor_text": "用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "6",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "生命水滴",
-                        "flavor_text": "喷洒出神奇的水，回复自己和场上同伴的ＨＰ。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "18",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "移花接木",
-                        "flavor_text": "利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "超级吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "祸不单行",
-                        "flavor_text": "接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "愤怒粉",
-                        "flavor_text": "将令人烦躁的粉末撒在自己身上，用以吸引对手的注意。使对手的攻击全部指向自己。",
-                        "type": "虫",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "42",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "54",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "临别礼物",
-                        "flavor_text": "虽然会使自己陷入昏厥，但是能够大幅降低对手的攻击和特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "60",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "飞叶风暴",
-                        "flavor_text": "用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２９",
-                        "method": "招式学习器",
-                        "name": "祸不单行",
-                        "flavor_text": "接二连三地进行攻击。对处于异常状态的对手给予较大的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３３",
-                        "method": "招式学习器",
-                        "name": "魔法叶",
-                        "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４２",
-                        "method": "招式学习器",
-                        "name": "黑夜魔影",
-                        "flavor_text": "显示恐怖幻影，只给予对手和自己等级相同的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６２",
-                        "method": "招式学习器",
-                        "name": "移花接木",
-                        "flavor_text": "利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７４",
-                        "method": "招式学习器",
-                        "name": "反射壁",
-                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９２",
-                        "method": "招式学习器",
-                        "name": "封印",
-                        "flavor_text": "如果对手有和自己相同的招式，那么只有对手无法使用该招式。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０４",
-                        "method": "招式学习器",
-                        "name": "铁壁",
-                        "flavor_text": "将皮肤变得坚硬如铁，从而大幅提高自己的防御。",
-                        "type": "钢",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１１",
-                        "method": "招式学习器",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１４",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１９",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２９",
-                        "method": "招式学习器",
-                        "name": "冥想",
-                        "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３７",
-                        "method": "招式学习器",
-                        "name": "青草场地",
-                        "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４０",
-                        "method": "招式学习器",
-                        "name": "诡计",
-                        "flavor_text": "谋划诡计，激活头脑。大幅提高自己的特攻。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５１",
-                        "method": "招式学习器",
-                        "name": "潜灵奇袭",
-                        "flavor_text": "第１回合消失在某处，第２回合攻击对手。可以无视守护进行攻击。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５９",
-                        "method": "招式学习器",
-                        "name": "飞叶风暴",
-                        "flavor_text": "用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６１",
-                        "method": "招式学习器",
-                        "name": "戏法空间",
-                        "flavor_text": "制造出离奇的空间。在５回合内速度慢的宝可梦可以先行动。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６８",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７７",
-                        "method": "招式学习器",
-                        "name": "怨恨",
-                        "flavor_text": "对对手最后使用的招式怀有怨恨，减少４ＰＰ该招式。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８８",
-                        "method": "招式学习器",
-                        "name": "热水",
-                        "flavor_text": "向对手喷射煮得翻滚的开水进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９１",
-                        "method": "招式学习器",
-                        "name": "吵闹",
-                        "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９８",
-                        "method": "招式学习器",
-                        "name": "灵骚",
-                        "flavor_text": "操纵对手的持有物进行攻击。当对手没有携带道具时，使出此招式时便会失败。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "110",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０２",
-                        "method": "招式学习器",
-                        "name": "分担痛楚",
-                        "flavor_text": "将自己的ＨＰ和对手的ＨＰ相加，然后自己和对手友好地平分。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０３",
-                        "method": "招式学习器",
-                        "name": "自我暗示",
-                        "flavor_text": "向自己施以自我暗示，将能力变化的状态变得和对手一样。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２４",
-                        "method": "招式学习器",
-                        "name": "咒术",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "斯魔茶",
+      "origin": "来自“斯”（指示代词：这，这个；同时谐音“死”），“魔”或“魔力”和“茶”，谐音“是抹茶”，对应怖思壶名字的谐音“不是壶”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Poltchageist",
+      "origin": "来自 poltergeist（骚灵）和 matcha（抹茶），对应怖思壶的名字 Polteageist。"
+    },
+    {
+      "language": "法文",
+      "name": "Poltchageist",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Mortcha",
+      "origin": "来自 Matcha（抹茶）和拉丁文 mors（死亡），对应怖思壶的名字 Mortipot。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Poltchageist",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Poltchageist",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "차데스 Chadeseu",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "斯魔茶",
+      "types": [
+        "草",
+        "幽灵"
+      ],
+      "category": "抹茶宝可梦",
+      "abilities": [
         {
-            "name": "斯魔茶",
-            "image": "1012-斯魔茶.png",
-            "shiny": "1012-斯魔茶-shiny.png"
+          "name": "款待",
+          "is_hidden": false
         },
         {
-            "name": "斯魔茶-冒牌货的样子",
-            "image": "1012-斯魔茶-冒牌货的样子.png",
-            "shiny": "1012-斯魔茶-冒牌货的样子-shiny.png"
-        },
-        {
-            "name": "斯魔茶-高档货的样子",
-            "image": "1012-斯魔茶-高档货的样子.png",
-            "shiny": "1012-斯魔茶-高档货的样子-shiny.png"
+          "name": "耐热",
+          "is_hidden": true
         }
+      ],
+      "height": "0.1m",
+      "weight": "1.1kg",
+      "color": "绿色",
+      "catch_rate": "120（15.7%）",
+      "egg_groups": [
+        "矿物",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body01.png",
+      "footprint": "FUnknown.png",
+      "image": "1012Poltchageist.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "40",
+        "attack": "45",
+        "defense": "45",
+        "sp_attack": "74",
+        "sp_defense": "54",
+        "speed": "50"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0"
+    },
+    {
+      "type": "格斗",
+      "damage": "0"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "0.5"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "2"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "2"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "据说是死前未能在茶道上登峰造极的茶道家的遗恨附到抹茶上所变成的宝可梦。（冒牌货的样子）会将由粉末构成的身体中的一部分洒到食物上，然后吸取舔了粉末的对手的精气。（高档货的样子）"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "看似是来悲茶的地区形态，但最近被发现其实两者之间毫无关系。（冒牌货的样子）住在昂贵茶罐中的样子。虽然与便宜货不同，但外行人分辨不出来。（高档货的样子）"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "斯魔茶",
+        "stage": "未进化",
+        "text": null,
+        "image": "1012Poltchageist_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "冒牌货的样子"
+      },
+      {
+        "name": "来悲粗茶",
+        "stage": "1阶进化",
+        "text": "使用凡作茶碗",
+        "image": "1013Sinistcha_Dream.png",
+        "back_text": "",
+        "from": "斯魔茶",
+        "form_name": "凡作的样子"
+      }
+    ],
+    [
+      {
+        "name": "斯魔茶",
+        "stage": "未进化",
+        "text": null,
+        "image": "1012Poltchageist_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "高档货的样子"
+      },
+      {
+        "name": "来悲粗茶",
+        "stage": "1阶进化",
+        "text": "使用杰作茶碗",
+        "image": "1013Sinistcha_Dream.png",
+        "back_text": "",
+        "from": "斯魔茶",
+        "form_name": "杰作的样子"
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "麻痹粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "缩入壳中",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "6",
+      "name": "吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "12",
+      "name": "生命水滴",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "18",
+      "name": "移花接木",
+      "type": "恶",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "24",
+      "name": "超级吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "30",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "36",
+      "name": "愤怒粉",
+      "type": "虫",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "42",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "54",
+      "name": "临别礼物",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "60",
+      "name": "飞叶风暴",
+      "type": "草",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２９",
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０３３",
+      "name": "魔法叶",
+      "type": "草",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４２",
+      "name": "黑夜魔影",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６２",
+      "name": "移花接木",
+      "type": "恶",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７４",
+      "name": "反射壁",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９２",
+      "name": "封印",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０４",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１１",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１４",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１９",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２９",
+      "name": "冥想",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３７",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４０",
+      "name": "诡计",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１５１",
+      "name": "潜灵奇袭",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５９",
+      "name": "飞叶风暴",
+      "type": "草",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６１",
+      "name": "戏法空间",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７７",
+      "name": "怨恨",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８８",
+      "name": "热水",
+      "type": "水",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１９１",
+      "name": "吵闹",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９８",
+      "name": "灵骚",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "110",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０２",
+      "name": "分担痛楚",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０３",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "斯魔茶",
+      "image": "1012-斯魔茶.png",
+      "shiny": "1012-斯魔茶-shiny.png"
+    },
+    {
+      "name": "斯魔茶-冒牌货的样子",
+      "image": "1012-斯魔茶-冒牌货的样子.png",
+      "shiny": "1012-斯魔茶-冒牌货的样子-shiny.png"
+    },
+    {
+      "name": "斯魔茶-高档货的样子",
+      "image": "1012-斯魔茶-高档货的样子.png",
+      "shiny": "1012-斯魔茶-高档货的样子-shiny.png"
+    }
+  ]
 }

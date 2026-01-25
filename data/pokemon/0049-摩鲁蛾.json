@@ -1,1033 +1,1270 @@
 {
-    "name": "摩鲁蛾",
-    "index": "0049",
-    "name_en": "Venomoth",
-    "name_jp": "モルフォン",
-    "profile": "摩鲁蛾有着淡紫色的身子和覆盖白色绒毛的腹部。它的眼睛像水泡一样，里面有黑色的眼珠。口器为两颗尖牙。它的头顶有三根细长凸起，胸部长有三对细小的足。它有两对巨大翅膀。\n摩鲁蛾具有夜行性，会在夜间开始活动，喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。它会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。它的翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。翅膀上覆着的磷粉根据颜色的不同似乎会带有不同的毒，浓的会使人中毒，淡的会使人麻痹，起效效果不同。如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。碰到它播撒的鳞粉后，身体的感觉就会失常，变得无法笔直站立。\n",
-    "forms": [
-        {
-            "name": "摩鲁蛾",
-            "index": "0049",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0049-摩鲁蛾.png",
-            "types": [
-                "虫",
-                "毒"
-            ],
-            "genus": "毒蛾宝可梦",
-            "ability": [
-                {
-                    "name": "鳞粉",
-                    "is_hidden": false
-                },
-                {
-                    "name": "有色眼镜",
-                    "is_hidden": false
-                },
-                {
-                    "name": "奇迹皮肤",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "1.5m",
-            "weight": "12.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "多翅形",
-            "color": "紫色",
-            "catch_rate": {
-                "number": "75",
-                "rate": "9.8%"
-            },
-            "egg_groups": [
-                "虫"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "70",
-                "attack": "65",
-                "defense": "60",
-                "sp_attack": "90",
-                "sp_defense": "75",
-                "speed": "90"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "覆盖在它翅膀上像灰一样的鳞片，是辨别它所具毒性种类的色码。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "翅膀上的磷粉颜色浓的会使人中毒，淡的会使人麻痹，起效效果不同。*"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "碰到它播撒的鳞粉后，身体的感觉就会失常，变得无法笔直站立。"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "覆盖在它翅膀上像灰一样的鳞片，是辨别它所具毒性种类的色码。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "翅膀上的磷粉颜色浓的会使人中毒，淡的会使人麻痹，起效效果不同。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "碰到它播撒的鳞粉后，身体的感觉就会失常，变得无法笔直站立。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "毛球",
-                "stage": "未进化",
-                "text": null,
-                "image": "048Venonat_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "摩鲁蛾",
-                "stage": "1阶进化",
-                "text": "等级31以上",
-                "image": "049Venomoth_Dream.png",
-                "back_text": "",
-                "from": "毛球",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "摩鲁蛾",
-        "en": "Venomoth",
-        "fr": "Venomoth",
-        "zh_hant": "摩魯蛾",
-        "de": "Omot",
-        "it": "Venomoth",
-        "es": "Venomoth",
-        "ja": "モルフォン",
-        "ko": "도나리"
+  "name_zh": "摩鲁蛾",
+  "name_ja": "モルフォン",
+  "name_en": "Venomoth",
+  "pokedex_id": "0049",
+  "description": "摩鲁蛾（日文︰モルフォン，英文︰Venomoth）是虫属性／毒属性宝可梦。",
+  "profile": "摩鲁蛾有着淡紫色的身子和覆盖白色绒毛的腹部。它的眼睛像水泡一样，里面有黑色的眼珠。口器为两颗尖牙。它的头顶有三根细长凸起，胸部长有三对细小的足。它有两对巨大翅膀。\n摩鲁蛾具有夜行性，会在夜间开始活动，喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。它会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。它的翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。翅膀上覆着的磷粉根据颜色的不同似乎会带有不同的毒，浓的会使人中毒，淡的会使人麻痹，起效效果不同。如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。碰到它播撒的鳞粉后，身体的感觉就会失常，变得无法笔直站立。",
+  "prototype": "摩鲁蛾可能基于燕蛾科蛾类，外形与凤蝶相似，后翅有尾状突起。\n有尖牙的嘴及捕食的习性可能基于汲取蛾，它们用口器叮咬动物的皮肤并吸食血液。\n异色的摩鲁蛾和摩尔弗蝶的青蓝色一致。",
+  "detail": "有都市传说称毛球原本的进化是巴大蝶，因为毛球和巴大蝶外观相似度很高。但其实毛球是蛾茧的样子，而巴大蝶是蝴蝶宝可梦。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步摩鲁蛾（Pokémon GO）。\n←\nNo.0048：毛球\n宝可梦\nNo.0050：地鼠\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "モルフォン Morphon",
+      "origin": "可能来自学名 Morpho（闪蝶属）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "空气之刃",
-                        "flavor_text": "用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "超音波",
-                        "flavor_text": "从身体发出特殊的音波，从而使对手混乱。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "55",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "定身法",
-                        "flavor_text": "阻碍对手行动，之前使出的招式将在４回合内无法使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蝶舞",
-                        "flavor_text": "轻巧地跳起神秘而又美丽的舞蹈。提高自己的特攻、特防和速度。",
-                        "type": "虫",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "11",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "念力",
-                        "flavor_text": "向对手发送微弱的念力进行攻击。有时会使对手混乱。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "13",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒粉",
-                        "flavor_text": "撒出毒粉，从而让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "17",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "幻象光线",
-                        "flavor_text": "向对手发射神奇的光线进行攻击。有时会使对手混乱。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "23",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "麻痹粉",
-                        "flavor_text": "撒出麻痹粉，从而让对手陷入麻痹状态。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "虫鸣",
-                        "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "29",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "催眠粉",
-                        "flavor_text": "撒出催眠粉，从而让对手陷入睡眠状态。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "汲取",
-                        "flavor_text": "吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "41",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "意念头锤",
-                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "47",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剧毒牙",
-                        "flavor_text": "用有毒的牙齿咬住对手进行攻击。有时会使对手中剧毒。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "55",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "精神强念",
-                        "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００４",
-                        "method": "招式学习器",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１４",
-                        "method": "招式学习器",
-                        "name": "杂技",
-                        "flavor_text": "轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１５",
-                        "method": "招式学习器",
-                        "name": "虫之抵抗",
-                        "flavor_text": "抵抗并攻击对手。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１６",
-                        "method": "招式学习器",
-                        "name": "幻象光线",
-                        "flavor_text": "向对手发射神奇的光线进行攻击。有时会使对手混乱。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１７",
-                        "method": "招式学习器",
-                        "name": "奇异之光",
-                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１８",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２１",
-                        "method": "招式学习器",
-                        "name": "虫扑",
-                        "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４０",
-                        "method": "招式学习器",
-                        "name": "空气利刃",
-                        "flavor_text": "用锐利的风切斩对手进行攻击。容易击中要害。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４２",
-                        "method": "招式学习器",
-                        "name": "黑夜魔影",
-                        "flavor_text": "显示恐怖幻影，只给予对手和自己等级相同的伤害。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５９",
-                        "method": "招式学习器",
-                        "name": "意念头锤",
-                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６０",
-                        "method": "招式学习器",
-                        "name": "急速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６５",
-                        "method": "招式学习器",
-                        "name": "空气之刃",
-                        "flavor_text": "用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９１",
-                        "method": "招式学习器",
-                        "name": "毒菱",
-                        "flavor_text": "在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９５",
-                        "method": "招式学习器",
-                        "name": "汲取",
-                        "flavor_text": "吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９８",
-                        "method": "招式学习器",
-                        "name": "特性互换",
-                        "flavor_text": "利用超能力互换自己和对手的特性。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１１",
-                        "method": "招式学习器",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１９",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２０",
-                        "method": "招式学习器",
-                        "name": "精神强念",
-                        "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３２",
-                        "method": "招式学习器",
-                        "name": "接棒",
-                        "flavor_text": "和后备宝可梦进行替换。换上的宝可梦能直接继承其能力的变化。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４８",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６２",
-                        "method": "招式学习器",
-                        "name": "虫鸣",
-                        "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６８",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８２",
-                        "method": "招式学习器",
-                        "name": "虫咬",
-                        "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８５",
-                        "method": "招式学习器",
-                        "name": "猛扑",
-                        "flavor_text": "全力猛扑对手进行攻击。从而降低对手的攻击。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０５",
-                        "method": "招式学习器",
-                        "name": "蛮干",
-                        "flavor_text": "给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１４",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１９",
-                        "method": "招式学习器",
-                        "name": "爬击",
-                        "flavor_text": "从对手背后爬近后进行攻击。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２８",
-                        "method": "招式学习器",
-                        "name": "精神噪音",
-                        "flavor_text": "用令对手不舒服的音波进行攻击。让对手在２回合内无法通过招式、特性或携带的道具回复ＨＰ。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "摩魯蛾摩鲁蛾",
+      "origin": "来自日文名的音译和“蛾”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "末入蛾",
+      "origin": "来自日文名的音译和“蛾”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "摩魯蛾",
+      "origin": "来自日文名的音译和“蛾”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "末入蛾",
+      "origin": "来自日文名的音译和“蛾”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "摩魯蛾",
+      "origin": "来自日文名的音译和“蛾”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "魔魯風",
+      "origin": "来自日文名的音译。"
+    },
+    {
+      "language": "英文",
+      "name": "Venomoth",
+      "origin": "来自 venom（毒液）和 moth（蛾）。"
+    },
+    {
+      "language": "法文",
+      "name": "Aéromite",
+      "origin": "来自前缀 aéro-（表示“空气”）和 mite（蛾）。"
+    },
+    {
+      "language": "德文",
+      "name": "Omot",
+      "origin": "来自 Motte（蛾）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Venomoth",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Venomoth",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "도나리 Donari",
+      "origin": "来自“독〈毒〉”（毒）和“날개”（羽）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "摩鲁蛾",
+      "types": [
+        "虫",
+        "毒"
+      ],
+      "category": "毒蛾宝可梦",
+      "abilities": [
         {
-            "name": "摩鲁蛾",
-            "image": "0049-摩鲁蛾.png",
-            "shiny": "0049-摩鲁蛾-shiny.png"
+          "name": "鳞粉",
+          "is_hidden": false
+        },
+        {
+          "name": "有色眼镜",
+          "is_hidden": false
+        },
+        {
+          "name": "奇迹皮肤",
+          "is_hidden": true
         }
+      ],
+      "height": "1.5m",
+      "weight": "12.5kg",
+      "color": "紫色",
+      "catch_rate": "75（9.8%）",
+      "egg_groups": [
+        "虫群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body13.png",
+      "footprint": "F049.png",
+      "image": "049Venomoth.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "70",
+        "attack": "65",
+        "defense": "60",
+        "sp_attack": "90",
+        "sp_defense": "75",
+        "speed": "90"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "0.25"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.25"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "覆盖在它翅膀上像灰一样的鳞片，是辨别它所具毒性种类的色码。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "翅膀上的磷粉颜色浓的会使人中毒，淡的会使人麻痹，起效效果不同。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "碰到它播撒的鳞粉后，身体的感觉就会失常，变得无法笔直站立。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "覆盖在它翅膀上像灰一样的鳞片，是辨别它所具毒性种类的色码。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "翅膀上的磷粉颜色浓的会使人中毒，淡的会使人麻痹，起效效果不同。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "碰到它播撒的鳞粉后，身体的感觉就会失常，变得无法笔直站立。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "具有夜行性，会在夜间开始活动。喜欢捕食被路灯灯光吸引而聚集在一起的小虫子。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "如果不小心把它翅膀上的鳞粉沾到了身上，那不但会很难去除，更糟的是毒素也会从那里渗入。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "扇动翅膀时会把鳞粉散布出去。如果鳞粉沾到了身上，毒素会从皮肤渗入身体。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "翅膀上附着着鳞粉，每次翩翩扇动翅膀，就会播撒剧毒的粉末。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "会激烈地拍动大大的翅膀，并且撒下毒粉来发动攻击。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "毛球",
+        "stage": "未进化",
+        "text": null,
+        "image": "048Venonat_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "摩鲁蛾",
+        "stage": "1阶进化",
+        "text": "等级31以上",
+        "image": "049Venomoth_Dream.png",
+        "back_text": "",
+        "from": "毛球",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "超音波",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "55",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "蝶舞",
+      "type": "虫",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "11",
+      "name": "念力",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "13",
+      "name": "毒粉",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "35"
+    },
+    {
+      "level": "17",
+      "name": "幻象光线",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "23",
+      "name": "麻痹粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "30"
+    },
+    {
+      "level": "25",
+      "name": "虫鸣",
+      "type": "虫",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "29",
+      "name": "催眠粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "level": "37",
+      "name": "汲取",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "41",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "level": "47",
+      "name": "剧毒牙",
+      "type": "毒",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "55",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００４",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１４",
+      "name": "杂技",
+      "type": "飞行",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０１５",
+      "name": "虫之抵抗",
+      "type": "虫",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１６",
+      "name": "幻象光线",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１７",
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２１",
+      "name": "虫扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４０",
+      "name": "空气利刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０４２",
+      "name": "黑夜魔影",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６０",
+      "name": "急速折返",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０６５",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９１",
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９５",
+      "name": "汲取",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９８",
+      "name": "特性互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１１",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１９",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２０",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３２",
+      "name": "接棒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器１４８",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６２",
+      "name": "虫鸣",
+      "type": "虫",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８２",
+      "name": "虫咬",
+      "type": "虫",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８５",
+      "name": "猛扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０５",
+      "name": "蛮干",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２１４",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１９",
+      "name": "爬击",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２８",
+      "name": "精神噪音",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "123",
+          "name": "飞天螳螂"
+        },
+        {
+          "id": "167",
+          "name": "圆丝蛛"
+        },
+        {
+          "id": "168",
+          "name": "阿利多斯"
+        },
+        {
+          "id": "212",
+          "name": "巨钳螳螂"
+        },
+        {
+          "id": "283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "595",
+          "name": "电电虫"
+        },
+        {
+          "id": "596",
+          "name": "电蜘蛛"
+        },
+        {
+          "id": "738",
+          "name": "锹农炮虫"
+        },
+        {
+          "id": "900",
+          "name": "劈斧螳螂"
+        },
+        {
+          "id": "919",
+          "name": "豆蟋蟀"
+        },
+        {
+          "id": "920",
+          "name": "烈腿蝗"
+        }
+      ],
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "193",
+          "name": "蜻蜻蜓"
+        },
+        {
+          "id": "207",
+          "name": "天蝎"
+        },
+        {
+          "id": "0329",
+          "name": "超音波幼虫"
+        },
+        {
+          "id": "0330",
+          "name": "沙漠蜻蜓"
+        },
+        {
+          "id": "402",
+          "name": "音箱蟀"
+        },
+        {
+          "id": "469",
+          "name": "远古巨蜓"
+        },
+        {
+          "id": "472",
+          "name": "天蝎王"
+        },
+        {
+          "id": "595",
+          "name": "电电虫"
+        },
+        {
+          "id": "596",
+          "name": "电蜘蛛"
+        },
+        {
+          "id": "636",
+          "name": "燃烧虫"
+        },
+        {
+          "id": "637",
+          "name": "火神蛾"
+        },
+        {
+          "id": "919",
+          "name": "豆蟋蟀"
+        },
+        {
+          "id": "920",
+          "name": "烈腿蝗"
+        }
+      ],
+      "name": "刺耳声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "溜溜糖球"
+        }
+      ],
+      "name": "接棒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "晨光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "佛烈托斯"
+        }
+      ],
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "168",
+          "name": "阿利多斯"
+        },
+        {
+          "id": "193",
+          "name": "蜻蜻蜓"
+        },
+        {
+          "id": "204",
+          "name": "榛果球"
+        },
+        {
+          "id": "205",
+          "name": "佛烈托斯"
+        },
+        {
+          "id": "401",
+          "name": "圆法师"
+        },
+        {
+          "id": "415",
+          "name": "三蜜蜂"
+        },
+        {
+          "id": "469",
+          "name": "远古巨蜓"
+        },
+        {
+          "id": "540",
+          "name": "虫宝包"
+        },
+        {
+          "id": "541",
+          "name": "宝包茧"
+        },
+        {
+          "id": "595",
+          "name": "电电虫"
+        },
+        {
+          "id": "596",
+          "name": "电蜘蛛"
+        },
+        {
+          "id": "637",
+          "name": "火神蛾"
+        },
+        {
+          "id": "664",
+          "name": "粉蝶虫"
+        },
+        {
+          "id": "736",
+          "name": "强颚鸡母虫"
+        },
+        {
+          "id": "737",
+          "name": "虫电宝"
+        },
+        {
+          "id": "751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "752",
+          "name": "滴蛛霸"
+        },
+        {
+          "id": "917",
+          "name": "团珠蛛"
+        },
+        {
+          "id": "918",
+          "name": "操陷蛛"
+        },
+        {
+          "id": "919",
+          "name": "豆蟋蟀"
+        },
+        {
+          "id": "920",
+          "name": "烈腿蝗"
+        },
+        {
+          "id": "953",
+          "name": "虫滚泥"
+        },
+        {
+          "id": "954",
+          "name": "虫甲圣"
+        }
+      ],
+      "name": "虫咬",
+      "type": "虫",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "火神蛾"
+        }
+      ],
+      "name": "愤怒粉",
+      "type": "虫",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "摩鲁蛾",
+      "image": "0049-摩鲁蛾.png",
+      "shiny": "0049-摩鲁蛾-shiny.png"
+    }
+  ]
 }

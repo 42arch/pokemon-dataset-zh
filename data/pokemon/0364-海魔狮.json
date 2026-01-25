@@ -1,819 +1,1309 @@
 {
-    "name": "海魔狮",
-    "index": "0364",
-    "name_en": "Sealeo",
-    "name_jp": "トドグラー",
-    "profile": "海魔狮的身体正面是米色，上颚有两个短牙。它有一对前鳍条和一个短的鳍状尾，两侧有浓密的白色胡须。\n海魔狮会群聚在流冰上生活，总是在用鼻子转着什么。它能一边游泳一边分辨猎物的味道，找到对方的位置并将其捕获。它有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性，用鼻子接触对方来记住触感和味道。它鼻子的神经很敏感，一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。它两腮的白胡须有着敏锐的知觉，可以将海豹球置于鼻尖从触感及体味确认其是否健康。它前脚的力量非常大，能把流冰击碎，一天内会有5次潜入海中捕捉猎物。\n",
-    "forms": [
-        {
-            "name": "海魔狮",
-            "index": "0364",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0364-海魔狮.png",
-            "types": [
-                "冰",
-                "水"
-            ],
-            "genus": "滚球宝可梦",
-            "ability": [
-                {
-                    "name": "厚脂肪",
-                    "is_hidden": false
-                },
-                {
-                    "name": "冰冻之躯",
-                    "is_hidden": false
-                },
-                {
-                    "name": "迟钝",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "1.1m",
-            "weight": "87.6kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "鱼形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "120",
-                "rate": "15.7%"
-            },
-            "egg_groups": [
-                "水中1",
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "90",
-                "attack": "60",
-                "defense": "70",
-                "sp_attack": "75",
-                "sp_defense": "70",
-                "speed": "45"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性。有时候也会转海豹球玩。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "总是在用鼻子转着什么。一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "会群聚在流冰上生活。前脚的力量非常大，能把流冰击碎。一天内会有5次潜入海中捕捉猎物。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "用鼻子接触对方来记住触感和味道。会把海豹球顶在鼻子上转来转去地玩耍。*"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "用鼻子接触对方来记住触感和味道。会把海豹球顶在鼻子上转来转去地玩耍。*"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "鼻子的神经很敏感。对于第一次看到的物体，会用鼻子碰触来记住。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "鼻子的神经很敏感。对于第一次看到的物体，会用鼻子碰触来记住。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "鼻子的神经很敏感。对于第一次看到的物体，会用鼻子碰触来记住。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性。有时候也会转海豹球玩。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "总是在用鼻子转着什么。一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "在浮冰上生活。能一边游泳一边分辨猎物的味道，找到对方的位置并将其捕获。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "不管是海豹球还是精灵球，只要是圆的物体都会顶在鼻子上转来转去。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
-                },
-                {
-                    "name": "传说 阿尔宙斯",
-                    "group": "宝可梦传说 阿尔宙斯",
-                    "text": "两腮的白胡须有着敏锐的知觉，会将海豹球置于鼻尖，从触感及体味确认其是否健康。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "海豹球",
-                "stage": "未进化",
-                "text": null,
-                "image": "363Spheal_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "海魔狮",
-                "stage": "1阶进化",
-                "text": "等级32以上",
-                "image": "364Sealeo_Dream.png",
-                "back_text": "",
-                "from": "海豹球",
-                "form_name": null
-            },
-            {
-                "name": "帝牙海狮",
-                "stage": "2阶进化",
-                "text": "等级44以上",
-                "image": "365Walrein_Dream.png",
-                "back_text": "",
-                "from": "海魔狮",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "海魔狮",
-        "en": "씨레오 Ssileo",
-        "fr": "씨레오 Ssileo",
-        "zh_hant": "海魔獅",
-        "de": "Seejong",
-        "it": "Sealeo",
-        "es": "Sealeo",
-        "ja": "トドグラー",
-        "ko": "씨레오"
+  "name_zh": "海魔狮",
+  "name_ja": "トドグラー",
+  "name_en": "Sealeo",
+  "pokedex_id": "0364",
+  "description": "海魔狮（日文︰トドグラー，英文︰Sealeo）是冰属性／水属性宝可梦。",
+  "profile": "海魔狮的身体正面是米色，上颚有两个短牙。它有一对前鳍条和一个短的鳍状尾，两侧有浓密的白色胡须。\n海魔狮会群聚在流冰上生活，总是在用鼻子转着什么。它能一边游泳一边分辨猎物的味道，找到对方的位置并将其捕获。它有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性，用鼻子接触对方来记住触感和味道。它鼻子的神经很敏感，一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。它两腮的白胡须有着敏锐的知觉，可以将海豹球置于鼻尖从触感及体味确认其是否健康。它前脚的力量非常大，能把流冰击碎，一天内会有5次潜入海中捕捉猎物。",
+  "prototype": "海魔狮用鼻子玩物体的习性基于海洋馆被训练顶球的海狮，但其外形相比海狮更接近海豹。",
+  "detail": "海魔狮的白色胡须参考了现实中海狮的胡须，同时也具有海象一样外露的尖牙。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步海魔狮（Pokémon GO）。\n←\nNo.0363：海豹球\n宝可梦\nNo.0365：帝牙海狮\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "トドグラー Todoggler",
+      "origin": "来自“胡獱（とど）”（北海狮）和英文 juggler（杂耍艺人）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "进化",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "虚张声势",
-                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "虚张声势",
-                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "滚动",
-                        "flavor_text": "在５回合内连续滚动攻击对手。招式每次击中，威力就会提高。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "变圆",
-                        "flavor_text": "将身体蜷曲变圆，从而提高自己的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叫声",
-                        "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "细雪",
-                        "flavor_text": "将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "极光束",
-                        "flavor_text": "向对手发射虹色光束进行攻击。有时会降低对手的攻击。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "再来一次",
-                        "flavor_text": "让对手接受再来一次，连续３次使出最后使用的招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "46",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "52",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "58",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰雹",
-                        "flavor_text": "在５回合内一直降冰雹，除冰属性的宝可梦以外，给予全体宝可梦伤害。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "64",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "绝对零度",
-                        "flavor_text": "给对手一击昏厥。如果是冰属性以外的宝可梦使用，就会难以打中。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "—",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２７",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３３",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３５",
-                        "method": "招式学习器",
-                        "name": "冰雹",
-                        "flavor_text": "在５回合内一直降冰雹，除冰属性的宝可梦以外，给予全体宝可梦伤害。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３６",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４５",
-                        "method": "招式学习器",
-                        "name": "潜水",
-                        "flavor_text": "第１回合潜入水中，第２回合浮上来进行攻击。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４８",
-                        "method": "招式学习器",
-                        "name": "岩石封锁",
-                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５１",
-                        "method": "招式学习器",
-                        "name": "冰锥",
-                        "flavor_text": "向对手发射锋利的冰柱进行攻击。连续攻击２～５次。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５５",
-                        "method": "招式学习器",
-                        "name": "盐水",
-                        "flavor_text": "当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８１",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０４",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０６",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１０",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１６",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３０",
-                        "method": "招式学习器",
-                        "name": "再来一次",
-                        "flavor_text": "让对手接受再来一次，连续３次使出最后使用的招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３１",
-                        "method": "招式学习器",
-                        "name": "铁尾",
-                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "75",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "海魔獅海魔狮",
+      "origin": "来自“海狮”和“魔术师”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "海魔狮",
+      "origin": "来自“海狮”和“魔术师”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "海魔獅",
+      "origin": "来自“海狮”和“魔术师”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "海魔獅",
+      "origin": "来自“海狮”和“魔术师”。"
+    },
+    {
+      "language": "英文",
+      "name": "Sealeo",
+      "origin": "来自 sea lion（海狮）和拉丁文 leo（狮子）。"
+    },
+    {
+      "language": "法文",
+      "name": "Phogleur",
+      "origin": "来自 phoque（海豹）和 jongleur（杂耍艺人）。"
+    },
+    {
+      "language": "德文",
+      "name": "Seejong",
+      "origin": "来自 Seelöwe（海狮）和  Jongleur（杂耍艺人）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Sealeo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Sealeo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "씨레오 Sealeo",
+      "origin": "来自英文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "海魔狮",
+      "types": [
+        "冰",
+        "水"
+      ],
+      "category": "滚球宝可梦",
+      "abilities": [
         {
-            "name": "海魔狮",
-            "image": "0364-海魔狮.png",
-            "shiny": "0364-海魔狮-shiny.png"
+          "name": "厚脂肪",
+          "is_hidden": false
+        },
+        {
+          "name": "冰冻之躯",
+          "is_hidden": false
+        },
+        {
+          "name": "迟钝",
+          "is_hidden": true
         }
+      ],
+      "height": "1.1m",
+      "weight": "87.6kg",
+      "color": "蓝色",
+      "catch_rate": "120（15.7%）",
+      "egg_groups": [
+        "水中1",
+        "陆上群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body03.png",
+      "footprint": "F364.png",
+      "image": "364Sealeo.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "90",
+        "attack": "60",
+        "defense": "70",
+        "sp_attack": "75",
+        "sp_defense": "70",
+        "speed": "45"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.25"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性。有时候也会转海豹球玩。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "总是在用鼻子转着什么。一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "会群聚在流冰上生活。前脚的力量非常大，能把流冰击碎。一天内会有5次潜入海中捕捉猎物。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "用鼻子接触对方来记住触感和味道。会把海豹球顶在鼻子上转来转去地玩耍。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "用鼻子接触对方来记住触感和味道。会把海豹球顶在鼻子上转来转去地玩耍。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "鼻子的神经很敏感。对于第一次看到的物体，会用鼻子碰触来记住。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "鼻子的神经很敏感。对于第一次看到的物体，会用鼻子碰触来记住。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "鼻子的神经很敏感。对于第一次看到的物体，会用鼻子碰触来记住。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "只要是圆的，无论是精灵球还是海豹球，都能顶在鼻子上随心所欲地骨碌骨碌转。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "有着遇上第一次看到的物体时，必定会用鼻子顶着转转看的习性。有时候也会转海豹球玩。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "总是在用鼻子转着什么。一边转一边确认气味和触感，分辨喜欢的和讨厌的东西。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "在浮冰上生活。能一边游泳一边分辨猎物的味道，找到对方的位置并将其捕获。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "不管是海豹球还是精灵球，只要是圆的物体都会顶在鼻子上转来转去。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "习惯把什么东西都顶在鼻子上转。一边转一边记住气味和触感。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": "两腮的白胡须有着敏锐的知觉，会将海豹球置于鼻尖，从触感及体味确认其是否健康。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "海豹球",
+        "stage": "未进化",
+        "text": null,
+        "image": "363Spheal_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "海魔狮",
+        "stage": "1阶进化",
+        "text": "等级32以上",
+        "image": "364Sealeo_Dream.png",
+        "back_text": "",
+        "from": "海豹球",
+        "form_name": null
+      },
+      {
+        "name": "帝牙海狮",
+        "stage": "2阶进化",
+        "text": "等级44以上",
+        "image": "365Walrein_Dream.png",
+        "back_text": "",
+        "from": "海魔狮",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "虚张声势",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "虚张声势",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "滚动",
+      "type": "岩石",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "变圆",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "12",
+      "name": "细雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "16",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "20",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "24",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "28",
+      "name": "极光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "35",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "40",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "46",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "52",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "level": "58",
+      "name": "冰雹",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "64",
+      "name": "绝对零度",
+      "type": "冰",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２７",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３３",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器３５",
+      "name": "冰雹",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３６",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４５",
+      "name": "潜水",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４８",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５１",
+      "name": "冰锥",
+      "type": "冰",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器５５",
+      "name": "盐水",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器８１",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录０１",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录０４",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录０５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录０６",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录１０",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录１６",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录３０",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录３１",
+      "name": "铁尾",
+      "type": "钢",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "75",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "079",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "079G",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "080",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "080G",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "199",
+          "name": "呆呆王"
+        },
+        {
+          "id": "199G",
+          "name": "呆呆王"
+        },
+        {
+          "id": "222G",
+          "name": "太阳珊瑚"
+        },
+        {
+          "id": "324",
+          "name": "煤炭龟"
+        },
+        {
+          "id": "564",
+          "name": "原盖海龟"
+        },
+        {
+          "id": "565",
+          "name": "肋骨海龟"
+        },
+        {
+          "id": "771",
+          "name": "拳海参"
+        },
+        {
+          "id": "864",
+          "name": "魔灵珊瑚"
+        },
+        {
+          "id": null,
+          "name": "啪嚓海胆"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "050",
+          "name": "地鼠"
+        },
+        {
+          "id": "050A",
+          "name": "地鼠"
+        },
+        {
+          "id": "051",
+          "name": "三地鼠"
+        },
+        {
+          "id": "051A",
+          "name": "三地鼠"
+        },
+        {
+          "id": "449",
+          "name": "沙河马"
+        },
+        {
+          "id": "450",
+          "name": "河马兽"
+        },
+        {
+          "id": "529",
+          "name": "螺钉地鼠"
+        },
+        {
+          "id": "530",
+          "name": "龙头地鼠"
+        },
+        {
+          "id": "618",
+          "name": "泥巴鱼"
+        }
+      ],
+      "name": "地裂",
+      "type": "地面",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "30",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "303",
+          "name": "大嘴娃"
+        },
+        {
+          "id": "631",
+          "name": "熔蚁兽"
+        },
+        {
+          "id": "819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "蓄力",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "303",
+          "name": "大嘴娃"
+        },
+        {
+          "id": "631",
+          "name": "熔蚁兽"
+        },
+        {
+          "id": "819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "吞下",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "303",
+          "name": "大嘴娃"
+        },
+        {
+          "id": "631",
+          "name": "熔蚁兽"
+        },
+        {
+          "id": "819",
+          "name": "贪心栗鼠"
+        },
+        {
+          "id": "820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "845",
+          "name": "古月鸟"
+        }
+      ],
+      "name": "喷出",
+      "type": "一般",
+      "category": "特殊",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "007",
+          "name": "杰尼龟"
+        },
+        {
+          "id": "008",
+          "name": "卡咪龟"
+        },
+        {
+          "id": "009",
+          "name": "水箭龟"
+        },
+        {
+          "id": "054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "079",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "079G",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "080",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "080G",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "131",
+          "name": "拉普拉斯"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "199",
+          "name": "呆呆王"
+        },
+        {
+          "id": "199G",
+          "name": "呆呆王"
+        },
+        {
+          "id": "223",
+          "name": "铁炮鱼"
+        },
+        {
+          "id": "224",
+          "name": "章鱼桶"
+        },
+        {
+          "id": "226",
+          "name": "巨翅飞鱼"
+        },
+        {
+          "id": "258",
+          "name": "水跃鱼"
+        },
+        {
+          "id": "259",
+          "name": "沼跃鱼"
+        },
+        {
+          "id": "260",
+          "name": "巨沼怪"
+        },
+        {
+          "id": "278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "320",
+          "name": "吼吼鲸"
+        },
+        {
+          "id": "321",
+          "name": "吼鲸王"
+        },
+        {
+          "id": "350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "422",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "422E",
+          "name": "无壳海兔"
+        },
+        {
+          "id": "423",
+          "name": "海兔兽"
+        },
+        {
+          "id": "423E",
+          "name": "海兔兽"
+        },
+        {
+          "id": "690",
+          "name": "垃垃藻"
+        },
+        {
+          "id": "691",
+          "name": "毒藻龙"
+        },
+        {
+          "id": "692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "693",
+          "name": "钢炮臂虾"
+        },
+        {
+          "id": "816",
+          "name": "泪眼蜥"
+        },
+        {
+          "id": null,
+          "name": "变涩蜥"
+        },
+        {
+          "id": null,
+          "name": "千面避役"
+        }
+      ],
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "079",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "079G",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "080",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "080G",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "194",
+          "name": "乌波"
+        },
+        {
+          "id": "195",
+          "name": "沼王"
+        },
+        {
+          "id": "199",
+          "name": "呆呆王"
+        },
+        {
+          "id": "199G",
+          "name": "呆呆王"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "230",
+          "name": "刺龙王"
+        },
+        {
+          "id": "369",
+          "name": "古空棘鱼"
+        },
+        {
+          "id": "449",
+          "name": "沙河马"
+        },
+        {
+          "id": "450",
+          "name": "河马兽"
+        },
+        {
+          "id": "517",
+          "name": "食梦梦"
+        },
+        {
+          "id": "518",
+          "name": "梦梦蚀"
+        }
+      ],
+      "name": "哈欠",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "183",
+          "name": "玛力露"
+        },
+        {
+          "id": "184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "222",
+          "name": "太阳珊瑚"
+        },
+        {
+          "id": "226",
+          "name": "巨翅飞鱼"
+        },
+        {
+          "id": "350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "535",
+          "name": "圆蝌蚪"
+        },
+        {
+          "id": "536",
+          "name": "蓝蟾蜍"
+        },
+        {
+          "id": "537",
+          "name": "蟾蜍王"
+        },
+        {
+          "id": null,
+          "name": "滴蛛"
+        },
+        {
+          "id": null,
+          "name": "滴蛛霸"
+        }
+      ],
+      "name": "水流环",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "060",
+          "name": "蚊香蝌蚪"
+        },
+        {
+          "id": "061",
+          "name": "蚊香君"
+        },
+        {
+          "id": "062",
+          "name": "蚊香泳士"
+        },
+        {
+          "id": "186",
+          "name": "蚊香蛙皇"
+        },
+        {
+          "id": "263",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "264",
+          "name": "直冲熊"
+        },
+        {
+          "id": "554",
+          "name": "火红不倒翁"
+        },
+        {
+          "id": "554G",
+          "name": "火红不倒翁"
+        },
+        {
+          "id": "555",
+          "name": "达摩狒狒"
+        }
+      ],
+      "name": "腹鼓",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "海魔狮",
+      "image": "0364-海魔狮.png",
+      "shiny": "0364-海魔狮-shiny.png"
+    }
+  ]
 }

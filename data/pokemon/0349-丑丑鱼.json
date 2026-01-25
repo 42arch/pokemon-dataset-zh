@@ -1,644 +1,981 @@
 {
-    "name": "丑丑鱼",
-    "index": "0349",
-    "name_en": "Feebas",
-    "name_jp": "ヒンバス",
-    "profile": "丑丑鱼的鳍是蓝色的，它的身体由土黄色和蓝色为主、身上有些坑坑巴巴的，眼睛呈现呆滞的表情。它的鳍天生就破破烂烂的很不好看，外形长得实在太丑，以样子寒酸而闻名。\n丑丑鱼栖息在有许多水草的水池里面，会大量聚集在水草众多的河底生活。尽管数量非常多，但还是会聚居在一处。它在海洋和河流里都能生活，拥有惊人的生命力，因而成为了研究对象。丑丑鱼的游泳速度很快，与水中的大尾狸不相上下。它什么都吃，是即使在脏水里也完全不介意的强壮的宝可梦，呆在浑浊臭水沟里的大概就是龙虾小兵和这家伙。不过它行动迟缓，很容易被捉住。但因为破破烂烂的，谁也不要捉。因为看起来不好吃，也不会被当做猎物。结果就是，数量嗖嗖地增加起来。因为长得寒碜，大多数人看都不看，会培养它的训练家似乎很少。但是有只收集丑丑鱼的收藏家。\n",
-    "forms": [
-        {
-            "name": "丑丑鱼",
-            "index": "0349",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0349-丑丑鱼.png",
-            "types": [
-                "水"
-            ],
-            "genus": "鱼宝可梦",
-            "ability": [
-                {
-                    "name": "悠游自如",
-                    "is_hidden": false
-                },
-                {
-                    "name": "迟钝",
-                    "is_hidden": false
-                },
-                {
-                    "name": "适应力",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "600,000",
-                "speed": "最快"
-            },
-            "height": "0.6m",
-            "weight": "7.4kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "鱼形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "水中1",
-                "龙"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "20",
-                "attack": "15",
-                "defense": "20",
-                "sp_attack": "10",
-                "sp_defense": "55",
-                "speed": "80"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "因为它的鳍天生就破破烂烂的很不好看，所以是谁都不会去理睬的宝可梦。在海洋和河流里都能生活。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "该宝可梦虽然身上破破烂烂的，但有着在哪都能生存的顽强生命力。不过它行动迟缓，很容易被捉住。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "栖息在有许多水草的水池里面。由于外形长得实在太丑，因此会培养它的训练家似乎很少。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "由于据说外表很难看，连研究者也很少关注它。生存在有很多水草的水池中。*"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "由于据说外表很难看，连研究者也很少关注它。生存在有很多水草的水池中。*"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "什么都吃，所以可以在肮脏的河流或湖泊中生存。是谁也不会去关注的宝可梦。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "什么都吃，所以可以在肮脏的河流或湖泊中生存。是谁也不会去关注的宝可梦。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "因为它的鳍天生就破破烂烂的很不好看，所以是谁都不会去理睬的宝可梦。在海洋和河流里都能生活。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "该宝可梦虽然身上破破烂烂的，但有着在哪都能生存的顽强生命力。不过它行动迟缓，很容易被捉住。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "太阳",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "即使在脏水里也完全不介意的强壮的宝可梦。但破破烂烂一副寒酸的样子，所以不受欢迎。"
-                },
-                {
-                    "name": "月亮",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "外表丑陋，所以不受欢迎。拥有惊人的生命力，因而成为了研究对象。"
-                },
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "因为破破烂烂的，谁也不要捉。因为看起来不好吃，也不会被当做猎物。结果就是，数量嗖嗖地增加起来。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "因为长得寒碜，大多数人看都不看，但是有只收集丑丑鱼的收藏家。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "外表丑陋，所以不受欢迎。拥有惊人的生命力，因而成为了研究对象。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "什么都吃，所以可以在肮脏的河流或湖泊中生存。是谁也不会去关注的宝可梦。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "即使在脏水里也完全不介意的强壮的宝可梦。但破破烂烂一副寒酸的样子，所以不受欢迎。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "丑丑鱼",
-                "stage": "未进化",
-                "text": null,
-                "image": "349Feebas_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "美纳斯",
-                "stage": "1阶进化",
-                "text": "美丽度达到170以上提升等级",
-                "image": "350Milotic_Dream.png",
-                "back_text": "",
-                "from": "丑丑鱼",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "丑丑鱼",
-        "en": "Feebas",
-        "fr": "Feebas",
-        "zh_hant": "醜醜魚",
-        "de": "Barschwa",
-        "it": "Feebas",
-        "es": "Feebas",
-        "ja": "ヒンバス",
-        "ko": "빈티나"
+  "name_zh": "丑丑鱼",
+  "name_ja": "ヒンバス",
+  "name_en": "Feebas",
+  "pokedex_id": "0349",
+  "description": "丑丑鱼（日文︰ヒンバス，英文︰Feebas）是水属性宝可梦。",
+  "profile": "丑丑鱼的鳍是蓝色的，它的身体由土黄色和蓝色为主、身上有些坑坑巴巴的，眼睛呈现呆滞的表情。它的鳍天生就破破烂烂的很不好看，外形长得实在太丑，以样子寒酸而闻名。\n丑丑鱼栖息在有许多水草的水池里面，会大量聚集在水草众多的河底生活。尽管数量非常多，但还是会聚居在一处。它在海洋和河流里都能生活，拥有惊人的生命力，因而成为了研究对象。丑丑鱼的游泳速度很快，与水中的大尾狸不相上下。它什么都吃，是即使在脏水里也完全不介意的强壮的宝可梦，呆在浑浊臭水沟里的大概就是龙虾小兵和这家伙。不过它行动迟缓，很容易被捉住。但因为破破烂烂的，谁也不要捉。因为看起来不好吃，也不会被当做猎物。结果就是，数量嗖嗖地增加起来。因为长得寒碜，大多数人看都不看，会培养它的训练家似乎很少。但是有只收集丑丑鱼的收藏家。",
+  "prototype": "丑丑鱼的设计基于加入人们一般印象中的丑陋元素的辐鳍鱼类，其身体形态与褶胸鱼科略有类似。\n它的进化链设计可能参考自丹麦童话故事《丑小鸭》。\n此后的第五世代出现了直接以丑小鸭和天鹅为原型的宝可梦鸭宝宝和舞天鹅。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步丑丑鱼（Pokémon GO）。\n←\nNo.0348：太古盔甲\n宝可梦\nNo.0350：美纳斯\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ヒンバス Hinbass",
+      "origin": "来自“貧（まず）しい”（贫穷的；缺乏的）的“貧（ひん）”和英文 bass（鲈鱼）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "跃起",
-                        "flavor_text": "也不攻击只是一蹦一蹦地跳，什么都不会发生……",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抓狂",
-                        "flavor_text": "抓狂般乱打进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１７",
-                        "method": "招式学习器",
-                        "name": "奇异之光",
-                        "flavor_text": "显示奇怪的光，扰乱对手。使对手混乱。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３５",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７５",
-                        "method": "招式学习器",
-                        "name": "光墙",
-                        "flavor_text": "利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７７",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１５",
-                        "method": "招式学习器",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４３",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７４",
-                        "method": "招式学习器",
-                        "name": "黑雾",
-                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２００",
-                        "method": "招式学习器",
-                        "name": "鳞射",
-                        "flavor_text": "发射鳞片进行攻击。连续攻击２～５次。速度会提高但防御会降低。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０８",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０９",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "醜醜魚丑丑鱼",
+      "origin": "来自“丑”和“鱼”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "笨笨魚",
+      "origin": "来自“笨”和“鱼”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "醜醜魚",
+      "origin": "来自“丑”和“鱼”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "笨笨魚",
+      "origin": "来自“笨”和“鱼”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "笨笨魚",
+      "origin": "来自“笨”和“鱼”。"
+    },
+    {
+      "language": "英文",
+      "name": "Feebas",
+      "origin": "来自 feeble（贫弱的）和 bass（鲈鱼）。"
+    },
+    {
+      "language": "法文",
+      "name": "Barpau",
+      "origin": "来自 bar（鲈鱼）和 pauvre（贫穷的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Barschwa",
+      "origin": "来自 Barsch（鲈鱼）和 schwach（贫弱的）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Feebas",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Feebas",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "빈티나 Vintina",
+      "origin": "来自“빈티〈貧—〉”（很穷的样子）和“나”（具有…）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "丑丑鱼",
+      "types": [
+        "水"
+      ],
+      "category": "鱼宝可梦",
+      "abilities": [
         {
-            "name": "丑丑鱼",
-            "image": "0349-丑丑鱼.png",
-            "shiny": "0349-丑丑鱼-shiny.png"
+          "name": "悠游自如",
+          "is_hidden": false
+        },
+        {
+          "name": "迟钝",
+          "is_hidden": false
+        },
+        {
+          "name": "适应力",
+          "is_hidden": true
         }
+      ],
+      "height": "0.6m",
+      "weight": "7.4kg",
+      "color": "褐色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "水中1",
+        "龙群"
+      ],
+      "experience_100": "600,000（最快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body03.png",
+      "footprint": "F349.png",
+      "image": "349Feebas.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "20",
+        "attack": "15",
+        "defense": "20",
+        "sp_attack": "10",
+        "sp_defense": "55",
+        "speed": "80"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "因为它的鳍天生就破破烂烂的很不好看，所以是谁都不会去理睬的宝可梦。在海洋和河流里都能生活。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "该宝可梦虽然身上破破烂烂的，但有着在哪都能生存的顽强生命力。不过它行动迟缓，很容易被捉住。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "栖息在有许多水草的水池里面。由于外形长得实在太丑，因此会培养它的训练家似乎很少。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "由于据说外表很难看，连研究者也很少关注它。生存在有很多水草的水池中。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "由于据说外表很难看，连研究者也很少关注它。生存在有很多水草的水池中。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "什么都吃，所以可以在肮脏的河流或湖泊中生存。是谁也不会去关注的宝可梦。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "什么都吃，所以可以在肮脏的河流或湖泊中生存。是谁也不会去关注的宝可梦。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "因为它的鳍天生就破破烂烂的很不好看，所以是谁都不会去理睬的宝可梦。在海洋和河流里都能生活。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "该宝可梦虽然身上破破烂烂的，但有着在哪都能生存的顽强生命力。不过它行动迟缓，很容易被捉住。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "即使在脏水里也完全不介意的强壮的宝可梦。但破破烂烂一副寒酸的样子，所以不受欢迎。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "外表丑陋，所以不受欢迎。拥有惊人的生命力，因而成为了研究对象。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "外表丑陋，所以不受欢迎。拥有惊人的生命力，因而成为了研究对象。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "虽然外表丑陋，但拥有顽强的生命力，只要少量的水就能存活。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "什么都吃，所以可以在肮脏的河流或湖泊中生存。是谁也不会去关注的宝可梦。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "即使在脏水里也完全不介意的强壮的宝可梦。但破破烂烂一副寒酸的样子，所以不受欢迎。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "最寒酸的宝可梦。会大量聚集在水草众多的河底生活。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "丑丑鱼",
+        "stage": "未进化",
+        "text": null,
+        "image": "349Feebas_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "美纳斯",
+        "stage": "1阶进化",
+        "text": "美丽度达到170以上提升等级",
+        "image": "350Milotic_Dream.png",
+        "back_text": "",
+        "from": "丑丑鱼",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "跃起",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "15",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "25",
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１７",
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７５",
+      "name": "光墙",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１５",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７４",
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器２００",
+      "name": "鳞射",
+      "type": "龙",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０８",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０９",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "131",
+          "name": "拉普拉斯"
+        },
+        {
+          "id": "194",
+          "name": "乌波"
+        },
+        {
+          "id": "195",
+          "name": "沼王"
+        },
+        {
+          "id": "270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "0333",
+          "name": "青绵鸟"
+        },
+        {
+          "id": "0334",
+          "name": "七夕青鸟"
+        },
+        {
+          "id": "393",
+          "name": "波加曼"
+        },
+        {
+          "id": "394",
+          "name": "波皇子"
+        },
+        {
+          "id": "395",
+          "name": "帝王拿波"
+        },
+        {
+          "id": "0875",
+          "name": "冰砌鹅"
+        }
+      ],
+      "name": "白雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "0060",
+          "name": "蚊香蝌蚪"
+        },
+        {
+          "id": "0061",
+          "name": "蚊香君"
+        },
+        {
+          "id": "0062",
+          "name": "蚊香泳士"
+        },
+        {
+          "id": "686",
+          "name": "好啦鱿"
+        },
+        {
+          "id": "687",
+          "name": "乌贼王"
+        }
+      ],
+      "name": "催眠术",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "60",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "拉普拉斯"
+        }
+      ],
+      "name": "奇异之光",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0023",
+          "name": "阿柏蛇"
+        },
+        {
+          "id": "0024",
+          "name": "阿柏怪"
+        },
+        {
+          "id": "0194",
+          "name": "乌波"
+        },
+        {
+          "id": "0195",
+          "name": "沼王"
+        },
+        {
+          "id": "0283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "0336",
+          "name": "饭匙蛇"
+        },
+        {
+          "id": "0658",
+          "name": "甲贺忍蛙"
+        }
+      ],
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "0004",
+          "name": "小火龙"
+        },
+        {
+          "id": "0005",
+          "name": "火恐龙"
+        },
+        {
+          "id": "0006",
+          "name": "喷火龙"
+        },
+        {
+          "id": "0116",
+          "name": "墨海马"
+        },
+        {
+          "id": "0117",
+          "name": "海刺龙"
+        },
+        {
+          "id": "0230",
+          "name": "刺龙王"
+        },
+        {
+          "id": "0329",
+          "name": "超音波幼虫"
+        },
+        {
+          "id": "0330",
+          "name": "沙漠蜻蜓"
+        },
+        {
+          "id": "0333",
+          "name": "青绵鸟"
+        },
+        {
+          "id": "0334",
+          "name": "七夕青鸟"
+        },
+        {
+          "id": "0371",
+          "name": "宝贝龙"
+        },
+        {
+          "id": "0372",
+          "name": "甲壳龙"
+        },
+        {
+          "id": "0373",
+          "name": "暴飞龙"
+        },
+        {
+          "id": "0443",
+          "name": "圆陆鲨"
+        },
+        {
+          "id": "0444",
+          "name": "尖牙陆鲨"
+        },
+        {
+          "id": "0445",
+          "name": "烈咬陆鲨"
+        },
+        {
+          "id": "0633",
+          "name": "单首龙"
+        },
+        {
+          "id": "0634",
+          "name": "双首暴龙"
+        },
+        {
+          "id": "0635",
+          "name": "三首恶龙"
+        },
+        {
+          "id": "0704",
+          "name": "黏黏宝"
+        },
+        {
+          "id": "0705",
+          "name": "黏美儿"
+        },
+        {
+          "id": "0705H",
+          "name": "黏美儿"
+        },
+        {
+          "id": "0706",
+          "name": "黏美龙"
+        },
+        {
+          "id": "0706H",
+          "name": "黏美龙"
+        },
+        {
+          "id": "0841",
+          "name": "苹裹龙"
+        },
+        {
+          "id": "0887",
+          "name": "多龙巴鲁托"
+        },
+        {
+          "id": "0996",
+          "name": "凉脊龙"
+        },
+        {
+          "id": "0997",
+          "name": "冻脊龙"
+        },
+        {
+          "id": "0998",
+          "name": "戟脊龙"
+        },
+        {
+          "id": "1011",
+          "name": "裹蜜虫"
+        },
+        {
+          "id": "1019",
+          "name": "蜜集大蛇"
+        }
+      ],
+      "name": "龙息",
+      "type": "龙",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "752",
+          "name": "滴蛛霸"
+        }
+      ],
+      "name": "镜面反射",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0131",
+          "name": "拉普拉斯"
+        },
+        {
+          "id": "0183",
+          "name": "玛力露"
+        },
+        {
+          "id": "0270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "0594",
+          "name": "保姆曼波"
+        }
+      ],
+      "name": "挠痒*",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "丑丑鱼",
+      "image": "0349-丑丑鱼.png",
+      "shiny": "0349-丑丑鱼-shiny.png"
+    }
+  ]
 }

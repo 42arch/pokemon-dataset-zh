@@ -1,322 +1,383 @@
 {
-    "name": "麻麻小鱼",
-    "index": "0602",
-    "name_en": "Tynamo",
-    "name_jp": "シビシラス",
-    "profile": "麻麻小鱼是一条白色的小鱼，它的身侧有波浪形的黄色线，嘴巴是像忍者刀的星状。\n麻麻小鱼是会成群行动的宝可梦。它拥有制造电力的器官，遇到危机时就会发电。1条的麻麻小鱼的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。\n",
-    "forms": [
-        {
-            "name": "麻麻小鱼",
-            "index": "0602",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0602-麻麻小鱼.png",
-            "types": [
-                "电"
-            ],
-            "genus": "电鱼宝可梦",
-            "ability": [
-                {
-                    "name": "飘浮",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.2m",
-            "weight": "0.3kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "鱼形",
-            "color": "白色",
-            "catch_rate": {
-                "number": "190",
-                "rate": "24.8%"
-            },
-            "egg_groups": [
-                "不定形"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "35",
-                "attack": "55",
-                "defense": "40",
-                "sp_attack": "45",
-                "sp_defense": "40",
-                "speed": "60"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "会成群行动的宝可梦。拥有制造电力的器官，遇到危机时就会发电。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "会成群行动的宝可梦。拥有制造电力的器官，遇到危机时就会发电。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "麻麻小鱼",
-                "stage": "未进化",
-                "text": null,
-                "image": "602Tynamo_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "麻麻鳗",
-                "stage": "1阶进化",
-                "text": "等级39以上",
-                "image": "603Eelektrik_Dream.png",
-                "back_text": "",
-                "from": "麻麻小鱼",
-                "form_name": null
-            },
-            {
-                "name": "麻麻鳗鱼王",
-                "stage": "2阶进化",
-                "text": "使用雷之石",
-                "image": "604Eelektross_Dream.png",
-                "back_text": "",
-                "from": "麻麻鳗",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "麻麻小鱼",
-        "zh_hant": "麻麻小魚",
-        "en": "Tynamo",
-        "fr": "Tynamo",
-        "de": "Zapplardin",
-        "it": "Tynamo",
-        "es": "Tynamo",
-        "ja": "シビシラス",
-        "ko": "저리어"
+  "name_zh": "麻麻小鱼",
+  "name_ja": "シビシラス",
+  "name_en": "Tynamo",
+  "pokedex_id": "0602",
+  "description": "麻麻小鱼（日文︰シビシラス，英文︰Tynamo）是电属性宝可梦，它的设计者是大村祐介。",
+  "profile": "麻麻小鱼是一条白色的小鱼，它的身侧有波浪形的黄色线，嘴巴是像忍者刀的星状。\n麻麻小鱼是会成群行动的宝可梦。它拥有制造电力的器官，遇到危机时就会发电。1条的麻麻小鱼的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。",
+  "prototype": "麻麻小鱼可能基于鳗鱼的柳叶鳗幼体阶段。部分种类鳗鱼在刚出生时通体透明，形似柳叶，这一生长阶段被称为柳叶鳗。\n其游动方式和放电能力可能来自电鳗和裸臀鱼。\n联系其外形、蛋群和进化型，它也可能基于一些原始脊椎动物（如文昌鱼）或无颌类（如海口鱼、昆明鱼）。\n其外形轮廓和漂浮在空中的特点也会让人联想到都市传说中的神秘生物飞棍。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步麻麻小鱼（Pokémon GO）。\n←\nNo.0601：齿轮怪\n宝可梦\nNo.0603：麻麻鳗\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "シビシラス Shibishirasu",
+      "origin": "来自“痺（しび）れる”（麻痹）和“白（しら）子（す）”（魩仔鱼：白色鱼苗的总称）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "电光",
-                        "flavor_text": "让电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２３",
-                        "method": "招式学习器",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８２",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７３",
-                        "method": "招式学习器",
-                        "name": "充电",
-                        "flavor_text": "变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８１",
-                        "method": "招式学习器",
-                        "name": "拍落",
-                        "flavor_text": "拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "麻麻小魚麻麻小鱼",
+      "origin": "来自“麻麻”、“小”和“魩仔鱼”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "麻麻小鱼",
+      "origin": "来自“麻麻”、“小”和“魩仔鱼”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "麻麻小魚",
+      "origin": "来自“麻麻”、“小”和“魩仔鱼”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "麻麻小魚",
+      "origin": "来自“麻麻”、“小”和“魩仔鱼”。"
+    },
+    {
+      "language": "英文",
+      "name": "Tynamo",
+      "origin": "来自 tiny（小小的）或 tyke（小孩子）和 dynamo（发电机）。"
+    },
+    {
+      "language": "法文",
+      "name": "Anchwatt",
+      "origin": "来自 anchois（鳀鱼）和 watt（瓦特：国际单位制的功率单位）。"
+    },
+    {
+      "language": "德文",
+      "name": "Zapplardin",
+      "origin": "来自 zappeln（活蹦乱跳）、英文 zap（表示“电击”的拟声词）、Lamprete（七鳃鳗）和 Sardine（沙丁鱼）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Tynamo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Tynamo",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "저리어 Jeorieo",
+      "origin": "来自“저리다”（麻木）和“치어〈稚魚〉”（稚鱼、鱼苗）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "麻麻小鱼",
+      "types": [
+        "电"
+      ],
+      "category": "电鱼宝可梦",
+      "abilities": [
         {
-            "name": "麻麻小鱼",
-            "image": "0602-麻麻小鱼.png",
-            "shiny": "0602-麻麻小鱼-shiny.png"
+          "name": "飘浮",
+          "is_hidden": false
         }
+      ],
+      "height": "0.2m",
+      "weight": "0.3kg",
+      "color": "白色",
+      "catch_rate": "190（24.8%）",
+      "egg_groups": [
+        "不定形群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body03.png",
+      "footprint": "Fnone.png",
+      "image": "602Tynamo.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "35",
+        "attack": "55",
+        "defense": "40",
+        "sp_attack": "45",
+        "sp_defense": "40",
+        "speed": "60"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "会成群行动的宝可梦。拥有制造电力的器官，遇到危机时就会发电。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "１条的电力虽小，但是许多麻麻小鱼聚在一起，其威力可以比得上雷电。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "会成群行动的宝可梦。拥有制造电力的器官，遇到危机时就会发电。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "麻麻小鱼",
+        "stage": "未进化",
+        "text": null,
+        "image": "602Tynamo_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "麻麻鳗",
+        "stage": "1阶进化",
+        "text": "等级39以上",
+        "image": "603Eelektrik_Dream.png",
+        "back_text": "",
+        "from": "麻麻小鱼",
+        "form_name": null
+      },
+      {
+        "name": "麻麻鳗鱼王",
+        "stage": "2阶进化",
+        "text": "使用雷之石",
+        "image": "604Eelektross_Dream.png",
+        "back_text": "",
+        "from": "麻麻鳗",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "电光",
+      "type": "电",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０２３",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８２",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７３",
+      "name": "充电",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８１",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "麻麻小鱼",
+      "image": "0602-麻麻小鱼.png",
+      "shiny": "0602-麻麻小鱼-shiny.png"
+    }
+  ]
 }

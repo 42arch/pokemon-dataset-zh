@@ -1,778 +1,1488 @@
 {
-    "name": "大牙狸",
-    "index": "0399",
-    "name_en": "Bidoof",
-    "name_jp": "ビッパ",
-    "profile": "大牙狸全身是棕褐色的，门牙很大。它的身体有着很多的弧形毛发，主要分布在大牙狸的下巴位置以及其尾部位置，它以四脚站立移动，有着四个看起来非常小的脚部。雄性大牙狸的尾卷更多。\n大牙狸表情木讷，遇到何事都能处之泰然。它遇到任何事都不慌不忙，是神经很大条的家伙，但能能做出与外表不符的灵敏动作。它在水边结群筑巢生活，只要找到一处中意的水边，就会在那建起水坝挡水筑巢。虽然水流会被暂时中断，但其实对环境是有益处的。它总是啃大树和石头来磨结实的门牙，因此巢穴周围的石头和树都被削去了一层。经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。过去曾在洗翠地区发生大牙狸光明正大地跑进村里，还光明正大地把房屋啃了一番的离奇事件。\n",
-    "forms": [
-        {
-            "name": "大牙狸",
-            "index": "0399",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0399-大牙狸.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "圆鼠宝可梦",
-            "ability": [
-                {
-                    "name": "单纯",
-                    "is_hidden": false
-                },
-                {
-                    "name": "纯朴",
-                    "is_hidden": false
-                },
-                {
-                    "name": "心情不定",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.5m",
-            "weight": "20.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "水中1",
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "59",
-                "attack": "45",
-                "defense": "40",
-                "sp_attack": "35",
-                "sp_defense": "40",
-                "speed": "31"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。*"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "在水边结群生活，由于门牙啃咬的缘故，巢穴周围的石头和树都被削去了一层。*"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "在水边结群生活，由于门牙啃咬的缘故，巢穴周围的石头和树都被削去了一层。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。*"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。*"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。*"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。*"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
-                },
-                {
-                    "name": "传说 阿尔宙斯",
-                    "group": "宝可梦传说 阿尔宙斯",
-                    "text": "表情木讷，遇到何事都能处之泰然。过去曾发生大牙狸光明正大地跑进村里，还光明正大地把房屋啃了一番的离奇事件。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "大牙狸",
-                "stage": "未进化",
-                "text": null,
-                "image": "399Bidoof_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "大尾狸",
-                "stage": "1阶进化",
-                "text": "等级15以上",
-                "image": "400Bibarel_Dream.png",
-                "back_text": "",
-                "from": "大牙狸",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "大牙狸",
-        "en": "비버니 Bibeoni",
-        "fr": "비버니 Bibeoni",
-        "zh_hant": "大牙狸",
-        "de": "Bidiza",
-        "it": "Bidoof",
-        "es": "Bidoof",
-        "ja": "ビッパ",
-        "ko": "비버니"
+  "name_zh": "大牙狸",
+  "name_ja": "ビッパ",
+  "name_en": "Bidoof",
+  "pokedex_id": "0399",
+  "description": "大牙狸（日文︰ビッパ，英文︰Bidoof）是一般属性宝可梦。",
+  "profile": "大牙狸全身是棕褐色的，门牙很大。它的身体有着很多的弧形毛发，主要分布在大牙狸的下巴位置以及其尾部位置，它以四脚站立移动，有着四个看起来非常小的脚部。雄性大牙狸的尾卷更多。\n大牙狸表情木讷，遇到何事都能处之泰然。它遇到任何事都不慌不忙，是神经很大条的家伙，但能能做出与外表不符的灵敏动作。它在水边结群筑巢生活，只要找到一处中意的水边，就会在那建起水坝挡水筑巢。虽然水流会被暂时中断，但其实对环境是有益处的。它总是啃大树和石头来磨结实的门牙，因此巢穴周围的石头和树都被削去了一层。经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。过去曾在洗翠地区发生大牙狸光明正大地跑进村里，还光明正大地把房屋啃了一番的离奇事件。",
+  "prototype": "大牙狸基于河狸或囊地鼠。",
+  "detail": "大牙狸在欧美国家的宝可梦同好之间是一个盛行多年的网络模因，英文宝可梦官方账号也将7月1日定为大牙狸日。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步大牙狸（Pokémon GO）。\n←\nNo.0398：姆克鹰\n宝可梦\nNo.0400：大尾狸\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ビッパ Bippa",
+      "origin": "来自英文 beaver（河狸）和“歯（は）”（齿）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叫声",
-                        "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "变圆",
-                        "flavor_text": "将身体蜷曲变圆，从而提高自己的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "9",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "滚动",
-                        "flavor_text": "在５回合内连续滚动攻击对手。招式每次击中，威力就会提高。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "13",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "头锤",
-                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "17",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "哈欠",
-                        "flavor_text": "打个大哈欠引起睡意。在下一回合让对手陷入睡眠状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "29",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "33",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "愤怒门牙",
-                        "flavor_text": "用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "41",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞬间失忆",
-                        "flavor_text": "将头脑清空，瞬间忘记某事，从而大幅提高自己的特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蛮力",
-                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "49",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "诅咒",
-                        "flavor_text": "使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样。",
-                        "type": "幽灵",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０",
-                        "method": "招式学习器",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２",
-                        "method": "招式学习器",
-                        "name": "挑衅",
-                        "flavor_text": "使对手愤怒。在３回合内让对手只能使出给予伤害的招式。",
-                        "type": "恶",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２３",
-                        "method": "招式学习器",
-                        "name": "铁尾",
-                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２８",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３０",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "影子分身",
-                        "flavor_text": "通过快速移动来制造分身，扰乱对手，从而提高闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "电击波",
-                        "flavor_text": "向对手快速发出电击。攻击必定会命中。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４２",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４４",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４５",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４６",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５７",
-                        "method": "招式学习器",
-                        "name": "充电光束",
-                        "flavor_text": "向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５８",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７３",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７５",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "隐形岩",
-                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８２",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８６",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８７",
-                        "method": "招式学习器",
-                        "name": "虚张声势",
-                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８８",
-                        "method": "招式学习器",
-                        "name": "啄食",
-                        "flavor_text": "用喙进行攻击。当对手携带树果时，可以食用并获得其效果。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９３",
-                        "method": "招式学习器",
-                        "name": "居合劈",
-                        "flavor_text": "用镰刀或爪子等切斩对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "95",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９８",
-                        "method": "招式学习器",
-                        "name": "碎岩",
-                        "flavor_text": "用拳头进行攻击。有时会降低对手的防御。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "大牙狸",
+      "origin": "来自“大牙”和“河狸”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "大牙狸",
+      "origin": "来自“大牙”和“河狸”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "大牙狸",
+      "origin": "来自“大牙”和“河狸”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "大牙狸",
+      "origin": "来自“大牙”和“河狸”。"
+    },
+    {
+      "language": "英文",
+      "name": "Bidoof",
+      "origin": "来自 beaver（河狸）和 doofus（笨货）。"
+    },
+    {
+      "language": "法文",
+      "name": "Keunotor",
+      "origin": "来自 quenotte（乳牙）和 castor（河狸）。"
+    },
+    {
+      "language": "德文",
+      "name": "Bidiza",
+      "origin": "来自 Biber（河狸）、Idiot（白痴）和 Zahn（牙齿）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Bidoof",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Bidoof",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "비버니 Bibeoni",
+      "origin": "来自英文 beaver（河狸）和“니”（牙齿）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "大牙狸",
+      "types": [
+        "一般"
+      ],
+      "category": "圆鼠宝可梦",
+      "abilities": [
         {
-            "name": "大牙狸-雄性",
-            "image": "0399-大牙狸-雄性.png",
-            "shiny": "0399-大牙狸-雄性-shiny.png"
+          "name": "单纯",
+          "is_hidden": false
         },
         {
-            "name": "大牙狸-雌性",
-            "image": "0399-大牙狸-雌性.png",
-            "shiny": "0399-大牙狸-雌性-shiny.png"
+          "name": "纯朴",
+          "is_hidden": false
+        },
+        {
+          "name": "心情不定",
+          "is_hidden": true
         }
+      ],
+      "height": "0.5m",
+      "weight": "20.0kg",
+      "color": "褐色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "水中1",
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body08.png",
+      "footprint": "F399.png",
+      "image": "399Bidoof.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "59",
+        "attack": "45",
+        "defense": "40",
+        "sp_attack": "35",
+        "sp_defense": "40",
+        "speed": "31"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "在水边结群生活，由于门牙啃咬的缘故，巢穴周围的石头和树都被削去了一层。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "在水边结群生活，由于门牙啃咬的缘故，巢穴周围的石头和树都被削去了一层。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "经过比较，人们发现大牙狸和小拉达的门牙生长速度不相上下。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "遇到任何事都不慌不忙，神经很大条的家伙。能做出与外表不符的灵敏动作。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "总是啃大树和石头来磨结实的门牙。在水边筑巢生活。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": "表情木讷，遇到何事都能处之泰然。过去曾发生大牙狸光明正大地跑进村里，还光明正大地把房屋啃了一番的离奇事件。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "大牙狸",
+        "stage": "未进化",
+        "text": null,
+        "image": "399Bidoof_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "大尾狸",
+        "stage": "1阶进化",
+        "text": "等级15以上",
+        "image": "400Bibarel_Dream.png",
+        "back_text": "",
+        "from": "大牙狸",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "level": "5",
+      "name": "变圆",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "9",
+      "name": "滚动",
+      "type": "岩石",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "level": "13",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "17",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "21",
+      "name": "哈欠",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "25",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "29",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "33",
+      "name": "愤怒门牙",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "37",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "41",
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "45",
+      "name": "蛮力",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "49",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器１０",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１１",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１２",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２３",
+      "name": "铁尾",
+      "type": "钢",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "打雷",
+      "type": "电",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２８",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３０",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "影子分身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "电击波",
+      "type": "电",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４４",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４５",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４６",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器５７",
+      "name": "充电光束",
+      "type": "电",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５８",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７３",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７５",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器８２",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８６",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器８７",
+      "name": "虚张声势",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器８８",
+      "name": "啄食",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器９０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器９３",
+      "name": "居合劈",
+      "type": "一般",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "95",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器９８",
+      "name": "碎岩",
+      "type": "格斗",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "019",
+          "name": "小拉达"
+        },
+        {
+          "id": "020",
+          "name": "拉达"
+        },
+        {
+          "id": "025",
+          "name": "皮卡丘"
+        },
+        {
+          "id": "026",
+          "name": "雷丘"
+        },
+        {
+          "id": "037",
+          "name": "六尾"
+        },
+        {
+          "id": "038",
+          "name": "九尾"
+        },
+        {
+          "id": "078",
+          "name": "烈焰马"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "161",
+          "name": "尾立"
+        },
+        {
+          "id": "162",
+          "name": "大尾立"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "215",
+          "name": "狃拉"
+        },
+        {
+          "id": "255",
+          "name": "火稚鸡"
+        },
+        {
+          "id": "256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "278",
+          "name": "长翅鸥"
+        },
+        {
+          "id": "279",
+          "name": "大嘴鸥"
+        },
+        {
+          "id": "283",
+          "name": "溜溜糖球"
+        },
+        {
+          "id": "284",
+          "name": "雨翅蛾"
+        },
+        {
+          "id": "309",
+          "name": "落雷兽"
+        },
+        {
+          "id": "310",
+          "name": "雷电兽"
+        },
+        {
+          "id": "335",
+          "name": "猫鼬斩"
+        },
+        {
+          "id": "359",
+          "name": "阿勃梭鲁"
+        },
+        {
+          "id": "417",
+          "name": "帕奇利兹"
+        },
+        {
+          "id": "418",
+          "name": "泳圈鼬"
+        },
+        {
+          "id": "419",
+          "name": "浮潜鼬"
+        },
+        {
+          "id": "427",
+          "name": "卷卷耳"
+        },
+        {
+          "id": "428",
+          "name": "长耳兔"
+        },
+        {
+          "id": "448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        }
+      ],
+      "name": "电光一闪",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "019",
+          "name": "小拉达"
+        },
+        {
+          "id": "020",
+          "name": "拉达"
+        },
+        {
+          "id": "060",
+          "name": "蚊香蝌蚪"
+        },
+        {
+          "id": "061",
+          "name": "蚊香君"
+        },
+        {
+          "id": "062",
+          "name": "蚊香泳士"
+        },
+        {
+          "id": "128",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "183",
+          "name": "玛力露"
+        },
+        {
+          "id": "184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "186",
+          "name": "蚊香蛙皇"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "231",
+          "name": "小小象"
+        },
+        {
+          "id": "232",
+          "name": "顿甲"
+        },
+        {
+          "id": "234",
+          "name": "惊角鹿"
+        },
+        {
+          "id": "263",
+          "name": "蛇纹熊"
+        },
+        {
+          "id": "264",
+          "name": "直冲熊"
+        },
+        {
+          "id": "300",
+          "name": "向尾喵"
+        },
+        {
+          "id": "301",
+          "name": "优雅猫"
+        },
+        {
+          "id": "322",
+          "name": "呆火驼"
+        },
+        {
+          "id": "323",
+          "name": "喷火驼"
+        },
+        {
+          "id": "327",
+          "name": "晃晃斑"
+        },
+        {
+          "id": "369",
+          "name": "古空棘鱼"
+        },
+        {
+          "id": "449",
+          "name": "沙河马"
+        },
+        {
+          "id": "450",
+          "name": "河马兽"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        }
+      ],
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "027",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "028",
+          "name": "穿山王"
+        },
+        {
+          "id": "052",
+          "name": "喵喵"
+        },
+        {
+          "id": "053",
+          "name": "猫老大"
+        },
+        {
+          "id": "054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "056",
+          "name": "猴怪"
+        },
+        {
+          "id": "057",
+          "name": "火暴猴"
+        },
+        {
+          "id": "161",
+          "name": "尾立"
+        },
+        {
+          "id": "162",
+          "name": "大尾立"
+        },
+        {
+          "id": "190",
+          "name": "长尾怪手"
+        },
+        {
+          "id": "215",
+          "name": "狃拉"
+        },
+        {
+          "id": "216",
+          "name": "熊宝宝"
+        },
+        {
+          "id": "217",
+          "name": "圈圈熊"
+        },
+        {
+          "id": "264",
+          "name": "直冲熊"
+        },
+        {
+          "id": "271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "272",
+          "name": "乐天河童"
+        },
+        {
+          "id": "288",
+          "name": "过动猿"
+        },
+        {
+          "id": "289",
+          "name": "请假王"
+        },
+        {
+          "id": "300",
+          "name": "向尾喵"
+        },
+        {
+          "id": "301",
+          "name": "优雅猫"
+        },
+        {
+          "id": "352",
+          "name": "变隐龙"
+        },
+        {
+          "id": "390",
+          "name": "小火焰猴"
+        },
+        {
+          "id": "391",
+          "name": "猛火猴"
+        },
+        {
+          "id": "392",
+          "name": "烈焰猴"
+        },
+        {
+          "id": "424",
+          "name": "双尾怪手"
+        },
+        {
+          "id": "431",
+          "name": "魅力喵"
+        },
+        {
+          "id": "432",
+          "name": "东施喵"
+        },
+        {
+          "id": "434",
+          "name": "臭鼬噗"
+        },
+        {
+          "id": "435",
+          "name": "坦克臭鼬"
+        },
+        {
+          "id": "461",
+          "name": "玛狃拉"
+        }
+      ],
+      "name": "乱抓",
+      "type": "一般",
+      "category": "物理",
+      "power": "18",
+      "accuracy": "80",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "027",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "028",
+          "name": "穿山王"
+        },
+        {
+          "id": "155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "161",
+          "name": "尾立"
+        },
+        {
+          "id": "162",
+          "name": "大尾立"
+        },
+        {
+          "id": "183",
+          "name": "玛力露"
+        },
+        {
+          "id": "184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "231",
+          "name": "小小象"
+        },
+        {
+          "id": "232",
+          "name": "顿甲"
+        },
+        {
+          "id": "363",
+          "name": "海豹球"
+        },
+        {
+          "id": "364",
+          "name": "海魔狮"
+        },
+        {
+          "id": "365",
+          "name": "帝牙海狮"
+        },
+        {
+          "id": "399",
+          "name": "大牙狸"
+        },
+        {
+          "id": "400",
+          "name": "大尾狸"
+        },
+        {
+          "id": "427",
+          "name": "卷卷耳"
+        },
+        {
+          "id": "428",
+          "name": "长耳兔"
+        }
+      ],
+      "name": "变圆",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "027",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "028",
+          "name": "穿山王"
+        },
+        {
+          "id": "138",
+          "name": "菊石兽"
+        },
+        {
+          "id": "139",
+          "name": "多刺菊石兽"
+        },
+        {
+          "id": "155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "183",
+          "name": "玛力露"
+        },
+        {
+          "id": "184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "231",
+          "name": "小小象"
+        },
+        {
+          "id": "232",
+          "name": "顿甲"
+        },
+        {
+          "id": "273",
+          "name": "橡实果"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "275",
+          "name": "狡猾天狗"
+        },
+        {
+          "id": "363",
+          "name": "海豹球"
+        },
+        {
+          "id": "364",
+          "name": "海魔狮"
+        },
+        {
+          "id": "365",
+          "name": "帝牙海狮"
+        },
+        {
+          "id": "399",
+          "name": "大牙狸"
+        },
+        {
+          "id": "400",
+          "name": "大尾狸"
+        }
+      ],
+      "name": "滚动",
+      "type": "岩石",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "007",
+          "name": "杰尼龟"
+        },
+        {
+          "id": "008",
+          "name": "卡咪龟"
+        },
+        {
+          "id": "009",
+          "name": "水箭龟"
+        },
+        {
+          "id": "054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "086",
+          "name": "小海狮"
+        },
+        {
+          "id": "087",
+          "name": "白海狮"
+        },
+        {
+          "id": "147",
+          "name": "迷你龙"
+        },
+        {
+          "id": "148",
+          "name": "哈克龙"
+        },
+        {
+          "id": "149",
+          "name": "快龙"
+        },
+        {
+          "id": "158",
+          "name": "小锯鳄"
+        },
+        {
+          "id": "159",
+          "name": "蓝鳄"
+        },
+        {
+          "id": "160",
+          "name": "大力鳄"
+        },
+        {
+          "id": "183",
+          "name": "玛力露"
+        },
+        {
+          "id": "184",
+          "name": "玛力露丽"
+        },
+        {
+          "id": "194",
+          "name": "乌波"
+        },
+        {
+          "id": "195",
+          "name": "沼王"
+        },
+        {
+          "id": "350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "367",
+          "name": "猎斑鱼"
+        },
+        {
+          "id": "368",
+          "name": "樱花鱼"
+        },
+        {
+          "id": "369",
+          "name": "古空棘鱼"
+        },
+        {
+          "id": "418",
+          "name": "泳圈鼬"
+        },
+        {
+          "id": "419",
+          "name": "浮潜鼬"
+        }
+      ],
+      "name": "水流尾",
+      "type": "水",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "007",
+          "name": "杰尼龟"
+        },
+        {
+          "id": "008",
+          "name": "卡咪龟"
+        },
+        {
+          "id": "009",
+          "name": "水箭龟"
+        },
+        {
+          "id": "056",
+          "name": "猴怪"
+        },
+        {
+          "id": "057",
+          "name": "火暴猴"
+        }
+      ],
+      "name": "火箭头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "130",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "大牙狸-雄性",
+      "image": "0399-大牙狸-雄性.png",
+      "shiny": "0399-大牙狸-雄性-shiny.png"
+    },
+    {
+      "name": "大牙狸-雌性",
+      "image": "0399-大牙狸-雌性.png",
+      "shiny": "0399-大牙狸-雌性-shiny.png"
+    }
+  ]
 }

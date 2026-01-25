@@ -1,829 +1,1372 @@
 {
-    "name": "走路草",
-    "index": "0043",
-    "name_en": "Oddish",
-    "name_jp": "ナゾノクサ",
-    "profile": "走路草是有着小草外形的宝可梦。它的头部像是一株有着圆形双脚的深蓝色植物球根。它有红色的珠子形状的眼睛，以及一张小嘴。走路草从头上抽出五片绿色的叶子，中间一片叶子顶端向后弯折。\n走路草别名谜行草，是沐浴在月光下才会成长的宝可梦，白天会为躲避太阳而钻入凉爽的地下。在白天，它会把根部的脚埋进地里，基本上一动不动，脚好像会变成像是树根那样的形状。它只会伸出叶子的部分，因此很难被发现。要是以为它是普通的草而将它拔起，就会听到它的叫声，这让人感到莫名的恐怖。它会用全身吸收土壤中的营养，安静地躲在地底深处。据说土壤越肥沃，叶子就会变得越有光泽。它沐浴月光就会醒来，到了晚上会一边走路一边散布种子，用两条根走上长达300米的距离，找到肥沃的土地后会把自己埋进去。\n",
-    "forms": [
-        {
-            "name": "走路草",
-            "index": "0043",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0043-走路草.png",
-            "types": [
-                "草",
-                "毒"
-            ],
-            "genus": "杂草宝可梦",
-            "ability": [
-                {
-                    "name": "叶绿素",
-                    "is_hidden": false
-                },
-                {
-                    "name": "逃跑",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,059,860",
-                "speed": "较慢"
-            },
-            "height": "0.5m",
-            "weight": "5.4kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双腿形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "植物"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "45",
-                "attack": "50",
-                "defense": "55",
-                "sp_attack": "75",
-                "sp_defense": "65",
-                "speed": "30"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "白天它的脸保持在地下。晚上，它四处播种。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "要是以为它是普通的草而将它拔起，就会听到它的叫声。这让人感到莫名的恐怖。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "沐浴月光醒来后，会到处走动，白天则一动不动待在地里。"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "沐浴月光就会开始活动。为了四处散播种子会在夜晚到处走动。"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "白天会为躲避太阳而钻入凉爽的地下。会通过沐浴月光成长。"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "白天会把身体埋进地里，并用全身吸收土壤中的营养。据说土壤越肥沃，叶子就会变得越有光泽。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "找到肥沃的土地后会把自己埋进去。白天埋在土里的时候，脚好像会变成像是树根那样的形状。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "沐浴在月光下才会成长的宝可梦。白天只会伸出叶子的部分而埋藏在地下，因此很难被发现。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "白天它的脸保持在地下。晚上，它四处播种。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "沐浴月光醒来后，会到处走动，白天则一动不动待在地里。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "沐浴月光就会开始活动。为了四处散播种子会在夜晚到处走动。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "白天会为躲避太阳而钻入凉爽的地下。会通过沐浴月光成长。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "白天会把身体埋进地里，并用全身吸收土壤中的营养。据说土壤越肥沃，叶子就会变得越有光泽。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "找到肥沃的土地后会把自己埋进去。白天埋在土里的时候，脚好像会变成像是树根那样的形状。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "要是以为它是普通的草而将它拔起，就会听到它的叫声。这让人感到莫名的恐怖。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "要是以为它是普通的草而将它拔起，就会听到它的叫声。这让人感到莫名的恐怖。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "沐浴月光就会开始活动。为了四处散播种子会在夜晚到处走动。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "白天会为躲避太阳而钻入凉爽的地下。会通过沐浴月光成长。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "沐浴月光醒来后，会到处走动，白天则一动不动待在地里。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "走路草",
-                "stage": "未进化",
-                "text": null,
-                "image": "043Oddish_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "臭臭花",
-                "stage": "1阶进化",
-                "text": "等级21以上",
-                "image": "044Gloom_Dream.png",
-                "back_text": "",
-                "from": "走路草",
-                "form_name": null
-            },
-            {
-                "name": "霸王花",
-                "stage": "2阶进化",
-                "text": "使用叶之石",
-                "image": "045Vileplume_Dream.png",
-                "back_text": "",
-                "from": "臭臭花",
-                "form_name": null
-            },
-            {
-                "name": "美丽花",
-                "stage": "2阶进化",
-                "text": "使用日之石",
-                "image": "182Bellossom_Dream.png",
-                "back_text": "",
-                "from": "臭臭花",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "走路草",
-        "zh_hant": "走路草",
-        "en": "Oddish",
-        "fr": "Oddish",
-        "de": "Myrapla",
-        "it": "Oddish",
-        "es": "Oddish",
-        "ja": "ナゾノクサ",
-        "ko": "뚜벅쵸"
+  "name_zh": "走路草",
+  "name_ja": "ナゾノクサ",
+  "name_en": "Oddish",
+  "pokedex_id": "0043",
+  "description": "走路草（日文︰ナゾノクサ，英文︰Oddish）是草属性／毒属性宝可梦，它的设计者是西田敦子。",
+  "profile": "走路草是有着小草外形的宝可梦。它的头部像是一株有着圆形双脚的深蓝色植物球根。它有红色的珠子形状的眼睛，以及一张小嘴。走路草从头上抽出五片绿色的叶子，中间一片叶子顶端向后弯折。\n走路草别名谜行草，是沐浴在月光下才会成长的宝可梦，白天会为躲避太阳而钻入凉爽的地下。在白天，它会把根部的脚埋进地里，基本上一动不动，脚好像会变成像是树根那样的形状。它只会伸出叶子的部分，因此很难被发现。要是以为它是普通的草而将它拔起，就会听到它的叫声，这让人感到莫名的恐怖。它会用全身吸收土壤中的营养，安静地躲在地底深处。据说土壤越肥沃，叶子就会变得越有光泽。它沐浴月光就会醒来，到了晚上会一边走路一边散布种子，用两条根走上长达300米的距离，找到肥沃的土地后会把自己埋进去。",
+  "prototype": "走路草可能基于曼德拉草。",
+  "detail": "走路草家族的隐藏特性进化一次就会变化一次，所有的进化型的隐藏特性都不一致。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步走路草（Pokémon GO）。\n←\nNo.0042：大嘴蝠\n宝可梦\nNo.0044：臭臭花\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ナゾノクサ Nazonokusa",
+      "origin": "来自“謎（なぞ）”（神秘）、“の”（的）和“草（くさ）”（草）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "生长",
-                        "flavor_text": "让身体一下子长大，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "4",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "溶解液",
-                        "flavor_text": "将强酸泼向对手进行攻击。有时会降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "8",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "甜甜香气",
-                        "flavor_text": "用香气大幅降低对手的闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "超级吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "14",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "毒粉",
-                        "flavor_text": "撒出毒粉，从而让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "麻痹粉",
-                        "flavor_text": "撒出麻痹粉，从而让对手陷入麻痹状态。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "18",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "催眠粉",
-                        "flavor_text": "撒出催眠粉，从而让对手陷入睡眠状态。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "月亮之力",
-                        "flavor_text": "借用月亮的力量攻击对手。有时会降低对手的特攻。",
-                        "type": "妖精",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "青草场地",
-                        "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "月光",
-                        "flavor_text": "回复自己的ＨＰ。根据天气的不同，回复量也会有所变化。",
-                        "type": "妖精",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "花瓣舞",
-                        "flavor_text": "在２～３回合内，散落花瓣攻击对手。之后自己会陷入混乱。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００２",
-                        "method": "招式学习器",
-                        "name": "撒娇",
-                        "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
-                        "type": "妖精",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１３",
-                        "method": "招式学习器",
-                        "name": "酸液炸弹",
-                        "flavor_text": "喷出能溶化对手的液体进行攻击。会大幅降低对手的特防。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２０",
-                        "method": "招式学习器",
-                        "name": "起草",
-                        "flavor_text": "跳出草丛进行攻击。通过轻快的步伐会提高自己的速度。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３３",
-                        "method": "招式学习器",
-                        "name": "魔法叶",
-                        "flavor_text": "散落可以追踪对手的神奇叶片。攻击必定会命中。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４５",
-                        "method": "招式学习器",
-                        "name": "毒液冲击",
-                        "flavor_text": "将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５６",
-                        "method": "招式学习器",
-                        "name": "种子机关枪",
-                        "flavor_text": "向对手猛烈地发射种子进行攻击。连续攻击２～５次。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７１",
-                        "method": "招式学习器",
-                        "name": "种子炸弹",
-                        "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８１",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８８",
-                        "method": "招式学习器",
-                        "name": "剑舞",
-                        "flavor_text": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１１",
-                        "method": "招式学习器",
-                        "name": "终极吸取",
-                        "flavor_text": "吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１９",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３０",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３７",
-                        "method": "招式学习器",
-                        "name": "青草场地",
-                        "flavor_text": "在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高。",
-                        "type": "草",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４８",
-                        "method": "招式学习器",
-                        "name": "污泥炸弹",
-                        "flavor_text": "用污泥投掷对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５９",
-                        "method": "招式学习器",
-                        "name": "飞叶风暴",
-                        "flavor_text": "用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６８",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９４",
-                        "method": "招式学习器",
-                        "name": "青草滑梯",
-                        "flavor_text": "仿佛在地面上滑行般地攻击对手。在青草场地上，必定能够先制攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "55",
-                        "accuracy": "100",
-                        "pp": "20"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "走路草",
+      "origin": "来自“走路”和“草”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "走路草",
+      "origin": "来自“走路”和“草”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "走路草",
+      "origin": "来自“走路”和“草”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "走路草",
+      "origin": "来自“走路”和“草”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "行路草",
+      "origin": "来自“行路”和“草”。"
+    },
+    {
+      "language": "英文",
+      "name": "Oddish",
+      "origin": "来自 odd（奇怪的）和 radish（萝卜）。"
+    },
+    {
+      "language": "法文",
+      "name": "Mystherbe",
+      "origin": "来自 mystère（神秘）和 herbe（草）。"
+    },
+    {
+      "language": "德文",
+      "name": "Myrapla",
+      "origin": "来自 Mysterium（神秘）和 Pflanze（植物）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Oddish",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Oddish",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "뚜벅쵸 Ttubeogcho",
+      "origin": "来自“뚜벅뚜벅”（蹬蹬脚步声）和“초〈草〉”（草）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "走路草",
+      "types": [
+        "草",
+        "毒"
+      ],
+      "category": "杂草宝可梦",
+      "abilities": [
         {
-            "name": "走路草",
-            "image": "0043-走路草.png",
-            "shiny": "0043-走路草-shiny.png"
+          "name": "叶绿素",
+          "is_hidden": false
+        },
+        {
+          "name": "逃跑",
+          "is_hidden": true
         }
+      ],
+      "height": "0.5m",
+      "weight": "5.4kg",
+      "color": "蓝色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "植物群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body07.png",
+      "footprint": "F043.png",
+      "image": "043Oddish.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "45",
+        "attack": "50",
+        "defense": "55",
+        "sp_attack": "75",
+        "sp_defense": "65",
+        "speed": "30"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "0.5"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "0.25"
+    },
+    {
+      "type": "电",
+      "damage": "0.5"
+    },
+    {
+      "type": "超能力",
+      "damage": "2"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "白天它的脸保持在地下。晚上，它四处播种。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "要是以为它是普通的草而将它拔起，就会听到它的叫声。这让人感到莫名的恐怖。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "沐浴月光醒来后，会到处走动，白天则一动不动待在地里。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "沐浴月光就会开始活动。为了四处散播种子会在夜晚到处走动。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "白天会为躲避太阳而钻入凉爽的地下。会通过沐浴月光成长。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "白天会把身体埋进地里，并用全身吸收土壤中的营养。据说土壤越肥沃，叶子就会变得越有光泽。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "找到肥沃的土地后会把自己埋进去。白天埋在土里的时候，脚好像会变成像是树根那样的形状。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "沐浴在月光下才会成长的宝可梦。白天只会伸出叶子的部分而埋藏在地下，因此很难被发现。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "白天它的脸保持在地下。晚上，它四处播种。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "沐浴月光醒来后，会到处走动，白天则一动不动待在地里。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "沐浴月光就会开始活动。为了四处散播种子会在夜晚到处走动。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "白天会为躲避太阳而钻入凉爽的地下。会通过沐浴月光成长。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "白天会把身体埋进地里，并用全身吸收土壤中的营养。据说土壤越肥沃，叶子就会变得越有光泽。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "找到肥沃的土地后会把自己埋进去。白天埋在土里的时候，脚好像会变成像是树根那样的形状。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "要是以为它是普通的草而将它拔起，就会听到它的叫声。这让人感到莫名的恐怖。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "要是以为它是普通的草而将它拔起，就会听到它的叫声。这让人感到莫名的恐怖。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "沐浴月光就会开始活动。为了四处散播种子会在夜晚到处走动。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "白天会为躲避太阳而钻入凉爽的地下。会通过沐浴月光成长。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "白天会把根部的脚埋进地里，基本上一动不动。晚上会为了散播种子而四处走动。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "别名谜行草。据说到了晚上，会用２条根走上长达３００米的距离。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "沐浴月光醒来后，会到处走动，白天则一动不动待在地里。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "走路草",
+        "stage": "未进化",
+        "text": null,
+        "image": "043Oddish_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "臭臭花",
+        "stage": "1阶进化",
+        "text": "等级21以上",
+        "image": "044Gloom_Dream.png",
+        "back_text": "",
+        "from": "走路草",
+        "form_name": null
+      },
+      {
+        "name": "霸王花",
+        "stage": "2阶进化",
+        "text": "使用叶之石",
+        "image": "045Vileplume_Dream.png",
+        "back_text": "",
+        "from": "臭臭花",
+        "form_name": null
+      },
+      {
+        "name": "美丽花",
+        "stage": "2阶进化",
+        "text": "使用日之石",
+        "image": "182Bellossom_Dream.png",
+        "back_text": "",
+        "from": "臭臭花",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "生长",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "4",
+      "name": "溶解液",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "8",
+      "name": "甜甜香气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "12",
+      "name": "超级吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "14",
+      "name": "毒粉",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "35"
+    },
+    {
+      "level": "16",
+      "name": "麻痹粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "30"
+    },
+    {
+      "level": "18",
+      "name": "催眠粉",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "level": "20",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "28",
+      "name": "月亮之力",
+      "type": "妖精",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "32",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "36",
+      "name": "月光",
+      "type": "妖精",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "40",
+      "name": "花瓣舞",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００２",
+      "name": "撒娇",
+      "type": "妖精",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１３",
+      "name": "酸液炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２０",
+      "name": "起草",
+      "type": "草",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３３",
+      "name": "魔法叶",
+      "type": "草",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４５",
+      "name": "毒液冲击",
+      "type": "毒",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５６",
+      "name": "种子机关枪",
+      "type": "草",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７１",
+      "name": "种子炸弹",
+      "type": "草",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８１",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８８",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１１",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１９",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３７",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４８",
+      "name": "污泥炸弹",
+      "type": "毒",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５９",
+      "name": "飞叶风暴",
+      "type": "草",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９４",
+      "name": "青草滑梯",
+      "type": "草",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "100",
+      "pp": "20"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "0002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "0003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "0102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "0103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "0103A",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "0152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "0153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "0154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "0187",
+          "name": "毽子草"
+        },
+        {
+          "id": "0188",
+          "name": "毽子花"
+        },
+        {
+          "id": "0189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "0192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "0270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "0271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "0285",
+          "name": "蘑蘑菇"
+        },
+        {
+          "id": "0286",
+          "name": "斗笠菇"
+        },
+        {
+          "id": "0331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "0332",
+          "name": "梦歌仙人掌"
+        },
+        {
+          "id": "0387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "0388",
+          "name": "树林龟"
+        },
+        {
+          "id": "0389",
+          "name": "土台龟"
+        },
+        {
+          "id": "0495",
+          "name": "藤藤蛇"
+        },
+        {
+          "id": "0496",
+          "name": "青藤蛇"
+        },
+        {
+          "id": "0497",
+          "name": "君主蛇"
+        },
+        {
+          "id": "0546",
+          "name": "木棉球"
+        },
+        {
+          "id": "0547",
+          "name": "风妖精"
+        },
+        {
+          "id": "0708",
+          "name": "小木灵"
+        },
+        {
+          "id": "0709",
+          "name": "朽木妖"
+        },
+        {
+          "id": "0764",
+          "name": "花疗环环"
+        },
+        {
+          "id": "0841",
+          "name": "苹裹龙"
+        },
+        {
+          "id": "0842",
+          "name": "丰蜜龙"
+        },
+        {
+          "id": "0928",
+          "name": "迷你芙"
+        },
+        {
+          "id": "0929",
+          "name": "奥利纽"
+        },
+        {
+          "id": "0930",
+          "name": "奥利瓦"
+        }
+      ],
+      "name": "寄生种子",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "069",
+          "name": "喇叭芽"
+        },
+        {
+          "id": "070",
+          "name": "口呆花"
+        },
+        {
+          "id": "071",
+          "name": "大食花"
+        },
+        {
+          "id": "152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "357",
+          "name": "热带龙"
+        },
+        {
+          "id": "387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "388",
+          "name": "树林龟"
+        },
+        {
+          "id": "389",
+          "name": "土台龟"
+        },
+        {
+          "id": "459",
+          "name": "雪笠怪"
+        },
+        {
+          "id": "460",
+          "name": "暴雪王"
+        },
+        {
+          "id": "546",
+          "name": "木棉球"
+        },
+        {
+          "id": "547",
+          "name": "风妖精"
+        },
+        {
+          "id": "753",
+          "name": "伪螳草"
+        },
+        {
+          "id": "754",
+          "name": "兰螳花"
+        },
+        {
+          "id": "0810",
+          "name": "敲音猴"
+        },
+        {
+          "id": "0811",
+          "name": "啪咚猴"
+        },
+        {
+          "id": "0812",
+          "name": "轰擂金刚猩"
+        },
+        {
+          "id": "928",
+          "name": "迷你芙"
+        },
+        {
+          "id": "929",
+          "name": "奥利纽"
+        },
+        {
+          "id": "930",
+          "name": "奥利瓦"
+        },
+        {
+          "id": "0951",
+          "name": "热辣娃"
+        },
+        {
+          "id": "0952",
+          "name": "狠辣椒"
+        }
+      ],
+      "name": "飞叶快刀",
+      "type": "草",
+      "category": "物理",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "25"
+    },
+    {
+      "parents": [
+        {
+          "id": "270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "928",
+          "name": "迷你芙"
+        },
+        {
+          "id": "929",
+          "name": "奥利纽"
+        },
+        {
+          "id": "930",
+          "name": "奥利瓦"
+        }
+      ],
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "001",
+          "name": "妙蛙种子"
+        },
+        {
+          "id": "002",
+          "name": "妙蛙草"
+        },
+        {
+          "id": "003",
+          "name": "妙蛙花"
+        },
+        {
+          "id": "102",
+          "name": "蛋蛋"
+        },
+        {
+          "id": "103",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "103A",
+          "name": "椰蛋树"
+        },
+        {
+          "id": "152",
+          "name": "菊草叶"
+        },
+        {
+          "id": "153",
+          "name": "月桂叶"
+        },
+        {
+          "id": "154",
+          "name": "大竺葵"
+        },
+        {
+          "id": "187",
+          "name": "毽子草"
+        },
+        {
+          "id": "188",
+          "name": "毽子花"
+        },
+        {
+          "id": "189",
+          "name": "毽子棉"
+        },
+        {
+          "id": "191",
+          "name": "向日种子"
+        },
+        {
+          "id": "273",
+          "name": "橡实果"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "357",
+          "name": "热带龙"
+        },
+        {
+          "id": "387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "388",
+          "name": "树林龟"
+        },
+        {
+          "id": "389",
+          "name": "土台龟"
+        },
+        {
+          "id": "590",
+          "name": "哎呀球菇"
+        },
+        {
+          "id": "591",
+          "name": "败露球菇"
+        },
+        {
+          "id": "753",
+          "name": "伪螳草"
+        },
+        {
+          "id": "754",
+          "name": "兰螳花"
+        },
+        {
+          "id": "764",
+          "name": "花疗环环"
+        }
+      ],
+      "name": "光合作用",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "192",
+          "name": "向日花怪"
+        },
+        {
+          "id": "331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "332",
+          "name": "梦歌仙人掌"
+        },
+        {
+          "id": "459",
+          "name": "雪笠怪"
+        },
+        {
+          "id": "460",
+          "name": "暴雪王"
+        },
+        {
+          "id": "590",
+          "name": "哎呀球菇"
+        },
+        {
+          "id": "591",
+          "name": "败露球菇"
+        },
+        {
+          "id": "708",
+          "name": "小木灵"
+        },
+        {
+          "id": "709",
+          "name": "朽木妖"
+        },
+        {
+          "id": "753",
+          "name": "伪螳草"
+        },
+        {
+          "id": "754",
+          "name": "兰螳花"
+        }
+      ],
+      "name": "扎根",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "莲帽小童"
+        }
+      ],
+      "name": "摇晃舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0069",
+          "name": "喇叭芽"
+        },
+        {
+          "id": "0270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "0387",
+          "name": "草苗龟"
+        },
+        {
+          "id": "0546",
+          "name": "木棉球"
+        },
+        {
+          "id": "0948",
+          "name": "原野水母"
+        }
+      ],
+      "name": "挠痒*",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "您先请",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "吸取力量",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "走路草",
+      "image": "0043-走路草.png",
+      "shiny": "0043-走路草-shiny.png"
+    }
+  ]
 }

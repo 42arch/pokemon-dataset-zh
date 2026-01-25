@@ -1,836 +1,1025 @@
 {
-    "name": "墨海马",
-    "index": "0116",
-    "name_en": "Horsea",
-    "name_jp": "タッツー",
-    "profile": "墨海马身体大部分为蓝色，前腹部以及背后的鳍为浅黄色。它的虹膜是红色的，头部左右两侧各有三个尖刺，有长长的柱形嘴巴。它的尾巴向前卷曲，呈逆时针状。\n墨海马栖息在海浪平稳的海里，会在珊瑚的阴影处安家，在安全的地方可以看到伙伴间相互缠绕尾巴玩耍的墨海马。海流变快后，为了不让自己被冲走，它会用尾巴缠住岩石或珊瑚。它会像跳舞一样在水中游动以制造漩涡，作为娱乐，会和伙伴比拼谁的漩涡更大。它用像发条一样咕噜咕噜卷起的尾巴保持身体平衡，能通过灵活又迅速地摆动又大又发达的鳍，面朝前地向四面八方移动。如果感到危险，就会条件反射地从嘴里吐出漆黑的墨汁逃跑。它吃小虫子或岩石滩上的苔藓。据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。\n",
-    "forms": [
-        {
-            "name": "墨海马",
-            "index": "0116",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0116-墨海马.png",
-            "types": [
-                "水"
-            ],
-            "genus": "龙宝可梦",
-            "ability": [
-                {
-                    "name": "悠游自如",
-                    "is_hidden": false
-                },
-                {
-                    "name": "狙击手",
-                    "is_hidden": false
-                },
-                {
-                    "name": "湿气",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.4m",
-            "weight": "8.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "柱形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "225",
-                "rate": "29.4%"
-            },
-            "egg_groups": [
-                "水中1",
-                "龙"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "30",
-                "attack": "40",
-                "defense": "70",
-                "sp_attack": "70",
-                "sp_defense": "25",
-                "speed": "60"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "在感到危险时会从嘴里用力地喷出水或者特殊的墨汁。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "即使被体型大的对手袭击，也能操控发达的背鳍，在水中自由自在地逃跑。"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "通过迅速地摆动又大又发达的鳍，能面朝前地向后移动。*"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "在安全的地方可以看到伙伴间相互缠绕尾巴玩耍的墨海马。*"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "吃小虫子或岩石滩上的苔藓。海流变快后，为了不让自己被冲走，就会用尾巴缠住岩石或珊瑚。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "如果感到危险，就会条件反射地从嘴里吐出漆黑的墨汁逃跑。能灵巧地摆动背鳍游动。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "能灵活地靠背上的背鳍移动，面朝前地向四面八方移动。一旦察觉危险时就会吐出墨汁逃跑。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "即使被体型大的对手袭击，也能操控发达的背鳍，在水中自由自在地逃跑。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "通过迅速地摆动又大又发达的鳍，能面朝前地向后移动。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "吃小虫子或岩石滩上的苔藓。海流变快后，为了不让自己被冲走，就会用尾巴缠住岩石或珊瑚。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "如果感到危险，就会条件反射地从嘴里吐出漆黑的墨汁逃跑。能灵巧地摆动背鳍游动。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "在感到危险时会从嘴里用力地喷出水或者特殊的墨汁。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "在感到危险时会从嘴里用力地喷出水或者特殊的墨汁。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "栖息在海浪平稳的海里。受到袭击时，会喷出漆黑墨汁并趁机逃跑。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会像跳舞一样在水中游动以制造漩涡。作为娱乐，会和伙伴比拼谁的漩涡更大。"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "即使被体型大的对手袭击，也能操控发达的背鳍，在水中自由自在地逃跑。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "墨海马",
-                "stage": "未进化",
-                "text": null,
-                "image": "116Horsea_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "海刺龙",
-                "stage": "1阶进化",
-                "text": "等级32以上",
-                "image": "117Seadra_Dream.png",
-                "back_text": "",
-                "from": "墨海马",
-                "form_name": null
-            },
-            {
-                "name": "刺龙王",
-                "stage": "2阶进化",
-                "text": "携带龙之鳞片连接交换",
-                "image": "230Kingdra_Dream.png",
-                "back_text": "",
-                "from": "海刺龙",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "墨海马",
-        "zh_hant": "墨海馬",
-        "en": "쏘드라 Ssodeura",
-        "fr": "쏘드라 Ssodeura",
-        "de": "Seeper",
-        "it": "Horsea",
-        "es": "Horsea",
-        "ja": "タッツー",
-        "ko": "쏘드라"
+  "name_zh": "墨海马",
+  "name_ja": "タッツー",
+  "name_en": "Horsea",
+  "pokedex_id": "0116",
+  "description": "墨海马（日文︰タッツー，英文︰Horsea）是水属性宝可梦。",
+  "profile": "墨海马身体大部分为蓝色，前腹部以及背后的鳍为浅黄色。它的虹膜是红色的，头部左右两侧各有三个尖刺，有长长的柱形嘴巴。它的尾巴向前卷曲，呈逆时针状。\n墨海马栖息在海浪平稳的海里，会在珊瑚的阴影处安家，在安全的地方可以看到伙伴间相互缠绕尾巴玩耍的墨海马。海流变快后，为了不让自己被冲走，它会用尾巴缠住岩石或珊瑚。它会像跳舞一样在水中游动以制造漩涡，作为娱乐，会和伙伴比拼谁的漩涡更大。它用像发条一样咕噜咕噜卷起的尾巴保持身体平衡，能通过灵活又迅速地摆动又大又发达的鳍，面朝前地向四面八方移动。如果感到危险，就会条件反射地从嘴里吐出漆黑的墨汁逃跑。它吃小虫子或岩石滩上的苔藓。据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。",
+  "prototype": "墨海马的形象基于海马，喷墨的能力来源于头足纲动物。\n墨海马日文名来自日文的海马，字面意思是“龙的弃子”，解释了墨海马家族的龙设计元素，以及为何其二阶进化刺龙王有龙属性。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步墨海马（Pokémon GO）。\n←\nNo.0115：袋兽\n宝可梦\nNo.0117：海刺龙\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "タッツー Tattu",
+      "origin": "来自“竜（たつ）の落（お）とし子（ご）”（海马）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "瞪眼",
-                        "flavor_text": "用犀利的眼神使其害怕，从而降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "烟幕",
-                        "flavor_text": "向对手喷出烟或墨汁等，从而降低对手的命中率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙卷风",
-                        "flavor_text": "兴起龙卷风，将对手卷入进行攻击。有时会使对手畏缩。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "聚气",
-                        "flavor_text": "深深地吸口气，集中精神。自己的攻击会变得容易击中要害。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙息",
-                        "flavor_text": "将强烈的气息吹向对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泡沫光线",
-                        "flavor_text": "向对手猛烈地喷射泡沫进行攻击。有时会降低对手的速度。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙之舞",
-                        "flavor_text": "激烈地跳起神秘且强有力的舞蹈。从而提高自己的攻击和速度。",
-                        "type": "龙",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "55",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００４",
-                        "method": "招式学习器",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２２",
-                        "method": "招式学习器",
-                        "name": "泼冷水",
-                        "flavor_text": "泼洒冰冷得足以让对手失去活力的水进行攻击。会降低对手的攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３２",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７７",
-                        "method": "招式学习器",
-                        "name": "攀瀑",
-                        "flavor_text": "以惊人的气势扑向对手。有时会使对手畏缩。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９３",
-                        "method": "招式学习器",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１００",
-                        "method": "招式学习器",
-                        "name": "龙之舞",
-                        "flavor_text": "激烈地跳起神秘且强有力的舞蹈。从而提高自己的攻击和速度。",
-                        "type": "龙",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１０",
-                        "method": "招式学习器",
-                        "name": "水流裂破",
-                        "flavor_text": "用水之力量撞向对手进行攻击。有时会降低对手的防御。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１５",
-                        "method": "招式学习器",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４２",
-                        "method": "招式学习器",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４３",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５６",
-                        "method": "招式学习器",
-                        "name": "逆鳞",
-                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９６",
-                        "method": "招式学习器",
-                        "name": "快速折返",
-                        "flavor_text": "在攻击之后急速返回，和后备宝可梦进行替换。",
-                        "type": "水",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２００",
-                        "method": "招式学习器",
-                        "name": "鳞射",
-                        "flavor_text": "发射鳞片进行攻击。连续攻击２～５次。速度会提高但防御会降低。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０８",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０９",
-                        "method": "招式学习器",
-                        "name": "浊流",
-                        "flavor_text": "向对手喷射浑浊的水进行攻击。有时会降低对手的命中率。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "墨海馬墨海马",
+      "origin": "来自“墨汁”和“海马”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "墨海马",
+      "origin": "来自“墨汁”和“海马”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "墨海馬",
+      "origin": "来自“墨汁”和“海马”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "墨魚馬",
+      "origin": "来自“墨汁”、“鱼”和“海马”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "墨海馬",
+      "origin": "来自“墨汁”和“海马”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "噴墨海馬",
+      "origin": "来自“喷墨”和“海马”。"
+    },
+    {
+      "language": "英文",
+      "name": "Horsea",
+      "origin": "来自 seahorse（海马）和儿语 horsey（马）。"
+    },
+    {
+      "language": "法文",
+      "name": "Hypotrempe",
+      "origin": "来自 hippocampe（海马）和 trempe（浸泡的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Seeper",
+      "origin": "来自 Seepferdchen（海马）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Horsea",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Horsea",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "쏘드라 Ssodeura",
+      "origin": "来自“쏘다”（发射）和英文 dragon（龙）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "墨海马",
+      "types": [
+        "水"
+      ],
+      "category": "龙宝可梦",
+      "abilities": [
         {
-            "name": "墨海马",
-            "image": "0116-墨海马.png",
-            "shiny": "0116-墨海马-shiny.png"
+          "name": "悠游自如",
+          "is_hidden": false
+        },
+        {
+          "name": "狙击手",
+          "is_hidden": false
+        },
+        {
+          "name": "湿气",
+          "is_hidden": true
         }
+      ],
+      "height": "0.4m",
+      "weight": "8.0kg",
+      "color": "蓝色",
+      "catch_rate": "225（29.4%）",
+      "egg_groups": [
+        "水中1",
+        "龙群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body05.png",
+      "footprint": "Fnone.png",
+      "image": "116Horsea.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "30",
+        "attack": "40",
+        "defense": "70",
+        "sp_attack": "70",
+        "sp_defense": "25",
+        "speed": "60"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "在感到危险时会从嘴里用力地喷出水或者特殊的墨汁。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "即使被体型大的对手袭击，也能操控发达的背鳍，在水中自由自在地逃跑。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "通过迅速地摆动又大又发达的鳍，能面朝前地向后移动。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "在安全的地方可以看到伙伴间相互缠绕尾巴玩耍的墨海马。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "吃小虫子或岩石滩上的苔藓。海流变快后，为了不让自己被冲走，就会用尾巴缠住岩石或珊瑚。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "如果感到危险，就会条件反射地从嘴里吐出漆黑的墨汁逃跑。能灵巧地摆动背鳍游动。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "能灵活地靠背上的背鳍移动，面朝前地向四面八方移动。一旦察觉危险时就会吐出墨汁逃跑。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "即使被体型大的对手袭击，也能操控发达的背鳍，在水中自由自在地逃跑。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "通过迅速地摆动又大又发达的鳍，能面朝前地向后移动。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "据说有时会从水面上猛烈地喷射墨汁，击落飞行的虫子。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "吃小虫子或岩石滩上的苔藓。海流变快后，为了不让自己被冲走，就会用尾巴缠住岩石或珊瑚。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "如果感到危险，就会条件反射地从嘴里吐出漆黑的墨汁逃跑。能灵巧地摆动背鳍游动。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "在感到危险时会从嘴里用力地喷出水或者特殊的墨汁。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "在感到危险时会从嘴里用力地喷出水或者特殊的墨汁。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "栖息在海浪平稳的海里。受到袭击时，会喷出漆黑墨汁并趁机逃跑。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "会像跳舞一样在水中游动以制造漩涡。作为娱乐，会和伙伴比拼谁的漩涡更大。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "会在珊瑚的阴影处安家。如果感到危险，就会从嘴里吐出漆黑的墨汁逃跑。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "即使被体型大的对手袭击，也能操控发达的背鳍，在水中自由自在地逃跑。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "会用像发条一样圆圆卷起的尾巴来保持身体平衡。有时会从口中吐出墨汁。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "墨海马",
+        "stage": "未进化",
+        "text": null,
+        "image": "116Horsea_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "海刺龙",
+        "stage": "1阶进化",
+        "text": "等级32以上",
+        "image": "117Seadra_Dream.png",
+        "back_text": "",
+        "from": "墨海马",
+        "form_name": null
+      },
+      {
+        "name": "刺龙王",
+        "stage": "2阶进化",
+        "text": "携带龙之鳞片连接交换",
+        "image": "230Kingdra_Dream.png",
+        "back_text": "",
+        "from": "海刺龙",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "5",
+      "name": "烟幕",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "10",
+      "name": "龙卷风",
+      "type": "龙",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "15",
+      "name": "聚气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "20",
+      "name": "龙息",
+      "type": "龙",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "25",
+      "name": "泡沫光线",
+      "type": "水",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "30",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "35",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "45",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "level": "50",
+      "name": "龙之舞",
+      "type": "龙",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "55",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００４",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９３",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１００",
+      "name": "龙之舞",
+      "type": "龙",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１０",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１５",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５６",
+      "name": "逆鳞",
+      "type": "龙",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９６",
+      "name": "快速折返",
+      "type": "水",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２００",
+      "name": "鳞射",
+      "type": "龙",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０８",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０９",
+      "name": "浊流",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "0055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "0079",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "0079G",
+          "name": "呆呆兽"
+        },
+        {
+          "id": "0080",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "0080G",
+          "name": "呆壳兽"
+        },
+        {
+          "id": "199",
+          "name": "呆呆王"
+        },
+        {
+          "id": "0199G",
+          "name": "呆呆王"
+        }
+      ],
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0086",
+          "name": "小海狮"
+        },
+        {
+          "id": "0087",
+          "name": "白海狮"
+        }
+      ],
+      "name": "极光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0129",
+          "name": "鲤鱼王"
+        },
+        {
+          "id": "0130",
+          "name": "暴鲤龙"
+        },
+        {
+          "id": "0349",
+          "name": "丑丑鱼"
+        },
+        {
+          "id": "0350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "0692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "0693",
+          "name": "钢炮臂虾"
+        }
+      ],
+      "name": "跃起",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "0129",
+          "name": "鲤鱼王"
+        },
+        {
+          "id": "0130",
+          "name": "暴鲤龙"
+        },
+        {
+          "id": "0158",
+          "name": "小锯鳄"
+        },
+        {
+          "id": "0159",
+          "name": "蓝鳄"
+        },
+        {
+          "id": "0160",
+          "name": "大力鳄"
+        },
+        {
+          "id": "0270",
+          "name": "莲叶童子"
+        },
+        {
+          "id": "0271",
+          "name": "莲帽小童"
+        },
+        {
+          "id": "0349",
+          "name": "丑丑鱼"
+        },
+        {
+          "id": "0350",
+          "name": "美纳斯"
+        },
+        {
+          "id": "0692",
+          "name": "铁臂枪虾"
+        },
+        {
+          "id": "0693",
+          "name": "钢炮臂虾"
+        },
+        {
+          "id": "0704",
+          "name": "黏黏宝"
+        },
+        {
+          "id": "0705",
+          "name": "黏美儿"
+        },
+        {
+          "id": "0705H",
+          "name": "黏美儿"
+        },
+        {
+          "id": "0706",
+          "name": "黏美龙"
+        },
+        {
+          "id": "0706H",
+          "name": "黏美龙"
+        },
+        {
+          "id": "0938",
+          "name": "光蚪仔"
+        },
+        {
+          "id": "0939",
+          "name": "电肚蛙"
+        }
+      ],
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": "0054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "0422",
+          "name": "无壳海兔"
+        }
+      ],
+      "name": "清除之烟*",
+      "type": "毒",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "—",
+      "pp": "15"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "墨海马",
+      "image": "0116-墨海马.png",
+      "shiny": "0116-墨海马-shiny.png"
+    }
+  ]
 }

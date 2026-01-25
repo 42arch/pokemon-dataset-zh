@@ -1,1025 +1,909 @@
 {
-    "name": "太乐巴戈斯",
-    "index": "1024",
-    "name_en": "Terapagos",
-    "name_jp": "テラパゴス",
-    "profile": "太乐巴戈斯形似陆龟，通体深蓝色，具有闪亮的浅蓝色大眼睛和玫瑰红色眼线。普通形态的太乐巴戈斯四肢较长，龟壳和身体部分是青蓝色的六角形晶体，背上刻着象征太晶化的图案。其脖颈与四肢都套着青蓝色环状物体，并镶嵌着青蓝色的四角星形晶体，尾巴末梢也呈四角星形。头部四周有青蓝色晶体装饰，头上的三枚相连的青紫色渐变的菱形晶体组合成类似于头发的模样。太晶形态的太乐巴戈斯身体大幅结晶化，四肢缩短得只能看见前爪，形状变得和圆盘一般。其龟壳上有十八块深蓝色五边形晶体环绕着中央的六角形太晶，而每块五边形晶体上都刻着象征《朱／紫》不同属性图标的花纹。其晶体与光泽比普通形态下更加闪亮，脖颈与尾巴部分也生出了闪光的蓝色长鬃毛。\n太乐巴戈斯曾栖息在古代帕底亚地区，人们过去认为它在大约200万年前因地壳变动而招致灭绝。但它似乎把体内能量变为坚硬的结晶，并在休眠状态下保护了自身，是堪称太晶之源的宝可梦。太乐巴戈斯拥有一种太晶的能力，一旦察觉到危险，能够将体内制出的能量于体外结晶化。通过这个能力制出的结晶能形成坚硬的甲壳，而太乐巴戈斯将这种结晶罩在身上的样子便是“太晶形态”。若太晶的甲壳受到对手招式的攻击，就会将其能量吸收，供自己使用。“星晶形态”似乎是在“太晶形态”下接触“太晶珠”时能看到的样子，是太乐巴戈斯太晶能量异常增强后的样子。此时的太晶能量被认为会异常增强。还有传闻称这与刊登在《朱之书》或《紫之书》上的“■盘的宝■梦？”相似。星晶形态与古代人所认为的世界很像。跟据古老的探险记记载，它被掩埋在地底的样子就像浮在宇宙的星星一样。\n",
-    "forms": [
-        {
-            "name": "太乐巴戈斯-普通形态",
-            "index": "1024",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "1024-太乐巴戈斯-普通形态.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "太晶宝可梦",
-            "ability": [
-                {
-                    "name": "太晶变形",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.2m",
-            "weight": "6.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        },
-        {
-            "name": "太乐巴戈斯-太晶形态",
-            "index": "1024.1",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "1024.1-太乐巴戈斯-太晶形态.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "太晶宝可梦",
-            "ability": [
-                {
-                    "name": "太晶甲壳",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "0.3m",
-            "weight": "16.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        },
-        {
-            "name": "太乐巴戈斯-星晶形态",
-            "index": "1024.2",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "1024.2-太乐巴戈斯-星晶形态.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "太晶宝可梦",
-            "ability": [
-                {
-                    "name": "归零化境",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "1.7m",
-            "weight": "77.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "普通形态",
-            "data": {
-                "hp": "90",
-                "attack": "65",
-                "defense": "85",
-                "sp_attack": "65",
-                "sp_defense": "85",
-                "speed": "60"
-            }
-        },
-        {
-            "form": "太晶形态",
-            "data": {
-                "hp": "95",
-                "attack": "95",
-                "defense": "110",
-                "sp_attack": "105",
-                "sp_defense": "110",
-                "speed": "85"
-            }
-        },
-        {
-            "form": "星晶形态",
-            "data": {
-                "hp": "160",
-                "attack": "105",
-                "defense": "110",
-                "sp_attack": "130",
-                "sp_defense": "110",
-                "speed": "85"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "通过将能量变为坚硬的结晶来保护自身。堪称太晶之源的宝可梦。（普通形态）\n一旦察觉到危险，它就会用太晶的结晶制作出坚固的甲壳以备战。（太晶形态）\n太晶能量异常增强后的样子。与古代人所认为的世界很像。（星晶形态）"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "人们以前一直认为它们曾生活在古代帕底亚，但因地壳变动影响而灭绝。（普通形态）\n若太晶的甲壳受到对手招式的攻击，就会将其能量吸收，供自己使用。（太晶形态）\n跟据古老的探险记记载，它被掩埋在地底的样子就像浮在宇宙的星星一样。（星晶形态）"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "太乐巴戈斯",
-                "stage": "不进化",
-                "text": null,
-                "image": "1024Terapagos-Normal_Dream.png",
-                "back_text": null,
-                "from": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "太乐巴戈斯",
-        "zh_hant": "太樂巴戈斯",
-        "en": "Terapagos",
-        "fr": "Terapagos",
-        "de": "Terapagos",
-        "it": "Terapagos",
-        "es": "Terapagos",
-        "ja": "テラパゴス",
-        "ko": "테라파고스"
+  "name_zh": "太乐巴戈斯",
+  "name_ja": "テラパゴス",
+  "name_en": "Terapagos",
+  "pokedex_id": "1024",
+  "description": "太乐巴戈斯（日文︰テラパゴス，英文︰Terapagos）是一般属性传说的宝可梦。太晶形态的太乐巴戈斯被称为“蓝之圆盘”，而星晶形态的太乐巴戈斯则被称为“零之秘宝”。太晶形态的太乐巴戈斯在2023年2月27日正式公布，而普通形态的太乐巴戈斯则在2023年8月8日正式公布。",
+  "profile": "太乐巴戈斯形似陆龟，通体深蓝色，具有闪亮的浅蓝色大眼睛和玫瑰红色眼线。普通形态的太乐巴戈斯四肢较长，龟壳和身体部分是青蓝色的六角形晶体，背上刻着象征太晶化的图案。其脖颈与四肢都套着青蓝色环状物体，并镶嵌着青蓝色的四角星形晶体，尾巴末梢也呈四角星形。头部四周有青蓝色晶体装饰，头上的三枚相连的青紫色渐变的菱形晶体组合成类似于头发的模样。太晶形态的太乐巴戈斯身体大幅结晶化，四肢缩短得只能看见前爪，形状变得和圆盘一般。其龟壳上有十八块深蓝色五边形晶体环绕着中央的六角形太晶，而每块五边形晶体上都刻着象征《朱／紫》不同属性图标的花纹。其晶体与光泽比普通形态下更加闪亮，脖颈与尾巴部分也生出了闪光的蓝色长鬃毛。\n太乐巴戈斯曾栖息在古代帕底亚地区，人们过去认为它在大约200万年前因地壳变动而招致灭绝。但它似乎把体内能量变为坚硬的结晶，并在休眠状态下保护了自身，是堪称太晶之源的宝可梦。太乐巴戈斯拥有一种太晶的能力，一旦察觉到危险，能够将体内制出的能量于体外结晶化。通过这个能力制出的结晶能形成坚硬的甲壳，而太乐巴戈斯将这种结晶罩在身上的样子便是“太晶形态”。若太晶的甲壳受到对手招式的攻击，就会将其能量吸收，供自己使用。“星晶形态”似乎是在“太晶形态”下接触“太晶珠”时能看到的样子，是太乐巴戈斯太晶能量异常增强后的样子。此时的太晶能量被认为会异常增强。还有传闻称这与刊登在《朱之书》或《紫之书》上的“■盘的宝■梦？”相似。[1]星晶形态与古代人所认为的世界很像。跟据古老的探险记记载，它被掩埋在地底的样子就像浮在宇宙的星星一样。\n根据白蕾雅的说法，太乐巴戈斯由太晶能量构成。其命名者海哲首次发现该物种。借助结晶的力量，它能发射无数星形能量弹攻击敌人。直接接触了太乐巴戈斯的能量后，就算不给太晶珠充能也可以进行太晶化。\n太乐巴戈斯似乎有着穿越时空的能力。《朱／紫 零之秘宝》中，主角带着太乐巴戈斯来到晶光池时，太乐巴戈斯会发动自己的能力，让奥琳博士S/弗图博士V穿越时空，出现在主角面前。",
+  "prototype": "太乐巴戈斯（普通形态）形似龟与太晶化元素的结合体。从其命名和形象来看，可能参考加拉帕戈斯象龟或加拉帕戈斯绿海龟。\n《后篇：蓝之圆盘》中的雄性太乐巴戈斯在生态设定上可能参考了孑遗动物，例如最后一只平塔岛象龟（加拉帕戈斯象龟亚种）“孤独乔治”。\n太乐巴戈斯（太晶形态）龟壳上的五边形镶嵌图案是18种属性的图标，可能也参考了钻纹龟背部的图案。\n从太乐巴戈斯（太晶形态）颈部和尾部的鬃毛来看，其造型可能参考了绿毛龟，在日本又称为「蓑亀（みのかめ）」。现实中蓑龟的背上会附生大量的龟背基枝藻，形成类似鬃毛的模样。\n结合帕底亚地区的原型来看，太乐巴戈斯（太晶形态）的鬃毛可能也参考了法国、西班牙民间故事中的塔拉斯克。这种怪物常被描绘成狮首、龟身、蛇尾的形象。\n太乐巴戈斯（星晶形态）的造型参考了古希腊托勒密系统与中世纪亚伯拉罕诸教的宇宙观：\n半穹与18属性晶体可能参考了中世纪地中海世界统合的宇宙模型：大地之上覆盖着穹苍，其上有水晶球壳与水层，最上面的火光层是光的源头。\n其设计理念与整体形象还可能参考了西方哲学中的宇宙灵魂，即生命和灵魂之间跨越多重宇宙的最普遍联系，在早期抄本插图中常被描绘成有灵的动物形象。\n被主角收服的雄性太乐巴戈斯在人文层面可能也参考了诺斯底主义宇宙观，后期诺斯底主义部分派别认为巨匠造物主是脱离阴阳基质（拉丁语：syzygia）的阳性伊雍。\n结合第零区的主题来看，太乐巴戈斯的形态变化可能参考了认识论中的无限后退难题，星晶形态大龟身负小龟的造型可能参考了常见图像诠释：无限只乌龟层叠起来形成的乌龟塔。",
+  "detail": "太乐巴戈斯（普通形态）在东京电视台系频道播出的燃烧的伽勒尔火焰鸟外挂字幕中的标识为古代龟（日文︰コダイカメ）。在动画剧情中，此时尚未揭晓太乐巴戈斯的名字。\n太乐巴戈斯在自主对战会和一般对战一样由普通形态变成太晶形态去攻击。\n虽然太乐巴戈斯可以是雄性或雌性，但目前剧情所捕捉的太乐巴戈斯只有雄性。\n太乐巴戈斯是唯一在打倒后能总计取得4点基础点数的宝可梦。\n太乐巴戈斯的叫声前段类似于宝可梦进行太晶化时的音效。\n尽管太乐巴戈斯的普通形态有专属的种族值分布，但由于特性的影响，太乐巴戈斯实际上并没有办法以普通形态进行战斗。\n但普通形态较低的ＨＰ种族值使得太乐巴戈斯可以通过对战回复ＨＰ：变化为太晶形态时当前ＨＰ随着种族值提升而增加，变回普通形态时当前ＨＰ只会在超过最大ＨＰ时降至最大ＨＰ，低于最大ＨＰ时则不会下降。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "テラパゴス Terapagos",
+      "origin": "来自“テラスタル”（太晶化）或拉丁文 terra（地球）、英文 terrapin（水龟，原指钻纹龟）和西班牙文 galápago（龟的统称）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "缩入壳中",
-                        "flavor_text": "缩入壳里保护身体，从而提高自己的防御。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "三重攻击",
-                        "flavor_text": "用３种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "高速旋转",
-                        "flavor_text": "通过旋转来攻击对手。可以摆脱绑紧、紧束、寄生种子等招式。还能提高自己的速度。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "原始之力",
-                        "flavor_text": "用原始之力进行攻击。有时会提高自己所有的能力。",
-                        "type": "岩石",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "头锤",
-                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "重磅冲撞",
-                        "flavor_text": "用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "60",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "晶光星群",
-                        "flavor_text": "照射出结晶的力量来驱逐敌人。太乐巴戈斯在星晶形态下使出时，能对所有对手造成伤害。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "70",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "80",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "岩石打磨",
-                        "flavor_text": "打磨自己的身体，减少空气阻力。可以大幅提高自己的速度。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "90",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "陀螺球",
-                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００１",
-                        "method": "招式学习器",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１１",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４１",
-                        "method": "招式学习器",
-                        "name": "辅助力量",
-                        "flavor_text": "用蓄积起来的力量攻击对手。自己的能力提高得越多，威力就越大。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "20",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４７",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４９",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５０",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０５９",
-                        "method": "招式学习器",
-                        "name": "意念头锤",
-                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０６６",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７９",
-                        "method": "招式学习器",
-                        "name": "魔法闪耀",
-                        "flavor_text": "向对手发射强光，并给予伤害。",
-                        "type": "妖精",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８６",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８９",
-                        "method": "招式学习器",
-                        "name": "扑击",
-                        "flavor_text": "用身体撞向对手进行攻击。防御越高，给予的伤害就越高。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９３",
-                        "method": "招式学习器",
-                        "name": "加农光炮",
-                        "flavor_text": "将身体的光芒聚集在一点释放出去。有时会降低对手的特防。",
-                        "type": "钢",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９４",
-                        "method": "招式学习器",
-                        "name": "恶之波动",
-                        "flavor_text": "从体内发出充满恶意的恐怖气场。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９９",
-                        "method": "招式学习器",
-                        "name": "铁头",
-                        "flavor_text": "用钢铁般坚硬的头部进行攻击。有时会使对手畏缩。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０１",
-                        "method": "招式学习器",
-                        "name": "力量宝石",
-                        "flavor_text": "发射如宝石般闪耀的光芒攻击对手。",
-                        "type": "岩石",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０８",
-                        "method": "招式学习器",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１２",
-                        "method": "招式学习器",
-                        "name": "波导弹",
-                        "flavor_text": "从体内产生出波导之力，然后向对手发出。攻击必定会命中。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１５",
-                        "method": "招式学习器",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１６",
-                        "method": "招式学习器",
-                        "name": "隐形岩",
-                        "flavor_text": "将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１９",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２１",
-                        "method": "招式学习器",
-                        "name": "重磅冲撞",
-                        "flavor_text": "用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２３",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２４",
-                        "method": "招式学习器",
-                        "name": "冰旋",
-                        "flavor_text": "脚上覆盖薄冰，旋转着撞击对手。通过旋转的动作破坏场地。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２５",
-                        "method": "招式学习器",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２６",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２９",
-                        "method": "招式学习器",
-                        "name": "冥想",
-                        "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３３",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４７",
-                        "method": "招式学习器",
-                        "name": "疯狂伏特",
-                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４９",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５０",
-                        "method": "招式学习器",
-                        "name": "尖石攻击",
-                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５２",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６２",
-                        "method": "招式学习器",
-                        "name": "虫鸣",
-                        "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６３",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６５",
-                        "method": "招式学习器",
-                        "name": "闪焰冲锋",
-                        "flavor_text": "让火焰覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６６",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６８",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７２",
-                        "method": "招式学习器",
-                        "name": "吼叫",
-                        "flavor_text": "放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７５",
-                        "method": "招式学习器",
-                        "name": "剧毒",
-                        "flavor_text": "让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７８",
-                        "method": "招式学习器",
-                        "name": "重力",
-                        "flavor_text": "在５回合内，飘浮特性和飞行属性的宝可梦会被地面属性的招式击中。飞向空中的招式也将无法使用。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８０",
-                        "method": "招式学习器",
-                        "name": "陀螺球",
-                        "flavor_text": "让身体高速旋转并撞击对手。速度比对手越慢，威力越大。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８９",
-                        "method": "招式学习器",
-                        "name": "高温重压",
-                        "flavor_text": "用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９３",
-                        "method": "招式学习器",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０４",
-                        "method": "招式学习器",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１０",
-                        "method": "招式学习器",
-                        "name": "闪电强袭",
-                        "flavor_text": "让身体带电后压向对手。如果没有命中则自己会受到伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１５",
-                        "method": "招式学习器",
-                        "name": "热沙大地",
-                        "flavor_text": "将滚烫的沙子砸向对手进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２０",
-                        "method": "招式学习器",
-                        "name": "流星光束",
-                        "flavor_text": "第１回合聚集宇宙之力提高特攻，第２回合攻击对手。",
-                        "type": "岩石",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "90",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "太樂巴戈斯太乐巴戈斯",
+      "origin": "来自日文名的音译，也可能取自“太晶化”和“乐园”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "太乐巴戈斯",
+      "origin": "来自日文名的音译，也可能取自“太晶化”和“乐园”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "太樂巴戈斯",
+      "origin": "来自日文名的音译，也可能取自“太晶化”和“乐园”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "太樂巴戈斯",
+      "origin": "来自日文名的音译，也可能取自“太晶化”和“乐园”。"
+    },
+    {
+      "language": "英文",
+      "name": "Terapagos",
+      "origin": "同日文名。"
+    },
+    {
+      "language": "法文",
+      "name": "Terapagos",
+      "origin": "同日文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Terapagos",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Terapagos",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Terapagos",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "테라파고스 Terapagos",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "普通形态",
+      "types": [
+        "一般"
+      ],
+      "category": "太晶宝可梦",
+      "abilities": [
         {
-            "name": "太乐巴戈斯-普通形态",
-            "image": "1024-太乐巴戈斯-普通形态.png",
-            "shiny": "1024-太乐巴戈斯-普通形态-shiny.png"
-        },
-        {
-            "name": "太乐巴戈斯-太晶形态",
-            "image": "1024-太乐巴戈斯-太晶形态.png",
-            "shiny": "1024-太乐巴戈斯-太晶形态-shiny.png"
-        },
-        {
-            "name": "太乐巴戈斯-星晶形态",
-            "image": "1024-太乐巴戈斯-星晶形态.png",
-            "shiny": "1024-太乐巴戈斯-星晶形态-shiny.png"
+          "name": "太晶变形",
+          "is_hidden": false
         }
+      ],
+      "height": "0.2m",
+      "weight": "6.5kg",
+      "color": "蓝色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "孵化周期（未知步）",
+      "shape": "Body08.png",
+      "footprint": "FUnknown.png",
+      "image": "1024Terapagos-Normal.png"
+    },
+    {
+      "name": "太晶形态",
+      "types": [
+        "一般"
+      ],
+      "category": "太晶宝可梦",
+      "abilities": [
+        {
+          "name": "太晶甲壳",
+          "is_hidden": false
+        }
+      ],
+      "height": "0.3m",
+      "weight": "16.0kg",
+      "color": "蓝色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "孵化周期（未知步）",
+      "shape": "Body01.png",
+      "footprint": "FUnknown.png",
+      "image": "1024Terapagos-Terastal.png"
+    },
+    {
+      "name": "星晶形态",
+      "types": [
+        "一般"
+      ],
+      "category": "太晶宝可梦",
+      "abilities": [
+        {
+          "name": "归零化境",
+          "is_hidden": false
+        }
+      ],
+      "height": "1.7m",
+      "weight": "77.0kg",
+      "color": "蓝色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "孵化周期（未知步）",
+      "shape": "Body01.png",
+      "footprint": "FUnknown.png",
+      "image": "1024Terapagos-Stellar_Form_Dream.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "普通形态",
+      "data": {
+        "hp": "90",
+        "attack": "65",
+        "defense": "85",
+        "sp_attack": "65",
+        "sp_defense": "85",
+        "speed": "60"
+      }
+    },
+    {
+      "form": "太晶形态",
+      "data": {
+        "hp": "95",
+        "attack": "95",
+        "defense": "110",
+        "sp_attack": "105",
+        "sp_defense": "110",
+        "speed": "85"
+      }
+    },
+    {
+      "form": "星晶形态",
+      "data": {
+        "hp": "160",
+        "attack": "105",
+        "defense": "110",
+        "sp_attack": "130",
+        "sp_defense": "110",
+        "speed": "85"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "通过将能量变为坚硬的结晶来保护自身。堪称太晶之源的宝可梦。（普通形态）一旦察觉到危险，它就会用太晶的结晶制作出坚固的甲壳以备战。（太晶形态）太晶能量异常增强后的样子。与古代人所认为的世界很像。（星晶形态）"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "人们以前一直认为它们曾生活在古代帕底亚，但因地壳变动影响而灭绝。（普通形态）若太晶的甲壳受到对手招式的攻击，就会将其能量吸收，供自己使用。（太晶形态）跟据古老的探险记记载，它被掩埋在地底的样子就像浮在宇宙的星星一样。（星晶形态）"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "太乐巴戈斯",
+        "stage": "不进化",
+        "text": null,
+        "image": "1024Terapagos-Normal_Dream.png",
+        "back_text": null,
+        "from": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "缩入壳中",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "三重攻击",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "高速旋转",
+      "type": "一般",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "level": "10",
+      "name": "原始之力",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "20",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "30",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "40",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "50",
+      "name": "重磅冲撞",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "60",
+      "name": "晶光星群",
+      "type": "一般",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "70",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "80",
+      "name": "岩石打磨",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "90",
+      "name": "陀螺球",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４１",
+      "name": "辅助力量",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７９",
+      "name": "魔法闪耀",
+      "type": "妖精",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８６",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８９",
+      "name": "扑击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９３",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９４",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０９９",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０１",
+      "name": "力量宝石",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０８",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１２",
+      "name": "波导弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１１５",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１１９",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２１",
+      "name": "重磅冲撞",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２４",
+      "name": "冰旋",
+      "type": "冰",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２６",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２９",
+      "name": "冥想",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３３",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４７",
+      "name": "疯狂伏特",
+      "type": "电",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１４９",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５０",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６２",
+      "name": "虫鸣",
+      "type": "虫",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６５",
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１６６",
+      "name": "打雷",
+      "type": "电",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７２",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１７５",
+      "name": "剧毒",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７８",
+      "name": "重力",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１８０",
+      "name": "陀螺球",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１８９",
+      "name": "高温重压",
+      "type": "火",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９３",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２１０",
+      "name": "闪电强袭",
+      "type": "电",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２１５",
+      "name": "热沙大地",
+      "type": "地面",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２０",
+      "name": "流星光束",
+      "type": "岩石",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "90",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "太乐巴戈斯-普通形态",
+      "image": "1024-太乐巴戈斯-普通形态.png",
+      "shiny": "1024-太乐巴戈斯-普通形态-shiny.png"
+    },
+    {
+      "name": "太乐巴戈斯-太晶形态",
+      "image": "1024-太乐巴戈斯-太晶形态.png",
+      "shiny": "1024-太乐巴戈斯-太晶形态-shiny.png"
+    },
+    {
+      "name": "太乐巴戈斯-星晶形态",
+      "image": "1024-太乐巴戈斯-星晶形态.png",
+      "shiny": "1024-太乐巴戈斯-星晶形态-shiny.png"
+    }
+  ]
 }

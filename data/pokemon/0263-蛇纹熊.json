@@ -1,989 +1,769 @@
 {
-    "name": "蛇纹熊",
-    "index": "0263",
-    "name_en": "Zigzagoon",
-    "name_jp": "ジグザグマ",
-    "profile": "蛇纹熊类似于浣熊和獾，身体以褐色为主，面部有类似于浣熊的深褐色毛发，浅褐色的锯齿状毛发呈环状，使蛇纹熊拥有了一节一节的参差感。它那水汪汪的褐色眼睛使它看上去显得更加机灵。伽勒尔的样子的蛇纹熊毛发呈现黑白交替，眼睛由褐色变成红色，周围有黑色五角星图案，并且舌头一直露在外面。\n蛇纹熊十分擅长通过之字形走路来发现埋藏在草丛或地里的宝物。它会用鼻子在地面上到处摩擦，好像总在寻找什么似的。之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。蛇纹熊会用背上的硬毛摩擦树木，留下代表自己地盘的标记。还会装死欺骗敌人。性情比伽勒尔的蛇纹熊温驯。\n伽勒尔地区的蛇纹熊天生我行我素，一直在奔跑，一刻都安静不下来。栖息于草原、森林和城镇，它们的身影在伽勒尔地区随处可见，被认为是至今为止发现的蛇纹熊的原种。其他地区的蛇纹熊之所以举动会宛如蛇行，据说就是因为受到了原种蛇纹熊习性的影响。它会之字形乱走，把周围弄得一团糟。它的性情争勇好斗，不管对方是人还是宝可梦，都会猛撞过去挑起事端。虽然这种行为多半会导致与其他宝可梦的争斗，但在人类的眼里看来只不过是在打闹而已，所以许多人并不会因此生气。对于这样的人类，蛇纹熊似乎相当不满。\n",
-    "forms": [
-        {
-            "name": "蛇纹熊",
-            "index": "0263",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0263-蛇纹熊.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "豆狸宝可梦",
-            "ability": [
-                {
-                    "name": "捡拾",
-                    "is_hidden": false
-                },
-                {
-                    "name": "贪吃鬼",
-                    "is_hidden": false
-                },
-                {
-                    "name": "飞毛腿",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.4m",
-            "weight": "17.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "陆上"
-            ]
-        },
-        {
-            "name": "伽勒尔蛇纹熊",
-            "index": "0263.1",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0263.1-伽勒尔蛇纹熊.png",
-            "types": [
-                "恶",
-                "一般"
-            ],
-            "genus": "豆狸宝可梦",
-            "ability": [
-                {
-                    "name": "捡拾",
-                    "is_hidden": false
-                },
-                {
-                    "name": "贪吃鬼",
-                    "is_hidden": false
-                },
-                {
-                    "name": "飞毛腿",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.4m",
-            "weight": "17.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "白色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "38",
-                "attack": "30",
-                "defense": "41",
-                "sp_attack": "30",
-                "sp_defense": "41",
-                "speed": "60"
-            }
-        },
-        {
-            "form": "伽勒尔的样子",
-            "data": {
-                "hp": "38",
-                "attack": "30",
-                "defense": "41",
-                "sp_attack": "30",
-                "sp_defense": "41",
-                "speed": "60"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "会用背上的硬毛摩擦树木，留下代表自己领地的标记。还会装死欺骗敌人。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "会用鼻子在地面上到处摩擦，好像总在寻找什么似的，特征是之字形前进的足迹。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "好奇心旺盛的宝可梦。不论对什么都很感兴趣，所以总是在之字形走路。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "好奇心旺盛的宝可梦。不论对什么都很感兴趣，所以总是在之字形走路。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "对很多东西都有兴趣，左左右右地之字形前进，是擅长找东西的宝可梦。*"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "对很多东西都有兴趣，左左右右地之字形前进，是擅长找东西的宝可梦。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "此宝可梦很擅长通过之字形走路来发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "此宝可梦很擅长通过之字形走路来发现埋藏在草丛或地里的宝物。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "此宝可梦很擅长通过之字形走路来发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "好奇心旺盛的宝可梦。不论对什么都很感兴趣，所以总是在之字形走路。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "会用背上的硬毛摩擦树木，留下代表自己领地的标记。还会装死欺骗敌人。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会用背上的硬毛摩擦树木，留下代表自己地盘的标记。性情比伽勒尔的蛇纹熊温驯。一直在奔跑，永远静不下来。如果发现了其他的宝可梦，就会故意撞上去挑起事端。（伽勒尔的样子）"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "伽勒尔的蛇纹熊适应了其他地区环境后的样子。十分擅长找东西。这似乎是蛇纹熊最古老的样子。会之字形乱走，把周围弄得一团糟。（伽勒尔的样子）"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "蛇纹熊",
-                "stage": "未进化",
-                "text": null,
-                "image": "263Zigzagoon_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "直冲熊",
-                "stage": "1阶进化",
-                "text": "等级20以上",
-                "image": "264Linoone_Dream.png",
-                "back_text": "",
-                "from": "蛇纹熊",
-                "form_name": null
-            }
-        ],
-        [
-            {
-                "name": "蛇纹熊",
-                "stage": "未进化",
-                "text": null,
-                "image": "263Zigzagoon-Galar_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": "伽勒尔的样子"
-            },
-            {
-                "name": "直冲熊",
-                "stage": "1阶进化",
-                "text": "等级20以上",
-                "image": "264Linoone-Galar_Dream.png",
-                "back_text": "",
-                "from": "蛇纹熊",
-                "form_name": "伽勒尔的样子"
-            },
-            {
-                "name": "堵拦熊",
-                "stage": "2阶进化",
-                "text": "等级35以上（夜晚）",
-                "image": "862Obstagoon_Dream.png",
-                "back_text": "",
-                "from": "直冲熊",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "蛇纹熊",
-        "zh_hant": "蛇紋熊",
-        "en": "Zigzagoon",
-        "fr": "Zigzagoon",
-        "de": "Zigzachs",
-        "it": "Zigzagoon",
-        "es": "Zigzagoon",
-        "ja": "ジグザグマ",
-        "ko": "지그재구리"
+  "name_zh": "蛇纹熊",
+  "name_ja": "ジグザグマ",
+  "name_en": "Zigzagoon",
+  "pokedex_id": "0263",
+  "description": "蛇纹熊（日文︰ジグザグマ，英文︰Zigzagoon）是一般属性宝可梦，而伽勒尔的样子是恶属性／一般属性宝可梦，伽勒尔的蛇纹熊的设计者为James Turner。",
+  "profile": "蛇纹熊类似于浣熊和獾，身体以褐色为主，面部有类似于浣熊的深褐色毛发，浅褐色的锯齿状毛发呈环状，使蛇纹熊拥有了一节一节的参差感。它那水汪汪的褐色眼睛使它看上去显得更加机灵。伽勒尔的样子的蛇纹熊毛发呈现黑白交替，眼睛由褐色变成红色，周围有黑色五角星图案，并且舌头一直露在外面。\n蛇纹熊十分擅长通过之字形走路来发现埋藏在草丛或地里的宝物。它会用鼻子在地面上到处摩擦，好像总在寻找什么似的。之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。蛇纹熊会用背上的硬毛摩擦树木，留下代表自己地盘的标记。还会装死欺骗敌人。性情比伽勒尔的蛇纹熊温驯。\n伽勒尔地区的蛇纹熊天生我行我素，一直在奔跑，一刻都安静不下来。栖息于草原、森林和城镇，它们的身影在伽勒尔地区随处可见，被认为是至今为止发现的蛇纹熊的原种。其他地区的蛇纹熊之所以举动会宛如蛇行，据说就是因为受到了原种蛇纹熊习性的影响。它会之字形乱走，把周围弄得一团糟。它的性情争勇好斗，不管对方是人还是宝可梦，都会猛撞过去挑起事端。虽然这种行为多半会导致与其他宝可梦的争斗，但在人类的眼里看来只不过是在打闹而已，所以许多人并不会因此生气。对于这样的人类，蛇纹熊似乎相当不满。[1]",
+  "prototype": "蛇纹熊可能基于貉（日语中称为狸）或浣熊。其分类“豆狸宝可梦”中的豆狸为日本传说中貉子幻化成的妖怪。\n伽勒尔蛇纹熊在上述基础上又融入了欧洲狗獾的外形特征及蜜獾的习性，其花纹可能参考了接吻乐团（KISS）的招牌妆容设计。\n伽勒尔蛇纹熊的外形也类似于虎鼬。\n伽勒尔蛇纹熊被认为是蛇纹熊的原种这一的设定，可能源自现实中欧洲狗獾是狗獾属的模式种。",
+  "detail": "蛇纹熊在图鉴导航中拥有专属建模，玩家可以单凭草丛中的尾巴确定它的位置。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ジグザグマ Jiguzaguma",
+      "origin": "来自英文 zigzag（蛇形）和“熊（くま）”（熊，通常用于熊型下目动物的名称）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叫声",
-                        "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "3",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泼沙",
-                        "flavor_text": "向对手脸上泼沙子，从而降低命中率。",
-                        "type": "地面",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "6",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摇尾巴",
-                        "flavor_text": "可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "9",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "渴望",
-                        "flavor_text": "一边可爱地撒娇，一边靠近对手进行攻击，还能夺取对手携带的道具。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "12",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "头锤",
-                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "圆瞳",
-                        "flavor_text": "用圆瞳凝视对手，从而降低其攻击。必定能够先制攻击。",
-                        "type": "妖精",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "18",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "飞弹针",
-                        "flavor_text": "向对手发射锐针进行攻击。连续攻击２～５次。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "95",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "21",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "27",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抓狂",
-                        "flavor_text": "抓狂般乱打进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "33",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "腹鼓",
-                        "flavor_text": "将自己的ＨＰ减少到最大ＨＰ的一半，从而最大限度提高自己的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "36",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７",
-                        "method": "招式学习器",
-                        "name": "飞弹针",
-                        "flavor_text": "向对手发射锐针进行攻击。连续攻击２～５次。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "95",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２３",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２７",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２９",
-                        "method": "招式学习器",
-                        "name": "撒娇",
-                        "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
-                        "type": "妖精",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３３",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３６",
-                        "method": "招式学习器",
-                        "name": "潮旋",
-                        "flavor_text": "将对手困在激烈的水流旋涡中，在４～５回合内进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４０",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４１",
-                        "method": "招式学习器",
-                        "name": "帮助",
-                        "flavor_text": "帮助伙伴。被帮助的宝可梦，其招式威力变得比平时大。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５３",
-                        "method": "招式学习器",
-                        "name": "泥巴射击",
-                        "flavor_text": "向对手投掷泥块进行攻击。同时降低对手的速度。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５９",
-                        "method": "招式学习器",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７９",
-                        "method": "招式学习器",
-                        "name": "报仇",
-                        "flavor_text": "为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会提高。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８４",
-                        "method": "招式学习器",
-                        "name": "扫尾拍打",
-                        "flavor_text": "用坚硬的尾巴拍打对手进行攻击。连续攻击２～５次。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "85",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０４",
-                        "method": "招式学习器",
-                        "name": "冲浪",
-                        "flavor_text": "利用大浪攻击自己周围所有的宝可梦。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０５",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０６",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０８",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０９",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３１",
-                        "method": "招式学习器",
-                        "name": "铁尾",
-                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３３",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３８",
-                        "method": "招式学习器",
-                        "name": "戏法",
-                        "flavor_text": "抓住对手的空隙，交换自己和对手的持有物。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４２",
-                        "method": "招式学习器",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５９",
-                        "method": "招式学习器",
-                        "name": "种子炸弹",
-                        "flavor_text": "将外壳坚硬的大种子，从上方砸下攻击对手。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７３",
-                        "method": "招式学习器",
-                        "name": "垃圾射击",
-                        "flavor_text": "用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态。",
-                        "type": "毒",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７７",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录８５",
-                        "method": "招式学习器",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "蛇紋熊蛇纹熊",
+      "origin": "来自“蛇纹”和“熊”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "蛇纹熊",
+      "origin": "来自“蛇纹”和“熊”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "蛇紋熊",
+      "origin": "来自“蛇纹”和“熊”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "蛇紋熊",
+      "origin": "来自“蛇纹”和“熊”。"
+    },
+    {
+      "language": "英文",
+      "name": "Zigzagoon",
+      "origin": "来自 zigzag（之字形）和 raccoon（浣熊）或 raccoon dog（貉、狸）。"
+    },
+    {
+      "language": "法文",
+      "name": "Zigzaton",
+      "origin": "来自 zigzag（之字形）和 raton（浣熊）。"
+    },
+    {
+      "language": "德文",
+      "name": "Zigzachs",
+      "origin": "来自 Zickzack（英文：之字形）和 Dachs（狗獾）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Zigzagoon",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Zigzagoon",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "지그재구리 Jigujaeguri",
+      "origin": "来自英文 zigzag（之字形）和“너구리”（貉）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "蛇纹熊",
+      "types": [
+        "一般"
+      ],
+      "category": "豆狸宝可梦",
+      "abilities": [
         {
-            "name": "蛇纹熊",
-            "image": "0263-蛇纹熊.png",
-            "shiny": "0263-蛇纹熊-shiny.png"
+          "name": "捡拾",
+          "is_hidden": false
         },
         {
-            "name": "蛇纹熊-伽勒尔的样子",
-            "image": "0263-蛇纹熊-伽勒尔的样子.png",
-            "shiny": "0263-蛇纹熊-伽勒尔的样子-shiny.png"
+          "name": "贪吃鬼",
+          "is_hidden": false
+        },
+        {
+          "name": "飞毛腿",
+          "is_hidden": true
         }
+      ],
+      "height": "0.4m",
+      "weight": "17.5kg",
+      "color": "褐色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body08.png",
+      "footprint": "F263.png",
+      "image": "263Zigzagoon.png"
+    },
+    {
+      "name": "伽勒尔蛇纹熊",
+      "types": [
+        "恶",
+        "一般"
+      ],
+      "category": "豆狸宝可梦",
+      "abilities": [
+        {
+          "name": "捡拾",
+          "is_hidden": false
+        },
+        {
+          "name": "贪吃鬼",
+          "is_hidden": false
+        },
+        {
+          "name": "飞毛腿",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.4m",
+      "weight": "17.5kg",
+      "color": "白色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body08.png",
+      "footprint": "F263.png",
+      "image": "263Zigzagoon-Galar.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "38",
+        "attack": "30",
+        "defense": "41",
+        "sp_attack": "30",
+        "sp_defense": "41",
+        "speed": "60"
+      }
+    },
+    {
+      "form": "伽勒尔的样子",
+      "data": {
+        "hp": "38",
+        "attack": "30",
+        "defense": "41",
+        "sp_attack": "30",
+        "sp_defense": "41",
+        "speed": "60"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "游戏版本",
+      "damage": "橙橙果（5%）"
+    },
+    {
+      "type": "携带物品",
+      "damage": ""
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会用背上的硬毛摩擦树木，留下代表自己领地的标记。还会装死欺骗敌人。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "会用鼻子在地面上到处摩擦，好像总在寻找什么似的，特征是之字形前进的足迹。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "好奇心旺盛的宝可梦。不论对什么都很感兴趣，所以总是在之字形走路。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "好奇心旺盛的宝可梦。不论对什么都很感兴趣，所以总是在之字形走路。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "对很多东西都有兴趣，左左右右地之字形前进，是擅长找东西的宝可梦。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "对很多东西都有兴趣，左左右右地之字形前进，是擅长找东西的宝可梦。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "此宝可梦很擅长通过之字形走路来发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "好奇心旺盛的宝可梦。不论对什么都很感兴趣，所以总是在之字形走路。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "之所以会一直之字形地到处乱走，是因为它的好奇心太过旺盛，对看到的各种东西都很感兴趣。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会用背上的硬毛摩擦树木，留下代表自己领地的标记。还会装死欺骗敌人。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "会用背上的硬毛摩擦树木，留下代表自己地盘的标记。性情比伽勒尔的蛇纹熊温驯。一直在奔跑，永远静不下来。如果发现了其他的宝可梦，就会故意撞上去挑起事端。（伽勒尔的样子）"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "伽勒尔的蛇纹熊适应了其他地区环境后的样子。十分擅长找东西。这似乎是蛇纹熊最古老的样子。会之字形乱走，把周围弄得一团糟。（伽勒尔的样子）"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "此宝可梦会以之字形走路。擅长发现埋藏在草丛或地里的宝物。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "蛇纹熊",
+        "stage": "未进化",
+        "text": null,
+        "image": "263Zigzagoon_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "直冲熊",
+        "stage": "1阶进化",
+        "text": "等级20以上",
+        "image": "264Linoone_Dream.png",
+        "back_text": "",
+        "from": "蛇纹熊",
+        "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "蛇纹熊",
+        "stage": "未进化",
+        "text": null,
+        "image": "263Zigzagoon-Galar_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "伽勒尔的样子"
+      },
+      {
+        "name": "直冲熊",
+        "stage": "1阶进化",
+        "text": "等级20以上",
+        "image": "264Linoone-Galar_Dream.png",
+        "back_text": "",
+        "from": "蛇纹熊",
+        "form_name": "伽勒尔的样子"
+      },
+      {
+        "name": "堵拦熊",
+        "stage": "2阶进化",
+        "text": "等级35以上（夜晚）",
+        "image": "862Obstagoon_Dream.png",
+        "back_text": "",
+        "from": "直冲熊",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "level": "3",
+      "name": "泼沙",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "6",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "9",
+      "name": "渴望",
+      "type": "一般",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "12",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "15",
+      "name": "圆瞳",
+      "type": "妖精",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "18",
+      "name": "飞弹针",
+      "type": "虫",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "95",
+      "pp": "20"
+    },
+    {
+      "level": "21",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "27",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "30",
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "33",
+      "name": "腹鼓",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "36",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "machine": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "machine": "—",
+      "name": "泼沙",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "—",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "—",
+      "name": "渴望",
+      "type": "一般",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "—",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "—",
+      "name": "圆瞳",
+      "type": "妖精",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "—",
+      "name": "飞弹针",
+      "type": "虫",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "95",
+      "pp": "20"
+    },
+    {
+      "machine": "—",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "—",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "—",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "—",
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "—",
+      "name": "腹鼓",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "—",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [],
+      "name": "—",
+      "type": "撞击[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "40",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "叫声[详]",
+      "category": "一般",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "泼沙[详]",
+      "category": "地面",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "摇尾巴[详]",
+      "category": "一般",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "渴望[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "60",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "头锤[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "70",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "圆瞳[详]",
+      "category": "妖精",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "飞弹针[详]",
+      "category": "虫",
+      "power": "物理",
+      "accuracy": "25",
+      "pp": "95"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "睡觉[详]",
+      "category": "超能力",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "—"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "猛撞[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "90",
+      "pp": "85"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "投掷[详]",
+      "category": "恶",
+      "power": "物理",
+      "accuracy": "变化",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "抓狂[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "变化",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "腹鼓[详]",
+      "category": "一般",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "—"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "舍身冲撞[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "120",
+      "pp": "100"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "蛇纹熊",
+      "image": "0263-蛇纹熊.png",
+      "shiny": "0263-蛇纹熊-shiny.png"
+    },
+    {
+      "name": "蛇纹熊-伽勒尔的样子",
+      "image": "0263-蛇纹熊-伽勒尔的样子.png",
+      "shiny": "0263-蛇纹熊-伽勒尔的样子-shiny.png"
+    }
+  ]
 }

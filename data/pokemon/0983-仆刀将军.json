@@ -1,0 +1,962 @@
+{
+  "name_zh": "仆刀将军",
+  "name_ja": "ドドゲザン",
+  "name_en": "Kingambit",
+  "pokedex_id": "0983",
+  "description": "仆刀将军（日文︰ドドゲザン，英文︰Kingambit）是恶属性／钢属性宝可梦。",
+  "profile": "仆刀将军的腿部和肩部为红色，腹部是灰色，像穿着一身铠甲。他的腰部像是挂着黑白相间的腰带，向外左右各伸出两把利刃。他的手是黄色的，手上有装饰品一样的倒刺。它的眼神犀利，脸部有两片胡子一样的黑色的刀刃，头上有一把巨大的刀。它的头发很长，一般会坐在自己像坐凳一样的头发下端上。\n在气势磅礴的军团中，只有站上顶点的那只劈斩司令才能进化成仆刀将军。它会引领大军来战斗，却不擅长困难的战术，只会用蛮力来压制对手。",
+  "prototype": "仆刀将军的原型为古代日本的将军级别的武将，头部的刀和甲壳类似大钉、鲇尾和唐冠形兜的组合，例如吉利支丹大名蒲生氏乡的头盔。\n结合其进化前身劈斩司令体现的昆虫形象（详见宝可梦诞生秘话）来看，仆刀将军的整体造型可能参考了兜虫，尤其是独角仙。\n结合劈斩司令在帕底亚地区的分布范围来看，仆刀将军的造型可能也参考了比利牛斯山特有种金龟具有金属光泽的鞘翅。\n其专用招式仆刀可能参考了斗虫中独角仙的打斗行为，以及将土下座这种极为诚恳的道歉动作用于攻击的诈降战术。",
+  "detail": "仆刀将军是有唯一属性组合的宝可梦，恶属性／钢属性。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步仆刀将军（Pokémon GO）。\n←\nNo.0982：土龙节节\n宝可梦\nNo.0984：雄伟牙\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ドドゲザン Dodogezan",
+      "origin": "来自“ど”（非常）、“土下座（どげざ）”（跪地谢罪）和“斬（ざん）”（斩）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "仆斬將軍仆刀将军",
+      "origin": "仆斬將軍：来自“仆”（以头叩地、仆地而倒）、“斩”和“将军”。仆刀将军：来自“仆”、“刀”和“将军”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "仆斬將軍",
+      "origin": "来自“仆”（以头叩地、仆地而倒）、“斩”和“将军”。"
+    },
+    {
+      "language": "英文",
+      "name": "Kingambit",
+      "origin": "来自 king（国际象棋的王）和 gambit（策略，源自国际象棋的“弃兵”开局）。"
+    },
+    {
+      "language": "法文",
+      "name": "Scalpereur",
+      "origin": "来自 scalpel（手术刀）和 empereur（皇帝）。"
+    },
+    {
+      "language": "德文",
+      "name": "Gladimperio",
+      "origin": "来自 Gladiator（角斗士）和西班牙文 imperio（帝国；兵权）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Kingambit",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Kingambit",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "대도각참 Daedogakcham",
+      "origin": "来自“대도〈大刀〉”（大刀）、日文“土下座（どげざ）”、“각〈刻〉”（刻）和“참〈斬〉”（斩）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "仆刀将军",
+      "types": [
+        "恶",
+        "钢"
+      ],
+      "category": "大刀宝可梦",
+      "abilities": [
+        {
+          "name": "不服输",
+          "is_hidden": false
+        },
+        {
+          "name": "大将",
+          "is_hidden": false
+        },
+        {
+          "name": "压迫感",
+          "is_hidden": true
+        }
+      ],
+      "height": "2.0m",
+      "weight": "120.0kg",
+      "color": "黑色",
+      "catch_rate": "25（3.3%）",
+      "egg_groups": [
+        "人型群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body12.png",
+      "footprint": "FUnknown.png",
+      "image": "983Kingambit.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "100",
+        "attack": "135",
+        "defense": "120",
+        "sp_attack": "60",
+        "sp_defense": "85",
+        "speed": "50"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "0.5"
+    },
+    {
+      "type": "格斗",
+      "damage": "4"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "0"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0.5"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "2"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "0"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "0.5"
+    },
+    {
+      "type": "恶",
+      "damage": "0.5"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "在气势磅礴的军团中，只有站上顶点的那只劈斩司令才能进化成仆刀将军。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "会引领大军来战斗，却不擅长困难的战术，只会用蛮力来压制对手。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "驹刀小兵",
+        "stage": "未进化",
+        "text": null,
+        "image": "624Pawniard_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "劈斩司令",
+        "stage": "1阶进化",
+        "text": "等级52以上",
+        "image": "625Bisharp_Dream.png",
+        "back_text": "",
+        "from": "驹刀小兵",
+        "form_name": null
+      },
+      {
+        "name": "仆刀将军",
+        "stage": "2阶进化",
+        "text": "击倒3只携带头领凭证的劈斩司令后提升等级",
+        "image": "983Kingambit_Dream.png",
+        "back_text": "",
+        "from": "劈斩司令",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "仆刀",
+      "type": "恶",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "金属爆炸",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "金属爪",
+      "type": "钢",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "95",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "连斩",
+      "type": "虫",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "95",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "抓",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "15",
+      "name": "无理取闹",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "20",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "25",
+      "name": "恶意追击",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "30",
+      "name": "金属音",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "level": "35",
+      "name": "劈开",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "暗袭要害",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "45",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "level": "50",
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "57",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "64",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "71",
+      "name": "极落钳",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "30",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１２",
+      "name": "踢倒",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２７",
+      "name": "燕返",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３０",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３１",
+      "name": "金属爪",
+      "type": "钢",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "95",
+      "pp": "35"
+    },
+    {
+      "machine": "招式学习器０３６",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３９",
+      "name": "下盘踢",
+      "type": "格斗",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４３",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５１",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５７",
+      "name": "点到为止",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器０５８",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０５９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６１",
+      "name": "暗影爪",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６２",
+      "name": "移花接木",
+      "type": "恶",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６５",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８１",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８２",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８３",
+      "name": "毒击",
+      "type": "毒",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８８",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０９３",
+      "name": "加农光炮",
+      "type": "钢",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９４",
+      "name": "恶之波动",
+      "type": "恶",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０９９",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０４",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０５",
+      "name": "十字剪",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３４",
+      "name": "绝处逢生",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１５０",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５８",
+      "name": "真气弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７０",
+      "name": "铁蹄光线",
+      "type": "钢",
+      "category": "特殊",
+      "power": "140",
+      "accuracy": "95",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７７",
+      "name": "怨恨",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９９",
+      "name": "泄愤",
+      "type": "恶",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２２１",
+      "name": "深渊突刺",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２２３",
+      "name": "金属音",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0096",
+          "name": "催眠貘"
+        },
+        {
+          "id": "0097",
+          "name": "引梦貘人"
+        },
+        {
+          "id": "0813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "0814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "0815",
+          "name": "闪焰王牌"
+        }
+      ],
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "勾魂眼"
+        }
+      ],
+      "name": "黑色目光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0106",
+          "name": "飞腿郎"
+        },
+        {
+          "id": "0237",
+          "name": "战舞郎"
+        },
+        {
+          "id": "0331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "0332",
+          "name": "梦歌仙人掌"
+        },
+        {
+          "id": "0453",
+          "name": "不良蛙"
+        },
+        {
+          "id": "0454",
+          "name": "毒骷蛙"
+        },
+        {
+          "id": "0859",
+          "name": "捣蛋小妖"
+        },
+        {
+          "id": "0860",
+          "name": "诈唬魔"
+        },
+        {
+          "id": "0861",
+          "name": "长毛巨魔"
+        }
+      ],
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0107",
+          "name": "快拳郎"
+        },
+        {
+          "id": "0237",
+          "name": "战舞郎"
+        },
+        {
+          "id": "0448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "0475",
+          "name": "艾路雷朵"
+        },
+        {
+          "id": "0619",
+          "name": "功夫鼬"
+        },
+        {
+          "id": "0620",
+          "name": "师父鼬"
+        }
+      ],
+      "name": "快速防守",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "仆刀将军",
+      "image": "0983-仆刀将军.png",
+      "shiny": "0983-仆刀将军-shiny.png"
+    }
+  ]
+}

@@ -1,259 +1,418 @@
 {
-    "name": "啃果虫",
-    "index": "0840",
-    "name_en": "Applin",
-    "name_jp": "カジッチュ",
-    "profile": "啃果虫看上去像一颗苹果，只是苹果上露出了藏身其中的青虫的眼睛和尾巴。不过啃果虫身上的苹果看起来和普通的苹果并不一样，普通苹果上的蒂在苹果虫这里变成了它的双眼，而啃果虫身上的苹果下半部分的花纹看起来就像是苹果虫的嘴巴，有两个小尖牙状花纹。\n啃果虫一出生就躲进了苹果中，终其一生都在苹果里度过，一边吃果肉一边成长。它会用体液提高苹果外皮的强度，同时避免苹果腐烂。如果失去了苹果，身体的水分就会流失，从而逐渐虚弱。如果从高处掉了下来，就有可能从苹果中窜出去。遇到天敌鸟宝可梦时，它会装成苹果保护自己，嗡蝠有时会把它错认为食物。它进化方向因苹果的味道而定。\n",
-    "forms": [
-        {
-            "name": "啃果虫",
-            "index": "0840",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0840-啃果虫.png",
-            "types": [
-                "草",
-                "龙"
-            ],
-            "genus": "苹果居宝可梦",
-            "ability": [
-                {
-                    "name": "熟成",
-                    "is_hidden": false
-                },
-                {
-                    "name": "贪吃鬼",
-                    "is_hidden": false
-                },
-                {
-                    "name": "防弹",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "600,000",
-                "speed": "最快"
-            },
-            "height": "0.2m",
-            "weight": "0.5kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "蛇形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "植物",
-                "龙"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "40",
-                "attack": "40",
-                "defense": "80",
-                "sp_attack": "40",
-                "sp_defense": "40",
-                "speed": "20"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "终其一生都在苹果里度过。遇到天敌鸟宝可梦时，会装成苹果保护自己。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "一出生就躲进了苹果中。一边吃果肉一边成长。进化方向因苹果的味道而定。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "吃苹果的果肉长大。会用体液提高苹果外皮的强度，同时避免苹果腐烂。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "平时生活在苹果中。如果失去了苹果，身体的水分就会流失，从而逐渐虚弱。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "啃果虫",
-                "stage": "未进化",
-                "text": null,
-                "image": "840Applin_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "苹裹龙",
-                "stage": "1阶进化",
-                "text": "使用酸酸苹果",
-                "image": "841Flapple_Dream.png",
-                "back_text": "",
-                "from": "啃果虫",
-                "form_name": null
-            },
-            {
-                "name": "丰蜜龙",
-                "stage": "1阶进化",
-                "text": "使用甜甜苹果",
-                "image": "842Appletun_Dream.png",
-                "back_text": "",
-                "from": "啃果虫",
-                "form_name": null
-            },
-            {
-                "name": "裹蜜虫",
-                "stage": "1阶进化",
-                "text": "使用蜜汁苹果",
-                "image": "1011Dipplin_Dream.png",
-                "back_text": "",
-                "from": "啃果虫",
-                "form_name": null
-            },
-            {
-                "name": "蜜集大蛇",
-                "stage": "2阶进化",
-                "text": "学会龙声鼓舞时提升等级",
-                "image": "1019Hydrapple_Dream.png",
-                "back_text": "",
-                "from": "裹蜜虫",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "啃果虫",
-        "zh_hant": "啃果蟲",
-        "en": "Applin",
-        "fr": "Applin",
-        "de": "Knapfel",
-        "it": "Applin",
-        "es": "Applin",
-        "ja": "カジッチュ",
-        "ko": "과사삭벌레"
+  "name_zh": "啃果虫",
+  "name_ja": "カジッチュ",
+  "name_en": "Applin",
+  "pokedex_id": "0840",
+  "description": "啃果虫（日文︰カジッチュ，英文︰Applin）是草属性／龙属性宝可梦。",
+  "profile": "啃果虫看上去像一颗苹果，只是苹果上露出了藏身其中的青虫的眼睛和尾巴。不过啃果虫身上的苹果看起来和普通的苹果并不一样，普通苹果上的蒂在苹果虫这里变成了它的双眼，而啃果虫身上的苹果下半部分的花纹看起来就像是苹果虫的嘴巴，有两个小尖牙状花纹。\n啃果虫一出生就躲进了苹果中，终其一生都在苹果里度过，一边吃果肉一边成长。它会用体液提高苹果外皮的强度，同时避免苹果腐烂。如果失去了苹果，身体的水分就会流失，从而逐渐虚弱。如果从高处掉了下来，就有可能从苹果中窜出去。遇到天敌鸟宝可梦时，它会装成苹果保护自己，嗡蝠有时会把它错认为食物。它进化方向因苹果的味道而定。",
+  "prototype": "啃果虫的原型是被蛀蚀的苹果，其中的虫体可能是基于苹果蠹蛾幼虫。\n结合啃果虫首次登场伽勒尔地区及其取景地来看，啃果虫及其进化型的龙属性是一个文字游戏：古英语的“wyrm”意为西方龙，这个词演化成了现代英语中的“虫”（worm），而近代早期英语文献中也有用“worm”一词指代邪龙的用法。\n啃果虫家族的特性熟成令树果的效果加倍，这可能基于现实世界中利用苹果释放的乙烯催熟其他水果的做法。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步啃果虫（Pokémon GO）。\n←\nNo.0839：巨炭山\n宝可梦\nNo.0841：苹裹龙\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "カジッチュ Kajicchu",
+      "origin": "来自“果（か）実（じつ）”（果实）、“齧（かじ）る”（啃，咬）和“虫（ちゅう）”（虫），谐音“果（か）実（じつ）中（ちゅう）”（在果实内部）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "惊吓",
-                        "flavor_text": "用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩。",
-                        "type": "幽灵",
-                        "category": "物理",
-                        "power": "30",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "缩入壳中",
-                        "flavor_text": "缩入壳里保护身体，从而提高自己的防御。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "40"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２１",
-                        "method": "招式学习器",
-                        "name": "虫扑",
-                        "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "啃果蟲啃果虫",
+      "origin": "来自“啃咬”、“苹果”和“虫”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Applin",
+      "origin": "来自 apple（苹果）和 in（在…内）。"
+    },
+    {
+      "language": "法文",
+      "name": "Verpom",
+      "origin": "来自 ver（蠕虫）和 pomme（苹果），谐音 vert pomme（青苹果色）。"
+    },
+    {
+      "language": "德文",
+      "name": "Knapfel",
+      "origin": "来自 knabbern（啃、蚕食）和 Apfel（苹果）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Applin",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Applin",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "과사삭벌레 Gwasasanbeolle",
+      "origin": "来自“과〈果〉”（果）或“사과〈沙果〉”（苹果）、“와사삭”（咬碎的拟声词）和“벌레”（虫）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "啃果虫",
+      "types": [
+        "草",
+        "龙"
+      ],
+      "category": "苹果居宝可梦",
+      "abilities": [
         {
-            "name": "啃果虫",
-            "image": "0840-啃果虫.png",
-            "shiny": "0840-啃果虫-shiny.png"
+          "name": "熟成",
+          "is_hidden": false
+        },
+        {
+          "name": "贪吃鬼",
+          "is_hidden": false
+        },
+        {
+          "name": "防弹",
+          "is_hidden": true
         }
+      ],
+      "height": "0.2m",
+      "weight": "0.5kg",
+      "color": "绿色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "植物",
+        "龙群"
+      ],
+      "experience_100": "600,000（最快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body02.png",
+      "footprint": "FUnknown.png",
+      "image": "840Applin.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "40",
+        "attack": "40",
+        "defense": "80",
+        "sp_attack": "40",
+        "sp_defense": "40",
+        "speed": "20"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "2"
+    },
+    {
+      "type": "地面",
+      "damage": "0.5"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "2"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "0.25"
+    },
+    {
+      "type": "草",
+      "damage": "0.25"
+    },
+    {
+      "type": "电",
+      "damage": "0.25"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "4"
+    },
+    {
+      "type": "龙",
+      "damage": "2"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "2"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "终其一生都在苹果里度过。遇到天敌鸟宝可梦时，会装成苹果保护自己。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "一出生就躲进了苹果中。一边吃果肉一边成长。进化方向因苹果的味道而定。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "吃苹果的果肉长大。会用体液提高苹果外皮的强度，同时避免苹果腐烂。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "平时生活在苹果中。如果失去了苹果，身体的水分就会流失，从而逐渐虚弱。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "啃果虫",
+        "stage": "未进化",
+        "text": null,
+        "image": "840Applin_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "苹裹龙",
+        "stage": "1阶进化",
+        "text": "使用酸酸苹果",
+        "image": "841Flapple_Dream.png",
+        "back_text": "",
+        "from": "啃果虫",
+        "form_name": null
+      },
+      {
+        "name": "丰蜜龙",
+        "stage": "1阶进化",
+        "text": "使用甜甜苹果",
+        "image": "842Appletun_Dream.png",
+        "back_text": "",
+        "from": "啃果虫",
+        "form_name": null
+      },
+      {
+        "name": "裹蜜虫",
+        "stage": "1阶进化",
+        "text": "使用蜜汁苹果",
+        "image": "1011Dipplin_Dream.png",
+        "back_text": "",
+        "from": "啃果虫",
+        "form_name": null
+      },
+      {
+        "name": "蜜集大蛇",
+        "stage": "2阶进化",
+        "text": "学会龙声鼓舞时提升等级",
+        "image": "1019Hydrapple_Dream.png",
+        "back_text": "",
+        "from": "裹蜜虫",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "惊吓",
+      "type": "幽灵",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "缩入壳中",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０２１",
+      "name": "虫扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0946",
+          "name": "纳噬草"
+        },
+        {
+          "id": "0947",
+          "name": "怖纳噬草"
+        }
+      ],
+      "name": "变圆",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "0273",
+          "name": "橡实果"
+        },
+        {
+          "id": "0274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "0946",
+          "name": "纳噬草"
+        },
+        {
+          "id": "0947",
+          "name": "怖纳噬草"
+        }
+      ],
+      "name": "滚动",
+      "type": "岩石",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0841",
+          "name": "苹裹龙"
+        },
+        {
+          "id": "0842",
+          "name": "丰蜜龙"
+        },
+        {
+          "id": "1011",
+          "name": "裹蜜虫"
+        },
+        {
+          "id": "1019",
+          "name": "蜜集大蛇"
+        }
+      ],
+      "name": "回收利用",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "0273",
+          "name": "橡实果"
+        },
+        {
+          "id": "0274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "0331",
+          "name": "刺球仙人掌"
+        },
+        {
+          "id": "0332",
+          "name": "梦歌仙人掌"
+        }
+      ],
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "啃果虫",
+      "image": "0840-啃果虫.png",
+      "shiny": "0840-啃果虫-shiny.png"
+    }
+  ]
 }

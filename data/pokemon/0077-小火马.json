@@ -1,936 +1,856 @@
 {
-    "name": "小火马",
-    "index": "0077",
-    "name_en": "Ponyta",
-    "name_jp": "ポニータ",
-    "profile": "小火马是马外形的四足宝可梦。它的身体是白色的，从头顶至尾巴以及四肢上长着燃烧着的火焰鬃毛，仔细看的话头上的毛发比起其它地方更加整齐。它脚上的蹄子有钻石的十倍硬，无论什么东西都能踩扁。伽勒尔小火马完全没有火焰的样子，鬃毛变为了浅紫色和偏蓝绿色，四只蹄子上也覆盖着紫色的毛。和一般样子的小火马不同，头上长着一只角。在沐浴了森林的能量后，它的鬃毛会变为随时间变化的幻彩的颜色。\n小火马在草原上群居生活。它的身体很轻，脚的力量很强，弹跳力在宝可梦当中也算是顶级水平，一跳就可以飞过东京铁塔。在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。感到背后有气息时，它便会用后脚给踹飞。得到了小火马认可的人，在触摸它燃烧着的鬃毛时不会觉得烫手，真是不可思议。小火马刚出生时身上没有火焰鬃毛，而是会在出生后一小时左右长出来。它连站起来都十分不易，还很不会跑。但随着和伙伴们不断地赛跑，在跌倒中追赶双亲，它锻炼出了强韧结实的腰腿。跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。它整天都在山野里到处乱跑，跳过每天长高的杂草作为锻炼。\n伽勒尔小火马自古以来就栖息在伽勒尔地区的某片森林里。据说小火马是因为世世代代沐浴着森林里满溢的生命能量，所以才变成了伽勒尔地区独有的样子。它能够吸收空气中的生命能量，并将其储存在鬃毛里。能量储存得越多，鬃毛的颜色就越发鲜艳并且会闪闪发亮。小小的角里蕴藏着治愈之力，如果只是一点小伤，它只要用角轻擦伤口就能治愈。它能从眼神中读取对方的内心，如果发现了邪恶的想法，就会在转眼间消失不见。\n",
-    "forms": [
-        {
-            "name": "小火马",
-            "index": "0077",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0077-小火马.png",
-            "types": [
-                "火"
-            ],
-            "genus": "火马宝可梦",
-            "ability": [
-                {
-                    "name": "逃跑",
-                    "is_hidden": false
-                },
-                {
-                    "name": "引火",
-                    "is_hidden": false
-                },
-                {
-                    "name": "火焰之躯",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "1.0m",
-            "weight": "30.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "黄色",
-            "catch_rate": {
-                "number": "190",
-                "rate": "24.8%"
-            },
-            "egg_groups": [
-                "陆上"
-            ]
-        },
-        {
-            "name": "伽勒尔小火马",
-            "index": "0077.1",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0077.1-伽勒尔小火马.png",
-            "types": [
-                "超能力"
-            ],
-            "genus": "一角宝可梦",
-            "ability": [
-                {
-                    "name": "逃跑",
-                    "is_hidden": false
-                },
-                {
-                    "name": "粉彩护幕",
-                    "is_hidden": false
-                },
-                {
-                    "name": "危险预知",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.8m",
-            "weight": "24.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "四足兽形",
-            "color": "白色",
-            "catch_rate": {
-                "number": "190",
-                "rate": "24.8%"
-            },
-            "egg_groups": [
-                "陆上"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "50",
-                "attack": "85",
-                "defense": "55",
-                "sp_attack": "65",
-                "sp_defense": "65",
-                "speed": "90"
-            }
-        },
-        {
-            "form": "伽勒尔的样子",
-            "data": {
-                "hp": "50",
-                "attack": "85",
-                "defense": "55",
-                "sp_attack": "65",
-                "sp_defense": "65",
-                "speed": "90"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": [
-                {
-                    "name": "红",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "身体很轻，脚的力量很强。一跳就可以飞过东京铁塔。*"
-                },
-                {
-                    "name": "绿",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "身体很轻，脚的力量很强。一跳就可以飞过东京铁塔。*"
-                },
-                {
-                    "name": "蓝",
-                    "group": "宝可梦 红／绿／蓝",
-                    "text": "它的4蹄比钻石还硬10倍，可以马上踏平任何东西。"
-                },
-                {
-                    "name": "皮卡丘",
-                    "group": "宝可梦 皮卡丘",
-                    "text": "在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。"
-                }
-            ]
-        },
-        {
-            "name": "第二世代",
-            "versions": [
-                {
-                    "name": "金",
-                    "group": "宝可梦 金／银",
-                    "text": "出生的即刻还很不会跑。为了追上父母变得可以很快的奔跑。*"
-                },
-                {
-                    "name": "银",
-                    "group": "宝可梦 金／银",
-                    "text": "感到背后有气息时，便用比钻石还硬的后脚给踹飞。*"
-                },
-                {
-                    "name": "水晶版",
-                    "group": "宝可梦 水晶版",
-                    "text": "跳过每天长高的杂草作为锻炼，弹跳力在宝可梦当中也算是顶级水平。*"
-                }
-            ]
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "身体很轻，脚的力量很强。一跳就可以飞过东京铁塔。*"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "它的4蹄比钻石还硬10倍，可以马上踏平任何东西。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "出生后只需经过１个小时就能长齐火焰的鬃毛和尾巴，看上去已经十分像样了。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "在追赶双亲的同时，练就了强韧的腰腿。整天都在山野里到处乱跑。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "出生的即刻还很不会跑。为了追上父母变得可以很快的奔跑。*"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "感到背后有气息时，便用比钻石还硬的后脚给踹飞。*"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "在追赶双亲的同时，练就了强韧的腰腿。整天都在山野里到处乱跑。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "Let's Go! 皮卡丘",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。"
-                },
-                {
-                    "name": "Let's Go! 伊布",
-                    "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
-                    "text": "在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "刚出生的时候不擅长奔跑，但随着和伙伴们不断地赛跑，会逐渐锻炼出强健的脚力。小小的角里蕴藏着治愈之力。如果只是一点小伤，它只要用角轻擦伤口就能治愈。（伽勒尔的样子）"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "得到了小火马认可的人，在触摸它燃烧着的鬃毛时不会觉得烫手，真是不可思议。能从眼神中读取对方的内心。如果发现了邪恶的想法，就会在转眼间消失不见。（伽勒尔的样子）"
-                },
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "出生后只需经过１个小时就能长齐火焰的鬃毛和尾巴，看上去已经十分像样了。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "在追赶双亲的同时，练就了强韧的腰腿。整天都在山野里到处乱跑。"
-                },
-                {
-                    "name": "传说 阿尔宙斯",
-                    "group": "宝可梦传说 阿尔宙斯",
-                    "text": "在草原上群居生活。刚诞生的幼崽身上没有火焰鬃毛，而是会在出生后一小时左右长出来。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "小火马",
-                "stage": "未进化",
-                "text": null,
-                "image": "077Ponyta_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "烈焰马",
-                "stage": "1阶进化",
-                "text": "等级40以上",
-                "image": "078Rapidash_Dream.png",
-                "back_text": "",
-                "from": "小火马",
-                "form_name": null
-            }
-        ],
-        [
-            {
-                "name": "小火马",
-                "stage": "未进化",
-                "text": null,
-                "image": "077Ponyta-Galar_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": "伽勒尔的样子"
-            },
-            {
-                "name": "烈焰马",
-                "stage": "1阶进化",
-                "text": "等级40以上",
-                "image": "078Rapidash-Galar_Dream.png",
-                "back_text": "",
-                "from": "小火马",
-                "form_name": "伽勒尔的样子"
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "小火马",
-        "en": "Ponyta",
-        "fr": "Ponyta",
-        "es": "Ponyta",
-        "zh_hant": "小火馬",
-        "de": "Ponita",
-        "it": "Ponyta",
-        "ja": "ポニータ",
-        "ko": "포니타"
+  "name_zh": "小火马",
+  "name_ja": "ポニータ",
+  "name_en": "Ponyta",
+  "pokedex_id": "0077",
+  "description": "小火马（日文︰ポニータ，英文︰Ponyta）是火属性宝可梦，而伽勒尔的样子是超能力属性宝可梦。小火马的设计者是西田敦子。",
+  "profile": "小火马是马外形的四足宝可梦。它的身体是白色的，从头顶至尾巴以及四肢上长着燃烧着的火焰鬃毛，仔细看的话头上的毛发比起其它地方更加整齐。它脚上的蹄子有钻石的十倍硬，无论什么东西都能踩扁。伽勒尔小火马完全没有火焰的样子，鬃毛变为了浅紫色和偏蓝绿色，四只蹄子上也覆盖着紫色的毛。和一般样子的小火马不同，头上长着一只角。在沐浴了森林的能量后，它的鬃毛会变为随时间变化的幻彩的颜色。\n小火马在草原上群居生活。它的身体很轻，脚的力量很强，弹跳力在宝可梦当中也算是顶级水平，一跳就可以飞过东京铁塔。在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。感到背后有气息时，它便会用后脚给踹飞。得到了小火马认可的人，在触摸它燃烧着的鬃毛时不会觉得烫手，真是不可思议。小火马刚出生时身上没有火焰鬃毛，而是会在出生后一小时左右长出来。它连站起来都十分不易，还很不会跑。但随着和伙伴们不断地赛跑，在跌倒中追赶双亲，它锻炼出了强韧结实的腰腿。跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。它整天都在山野里到处乱跑，跳过每天长高的杂草作为锻炼。\n伽勒尔小火马自古以来就栖息在伽勒尔地区的某片森林里。据说小火马是因为世世代代沐浴着森林里满溢的生命能量，所以才变成了伽勒尔地区独有的样子。它能够吸收空气中的生命能量，并将其储存在鬃毛里。能量储存得越多，鬃毛的颜色就越发鲜艳并且会闪闪发亮。小小的角里蕴藏着治愈之力，如果只是一点小伤，它只要用角轻擦伤口就能治愈。它能从眼神中读取对方的内心，如果发现了邪恶的想法，就会在转眼间消失不见。[1]",
+  "prototype": "小火马基于马驹，伽勒尔小火马基于独角兽。",
+  "detail": "小火马在第一世代的图鉴介绍中提到了“东京铁塔”，此段图鉴内容在《火红／叶绿》被更改为为“艾尔斯岩”。\n英文版的第一世代主系列游戏采用《蓝》版的图鉴翻译，因此没有提到东京铁塔。但在英文版的宝可梦竞技场小火马图鉴叙述中，提及了小火马能够一跃跳过埃菲尔铁塔。\n伽勒尔小火马和小火马的分类不同，这是首次地区形态的宝可梦分类不同。\n由于小火马家族的中文名是根据分类来命名的，导致了伽勒尔小火马的属性和名称不符，而其他语言版本中的名字因没有属性的体现而没有此类问题。\n小火马象征中国传统的十二生肖中的马。在2019年与2021年Pokémon GO的农历新年限时活动中，象征十二生肖的12只宝可梦出现在地图上的几率将会提高；而中国大陆在2026年推出的卡牌新春礼盒中，小火马和凯路迪欧则作为生肖马的象征。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ポニータ Ponyta",
+      "origin": "来自英文 pony（小马）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "叫声",
-                        "flavor_text": "让对手听可爱的叫声，引开注意力使其疏忽，从而降低对手的攻击。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "40"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摇尾巴",
-                        "flavor_text": "可爱地左右摇晃尾巴，诱使对手疏忽大意。会降低对手的防御。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "火花",
-                        "flavor_text": "向对手发射小型火焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "蓄能焰袭",
-                        "flavor_text": "让火焰覆盖全身，攻击对手。积蓄力量来提高自己的速度。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "火焰轮",
-                        "flavor_text": "让火焰覆盖全身，猛撞向对手进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "30",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "踩踏",
-                        "flavor_text": "用大脚踩踏对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "火焰旋涡",
-                        "flavor_text": "将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "41",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "猛撞",
-                        "flavor_text": "以惊人的气势撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "烈火深渊",
-                        "flavor_text": "用烈焰包裹住对手进行攻击。让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "100",
-                        "accuracy": "50",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "55",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "闪焰冲锋",
-                        "flavor_text": "让火焰覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１２",
-                        "method": "招式学习器",
-                        "name": "日光刃",
-                        "flavor_text": "第１回合收集满满的日光，第２回合将此力量集中在剑上进行攻击。",
-                        "type": "草",
-                        "category": "物理",
-                        "power": "125",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３",
-                        "method": "招式学习器",
-                        "name": "火焰旋涡",
-                        "flavor_text": "将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "35",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２９",
-                        "method": "招式学习器",
-                        "name": "撒娇",
-                        "flavor_text": "可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击。",
-                        "type": "妖精",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３８",
-                        "method": "招式学习器",
-                        "name": "磷火",
-                        "flavor_text": "放出怪异的火焰，从而让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４０",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５２",
-                        "method": "招式学习器",
-                        "name": "弹跳",
-                        "flavor_text": "弹跳到高高的空中，第２回合攻击对手。有时会让对手陷入麻痹状态。",
-                        "type": "飞行",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９２",
-                        "method": "招式学习器",
-                        "name": "魔法火焰",
-                        "flavor_text": "从口中喷出特别灼热的火焰进行攻击。降低对手的特攻。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０２",
-                        "method": "招式学习器",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０７",
-                        "method": "招式学习器",
-                        "name": "踢倒",
-                        "flavor_text": "用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１２",
-                        "method": "招式学习器",
-                        "name": "高速移动",
-                        "flavor_text": "让身体放松变得轻盈，以便高速移动。大幅提高自己的速度。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１５",
-                        "method": "招式学习器",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３１",
-                        "method": "招式学习器",
-                        "name": "铁尾",
-                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３６",
-                        "method": "招式学习器",
-                        "name": "热风",
-                        "flavor_text": "将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４３",
-                        "method": "招式学习器",
-                        "name": "过热",
-                        "flavor_text": "使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "130",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５５",
-                        "method": "招式学习器",
-                        "name": "闪焰冲锋",
-                        "flavor_text": "让火焰覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录８３",
-                        "method": "招式学习器",
-                        "name": "交换场地",
-                        "flavor_text": "用神奇的力量瞬间移动，互换自己和同伴所在的位置。连续使出则容易失败。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录８６",
-                        "method": "招式学习器",
-                        "name": "疯狂伏特",
-                        "flavor_text": "让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害。",
-                        "type": "电",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录９０",
-                        "method": "招式学习器",
-                        "name": "嬉闹",
-                        "flavor_text": "与对手嬉闹并攻击。有时会降低对手的攻击。",
-                        "type": "妖精",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录９４",
-                        "method": "招式学习器",
-                        "name": "十万马力",
-                        "flavor_text": "使出全身力量，猛攻对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "95",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "小火馬小火马",
+      "origin": "来自“小”、“火”和“马”或“小马”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "小火马",
+      "origin": "来自“小”、“火”和“马”或“小马”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "小火馬",
+      "origin": "来自“小”、“火”和“马”或“小马”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "小火馬",
+      "origin": "来自“小”、“火”和“马”或“小马”。"
+    },
+    {
+      "language": "英文",
+      "name": "Ponyta",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "法文",
+      "name": "Ponyta",
+      "origin": "来自日文名和英文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Ponita",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Ponyta",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Ponyta",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "포니타 Ponyta",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "小火马",
+      "types": [
+        "火"
+      ],
+      "category": "火马宝可梦",
+      "abilities": [
         {
-            "name": "小火马",
-            "image": "0077-小火马.png",
-            "shiny": "0077-小火马-shiny.png"
+          "name": "逃跑",
+          "is_hidden": false
         },
         {
-            "name": "小火马-伽勒尔的样子",
-            "image": "0077-小火马-伽勒尔的样子.png",
-            "shiny": "0077-小火马-伽勒尔的样子-shiny.png"
+          "name": "引火",
+          "is_hidden": false
+        },
+        {
+          "name": "火焰之躯",
+          "is_hidden": true
         }
+      ],
+      "height": "1.0m",
+      "weight": "30.0kg",
+      "color": "黄色",
+      "catch_rate": "190（24.8%）",
+      "egg_groups": [
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "F077.png",
+      "image": "077Ponyta.png"
+    },
+    {
+      "name": "伽勒尔小火马",
+      "types": [
+        "超能力"
+      ],
+      "category": "一角宝可梦",
+      "abilities": [
+        {
+          "name": "逃跑",
+          "is_hidden": false
+        },
+        {
+          "name": "粉彩护幕",
+          "is_hidden": false
+        },
+        {
+          "name": "危险预知",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.8m",
+      "weight": "24.0kg",
+      "color": "白色",
+      "catch_rate": "190（24.8%）",
+      "egg_groups": [
+        "陆上群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "F077.png",
+      "image": "077Ponyta-Galar.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "50",
+        "attack": "85",
+        "defense": "55",
+        "sp_attack": "65",
+        "sp_defense": "65",
+        "speed": "90"
+      }
+    },
+    {
+      "form": "伽勒尔的样子",
+      "data": {
+        "hp": "50",
+        "attack": "85",
+        "defense": "55",
+        "sp_attack": "65",
+        "sp_defense": "65",
+        "speed": "90"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "2"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "身体很轻，脚的力量很强。一跳就可以飞过东京铁塔。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "身体很轻，脚的力量很强。一跳就可以飞过东京铁塔。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "它的4蹄比钻石还硬10倍，可以马上踏平任何东西。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "出生的即刻还很不会跑。为了追上父母变得可以很快的奔跑。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "感到背后有气息时，便用比钻石还硬的后脚给踹飞。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "跳过每天长高的杂草作为锻炼，弹跳力在宝可梦当中也算是顶级水平。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "身体很轻，脚的力量很强。一跳就可以飞过东京铁塔。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "它的4蹄比钻石还硬10倍，可以马上踏平任何东西。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "出生后只需经过１个小时就能长齐火焰的鬃毛和尾巴，看上去已经十分像样了。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "在追赶双亲的同时，练就了强韧的腰腿。整天都在山野里到处乱跑。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "出生的即刻还很不会跑。为了追上父母变得可以很快的奔跑。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "感到背后有气息时，便用比钻石还硬的后脚给踹飞。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "刚出生时连站起来都十分不易。但跑得越多，腰腿就会被锻炼得越多，速度也会随之增加。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "在追赶双亲的同时，练就了强韧的腰腿。整天都在山野里到处乱跑。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "虽然出生后立刻站起来十分不易，但在跌倒中追赶双亲能帮助它锻炼出结实的腰腿。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "在用力跳跃之后，会用蹄子和脚上的肌肉来缓解着地时的撞击。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "刚出生的时候不擅长奔跑，但随着和伙伴们不断地赛跑，会逐渐锻炼出强健的脚力。小小的角里蕴藏着治愈之力。如果只是一点小伤，它只要用角轻擦伤口就能治愈。（伽勒尔的样子）"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "得到了小火马认可的人，在触摸它燃烧着的鬃毛时不会觉得烫手，真是不可思议。能从眼神中读取对方的内心。如果发现了邪恶的想法，就会在转眼间消失不见。（伽勒尔的样子）"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "出生后只需经过１个小时就能长齐火焰的鬃毛和尾巴，看上去已经十分像样了。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "在追赶双亲的同时，练就了强韧的腰腿。整天都在山野里到处乱跑。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": "在草原上群居生活。刚诞生的幼崽身上没有火焰鬃毛，而是会在出生后一小时左右长出来。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "小火马",
+        "stage": "未进化",
+        "text": null,
+        "image": "077Ponyta_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "烈焰马",
+        "stage": "1阶进化",
+        "text": "等级40以上",
+        "image": "078Rapidash_Dream.png",
+        "back_text": "",
+        "from": "小火马",
+        "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "小火马",
+        "stage": "未进化",
+        "text": null,
+        "image": "077Ponyta-Galar_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "伽勒尔的样子"
+      },
+      {
+        "name": "烈焰马",
+        "stage": "1阶进化",
+        "text": "等级40以上",
+        "image": "078Rapidash-Galar_Dream.png",
+        "back_text": "",
+        "from": "小火马",
+        "form_name": "伽勒尔的样子"
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "5",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "10",
+      "name": "火花",
+      "type": "火",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "15",
+      "name": "蓄能焰袭",
+      "type": "火",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "20",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "25",
+      "name": "火焰轮",
+      "type": "火",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "30",
+      "name": "踩踏",
+      "type": "一般",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "35",
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "level": "41",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "45",
+      "name": "烈火深渊",
+      "type": "火",
+      "category": "特殊",
+      "power": "100",
+      "accuracy": "50",
+      "pp": "5"
+    },
+    {
+      "level": "50",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "level": "55",
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "—",
+      "name": "叫声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "machine": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "machine": "—",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "—",
+      "name": "火花",
+      "type": "火",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "—",
+      "name": "蓄能焰袭",
+      "type": "火",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "—",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "—",
+      "name": "火焰轮",
+      "type": "火",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "—",
+      "name": "踩踏",
+      "type": "一般",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "—",
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "—",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "—",
+      "name": "烈火深渊",
+      "type": "火",
+      "category": "特殊",
+      "power": "100",
+      "accuracy": "50",
+      "pp": "5"
+    },
+    {
+      "machine": "—",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "—",
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [],
+      "name": "—",
+      "type": "叫声[详]",
+      "category": "一般",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "撞击[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "40",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "摇尾巴[详]",
+      "category": "一般",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "火花[详]",
+      "category": "火",
+      "power": "特殊",
+      "accuracy": "40",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "蓄能焰袭[详]",
+      "category": "火",
+      "power": "物理",
+      "accuracy": "50",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "高速移动[详]",
+      "category": "超能力",
+      "power": "变化",
+      "accuracy": "—",
+      "pp": "—"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "火焰轮[详]",
+      "category": "火",
+      "power": "物理",
+      "accuracy": "60",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "踩踏[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "65",
+      "pp": "100"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "火焰旋涡[详]",
+      "category": "火",
+      "power": "特殊",
+      "accuracy": "35",
+      "pp": "85"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "猛撞[详]",
+      "category": "一般",
+      "power": "物理",
+      "accuracy": "90",
+      "pp": "85"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "烈火深渊[详]",
+      "category": "火",
+      "power": "特殊",
+      "accuracy": "100",
+      "pp": "50"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "大字爆炎[详]",
+      "category": "火",
+      "power": "特殊",
+      "accuracy": "110",
+      "pp": "85"
+    },
+    {
+      "parents": [],
+      "name": "—",
+      "type": "闪焰冲锋[详]",
+      "category": "火",
+      "power": "物理",
+      "accuracy": "120",
+      "pp": "100"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "小火马",
+      "image": "0077-小火马.png",
+      "shiny": "0077-小火马-shiny.png"
+    },
+    {
+      "name": "小火马-伽勒尔的样子",
+      "image": "0077-小火马-伽勒尔的样子.png",
+      "shiny": "0077-小火马-伽勒尔的样子-shiny.png"
+    }
+  ]
 }

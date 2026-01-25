@@ -1,1033 +1,930 @@
 {
-    "name": "基格尔德",
-    "index": "0718",
-    "name_en": "Zygarde",
-    "name_jp": "ジガルデ",
-    "profile": "基格尔德的各种形态，是由称为“核心”和“细胞”这2种有如细胞般的东西聚集后而变成的。它会因细胞合成的完整度，而具有不同的形态。基格尔德细胞像是一条绿色的涡虫。10％形态的基格尔德形如一条杜宾犬，眼睛变为泛着白光的六边形。身上的纹路为绿色的六边形。脖子上绿色的“条状物体”像一个镶着宝石的项圈围巾。前左爪拥有一半绿色的纹理。50％形态的基格尔德样子像一条眼镜蛇，它的眼睛由4个绿色六边形组成，像昆虫的复眼。头后有褶伞蜥似的黑色装饰，上面有绿色的六边形。它的尾巴有5个分叉。完全体形态的基格尔德则像是北欧神话中的巨人，长出的双翼上各有着红色和蓝色的六边形纹路。\n基格尔德的核心和细胞们分布在卡洛斯地区与阿罗拉地区的各个角落。“核心”和“细胞”并没有各自以单体的形式进行对战的能力，一旦开始聚集，便可以作为“基格尔德”大显身手。细胞与核心相比数量很多，会成作为脑以外的部分。细胞没有意志，总是跟从核心的指令行动。核心只有少量存在，拥有自己的意志，能够单独行动。它会成为脑，通过收集细胞来形成基格尔德的形态。\n",
-    "forms": [
-        {
-            "name": "基格尔德-细胞",
-            "index": "0718",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0718-基格尔德-细胞.png",
-            "types": [
-                "龙",
-                "地面"
-            ],
-            "genus": "秩序宝可梦",
-            "ability": [],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "m",
-            "weight": "kg",
-            "gender_rate": null,
-            "shape": "形",
-            "color": "未知色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        },
-        {
-            "name": "基格尔德-核心",
-            "index": "0718.1",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0718.1-基格尔德-核心.png",
-            "types": [
-                "龙",
-                "地面"
-            ],
-            "genus": "秩序宝可梦",
-            "ability": [],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "m",
-            "weight": "kg",
-            "gender_rate": null,
-            "shape": "形",
-            "color": "未知色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        },
-        {
-            "name": "基格尔德-１０％形态",
-            "index": "0718.2",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0718.2-基格尔德-１０％形态.png",
-            "types": [
-                "龙",
-                "地面"
-            ],
-            "genus": "秩序宝可梦",
-            "ability": [
-                {
-                    "name": "气场破坏",
-                    "is_hidden": false
-                },
-                {
-                    "name": "群聚变形",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "1.2m",
-            "weight": "33.5kg",
-            "gender_rate": null,
-            "shape": "四足兽形",
-            "color": "黑色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        },
-        {
-            "name": "基格尔德-５０％形态",
-            "index": "0718.3",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0718.3-基格尔德-５０％形态.png",
-            "types": [
-                "龙",
-                "地面"
-            ],
-            "genus": "秩序宝可梦",
-            "ability": [
-                {
-                    "name": "气场破坏",
-                    "is_hidden": false
-                },
-                {
-                    "name": "群聚变形",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "5.0m",
-            "weight": "305.0kg",
-            "gender_rate": null,
-            "shape": "蛇形",
-            "color": "绿色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        },
-        {
-            "name": "基格尔德-完全体形态",
-            "index": "0718.4",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0718.4-基格尔德-完全体形态.png",
-            "types": [
-                "龙",
-                "地面"
-            ],
-            "genus": "秩序宝可梦",
-            "ability": [
-                {
-                    "name": "群聚变形",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,250,000",
-                "speed": "慢"
-            },
-            "height": "4.5m",
-            "weight": "610.0kg",
-            "gender_rate": null,
-            "shape": "双足兽形",
-            "color": "黑色",
-            "catch_rate": {
-                "number": "3",
-                "rate": "0.4%"
-            },
-            "egg_groups": [
-                "未发现"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "１０％形态",
-            "data": {
-                "hp": "54",
-                "attack": "100",
-                "defense": "71",
-                "sp_attack": "61",
-                "sp_defense": "85",
-                "speed": "115"
-            }
-        },
-        {
-            "form": "５０％形态",
-            "data": {
-                "hp": "108",
-                "attack": "100",
-                "defense": "121",
-                "sp_attack": "81",
-                "sp_defense": "95",
-                "speed": "95"
-            }
-        },
-        {
-            "form": "完全体形态",
-            "data": {
-                "hp": "216",
-                "attack": "100",
-                "defense": "121",
-                "sp_attack": "91",
-                "sp_defense": "95",
-                "speed": "85"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "如果卡洛斯地区的生态系统崩溃，它好像就会现身，发挥蕴藏的力量。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "据说，生活在洞窟的深处，一直在监视着破坏生态系统者的一举一动。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "如果卡洛斯地区的生态系统崩溃，它好像就会现身，发挥蕴藏的力量。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "据说，生活在洞窟的深处，一直在监视着破坏生态系统者的一举一动。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "太阳",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "细胞聚集了５０％的样子。会毫不留情地把敌对者全部消灭。（５０％形态）\n用锋利的牙齿了结敌人。无法一直维持这个身体，一段时间后就会变得七零八落。（１０％形态）\n对威胁生态系统者，以压倒性力量来镇压的基格尔德的样子。（完全体形态）"
-                },
-                {
-                    "name": "月亮",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "被认为监视着生态系统。有传言，它蕴藏着更为强大的力量。（５０％形态）\n被称为细胞的基格尔德的一部分聚集了１０％左右的样子。以时速１００公里在地面奔驰。（１０％形态）\n１００％的基格尔德的样子。拥有连哲尔尼亚斯和伊裴尔塔尔都能压倒的力量。（完全体形态）"
-                },
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "基格尔德的一部分大约聚集了一半的样子。有着监视生态系统的职责。（５０％形态）\n基格尔德的一部分聚集了十分之一左右。会扑到对手的怀里用锐利的牙齿咬住。（１０％形态）\n完整的基格尔德的样子。从胸部的嘴里放射出能摧毁一切的高能量。（完全体形态）"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "据说，在与威胁到生态系统者战斗时，它会变化为更强大的样子。（５０％形态）\n在各地的基格尔德・细胞聚集到１０％时诞生。擅长近战。（１０％形态）\n所有基格尔德・细胞聚集后诞生而成。会用武力镇压破坏生态系统者。（完全体形态）"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": []
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "基格尔德",
-                "stage": "不进化",
-                "text": null,
-                "image": "718Zygarde_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "基格尔德",
-        "zh_hant": "基格爾德",
-        "en": "Zygarde",
-        "fr": "Zygarde",
-        "de": "Zygarde",
-        "it": "Zygarde",
-        "es": "Zygarde",
-        "ja": "ジガルデ",
-        "ko": "지가르데"
+  "name_zh": "基格尔德",
+  "name_ja": "ジガルデ",
+  "name_en": "Zygarde",
+  "pokedex_id": "0718",
+  "description": "基格尔德（日文︰ジガルデ，英文︰Zygarde）是龙属性／地面属性传说的宝可梦。它是传说的气场宝可梦之一。",
+  "profile": "基格尔德的各种形态，是由称为“核心”和“细胞”这2种有如细胞般的东西聚集后而变成的。它会因细胞合成的完整度，而具有不同的形态。基格尔德细胞像是一条绿色的涡虫。10％形态的基格尔德形如一条杜宾犬，眼睛变为泛着白光的六边形。身上的纹路为绿色的六边形。脖子上绿色的“条状物体”像一个镶着宝石的项圈围巾。前左爪拥有一半绿色的纹理。50％形态的基格尔德样子像一条眼镜蛇，它的眼睛由4个绿色六边形组成，像昆虫的复眼。头后有褶伞蜥似的黑色装饰，上面有绿色的六边形。它的尾巴有5个分叉。完全体形态的基格尔德则像是北欧神话中的巨人，长出的双翼上各有着红色和蓝色的六边形纹路。\n基格尔德的核心和细胞们分布在卡洛斯地区与阿罗拉地区的各个角落。“核心”和“细胞”并没有各自以单体的形式进行对战的能力，一旦开始聚集，便可以作为“基格尔德”大显身手。细胞与核心相比数量很多，会成作为脑以外的部分。细胞没有意志，总是跟从核心的指令行动。核心只有少量存在，拥有自己的意志，能够单独行动。它会成为脑，通过收集细胞来形成基格尔德的形态。\n10％形态的基格尔德擅长近战，会扑到对手的怀里用锐利的牙齿咬住对手，用锋利的牙齿了结敌人。它以全力奔跑时的速度能够超越时速100公里。当发生紧急事态时，它会与作为本体的50％形态分别采取行动。由于只有1个“核心”担当着脑的角色，所以只能在短时间内维持姿态，一段时间后就会变得七零八落。\n据说50％形态的基格尔德生活在洞窟的深处，监察宝可梦的生态系统有否异常，担当守卫的职责。它会一直在监视着破坏生态系统者的一举一动。如果卡洛斯地区的生态系统崩溃，它好像就会现身，发挥蕴藏的力量，毫不留情地把敌对者全部消灭。虽然也持有压倒性的力量，但这只不过还是基格尔德所有细胞聚集了50％的姿态，它还保留着相同程度的余力。据说，在与威胁到生态系统者战斗时，它会变化为更强大的样子。\n完全体形态的基格尔德是所有基格尔德细胞聚集后诞生而成的宝可梦。这是为了达成守卫宝可梦生态系统的使命，让基格尔德发挥全部力量来战斗的对战专用形态。它的双翼和尾巴各自拥有作为脑的“核心”，会独自作出判断，自如地变形。它可以从胸部的嘴里放射出能摧毁一切的高能量，用武力镇压破坏生态系统者，拥有连哲尔尼亚斯和伊裴尔塔尔都能压倒的力量。[1]\n超级基格尔德是当空前的危机来临时，感受人类的思绪而超级进化。它能用无双之力将事态平息。",
+  "prototype": "基格尔德核心与基格尔德细胞源自单细胞动物，例如草履虫和眼虫。基格尔德核心可能参考真核细胞，基格尔德细胞则参考原核细胞。\n它们的外形也像野槌蛇。\n基格尔德身上的六边形镶嵌图案可能以核碱基和碱基对为原型*。包含有碱基的核苷酸是脱氧核糖核酸（DNA）和核糖核酸（RNA）的基本组成单位。\n基格尔德１０％形态可能参考了洛基与安格尔波达的长子魔狼芬里尔，外形上来看也可能参考了杜宾犬。\n其颈部的项圈和绳索结构可能是指束缚芬里尔的神奇绳索格莱普尼尔。\n基格尔德５０％形态的样子基于蛇和“Z”，可能参考了北欧神话中洛基与安格尔波达的次子耶梦加得，另称“弥得加特之蛇”。依据散文埃达，耶梦加得是巨大海蛇，奥丁把它扔进尘世的深海，巨大到首尾相衔时足以环绕人间世界。\n基格尔德５０％形态可能也参考了尼德霍格。根据诗体埃达，尼德霍格是盘据在世界之树底部的邪龙，不断啃蚀其根部。\n基格尔德５０％形态也有那伽造像的设计元素。\n基格尔德完全体形态可能参考了洛基与安格尔波达的三女赫尔【海拉】（死神），同时也融合了日本机器人动画的设计。\n基格尔德作为生态系统的监督者，可能是生态系统具有一定的自我调节能力的具象化。\n如果将哲尔尼亚斯和伊裴尔塔尔分别看作生产者和消费者，则含有地面属性的基格尔德可看做生态系统中的分解者。\n基格尔德完全体形态后方两侧的带子颜色，也正好对应了哲尔尼亚斯以及伊裴尔塔尔的主色调。",
+  "detail": "异色的基格尔德、哲尔尼亚斯和伊裴尔塔尔都是把普通颜色的黑色部分变成白色。\n不计搭档伊布的特殊情况，基格尔德是目前拥有最多专用招式的宝可梦，共有五个。\n基格尔德在游戏中的叫声“择斗啊（日文︰ゼドアーッ，英文︰Zeeehhhd）”是来源于Z的法语读音zède。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ジガルデ Zygarde",
+      "origin": "来自字母“Z”、英文前缀 zyg-（表达接合；源自古希腊语 ζυγόν，意为“轭”）和法文 garde（监护、保管）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "千箭齐发",
-                        "flavor_text": "可以击中浮在空中的宝可梦。空中的对手被击落后，会掉到地面。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "千波激荡",
-                        "flavor_text": "从地面掀起波浪进行攻击。被掀入波浪中的对手，将无法从战斗中逃走。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "核心惩罚者",
-                        "flavor_text": "如果给予过伤害的对手已经结束行动，其特性就会被消除。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "绑紧",
-                        "flavor_text": "使用长长的身体或藤蔓等，在４～５回合内绑紧对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "15",
-                        "accuracy": "85",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙息",
-                        "flavor_text": "将强烈的气息吹向对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬住",
-                        "flavor_text": "用尖锐的牙咬住对手进行攻击。有时会使对手畏缩。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "8",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "黑雾",
-                        "flavor_text": "升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "16",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "24",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "神秘守护",
-                        "flavor_text": "在５回合内被神奇的力量守护，从而不会陷入异常状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "40",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "48",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大地神力",
-                        "flavor_text": "聚集大地的力量，将此力量集中攻击对手，并给予伤害。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "56",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大蛇瞪眼",
-                        "flavor_text": "用腹部的花纹使对手害怕，从而让其陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": "64",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "沙暴",
-                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "72",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "盘蜷",
-                        "flavor_text": "盘蜷着集中精神。提高自己的攻击、防御和命中率。",
-                        "type": "毒",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "80",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "88",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "逆鳞",
-                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８",
-                        "method": "招式学习器",
-                        "name": "破坏光线",
-                        "flavor_text": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０９",
-                        "method": "招式学习器",
-                        "name": "终极冲击",
-                        "flavor_text": "使出自己浑身力量突击对手。下一回合自己将无法动弹。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "90",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１５",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１９",
-                        "method": "招式学习器",
-                        "name": "神秘守护",
-                        "flavor_text": "在５回合内被神奇的力量守护，从而不会陷入异常状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "打鼾",
-                        "flavor_text": "在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "沙暴",
-                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４０",
-                        "method": "招式学习器",
-                        "name": "高速星星",
-                        "flavor_text": "发射星形的光攻击对手。攻击必定会命中。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４３",
-                        "method": "招式学习器",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５７",
-                        "method": "招式学习器",
-                        "name": "以牙还牙",
-                        "flavor_text": "蓄力攻击。如果能在对手之后攻击，招式的威力会变成２倍。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７６",
-                        "method": "招式学习器",
-                        "name": "轮唱",
-                        "flavor_text": "用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７９",
-                        "method": "招式学习器",
-                        "name": "报仇",
-                        "flavor_text": "为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会提高。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８１",
-                        "method": "招式学习器",
-                        "name": "重踏",
-                        "flavor_text": "用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９８",
-                        "method": "招式学习器",
-                        "name": "跺脚",
-                        "flavor_text": "化悔恨为力量进行攻击。如果上一回合招式没有打中，威力就会翻倍。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９９",
-                        "method": "招式学习器",
-                        "name": "广域破坏",
-                        "flavor_text": "用坚韧的尾巴猛扫对手进行攻击，从而降低对手的攻击。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录０１",
-                        "method": "招式学习器",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录１０",
-                        "method": "招式学习器",
-                        "name": "地震",
-                        "flavor_text": "利用地震的冲击，攻击自己周围所有的宝可梦。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２１",
-                        "method": "招式学习器",
-                        "name": "绝处逢生",
-                        "flavor_text": "竭尽全力进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２４",
-                        "method": "招式学习器",
-                        "name": "逆鳞",
-                        "flavor_text": "在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱。",
-                        "type": "龙",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２６",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录２７",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３１",
-                        "method": "招式学习器",
-                        "name": "铁尾",
-                        "flavor_text": "使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御。",
-                        "type": "钢",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "75",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３２",
-                        "method": "招式学习器",
-                        "name": "咬碎",
-                        "flavor_text": "用利牙咬碎对手进行攻击。有时会降低对手的防御。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录３９",
-                        "method": "招式学习器",
-                        "name": "蛮力",
-                        "flavor_text": "发挥惊人的力量攻击对手。自己的攻击和防御会降低。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录４２",
-                        "method": "招式学习器",
-                        "name": "巨声",
-                        "flavor_text": "给予对手又吵又响的巨大震动进行攻击。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录５１",
-                        "method": "招式学习器",
-                        "name": "龙之舞",
-                        "flavor_text": "激烈地跳起神秘且强有力的舞蹈。从而提高自己的攻击和速度。",
-                        "type": "龙",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６２",
-                        "method": "招式学习器",
-                        "name": "龙之波动",
-                        "flavor_text": "从大大的口中掀起冲击波攻击对手。",
-                        "type": "龙",
-                        "category": "特殊",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６４",
-                        "method": "招式学习器",
-                        "name": "真气弹",
-                        "flavor_text": "提高气势，释放出全部力量。有时会降低对手的特防。",
-                        "type": "格斗",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６７",
-                        "method": "招式学习器",
-                        "name": "大地之力",
-                        "flavor_text": "向对手脚下释放出大地之力。有时会降低对手的特防。",
-                        "type": "地面",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录６９",
-                        "method": "招式学习器",
-                        "name": "意念头锤",
-                        "flavor_text": "将思念的力量集中在前额进行攻击。有时会使对手畏缩。",
-                        "type": "超能力",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "90",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７５",
-                        "method": "招式学习器",
-                        "name": "尖石攻击",
-                        "flavor_text": "用尖尖的岩石刺入对手进行攻击。容易击中要害。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "100",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７７",
-                        "method": "招式学习器",
-                        "name": "打草结",
-                        "flavor_text": "用草缠住并绊倒对手。对手越重，威力越大。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录７８",
-                        "method": "招式学习器",
-                        "name": "污泥波",
-                        "flavor_text": "用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态。",
-                        "type": "毒",
-                        "category": "特殊",
-                        "power": "95",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式记录９４",
-                        "method": "招式学习器",
-                        "name": "十万马力",
-                        "flavor_text": "使出全身力量，猛攻对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "95",
-                        "accuracy": "95",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "基格爾德基格尔德",
+      "origin": "来自日文名的音译。"
     },
-    "home_images": [
+    {
+      "language": "中文-台湾及香港",
+      "name": "基格爾德",
+      "origin": "来自日文名的音译。"
+    },
+    {
+      "language": "英文",
+      "name": "Zygarde",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "法文",
+      "name": "Zygarde",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Zygarde",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Zygarde",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Zygarde",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "지가르데 Zygarde",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "５０％形态",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "category": "秩序宝可梦",
+      "abilities": [
         {
-            "name": "基格尔德-１０％形态",
-            "image": "0718-基格尔德-１０％形态.png",
-            "shiny": "0718-基格尔德-１０％形态-shiny.png"
+          "name": "气场破坏",
+          "is_hidden": false
         },
         {
-            "name": "基格尔德-５０％形态",
-            "image": "0718-基格尔德-５０％形态.png",
-            "shiny": "0718-基格尔德-５０％形态-shiny.png"
-        },
-        {
-            "name": "基格尔德-完全体形态",
-            "image": "0718-基格尔德-完全体形态.png",
-            "shiny": "0718-基格尔德-完全体形态-shiny.png"
+          "name": "群聚变形",
+          "is_hidden": false
         }
+      ],
+      "height": "5.0m",
+      "weight": "305.0kg",
+      "color": "绿色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "121 孵化周期*（31097步）",
+      "shape": "Body02.png",
+      "footprint": "FUnknown.png",
+      "image": "718Zygarde.png"
+    },
+    {
+      "name": "１０％形态",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "category": "秩序宝可梦",
+      "abilities": [
+        {
+          "name": "气场破坏",
+          "is_hidden": false
+        },
+        {
+          "name": "群聚变形",
+          "is_hidden": false
+        }
+      ],
+      "height": "1.2m",
+      "weight": "33.5kg",
+      "color": "黑色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "121 孵化周期*（31097步）",
+      "shape": "Body08.png",
+      "footprint": "FUnknown.png",
+      "image": "718Zygarde-10%EF%BC%85.png"
+    },
+    {
+      "name": "完全体形态",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "category": "秩序宝可梦",
+      "abilities": [
+        {
+          "name": "群聚变形",
+          "is_hidden": false
+        }
+      ],
+      "height": "4.5m",
+      "weight": "610.0kg",
+      "color": "黑色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "121 孵化周期*（31097步）",
+      "shape": "Body06.png",
+      "footprint": "FUnknown.png",
+      "image": "718Zygarde-Complete.png"
+    },
+    {
+      "name": "超级基格尔德",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "category": "秩序宝可梦",
+      "abilities": [
+        {
+          "name": "未知",
+          "is_hidden": false
+        }
+      ],
+      "height": "7.7m",
+      "weight": "610.0kg",
+      "color": "黑色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "121 孵化周期*（31097步）",
+      "shape": "Body06.png",
+      "footprint": "FUnknown.png",
+      "image": "718Zygarde-Mega.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "５０％形态",
+      "data": {
+        "hp": "108",
+        "attack": "100",
+        "defense": "121",
+        "sp_attack": "81",
+        "sp_defense": "95",
+        "speed": "95"
+      }
+    },
+    {
+      "form": "１０％形态",
+      "data": {
+        "hp": "54",
+        "attack": "100",
+        "defense": "71",
+        "sp_attack": "61",
+        "sp_defense": "85",
+        "speed": "115"
+      }
+    },
+    {
+      "form": "完全体形态",
+      "data": {
+        "hp": "216",
+        "attack": "100",
+        "defense": "121",
+        "sp_attack": "91",
+        "sp_defense": "95",
+        "speed": "85"
+      }
+    },
+    {
+      "form": "超级进化",
+      "data": {
+        "hp": "216",
+        "attack": "70",
+        "defense": "91",
+        "sp_attack": "216",
+        "sp_defense": "85",
+        "speed": "100"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "0"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "4"
+    },
+    {
+      "type": "龙",
+      "damage": "2"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "2"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "如果卡洛斯地区的生态系统崩溃，它好像就会现身，发挥蕴藏的力量。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "据说，生活在洞窟的深处，一直在监视着破坏生态系统者的一举一动。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "如果卡洛斯地区的生态系统崩溃，它好像就会现身，发挥蕴藏的力量。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "据说，生活在洞窟的深处，一直在监视着破坏生态系统者的一举一动。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "细胞聚集了５０％的样子。会毫不留情地把敌对者全部消灭。（５０％形态）用锋利的牙齿了结敌人。无法一直维持这个身体，一段时间后就会变得七零八落。（１０％形态）对威胁生态系统者，以压倒性力量来镇压的基格尔德的样子。（完全体形态）"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "被认为监视着生态系统。有传言，它蕴藏着更为强大的力量。（５０％形态）被称为细胞的基格尔德的一部分聚集了１０％左右的样子。以时速１００公里在地面奔驰。（１０％形态）１００％的基格尔德的样子。拥有连哲尔尼亚斯和伊裴尔塔尔都能压倒的力量。（完全体形态）"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "据说，生活在洞窟的深处，一直在监视着破坏生态系统者的一举一动。（５０％形态）基格尔德的一部分聚集了十分之一左右。会扑到对手的怀里用锐利的牙齿咬住。（１０％形态）所有基格尔德・细胞聚集后诞生而成。会用武力镇压破坏生态系统者。（完全体形态）当空前的危机来临时，感受人类的思绪而超级进化。能用无双之力将事态平息。（超级进化）"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "基格尔德",
+        "stage": "不进化",
+        "text": null,
+        "image": "718Zygarde_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [
+    {
+      "name": "基格尔德",
+      "form_name": "超级完全体形态",
+      "image": "718Zygarde-Complete_Dream.png"
+    },
+    {
+      "name": "基格尔德",
+      "form_name": "超级基格尔德",
+      "image": "718Zygarde-Mega.png"
+    }
+  ],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "千箭齐发",
+      "type": "地面",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "千波激荡",
+      "type": "地面",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "核心惩罚者",
+      "type": "龙",
+      "category": "特殊",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "绑紧",
+      "type": "一般",
+      "category": "物理",
+      "power": "15",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "龙息",
+      "type": "龙",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "咬住",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "8",
+      "name": "黑雾",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "16",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "神秘守护",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "25"
+    },
+    {
+      "level": "32",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "40",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "大地神力",
+      "type": "地面",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "56",
+      "name": "大蛇瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "64",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "72",
+      "name": "盘蜷",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "80",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "88",
+      "name": "逆鳞",
+      "type": "龙",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０８",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９",
+      "name": "神秘守护",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器２１",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "打鼾",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４０",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４３",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５７",
+      "name": "以牙还牙",
+      "type": "恶",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７６",
+      "name": "轮唱",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器７９",
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器８１",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器９８",
+      "name": "跺脚",
+      "type": "地面",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器９９",
+      "name": "广域破坏",
+      "type": "龙",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录０１",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录１０",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２１",
+      "name": "绝处逢生",
+      "type": "格斗",
+      "category": "物理",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录２４",
+      "name": "逆鳞",
+      "type": "龙",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２６",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录２７",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录３１",
+      "name": "铁尾",
+      "type": "钢",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "75",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录３２",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录３９",
+      "name": "蛮力",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录４２",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录５１",
+      "name": "龙之舞",
+      "type": "龙",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录６２",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录６４",
+      "name": "真气弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录６７",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录６９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式记录７５",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式记录７７",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式记录７８",
+      "name": "污泥波",
+      "type": "毒",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式记录９４",
+      "name": "十万马力",
+      "type": "地面",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "95",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "基格尔德-１０％形态",
+      "image": "0718-基格尔德-１０％形态.png",
+      "shiny": "0718-基格尔德-１０％形态-shiny.png"
+    },
+    {
+      "name": "基格尔德-５０％形态",
+      "image": "0718-基格尔德-５０％形态.png",
+      "shiny": "0718-基格尔德-５０％形态-shiny.png"
+    },
+    {
+      "name": "基格尔德-完全体形态",
+      "image": "0718-基格尔德-完全体形态.png",
+      "shiny": "0718-基格尔德-完全体形态-shiny.png"
+    }
+  ]
 }

@@ -1,371 +1,536 @@
 {
-    "name": "雪吞虫",
-    "index": "0872",
-    "name_en": "Snom",
-    "name_jp": "ユキハミ",
-    "profile": "雪吞虫是一只类似蛾类幼虫的宝可梦，浑身雪白，眼睛是两个黑点。雪吞虫的身上覆盖着冰晶，有两个肉球状的口器。\n雪吞虫会吃地面上的积雪。它尤其喜爱刚下的松软白雪，会朝着山顶一路吃过去。它会吃掉雪来获得寒气，并利用体内的器官加强冰冷的程度，以此来制作如冰柱般的尖刺。它吃得越多，背上的刺就会长得越挺拔。它能吐出带着冷气的丝，会用丝把自己挂在树枝上一边装成冰柱一边睡觉。\n",
-    "forms": [
-        {
-            "name": "雪吞虫",
-            "index": "0872",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0872-雪吞虫.png",
-            "types": [
-                "冰",
-                "虫"
-            ],
-            "genus": "虫宝宝宝可梦",
-            "ability": [
-                {
-                    "name": "鳞粉",
-                    "is_hidden": false
-                },
-                {
-                    "name": "冰鳞粉",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.3m",
-            "weight": "3.8kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "蛇形",
-            "color": "白色",
-            "catch_rate": {
-                "number": "190",
-                "rate": "24.8%"
-            },
-            "egg_groups": [
-                "虫"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "30",
-                "attack": "25",
-                "defense": "35",
-                "sp_attack": "45",
-                "sp_defense": "30",
-                "speed": "20"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": []
-        },
-        {
-            "name": "第四世代",
-            "versions": []
-        },
-        {
-            "name": "第五世代",
-            "versions": []
-        },
-        {
-            "name": "第六世代",
-            "versions": []
-        },
-        {
-            "name": "第七世代",
-            "versions": []
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "剑",
-                    "group": "宝可梦 剑／盾",
-                    "text": "能吐出带着冷气的丝。会用丝把自己挂在树枝上一边装成冰柱一边睡觉。"
-                },
-                {
-                    "name": "盾",
-                    "group": "宝可梦 剑／盾",
-                    "text": "会吃地面上的积雪。吃得越多，背上的刺就会长得越挺拔。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": [
-                {
-                    "name": "朱",
-                    "group": "宝可梦 朱／紫",
-                    "text": "地面的积雪是它的食物。尤其喜爱刚下的松软白雪，会朝着山顶一路吃过去。"
-                },
-                {
-                    "name": "紫",
-                    "group": "宝可梦 朱／紫",
-                    "text": "会吃掉雪来获得寒气，并利用体内的器官加强冰冷的程度，以此来制作如冰柱般的尖刺。"
-                }
-            ]
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "雪吞虫",
-                "stage": "未进化",
-                "text": null,
-                "image": "872Snom_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            },
-            {
-                "name": "雪绒蛾",
-                "stage": "1阶进化",
-                "text": "友好度158以上提升等级（夜晚）",
-                "image": "873Frosmoth_Dream.png",
-                "back_text": "",
-                "from": "雪吞虫",
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "雪吞虫",
-        "zh_hant": "雪吞虫",
-        "en": "Snom",
-        "fr": "Snom",
-        "de": "Snomnom",
-        "it": "Snom",
-        "es": "Snom",
-        "ja": "ユキハミ",
-        "ko": "누니머기"
+  "name_zh": "雪吞虫",
+  "name_ja": "ユキハミ",
+  "name_en": "Snom",
+  "pokedex_id": "0872",
+  "description": "雪吞虫（日文︰ユキハミ，英文︰Snom）是冰属性／虫属性宝可梦。",
+  "profile": "雪吞虫是一只类似蛾类幼虫的宝可梦，浑身雪白，眼睛是两个黑点。雪吞虫的身上覆盖着冰晶，有两个肉球状的口器。\n雪吞虫会吃地面上的积雪。它尤其喜爱刚下的松软白雪，会朝着山顶一路吃过去。它会吃掉雪来获得寒气，并利用体内的器官加强冰冷的程度，以此来制作如冰柱般的尖刺。它吃得越多，背上的刺就会长得越挺拔。它能吐出带着冷气的丝，会用丝把自己挂在树枝上一边装成冰柱一边睡觉。",
+  "prototype": "雪吞虫可能基于一些体表覆盖着晶莹剔透的凝胶状物质的亮蛾科幼虫，俗称“宝石毛虫”。",
+  "detail": "雪吞虫家族是有唯一属性组合的宝可梦，冰属性／虫属性组合。\n在一些特殊场景如雪地中，雪吞虫的身体颜色可能会显得更深，这导致雪吞虫的颜色呈现紫色而不是通常图鉴中的冰蓝色。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步雪吞虫（Pokémon GO）。\n←\nNo.0871：啪嚓海胆\n宝可梦\nNo.0873：雪绒蛾\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ユキハミ Yukihami",
+      "origin": "来自“雪（ゆき）”（雪）和“食（は）み”（饮食）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "虫之抵抗",
-                        "flavor_text": "抵抗并攻击对手。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "细雪",
-                        "flavor_text": "将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器００７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１５",
-                        "method": "招式学习器",
-                        "name": "虫之抵抗",
-                        "flavor_text": "抵抗并攻击对手。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２１",
-                        "method": "招式学习器",
-                        "name": "虫扑",
-                        "flavor_text": "飞扑向对手攻击。会降低对手的速度。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０２５",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３４",
-                        "method": "招式学习器",
-                        "name": "冰冻之风",
-                        "flavor_text": "将结冰的冷气吹向对手进行攻击。会降低对手的速度。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "55",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７０",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０８５",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０３",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１６２",
-                        "method": "招式学习器",
-                        "name": "虫鸣",
-                        "flavor_text": "利用振动发出音波进行攻击。有时会降低对手的特防。",
-                        "type": "虫",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７１",
-                        "method": "招式学习器",
-                        "name": "太晶爆发",
-                        "flavor_text": "太晶化时，会放出太晶属性的能量攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害。（其他属性）／用攻击和特攻数值较高的一项给予伤害。对正处于太晶化的对手效果绝佳。自己的攻击和特攻会降低。（星晶）",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８２",
-                        "method": "招式学习器",
-                        "name": "虫咬",
-                        "flavor_text": "咬住进行攻击。当对手携带树果时，可以食用并获得其效果。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８５",
-                        "method": "招式学习器",
-                        "name": "猛扑",
-                        "flavor_text": "全力猛扑对手进行攻击。从而降低对手的攻击。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８７",
-                        "method": "招式学习器",
-                        "name": "冰锥",
-                        "flavor_text": "向对手发射锋利的冰柱进行攻击。连续攻击２～５次。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "25",
-                        "accuracy": "100",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２１９",
-                        "method": "招式学习器",
-                        "name": "爬击",
-                        "flavor_text": "从对手背后爬近后进行攻击。会降低对手的特攻。",
-                        "type": "虫",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "90",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "雪吞虫",
+      "origin": "来自“雪”、“吞食”和“虫”。"
     },
-    "home_images": [
+    {
+      "language": "英文",
+      "name": "Snom",
+      "origin": "来自 snow（雪）、worm（蠕虫）和 nom（【口语】享受美食时发出的声音）。"
+    },
+    {
+      "language": "法文",
+      "name": "Frissonille",
+      "origin": "来自 frisson（寒颤）和 chenille（毛虫）。"
+    },
+    {
+      "language": "德文",
+      "name": "Snomnom",
+      "origin": "来自英文 snow（雪）、英文 worm（蠕虫）和英文 nom（【口语】享受美食时发出的声音）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Snom",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Snom",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "누니머기 Nunimeogi",
+      "origin": "来自“눈”（雪）和“먹이”（粮食）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "雪吞虫",
+      "types": [
+        "冰",
+        "虫"
+      ],
+      "category": "虫宝宝宝可梦",
+      "abilities": [
         {
-            "name": "雪吞虫",
-            "image": "0872-雪吞虫.png",
-            "shiny": "0872-雪吞虫-shiny.png"
+          "name": "鳞粉",
+          "is_hidden": false
+        },
+        {
+          "name": "冰鳞粉",
+          "is_hidden": true
         }
+      ],
+      "height": "0.3m",
+      "weight": "3.8kg",
+      "color": "白色",
+      "catch_rate": "190（24.8%）",
+      "egg_groups": [
+        "虫群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body02.png",
+      "footprint": "FUnknown.png",
+      "image": "872Snom.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "30",
+        "attack": "25",
+        "defense": "35",
+        "sp_attack": "45",
+        "sp_defense": "30",
+        "speed": "20"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "2"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "0.5"
+    },
+    {
+      "type": "岩石",
+      "damage": "4"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "2"
+    },
+    {
+      "type": "火",
+      "damage": "4"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "能吐出带着冷气的丝。会用丝把自己挂在树枝上一边装成冰柱一边睡觉。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "会吃地面上的积雪。吃得越多，背上的刺就会长得越挺拔。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "地面的积雪是它的食物。尤其喜爱刚下的松软白雪，会朝着山顶一路吃过去。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "会吃掉雪来获得寒气，并利用体内的器官加强冰冷的程度，以此来制作如冰柱般的尖刺。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "雪吞虫",
+        "stage": "未进化",
+        "text": null,
+        "image": "872Snom_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "雪绒蛾",
+        "stage": "1阶进化",
+        "text": "友好度158以上提升等级（夜晚）",
+        "image": "873Frosmoth_Dream.png",
+        "back_text": "",
+        "from": "雪吞虫",
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "虫之抵抗",
+      "type": "虫",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "细雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１５",
+      "name": "虫之抵抗",
+      "type": "虫",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２１",
+      "name": "虫扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１６２",
+      "name": "虫鸣",
+      "type": "虫",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８２",
+      "name": "虫咬",
+      "type": "虫",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８５",
+      "name": "猛扑",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１８７",
+      "name": "冰锥",
+      "type": "冰",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器２１９",
+      "name": "爬击",
+      "type": "虫",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "90",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "752",
+          "name": "滴蛛霸"
+        }
+      ],
+      "name": "镜面反射",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "168",
+          "name": "阿利多斯"
+        },
+        {
+          "id": "193",
+          "name": "蜻蜻蜓"
+        },
+        {
+          "id": "204",
+          "name": "榛果球"
+        },
+        {
+          "id": "205",
+          "name": "佛烈托斯"
+        },
+        {
+          "id": "401",
+          "name": "圆法师"
+        },
+        {
+          "id": "415",
+          "name": "三蜜蜂"
+        },
+        {
+          "id": "469",
+          "name": "远古巨蜓"
+        },
+        {
+          "id": "540",
+          "name": "虫宝包"
+        },
+        {
+          "id": "541",
+          "name": "宝包茧"
+        },
+        {
+          "id": "595",
+          "name": "电电虫"
+        },
+        {
+          "id": "596",
+          "name": "电蜘蛛"
+        },
+        {
+          "id": "637",
+          "name": "火神蛾"
+        },
+        {
+          "id": "664",
+          "name": "粉蝶虫"
+        },
+        {
+          "id": "736",
+          "name": "强颚鸡母虫"
+        },
+        {
+          "id": "737",
+          "name": "虫电宝"
+        },
+        {
+          "id": "751",
+          "name": "滴蛛"
+        },
+        {
+          "id": "752",
+          "name": "滴蛛霸"
+        },
+        {
+          "id": "917",
+          "name": "团珠蛛"
+        },
+        {
+          "id": "918",
+          "name": "操陷蛛"
+        },
+        {
+          "id": "919",
+          "name": "豆蟋蟀"
+        },
+        {
+          "id": "920",
+          "name": "烈腿蝗"
+        },
+        {
+          "id": "953",
+          "name": "虫滚泥"
+        },
+        {
+          "id": "954",
+          "name": "虫甲圣"
+        }
+      ],
+      "name": "虫咬",
+      "type": "虫",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0742",
+          "name": "萌虻"
+        },
+        {
+          "id": "0743",
+          "name": "蝶结萌虻"
+        }
+      ],
+      "name": "妖精之风",
+      "type": "妖精",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "雪吞虫",
+      "image": "0872-雪吞虫.png",
+      "shiny": "0872-雪吞虫-shiny.png"
+    }
+  ]
 }

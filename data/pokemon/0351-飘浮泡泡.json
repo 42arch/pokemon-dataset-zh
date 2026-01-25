@@ -1,924 +1,1107 @@
 {
-    "name": "飘浮泡泡",
-    "index": "0351",
-    "name_en": "Castform",
-    "name_jp": "ポワルン",
-    "profile": "飘浮泡泡是受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。太阳的样子头部形状像是太阳，雨水的样子头部形状则是水滴，雪云的样子则像是头部被云朵包裹住。\n飘浮泡泡为了保护自己小小的身体而获得了使用大自然巨大力量的能力。气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子，最近的研究发现它与水分子极其相似。但这是根据化学反应的结果，似乎并不是出于它的本意。天气越恶劣，性格也会变得越暴躁。\n太阳的样子是万里无云时，受惠于晴朗天气的飘浮泡泡的样子，如果在烈日下暴晒也会变成这个样子。它的身体被照得暖洋洋的，如果接触到皮肤，会出人意料的热。如果碰到它热烘烘的身体，会感觉干巴巴的。在将它放到取暖器前的实验里，没有变成这个形态。雨水的样子是被下个不停的雨淋到时飘浮泡泡的样子。它的身体遇水会稍稍有点膨胀，软绵绵的，如果按它的身体，就会像海绵一样渗出些水来。它的身体也带着潮气，滑溜溜的。在让它淋浴的实验里，没有变成这个形态。雪云的样子是被雪落到时飘浮泡泡的样子，如果被冰雹打到也会变成这个样子。它全身像冰一般，体温是零下5度左右。皮肤冷冷的有点儿冻住，像冰一样滑溜溜。在将它放入冷冻库的实验里，没有变成这个形态。\n",
-    "forms": [
-        {
-            "name": "飘浮泡泡的样子",
-            "index": "0351",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0351-飘浮泡泡的样子.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "天气宝可梦",
-            "ability": [
-                {
-                    "name": "阴晴不定",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.3m",
-            "weight": "0.8kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "灰色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "妖精",
-                "不定形"
-            ]
-        },
-        {
-            "name": "飘浮泡泡-太阳的样子",
-            "index": "0351.1",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0351.1-飘浮泡泡-太阳的样子.png",
-            "types": [
-                "火"
-            ],
-            "genus": "天气宝可梦",
-            "ability": [
-                {
-                    "name": "阴晴不定",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.3m",
-            "weight": "0.8kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "红色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "妖精",
-                "不定形"
-            ]
-        },
-        {
-            "name": "飘浮泡泡-雨水的样子",
-            "index": "0351.2",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0351.2-飘浮泡泡-雨水的样子.png",
-            "types": [
-                "水"
-            ],
-            "genus": "天气宝可梦",
-            "ability": [
-                {
-                    "name": "阴晴不定",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.3m",
-            "weight": "0.8kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "蓝色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "妖精",
-                "不定形"
-            ]
-        },
-        {
-            "name": "飘浮泡泡-雪云的样子",
-            "index": "0351.3",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0351.3-飘浮泡泡-雪云的样子.png",
-            "types": [
-                "冰"
-            ],
-            "genus": "天气宝可梦",
-            "ability": [
-                {
-                    "name": "阴晴不定",
-                    "is_hidden": false
-                }
-            ],
-            "experience": {
-                "number": "1,000,000",
-                "speed": "较快"
-            },
-            "height": "0.3m",
-            "weight": "0.8kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "球形",
-            "color": "白色",
-            "catch_rate": {
-                "number": "45",
-                "rate": "5.9%"
-            },
-            "egg_groups": [
-                "妖精",
-                "不定形"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "70",
-                "attack": "70",
-                "defense": "70",
-                "sp_attack": "70",
-                "sp_defense": "70",
-                "speed": "70"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "宝可梦的样子会随天气而改变。为了保护自己小小的身体而获得了使用大自然巨大力量的能力。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。天气变化的话，脾气也会变化。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "外形会随着天气而改变。例如气温与湿度等天候的变化似乎都会其细胞造成影响。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "拥有受到自然之力，就会把样子变成太阳、雨水或雪云的能力。"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "拥有受到自然之力，就会把样子变成太阳、雨水或雪云的能力。"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "由于气温和湿度会影响细胞的结构，所以样子随天气而改变。*"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "由于气温和湿度会影响细胞的结构，所以样子随天气而改变。*"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "拥有受到自然之力，就会把样子变成太阳、雨水或雪云的能力。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "宝可梦的样子会随天气而改变。为了保护自己小小的身体而获得了使用大自然巨大力量的能力。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。天气变化的话，脾气也会变化。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "太阳",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "根据天气而改变样子。听说气温和湿度的变化对细胞有影响。万里无云时飘浮泡泡的样子。如果接触到皮肤，会出人意料的热。所以要小心哦。（太阳的样子）\n被雨淋到时飘浮泡泡的样子。如果按它的身体，就会像海绵一样渗出些水来。（雨水的样子）\n被雪落到时飘浮泡泡的样子。全身像冰一般，体温是零下５度左右。（雪云的样子）"
-                },
-                {
-                    "name": "月亮",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "细胞对气温和湿度的反应很敏感，导致样子会随意地变化。受惠于晴朗天气时的飘浮泡泡的样子。身体被照得暖洋洋的。（太阳的样子）\n被下个不停的雨淋到的飘浮泡泡的样子。身体带着潮气，滑溜溜的。（雨水的样子）\n被冰雹砸到的飘浮泡泡的样子。皮肤冷冷的，像冰一样滑溜溜。（雪云的样子）"
-                },
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "样子会根据天气发生变化。但这是根据化学反应的结果，似乎并不是出于它的本意。天气晴朗时飘浮泡泡的样子。在将它放到取暖器前的实验里，没有变成这个形态。（太阳的样子）\n被雨淋到后，就会变成这个样子。身体遇水会稍稍有点膨胀，软绵绵的。（雨水的样子）\n被冰雹打到时飘浮泡泡的样子。在将它放入冷冻库的实验里，没有变成这个形态。（雪云的样子）"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "样子会根据天气发生变化。天气越恶劣，性格也会变得越暴躁。如果在烈日下暴晒，就会变成这个样子。如果碰到它热烘烘的身体，会感觉干巴巴的。（太阳的样子）\n被雨淋到时飘浮泡泡的样子。在让它淋浴的实验里，没有变成这个形态。（雨水的样子）\n如果被冰雹打到，就会变成这个样子。全身冷冷的，皮肤有点儿冻住。（雪云的样子）"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "飘浮泡泡",
-                "stage": "不进化",
-                "text": null,
-                "image": "351Castform_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "飘浮泡泡",
-        "zh_hant": "飄浮泡泡",
-        "en": "캐스퐁 Caspong",
-        "fr": "캐스퐁 Caspong",
-        "de": "Formeo",
-        "it": "Castform",
-        "es": "Castform",
-        "ja": "ポワルン",
-        "ko": "캐스퐁"
+  "name_zh": "飘浮泡泡",
+  "name_ja": "ポワルン",
+  "name_en": "Castform",
+  "pokedex_id": "0351",
+  "description": "飘浮泡泡（日文︰ポワルン，英文︰Castform）是一般属性宝可梦。太阳的样子是火属性宝可梦，雨水的样子是水属性宝可梦，雪云的样子是冰属性宝可梦。",
+  "profile": "飘浮泡泡是受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。太阳的样子头部形状像是太阳，雨水的样子头部形状则是水滴，雪云的样子则像是头部被云朵包裹住。\n飘浮泡泡为了保护自己小小的身体而获得了使用大自然巨大力量的能力。气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子，最近的研究发现它与水分子极其相似。但这是根据化学反应的结果，似乎并不是出于它的本意。天气越恶劣，性格也会变得越暴躁。\n太阳的样子是万里无云时，受惠于晴朗天气的飘浮泡泡的样子，如果在烈日下暴晒也会变成这个样子。它的身体被照得暖洋洋的，如果接触到皮肤，会出人意料的热。如果碰到它热烘烘的身体，会感觉干巴巴的。在将它放到取暖器前的实验里，没有变成这个形态。雨水的样子是被下个不停的雨淋到时飘浮泡泡的样子。它的身体遇水会稍稍有点膨胀，软绵绵的，如果按它的身体，就会像海绵一样渗出些水来。它的身体也带着潮气，滑溜溜的。在让它淋浴的实验里，没有变成这个形态。雪云的样子是被雪落到时飘浮泡泡的样子，如果被冰雹打到也会变成这个样子。它全身像冰一般，体温是零下5度左右。皮肤冷冷的有点儿冻住，像冰一样滑溜溜。在将它放入冷冻库的实验里，没有变成这个形态。",
+  "prototype": "根据形态会随天气而改变的能力与气象气球类似。\n也来源于晴天娃娃，一种悬挂在屋檐上祈求晴天的布偶。",
+  "detail": "第七世代及之前，飘浮泡泡（太阳的样子、雨水的样子或雪云的样子）的异色与通常的颜色没有差别。\n从第八世代《宝可梦》系列开始，Pokémon HOME、Pokémon GO以及《晶灿钻石／明亮珍珠》中的异色飘浮泡泡（太阳的样子、雨水的样子或雪云的样子）都有区别于通常的颜色。\n第四世代的图鉴中，第一次遇到的宝可梦种类将被默认为图鉴头像，由于特性判别的顺序，因此图鉴头像必定为飘浮泡泡（飘浮泡泡的样子）。\n同样的情况也发生在谢米和樱花儿身上。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步飘浮泡泡（Pokémon GO）。\n←\nNo.0350：美纳斯\n宝可梦\nNo.0352：变隐龙\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ポワルン Powalen",
+      "origin": "来自“ぽわーん”（漂浮的样子）和英文 bubble（泡沫）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水枪",
-                        "flavor_text": "向对手猛烈地喷射水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "火花",
-                        "flavor_text": "向对手发射小型火焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "细雪",
-                        "flavor_text": "将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": "15",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "头锤",
-                        "flavor_text": "将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "20",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "冰雹",
-                        "flavor_text": "在５回合内一直降冰雹，除冰属性的宝可梦以外，给予全体宝可梦伤害。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "25",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "气象球",
-                        "flavor_text": "根据使用时的天气，招式属性和威力会改变。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "50",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "水炮",
-                        "flavor_text": "向对手猛烈地喷射大量水流进行攻击。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "80",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "35",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "45",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "暴风",
-                        "flavor_text": "用强烈的风席卷对手进行攻击。有时会使对手混乱。",
-                        "type": "飞行",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０７",
-                        "method": "招式学习器",
-                        "name": "冰雹",
-                        "flavor_text": "在５回合内一直降冰雹，除冰属性的宝可梦以外，给予全体宝可梦伤害。",
-                        "type": "冰",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０",
-                        "method": "招式学习器",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１３",
-                        "method": "招式学习器",
-                        "name": "冰冻光束",
-                        "flavor_text": "向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１４",
-                        "method": "招式学习器",
-                        "name": "暴风雪",
-                        "flavor_text": "将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态。",
-                        "type": "冰",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２２",
-                        "method": "招式学习器",
-                        "name": "日光束",
-                        "flavor_text": "第１回合收集满满的日光，第２回合发射光束进行攻击。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２４",
-                        "method": "招式学习器",
-                        "name": "十万伏特",
-                        "flavor_text": "向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２５",
-                        "method": "招式学习器",
-                        "name": "打雷",
-                        "flavor_text": "向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "70",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３０",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "影子分身",
-                        "flavor_text": "通过快速移动来制造分身，扰乱对手，从而提高闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "电击波",
-                        "flavor_text": "向对手快速发出电击。攻击必定会命中。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３５",
-                        "method": "招式学习器",
-                        "name": "喷射火焰",
-                        "flavor_text": "向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３７",
-                        "method": "招式学习器",
-                        "name": "沙暴",
-                        "flavor_text": "在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高。",
-                        "type": "岩石",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３８",
-                        "method": "招式学习器",
-                        "name": "大字爆炎",
-                        "flavor_text": "用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态。",
-                        "type": "火",
-                        "category": "特殊",
-                        "power": "110",
-                        "accuracy": "85",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４２",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４４",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４５",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４６",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４９",
-                        "method": "招式学习器",
-                        "name": "热水",
-                        "flavor_text": "向对手喷射煮得翻滚的开水进行攻击。有时会让对手陷入灼伤状态。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５３",
-                        "method": "招式学习器",
-                        "name": "能量球",
-                        "flavor_text": "发射从自然收集的生命力量。有时会降低对手的特防。",
-                        "type": "草",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５８",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７０",
-                        "method": "招式学习器",
-                        "name": "闪光",
-                        "flavor_text": "使出光芒，从而降低对手的命中率。也可在阴暗的洞窟里照亮四周。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７２",
-                        "method": "招式学习器",
-                        "name": "雪崩",
-                        "flavor_text": "如果受到对手的招式攻击，就能给予该对手２倍威力的攻击。",
-                        "type": "冰",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７３",
-                        "method": "招式学习器",
-                        "name": "电磁波",
-                        "flavor_text": "向对手发出微弱的电击，从而让对手陷入麻痹状态。",
-                        "type": "电",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "90",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７７",
-                        "method": "招式学习器",
-                        "name": "自我暗示",
-                        "flavor_text": "向自己施以自我暗示，将能力变化的状态变得和对手一样。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８２",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８７",
-                        "method": "招式学习器",
-                        "name": "虚张声势",
-                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "飄浮泡泡飘浮泡泡",
+      "origin": "来自“飘浮”和“泡”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "漂浮泡泡",
+      "origin": "来自“漂浮”和“泡”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "飄浮泡泡",
+      "origin": "来自“飘浮”和“泡”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "漂浮泡泡",
+      "origin": "来自“漂浮”和“泡”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "漂浮泡泡",
+      "origin": "来自“漂浮”和“泡沫”。"
+    },
+    {
+      "language": "英文",
+      "name": "Castform",
+      "origin": "来自 forecast（天气预报）和 form（形状）。"
+    },
+    {
+      "language": "法文",
+      "name": "Morphéo",
+      "origin": "来自 morphologie（生物形态学）、英文 morphing（变形）和 météo（天气预报）。"
+    },
+    {
+      "language": "德文",
+      "name": "Formeo",
+      "origin": "来自 Form（形状）和 Meteorologie（气象学）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Castform",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Castform",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "캐스퐁 Caspong",
+      "origin": "来自英文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "飘浮泡泡的样子",
+      "types": [
+        "一般"
+      ],
+      "category": "天气宝可梦",
+      "abilities": [
         {
-            "name": "飘浮泡泡-飘浮泡泡的样子",
-            "image": "0351-飘浮泡泡-飘浮泡泡的样子.png",
-            "shiny": "0351-飘浮泡泡-飘浮泡泡的样子-shiny.png"
-        },
-        {
-            "name": "飘浮泡泡-太阳的样子",
-            "image": "0351-飘浮泡泡-太阳的样子.png",
-            "shiny": "0351-飘浮泡泡-太阳的样子-shiny.png"
-        },
-        {
-            "name": "飘浮泡泡-雨水的样子",
-            "image": "0351-飘浮泡泡-雨水的样子.png",
-            "shiny": "0351-飘浮泡泡-雨水的样子-shiny.png"
-        },
-        {
-            "name": "飘浮泡泡-雪云的样子",
-            "image": "0351-飘浮泡泡-雪云的样子.png",
-            "shiny": "0351-飘浮泡泡-雪云的样子-shiny.png"
+          "name": "阴晴不定",
+          "is_hidden": false
         }
+      ],
+      "height": "0.3m",
+      "weight": "0.8kg",
+      "color": "灰色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "妖精",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body01.png",
+      "footprint": "F351.png",
+      "image": "351Castform.png"
+    },
+    {
+      "name": "太阳的样子",
+      "types": [
+        "火"
+      ],
+      "category": "天气宝可梦",
+      "abilities": [
+        {
+          "name": "阴晴不定",
+          "is_hidden": false
+        }
+      ],
+      "height": "0.3m",
+      "weight": "0.8kg",
+      "color": "红色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "妖精",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body01.png",
+      "footprint": "F351.png",
+      "image": null
+    },
+    {
+      "name": "雨水的样子",
+      "types": [
+        "水"
+      ],
+      "category": "天气宝可梦",
+      "abilities": [
+        {
+          "name": "阴晴不定",
+          "is_hidden": false
+        }
+      ],
+      "height": "0.3m",
+      "weight": "0.8kg",
+      "color": "蓝色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "妖精",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body01.png",
+      "footprint": "F351.png",
+      "image": null
+    },
+    {
+      "name": "雪云的样子",
+      "types": [
+        "冰"
+      ],
+      "category": "天气宝可梦",
+      "abilities": [
+        {
+          "name": "阴晴不定",
+          "is_hidden": false
+        }
+      ],
+      "height": "0.3m",
+      "weight": "0.8kg",
+      "color": "白色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "妖精",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "25 孵化周期（6425步）",
+      "shape": "Body01.png",
+      "footprint": "F351.png",
+      "image": null
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "70",
+        "attack": "70",
+        "defense": "70",
+        "sp_attack": "70",
+        "sp_defense": "70",
+        "speed": "70"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "宝可梦的样子会随天气而改变。为了保护自己小小的身体而获得了使用大自然巨大力量的能力。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。天气变化的话，脾气也会变化。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "外形会随着天气而改变。例如气温与湿度等天候的变化似乎都会其细胞造成影响。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "拥有受到自然之力，就会把样子变成太阳、雨水或雪云的能力。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "拥有受到自然之力，就会把样子变成太阳、雨水或雪云的能力。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "气温和湿度的变化会对该宝可梦的身体细胞产生影响，从而改变它的样子。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "拥有受到自然之力，就会把样子变成太阳、雨水或雪云的能力。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "宝可梦的样子会随天气而改变。为了保护自己小小的身体而获得了使用大自然巨大力量的能力。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "受到自然之力，就会把样子变成太阳、雨水或雪云的宝可梦。天气变化的话，脾气也会变化。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "根据天气而改变样子。听说气温和湿度的变化对细胞有影响。万里无云时飘浮泡泡的样子。如果接触到皮肤，会出人意料的热。所以要小心哦。（太阳的样子）被雨淋到时飘浮泡泡的样子。如果按它的身体，就会像海绵一样渗出些水来。（雨水的样子）被雪落到时飘浮泡泡的样子。全身像冰一般，体温是零下５度左右。（雪云的样子）"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "细胞对气温和湿度的反应很敏感，导致样子会随意地变化。受惠于晴朗天气时的飘浮泡泡的样子。身体被照得暖洋洋的。（太阳的样子）被下个不停的雨淋到的飘浮泡泡的样子。身体带着潮气，滑溜溜的。（雨水的样子）被冰雹砸到的飘浮泡泡的样子。皮肤冷冷的，像冰一样滑溜溜。（雪云的样子）"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "样子会随天气而改变。最近的研究发现它与水分子极其相似。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "飘浮泡泡",
+        "stage": "不进化",
+        "text": null,
+        "image": "351Castform_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "10",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "10",
+      "name": "火花",
+      "type": "火",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "10",
+      "name": "细雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "15",
+      "name": "头锤",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "20",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "20",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "level": "20",
+      "name": "冰雹",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "25",
+      "name": "气象球",
+      "type": "一般",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "35",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "level": "35",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "level": "35",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "level": "45",
+      "name": "暴风",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０３",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０７",
+      "name": "冰雹",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１１",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１３",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２２",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２４",
+      "name": "十万伏特",
+      "type": "电",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２５",
+      "name": "打雷",
+      "type": "电",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３０",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "影子分身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "电击波",
+      "type": "电",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器３５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３７",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３８",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４４",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４５",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４６",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器４９",
+      "name": "热水",
+      "type": "水",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器５３",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５８",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７０",
+      "name": "闪光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７２",
+      "name": "雪崩",
+      "type": "冰",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７３",
+      "name": "电磁波",
+      "type": "电",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７７",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８２",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８７",
+      "name": "虚张声势",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器９０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "280",
+          "name": "拉鲁拉丝"
+        },
+        {
+          "id": "281",
+          "name": "奇鲁莉安"
+        },
+        {
+          "id": "282",
+          "name": "沙奈朵"
+        },
+        {
+          "id": "355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "475",
+          "name": "艾路雷朵"
+        },
+        {
+          "id": "477",
+          "name": "黑夜魔灵"
+        }
+      ],
+      "name": "预知未来",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "039",
+          "name": "胖丁"
+        },
+        {
+          "id": "040",
+          "name": "胖可丁"
+        },
+        {
+          "id": "088",
+          "name": "臭泥"
+        },
+        {
+          "id": "089",
+          "name": "臭臭泥"
+        },
+        {
+          "id": "355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "477",
+          "name": "黑夜魔灵"
+        }
+      ],
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "202",
+          "name": "果然翁"
+        },
+        {
+          "id": "218",
+          "name": "熔岩虫"
+        },
+        {
+          "id": "219",
+          "name": "熔岩蜗牛"
+        },
+        {
+          "id": "316",
+          "name": "溶食兽"
+        },
+        {
+          "id": "317",
+          "name": "吞食兽"
+        }
+      ],
+      "name": "瞬间失忆",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "092",
+          "name": "鬼斯"
+        },
+        {
+          "id": "093",
+          "name": "鬼斯通"
+        },
+        {
+          "id": "094",
+          "name": "耿鬼"
+        },
+        {
+          "id": "200",
+          "name": "梦妖"
+        },
+        {
+          "id": "353",
+          "name": "怨影娃娃"
+        },
+        {
+          "id": "354",
+          "name": "诅咒娃娃"
+        },
+        {
+          "id": "355",
+          "name": "夜巡灵"
+        },
+        {
+          "id": "356",
+          "name": "彷徨夜灵"
+        },
+        {
+          "id": "425",
+          "name": "飘飘球"
+        },
+        {
+          "id": "426",
+          "name": "随风球"
+        },
+        {
+          "id": "429",
+          "name": "梦妖魔"
+        },
+        {
+          "id": "442",
+          "name": "花岩怪"
+        },
+        {
+          "id": "477",
+          "name": "黑夜魔灵"
+        }
+      ],
+      "name": "祸不单行",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "109",
+          "name": "瓦斯弹"
+        },
+        {
+          "id": "110",
+          "name": "双弹瓦斯"
+        },
+        {
+          "id": "218",
+          "name": "熔岩虫"
+        },
+        {
+          "id": "219",
+          "name": "熔岩蜗牛"
+        }
+      ],
+      "name": "清除之烟",
+      "type": "毒",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "耿鬼"
+        }
+      ],
+      "name": "镜面属性",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "大嘴娃"
+        }
+      ],
+      "name": "防守互换*",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "035",
+          "name": "皮皮"
+        },
+        {
+          "id": "036",
+          "name": "皮可西"
+        }
+      ],
+      "name": "宇宙力量",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "飘浮泡泡-飘浮泡泡的样子",
+      "image": "0351-飘浮泡泡-飘浮泡泡的样子.png",
+      "shiny": "0351-飘浮泡泡-飘浮泡泡的样子-shiny.png"
+    },
+    {
+      "name": "飘浮泡泡-太阳的样子",
+      "image": "0351-飘浮泡泡-太阳的样子.png",
+      "shiny": "0351-飘浮泡泡-太阳的样子-shiny.png"
+    },
+    {
+      "name": "飘浮泡泡-雨水的样子",
+      "image": "0351-飘浮泡泡-雨水的样子.png",
+      "shiny": "0351-飘浮泡泡-雨水的样子-shiny.png"
+    },
+    {
+      "name": "飘浮泡泡-雪云的样子",
+      "image": "0351-飘浮泡泡-雪云的样子.png",
+      "shiny": "0351-飘浮泡泡-雪云的样子-shiny.png"
+    }
+  ]
 }

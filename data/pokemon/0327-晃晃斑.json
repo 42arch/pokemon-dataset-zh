@@ -1,842 +1,1234 @@
 {
-    "name": "晃晃斑",
-    "index": "0327",
-    "name_en": "Spinda",
-    "name_jp": "パッチール",
-    "profile": "每只晃晃斑身上的斑点几乎不相同，晃晃斑身上的斑点理论上有2=4,294,967,296种组合，所以遇到斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。听说也有爱好者以这细微的斑点位置的不同为乐。\n晃晃斑晃晃悠悠，步伐不稳健。它摇摆不定的步伐看起来好像在跳舞，但晃晃斑自己是打算要笔直走路的。如果长时间连续行走，就会变得状态很差。它看上去总是昏头昏脑的，但那晃晃悠悠、毫无章法的动作有着迷惑敌人，让敌人不容易瞄准的效果。夜盗火蜥就不擅长对付总是晕乎乎的晃晃斑。\n",
-    "forms": [
-        {
-            "name": "晃晃斑",
-            "index": "0327",
-            "is_mega": false,
-            "is_gmax": false,
-            "image": "0327-晃晃斑.png",
-            "types": [
-                "一般"
-            ],
-            "genus": "斑点熊猫宝可梦",
-            "ability": [
-                {
-                    "name": "我行我素",
-                    "is_hidden": false
-                },
-                {
-                    "name": "蹒跚",
-                    "is_hidden": false
-                },
-                {
-                    "name": "唱反调",
-                    "is_hidden": true
-                }
-            ],
-            "experience": {
-                "number": "800,000",
-                "speed": "快"
-            },
-            "height": "1.1m",
-            "weight": "5.0kg",
-            "gender_rate": {
-                "male": "50%",
-                "female": "50%"
-            },
-            "shape": "双足兽形",
-            "color": "褐色",
-            "catch_rate": {
-                "number": "255",
-                "rate": "33.3%"
-            },
-            "egg_groups": [
-                "陆上",
-                "人型"
-            ]
-        }
-    ],
-    "stats": [
-        {
-            "form": "一般",
-            "data": {
-                "hp": "60",
-                "attack": "60",
-                "defense": "60",
-                "sp_attack": "60",
-                "sp_defense": "60",
-                "speed": "60"
-            }
-        }
-    ],
-    "flavor_texts": [
-        {
-            "name": "第一世代",
-            "versions": []
-        },
-        {
-            "name": "第二世代",
-            "versions": []
-        },
-        {
-            "name": "第三世代",
-            "versions": [
-                {
-                    "name": "红宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "据说世上所有晃晃斑的斑点花纹都长在不一样的地方。摇摆不定的步伐看起来好像在跳舞。"
-                },
-                {
-                    "name": "蓝宝石",
-                    "group": "宝可梦 红宝石／蓝宝石",
-                    "text": "据说在不同的晃晃斑身上找不到相同的斑点花纹。它看上去总是昏头昏脑的，但那晃晃悠悠的动作有着迷惑敌人的效果。"
-                },
-                {
-                    "name": "绿宝石",
-                    "group": "宝可梦 绿宝石",
-                    "text": "最大的特征是每一只身上的斑点花纹都不同。摇摇晃晃令人捉摸不定的脚步，具有让敌人不容易瞄准的效果。*"
-                },
-                {
-                    "name": "火红",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "据说身上的花纹绝对不会重复。毫无章法的步伐能够迷惑对手。*"
-                },
-                {
-                    "name": "叶绿",
-                    "group": "宝可梦 火红／叶绿",
-                    "text": "据说身上的花纹绝对不会重复。毫无章法的步伐能够迷惑对手。*"
-                }
-            ]
-        },
-        {
-            "name": "第四世代",
-            "versions": [
-                {
-                    "name": "钻石",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "珍珠",
-                    "group": "宝可梦 钻石／珍珠",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "白金",
-                    "group": "宝可梦 白金",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "心金",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。"
-                },
-                {
-                    "name": "魂银",
-                    "group": "宝可梦 心金／魂银",
-                    "text": "斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。"
-                }
-            ]
-        },
-        {
-            "name": "第五世代",
-            "versions": [
-                {
-                    "name": "黑",
-                    "group": "宝可梦 黑／白",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "白",
-                    "group": "宝可梦 黑／白",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "黑２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "白２",
-                    "group": "宝可梦 黑２／白２",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                }
-            ]
-        },
-        {
-            "name": "第六世代",
-            "versions": [
-                {
-                    "name": "Ｘ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "Ｙ",
-                    "group": "宝可梦 Ｘ／Ｙ",
-                    "text": "斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。"
-                },
-                {
-                    "name": "欧米伽红宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "据说世上所有晃晃斑的斑点花纹都长在不一样的地方。摇摆不定的步伐看起来好像在跳舞。"
-                },
-                {
-                    "name": "阿尔法蓝宝石",
-                    "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
-                    "text": "据说在不同的晃晃斑身上找不到相同的斑点花纹。它看上去总是昏头昏脑的，但那晃晃悠悠的动作有着迷惑敌人的效果。"
-                }
-            ]
-        },
-        {
-            "name": "第七世代",
-            "versions": [
-                {
-                    "name": "太阳",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "晃晃悠悠，步伐不稳健，但晃晃斑自己是打算要笔直走路的哦。"
-                },
-                {
-                    "name": "月亮",
-                    "group": "精灵宝可梦 太阳／月亮",
-                    "text": "每一只身上的斑点花纹都不同。听说也有爱好者以这细微的斑点位置的不同为乐。"
-                },
-                {
-                    "name": "究极之日",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "晃晃悠悠，步伐不稳健。如果长时间连续行走，就会变得状态很差。"
-                },
-                {
-                    "name": "究极之月",
-                    "group": "精灵宝可梦 究极之日／究极之月",
-                    "text": "每一只身上的斑点花纹都不同。会用晃晃悠悠的动作绝妙地躲避对手的攻击。"
-                }
-            ]
-        },
-        {
-            "name": "第八世代",
-            "versions": [
-                {
-                    "name": "晶灿钻石",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                },
-                {
-                    "name": "明亮珍珠",
-                    "group": "宝可梦 晶灿钻石／明亮珍珠",
-                    "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
-                }
-            ]
-        },
-        {
-            "name": "第九世代",
-            "versions": []
-        }
-    ],
-    "evolution_chains": [
-        [
-            {
-                "name": "晃晃斑",
-                "stage": "不进化",
-                "text": null,
-                "image": "327Spinda_Dream.png",
-                "back_text": null,
-                "from": null,
-                "form_name": null
-            }
-        ]
-    ],
-    "names": {
-        "zh_hans": "晃晃斑",
-        "en": "Spinda",
-        "fr": "Spinda",
-        "zh_hant": "晃晃斑",
-        "de": "Pandir",
-        "it": "Spinda",
-        "es": "Spinda",
-        "ja": "パッチール",
-        "ko": "얼루기"
+  "name_zh": "晃晃斑",
+  "name_ja": "パッチール",
+  "name_en": "Spinda",
+  "pokedex_id": "0327",
+  "description": "晃晃斑（日文︰パッチール，英文︰Spinda）是一般属性宝可梦。",
+  "profile": "每只晃晃斑身上的斑点几乎不相同，晃晃斑身上的斑点理论上有232=4,294,967,296种组合，所以遇到斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。听说也有爱好者以这细微的斑点位置的不同为乐。\n晃晃斑晃晃悠悠，步伐不稳健。它摇摆不定的步伐看起来好像在跳舞，但晃晃斑自己是打算要笔直走路的。如果长时间连续行走，就会变得状态很差。它看上去总是昏头昏脑的，但那晃晃悠悠、毫无章法的动作有着迷惑敌人，让敌人不容易瞄准的效果。夜盗火蜥就不擅长对付总是晕乎乎的晃晃斑。",
+  "prototype": "晃晃斑形象上为融入兔耳和涂鸦公仔元素的大熊猫，尤其是拥有棕色胸斑和腹毛的亚种秦岭大熊猫。\n图鉴描述中晃晃斑的战斗方式可能源于中国醉拳，也对应现实中一些小动物误食发酵物之后的滑稽姿态。",
+  "detail": "动画中有三只宝可梦有心形斑点，其中一只是晃晃斑，另外两只是乌波和妙蛙种子。\n由于程序漏洞，来自其它游戏的晃晃斑无法寄放至《晶灿钻石／明亮珍珠》，且来自《晶灿钻石／明亮珍珠》的晃晃斑也无法寄放于Pokémon HOME。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步晃晃斑（Pokémon GO）。\n←\nNo.0326：噗噗猪\n宝可梦\nNo.0328：大颚蚁\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "パッチール Patcheel",
+      "origin": "来自英文 patch（斑点）和英文 reel（旋转；摇晃；蹒跚）。"
     },
-    "moves": {
-        "learned": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": "—",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "撞击",
-                        "flavor_text": "用整个身体撞向对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "35"
-                    },
-                    {
-                        "level_learned_at": "5",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "仿效",
-                        "flavor_text": "模仿对手刚才使出的招式，并使出相同招式。如果对手还没出招则会失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "10",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摇晃舞",
-                        "flavor_text": "摇摇晃晃地跳起舞蹈，让自己周围的宝可梦陷入混乱状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "14",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "幻象光线",
-                        "flavor_text": "向对手发射神奇的光线进行攻击。有时会使对手混乱。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "65",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "19",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "催眠术",
-                        "flavor_text": "施以诱导睡意的暗示，让对手陷入睡眠状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "60",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "23",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "泰山压顶",
-                        "flavor_text": "用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "85",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "28",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "突袭",
-                        "flavor_text": "可以比对手先攻击。对手使出的招式如果不是攻击招式则会失败。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": "32",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "摇晃舞",
-                        "flavor_text": "摇摇晃晃地跳起舞蹈，让自己周围的宝可梦陷入混乱状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": "37",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "吵闹",
-                        "flavor_text": "在３回合内大吵大闹攻击对手。在此期间谁都不能入眠。",
-                        "type": "一般",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "41",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "自我暗示",
-                        "flavor_text": "向自己施以自我暗示，将能力变化的状态变得和对手一样。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": "46",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "舍身冲撞",
-                        "flavor_text": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "50",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "抓狂",
-                        "flavor_text": "抓狂般乱打进行攻击。自己的ＨＰ越少，招式的威力越大。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": "55",
-                        "machine_used": null,
-                        "method": "提升等级",
-                        "name": "大闹一番",
-                        "flavor_text": "在２～３回合内，乱打一气地攻击对手。大闹一番后自己会陷入混乱。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "120",
-                        "accuracy": "100",
-                        "pp": "10"
-                    }
-                ]
-            }
-        ],
-        "machine": [
-            {
-                "form": "一般",
-                "data": [
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０１",
-                        "method": "招式学习器",
-                        "name": "真气拳",
-                        "flavor_text": "集中精神出拳。在招式使出前若受到攻击则会失败。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "150",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０３",
-                        "method": "招式学习器",
-                        "name": "水之波动",
-                        "flavor_text": "用水的震动攻击对手。有时会使对手混乱。",
-                        "type": "水",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器０４",
-                        "method": "招式学习器",
-                        "name": "冥想",
-                        "flavor_text": "静心凝神，从而提高自己的特攻和特防。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１０",
-                        "method": "招式学习器",
-                        "name": "自我激励",
-                        "flavor_text": "激励自己，从而提高攻击和特攻。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "30"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１１",
-                        "method": "招式学习器",
-                        "name": "大晴天",
-                        "flavor_text": "在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低。",
-                        "type": "火",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１７",
-                        "method": "招式学习器",
-                        "name": "守住",
-                        "flavor_text": "完全抵挡对手的攻击。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器１８",
-                        "method": "招式学习器",
-                        "name": "求雨",
-                        "flavor_text": "在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低。",
-                        "type": "水",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２０",
-                        "method": "招式学习器",
-                        "name": "神秘守护",
-                        "flavor_text": "在５回合内被神奇的力量守护，从而不会陷入异常状态。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２８",
-                        "method": "招式学习器",
-                        "name": "挖洞",
-                        "flavor_text": "第１回合钻入地底，第２回合攻击对手。",
-                        "type": "地面",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器２９",
-                        "method": "招式学习器",
-                        "name": "精神强念",
-                        "flavor_text": "向对手发送强大的念力进行攻击。有时会降低对手的特防。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "90",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３０",
-                        "method": "招式学习器",
-                        "name": "暗影球",
-                        "flavor_text": "投掷一团黑影进行攻击。有时会降低对手的特防。",
-                        "type": "幽灵",
-                        "category": "特殊",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３１",
-                        "method": "招式学习器",
-                        "name": "劈瓦",
-                        "flavor_text": "将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３２",
-                        "method": "招式学习器",
-                        "name": "影子分身",
-                        "flavor_text": "通过快速移动来制造分身，扰乱对手，从而提高闪避率。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３４",
-                        "method": "招式学习器",
-                        "name": "电击波",
-                        "flavor_text": "向对手快速发出电击。攻击必定会命中。",
-                        "type": "电",
-                        "category": "特殊",
-                        "power": "60",
-                        "accuracy": "—",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器３９",
-                        "method": "招式学习器",
-                        "name": "岩石封锁",
-                        "flavor_text": "投掷岩石进行攻击。封住对手的行动，从而降低速度。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "95",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４２",
-                        "method": "招式学习器",
-                        "name": "硬撑",
-                        "flavor_text": "当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "70",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４４",
-                        "method": "招式学习器",
-                        "name": "睡觉",
-                        "flavor_text": "连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４５",
-                        "method": "招式学习器",
-                        "name": "迷人",
-                        "flavor_text": "♂诱惑♀或♀诱惑♂，让对手着迷。对手将很难使出招式。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４６",
-                        "method": "招式学习器",
-                        "name": "小偷",
-                        "flavor_text": "攻击的同时盗取道具。当自己携带道具时，不会去盗取。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "60",
-                        "accuracy": "100",
-                        "pp": "25"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器４８",
-                        "method": "招式学习器",
-                        "name": "特性互换",
-                        "flavor_text": "利用超能力互换自己和对手的特性。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５６",
-                        "method": "招式学习器",
-                        "name": "投掷",
-                        "flavor_text": "快速投掷携带的道具进行攻击。根据道具不同，威力和效果会改变。",
-                        "type": "恶",
-                        "category": "物理",
-                        "power": "变化",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器５８",
-                        "method": "招式学习器",
-                        "name": "挺住",
-                        "flavor_text": "即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器６０",
-                        "method": "招式学习器",
-                        "name": "吸取拳",
-                        "flavor_text": "用拳头吸取对手的力量。可以回复给予对手伤害的一半ＨＰ。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "100",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器６７",
-                        "method": "招式学习器",
-                        "name": "回收利用",
-                        "flavor_text": "使战斗中已经消耗掉的自己的持有物再生，并可以再次使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７０",
-                        "method": "招式学习器",
-                        "name": "闪光",
-                        "flavor_text": "使出光芒，从而降低对手的命中率。也可在阴暗的洞窟里照亮四周。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "100",
-                        "pp": "20"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器７７",
-                        "method": "招式学习器",
-                        "name": "自我暗示",
-                        "flavor_text": "向自己施以自我暗示，将能力变化的状态变得和对手一样。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８０",
-                        "method": "招式学习器",
-                        "name": "岩崩",
-                        "flavor_text": "将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩。",
-                        "type": "岩石",
-                        "category": "物理",
-                        "power": "75",
-                        "accuracy": "90",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８２",
-                        "method": "招式学习器",
-                        "name": "梦话",
-                        "flavor_text": "从自己已学会的招式中任意使出１个。只能在自己睡觉时使用。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８５",
-                        "method": "招式学习器",
-                        "name": "食梦",
-                        "flavor_text": "吃掉正在睡觉的对手的梦进行攻击。回复对手所受到伤害的一半ＨＰ。",
-                        "type": "超能力",
-                        "category": "特殊",
-                        "power": "100",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器８７",
-                        "method": "招式学习器",
-                        "name": "虚张声势",
-                        "flavor_text": "激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "85",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９０",
-                        "method": "招式学习器",
-                        "name": "替身",
-                        "flavor_text": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
-                        "type": "一般",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "10"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９２",
-                        "method": "招式学习器",
-                        "name": "戏法空间",
-                        "flavor_text": "制造出离奇的空间。在５回合内速度慢的宝可梦可以先行动。",
-                        "type": "超能力",
-                        "category": "变化",
-                        "power": "—",
-                        "accuracy": "—",
-                        "pp": "5"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９６",
-                        "method": "招式学习器",
-                        "name": "怪力",
-                        "flavor_text": "使出浑身力气殴打对手进行攻击。",
-                        "type": "一般",
-                        "category": "物理",
-                        "power": "80",
-                        "accuracy": "100",
-                        "pp": "15"
-                    },
-                    {
-                        "level_learned_at": null,
-                        "machine_used": "招式学习器９８",
-                        "method": "招式学习器",
-                        "name": "碎岩",
-                        "flavor_text": "用拳头进行攻击。有时会降低对手的防御。",
-                        "type": "格斗",
-                        "category": "物理",
-                        "power": "40",
-                        "accuracy": "100",
-                        "pp": "15"
-                    }
-                ]
-            }
-        ]
+    {
+      "language": "中文-任天堂",
+      "name": "晃晃斑",
+      "origin": "来自“摇晃”和“斑点”。"
     },
-    "home_images": [
+    {
+      "language": "中文-大陆",
+      "name": "晃晃斑",
+      "origin": "来自“摇晃”和“斑点”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "晃晃斑",
+      "origin": "来自“摇晃”和“斑点”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "晃晃斑",
+      "origin": "来自“摇晃”和“斑点”。"
+    },
+    {
+      "language": "英文",
+      "name": "Spinda",
+      "origin": "来自 spin（旋转）和 panda（熊猫）。"
+    },
+    {
+      "language": "法文",
+      "name": "Spinda",
+      "origin": "来自 spiral（螺旋形的）和 panda（熊猫）。"
+    },
+    {
+      "language": "德文",
+      "name": "Pandir",
+      "origin": "来自 Panda（熊猫）和 Wirbel（旋涡）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Spinda",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Spinda",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "얼루기 Ollugi",
+      "origin": "来自“얼룩”（斑点）和指小后缀“～이”。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "晃晃斑",
+      "types": [
+        "一般"
+      ],
+      "category": "斑点熊猫宝可梦",
+      "abilities": [
         {
-            "name": "晃晃斑",
-            "image": "0327-晃晃斑.png",
-            "shiny": "0327-晃晃斑-shiny.png"
+          "name": "我行我素",
+          "is_hidden": false
+        },
+        {
+          "name": "蹒跚",
+          "is_hidden": false
+        },
+        {
+          "name": "唱反调",
+          "is_hidden": true
         }
+      ],
+      "height": "1.1m",
+      "weight": "5.0kg",
+      "color": "褐色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "陆上",
+        "人型群"
+      ],
+      "experience_100": "800,000（快）",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body06.png",
+      "footprint": "F327.png",
+      "image": "327Spinda.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "60",
+        "attack": "60",
+        "defense": "60",
+        "sp_attack": "60",
+        "sp_defense": "60",
+        "speed": "60"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "type": "一般",
+      "damage": "1"
+    },
+    {
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "据说世上所有晃晃斑的斑点花纹都长在不一样的地方。摇摆不定的步伐看起来好像在跳舞。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "据说在不同的晃晃斑身上找不到相同的斑点花纹。它看上去总是昏头昏脑的，但那晃晃悠悠的动作有着迷惑敌人的效果。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "最大的特征是每一只身上的斑点花纹都不同。摇摇晃晃令人捉摸不定的脚步，具有让敌人不容易瞄准的效果。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "据说身上的花纹绝对不会重复。毫无章法的步伐能够迷惑对手。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "据说身上的花纹绝对不会重复。毫无章法的步伐能够迷惑对手。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "斑点花纹相同的晃晃斑碰巧相遇的概率不足４０亿分之１。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "据说世上所有晃晃斑的斑点花纹都长在不一样的地方。摇摆不定的步伐看起来好像在跳舞。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "据说在不同的晃晃斑身上找不到相同的斑点花纹。它看上去总是昏头昏脑的，但那晃晃悠悠的动作有着迷惑敌人的效果。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "晃晃悠悠，步伐不稳健，但晃晃斑自己是打算要笔直走路的哦。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "每一只身上的斑点花纹都不同。听说也有爱好者以这细微的斑点位置的不同为乐。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "世上没有斑点花纹相同的晃晃斑。会用晃晃悠悠的步伐来避开对手的瞄准。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "晃晃斑",
+        "stage": "不进化",
+        "text": null,
+        "image": "327Spinda_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
     ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "5",
+      "name": "仿效",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "10",
+      "name": "摇晃舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "14",
+      "name": "幻象光线",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "19",
+      "name": "催眠术",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "60",
+      "pp": "20"
+    },
+    {
+      "level": "23",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "28",
+      "name": "突袭",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "32",
+      "name": "摇晃舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "37",
+      "name": "吵闹",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "41",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "46",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "50",
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "55",
+      "name": "大闹一番",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器０１",
+      "name": "真气拳",
+      "type": "格斗",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４",
+      "name": "冥想",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０",
+      "name": "自我激励",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１１",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器２０",
+      "name": "神秘守护",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器２８",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２９",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器３０",
+      "name": "暗影球",
+      "type": "幽灵",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３１",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３２",
+      "name": "影子分身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器３４",
+      "name": "电击波",
+      "type": "电",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器３９",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４２",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器４４",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器４５",
+      "name": "迷人",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器４６",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器４８",
+      "name": "特性互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５６",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器５８",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６０",
+      "name": "吸取拳",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器６７",
+      "name": "回收利用",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器７０",
+      "name": "闪光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器７７",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８０",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８２",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器８５",
+      "name": "食梦",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器８７",
+      "name": "虚张声势",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器９０",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器９２",
+      "name": "戏法空间",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器９６",
+      "name": "怪力",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器９８",
+      "name": "碎岩",
+      "type": "格斗",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "086",
+          "name": "小海狮"
+        },
+        {
+          "id": "087",
+          "name": "白海狮"
+        },
+        {
+          "id": "122",
+          "name": "魔墙人偶"
+        },
+        {
+          "id": "287",
+          "name": "懒人獭"
+        },
+        {
+          "id": "288",
+          "name": "过动猿"
+        },
+        {
+          "id": "289",
+          "name": "请假王"
+        },
+        {
+          "id": "313",
+          "name": "电萤虫"
+        },
+        {
+          "id": "363",
+          "name": "海豹球"
+        },
+        {
+          "id": "364",
+          "name": "海魔狮"
+        },
+        {
+          "id": "365",
+          "name": "帝牙海狮"
+        }
+      ],
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "037",
+          "name": "六尾"
+        },
+        {
+          "id": "038",
+          "name": "九尾"
+        },
+        {
+          "id": "054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "064",
+          "name": "勇基拉"
+        },
+        {
+          "id": "065",
+          "name": "胡地"
+        },
+        {
+          "id": "096",
+          "name": "催眠貘"
+        },
+        {
+          "id": "097",
+          "name": "引梦貘人"
+        },
+        {
+          "id": "302",
+          "name": "勾魂眼"
+        },
+        {
+          "id": "352",
+          "name": "变隐龙"
+        }
+      ],
+      "name": "定身法",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "122",
+          "name": "魔墙人偶"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "161",
+          "name": "尾立"
+        },
+        {
+          "id": "162",
+          "name": "大尾立"
+        },
+        {
+          "id": "190",
+          "name": "长尾怪手"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "203",
+          "name": "麒麟奇"
+        },
+        {
+          "id": "303",
+          "name": "大嘴娃"
+        },
+        {
+          "id": "424",
+          "name": "双尾怪手"
+        },
+        {
+          "id": "427",
+          "name": "卷卷耳"
+        },
+        {
+          "id": "428",
+          "name": "长耳兔"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        }
+      ],
+      "name": "接棒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "沙奈朵"
+        }
+      ],
+      "name": "祈愿",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "图图犬"
+        }
+      ],
+      "name": "戏法",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "052",
+          "name": "喵喵"
+        },
+        {
+          "id": "053",
+          "name": "猫老大"
+        },
+        {
+          "id": "106",
+          "name": "飞腿郎"
+        },
+        {
+          "id": "107",
+          "name": "快拳郎"
+        },
+        {
+          "id": "237",
+          "name": "战舞郎"
+        },
+        {
+          "id": "274",
+          "name": "长鼻叶"
+        },
+        {
+          "id": "275",
+          "name": "狡猾天狗"
+        },
+        {
+          "id": "296",
+          "name": "幕下力士"
+        },
+        {
+          "id": "297",
+          "name": "铁掌力士"
+        },
+        {
+          "id": "300",
+          "name": "向尾喵"
+        },
+        {
+          "id": "301",
+          "name": "优雅猫"
+        },
+        {
+          "id": "302",
+          "name": "勾魂眼"
+        },
+        {
+          "id": "431",
+          "name": "魅力喵"
+        },
+        {
+          "id": "432",
+          "name": "东施喵"
+        }
+      ],
+      "name": "击掌奇袭",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "064",
+          "name": "勇基拉"
+        },
+        {
+          "id": "065",
+          "name": "胡地"
+        },
+        {
+          "id": "122",
+          "name": "魔墙人偶"
+        },
+        {
+          "id": "234",
+          "name": "惊角鹿"
+        }
+      ],
+      "name": "扮演",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "064",
+          "name": "勇基拉"
+        },
+        {
+          "id": "065",
+          "name": "胡地"
+        },
+        {
+          "id": "475",
+          "name": "艾路雷朵"
+        }
+      ],
+      "name": "精神利刃",
+      "type": "超能力",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "216",
+          "name": "熊宝宝"
+        },
+        {
+          "id": "217",
+          "name": "圈圈熊"
+        },
+        {
+          "id": "303",
+          "name": "大嘴娃"
+        }
+      ],
+      "name": "假哭",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "027",
+          "name": "穿山鼠"
+        },
+        {
+          "id": "028",
+          "name": "穿山王"
+        },
+        {
+          "id": "232",
+          "name": "顿甲"
+        },
+        {
+          "id": "237",
+          "name": "战舞郎"
+        },
+        {
+          "id": "324",
+          "name": "煤炭龟"
+        }
+      ],
+      "name": "高速旋转",
+      "type": "一般",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "086",
+          "name": "小海狮"
+        },
+        {
+          "id": "087",
+          "name": "白海狮"
+        },
+        {
+          "id": "215",
+          "name": "狃拉"
+        },
+        {
+          "id": "220",
+          "name": "小山猪"
+        },
+        {
+          "id": "221",
+          "name": "长毛猪"
+        },
+        {
+          "id": "461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "473",
+          "name": "象牙猪"
+        }
+      ],
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "图图犬"
+        }
+      ],
+      "name": "精神转移",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "独角犀牛"
+        }
+      ],
+      "name": "防守平分*",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "home_images": [
+    {
+      "name": "晃晃斑",
+      "image": "0327-晃晃斑.png",
+      "shiny": "0327-晃晃斑-shiny.png"
+    }
+  ]
 }
