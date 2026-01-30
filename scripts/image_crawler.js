@@ -134,7 +134,7 @@ function scrapeFormImages(htmlFile) {
                     const filename = parts[thumbIndex + 3];
                     
                     imageFileName = filename;
-                    imageUrl = `https://media.52poke.com/wiki/${hash1}/${hash2}/${filename}`;
+                    imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
                 }
             }
         }

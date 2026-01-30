@@ -4,6 +4,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const URL = 'https://wiki.52poke.com/wiki/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89?variant=zh-hans';
+const CSS_URL = 'https://wiki.52poke.com/wiki/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89?variant=zh-hans';
 const DATA_DIR = path.join(__dirname, '../data');
 const RAW_DIR = path.join(DATA_DIR, 'raw');
 const HTML_FILE = 'page.html';
@@ -78,54 +79,97 @@ async function scrapePokemon() {
     const $ = cheerio.load(data);
     const pokemonList = [];
 
-    // Select rows from the specific tables
-    $('table.eplist tbody tr').each((i, el) => {
-      // Skip rows that don't have the ID cell
-      const idCell = $(el).find('.rdexn-id');
-      if (idCell.length === 0) return;
+    const genMap = {
+      '第一': 1, '第二': 2, '第三': 3, '第四': 4, '第五': 5,
+      '第六': 6, '第七': 7, '第八': 8, '第九': 9
+    };
+    let currentGeneration = 0;
 
-      let ndex = idCell.text().trim();
+    // Select headers and tables to track generation in document order
+    $('h2, table.eplist').each((idx, el) => {
+      const $el = $(el);
       
-      // Remove the leading '#' if present
-      if (ndex.startsWith('#')) {
-          ndex = ndex.substring(1);
-      }
-
-      const chineseName = $(el).find('.rdexn-name').text().trim();
-      const japaneseName = $(el).find('.rdexn-jpname').text().trim();
-      const englishName = $(el).find('.rdexn-enname').text().trim();
-      
-      const type1 = $(el).find('.rdexn-type1').text().trim();
-      const type2 = $(el).find('.rdexn-type2').text().trim();
-      
-      const types = [type1, type2].filter(t => t && !t.includes('{{{') && !t.includes('}}}'));
-
-      // Extract sprite position class
-      let bgPosition = '';
-      const spriteSpan = $(el).find('.rdexn-msp span');
-      if (spriteSpan.length > 0) {
-          const classes = spriteSpan.attr('class').split(/\s+/);
-          const positionClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny');
-          
-          if (positionClass && spriteMap[positionClass]) {
-              bgPosition = spriteMap[positionClass];
+      if ($el.is('h2')) {
+        const text = $el.text().trim();
+        for (const [name, num] of Object.entries(genMap)) {
+          if (text.includes(name + '世代')) {
+            currentGeneration = num;
+            break;
           }
+        }
+        return;
       }
 
-      // Extract data-filter attribute
-      const filter = $(el).attr('data-filter') || '';
+      // If it's a table, process its rows
+      $el.find('tbody tr').each((i, row) => {
+        // Skip rows that don't have the ID cell
+        const idCell = $(row).find('.rdexn-id');
+        if (idCell.length === 0) return;
 
-      if (ndex && chineseName) {
-        pokemonList.push({
-          id: ndex,
-          name_zh: chineseName,
-          name_ja: japaneseName,
-          name_en: englishName,
-          types: types.filter(t => t && !t.includes('{{{') && !t.includes('}}}')), // remove empty strings and bad template renders
-          sprite_position: bgPosition,
-          filter: filter
-        });
-      }
+        let ndex = idCell.text().trim();
+        
+        // Remove the leading '#' if present
+        if (ndex.startsWith('#')) {
+            ndex = ndex.substring(1);
+        }
+
+        let chineseName = $(row).find('.rdexn-name').text().trim();
+        
+        // Clean chineseName: remove asterisks and separate regional forms with a hyphen before the region name
+        chineseName = chineseName.replace(/\*/g, '');
+        if (chineseName.includes('的样子')) {
+            const regions = ['阿罗拉', '伽勒尔', '洗翠', '帕底亚', '卡洛斯', '丰缘', '城都', '关都', '合众'];
+            let foundRegion = false;
+            for (const region of regions) {
+                if (chineseName.includes(region + '的样子')) {
+                    chineseName = chineseName.replace(region + '的样子', '-' + region + '的样子');
+                    foundRegion = true;
+                    break;
+                }
+            }
+            // Fallback if no known region is found
+            if (!foundRegion) {
+                chineseName = chineseName.replace('的样子', '-的样子');
+            }
+        }
+
+        // const japaneseName = $(row).find('.rdexn-jpname').text().trim(); // Removed
+        // const englishName = $(row).find('.rdexn-enname').text().trim(); // Removed
+        
+        const type1 = $(row).find('.rdexn-type1').text().trim();
+        const type2 = $(row).find('.rdexn-type2').text().trim();
+        
+        const types = [type1, type2].filter(t => t && !t.includes('{{{') && !t.includes('}}}'));
+
+        // Extract sprite position class
+        let bgPosition = '';
+        const spriteSpan = $(row).find('.rdexn-msp span');
+        if (spriteSpan.length > 0) {
+            const classes = spriteSpan.attr('class').split(/\s+/);
+            const positionClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny');
+            
+            if (positionClass && spriteMap[positionClass]) {
+                bgPosition = spriteMap[positionClass];
+            }
+        }
+
+        // Extract data-filter attribute
+        let filter = $(row).attr('data-filter') || '';
+        
+        // Convert Traditional Chinese to Simplified Chinese in filter
+        filter = filter.replace(/準/g, '准');
+
+        if (ndex && chineseName) {
+          pokemonList.push({
+            id: ndex,
+            name: chineseName,
+            types: types.filter(t => t && !t.includes('{{{') && !t.includes('}}}')), // remove empty strings and bad template renders
+            icon: bgPosition,
+            filter: filter,
+            gen: currentGeneration
+          });
+        }
+      });
     });
 
     console.log(`Scraped ${pokemonList.length} Pokemon.`);

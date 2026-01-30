@@ -104,6 +104,8 @@ async function scrapePokemonDetail(inputNameOrUrl) {
         }
     }
     profile = profile.trim();
+    // Clean up profile text: remove references like [1], [2] and asterisks
+    profile = profile.replace(/\[\d+\]/g, '').replace(/\*/g, '');
 
     // 3. Forms
     // Find togglers to identify form names
@@ -528,10 +530,11 @@ async function scrapePokemonDetail(inputNameOrUrl) {
                     
                     if (textTd.length > 0) {
                         let text = textTd.text().trim();
-                        text = text.replace(/\*$/, '').trim();
+                        // Clean text: remove references and asterisks
+                        text = text.replace(/\[\d+\]/g, '').replace(/\*/g, '').trim();
                         
-                        // Filter out template placeholders
-                        if (!text.startsWith('{{{') && !text.endsWith('}}}')) {
+                        // Filter out template placeholders and empty text
+                        if (text && !text.startsWith('{{{') && !text.endsWith('}}}')) {
                              bufferedVersions.forEach(ver => {
                                 versions.push({
                                     name: ver.name,
@@ -940,7 +943,9 @@ function extractFormImages($, pokedexId, name) {
         }
 
         if (targetImg) {
-            const src = targetImg.attr('src');
+            let src = targetImg.attr('src');
+            if (src && src.startsWith('//')) src = 'https:' + src;
+
             if (src) {
                 const parts = src.split('/');
                 const thumbIndex = parts.indexOf('thumb');
@@ -950,7 +955,10 @@ function extractFormImages($, pokedexId, name) {
                     const filename = parts[thumbIndex + 3];
                     
                     imageFileName = filename;
-                    imageUrl = `https://media.52poke.com/wiki/${hash1}/${hash2}/${filename}`;
+                    imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
+                } else {
+                    imageFileName = src.split('/').pop();
+                    imageUrl = src;
                 }
             }
         }
@@ -972,16 +980,33 @@ function extractFormImages($, pokedexId, name) {
         
         formsWithImages.forEach(item => {
             if (item.imageUrl && item.image) {
-                const filePath = path.join(dirPath, item.image);
+                // Construct new filename: id-name-form.ext
+                const ext = path.extname(item.image);
+                const safeName = name.replace(/[\\/:*?"<>|]/g, '');
+                const safeForm = item.form.replace(/[\\/:*?"<>|]/g, '');
+                
+                let newFileName;
+                // If form name matches pokemon name, or is generic '一般'/'普通', omit it
+                if (safeForm === safeName || safeForm === '一般' || safeForm === '普通') {
+                    newFileName = `${pokedexId}-${safeName}${ext}`;
+                } else {
+                    newFileName = `${pokedexId}-${safeName}-${safeForm}${ext}`;
+                }
+
+                const filePath = path.join(dirPath, newFileName);
+                
+                // Update the image property to the new filename
+                item.image = newFileName;
+
                 if (!fs.existsSync(filePath)) {
-                    console.log(`Downloading ${item.image} to ${filePath}...`);
+                    console.log(`Downloading ${newFileName} to ${filePath}...`);
                     try {
                         execSync(`curl -L -A "${USER_AGENT}" "${item.imageUrl}" -o "${filePath}"`, { stdio: 'inherit' });
                     } catch (e) {
                         console.error(`Failed to download ${item.imageUrl}:`, e.message);
                     }
                 } else {
-                    console.log(`Skipping ${item.image}, already exists.`);
+                    console.log(`Skipping ${newFileName}, already exists.`);
                 }
             }
         });
@@ -1298,7 +1323,8 @@ function extractPokemonData($, cell) {
     let image = '';
     let imageUrl = '';
     if (imgEl.length > 0) {
-        const src = imgEl.attr('src');
+        let src = imgEl.attr('src');
+        if (src && src.startsWith('//')) src = 'https:' + src;
         if (src) {
             const parts = src.split('/');
             const thumbIndex = parts.indexOf('thumb');
@@ -1307,12 +1333,13 @@ function extractPokemonData($, cell) {
                 const hash2 = parts[thumbIndex + 2];
                 const filename = parts[thumbIndex + 3];
                 image = filename;
-                imageUrl = `https://media.52poke.com/wiki/${hash1}/${hash2}/${filename}`;
+                imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
             } else {
                  image = parts[parts.length - 1]; 
                  if (image.includes('px-')) {
                      image = image.replace(/^\d+px-/, '');
                  }
+                 imageUrl = src;
             }
         }
     }
@@ -1781,7 +1808,7 @@ function extractSpecialForms($, nameZh) {
                                     const hash1 = parts[thumbIndex + 1];
                                     const hash2 = parts[thumbIndex + 2];
                                     const filename = decodeURIComponent(parts[thumbIndex + 3]);
-                                    imageUrl = `https://media.52poke.com/wiki/${hash1}/${hash2}/${filename}`;
+                                    imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
                                     imageFileName = filename;
                                 } else {
                                     imageUrl = src;
@@ -1873,7 +1900,7 @@ function extractSpecialForms($, nameZh) {
                                 const hash1 = parts[thumbIndex + 1];
                                 const hash2 = parts[thumbIndex + 2];
                                 const filename = decodeURIComponent(parts[thumbIndex + 3]);
-                                imageUrl = `https://media.52poke.com/wiki/${hash1}/${hash2}/${filename}`;
+                                imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
                                 imageFileName = filename;
                             } else {
                                 imageUrl = src;
