@@ -1,523 +1,614 @@
 {
-    "index": "005",
-    "generation": "第三世代",
-    "name": "结实",
-    "name_jp": "がんじょう",
-    "name_en": "Sturdy",
-    "text": "在ＨＰ全满时，即使受到招式攻击，也不会被一击打倒。一击必杀的招式也没有效果。",
-    "common_count": 39,
-    "hidden_count": 8,
-    "effect": "一击必杀招式对拥有该特性的宝可梦无效。\n拥有该特性的宝可梦在满ＨＰ状态下受到一次攻击时，至少会保留1点ＨＰ。\n受到连续招式时，第一次攻击就会使结实特性发动或不再满足发动条件，无法对后续攻击生效。\n无法抵御造成自身陷入濒死状态的招式所导致的自身濒死效果。\n无法阻止同命状态生效。该特性的宝可梦携带气势披带受到了一击被击倒的招式，优先触发结实特性的效果，不会消耗气势披带。\n该特性的宝可梦受到过伤害后，如果HP回复到全满，能够再次触发特性。\n",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "受破格或类似效果的影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0074",
-            "name": "小拳石",
-            "types": [
-                "岩石",
-                "地面"
-            ],
-            "first": "坚硬脑袋",
-            "second": "结实",
-            "hidden": "沙隐"
-        },
-        {
-            "index": "0074",
-            "name": "小拳石-阿罗拉的样子",
-            "types": [
-                "岩石",
-                "电"
-            ],
-            "first": "磁力",
-            "second": "结实",
-            "hidden": "电气皮肤"
-        },
-        {
-            "index": "0075",
-            "name": "隆隆石",
-            "types": [
-                "岩石",
-                "地面"
-            ],
-            "first": "坚硬脑袋",
-            "second": "结实",
-            "hidden": "沙隐"
-        },
-        {
-            "index": "0075",
-            "name": "隆隆石-阿罗拉的样子",
-            "types": [
-                "岩石",
-                "电"
-            ],
-            "first": "磁力",
-            "second": "结实",
-            "hidden": "电气皮肤"
-        },
-        {
-            "index": "0076",
-            "name": "隆隆岩",
-            "types": [
-                "岩石",
-                "地面"
-            ],
-            "first": "坚硬脑袋",
-            "second": "结实",
-            "hidden": "沙隐"
-        },
-        {
-            "index": "0076",
-            "name": "隆隆岩-阿罗拉的样子",
-            "types": [
-                "岩石",
-                "电"
-            ],
-            "first": "磁力",
-            "second": "结实",
-            "hidden": "电气皮肤"
-        },
-        {
-            "index": "0081",
-            "name": "小磁怪",
-            "types": [
-                "电",
-                "钢"
-            ],
-            "first": "磁力",
-            "second": "结实",
-            "hidden": "分析"
-        },
-        {
-            "index": "0082",
-            "name": "三合一磁怪",
-            "types": [
-                "电",
-                "钢"
-            ],
-            "first": "磁力",
-            "second": "结实",
-            "hidden": "分析"
-        },
-        {
-            "index": "0095",
-            "name": "大岩蛇",
-            "types": [
-                "岩石",
-                "地面"
-            ],
-            "first": "坚硬脑袋",
-            "second": "结实",
-            "hidden": "碎裂铠甲"
-        },
-        {
-            "index": "0185",
-            "name": "树才怪",
-            "types": [
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "坚硬脑袋",
-            "hidden": "胆怯"
-        },
-        {
-            "index": "0204",
-            "name": "榛果球",
-            "types": [
-                "虫"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "防尘"
-        },
-        {
-            "index": "0205",
-            "name": "佛烈托斯",
-            "types": [
-                "虫",
-                "钢"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "防尘"
-        },
-        {
-            "index": "0208",
-            "name": "大钢蛇",
-            "types": [
-                "钢",
-                "地面"
-            ],
-            "first": "坚硬脑袋",
-            "second": "结实",
-            "hidden": "强行"
-        },
-        {
-            "index": "0213",
-            "name": "壶壶",
-            "types": [
-                "虫",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "贪吃鬼",
-            "hidden": "唱反调"
-        },
-        {
-            "index": "0227",
-            "name": "盔甲鸟",
-            "types": [
-                "钢",
-                "飞行"
-            ],
-            "first": "锐利目光",
-            "second": "结实",
-            "hidden": "碎裂铠甲"
-        },
-        {
-            "index": "0232",
-            "name": "顿甲",
-            "types": [
-                "地面"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "沙隐"
-        },
-        {
-            "index": "0299",
-            "name": "朝北鼻",
-            "types": [
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "磁力",
-            "hidden": "沙之力"
-        },
-        {
-            "index": "0304",
-            "name": "可可多拉",
-            "types": [
-                "钢",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "坚硬脑袋",
-            "hidden": "重金属"
-        },
-        {
-            "index": "0305",
-            "name": "可多拉",
-            "types": [
-                "钢",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "坚硬脑袋",
-            "hidden": "重金属"
-        },
-        {
-            "index": "0306",
-            "name": "波士可多拉",
-            "types": [
-                "钢",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "坚硬脑袋",
-            "hidden": "重金属"
-        },
-        {
-            "index": "0369",
-            "name": "古空棘鱼",
-            "types": [
-                "水",
-                "岩石"
-            ],
-            "first": "悠游自如",
-            "second": "坚硬脑袋",
-            "hidden": "结实"
-        },
-        {
-            "index": "0377",
-            "name": "雷吉洛克",
-            "types": [
-                "岩石"
-            ],
-            "first": "恒净之躯",
-            "second": "",
-            "hidden": "结实"
-        },
-        {
-            "index": "0410",
-            "name": "盾甲龙",
-            "types": [
-                "岩石",
-                "钢"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "隔音"
-        },
-        {
-            "index": "0411",
-            "name": "护城龙",
-            "types": [
-                "岩石",
-                "钢"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "隔音"
-        },
-        {
-            "index": "0438",
-            "name": "盆才怪",
-            "types": [
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "坚硬脑袋",
-            "hidden": "胆怯"
-        },
-        {
-            "index": "0462",
-            "name": "自爆磁怪",
-            "types": [
-                "电",
-                "钢"
-            ],
-            "first": "磁力",
-            "second": "结实",
-            "hidden": "分析"
-        },
-        {
-            "index": "0476",
-            "name": "大朝北鼻",
-            "types": [
-                "岩石",
-                "钢"
-            ],
-            "first": "结实",
-            "second": "磁力",
-            "hidden": "沙之力"
-        },
-        {
-            "index": "0524",
-            "name": "石丸子",
-            "types": [
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "碎裂铠甲",
-            "hidden": "沙之力"
-        },
-        {
-            "index": "0525",
-            "name": "地幔岩",
-            "types": [
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "碎裂铠甲",
-            "hidden": "沙之力"
-        },
-        {
-            "index": "0526",
-            "name": "庞岩怪",
-            "types": [
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "扬沙",
-            "hidden": "沙之力"
-        },
-        {
-            "index": "0539",
-            "name": "打击鬼",
-            "types": [
-                "格斗"
-            ],
-            "first": "结实",
-            "second": "精神力",
-            "hidden": "破格"
-        },
-        {
-            "index": "0557",
-            "name": "石居蟹",
-            "types": [
-                "虫",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "硬壳盔甲",
-            "hidden": "碎裂铠甲"
-        },
-        {
-            "index": "0558",
-            "name": "岩殿居蟹",
-            "types": [
-                "虫",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "硬壳盔甲",
-            "hidden": "碎裂铠甲"
-        },
-        {
-            "index": "0564",
-            "name": "原盖海龟",
-            "types": [
-                "水",
-                "岩石"
-            ],
-            "first": "坚硬岩石",
-            "second": "结实",
-            "hidden": "悠游自如"
-        },
-        {
-            "index": "0565",
-            "name": "肋骨海龟",
-            "types": [
-                "水",
-                "岩石"
-            ],
-            "first": "坚硬岩石",
-            "second": "结实",
-            "hidden": "悠游自如"
-        },
-        {
-            "index": "0696",
-            "name": "宝宝暴龙",
-            "types": [
-                "岩石",
-                "龙"
-            ],
-            "first": "强壮之颚",
-            "second": "",
-            "hidden": "结实"
-        },
-        {
-            "index": "0703",
-            "name": "小碎钻",
-            "types": [
-                "岩石",
-                "妖精"
-            ],
-            "first": "恒净之躯",
-            "second": "",
-            "hidden": "结实"
-        },
-        {
-            "index": "0712",
-            "name": "冰宝",
-            "types": [
-                "冰"
-            ],
-            "first": "我行我素",
-            "second": "冰冻之躯",
-            "hidden": "结实"
-        },
-        {
-            "index": "0713",
-            "name": "冰岩怪",
-            "types": [
-                "冰"
-            ],
-            "first": "我行我素",
-            "second": "冰冻之躯",
-            "hidden": "结实"
-        },
-        {
-            "index": "0713",
-            "name": "冰岩怪-洗翠的样子",
-            "types": [
-                "冰",
-                "岩石"
-            ],
-            "first": "强壮之颚",
-            "second": "冰冻之躯",
-            "hidden": "结实"
-        },
-        {
-            "index": "0777",
-            "name": "托戈德玛尔",
-            "types": [
-                "电",
-                "钢"
-            ],
-            "first": "铁刺",
-            "second": "避雷针",
-            "hidden": "结实"
-        },
-        {
-            "index": "0790",
-            "name": "科斯莫姆",
-            "types": [
-                "超能力"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "无"
-        },
-        {
-            "index": "0932",
-            "name": "盐石宝",
-            "types": [
-                "岩石"
-            ],
-            "first": "洁净之盐",
-            "second": "结实",
-            "hidden": "恒净之躯"
-        },
-        {
-            "index": "0933",
-            "name": "盐石垒",
-            "types": [
-                "岩石"
-            ],
-            "first": "洁净之盐",
-            "second": "结实",
-            "hidden": "恒净之躯"
-        },
-        {
-            "index": "0934",
-            "name": "盐石巨灵",
-            "types": [
-                "岩石"
-            ],
-            "first": "洁净之盐",
-            "second": "结实",
-            "hidden": "恒净之躯"
-        },
-        {
-            "index": "1017",
-            "name": "厄诡椪-础石面具",
-            "types": [
-                "草",
-                "岩石"
-            ],
-            "first": "结实",
-            "second": "",
-            "hidden": "无"
-        },
-        {
-            "index": "1018",
-            "name": "铝钢桥龙",
-            "types": [
-                "钢",
-                "龙"
-            ],
-            "first": "持久力",
-            "second": "结实",
-            "hidden": "坚毅"
-        }
-    ]
+  "name_zh": "结实",
+  "name_ja": "がんじょう",
+  "name_en": "Sturdy",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "受破格或类似效果的影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "在ＨＰ全满时，即使受到招式攻击，也不会被一击打倒。一击必杀的招式也没有效果。",
+  "effect": "一击必杀的招式对拥有该特性的宝可梦无效。\n拥有该特性的宝可梦在满ＨＰ状态下受到一次攻击时，至少会保留1点ＨＰ。\n拥有该特性的宝可梦在满ＨＰ状态下受到一次攻击时，至少会保留1点ＨＰ。\n受到连续招式时，第一次攻击就会使结实特性发动或不再满足发动条件，无法对后续攻击生效。\n无法抵御造成自身陷入昏厥状态的招式所导致的自身昏厥效果。\n无法阻止同命状态生效。\n- 受到连续招式时，第一次攻击就会使结实特性发动或不再满足发动条件，无法对后续攻击生效。\n- 无法抵御造成自身陷入昏厥状态的招式所导致的自身昏厥效果。\n- 无法阻止同命状态生效。\n该特性的宝可梦携带气势披带受到了一击被击倒的招式，优先触发结实特性的效果，不会消耗气势披带。\n该特性的宝可梦受到过伤害后，如果HP回复到全满，能够再次触发特性。\n该特性的宝可梦受到过伤害后，如果HP回复到全满，能够再次触发特性。\n信长的野望中\n该特性的宝可梦在满ＨＰ状态下被攻击，至少会保留1点ＨＰ。\n特性说明",
+  "pokemon_list": [
+    {
+      "id": "0074",
+      "name": "小拳石",
+      "form": "",
+      "icon": "-12em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "坚硬脑袋",
+      "second_ability": "结实",
+      "hidden_ability": "沙隐"
+    },
+    {
+      "id": "0074",
+      "name": "小拳石",
+      "form": "阿罗拉的样子",
+      "icon": "-13em -3em",
+      "types": [
+        "岩石",
+        "电"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "结实",
+      "hidden_ability": "电气皮肤"
+    },
+    {
+      "id": "0075",
+      "name": "隆隆石",
+      "form": "",
+      "icon": "-14em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "坚硬脑袋",
+      "second_ability": "结实",
+      "hidden_ability": "沙隐"
+    },
+    {
+      "id": "0075",
+      "name": "隆隆石",
+      "form": "阿罗拉的样子",
+      "icon": "-15em -3em",
+      "types": [
+        "岩石",
+        "电"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "结实",
+      "hidden_ability": "电气皮肤"
+    },
+    {
+      "id": "0076",
+      "name": "隆隆岩",
+      "form": "",
+      "icon": "-16em -3em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "坚硬脑袋",
+      "second_ability": "结实",
+      "hidden_ability": "沙隐"
+    },
+    {
+      "id": "0076",
+      "name": "隆隆岩",
+      "form": "阿罗拉的样子",
+      "icon": "-17em -3em",
+      "types": [
+        "岩石",
+        "电"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "结实",
+      "hidden_ability": "电气皮肤"
+    },
+    {
+      "id": "0081",
+      "name": "小磁怪",
+      "form": "",
+      "icon": "-27em -3em",
+      "types": [
+        "电",
+        "钢"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "结实",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0082",
+      "name": "三合一磁怪",
+      "form": "",
+      "icon": "-28em -3em",
+      "types": [
+        "电",
+        "钢"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "结实",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0095",
+      "name": "大岩蛇",
+      "form": "",
+      "icon": "-8em -4em",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "first_ability": "坚硬脑袋",
+      "second_ability": "结实",
+      "hidden_ability": "碎裂铠甲"
+    },
+    {
+      "id": "0185",
+      "name": "树才怪",
+      "form": "",
+      "icon": "-18em -7em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "坚硬脑袋",
+      "hidden_ability": "胆怯"
+    },
+    {
+      "id": "0204",
+      "name": "榛果球",
+      "form": "",
+      "icon": "-34em -8em",
+      "types": [
+        "虫"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "防尘"
+    },
+    {
+      "id": "0205",
+      "name": "佛烈托斯",
+      "form": "",
+      "icon": "-35em -8em",
+      "types": [
+        "虫",
+        "钢"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "防尘"
+    },
+    {
+      "id": "0208",
+      "name": "大钢蛇",
+      "form": "",
+      "icon": "-39em -8em",
+      "types": [
+        "钢",
+        "地面"
+      ],
+      "first_ability": "坚硬脑袋",
+      "second_ability": "结实",
+      "hidden_ability": "强行"
+    },
+    {
+      "id": "0213",
+      "name": "壶壶",
+      "form": "",
+      "icon": "-9em -9em",
+      "types": [
+        "虫",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "贪吃鬼",
+      "hidden_ability": "唱反调"
+    },
+    {
+      "id": "0227",
+      "name": "盔甲鸟",
+      "form": "",
+      "icon": "-32em -9em",
+      "types": [
+        "钢",
+        "飞行"
+      ],
+      "first_ability": "锐利目光",
+      "second_ability": "结实",
+      "hidden_ability": "碎裂铠甲"
+    },
+    {
+      "id": "0232",
+      "name": "顿甲",
+      "form": "",
+      "icon": "-39em -9em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "沙隐"
+    },
+    {
+      "id": "0299",
+      "name": "朝北鼻",
+      "form": "",
+      "icon": "-1em -12em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "磁力",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0304",
+      "name": "可可多拉",
+      "form": "",
+      "icon": "-8em -12em",
+      "types": [
+        "钢",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "坚硬脑袋",
+      "hidden_ability": "重金属"
+    },
+    {
+      "id": "0305",
+      "name": "可多拉",
+      "form": "",
+      "icon": "-9em -12em",
+      "types": [
+        "钢",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "坚硬脑袋",
+      "hidden_ability": "重金属"
+    },
+    {
+      "id": "0306",
+      "name": "波士可多拉",
+      "form": "",
+      "icon": "-10em -12em",
+      "types": [
+        "钢",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "坚硬脑袋",
+      "hidden_ability": "重金属"
+    },
+    {
+      "id": "0369",
+      "name": "古空棘鱼",
+      "form": "",
+      "icon": "-14em -14em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "悠游自如",
+      "second_ability": "坚硬脑袋",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0377",
+      "name": "雷吉洛克",
+      "form": "",
+      "icon": "-25em -14em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "恒净之躯",
+      "second_ability": "",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0410",
+      "name": "盾甲龙",
+      "form": "",
+      "icon": "-37em -15em",
+      "types": [
+        "岩石",
+        "钢"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0411",
+      "name": "护城龙",
+      "form": "",
+      "icon": "-38em -15em",
+      "types": [
+        "岩石",
+        "钢"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "隔音"
+    },
+    {
+      "id": "0438",
+      "name": "盆才怪",
+      "form": "",
+      "icon": "-38em -16em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "坚硬脑袋",
+      "hidden_ability": "胆怯"
+    },
+    {
+      "id": "0462",
+      "name": "自爆磁怪",
+      "form": "",
+      "icon": "-37em -17em",
+      "types": [
+        "电",
+        "钢"
+      ],
+      "first_ability": "磁力",
+      "second_ability": "结实",
+      "hidden_ability": "分析"
+    },
+    {
+      "id": "0476",
+      "name": "大朝北鼻",
+      "form": "",
+      "icon": "-15em -18em",
+      "types": [
+        "岩石",
+        "钢"
+      ],
+      "first_ability": "结实",
+      "second_ability": "磁力",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0524",
+      "name": "石丸子",
+      "form": "",
+      "icon": "-11em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "碎裂铠甲",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0525",
+      "name": "地幔岩",
+      "form": "",
+      "icon": "-12em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "碎裂铠甲",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0526",
+      "name": "庞岩怪",
+      "form": "",
+      "icon": "-13em -20em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "扬沙",
+      "hidden_ability": "沙之力"
+    },
+    {
+      "id": "0539",
+      "name": "打击鬼",
+      "form": "",
+      "icon": "-27em -20em",
+      "types": [
+        "格斗"
+      ],
+      "first_ability": "结实",
+      "second_ability": "精神力",
+      "hidden_ability": "破格"
+    },
+    {
+      "id": "0557",
+      "name": "石居蟹",
+      "form": "",
+      "icon": "-13em -21em",
+      "types": [
+        "虫",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "硬壳盔甲",
+      "hidden_ability": "碎裂铠甲"
+    },
+    {
+      "id": "0558",
+      "name": "岩殿居蟹",
+      "form": "",
+      "icon": "-14em -21em",
+      "types": [
+        "虫",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "硬壳盔甲",
+      "hidden_ability": "碎裂铠甲"
+    },
+    {
+      "id": "0564",
+      "name": "原盖海龟",
+      "form": "",
+      "icon": "-21em -21em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "坚硬岩石",
+      "second_ability": "结实",
+      "hidden_ability": "悠游自如"
+    },
+    {
+      "id": "0565",
+      "name": "肋骨海龟",
+      "form": "",
+      "icon": "-22em -21em",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "first_ability": "坚硬岩石",
+      "second_ability": "结实",
+      "hidden_ability": "悠游自如"
+    },
+    {
+      "id": "0696",
+      "name": "宝宝暴龙",
+      "form": "",
+      "icon": "-22em -26em",
+      "types": [
+        "岩石",
+        "龙"
+      ],
+      "first_ability": "强壮之颚",
+      "second_ability": "",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0703",
+      "name": "小碎钻",
+      "form": "",
+      "icon": "-29em -26em",
+      "types": [
+        "岩石",
+        "妖精"
+      ],
+      "first_ability": "恒净之躯",
+      "second_ability": "",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0712",
+      "name": "冰宝",
+      "form": "",
+      "icon": "-6em -27em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "冰冻之躯",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0713",
+      "name": "冰岩怪",
+      "form": "",
+      "icon": "-7em -27em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "我行我素",
+      "second_ability": "冰冻之躯",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0713",
+      "name": "冰岩怪",
+      "form": "洗翠的样子",
+      "icon": "-8em -27em",
+      "types": [
+        "冰",
+        "岩石"
+      ],
+      "first_ability": "强壮之颚",
+      "second_ability": "冰冻之躯",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0777",
+      "name": "托戈德玛尔",
+      "form": "",
+      "icon": "-29em -29em",
+      "types": [
+        "电",
+        "钢"
+      ],
+      "first_ability": "铁刺",
+      "second_ability": "避雷针",
+      "hidden_ability": "结实"
+    },
+    {
+      "id": "0790",
+      "name": "科斯莫姆",
+      "form": "",
+      "icon": "-3em -30em",
+      "types": [
+        "超能力"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "无"
+    },
+    {
+      "id": "0932",
+      "name": "盐石宝",
+      "form": "",
+      "icon": "-13em -36em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "洁净之盐",
+      "second_ability": "结实",
+      "hidden_ability": "恒净之躯"
+    },
+    {
+      "id": "0933",
+      "name": "盐石垒",
+      "form": "",
+      "icon": "-14em -36em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "洁净之盐",
+      "second_ability": "结实",
+      "hidden_ability": "恒净之躯"
+    },
+    {
+      "id": "0934",
+      "name": "盐石巨灵",
+      "form": "",
+      "icon": "-15em -36em",
+      "types": [
+        "岩石"
+      ],
+      "first_ability": "洁净之盐",
+      "second_ability": "结实",
+      "hidden_ability": "恒净之躯"
+    },
+    {
+      "id": "1017",
+      "name": "厄诡椪",
+      "form": "础石面具",
+      "icon": "-33em -38em",
+      "types": [
+        "草",
+        "岩石"
+      ],
+      "first_ability": "结实",
+      "second_ability": "",
+      "hidden_ability": "无"
+    },
+    {
+      "id": "1018",
+      "name": "铝钢桥龙",
+      "form": "",
+      "icon": "-34em -38em",
+      "types": [
+        "钢",
+        "龙"
+      ],
+      "first_ability": "持久力",
+      "second_ability": "结实",
+      "hidden_ability": "坚毅"
+    }
+  ],
+  "id": "005"
 }

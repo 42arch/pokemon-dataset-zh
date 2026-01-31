@@ -1,86 +1,95 @@
 {
-    "index": "037",
-    "generation": "第三世代",
-    "name": "大力士",
-    "name_jp": "ちからもち",
-    "name_en": "Huge Power",
-    "text": "物理攻击的威力会变为２倍。",
-    "common_count": 4,
-    "hidden_count": 2,
-    "effect": "使用非固定伤害类物理招式的伤害提升为原来的2倍。\n",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0183",
-            "name": "玛力露",
-            "types": [
-                "水",
-                "妖精"
-            ],
-            "first": "厚脂肪",
-            "second": "大力士",
-            "hidden": "食草"
-        },
-        {
-            "index": "0184",
-            "name": "玛力露丽",
-            "types": [
-                "水",
-                "妖精"
-            ],
-            "first": "厚脂肪",
-            "second": "大力士",
-            "hidden": "食草"
-        },
-        {
-            "index": "0298",
-            "name": "露力丽",
-            "types": [
-                "一般",
-                "妖精"
-            ],
-            "first": "厚脂肪",
-            "second": "大力士",
-            "hidden": "食草"
-        },
-        {
-            "index": "0303",
-            "name": "大嘴娃-超级大嘴娃",
-            "types": [
-                "钢",
-                "妖精"
-            ],
-            "first": "大力士",
-            "second": "",
-            "hidden": "无"
-        },
-        {
-            "index": "0659",
-            "name": "掘掘兔",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "颊囊",
-            "hidden": "大力士"
-        },
-        {
-            "index": "0660",
-            "name": "掘地兔",
-            "types": [
-                "一般",
-                "地面"
-            ],
-            "first": "捡拾",
-            "second": "颊囊",
-            "hidden": "大力士"
-        }
-    ]
+  "name_zh": "大力士",
+  "name_ja": "ちからもち",
+  "name_en": "Huge Power",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "物理攻击的威力会变为２倍。",
+  "effect": "伤害计算中，此宝可梦的攻击能力值×２。\n此效果不是能力变化。使用其他数据代替攻击能力值（如将对手的攻击能力值代替自身攻击能力值的移花接木、将自身的防御能力值代替自身攻击能力值的扑击）进行伤害计算的物理招式时，伤害计算中的攻击也会×２。\n- 此效果不是能力变化。使用其他数据代替攻击能力值（如将对手的攻击能力值代替自身攻击能力值的移花接木、将自身的防御能力值代替自身攻击能力值的扑击）进行伤害计算的物理招式时，伤害计算中的攻击也会×２。\n每回合有1⁄3机率攻击提升50%。\n特性说明",
+  "pokemon_list": [
+    {
+      "id": "0183",
+      "name": "玛力露",
+      "form": "",
+      "icon": "-16em -7em",
+      "types": [
+        "水",
+        "妖精"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "大力士",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0184",
+      "name": "玛力露丽",
+      "form": "",
+      "icon": "-17em -7em",
+      "types": [
+        "水",
+        "妖精"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "大力士",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0298",
+      "name": "露力丽",
+      "form": "",
+      "icon": "0 -12em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "大力士",
+      "hidden_ability": "食草"
+    },
+    {
+      "id": "0303",
+      "name": "大嘴娃",
+      "form": "超级大嘴娃",
+      "icon": "-7em -12em",
+      "types": [
+        "钢",
+        "妖精"
+      ],
+      "first_ability": "大力士",
+      "second_ability": "",
+      "hidden_ability": "无"
+    },
+    {
+      "id": "0659",
+      "name": "掘掘兔",
+      "form": "",
+      "icon": "-21em -24em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "颊囊",
+      "hidden_ability": "大力士"
+    },
+    {
+      "id": "0660",
+      "name": "掘地兔",
+      "form": "",
+      "icon": "-22em -24em",
+      "types": [
+        "一般",
+        "地面"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "颊囊",
+      "hidden_ability": "大力士"
+    }
+  ],
+  "id": "037"
 }

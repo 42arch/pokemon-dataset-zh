@@ -1,75 +1,82 @@
 {
-    "index": "147",
-    "generation": "第五世代",
-    "name": "奇迹皮肤",
-    "name_jp": "ミラクルスキン",
-    "name_en": "Wonder Skin",
-    "text": "成为不易受到变化招式攻击的身体。",
-    "common_count": 1,
-    "hidden_count": 4,
-    "effect": "变化招式对该特性的宝可梦命中率减半。\n",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "受破格或类似效果的影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0049",
-            "name": "摩鲁蛾",
-            "types": [
-                "虫",
-                "毒"
-            ],
-            "first": "鳞粉",
-            "second": "有色眼镜",
-            "hidden": "奇迹皮肤"
-        },
-        {
-            "index": "0300",
-            "name": "向尾喵",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "一般皮肤",
-            "hidden": "奇迹皮肤"
-        },
-        {
-            "index": "0301",
-            "name": "优雅猫",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "一般皮肤",
-            "hidden": "奇迹皮肤"
-        },
-        {
-            "index": "0561",
-            "name": "象征鸟",
-            "types": [
-                "超能力",
-                "飞行"
-            ],
-            "first": "奇迹皮肤",
-            "second": "魔法防守",
-            "hidden": "有色眼镜"
-        },
-        {
-            "index": "0779",
-            "name": "磨牙彩皮鱼",
-            "types": [
-                "水",
-                "超能力"
-            ],
-            "first": "鲜艳之躯",
-            "second": "强壮之颚",
-            "hidden": "奇迹皮肤"
-        }
-    ]
+  "name_zh": "奇迹皮肤",
+  "name_ja": "ミラクルスキン",
+  "name_en": "Wonder Skin",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "受破格或类似效果的影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "成为不易受到变化招式攻击的身体。",
+  "effect": "变化招式对该特性的宝可梦命中率减少为50%。如果原本的命中率已低于50%，则不会减少。\n特性说明",
+  "pokemon_list": [
+    {
+      "id": "0049",
+      "name": "摩鲁蛾",
+      "form": "",
+      "icon": "-14em -2em",
+      "types": [
+        "虫",
+        "毒"
+      ],
+      "first_ability": "鳞粉",
+      "second_ability": "有色眼镜",
+      "hidden_ability": "奇迹皮肤"
+    },
+    {
+      "id": "0300",
+      "name": "向尾喵",
+      "form": "",
+      "icon": "-2em -12em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "一般皮肤",
+      "hidden_ability": "奇迹皮肤"
+    },
+    {
+      "id": "0301",
+      "name": "优雅猫",
+      "form": "",
+      "icon": "-3em -12em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "一般皮肤",
+      "hidden_ability": "奇迹皮肤"
+    },
+    {
+      "id": "0561",
+      "name": "象征鸟",
+      "form": "",
+      "icon": "-17em -21em",
+      "types": [
+        "超能力",
+        "飞行"
+      ],
+      "first_ability": "奇迹皮肤",
+      "second_ability": "魔法防守",
+      "hidden_ability": "有色眼镜"
+    },
+    {
+      "id": "0779",
+      "name": "磨牙彩皮鱼",
+      "form": "",
+      "icon": "-32em -29em",
+      "types": [
+        "水",
+        "超能力"
+      ],
+      "first_ability": "鲜艳之躯",
+      "second_ability": "强壮之颚",
+      "hidden_ability": "奇迹皮肤"
+    }
+  ],
+  "id": "147"
 }

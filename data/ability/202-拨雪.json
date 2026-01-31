@@ -1,95 +1,106 @@
 {
-    "index": "202",
-    "generation": "第七世代",
-    "name": "拨雪",
-    "name_jp": "ゆきかき",
-    "name_en": "Slush Rush",
-    "text": "下雪天气时，速度会提高。",
-    "common_count": 3,
-    "hidden_count": 4,
-    "effect": "天气处于冰雹或下雪状态时，拥有该特性的宝可梦的速度能力变为原来的2倍。\n不具有冰属性的宝可梦仍会受到冰雹天气的伤害。",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0027",
-            "name": "穿山鼠-阿罗拉的样子",
-            "types": [
-                "冰",
-                "钢"
-            ],
-            "first": "雪隐",
-            "second": "",
-            "hidden": "拨雪"
-        },
-        {
-            "index": "0028",
-            "name": "穿山王-阿罗拉的样子",
-            "types": [
-                "冰",
-                "钢"
-            ],
-            "first": "雪隐",
-            "second": "",
-            "hidden": "拨雪"
-        },
-        {
-            "index": "0613",
-            "name": "喷嚏熊",
-            "types": [
-                "冰"
-            ],
-            "first": "雪隐",
-            "second": "拨雪",
-            "hidden": "胆怯"
-        },
-        {
-            "index": "0614",
-            "name": "冻原熊",
-            "types": [
-                "冰"
-            ],
-            "first": "雪隐",
-            "second": "拨雪",
-            "hidden": "悠游自如"
-        },
-        {
-            "index": "0881",
-            "name": "雷鸟海兽",
-            "types": [
-                "电",
-                "冰"
-            ],
-            "first": "蓄电",
-            "second": "静电",
-            "hidden": "拨雪"
-        },
-        {
-            "index": "0883",
-            "name": "鳃鱼海兽",
-            "types": [
-                "水",
-                "冰"
-            ],
-            "first": "储水",
-            "second": "冰冻之躯",
-            "hidden": "拨雪"
-        },
-        {
-            "index": "0975",
-            "name": "浩大鲸",
-            "types": [
-                "冰"
-            ],
-            "first": "厚脂肪",
-            "second": "拨雪",
-            "hidden": "强行"
-        }
-    ]
+  "name_zh": "拨雪",
+  "name_ja": "ゆきかき",
+  "name_en": "Slush Rush",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "下雪天气时，速度会提高。",
+  "effect": "天气处于冰雹或下雪状态时，拥有该特性的宝可梦的速度能力变为原来的2倍。\n不具有冰属性的宝可梦仍会受到冰雹天气的伤害。\n- 不具有冰属性的宝可梦仍会受到冰雹天气的伤害。",
+  "pokemon_list": [
+    {
+      "id": "0027",
+      "name": "穿山鼠",
+      "form": "阿罗拉的样子",
+      "icon": "-25em -1em",
+      "types": [
+        "冰",
+        "钢"
+      ],
+      "first_ability": "雪隐",
+      "second_ability": "",
+      "hidden_ability": "拨雪"
+    },
+    {
+      "id": "0028",
+      "name": "穿山王",
+      "form": "阿罗拉的样子",
+      "icon": "-27em -1em",
+      "types": [
+        "冰",
+        "钢"
+      ],
+      "first_ability": "雪隐",
+      "second_ability": "",
+      "hidden_ability": "拨雪"
+    },
+    {
+      "id": "0613",
+      "name": "喷嚏熊",
+      "form": "",
+      "icon": "-1em -23em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隐",
+      "second_ability": "拨雪",
+      "hidden_ability": "胆怯"
+    },
+    {
+      "id": "0614",
+      "name": "冻原熊",
+      "form": "",
+      "icon": "-2em -23em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "雪隐",
+      "second_ability": "拨雪",
+      "hidden_ability": "悠游自如"
+    },
+    {
+      "id": "0881",
+      "name": "雷鸟海兽",
+      "form": "",
+      "icon": "-23em -34em",
+      "types": [
+        "电",
+        "冰"
+      ],
+      "first_ability": "蓄电",
+      "second_ability": "静电",
+      "hidden_ability": "拨雪"
+    },
+    {
+      "id": "0883",
+      "name": "鳃鱼海兽",
+      "form": "",
+      "icon": "-25em -34em",
+      "types": [
+        "水",
+        "冰"
+      ],
+      "first_ability": "储水",
+      "second_ability": "冰冻之躯",
+      "hidden_ability": "拨雪"
+    },
+    {
+      "id": "0975",
+      "name": "浩大鲸",
+      "form": "",
+      "icon": "-22em -37em",
+      "types": [
+        "冰"
+      ],
+      "first_ability": "厚脂肪",
+      "second_ability": "拨雪",
+      "hidden_ability": "强行"
+    }
+  ],
+  "id": "202"
 }

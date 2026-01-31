@@ -1,116 +1,131 @@
 {
-    "index": "094",
-    "generation": "第四世代",
-    "name": "太阳之力",
-    "name_jp": "サンパワー",
-    "name_en": "Solar Power",
-    "text": "晴朗天气时，特攻会提高，而每回合ＨＰ会减少。",
-    "common_count": 4,
-    "hidden_count": 5,
-    "effect": "大晴天和大日照天气下特攻增至1.5倍，但每回合损失最大ＨＰ的1⁄8。\n",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0004",
-            "name": "小火龙",
-            "types": [
-                "火"
-            ],
-            "first": "猛火",
-            "second": "",
-            "hidden": "太阳之力"
-        },
-        {
-            "index": "0005",
-            "name": "火恐龙",
-            "types": [
-                "火"
-            ],
-            "first": "猛火",
-            "second": "",
-            "hidden": "太阳之力"
-        },
-        {
-            "index": "0006",
-            "name": "喷火龙",
-            "types": [
-                "火",
-                "飞行"
-            ],
-            "first": "猛火",
-            "second": "",
-            "hidden": "太阳之力"
-        },
-        {
-            "index": "0191",
-            "name": "向日种子",
-            "types": [
-                "草"
-            ],
-            "first": "叶绿素",
-            "second": "太阳之力",
-            "hidden": "早起"
-        },
-        {
-            "index": "0192",
-            "name": "向日花怪",
-            "types": [
-                "草"
-            ],
-            "first": "叶绿素",
-            "second": "太阳之力",
-            "hidden": "早起"
-        },
-        {
-            "index": "0229",
-            "name": "黑鲁加-超级黑鲁加",
-            "types": [
-                "恶",
-                "火"
-            ],
-            "first": "太阳之力",
-            "second": "",
-            "hidden": "无"
-        },
-        {
-            "index": "0357",
-            "name": "热带龙",
-            "types": [
-                "草",
-                "飞行"
-            ],
-            "first": "叶绿素",
-            "second": "太阳之力",
-            "hidden": "收获"
-        },
-        {
-            "index": "0694",
-            "name": "伞电蜥",
-            "types": [
-                "电",
-                "一般"
-            ],
-            "first": "干燥皮肤",
-            "second": "沙隐",
-            "hidden": "太阳之力"
-        },
-        {
-            "index": "0695",
-            "name": "光电伞蜥",
-            "types": [
-                "电",
-                "一般"
-            ],
-            "first": "干燥皮肤",
-            "second": "沙隐",
-            "hidden": "太阳之力"
-        }
-    ]
+  "name_zh": "太阳之力",
+  "name_ja": "サンパワー",
+  "name_en": "Solar Power",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "晴朗天气时，特攻会提高，而每回合ＨＰ会减少。",
+  "effect": "大晴天和大日照天气下特攻增至1.5倍，但每回合损失最大ＨＰ的1⁄8。\n特性说明",
+  "pokemon_list": [
+    {
+      "id": "0004",
+      "name": "小火龙",
+      "form": "",
+      "icon": "-9em 0",
+      "types": [
+        "火"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "太阳之力"
+    },
+    {
+      "id": "0005",
+      "name": "火恐龙",
+      "form": "",
+      "icon": "-10em 0",
+      "types": [
+        "火"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "太阳之力"
+    },
+    {
+      "id": "0006",
+      "name": "喷火龙",
+      "form": "",
+      "icon": "-11em 0",
+      "types": [
+        "火",
+        "飞行"
+      ],
+      "first_ability": "猛火",
+      "second_ability": "",
+      "hidden_ability": "太阳之力"
+    },
+    {
+      "id": "0191",
+      "name": "向日种子",
+      "form": "",
+      "icon": "-27em -7em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "叶绿素",
+      "second_ability": "太阳之力",
+      "hidden_ability": "早起"
+    },
+    {
+      "id": "0192",
+      "name": "向日花怪",
+      "form": "",
+      "icon": "-28em -7em",
+      "types": [
+        "草"
+      ],
+      "first_ability": "叶绿素",
+      "second_ability": "太阳之力",
+      "hidden_ability": "早起"
+    },
+    {
+      "id": "0229",
+      "name": "黑鲁加",
+      "form": "超级黑鲁加",
+      "icon": "-36em -9em",
+      "types": [
+        "恶",
+        "火"
+      ],
+      "first_ability": "太阳之力",
+      "second_ability": "",
+      "hidden_ability": "无"
+    },
+    {
+      "id": "0357",
+      "name": "热带龙",
+      "form": "",
+      "icon": "0 -14em",
+      "types": [
+        "草",
+        "飞行"
+      ],
+      "first_ability": "叶绿素",
+      "second_ability": "太阳之力",
+      "hidden_ability": "收获"
+    },
+    {
+      "id": "0694",
+      "name": "伞电蜥",
+      "form": "",
+      "icon": "-20em -26em",
+      "types": [
+        "电",
+        "一般"
+      ],
+      "first_ability": "干燥皮肤",
+      "second_ability": "沙隐",
+      "hidden_ability": "太阳之力"
+    },
+    {
+      "id": "0695",
+      "name": "光电伞蜥",
+      "form": "",
+      "icon": "-21em -26em",
+      "types": [
+        "电",
+        "一般"
+      ],
+      "first_ability": "干燥皮肤",
+      "second_ability": "沙隐",
+      "hidden_ability": "太阳之力"
+    }
+  ],
+  "id": "094"
 }

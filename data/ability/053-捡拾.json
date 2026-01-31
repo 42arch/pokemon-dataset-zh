@@ -1,259 +1,302 @@
 {
-    "index": "053",
-    "generation": "第三世代",
-    "name": "捡拾",
-    "name_jp": "ものひろい",
-    "name_en": "Pickup",
-    "text": "有时会捡来对手用过的道具，冒险过程中也会捡到。",
-    "common_count": 19,
-    "hidden_count": 2,
-    "effect": "当自己没有携带物品时，回合结束后获得在自己的非远程招式攻击范围内，对方宝可梦或同伴宝可梦于该回合使用或投掷而消耗的携带物品。如果回合内对手宝可梦与同伴宝可梦均使用了道具，优先获得对手的道具。\n同一回合内离场或陷入濒死的宝可梦用掉的道具无法被捡拾，即使在该回合内又重新上场。\n被烧净，啄食，虫咬，拍落的道具无法被捡拾，因受到攻击而破裂的气球无法被捡拾。\n",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0052",
-            "name": "喵喵",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "技术高手",
-            "hidden": "紧张感"
-        },
-        {
-            "index": "0052",
-            "name": "喵喵-阿罗拉的样子",
-            "types": [
-                "恶"
-            ],
-            "first": "捡拾",
-            "second": "技术高手",
-            "hidden": "胆怯"
-        },
-        {
-            "index": "0052",
-            "name": "喵喵-伽勒尔的样子",
-            "types": [
-                "钢"
-            ],
-            "first": "捡拾",
-            "second": "硬爪",
-            "hidden": "紧张感"
-        },
-        {
-            "index": "0190",
-            "name": "长尾怪手",
-            "types": [
-                "一般"
-            ],
-            "first": "逃跑",
-            "second": "捡拾",
-            "hidden": "连续攻击"
-        },
-        {
-            "index": "0216",
-            "name": "熊宝宝",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "飞毛腿",
-            "hidden": "采蜜"
-        },
-        {
-            "index": "0231",
-            "name": "小小象",
-            "types": [
-                "地面"
-            ],
-            "first": "捡拾",
-            "second": "",
-            "hidden": "沙隐"
-        },
-        {
-            "index": "0263",
-            "name": "蛇纹熊",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "贪吃鬼",
-            "hidden": "飞毛腿"
-        },
-        {
-            "index": "0263",
-            "name": "蛇纹熊-伽勒尔的样子",
-            "types": [
-                "恶",
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "贪吃鬼",
-            "hidden": "飞毛腿"
-        },
-        {
-            "index": "0264",
-            "name": "直冲熊",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "贪吃鬼",
-            "hidden": "飞毛腿"
-        },
-        {
-            "index": "0264",
-            "name": "直冲熊-伽勒尔的样子",
-            "types": [
-                "恶",
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "贪吃鬼",
-            "hidden": "飞毛腿"
-        },
-        {
-            "index": "0417",
-            "name": "帕奇利兹",
-            "types": [
-                "电"
-            ],
-            "first": "逃跑",
-            "second": "捡拾",
-            "hidden": "蓄电"
-        },
-        {
-            "index": "0424",
-            "name": "双尾怪手",
-            "types": [
-                "一般"
-            ],
-            "first": "技术高手",
-            "second": "捡拾",
-            "hidden": "连续攻击"
-        },
-        {
-            "index": "0446",
-            "name": "小卡比兽",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "厚脂肪",
-            "hidden": "贪吃鬼"
-        },
-        {
-            "index": "0506",
-            "name": "小约克",
-            "types": [
-                "一般"
-            ],
-            "first": "干劲",
-            "second": "捡拾",
-            "hidden": "逃跑"
-        },
-        {
-            "index": "0659",
-            "name": "掘掘兔",
-            "types": [
-                "一般"
-            ],
-            "first": "捡拾",
-            "second": "颊囊",
-            "hidden": "大力士"
-        },
-        {
-            "index": "0660",
-            "name": "掘地兔",
-            "types": [
-                "一般",
-                "地面"
-            ],
-            "first": "捡拾",
-            "second": "颊囊",
-            "hidden": "大力士"
-        },
-        {
-            "index": "0702",
-            "name": "咚咚鼠",
-            "types": [
-                "电",
-                "妖精"
-            ],
-            "first": "颊囊",
-            "second": "捡拾",
-            "hidden": "正电"
-        },
-        {
-            "index": "0710",
-            "name": "南瓜精",
-            "types": [
-                "幽灵",
-                "草"
-            ],
-            "first": "捡拾",
-            "second": "察觉",
-            "hidden": "不眠"
-        },
-        {
-            "index": "0711",
-            "name": "南瓜怪人",
-            "types": [
-                "幽灵",
-                "草"
-            ],
-            "first": "捡拾",
-            "second": "察觉",
-            "hidden": "不眠"
-        },
-        {
-            "index": "0731",
-            "name": "小笃儿",
-            "types": [
-                "一般",
-                "飞行"
-            ],
-            "first": "锐利目光",
-            "second": "连续攻击",
-            "hidden": "捡拾"
-        },
-        {
-            "index": "0732",
-            "name": "喇叭啄鸟",
-            "types": [
-                "一般",
-                "飞行"
-            ],
-            "first": "锐利目光",
-            "second": "连续攻击",
-            "hidden": "捡拾"
-        },
-        {
-            "index": "0924",
-            "name": "一对鼠",
-            "types": [
-                "一般"
-            ],
-            "first": "逃跑",
-            "second": "捡拾",
-            "hidden": "我行我素"
-        },
-        {
-            "index": "0971",
-            "name": "墓仔狗",
-            "types": [
-                "幽灵"
-            ],
-            "first": "捡拾",
-            "second": "",
-            "hidden": "毛茸茸"
-        }
-    ]
+  "name_zh": "捡拾",
+  "name_ja": "ものひろい",
+  "name_en": "Pickup",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "有时会捡来对手用过的道具，冒险过程中也会捡到。",
+  "effect": "当自己没有携带物品时，回合结束后获得在自己的非远程招式攻击范围内，对方宝可梦或同伴宝可梦于该回合使用或投掷而消耗的携带物品。如果回合内对手宝可梦与同伴宝可梦均使用了道具，优先获得对手的道具。\n同一回合内离场或陷入昏厥的宝可梦用掉的道具无法被捡拾，即使在该回合内又重新上场。\n同一回合内离场或陷入昏厥的宝可梦用掉的道具无法被捡拾，即使在该回合内又重新上场。\n被烧净，啄食，虫咬，拍落的道具无法被捡拾，因受到攻击而破裂的气球无法被捡拾。\n被烧净，啄食，虫咬，拍落的道具无法被捡拾，因受到攻击而破裂的气球无法被捡拾。\n对战外\n在对战结束后有10%机率会捡拾到特定物品，捡拾以携带表示。\n当宝可梦已携带物品或成功收服野生宝可梦时该特性无效。在部分战斗设施中捡拾无效。\n当宝可梦已携带物品或成功收服野生宝可梦时该特性无效。在部分战斗设施中捡拾无效。\n道具列表",
+  "pokemon_list": [
+    {
+      "id": "0052",
+      "name": "喵喵",
+      "form": "",
+      "icon": "-19em -2em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "技术高手",
+      "hidden_ability": "紧张感"
+    },
+    {
+      "id": "0052",
+      "name": "喵喵",
+      "form": "阿罗拉的样子",
+      "icon": "-20em -2em",
+      "types": [
+        "恶"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "技术高手",
+      "hidden_ability": "胆怯"
+    },
+    {
+      "id": "0052",
+      "name": "喵喵",
+      "form": "伽勒尔的样子",
+      "icon": "-21em -2em",
+      "types": [
+        "钢"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "硬爪",
+      "hidden_ability": "紧张感"
+    },
+    {
+      "id": "0190",
+      "name": "长尾怪手",
+      "form": "",
+      "icon": "-25em -7em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "捡拾",
+      "hidden_ability": "连续攻击"
+    },
+    {
+      "id": "0216",
+      "name": "熊宝宝",
+      "form": "",
+      "icon": "-17em -9em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "飞毛腿",
+      "hidden_ability": "采蜜"
+    },
+    {
+      "id": "0231",
+      "name": "小小象",
+      "form": "",
+      "icon": "-38em -9em",
+      "types": [
+        "地面"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "",
+      "hidden_ability": "沙隐"
+    },
+    {
+      "id": "0263",
+      "name": "蛇纹熊",
+      "form": "",
+      "icon": "-37em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "贪吃鬼",
+      "hidden_ability": "飞毛腿"
+    },
+    {
+      "id": "0263",
+      "name": "蛇纹熊",
+      "form": "伽勒尔的样子",
+      "icon": "-38em -10em",
+      "types": [
+        "恶",
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "贪吃鬼",
+      "hidden_ability": "飞毛腿"
+    },
+    {
+      "id": "0264",
+      "name": "直冲熊",
+      "form": "",
+      "icon": "-39em -10em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "贪吃鬼",
+      "hidden_ability": "飞毛腿"
+    },
+    {
+      "id": "0264",
+      "name": "直冲熊",
+      "form": "伽勒尔的样子",
+      "icon": "0 -11em",
+      "types": [
+        "恶",
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "贪吃鬼",
+      "hidden_ability": "飞毛腿"
+    },
+    {
+      "id": "0417",
+      "name": "帕奇利兹",
+      "form": "",
+      "icon": "-9em -16em",
+      "types": [
+        "电"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "捡拾",
+      "hidden_ability": "蓄电"
+    },
+    {
+      "id": "0424",
+      "name": "双尾怪手",
+      "form": "",
+      "icon": "-22em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "技术高手",
+      "second_ability": "捡拾",
+      "hidden_ability": "连续攻击"
+    },
+    {
+      "id": "0446",
+      "name": "小卡比兽",
+      "form": "",
+      "icon": "-10em -17em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "厚脂肪",
+      "hidden_ability": "贪吃鬼"
+    },
+    {
+      "id": "0506",
+      "name": "小约克",
+      "form": "",
+      "icon": "-32em -19em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "干劲",
+      "second_ability": "捡拾",
+      "hidden_ability": "逃跑"
+    },
+    {
+      "id": "0659",
+      "name": "掘掘兔",
+      "form": "",
+      "icon": "-21em -24em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "颊囊",
+      "hidden_ability": "大力士"
+    },
+    {
+      "id": "0660",
+      "name": "掘地兔",
+      "form": "",
+      "icon": "-22em -24em",
+      "types": [
+        "一般",
+        "地面"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "颊囊",
+      "hidden_ability": "大力士"
+    },
+    {
+      "id": "0702",
+      "name": "咚咚鼠",
+      "form": "",
+      "icon": "-28em -26em",
+      "types": [
+        "电",
+        "妖精"
+      ],
+      "first_ability": "颊囊",
+      "second_ability": "捡拾",
+      "hidden_ability": "正电"
+    },
+    {
+      "id": "0710",
+      "name": "南瓜精",
+      "form": "",
+      "icon": "-38em -26em",
+      "types": [
+        "幽灵",
+        "草"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "察觉",
+      "hidden_ability": "不眠"
+    },
+    {
+      "id": "0711",
+      "name": "南瓜怪人",
+      "form": "",
+      "icon": "-2em -27em",
+      "types": [
+        "幽灵",
+        "草"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "察觉",
+      "hidden_ability": "不眠"
+    },
+    {
+      "id": "0731",
+      "name": "小笃儿",
+      "form": "",
+      "icon": "-33em -27em",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "first_ability": "锐利目光",
+      "second_ability": "连续攻击",
+      "hidden_ability": "捡拾"
+    },
+    {
+      "id": "0732",
+      "name": "喇叭啄鸟",
+      "form": "",
+      "icon": "-34em -27em",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "first_ability": "锐利目光",
+      "second_ability": "连续攻击",
+      "hidden_ability": "捡拾"
+    },
+    {
+      "id": "0924",
+      "name": "一对鼠",
+      "form": "",
+      "icon": "-1em -36em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "逃跑",
+      "second_ability": "捡拾",
+      "hidden_ability": "我行我素"
+    },
+    {
+      "id": "0971",
+      "name": "墓仔狗",
+      "form": "",
+      "icon": "-18em -37em",
+      "types": [
+        "幽灵"
+      ],
+      "first_ability": "捡拾",
+      "second_ability": "",
+      "hidden_ability": "毛茸茸"
+    }
+  ],
+  "id": "053"
 }

@@ -95,8 +95,8 @@ async function scrapeAbilityDetail(name) {
             }
         });
     }
-    // Remove citation markers [1], [2], *
-    result.introduction = intro.replace(/\[\d+\]/g, '').replace(/\*/g, '').trim();
+    // Remove citation markers [1], [2], [注 1], * and zero-width spaces
+    result.introduction = intro.replace(/\[(\d+|注\s*\d+)\]/g, '').replace(/\*/g, '').replace(/\u200b/g, '').trim();
 
     // 3. Effect (特性效果)
     let effect = '';
@@ -130,8 +130,8 @@ async function scrapeAbilityDetail(name) {
             next = next.next();
         }
     }
-    // Clean citation markers
-    result.effect = effect.replace(/\[\d+\]/g, '').replace(/\*/g, '').trim();
+    // Clean citation markers, asterisks and zero-width spaces
+    result.effect = effect.replace(/\[(\d+|注\s*\d+)\]/g, '').replace(/\*/g, '').replace(/\u200b/g, '').trim();
 
     // 4. Pokemon List (具有该特性的宝可梦)
     const pokemonList = [];

@@ -1,176 +1,203 @@
 {
-    "index": "056",
-    "generation": "第三世代",
-    "name": "迷人之躯",
-    "name_jp": "メロメロボディ",
-    "name_en": "Cute Charm",
-    "text": "有时会让接触到自己的对手着迷。",
-    "common_count": 13,
-    "hidden_count": 2,
-    "effect": "异性宝可梦使用接触类招式攻击该特性的宝可梦时会有30%的机率着迷。\n连续招式的每一击都会单独触发该特性。\n在闯入对战中，能让入场宝可梦与队首宝可梦性别不同的概率变为50%。\n",
-    "info": [
-        "可以被交换",
-        "可以被其他特性覆盖",
-        "可以被其他宝可梦复制",
-        "受无特性状态影响",
-        "变身时特性有效",
-        "不在入场时发动"
-    ],
-    "pokemon": [
-        {
-            "index": "0035",
-            "name": "皮皮",
-            "types": [
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "魔法防守",
-            "hidden": "友情防守"
-        },
-        {
-            "index": "0036",
-            "name": "皮可西",
-            "types": [
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "魔法防守",
-            "hidden": "纯朴"
-        },
-        {
-            "index": "0039",
-            "name": "胖丁",
-            "types": [
-                "一般",
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "好胜",
-            "hidden": "友情防守"
-        },
-        {
-            "index": "0040",
-            "name": "胖可丁",
-            "types": [
-                "一般",
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "好胜",
-            "hidden": "察觉"
-        },
-        {
-            "index": "0173",
-            "name": "皮宝宝",
-            "types": [
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "魔法防守",
-            "hidden": "友情防守"
-        },
-        {
-            "index": "0174",
-            "name": "宝宝丁",
-            "types": [
-                "一般",
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "好胜",
-            "hidden": "友情防守"
-        },
-        {
-            "index": "0300",
-            "name": "向尾喵",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "一般皮肤",
-            "hidden": "奇迹皮肤"
-        },
-        {
-            "index": "0301",
-            "name": "优雅猫",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "一般皮肤",
-            "hidden": "奇迹皮肤"
-        },
-        {
-            "index": "0350",
-            "name": "美纳斯",
-            "types": [
-                "水"
-            ],
-            "first": "神奇鳞片",
-            "second": "好胜",
-            "hidden": "迷人之躯"
-        },
-        {
-            "index": "0428",
-            "name": "长耳兔",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "笨拙",
-            "hidden": "柔软"
-        },
-        {
-            "index": "0572",
-            "name": "泡沫栗鼠",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "技术高手",
-            "hidden": "连续攻击"
-        },
-        {
-            "index": "0573",
-            "name": "奇诺栗鼠",
-            "types": [
-                "一般"
-            ],
-            "first": "迷人之躯",
-            "second": "技术高手",
-            "hidden": "连续攻击"
-        },
-        {
-            "index": "0700",
-            "name": "仙子伊布",
-            "types": [
-                "妖精"
-            ],
-            "first": "迷人之躯",
-            "second": "",
-            "hidden": "妖精皮肤"
-        },
-        {
-            "index": "0759",
-            "name": "童偶熊",
-            "types": [
-                "一般",
-                "格斗"
-            ],
-            "first": "毛茸茸",
-            "second": "笨拙",
-            "hidden": "迷人之躯"
-        },
-        {
-            "index": "0905",
-            "name": "眷恋云-化身形态",
-            "types": [
-                "妖精",
-                "飞行"
-            ],
-            "first": "迷人之躯",
-            "second": "",
-            "hidden": "唱反调"
-        }
-    ]
+  "name_zh": "迷人之躯",
+  "name_ja": "メロメロボディ",
+  "name_en": "Cute Charm",
+  "basic_info": [
+    "可以被交换",
+    "可以被其他特性覆盖",
+    "可以被其他宝可梦复制",
+    "受无特性状态影响",
+    "变身时特性有效",
+    "不在入场时发动"
+  ],
+  "introduction": "有时会让接触到自己的对手着迷。",
+  "effect": "异性宝可梦使用接触类招式攻击该特性的宝可梦时会有30%的机率着迷。\n连续招式的每一击都会单独触发该特性。\n在闯入对战中，能让入场宝可梦与队首宝可梦性别不同的概率变为50%。",
+  "pokemon_list": [
+    {
+      "id": "0035",
+      "name": "皮皮",
+      "form": "",
+      "icon": "-34em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0036",
+      "name": "皮可西",
+      "form": "",
+      "icon": "-35em -1em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "魔法防守",
+      "hidden_ability": "纯朴"
+    },
+    {
+      "id": "0039",
+      "name": "胖丁",
+      "form": "",
+      "icon": "0 -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "好胜",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0040",
+      "name": "胖可丁",
+      "form": "",
+      "icon": "-1em -2em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "好胜",
+      "hidden_ability": "察觉"
+    },
+    {
+      "id": "0173",
+      "name": "皮宝宝",
+      "form": "",
+      "icon": "-4em -7em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "魔法防守",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0174",
+      "name": "宝宝丁",
+      "form": "",
+      "icon": "-5em -7em",
+      "types": [
+        "一般",
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "好胜",
+      "hidden_ability": "友情防守"
+    },
+    {
+      "id": "0300",
+      "name": "向尾喵",
+      "form": "",
+      "icon": "-2em -12em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "一般皮肤",
+      "hidden_ability": "奇迹皮肤"
+    },
+    {
+      "id": "0301",
+      "name": "优雅猫",
+      "form": "",
+      "icon": "-3em -12em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "一般皮肤",
+      "hidden_ability": "奇迹皮肤"
+    },
+    {
+      "id": "0350",
+      "name": "美纳斯",
+      "form": "",
+      "icon": "-28em -13em",
+      "types": [
+        "水"
+      ],
+      "first_ability": "神奇鳞片",
+      "second_ability": "好胜",
+      "hidden_ability": "迷人之躯"
+    },
+    {
+      "id": "0428",
+      "name": "长耳兔",
+      "form": "",
+      "icon": "-27em -16em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "笨拙",
+      "hidden_ability": "柔软"
+    },
+    {
+      "id": "0572",
+      "name": "泡沫栗鼠",
+      "form": "",
+      "icon": "-32em -21em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "技术高手",
+      "hidden_ability": "连续攻击"
+    },
+    {
+      "id": "0573",
+      "name": "奇诺栗鼠",
+      "form": "",
+      "icon": "-33em -21em",
+      "types": [
+        "一般"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "技术高手",
+      "hidden_ability": "连续攻击"
+    },
+    {
+      "id": "0700",
+      "name": "仙子伊布",
+      "form": "",
+      "icon": "-26em -26em",
+      "types": [
+        "妖精"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "",
+      "hidden_ability": "妖精皮肤"
+    },
+    {
+      "id": "0759",
+      "name": "童偶熊",
+      "form": "",
+      "icon": "-27em -28em",
+      "types": [
+        "一般",
+        "格斗"
+      ],
+      "first_ability": "毛茸茸",
+      "second_ability": "笨拙",
+      "hidden_ability": "迷人之躯"
+    },
+    {
+      "id": "0905",
+      "name": "眷恋云",
+      "form": "化身形态",
+      "icon": "-20em -35em",
+      "types": [
+        "妖精",
+        "飞行"
+      ],
+      "first_ability": "迷人之躯",
+      "second_ability": "",
+      "hidden_ability": "唱反调"
+    }
+  ],
+  "id": "056"
 }
