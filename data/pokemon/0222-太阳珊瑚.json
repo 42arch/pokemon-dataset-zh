@@ -95,6 +95,34 @@
         "水中3群"
       ],
       "experience_100": "800,000（快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 1
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 1
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "144",
+      "battle_exp": "1441",
       "gender_ratio": {
         "male": 25,
         "female": 75
@@ -129,6 +157,34 @@
         "水中3群"
       ],
       "experience_100": "800,000（快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 1
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "144",
+      "battle_exp": "1441",
       "gender_ratio": {
         "male": 25,
         "female": 75
@@ -176,12 +232,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "红色碎片（5%）"
+      "type": "一般",
+      "damage": "0.5"
     },
     {
-      "type": "携带物品",
-      "damage": ""
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "0.25"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "4"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
     }
   ],
   "pokedex_entries": [
@@ -352,17 +472,6 @@
         "name": "太阳珊瑚",
         "stage": "未进化",
         "text": null,
-        "image": "222Corsola_Dream.png",
-        "back_text": null,
-        "from": null,
-        "form_name": null
-      }
-    ],
-    [
-      {
-        "name": "太阳珊瑚",
-        "stage": "未进化",
-        "text": null,
         "image": "222Corsola-Galar_Dream.png",
         "back_text": null,
         "from": null,
@@ -381,363 +490,9 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [
-    {
-      "level": "—",
-      "name": "撞击",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "level": "—",
-      "name": "变硬",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "30"
-    },
-    {
-      "level": "5",
-      "name": "水枪",
-      "type": "水",
-      "category": "特殊",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "25"
-    },
-    {
-      "level": "10",
-      "name": "水流环",
-      "type": "水",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "level": "15",
-      "name": "挺住",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "20",
-      "name": "原始之力",
-      "type": "岩石",
-      "category": "特殊",
-      "power": "60",
-      "accuracy": "100",
-      "pp": "5"
-    },
-    {
-      "level": "25",
-      "name": "泡沫光线",
-      "type": "水",
-      "category": "特殊",
-      "power": "65",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "30",
-      "name": "抓狂",
-      "type": "一般",
-      "category": "物理",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "level": "35",
-      "name": "生命水滴",
-      "type": "水",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "40",
-      "name": "力量宝石",
-      "type": "岩石",
-      "category": "特殊",
-      "power": "80",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "45",
-      "name": "大地之力",
-      "type": "地面",
-      "category": "特殊",
-      "power": "90",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "level": "50",
-      "name": "自我再生",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "55",
-      "name": "镜面反射",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "20"
-    }
-  ],
-  "machine_moves": [
-    {
-      "machine": "—",
-      "name": "撞击",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "machine": "—",
-      "name": "变硬",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "水枪",
-      "type": "水",
-      "category": "特殊",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "25"
-    },
-    {
-      "machine": "—",
-      "name": "水流环",
-      "type": "水",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "挺住",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "原始之力",
-      "type": "岩石",
-      "category": "特殊",
-      "power": "60",
-      "accuracy": "100",
-      "pp": "5"
-    },
-    {
-      "machine": "—",
-      "name": "泡沫光线",
-      "type": "水",
-      "category": "特殊",
-      "power": "65",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "抓狂",
-      "type": "一般",
-      "category": "物理",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "生命水滴",
-      "type": "水",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "力量宝石",
-      "type": "岩石",
-      "category": "特殊",
-      "power": "80",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "大地之力",
-      "type": "地面",
-      "category": "特殊",
-      "power": "90",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "自我再生",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "镜面反射",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "20"
-    }
-  ],
-  "egg_moves": [
-    {
-      "parents": [],
-      "name": "—",
-      "type": "撞击[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "40",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "变硬[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "水枪[详]",
-      "category": "水",
-      "power": "特殊",
-      "accuracy": "40",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "水流环[详]",
-      "category": "水",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "挺住[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "原始之力[详]",
-      "category": "岩石",
-      "power": "特殊",
-      "accuracy": "60",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "泡沫光线[详]",
-      "category": "水",
-      "power": "特殊",
-      "accuracy": "65",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "抓狂[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "变化",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "生命水滴[详]",
-      "category": "水",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "力量宝石[详]",
-      "category": "岩石",
-      "power": "特殊",
-      "accuracy": "80",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "大地之力[详]",
-      "category": "地面",
-      "power": "特殊",
-      "accuracy": "90",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "自我再生[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "镜面反射[详]",
-      "category": "超能力",
-      "power": "特殊",
-      "accuracy": "变化",
-      "pp": "100"
-    }
-  ],
+  "learnable_moves": [],
+  "machine_moves": [],
+  "egg_moves": [],
   "home_images": [
     {
       "name": "太阳珊瑚",

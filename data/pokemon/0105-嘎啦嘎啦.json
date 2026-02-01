@@ -103,6 +103,34 @@
         "怪兽群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 2
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "149",
+      "battle_exp": "1491",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -141,6 +169,34 @@
         "怪兽群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 2
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "149",
+      "battle_exp": "1491",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -177,12 +233,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "金色叶子*"
+      "type": "一般",
+      "damage": "1"
     },
     {
-      "type": "携带物品",
-      "damage": ""
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "0.5"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "2"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "0"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
     }
   ],
   "pokedex_entries": [
@@ -425,154 +545,8 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [
-    {
-      "level": "",
-      "name": "岩石",
-      "type": "特殊",
-      "category": "60",
-      "power": "100",
-      "accuracy": "5",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "一般",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "10",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "格斗",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "5",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "格斗",
-      "type": "物理",
-      "category": "30",
-      "power": "100",
-      "accuracy": "30",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "一般",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "5",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "一般",
-      "type": "物理",
-      "category": "130",
-      "power": "100",
-      "accuracy": "10",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "幽灵",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "10",
-      "pp": ""
-    },
-    {
-      "level": "",
-      "name": "一般",
-      "type": "变化",
-      "category": "—",
-      "power": "100",
-      "accuracy": "30",
-      "pp": ""
-    }
-  ],
-  "machine_moves": [
-    {
-      "machine": "原始之力[详]",
-      "name": "岩石",
-      "type": "特殊",
-      "category": "60",
-      "power": "100",
-      "accuracy": "5",
-      "pp": ""
-    },
-    {
-      "machine": "腹鼓[详]",
-      "name": "一般",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "10",
-      "pp": ""
-    },
-    {
-      "machine": "看穿[详]",
-      "name": "格斗",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "5",
-      "pp": ""
-    },
-    {
-      "machine": "二连踢[详]",
-      "name": "格斗",
-      "type": "物理",
-      "category": "30",
-      "power": "100",
-      "accuracy": "30",
-      "pp": ""
-    },
-    {
-      "machine": "终焉之歌[详]",
-      "name": "一般",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "5",
-      "pp": ""
-    },
-    {
-      "machine": "火箭头锤[详]",
-      "name": "一般",
-      "type": "物理",
-      "category": "130",
-      "power": "100",
-      "accuracy": "10",
-      "pp": ""
-    },
-    {
-      "machine": "咒术[详]",
-      "name": "幽灵",
-      "type": "变化",
-      "category": "—",
-      "power": "—",
-      "accuracy": "10",
-      "pp": ""
-    },
-    {
-      "machine": "瞪眼[详]",
-      "name": "一般",
-      "type": "变化",
-      "category": "—",
-      "power": "100",
-      "accuracy": "30",
-      "pp": ""
-    }
-  ],
+  "learnable_moves": [],
+  "machine_moves": [],
   "egg_moves": [
     {
       "parents": [

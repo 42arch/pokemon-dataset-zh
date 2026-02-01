@@ -93,6 +93,34 @@
         "陆上群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 2
+        }
+      ],
+      "base_exp": "147",
+      "battle_exp": "1471",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -131,6 +159,34 @@
         "陆上群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 2
+        }
+      ],
+      "base_exp": "147",
+      "battle_exp": "1471",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -167,12 +223,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "文柚果（5%）"
+      "type": "一般",
+      "damage": "1"
     },
     {
-      "type": "携带物品",
-      "damage": "橙橙果（50%）"
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "1"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "1"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
     }
   ],
   "pokedex_entries": [
@@ -355,525 +475,9 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [
-    {
-      "level": "进化",
-      "name": "劈开",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "—",
-      "name": "叫声",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "40"
-    },
-    {
-      "level": "—",
-      "name": "掉包",
-      "type": "恶",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "level": "—",
-      "name": "撞击",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "level": "—",
-      "name": "飞弹针",
-      "type": "虫",
-      "category": "物理",
-      "power": "25",
-      "accuracy": "95",
-      "pp": "20"
-    },
-    {
-      "level": "—",
-      "name": "劈开",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "—",
-      "name": "摇尾巴",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "30"
-    },
-    {
-      "level": "—",
-      "name": "泼沙",
-      "type": "地面",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "level": "—",
-      "name": "圆瞳",
-      "type": "妖精",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "30"
-    },
-    {
-      "level": "9",
-      "name": "渴望",
-      "type": "一般",
-      "category": "物理",
-      "power": "60",
-      "accuracy": "100",
-      "pp": "25"
-    },
-    {
-      "level": "12",
-      "name": "头锤",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "level": "15",
-      "name": "磨爪",
-      "type": "恶",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "15"
-    },
-    {
-      "level": "18",
-      "name": "乱抓",
-      "type": "一般",
-      "category": "物理",
-      "power": "18",
-      "accuracy": "80",
-      "pp": "15"
-    },
-    {
-      "level": "23",
-      "name": "睡觉",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "28",
-      "name": "猛撞",
-      "type": "一般",
-      "category": "物理",
-      "power": "90",
-      "accuracy": "85",
-      "pp": "20"
-    },
-    {
-      "level": "33",
-      "name": "投掷",
-      "type": "恶",
-      "category": "物理",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "level": "38",
-      "name": "抓狂",
-      "type": "一般",
-      "category": "物理",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "level": "43",
-      "name": "腹鼓",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "48",
-      "name": "舍身冲撞",
-      "type": "一般",
-      "category": "物理",
-      "power": "120",
-      "accuracy": "100",
-      "pp": "15"
-    }
-  ],
-  "machine_moves": [
-    {
-      "machine": "—",
-      "name": "劈开",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "叫声",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "40"
-    },
-    {
-      "machine": "—",
-      "name": "掉包",
-      "type": "恶",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "撞击",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "machine": "—",
-      "name": "飞弹针",
-      "type": "虫",
-      "category": "物理",
-      "power": "25",
-      "accuracy": "95",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "劈开",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "摇尾巴",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "泼沙",
-      "type": "地面",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "圆瞳",
-      "type": "妖精",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "渴望",
-      "type": "一般",
-      "category": "物理",
-      "power": "60",
-      "accuracy": "100",
-      "pp": "25"
-    },
-    {
-      "machine": "—",
-      "name": "头锤",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "磨爪",
-      "type": "恶",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "乱抓",
-      "type": "一般",
-      "category": "物理",
-      "power": "18",
-      "accuracy": "80",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "睡觉",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "猛撞",
-      "type": "一般",
-      "category": "物理",
-      "power": "90",
-      "accuracy": "85",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "投掷",
-      "type": "恶",
-      "category": "物理",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "抓狂",
-      "type": "一般",
-      "category": "物理",
-      "power": "变化",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "腹鼓",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "舍身冲撞",
-      "type": "一般",
-      "category": "物理",
-      "power": "120",
-      "accuracy": "100",
-      "pp": "15"
-    }
-  ],
-  "egg_moves": [
-    {
-      "parents": [],
-      "name": "—",
-      "type": "劈开[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "70",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "叫声[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "掉包[详]",
-      "category": "恶",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "撞击[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "40",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "飞弹针[详]",
-      "category": "虫",
-      "power": "物理",
-      "accuracy": "25",
-      "pp": "95"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "劈开[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "70",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "摇尾巴[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "泼沙[详]",
-      "category": "地面",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "圆瞳[详]",
-      "category": "妖精",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "渴望[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "60",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "头锤[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "70",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "磨爪[详]",
-      "category": "恶",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "乱抓[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "18",
-      "pp": "80"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "睡觉[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "猛撞[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "90",
-      "pp": "85"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "投掷[详]",
-      "category": "恶",
-      "power": "物理",
-      "accuracy": "变化",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "抓狂[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "变化",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "腹鼓[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "舍身冲撞[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "120",
-      "pp": "100"
-    }
-  ],
+  "learnable_moves": [],
+  "machine_moves": [],
+  "egg_moves": [],
   "home_images": [
     {
       "name": "直冲熊",

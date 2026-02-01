@@ -95,6 +95,34 @@
         "陆上群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 1
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "132",
+      "battle_exp": "1321",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -129,6 +157,34 @@
         "陆上群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 1
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "132",
+      "battle_exp": "1321",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -176,12 +232,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "苦涩的果实*"
+      "type": "一般",
+      "damage": "1"
     },
     {
-      "type": "携带物品",
-      "damage": ""
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "0"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "0"
+    },
+    {
+      "type": "钢",
+      "damage": "1"
+    },
+    {
+      "type": "火",
+      "damage": "1"
+    },
+    {
+      "type": "水",
+      "damage": "1"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
     }
   ],
   "pokedex_entries": [
@@ -387,18 +507,7 @@
         "name": "大葱鸭",
         "stage": "未进化",
         "text": null,
-        "image": "083Farfetch%27d_Dream.png",
-        "back_text": null,
-        "from": null,
-        "form_name": null
-      }
-    ],
-    [
-      {
-        "name": "大葱鸭",
-        "stage": "未进化",
-        "text": null,
-        "image": "083Farfetch%27d-Galar_Dream.png",
+        "image": "083Farfetch'd-Galar_Dream.png",
         "back_text": null,
         "from": null,
         "form_name": "伽勒尔的样子"
@@ -407,7 +516,7 @@
         "name": "葱游兵",
         "stage": "1阶进化",
         "text": "对战中击中要害3次或以上结束对战",
-        "image": "865Sirfetch%27d_Dream.png",
+        "image": "865Sirfetch'd_Dream.png",
         "back_text": "",
         "from": "大葱鸭",
         "form_name": null
@@ -416,417 +525,9 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [
-    {
-      "level": "—",
-      "name": "啄",
-      "type": "飞行",
-      "category": "物理",
-      "power": "35",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "level": "—",
-      "name": "泼沙",
-      "type": "地面",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "level": "5",
-      "name": "瞪眼",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "30"
-    },
-    {
-      "level": "10",
-      "name": "连斩",
-      "type": "虫",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "95",
-      "pp": "20"
-    },
-    {
-      "level": "15",
-      "name": "居合劈",
-      "type": "一般",
-      "category": "物理",
-      "power": "50",
-      "accuracy": "95",
-      "pp": "30"
-    },
-    {
-      "level": "20",
-      "name": "燕返",
-      "type": "飞行",
-      "category": "物理",
-      "power": "60",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "level": "25",
-      "name": "空气利刃",
-      "type": "飞行",
-      "category": "特殊",
-      "power": "60",
-      "accuracy": "95",
-      "pp": "25"
-    },
-    {
-      "level": "30",
-      "name": "拍落",
-      "type": "恶",
-      "category": "物理",
-      "power": "65",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "35",
-      "name": "点到为止",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "40"
-    },
-    {
-      "level": "40",
-      "name": "劈开",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "45",
-      "name": "剑舞",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "level": "50",
-      "name": "空气之刃",
-      "type": "飞行",
-      "category": "特殊",
-      "power": "75",
-      "accuracy": "95",
-      "pp": "15"
-    },
-    {
-      "level": "55",
-      "name": "叶刃",
-      "type": "草",
-      "category": "物理",
-      "power": "90",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "level": "60",
-      "name": "高速移动",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "30"
-    },
-    {
-      "level": "65",
-      "name": "勇鸟猛攻",
-      "type": "飞行",
-      "category": "物理",
-      "power": "120",
-      "accuracy": "100",
-      "pp": "15"
-    }
-  ],
-  "machine_moves": [
-    {
-      "machine": "—",
-      "name": "啄",
-      "type": "飞行",
-      "category": "物理",
-      "power": "35",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "machine": "—",
-      "name": "泼沙",
-      "type": "地面",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "瞪眼",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "连斩",
-      "type": "虫",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "95",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "居合劈",
-      "type": "一般",
-      "category": "物理",
-      "power": "50",
-      "accuracy": "95",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "燕返",
-      "type": "飞行",
-      "category": "物理",
-      "power": "60",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "空气利刃",
-      "type": "飞行",
-      "category": "特殊",
-      "power": "60",
-      "accuracy": "95",
-      "pp": "25"
-    },
-    {
-      "machine": "—",
-      "name": "拍落",
-      "type": "恶",
-      "category": "物理",
-      "power": "65",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "点到为止",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "40"
-    },
-    {
-      "machine": "—",
-      "name": "劈开",
-      "type": "一般",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "剑舞",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "空气之刃",
-      "type": "飞行",
-      "category": "特殊",
-      "power": "75",
-      "accuracy": "95",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "叶刃",
-      "type": "草",
-      "category": "物理",
-      "power": "90",
-      "accuracy": "100",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "高速移动",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "勇鸟猛攻",
-      "type": "飞行",
-      "category": "物理",
-      "power": "120",
-      "accuracy": "100",
-      "pp": "15"
-    }
-  ],
-  "egg_moves": [
-    {
-      "parents": [],
-      "name": "—",
-      "type": "啄[详]",
-      "category": "飞行",
-      "power": "物理",
-      "accuracy": "35",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "泼沙[详]",
-      "category": "地面",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "瞪眼[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "连斩[详]",
-      "category": "虫",
-      "power": "物理",
-      "accuracy": "40",
-      "pp": "95"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "居合劈[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "50",
-      "pp": "95"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "燕返[详]",
-      "category": "飞行",
-      "power": "物理",
-      "accuracy": "60",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "空气利刃[详]",
-      "category": "飞行",
-      "power": "特殊",
-      "accuracy": "60",
-      "pp": "95"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "拍落[详]",
-      "category": "恶",
-      "power": "物理",
-      "accuracy": "65",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "点到为止[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "40",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "劈开[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "70",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "剑舞[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "空气之刃[详]",
-      "category": "飞行",
-      "power": "特殊",
-      "accuracy": "75",
-      "pp": "95"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "叶刃[详]",
-      "category": "草",
-      "power": "物理",
-      "accuracy": "90",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "高速移动[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "勇鸟猛攻[详]",
-      "category": "飞行",
-      "power": "物理",
-      "accuracy": "120",
-      "pp": "100"
-    }
-  ],
+  "learnable_moves": [],
+  "machine_moves": [],
+  "egg_moves": [],
   "home_images": [
     {
       "name": "大葱鸭",

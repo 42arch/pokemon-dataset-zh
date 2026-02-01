@@ -99,6 +99,34 @@
         "矿物群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 2
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "137",
+      "battle_exp": "1371",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -137,6 +165,34 @@
         "矿物群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 2
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "137",
+      "battle_exp": "1371",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -162,12 +218,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "果实*"
+      "type": "一般",
+      "damage": "0.5"
     },
     {
-      "type": "携带物品",
-      "damage": ""
+      "type": "格斗",
+      "damage": "2"
+    },
+    {
+      "type": "飞行",
+      "damage": "0.5"
+    },
+    {
+      "type": "毒",
+      "damage": "0.25"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "0.5"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "2"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "4"
+    },
+    {
+      "type": "草",
+      "damage": "4"
+    },
+    {
+      "type": "电",
+      "damage": "0"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "2"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
     }
   ],
   "pokedex_entries": [
@@ -400,7 +520,7 @@
       {
         "name": "隆隆岩",
         "stage": "2阶进化",
-        "text": "连接交换",
+        "text": "连接交换 ；使用联系绳",
         "image": "076Golem_Dream.png",
         "back_text": "",
         "from": "隆隆石",
@@ -439,9 +559,675 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [],
-  "machine_moves": [],
-  "egg_moves": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "变圆",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "岩石打磨",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "10",
+      "name": "滚动",
+      "type": "岩石",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "90",
+      "pp": "20"
+    },
+    {
+      "level": "12",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "16",
+      "name": "落石",
+      "type": "岩石",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "level": "18",
+      "name": "击落",
+      "type": "岩石",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "24",
+      "name": "玉石俱碎",
+      "type": "一般",
+      "category": "物理",
+      "power": "200",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "30",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "34",
+      "name": "岩石爆击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "40",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "44",
+      "name": "大爆炸",
+      "type": "一般",
+      "category": "物理",
+      "power": "250",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "50",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "54",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００５",
+      "name": "掷泥",
+      "type": "地面",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２８",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３６",
+      "name": "岩石封锁",
+      "type": "岩石",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４３",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５１",
+      "name": "沙暴",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５８",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６７",
+      "name": "火焰拳",
+      "type": "火",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６８",
+      "name": "雷电拳",
+      "type": "电",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７６",
+      "name": "岩石爆击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８０",
+      "name": "挥指",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８４",
+      "name": "跺脚",
+      "type": "地面",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８６",
+      "name": "岩崩",
+      "type": "岩石",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８９",
+      "name": "扑击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９９",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０４",
+      "name": "铁壁",
+      "type": "钢",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１６",
+      "name": "隐形岩",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１２１",
+      "name": "重磅冲撞",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３３",
+      "name": "大地之力",
+      "type": "地面",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４１",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４９",
+      "name": "地震",
+      "type": "地面",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５０",
+      "name": "尖石攻击",
+      "type": "岩石",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５８",
+      "name": "真气弹",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７９",
+      "name": "击落",
+      "type": "岩石",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１８０",
+      "name": "陀螺球",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１８６",
+      "name": "十万马力",
+      "type": "地面",
+      "category": "物理",
+      "power": "95",
+      "accuracy": "95",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１９２",
+      "name": "真气拳",
+      "type": "格斗",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２５",
+      "name": "硬压",
+      "type": "钢",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "百万吨重拳",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "712",
+          "name": "冰宝"
+        },
+        {
+          "id": "713",
+          "name": "冰岩怪"
+        },
+        {
+          "id": "713H",
+          "name": "冰岩怪"
+        }
+      ],
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "树才怪"
+        }
+      ],
+      "name": "抓狂",
+      "type": "一般",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "爆裂拳",
+      "type": "格斗",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "50",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "185",
+          "name": "树才怪"
+        },
+        {
+          "id": "299",
+          "name": "朝北鼻"
+        },
+        {
+          "id": "476",
+          "name": "大朝北鼻"
+        },
+        {
+          "id": "874",
+          "name": "巨石丁"
+        },
+        {
+          "id": "934",
+          "name": "盐石巨灵"
+        }
+      ],
+      "name": "挡路",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "185",
+          "name": "树才怪"
+        },
+        {
+          "id": "934",
+          "name": "盐石巨灵"
+        }
+      ],
+      "name": "臂锤",
+      "type": "格斗",
+      "category": "物理",
+      "power": "100",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "476",
+          "name": "大朝北鼻"
+        },
+        {
+          "id": "713",
+          "name": "冰岩怪"
+        },
+        {
+          "id": "713H",
+          "name": "冰岩怪"
+        },
+        {
+          "id": "874",
+          "name": "巨石丁"
+        },
+        {
+          "id": "934",
+          "name": "盐石巨灵"
+        }
+      ],
+      "name": "广域防守",
+      "type": "岩石",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
   "home_images": [
     {
       "name": "隆隆石",

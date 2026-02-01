@@ -98,6 +98,34 @@
         "陆上群"
       ],
       "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 2
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "194",
+      "battle_exp": "1941",
       "gender_ratio": {
         "male": 75,
         "female": 25
@@ -136,6 +164,34 @@
         "陆上群"
       ],
       "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 2
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "194",
+      "battle_exp": "1941",
       "gender_ratio": {
         "male": 75,
         "female": 25
@@ -172,12 +228,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "金色叶子*"
+      "type": "一般",
+      "damage": "1"
     },
     {
-      "type": "携带物品",
-      "damage": ""
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "2"
+    },
+    {
+      "type": "岩石",
+      "damage": "2"
+    },
+    {
+      "type": "虫",
+      "damage": "0.5"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "2"
+    },
+    {
+      "type": "草",
+      "damage": "0.5"
+    },
+    {
+      "type": "电",
+      "damage": "1"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "0.5"
     }
   ],
   "pokedex_entries": [
@@ -441,9 +561,1110 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [],
-  "machine_moves": [],
-  "egg_moves": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "神速",
+      "type": "一般",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "—",
+      "name": "嬉闹",
+      "type": "妖精",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "火焰牙",
+      "type": "火",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "长嚎",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "level": "—",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "—",
+      "name": "绝处逢生",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "火花",
+      "type": "火",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "咬住",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "瞪眼",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "火焰轮",
+      "type": "火",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "level": "5",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００２",
+      "name": "撒娇",
+      "type": "妖精",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００４",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００８",
+      "name": "火焰牙",
+      "type": "火",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器００９",
+      "name": "雷电牙",
+      "type": "电",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２４",
+      "name": "火焰旋涡",
+      "type": "火",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２７",
+      "name": "燕返",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２８",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３０",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３８",
+      "name": "蓄能焰袭",
+      "type": "火",
+      "category": "物理",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６３",
+      "name": "精神之牙",
+      "type": "超能力",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０９９",
+      "name": "铁头",
+      "type": "钢",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０７",
+      "name": "磷火",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０８",
+      "name": "咬碎",
+      "type": "恶",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１１５",
+      "name": "龙之波动",
+      "type": "龙",
+      "category": "特殊",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１７",
+      "name": "巨声",
+      "type": "一般",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１８",
+      "name": "热风",
+      "type": "火",
+      "category": "特殊",
+      "power": "95",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２５",
+      "name": "喷射火焰",
+      "type": "火",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１２７",
+      "name": "嬉闹",
+      "type": "妖精",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３４",
+      "name": "绝处逢生",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１４１",
+      "name": "大字爆炎",
+      "type": "火",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "85",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４７",
+      "name": "疯狂伏特",
+      "type": "电",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５６",
+      "name": "逆鳞",
+      "type": "龙",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５７",
+      "name": "过热",
+      "type": "火",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６５",
+      "name": "闪焰冲锋",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１６７",
+      "name": "近身战",
+      "type": "格斗",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７２",
+      "name": "吼叫",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８９",
+      "name": "高温重压",
+      "type": "火",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０４",
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２０７",
+      "name": "豁出去",
+      "type": "火",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１５",
+      "name": "热沙大地",
+      "type": "地面",
+      "category": "特殊",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２２４",
+      "name": "咒术",
+      "type": "幽灵",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    }
+  ],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "128PC",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "128PB",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "128PA",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "585",
+          "name": "四季鹿"
+        },
+        {
+          "id": "586",
+          "name": "萌芽鹿"
+        },
+        {
+          "id": "725",
+          "name": "火斑喵"
+        },
+        {
+          "id": "726",
+          "name": "炎热喵"
+        },
+        {
+          "id": "727",
+          "name": "炽焰咆哮虎"
+        },
+        {
+          "id": "749",
+          "name": "泥驴仔"
+        },
+        {
+          "id": "750",
+          "name": "重泥挽马"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        }
+      ],
+      "name": "二连踢",
+      "type": "格斗",
+      "category": "物理",
+      "power": "30",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "parents": [
+        {
+          "id": "052G",
+          "name": "喵喵"
+        },
+        {
+          "id": "056",
+          "name": "猴怪"
+        },
+        {
+          "id": "057",
+          "name": "火暴猴"
+        },
+        {
+          "id": "128",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "216",
+          "name": "熊宝宝"
+        },
+        {
+          "id": "217",
+          "name": "圈圈熊"
+        },
+        {
+          "id": "221",
+          "name": "长毛猪"
+        },
+        {
+          "id": "473",
+          "name": "象牙猪"
+        },
+        {
+          "id": "522",
+          "name": "斑斑马"
+        },
+        {
+          "id": "523",
+          "name": "雷电斑马"
+        },
+        {
+          "id": "551",
+          "name": "黑眼鳄"
+        },
+        {
+          "id": "552",
+          "name": "混混鳄"
+        },
+        {
+          "id": "553",
+          "name": "流氓鳄"
+        },
+        {
+          "id": "613",
+          "name": "喷嚏熊"
+        },
+        {
+          "id": "614",
+          "name": "冻原熊"
+        },
+        {
+          "id": "725",
+          "name": "火斑喵"
+        },
+        {
+          "id": "726",
+          "name": "炎热喵"
+        },
+        {
+          "id": "727",
+          "name": "炽焰咆哮虎"
+        },
+        {
+          "id": "734",
+          "name": "猫鼬少"
+        },
+        {
+          "id": "735",
+          "name": "猫鼬探长"
+        },
+        {
+          "id": "766",
+          "name": "投掷猴"
+        },
+        {
+          "id": "775",
+          "name": "树枕尾熊"
+        },
+        {
+          "id": "863",
+          "name": "喵头目"
+        },
+        {
+          "id": "877",
+          "name": "莫鲁贝可"
+        },
+        {
+          "id": "901",
+          "name": "月月熊"
+        },
+        {
+          "id": "979",
+          "name": "弃世猴"
+        }
+      ],
+      "name": "大闹一番",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": "128",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "128PC",
+          "name": "肯泰罗"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "155",
+          "name": "火球鼠"
+        },
+        {
+          "id": "156",
+          "name": "火岩鼠"
+        },
+        {
+          "id": "157",
+          "name": "火暴兽"
+        },
+        {
+          "id": "157H",
+          "name": "火暴兽"
+        },
+        {
+          "id": "161",
+          "name": "尾立"
+        },
+        {
+          "id": "162",
+          "name": "大尾立"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "231",
+          "name": "小小象"
+        },
+        {
+          "id": "234",
+          "name": "惊角鹿"
+        },
+        {
+          "id": "322",
+          "name": "呆火驼"
+        },
+        {
+          "id": "449",
+          "name": "沙河马"
+        },
+        {
+          "id": "450",
+          "name": "河马兽"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "585",
+          "name": "四季鹿"
+        },
+        {
+          "id": "586",
+          "name": "萌芽鹿"
+        },
+        {
+          "id": "672",
+          "name": "坐骑小羊"
+        },
+        {
+          "id": "673",
+          "name": "坐骑山羊"
+        },
+        {
+          "id": "700",
+          "name": "仙子伊布"
+        },
+        {
+          "id": "766",
+          "name": "投掷猴"
+        },
+        {
+          "id": "813",
+          "name": "炎兔儿"
+        },
+        {
+          "id": "814",
+          "name": "腾蹴小将"
+        },
+        {
+          "id": "815",
+          "name": "闪焰王牌"
+        },
+        {
+          "id": "899",
+          "name": "诡角鹿"
+        },
+        {
+          "id": "915",
+          "name": "爱吃豚"
+        },
+        {
+          "id": "916",
+          "name": "飘香豚"
+        },
+        {
+          "id": "926",
+          "name": "狗仔包"
+        },
+        {
+          "id": "927",
+          "name": "麻花犬"
+        },
+        {
+          "id": "942",
+          "name": "偶叫獒"
+        },
+        {
+          "id": "943",
+          "name": "獒教父"
+        },
+        {
+          "id": "967",
+          "name": "摩托蜥"
+        },
+        {
+          "id": "971",
+          "name": "墓仔狗"
+        },
+        {
+          "id": "972",
+          "name": "墓扬犬"
+        },
+        {
+          "id": "974",
+          "name": "走鲸"
+        },
+        {
+          "id": "975",
+          "name": "浩大鲸"
+        },
+        {
+          "id": "982",
+          "name": "土龙节节"
+        }
+      ],
+      "name": "舍身冲撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "太阳伊布"
+        }
+      ],
+      "name": "晨光",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "056",
+          "name": "猴怪"
+        },
+        {
+          "id": "133",
+          "name": "伊布"
+        },
+        {
+          "id": "134",
+          "name": "水伊布"
+        },
+        {
+          "id": "135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "136",
+          "name": "火伊布"
+        },
+        {
+          "id": "196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "216",
+          "name": "熊宝宝"
+        },
+        {
+          "id": "217",
+          "name": "圈圈熊"
+        },
+        {
+          "id": "287",
+          "name": "懒人獭"
+        },
+        {
+          "id": "289",
+          "name": "请假王"
+        },
+        {
+          "id": "470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "677",
+          "name": "妙喵"
+        },
+        {
+          "id": "678",
+          "name": "超能妙喵"
+        },
+        {
+          "id": "700",
+          "name": "仙子伊布"
+        },
+        {
+          "id": "820",
+          "name": "藏饱栗鼠"
+        },
+        {
+          "id": "901",
+          "name": "月月熊"
+        },
+        {
+          "id": "915",
+          "name": "爱吃豚"
+        },
+        {
+          "id": "916",
+          "name": "飘香豚"
+        },
+        {
+          "id": "926",
+          "name": "狗仔包"
+        },
+        {
+          "id": "927",
+          "name": "麻花犬"
+        }
+      ],
+      "name": "渴望",
+      "type": "一般",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "parents": [
+        {
+          "id": "059H",
+          "name": "风速狗"
+        },
+        {
+          "id": "392",
+          "name": "烈焰猴"
+        }
+      ],
+      "name": "大愤慨",
+      "type": "火",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
   "home_images": [
     {
       "name": "风速狗",

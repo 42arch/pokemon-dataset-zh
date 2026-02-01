@@ -80,6 +80,34 @@
         "龙群"
       ],
       "experience_100": "600,000（最快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 1
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "52",
+      "battle_exp": "521",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -248,12 +276,21 @@
         "form_name": null
       },
       {
-        "name": "蜜集大蛇",
-        "stage": "2阶进化",
-        "text": "学会龙声鼓舞时提升等级",
-        "image": "1019Hydrapple_Dream.png",
+        "name": "龙声鼓舞",
+        "stage": "",
+        "text": "",
+        "image": "Bag_TM_龙_ZA_Sprite.png",
         "back_text": "",
         "from": "裹蜜虫",
+        "form_name": null
+      },
+      {
+        "name": "蜜集大蛇",
+        "stage": "2阶进化",
+        "text": "",
+        "image": "1019Hydrapple_Dream.png",
+        "back_text": "",
+        "from": "龙声鼓舞",
         "form_name": null
       }
     ]

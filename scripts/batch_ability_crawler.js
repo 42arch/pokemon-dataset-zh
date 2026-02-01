@@ -21,7 +21,7 @@ async function runBatch() {
     for (let i = 0; i < abilities.length; i++) {
         const item = abilities[i];
         const { id, name_zh } = item;
-        const filename = `${id}-${name_zh}.json`;
+        const filename = `${name_zh}.json`;
         const filePath = path.join(OUTPUT_DIR, filename);
 
         // Optional: Skip if already exists to allow resuming

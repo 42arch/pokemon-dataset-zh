@@ -71,6 +71,34 @@
         "未发现群"
       ],
       "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 3
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "250",
+      "battle_exp": "2501",
       "gender_ratio": {
         "male": 0,
         "female": 0
@@ -101,6 +129,34 @@
         "未发现群"
       ],
       "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 3
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "250",
+      "battle_exp": "2501",
       "gender_ratio": {
         "male": 0,
         "female": 0
@@ -131,6 +187,34 @@
         "未发现群"
       ],
       "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 3
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "250",
+      "battle_exp": "2501",
       "gender_ratio": {
         "male": 0,
         "female": 0
@@ -267,23 +351,607 @@
       ]
     }
   ],
-  "evolution_chains": [
-    [
-      {
-        "name": "蕾冠王",
-        "stage": "不进化",
-        "text": null,
-        "image": "898Calyrex_Dream.png",
-        "back_text": null,
-        "from": null,
-        "form_name": null
-      }
-    ]
-  ],
+  "evolution_chains": [],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [],
-  "machine_moves": [],
+  "learnable_moves": [
+    {
+      "level": "—",
+      "name": "拍击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "超级吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "level": "—",
+      "name": "生长",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "念力",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "8",
+      "name": "生命水滴",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "16",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "24",
+      "name": "精神冲击",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "32",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "40",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "40",
+      "name": "精神场地",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "48",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "56",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "64",
+      "name": "寄生种子",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "72",
+      "name": "治愈波动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "level": "80",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "level": "88",
+      "name": "预知未来",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００４",
+      "name": "高速移动",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１６",
+      "name": "幻象光线",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３０",
+      "name": "大声咆哮",
+      "type": "恶",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３３",
+      "name": "魔法叶",
+      "type": "草",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３５",
+      "name": "泥巴射击",
+      "type": "地面",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０３７",
+      "name": "吸取之吻",
+      "type": "妖精",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４１",
+      "name": "辅助力量",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "20",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４９",
+      "name": "大晴天",
+      "type": "火",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５４",
+      "name": "精神冲击",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５６",
+      "name": "种子机关枪",
+      "type": "草",
+      "category": "物理",
+      "power": "25",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０５９",
+      "name": "意念头锤",
+      "type": "超能力",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "90",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７１",
+      "name": "种子炸弹",
+      "type": "草",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７４",
+      "name": "反射壁",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０７５",
+      "name": "光墙",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器０８０",
+      "name": "挥指",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０８１",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８９",
+      "name": "扑击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９２",
+      "name": "封印",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０９８",
+      "name": "特性互换",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０９",
+      "name": "戏法",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１１",
+      "name": "终极吸取",
+      "type": "草",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１９",
+      "name": "能量球",
+      "type": "草",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２０",
+      "name": "精神强念",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２２",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１２９",
+      "name": "冥想",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３１",
+      "name": "花粉团",
+      "type": "虫",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３２",
+      "name": "接棒",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器１３７",
+      "name": "青草场地",
+      "type": "草",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１３８",
+      "name": "精神场地",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５９",
+      "name": "飞叶风暴",
+      "type": "草",
+      "category": "特殊",
+      "power": "130",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６１",
+      "name": "戏法空间",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６８",
+      "name": "日光束",
+      "type": "草",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１７８",
+      "name": "重力",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１９０",
+      "name": "日光刃",
+      "type": "草",
+      "category": "物理",
+      "power": "125",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２０３",
+      "name": "自我暗示",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１７",
+      "name": "预知未来",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "120",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器２１８",
+      "name": "广域战力",
+      "type": "超能力",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    }
+  ],
   "egg_moves": [],
   "home_images": [
     {

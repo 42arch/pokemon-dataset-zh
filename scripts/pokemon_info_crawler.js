@@ -162,21 +162,19 @@ async function scrapePokemonDetail(inputNameOrUrl) {
         
         // Helper to extract value based on Label
         const extractField = (label) => {
-            // Find a bold tag with the label
-            // The structure is usually: <td><b><a...>Label</a></b> ... <table>...<td>Value</td>...</table></td>
-            // So we look for <b> containing label inside the container
-            
-            // We search inside `container`. 
-            // Note: `container` might be multiple `tr` elements.
-            
             let value = null;
             
-            container.find('b').each((i, el) => {
-                if ($(el).text().includes(label)) {
-                    // Found the label. Look for the value table nearby.
-                    // usually sibling table
+            container.find('b, small').each((i, el) => {
+                const text = $(el).text().trim();
+                let isMatch = false;
+                if (label === '特性') {
+                    isMatch = text === '特性';
+                } else {
+                    isMatch = text.includes(label);
+                }
+
+                if (isMatch) {
                     const parentTd = $(el).closest('td');
-                    const valueTd = parentTd.find('table td').not('.hide').first();
                     
                     if (label === '特性') {
                         // Abilities can be multiple
@@ -204,13 +202,58 @@ async function scrapePokemonDetail(inputNameOrUrl) {
                          });
                          value = types;
                     } else if (label === '蛋群' || label === '培育') {
-                        // Egg groups are often under "培育" (Breeding) in the first cell
+                        const valueTd = parentTd.find('table td').not('.hide').first();
                         const text = valueTd.text().trim();
-                        // Split by " 与 ", "、", or just space
                         value = text.split(/ 与 |、|\s+/).map(s => s.trim()).filter(s => s && s !== '与');
+                    } else if (label === '基础点数') {
+                        const stats = [];
+                        const statsTable = parentTd.find('table').first();
+                        const statNameMap = {
+                            'ＨＰ': 'hp',
+                            '攻击': 'attack',
+                            '防御': 'defense',
+                            '特攻': 'sp_attack',
+                            '特防': 'sp_defense',
+                            '速度': 'speed'
+                        };
+                        const coreStats = Object.keys(statNameMap);
+                        statsTable.find('td').each((j, td) => {
+                            const cnName = $(td).find('b, small').first().text().trim();
+                            if (coreStats.includes(cnName)) {
+                                let statValue = $(td).text().replace(cnName, '').trim();
+                                if (statValue) {
+                                    stats.push({ stat: statNameMap[cnName], value: parseInt(statValue) || 0 });
+                                }
+                            }
+                        });
+                        value = stats;
+                    } else if (label === '基础经验值' || label === '对战经验值') {
+                        // Try to find the span with "第五世代起"
+                        const fifthGenSpan = parentTd.find('span.explain[title*="第五世代起"]');
+                        if (fifthGenSpan.length > 0) {
+                            value = fifthGenSpan.text().trim();
+                        } else {
+                            // Clone and clean the TD to get the value
+                            const tempTd = parentTd.clone();
+                            // Remove the label and any footnotes/annotations
+                            tempTd.find('small, span.explain, sup').remove();
+                            let cleanText = tempTd.text().trim();
+                            
+                            // If there's a slash (meaning multiple generation values exist but not in spans)
+                            if (cleanText.includes('／')) {
+                                value = cleanText.split('／').pop().trim();
+                            } else if (cleanText.includes('/')) {
+                                value = cleanText.split('/').pop().trim();
+                            } else {
+                                value = cleanText;
+                            }
+                        }
+                        // Final cleanup: remove non-digit trailing chars just in case
+                        if (value) value = value.replace(/[^\d]+$/, '').trim();
                     } else {
                         // Standard single value
-                         value = valueTd.text().trim();
+                        const valueTd = parentTd.find('table td').not('.hide').first();
+                        value = valueTd.text().trim();
                     }
                 }
             });
@@ -229,6 +272,9 @@ async function scrapePokemonDetail(inputNameOrUrl) {
         const eggGroups = extractField('蛋群') || extractField('培育');
         
         const experience100 = extractField('100级时经验值');
+        const basePoints = extractField('基础点数');
+        const baseExp = extractField('基础经验值');
+        const battleExp = extractField('对战经验值');
         
         // Gender Ratio Parsing
         let genderRatioRaw = extractField('性别比例');
@@ -336,6 +382,9 @@ async function scrapePokemonDetail(inputNameOrUrl) {
                 catch_rate: catchRate,
                 egg_groups: eggGroups,
                 experience_100: experience100,
+                base_points: basePoints,
+                base_exp: baseExp,
+                battle_exp: battleExp,
                 gender_ratio: genderRatio,
                 egg_cycles: eggCycles,
                 shape: shape,
@@ -351,12 +400,19 @@ async function scrapePokemonDetail(inputNameOrUrl) {
         if (mainInfobox.length > 0) {
             const extractFromTable = (table, label) => {
                 let value = null;
-                table.find('b').each((i, el) => {
+                table.find('b, small').each((i, el) => {
                     const bText = $(el).text().trim();
-                                        if (bText === label || bText.includes(label)) {
-                                            const parentTd = $(el).closest('td');
-                                            const valueTd = parentTd.find('table td').not('.hide').first();
-                                            if (label === '特性') {
+                    let isMatch = false;
+                    if (label === '特性') {
+                        isMatch = bText === '特性';
+                    } else {
+                        isMatch = bText === label || bText.includes(label);
+                    }
+
+                    if (isMatch) {
+                        const parentTd = $(el).closest('td');
+                        
+                        if (label === '特性') {
                             const abilities = [];
                             parentTd.find('table td').each((j, td) => {
                                 const cellText = $(td).text().trim();
@@ -380,9 +436,51 @@ async function scrapePokemonDetail(inputNameOrUrl) {
                             });
                             value = types;
                         } else if (label === '蛋群' || label === '培育') {
+                            const valueTd = parentTd.find('table td').not('.hide').first();
                             const text = valueTd.text().trim();
                             value = text.split(/ 与 |、|\s+/).map(s => s.trim()).filter(s => s && s !== '与');
+                                                                                                } else if (label === '基础点数') {
+                                                                                                    const stats = [];
+                                                                                                    const statsTable = parentTd.find('table').first();
+                                                                                                    const statNameMap = {
+                                                                                                        'ＨＰ': 'hp',
+                                                                                                        '攻击': 'attack',
+                                                                                                        '防御': 'defense',
+                                                                                                        '特攻': 'sp_attack',
+                                                                                                        '特防': 'sp_defense',
+                                                                                                        '速度': 'speed'
+                                                                                                    };
+                                                                                                    const coreStats = Object.keys(statNameMap);
+                                                                                                    statsTable.find('td').each((j, td) => {
+                                                                                                        const cnName = $(td).find('b, small').first().text().trim();
+                                                                                                        if (coreStats.includes(cnName)) {
+                                                                                                            let statValue = $(td).text().replace(cnName, '').trim();
+                                                                                                            if (statValue) {
+                                                                                                                stats.push({ stat: statNameMap[cnName], value: parseInt(statValue) || 0 });
+                                                                                                            }
+                                                                                                        }
+                                                                                                    });
+                                                                                                    value = stats;
+                        } else if (label === '基础经验值' || label === '对战经验值') {
+                            const fifthGenSpan = parentTd.find('span.explain[title*="第五世代起"]');
+                            if (fifthGenSpan.length > 0) {
+                                value = fifthGenSpan.text().trim();
+                            } else {
+                                const tempTd = parentTd.clone();
+                                tempTd.find('small, span.explain, sup').remove();
+                                let cleanText = tempTd.text().trim();
+                                
+                                if (cleanText.includes('／')) {
+                                    value = cleanText.split('／').pop().trim();
+                                } else if (cleanText.includes('/')) {
+                                    value = cleanText.split('/').pop().trim();
+                                } else {
+                                    value = cleanText;
+                                }
+                            }
+                            if (value) value = value.replace(/[^\d]+$/, '').trim();
                         } else {
+                            const valueTd = parentTd.find('table td').not('.hide').first();
                             value = valueTd.text().trim();
                         }
                     }
@@ -399,6 +497,9 @@ async function scrapePokemonDetail(inputNameOrUrl) {
             const catchRate = extractFromTable(mainInfobox, '捕获率');
             const eggGroups = extractFromTable(mainInfobox, '蛋群') || extractFromTable(mainInfobox, '培育');
             const experience100 = extractFromTable(mainInfobox, '100级时经验值');
+            const basePoints = extractFromTable(mainInfobox, '基础点数');
+            const baseExp = extractFromTable(mainInfobox, '基础经验值');
+            const battleExp = extractFromTable(mainInfobox, '对战经验值');
             
             let genderRatioRaw = extractFromTable(mainInfobox, '性别比例');
             // Fallback for single form
@@ -482,6 +583,9 @@ async function scrapePokemonDetail(inputNameOrUrl) {
                     catch_rate: catchRate,
                     egg_groups: eggGroups,
                     experience_100: experience100,
+                    base_points: basePoints,
+                    base_exp: baseExp,
+                    battle_exp: battleExp,
                     gender_ratio: genderRatio,
                     egg_cycles: eggCycles,
                     shape: shape,
@@ -698,6 +802,30 @@ async function scrapePokemonDetail(inputNameOrUrl) {
     }
 }
 
+function findMoveTable(header) {
+    let curr = header.next();
+    while (curr.length > 0) {
+        // If we hit another header, stop
+        if (['h2', 'h3', 'h4', 'h5'].includes(curr[0].name)) return null;
+        
+        // If we hit a roundy table directly
+        if (curr.is('table.roundy')) {
+            return curr;
+        }
+        
+        // If we hit a toggle content div (tabs)
+        // Usually we want the first tab or the visible one. 
+        // In static HTML, all might be present. We pick the first one containing a roundy table.
+        if (curr.hasClass('toggle-content')) {
+            const table = curr.find('table.roundy').first();
+            if (table.length > 0) return table;
+        }
+        
+        curr = curr.next();
+    }
+    return null;
+}
+
 function extractEggMoves($) {
     let eggHeader = null;
     $('h3, h4, h5').each((i, el) => {
@@ -710,8 +838,8 @@ function extractEggMoves($) {
     
     if (!eggHeader) return [];
     
-    const moveTable = eggHeader.nextAll('table.roundy').first();
-    if (moveTable.length === 0) return [];
+    const moveTable = findMoveTable(eggHeader);
+    if (!moveTable || moveTable.length === 0) return [];
     
     const moves = [];
     
@@ -801,8 +929,8 @@ function extractMachineMoves($) {
     
     if (!tmHeader) return [];
     
-    const moveTable = tmHeader.nextAll('table.roundy').first();
-    if (moveTable.length === 0) return [];
+    const moveTable = findMoveTable(tmHeader);
+    if (!moveTable || moveTable.length === 0) return [];
     
     const moves = [];
     
@@ -842,8 +970,8 @@ function extractLearnableMoves($) {
     
     if (!levelUpHeader) return [];
     
-    const moveTable = levelUpHeader.nextAll('table.roundy').first();
-    if (moveTable.length === 0) return [];
+    const moveTable = findMoveTable(levelUpHeader);
+    if (!moveTable || moveTable.length === 0) return [];
     
     const moves = [];
     
@@ -1015,132 +1143,49 @@ function extractFormImages($, pokedexId, name) {
     return formsWithImages;
 }
 
-function extractEvolutionChain($) {
-    const evoHeaderSpan = $('#进化').filter((i, el) => $(el).closest('h3').length > 0);
-    const evoHeader = evoHeaderSpan.closest('h3');
-    
-    if (evoHeader.length === 0) return [];
-    
-    const evoTable = evoHeader.nextAll('table').first();
-    if (evoTable.length === 0) return [];
-    
-    const grid = [];
-    evoTable.find('> tbody > tr').each((r, tr) => {
-        const rowData = [];
-        $(tr).children('td').each((c, td) => {
-            const cell = $(td);
-            const rowspan = parseInt(cell.attr('rowspan')) || 1;
-            const colspan = parseInt(cell.attr('colspan')) || 1;
-            
-            if (!grid[r]) grid[r] = [];
-            let colIndex = 0;
-            while (grid[r][colIndex]) colIndex++;
-            
-            for (let i = 0; i < rowspan; i++) {
-                for (let j = 0; j < colspan; j++) {
-                    if (!grid[r + i]) grid[r + i] = [];
-                    grid[r + i][colIndex + j] = {
-                        el: cell,
-                        isOrigin: (i === 0 && j === 0)
-                    };
-                }
-            }
-        });
-    });
-    
-    const nodes = [];
-    
-    for (let r = 0; r < grid.length; r++) {
-        if (!grid[r]) continue;
-        for (let c = 0; c < grid[r].length; c++) {
-            const cell = grid[r][c];
-            if (!cell || !cell.isOrigin) continue;
-            
-            const el = cell.el;
-            const pokemonData = extractPokemonData(el);
-            
-            if (pokemonData) {
-                const node = {
-                    ...pokemonData,
-                    r,
-                    c,
-                    text: null,
-                    from: null,
-                    back_text: ""
-                };
-                nodes.push(node);
-            } else {
-                let condText = el.text().trim();
-                condText = condText.replace(/→/g, '').trim();
-                cell.condition = condText;
-            }
-        }
-    }
-    
-    nodes.forEach(node => {
-        const cell = grid[node.r][node.c];
-        cell.node = node;
-    });
-    
-    nodes.forEach(node => {
-        if (node.c > 1) {
-            const condCell = grid[node.r][node.c - 1];
-            const sourceCell = grid[node.r][node.c - 2];
-            
-            if (condCell && sourceCell && sourceCell.node) {
-                node.from = sourceCell.node.name;
-                if (condCell.condition) {
-                    node.text = condCell.condition;
-                }
-            }
-        }
-    });
-    
-    const finalNodes = nodes.map(n => ({
-        name: n.name,
-        stage: n.stage,
-        text: n.text,
-        image: n.image,
-        back_text: n.back_text,
-        from: n.from,
-        form_name: null 
-    }));
-    
-    // Download evolution images
-    // Note: We need pokedexId and nameZh here, but they are not passed to this function.
-    // However, we can extract them from the global scope or context if available, 
-    // OR we can pass them as arguments.
-    // Since 'extractEvolutionChain' is called from 'scrapePokemonDetail', let's pass them.
-    
-    // Refactoring call site first? 
-    // Actually, let's just return the nodes with imageUrls and handle downloading in the main function or pass args.
-    // To minimize changes, I'll pass the directory path to this function or handle download here if I can get the path.
-    
-    // Let's modify the function signature to accept dirPath.
-    return [finalNodes];
-}
-
 function extractEvolutionChain($, downloadDir) {
     const evoHeaderSpan = $('#进化, #進化');
     if (evoHeaderSpan.length === 0) return [];
     
     const evoHeader = evoHeaderSpan.closest('h3'); // h3 usually
     
-    // Find the correct table
-    let evolutionTable = evoHeader.nextAll('table').first();
-    // If it's the fulltable container (sometimes used for layout), go inside or next
-    if (evolutionTable.hasClass('fulltable') || evolutionTable.find('table').length > 0) {
-        // If it contains nested tables, we might be looking at the container.
-        // But usually the structure is: Header -> Table(class="roundy")
-        // Check if this table has the evolution rows directly
-        if (evolutionTable.find('tr').first().find('td').length === 0) {
-             // Maybe it's a wrapper.
-             // Python logic: form_table = tag_h1.find_next('table'); if 'fulltable' in class: form_table = form_table.find_next('table')
-             evolutionTable = evolutionTable.nextAll('table').first();
+    const chains = [];
+    
+    let nextElement = evoHeader.next();
+    while (nextElement.length > 0 && !['h2', 'h3'].includes(nextElement[0].name)) {
+        if (nextElement[0].name === 'table') {
+            let targetTable = nextElement;
+            // Handle wrapper tables (fulltable)
+            if (targetTable.hasClass('fulltable')) {
+                 const inner = targetTable.find('table.roundy').not('.fulltable').first();
+                 if (inner.length > 0 && (inner.text().includes('进化') || inner.text().includes('進化'))) {
+                     targetTable = inner;
+                 }
+            }
+            
+            const extracted = processEvolutionTable($, targetTable, downloadDir);
+            if (extracted.length > 0) {
+                chains.push(...extracted);
+            }
         }
+        nextElement = nextElement.next();
     }
     
+    return chains;
+}
+
+function processEvolutionTable($, evolutionTable, downloadDir) {
     if (evolutionTable.length === 0) return [];
+
+    // Skip Mega/Gigantamax tables
+    const tableText = evolutionTable.text();
+    const isMegaGiga = /超级进化|超极巨化|超級進化|超極巨化|↔/.test(tableText) || 
+                       evolutionTable.hasClass('bgl-ZA') || 
+                       evolutionTable.hasClass('bgl-ZAM');
+    
+    if (isMegaGiga) {
+        return [];
+    }
 
     // Check if multiple forms
     const hasMultipleForms = (table) => {
@@ -1156,20 +1201,10 @@ function extractEvolutionChain($, downloadDir) {
     const trList = [];
     rows.each((i, el) => trList.push($(el)));
 
-    let formTrLists = [];
-    if (hasMultipleForms(evolutionTable)) {
-        const middle = Math.floor(trList.length / 2);
-        let rightStart = middle;
-        if (trList.length % 2 !== 0) {
-            rightStart = middle + 1;
-        }
-        formTrLists.push(trList.slice(0, middle));
-        formTrLists.push(trList.slice(rightStart));
-    } else {
-        formTrLists.push(trList);
-    }
-
+    // Process all rows together. 
+    // The linear extraction logic handles disjoint chains by checking for 'Basic' stage.
     const chains = [];
+    const formTrLists = [trList];
 
     for (const currentTrList of formTrLists) {
         const allTdList = [];
@@ -1186,6 +1221,7 @@ function extractEvolutionChain($, downloadDir) {
         }
 
         const nodes = [];
+        console.log(`Processing chain segment with ${allTdList.length} cells.`);
         
         for (let index = 0; index < allTdList.length; index++) {
             const $td = allTdList[index];
@@ -1193,50 +1229,72 @@ function extractEvolutionChain($, downloadDir) {
                 name: null, stage: null, text: null, image: null, back_text: null, from: null, form_name: null, imageUrl: null
             };
 
-            if (index === 0) {
-                // First Pokemon
-                const res = extractPokemonData($, $td);
-                if (res) {
-                    Object.assign(node, res);
-                    nodes.push(node);
-                }
-            } else {
-                if (index % 2 === 0) {
-                    // Pokemon Node
-                    // index-1: Condition
-                    // index-2: Previous Pokemon
-                    
-                    if (index - 2 < 0) continue; // Should not happen if structure matches
-
-                    const $conTd = allTdList[index - 1];
-                    const $fromTd = allTdList[index - 2];
-                    
-                    const condition = getCondition($conTd);
-                    const res = extractPokemonData($, $td);
-                    const fromRes = extractPokemonData($, $fromTd);
-                    
-                    if (res) {
-                        Object.assign(node, res);
-                        node.text = condition.text;
-                        node.back_text = condition.back_text;
-
-                        if (fromRes) {
-                            if (fromRes.stage !== res.stage) {
-                                node.from = fromRes.name;
-                            }
-                            // Branching logic: Same stage means sibling
-                            if (fromRes.stage === res.stage && node.stage !== '未进化' && node.stage !== '幼年') {
-                                // Inherit parent from previous node
-                                // Find the last added node (which should be the sibling)
-                                if (nodes.length > 0) {
-                                    node.from = nodes[nodes.length - 1].from;
+            // Heuristic: If current cell is a Pokemon, add it.
+            // If it's an arrow/condition, store it for next pokemon.
+            
+            const res = extractPokemonData($, $td);
+            if (res) {
+                console.log(`Found pokemon: ${res.name} (${res.form_name}) at index ${index}`);
+                Object.assign(node, res);
+                
+                // Link to previous node
+                // We look backwards for the condition and the source
+                
+                // If this is a "Basic" stage, it starts a new chain, so no parent.
+                if (node.stage === '未进化' || node.stage === '幼年') {
+                    node.from = null;
+                } else {
+                    // Look back
+                    if (index > 0) {
+                        let prevIndex = index - 1;
+                        let condition = { text: '', back_text: '' };
+                        
+                        // Check if previous cell is condition (not a pokemon)
+                        const prevRes = extractPokemonData($, allTdList[prevIndex]);
+                        if (!prevRes) {
+                            condition = getCondition(allTdList[prevIndex]);
+                            prevIndex--;
+                        }
+                        
+                        // Now prevIndex should be the parent Pokemon
+                        if (prevIndex >= 0) {
+                            const parentRes = extractPokemonData($, allTdList[prevIndex]);
+                            if (parentRes) {
+                                node.from = parentRes.name;
+                                node.text = condition.text;
+                                node.back_text = condition.back_text;
+                                
+                                // Handle branching siblings:
+                                // If parent has same stage as current, it's likely a sibling, so they share the same parent.
+                                // E.g. Eevee -> Vaporeon | Jolteon
+                                // [Eevee] [Arrow] [Vaporeon] [Jolteon] (if jolteon is next cell?) 
+                                // No, usually [Eevee] [Arrow] [Vaporeon] [Arrow] [Jolteon] is invalid.
+                                // Usually structure is:
+                                // [Eevee]
+                                // [Arr] [Vap]
+                                // [Arr] [Jolt]
+                                
+                                // If we flattened, it becomes: [Eevee] [Arr] [Vap] [Arr] [Jolt]
+                                // Index 0: Eevee
+                                // Index 2: Vap. Prev is Arr. PrevPrev is Eevee. Link Eevee.
+                                // Index 4: Jolt. Prev is Arr. PrevPrev is Vap (Index 2).
+                                // Vap is Stage 1. Jolt is Stage 1.
+                                // If parent (Vap) is same stage as me (Jolt), we are siblings.
+                                // So my parent is Vap's parent.
+                                
+                                if (parentRes.stage === node.stage) {
+                                    // Find parent node in `nodes` array
+                                    const parentNode = nodes.find(n => n.name === parentRes.name);
+                                    if (parentNode) {
+                                        node.from = parentNode.from;
+                                    }
                                 }
                             }
                         }
-                        
-                        nodes.push(node);
                     }
                 }
+                
+                nodes.push(node);
             }
         }
         
@@ -1257,102 +1315,187 @@ function extractEvolutionChain($, downloadDir) {
             }
         }
         
-        // Add valid nodes to chain
-        // Filter out temporary fields if needed, but keeping them is fine
-        chains.push(nodes.map(n => ({
-            name: n.name,
-            stage: n.stage,
-            text: n.text,
-            image: n.image,
-            back_text: n.back_text,
-            from: n.from,
-            form_name: n.form_name
-        })));
+        // Group nodes into chains based on connectivity (split by root nodes)
+        const groupedChains = [];
+        let currentChain = [];
+        
+        for (const node of nodes) {
+            // Filter out Mega/Gigantamax/Special forms
+            const isMega = node.stage.includes('超级') || node.name.includes('超级');
+            const isGiga = node.stage.includes('超极巨') || (node.text && node.text.includes('超极巨')) || node.stage.includes('超极巨');
+            
+            if (isMega || isGiga) {
+                continue;
+            }
+
+            if (!node.from) {
+                // New root starts a new chain segment
+                if (currentChain.length >= 2) {
+                    groupedChains.push(currentChain);
+                }
+                currentChain = [node];
+            } else {
+                currentChain.push(node);
+            }
+        }
+        if (currentChain.length >= 2) {
+            groupedChains.push(currentChain);
+        }
+        
+        if (groupedChains.length > 0) {
+            for (const group of groupedChains) {
+                chains.push(group.map(n => ({
+                    name: n.name,
+                    stage: n.stage,
+                    text: n.text,
+                    image: n.image,
+                    back_text: n.back_text,
+                    from: n.from,
+                    form_name: n.form_name
+                })));
+            }
+        }
     }
     
     return chains;
 }
 
 function getCondition($td) {
-    const text = $td.text().trim();
-    let evoText = text;
+    let text = $td.text().trim();
     let backText = '';
     
     if (text.includes('←')) {
         const parts = text.split('←');
-        if (parts.length > 1) backText = parts[1].trim();
-    }
-    if (text.includes('→')) {
-        evoText = text.split('→')[0].trim();
+        if (parts.length > 1) backText = parts.slice(1).join('；').trim();
     }
     
-    return { text: evoText, back_text: backText };
+    // Replace arrows with semicolons and clean up whitespace
+    let evoText = text.replace(/[→←]/g, '；').replace(/\s+/g, ' ').trim();
+    // Remove duplicate semicolons and leading/trailing ones
+    evoText = evoText.replace(/；+/g, '；').replace(/^；|；$/g, '').trim();
+    
+    // Clean up special characters like * and references
+    const clean = (str) => str ? str.replace(/[\*＊]/g, '').replace(/\[\d+\]/g, '').trim() : '';
+    
+    return { text: clean(evoText), back_text: clean(backText) };
 }
 
 function extractPokemonData($, cell) {
     const $cell = $(cell);
-    const innerTable = $cell.find('table').first();
-    if (innerTable.length === 0) return null;
+    let innerTable = $cell.find('table').first();
+    let container = innerTable;
     
-    const nameEl = innerTable.find('.textblack a').first();
+    if (innerTable.length === 0) {
+        // Check if the cell itself looks like a pokemon container
+        if ($cell.find('img').length > 0) {
+            container = $cell;
+        } else {
+            return null;
+        }
+    }
+    
+    // Try to find name. Usually .textblack a, or just a selflink/link
+    let nameEl = container.find('.textblack a').first();
+    if (nameEl.length === 0) {
+        // Try finding direct link that isn't an image link
+        // Usually name is text after image or below it
+        // Filter out links that contain imgs
+        nameEl = container.find('a').filter((i, el) => $(el).find('img').length === 0 && $(el).text().trim()).first();
+    }
+    
     let name = nameEl.text().trim();
     if (!name) return null;
     
     // Stage extraction
     let stage = '';
-    // Try finding small tag in rows above the name
-    const nameRow = nameEl.closest('tr');
-    const prevRows = nameRow.prevAll('tr');
-    
-    // prevAll returns elements in reverse order (closest first)
-    prevRows.each((i, row) => {
-        const small = $(row).find('small');
-        if (small.length > 0) {
-            stage = small.text().trim();
-            return false;
+    // Try finding small tag in rows above the name (if table)
+    // If container is cell, look for small tag before name?
+    if (innerTable.length > 0) {
+        const nameRow = nameEl.closest('tr');
+        const prevRows = nameRow.prevAll('tr');
+        prevRows.each((i, row) => {
+            const small = $(row).find('small');
+            if (small.length > 0) {
+                stage = small.text().trim();
+                return false;
+            }
+        });
+        if (!stage) {
+            const anySmall = innerTable.find('small').first();
+            if (anySmall.length > 0) stage = anySmall.text().trim();
         }
-    });
-
-    // Fallback: look for small tag anywhere in table
-    if (!stage) {
-        const anySmall = innerTable.find('small').first();
-        if (anySmall.length > 0) stage = anySmall.text().trim();
+    } else {
+        // Direct cell content
+        // usually <small>Stage</small><br>Name
+        const small = container.find('small').first();
+        // If the small tag contains "阿罗拉的样子", it's not the stage.
+        // Stage is usually "未进化", "1阶进化".
+        if (small.length > 0) {
+            const smallText = small.text().trim();
+            if (smallText.includes('进化') || smallText === '幼年' || smallText === '未进化') {
+                stage = smallText;
+            }
+        }
     }
     
-    const imgEl = innerTable.find('img').first();
+    const imgEl = container.find('img').first();
     let image = '';
     let imageUrl = '';
     if (imgEl.length > 0) {
         let src = imgEl.attr('src');
-        if (src && src.startsWith('//')) src = 'https:' + src;
         if (src) {
+            if (src.startsWith('//')) src = 'https:' + src;
+            
+            // Decode URL to handle %xx chars correctly in filenames
+            src = decodeURIComponent(src);
+            
             const parts = src.split('/');
             const thumbIndex = parts.indexOf('thumb');
+            
             if (thumbIndex !== -1 && parts.length > thumbIndex + 3) {
                 const hash1 = parts[thumbIndex + 1];
                 const hash2 = parts[thumbIndex + 2];
-                const filename = parts[thumbIndex + 3];
+                // The filename is the 4th part after 'thumb'
+                const filename = decodeURIComponent(parts[thumbIndex + 3]);
+                
+                // Use 120px thumb URL as requested for dream images
+                const encodedFilename = encodeURIComponent(filename);
+                imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${encodedFilename}/120px-${encodedFilename}`;
                 image = filename;
-                imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
             } else {
-                 image = parts[parts.length - 1]; 
+                 // Fallback for non-thumb URLs
+                 imageUrl = src;
+                 image = decodeURIComponent(parts[parts.length - 1]); 
                  if (image.includes('px-')) {
                      image = image.replace(/^\d+px-/, '');
                  }
-                 imageUrl = src;
             }
         }
     }
 
     // Form Name
     let form_name = null;
-    const regionLink = $cell.find('a[title="地区形态"], a[title="形态变化"]');
+    const regionLink = container.find('a[title="地区形态"], a[title="形态变化"]');
     if (regionLink.length > 0) {
         form_name = regionLink.text().trim();
     }
+    // Fallback: check for small tag with form name
+    if (!form_name) {
+        container.find('small a').each((i, el) => {
+            const title = $(el).attr('title');
+            const text = $(el).text().trim();
+            if ((title && title.includes('地区形态')) || text.includes('的样子')) {
+                form_name = text;
+            }
+        });
+    }
+
+    if (form_name) {
+        form_name = form_name.replace(/[\(\)（）]/g, '').trim();
+    }
     
     return {
-        name,
+        name: name, // Just the base name as requested
         stage,
         image,
         imageUrl,
@@ -1646,43 +1789,64 @@ function extractDetails($) {
 
 function extractTypeEffectiveness($) {
     let table = null;
+    const header = $('#属性相性').closest('h3');
     
-    // Try finding tab "一般" first (for multi-form Pokemon)
-    const tab = $('.tabbertab[title="一般"]').first();
-    if (tab.length > 0) {
-        table = tab.find('table').first();
-    }
-    
-    // If no tab found, or no table in tab, look for table after "属性相性" header
-    if (!table || table.length === 0) {
-        const header = $('#属性相性').closest('h3');
-        if (header.length > 0) {
+    if (header.length > 0) {
+        // Check for tabber structure first
+        const tabber = header.nextAll('.tabber').first();
+        // Ensure the tabber is actually belonging to this section (e.g. before next header)
+        // Usually nextAll finds siblings. If tabber is immediately after, it's fine.
+        
+        if (tabber.length > 0) {
+            // Try to find "一般" tab
+            let tab = tabber.find('.tabbertab[title="一般"]').first();
+            if (tab.length === 0) {
+                // If no "一般" tab, maybe "普通"? Or just the first tab?
+                // For safety, default to first tab if "一般" not found, 
+                // but usually "一般" or the Pokemon's name is used.
+                // Let's try to match form names or default to first.
+                tab = tabber.find('.tabbertab').first();
+            }
+            
+            if (tab.length > 0) {
+                table = tab.find('table').first();
+            }
+        }
+        
+        // If no table found in tabber (or no tabber), try direct sibling table
+        if (!table || table.length === 0) {
             table = header.nextAll('table').first();
+        }
+    } else {
+        // Fallback: Global search (risky, but kept for compatibility if header missing)
+        // But header missing is rare for Type Effectiveness.
+        const tab = $('.tabbertab[title="一般"]').first();
+        if (tab.length > 0) {
+            table = tab.find('table').first();
         }
     }
 
     if (!table || table.length === 0) return [];
 
+    // console.log('Type effectiveness table found:', table.attr('class'));
+
     const headers = [];
     // Header row is the first row
     const headerRow = table.find('tr').first();
-    headerRow.find('td').each((i, td) => {
-        // Skip "进攻招式属性" cell (colspan=3)
-        const text = $(td).text().trim();
-        if (text !== '进攻招式属性') {
-            headers.push(text);
-        }
-    });
-
-    // If headers were not found in tds (sometimes they are th?), let's look for specific type classes or just iterate children
-    if (headers.length === 0) {
-        headerRow.children().each((i, el) => {
+    
+    // Helper to extract headers from row
+    const extractHeaders = (row) => {
+        row.children().each((i, el) => {
              const text = $(el).text().trim();
              if (text !== '进攻招式属性') {
                  headers.push(text);
              }
         });
-    }
+    };
+    
+    extractHeaders(headerRow);
+
+    // console.log('Headers:', headers);
 
     // Now find the target row (Default form)
     // We look for a row where the "variation" cell is empty
@@ -1753,6 +1917,8 @@ function extractTypeEffectiveness($) {
             damageText = '0.25';
         } else if (damageText.includes('1⁄8') || damageText.includes('1/8')) {
             damageText = '0.125';
+        } else if (damageText === '') {
+             damageText = '1'; // Default
         }
         
         result.push({
@@ -1808,7 +1974,7 @@ function extractSpecialForms($, nameZh) {
                                     const hash1 = parts[thumbIndex + 1];
                                     const hash2 = parts[thumbIndex + 2];
                                     const filename = decodeURIComponent(parts[thumbIndex + 3]);
-                                    imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
+                                    imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/120px-${filename}`;
                                     imageFileName = filename;
                                 } else {
                                     imageUrl = src;
@@ -1900,7 +2066,7 @@ function extractSpecialForms($, nameZh) {
                                 const hash1 = parts[thumbIndex + 1];
                                 const hash2 = parts[thumbIndex + 2];
                                 const filename = decodeURIComponent(parts[thumbIndex + 3]);
-                                imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/300px-${filename}`;
+                                imageUrl = `https://media.52poke.com/wiki/thumb/${hash1}/${hash2}/${filename}/120px-${filename}`;
                                 imageFileName = filename;
                             } else {
                                 imageUrl = src;

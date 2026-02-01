@@ -264,7 +264,9 @@ const EVOLUTION_CHAINS = {
         "back_text": null,
         "from": "圈圈熊",
         "form_name": null
-      },
+      }
+    ],
+    [
       {
         "name": "月月熊",
         "stage": "无进化",
@@ -274,7 +276,7 @@ const EVOLUTION_CHAINS = {
         "back": "熊宝宝",
         "from": null,
         "form_name": "赫月"
-      },
+      }
     ]
   ],
   "岩狗狗": [

@@ -34,19 +34,32 @@ async function scrapeAbilityDetail(name) {
     }
 
     // 52Poke Wiki usually uses "Name（特性）" for URLs to distinguish from moves or items.
-    const urlName = name.includes('（特性）') ? name : `${name}（特性）`;
-    const url = `https://wiki.52poke.com/wiki/${encodeURIComponent(urlName)}?variant=zh-hans`;
+    const tryUrls = [
+        name.includes('（特性）') ? name : `${name}（特性）`,
+        name.replace('（特性）', '')
+    ];
 
-    console.error(`Fetching data for ability: ${name}...`);
-    let htmlContent;
-    try {
-        htmlContent = execSync(`curl -L -A "${USER_AGENT}" "${url}"`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
-    } catch (e) {
-        console.error(`Failed to download page for ${name}:`, e.message);
-        return null;
+    let htmlContent = "";
+    let $ = null;
+
+    for (const urlName of tryUrls) {
+        const url = `https://wiki.52poke.com/wiki/${encodeURIComponent(urlName)}?variant=zh-hans`;
+        console.error(`Fetching data for ability from: ${url}...`);
+        try {
+            const rawHtml = execSync(`curl -L -A "${USER_AGENT}" "${url}"`, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
+            $ = cheerio.load(rawHtml);
+            // Check if page actually exists
+            if ($('.noarticletext').length === 0) {
+                htmlContent = rawHtml;
+                break;
+            }
+        } catch (e) {
+            console.error(`Failed to download page for ${urlName}:`, e.message);
+        }
     }
 
-    const $ = cheerio.load(htmlContent);
+    if (!htmlContent) return null;
+
     const result = {};
 
     // 1. Basic Info (Infobox)
@@ -114,24 +127,59 @@ async function scrapeAbilityDetail(name) {
 
     if (effectHeader.length > 0) {
         let next = effectHeader.next();
-        // Stop only at the next major section (h2), allowing h3 subsections
+        const skipHeaders = ['信长的野望', '不可思议的迷宫', '卡牌游戏', '旁支系列', '动画中', '漫画中', '名字来源'];
+        
         while (next.length > 0 && next[0].name !== 'h2') {
-            const tagName = next[0].name;
-            if (['p', 'ul', 'ol', 'dl', 'div'].includes(tagName)) {
+            const node = next[0];
+            const tagName = node.name;
+            const $node = $(node);
+            const text = $node.text().trim();
+
+            // Stop if we hit a sub-header for side games or unrelated sections
+            if (['h3', 'h4'].includes(tagName)) {
+                if (skipHeaders.some(h => text.includes(h))) {
+                    break; 
+                }
+                next = $node.next();
+                continue;
+            }
+
+            // Skip dl tags (usually "Main article" links)
+            if (tagName === 'dl') {
+                next = $node.next();
+                continue;
+            }
+
+            // Handle content tags
+            if (['p', 'ul', 'ol', 'div'].includes(tagName)) {
                 if (tagName === 'ul' || tagName === 'ol') {
-                    next.find('li').each((j, li) => {
-                        effect += '- ' + $(li).text().trim() + '\n';
+                    $node.find('li').each((j, li) => {
+                        const liText = $(li).text().trim();
+                        // Filter out citations and duplicates
+                        const cleanLi = liText.replace(/\[(\d+|注\s*\d+)\]/g, '').replace(/\*/g, '').trim();
+                        if (cleanLi && !effect.includes(cleanLi)) {
+                            effect += '- ' + cleanLi + '\n';
+                        }
                     });
-                } else {
-                    const text = next.text().trim();
-                    if (text) effect += text + '\n';
+                } else if (tagName === 'p') {
+                    const cleanP = text.replace(/\[(\d+|注\s*\d+)\]/g, '').replace(/\*/g, '').trim();
+                    if (cleanP && !effect.includes(cleanP)) {
+                        effect += cleanP + '\n';
+                    }
+                } else if (tagName === 'div') {
+                    // For divs, we look for nested paragraphs or lists but avoid bulk text()
+                    $node.find('p, li').each((j, child) => {
+                        const cText = $(child).text().trim().replace(/\[(\d+|注\s*\d+)\]/g, '').replace(/\*/g, '').trim();
+                        if (cText && !effect.includes(cText)) {
+                            effect += (child.name === 'li' ? '- ' : '') + cText + '\n';
+                        }
+                    });
                 }
             }
-            next = next.next();
+            next = $node.next();
         }
     }
-    // Clean citation markers, asterisks and zero-width spaces
-    result.effect = effect.replace(/\[(\d+|注\s*\d+)\]/g, '').replace(/\*/g, '').replace(/\u200b/g, '').trim();
+    result.effect = effect.replace(/\u200b/g, '').trim();
 
     // 4. Pokemon List (具有该特性的宝可梦)
     const pokemonList = [];
@@ -147,58 +195,92 @@ async function scrapeAbilityDetail(name) {
     }
 
     if (pokeHeader.length > 0) {
-        const table = pokeHeader.next('table');
-        if (table.length > 0) {
-            table.find('tr').each((i, row) => {
-                // Skip header row
-                const firstCell = $(row).find('th').first();
-                if (firstCell.length > 0 && firstCell.text().includes('#')) return;
-                
-                const cells = $(row).children();
-                // Expected columns: ID, Icon, Name, Type1, Type2, Ab1, Ab2, HiddenAb
-                // Check cell count to avoid malformed rows
-                if (cells.length < 6) return;
+        // Collect all tables in this section
+        const tables = [];
+        let next = pokeHeader.next();
+        while (next.length > 0 && next[0].name !== 'h2') {
+            if (next[0].name === 'table') {
+                tables.push(next);
+            } else if (next.hasClass('tabber')) {
+                next.find('.tabbertab table').each((j, t) => tables.push($(t)));
+            } else if (next.find('table').length > 0) {
+                // Handle cases where table might be wrapped in a div or p
+                next.find('table').each((j, t) => tables.push($(t)));
+            }
+            next = next.next();
+        }
 
-                const id = cells.eq(0).text().trim();
-                const iconCell = cells.eq(1);
-                const nameCell = cells.eq(2);
+        tables.forEach(table => {
+            table.find('tr').each((i, row) => {
+                const visibleCells = $(row).children().not('.hide');
+                if (visibleCells.length < 3) return;
+
+                // Skip header row
+                const firstCellText = visibleCells.first().text().trim();
+                if (firstCellText.includes('#') || firstCellText === '宝可梦' || firstCellText === '寶可夢') return;
+
+                // Map visible cells to logical columns considering colspan
+                const rowData = [];
+                let currentLogCol = 0;
+                const maxCols = 8; // ID, Icon, Name, Type1, Type2, Ab1, Ab2, HiddenAb
+
+                visibleCells.each((idx, cell) => {
+                    const $cell = $(cell);
+                    const colspan = parseInt($cell.attr('colspan')) || 1;
+                    const text = $cell.text().trim();
+                    
+                    for (let c = 0; c < colspan && currentLogCol < maxCols; c++) {
+                        rowData[currentLogCol] = { text, $cell };
+                        currentLogCol++;
+                    }
+                });
+
+                if (rowData.length < 6) return;
+
+                const id = rowData[0].text;
+                // Basic numeric check for ID
+                if (!id || isNaN(parseInt(id.replace(/[^\d]/g, '')))) return;
+
+                const iconCell = rowData[1].$cell;
+                const nameCell = rowData[2].$cell;
                 
-                // Extract icon background position
+                // Extract icon
                 let iconPosition = "";
-                const spriteSpan = iconCell.find('span.sprite-icon');
+                const spriteSpan = iconCell.find('span.sprite-icon, span.sprite-pm');
                 if (spriteSpan.length > 0) {
-                    const classes = spriteSpan.attr('class').split(/\s+/);
-                    const iconClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon');
+                    const classes = (spriteSpan.attr('class') || "").split(/\s+/);
+                    const iconClass = classes.find(c => (c.startsWith('sprite-icon-') || c.startsWith('sprite-pm-')) && !['sprite-icon', 'sprite-pm'].includes(c));
                     if (iconClass && spriteMap[iconClass]) {
                         iconPosition = spriteMap[iconClass];
                     }
                 }
 
+                // Name and Form
+                // Note: nameCell might be rowData[2].$cell. If name is merged with ID? No, unlikely.
                 let name = nameCell.find('a').first().text().trim();
                 let form = nameCell.find('small').text().trim();
-                
-                if (!name) name = nameCell.text().trim(); // Fallback
+                if (!name) name = nameCell.text().trim();
 
-                // If form is not in small tag, try to extract from text
                 if (!form) {
-                    // Remove name from full text to find form
-                    // e.g. "Raichu Alola Form" -> "Alola Form"
                     const fullText = nameCell.text().trim();
-                    if (fullText.startsWith(name)) {
+                    if (fullText.startsWith(name) && fullText.length > name.length) {
                         form = fullText.substring(name.length).trim();
                     }
                 }
 
                 // Types
                 const types = [];
-                const type1 = cells.eq(3).text().trim();
-                const type2 = cells.eq(4).text().trim();
-                if (type1) types.push(type1);
-                if (type2 && !cells.eq(4).hasClass('hide') && type2 !== type1) types.push(type2);
+                if (rowData[3].text) types.push(rowData[3].text);
+                if (rowData[4] && rowData[4].text && rowData[4].text !== rowData[3].text) {
+                    types.push(rowData[4].text);
+                }
 
-                const ab1 = cells.eq(5).text().trim();
-                const ab2 = cells.eq(6).text().trim();
-                const hiddenAb = cells.eq(7).text().trim();
+                // Abilities
+                const cleanAb = (val) => (val === "无" || val === "無") ? "" : val;
+                const ab1 = rowData[5] ? cleanAb(rowData[5].text) : "";
+                let ab2 = rowData[6] ? cleanAb(rowData[6].text) : "";
+                if (ab2 === ab1) ab2 = "";
+                const hiddenAb = rowData[7] ? cleanAb(rowData[7].text) : "";
 
                 pokemonList.push({
                     id: id,
@@ -211,7 +293,7 @@ async function scrapeAbilityDetail(name) {
                     hidden_ability: hiddenAb
                 });
             });
-        }
+        });
     }
     result.pokemon_list = pokemonList;
 
@@ -231,7 +313,7 @@ if (require.main === module) {
                 if (!fs.existsSync(saveDir)) {
                     fs.mkdirSync(saveDir, { recursive: true });
                 }
-                const fileName = `${res.id || '000'}-${res.name_zh}.json`;
+                const fileName = `${res.name_zh}.json`;
                 const filePath = path.join(saveDir, fileName);
                 fs.writeFileSync(filePath, JSON.stringify(res, null, 2), 'utf8');
                 console.error(`\nSaved to ${filePath}`);

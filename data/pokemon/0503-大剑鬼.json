@@ -89,6 +89,34 @@
         "陆上群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 3
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "238",
+      "battle_exp": "2381",
       "gender_ratio": {
         "male": 87.5,
         "female": 12.5
@@ -123,6 +151,34 @@
         "陆上群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 3
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "238",
+      "battle_exp": "2381",
       "gender_ratio": {
         "male": 87.5,
         "female": 12.5
@@ -159,12 +215,76 @@
   ],
   "type_effectiveness": [
     {
-      "type": "游戏版本",
-      "damage": "达人带"
+      "type": "一般",
+      "damage": "1"
     },
     {
-      "type": "携带物品",
-      "damage": ""
+      "type": "格斗",
+      "damage": "1"
+    },
+    {
+      "type": "飞行",
+      "damage": "1"
+    },
+    {
+      "type": "毒",
+      "damage": "1"
+    },
+    {
+      "type": "地面",
+      "damage": "1"
+    },
+    {
+      "type": "岩石",
+      "damage": "1"
+    },
+    {
+      "type": "虫",
+      "damage": "1"
+    },
+    {
+      "type": "幽灵",
+      "damage": "1"
+    },
+    {
+      "type": "钢",
+      "damage": "0.5"
+    },
+    {
+      "type": "火",
+      "damage": "0.5"
+    },
+    {
+      "type": "水",
+      "damage": "0.5"
+    },
+    {
+      "type": "草",
+      "damage": "2"
+    },
+    {
+      "type": "电",
+      "damage": "2"
+    },
+    {
+      "type": "超能力",
+      "damage": "1"
+    },
+    {
+      "type": "冰",
+      "damage": "0.5"
+    },
+    {
+      "type": "龙",
+      "damage": "1"
+    },
+    {
+      "type": "恶",
+      "damage": "1"
+    },
+    {
+      "type": "妖精",
+      "damage": "1"
     }
   ],
   "pokedex_entries": [
@@ -276,30 +396,963 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [],
-  "machine_moves": [],
+  "learnable_moves": [
+    {
+      "level": "进化",
+      "name": "劈开",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "—",
+      "name": "超级角击",
+      "type": "虫",
+      "category": "物理",
+      "power": "120",
+      "accuracy": "85",
+      "pp": "10"
+    },
+    {
+      "level": "—",
+      "name": "撞击",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "35"
+    },
+    {
+      "level": "—",
+      "name": "摇尾巴",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "level": "—",
+      "name": "水枪",
+      "type": "水",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "level": "—",
+      "name": "浸水",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "13",
+      "name": "聚气",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "30"
+    },
+    {
+      "level": "18",
+      "name": "贝壳刃",
+      "type": "水",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "10"
+    },
+    {
+      "level": "21",
+      "name": "连斩",
+      "type": "虫",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "95",
+      "pp": "20"
+    },
+    {
+      "level": "25",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "29",
+      "name": "燕返",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "34",
+      "name": "水流喷射",
+      "type": "水",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "level": "39",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "46",
+      "name": "水流尾",
+      "type": "水",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "90",
+      "pp": "10"
+    },
+    {
+      "level": "51",
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "level": "58",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "level": "63",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    }
+  ],
+  "machine_moves": [
+    {
+      "machine": "招式学习器００１",
+      "name": "猛撞",
+      "type": "一般",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "85",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器００６",
+      "name": "可怕面孔",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器００７",
+      "name": "守住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０１１",
+      "name": "水之波动",
+      "type": "水",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０１８",
+      "name": "小偷",
+      "type": "恶",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "25"
+    },
+    {
+      "machine": "招式学习器０２２",
+      "name": "泼冷水",
+      "type": "水",
+      "category": "特殊",
+      "power": "50",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２５",
+      "name": "硬撑",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２７",
+      "name": "燕返",
+      "type": "飞行",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０２８",
+      "name": "重踏",
+      "type": "地面",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３２",
+      "name": "高速星星",
+      "type": "一般",
+      "category": "特殊",
+      "power": "60",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０３４",
+      "name": "冰冻之风",
+      "type": "冰",
+      "category": "特殊",
+      "power": "55",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０４３",
+      "name": "投掷",
+      "type": "恶",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４６",
+      "name": "雪崩",
+      "type": "冰",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０４７",
+      "name": "挺住",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５０",
+      "name": "求雨",
+      "type": "水",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０５２",
+      "name": "雪景",
+      "type": "冰",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５３",
+      "name": "修长之角",
+      "type": "钢",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５５",
+      "name": "挖洞",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０５７",
+      "name": "点到为止",
+      "type": "一般",
+      "category": "物理",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "40"
+    },
+    {
+      "machine": "招式学习器０５８",
+      "name": "劈瓦",
+      "type": "格斗",
+      "category": "物理",
+      "power": "75",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６５",
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０６６",
+      "name": "泰山压顶",
+      "type": "一般",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０７０",
+      "name": "梦话",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器０７７",
+      "name": "攀瀑",
+      "type": "水",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器０８１",
+      "name": "打草结",
+      "type": "草",
+      "category": "特殊",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８５",
+      "name": "睡觉",
+      "type": "超能力",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器０８７",
+      "name": "挑衅",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器０８８",
+      "name": "剑舞",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１０３",
+      "name": "替身",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１０５",
+      "name": "十字剪",
+      "type": "虫",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１０６",
+      "name": "直冲钻",
+      "type": "地面",
+      "category": "物理",
+      "power": "80",
+      "accuracy": "95",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１１０",
+      "name": "水流裂破",
+      "type": "水",
+      "category": "物理",
+      "power": "85",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１２２",
+      "name": "再来一次",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１２３",
+      "name": "冲浪",
+      "type": "水",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器１３０",
+      "name": "帮助",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１３５",
+      "name": "冰冻光束",
+      "type": "冰",
+      "category": "特殊",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１４２",
+      "name": "水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "80",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４３",
+      "name": "暴风雪",
+      "type": "冰",
+      "category": "特殊",
+      "power": "110",
+      "accuracy": "70",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１４５",
+      "name": "水之誓约",
+      "type": "水",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１５２",
+      "name": "终极冲击",
+      "type": "一般",
+      "category": "物理",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１５４",
+      "name": "加农水炮",
+      "type": "水",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１６３",
+      "name": "破坏光线",
+      "type": "一般",
+      "category": "特殊",
+      "power": "150",
+      "accuracy": "90",
+      "pp": "5"
+    },
+    {
+      "machine": "招式学习器１７１",
+      "name": "太晶爆发",
+      "type": "一般",
+      "category": "特殊",
+      "power": "80",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "machine": "招式学习器１８１",
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器１８４",
+      "name": "真空波",
+      "type": "格斗",
+      "category": "特殊",
+      "power": "40",
+      "accuracy": "100",
+      "pp": "30"
+    },
+    {
+      "machine": "招式学习器１９６",
+      "name": "快速折返",
+      "type": "水",
+      "category": "物理",
+      "power": "60",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "machine": "招式学习器２０８",
+      "name": "潮旋",
+      "type": "水",
+      "category": "特殊",
+      "power": "35",
+      "accuracy": "85",
+      "pp": "15"
+    },
+    {
+      "machine": "招式学习器２２９",
+      "name": "快手还击",
+      "type": "格斗",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "15"
+    }
+  ],
   "egg_moves": [
     {
       "parents": [
         {
-          "id": null,
-          "name": "神奇糖果"
+          "id": "0023",
+          "name": "阿柏蛇"
         },
         {
-          "id": null,
-          "name": "等级"
+          "id": "0024",
+          "name": "阿柏怪"
         },
         {
-          "id": null,
-          "name": "洗翠地区"
+          "id": "0052",
+          "name": "喵喵"
+        },
+        {
+          "id": "0052A",
+          "name": "喵喵"
+        },
+        {
+          "id": "0052G",
+          "name": "喵喵"
+        },
+        {
+          "id": "0053",
+          "name": "猫老大"
+        },
+        {
+          "id": "0053A",
+          "name": "猫老大"
+        },
+        {
+          "id": "0054",
+          "name": "可达鸭"
+        },
+        {
+          "id": "0055",
+          "name": "哥达鸭"
+        },
+        {
+          "id": "0056",
+          "name": "猴怪"
+        },
+        {
+          "id": "0057",
+          "name": "火暴猴"
+        },
+        {
+          "id": "0190",
+          "name": "长尾怪手"
+        },
+        {
+          "id": "0197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "0206",
+          "name": "土龙弟弟"
+        },
+        {
+          "id": "0215",
+          "name": "狃拉"
+        },
+        {
+          "id": "0215H",
+          "name": "狃拉"
+        },
+        {
+          "id": "0336",
+          "name": "饭匙蛇"
+        },
+        {
+          "id": "0424",
+          "name": "双尾怪手"
+        },
+        {
+          "id": "0434",
+          "name": "臭鼬噗"
+        },
+        {
+          "id": "0435",
+          "name": "坦克臭鼬"
+        },
+        {
+          "id": "0448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "0461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "0810",
+          "name": "敲音猴"
+        },
+        {
+          "id": "0811",
+          "name": "啪咚猴"
+        },
+        {
+          "id": "0812",
+          "name": "轰擂金刚猩"
+        },
+        {
+          "id": "0863",
+          "name": "喵头目"
+        },
+        {
+          "id": "0903",
+          "name": "大狃拉"
+        },
+        {
+          "id": "0979",
+          "name": "弃世猴"
+        },
+        {
+          "id": "0982",
+          "name": "土龙节节"
         }
       ],
-      "name": "2阶进化\n\n\n大剑鬼洗翠的样子水恶",
-      "type": "",
-      "category": "",
-      "power": "2阶进化",
-      "accuracy": "大剑鬼洗翠的样子水恶",
-      "pp": ""
+      "name": "刺耳声",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "85",
+      "pp": "40"
+    },
+    {
+      "parents": [
+        {
+          "id": "0255",
+          "name": "火稚鸡"
+        },
+        {
+          "id": "0256",
+          "name": "力壮鸡"
+        },
+        {
+          "id": "0257",
+          "name": "火焰鸡"
+        },
+        {
+          "id": "0335",
+          "name": "猫鼬斩"
+        },
+        {
+          "id": "0448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "0619",
+          "name": "功夫鼬"
+        },
+        {
+          "id": "0620",
+          "name": "师父鼬"
+        }
+      ],
+      "name": "看穿",
+      "type": "格斗",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "5"
+    },
+    {
+      "parents": [
+        {
+          "id": "0232",
+          "name": "顿甲"
+        },
+        {
+          "id": "0570",
+          "name": "索罗亚"
+        },
+        {
+          "id": "0570H",
+          "name": "索罗亚"
+        },
+        {
+          "id": "0571",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "0571H",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "0810",
+          "name": "敲音猴"
+        },
+        {
+          "id": "0811",
+          "name": "啪咚猴"
+        },
+        {
+          "id": "0812",
+          "name": "轰擂金刚猩"
+        },
+        {
+          "id": "0908",
+          "name": "魔幻假面喵"
+        },
+        {
+          "id": "0944",
+          "name": "滋汁鼹"
+        },
+        {
+          "id": "0945",
+          "name": "涂标客"
+        }
+      ],
+      "name": "拍落",
+      "type": "恶",
+      "category": "物理",
+      "power": "65",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0133",
+          "name": "伊布"
+        },
+        {
+          "id": "0134",
+          "name": "水伊布"
+        },
+        {
+          "id": "0135",
+          "name": "雷伊布"
+        },
+        {
+          "id": "0136",
+          "name": "火伊布"
+        },
+        {
+          "id": "0196",
+          "name": "太阳伊布"
+        },
+        {
+          "id": "0197",
+          "name": "月亮伊布"
+        },
+        {
+          "id": "0448",
+          "name": "路卡利欧"
+        },
+        {
+          "id": "0470",
+          "name": "叶伊布"
+        },
+        {
+          "id": "0471",
+          "name": "冰伊布"
+        },
+        {
+          "id": "0700",
+          "name": "仙子伊布"
+        }
+      ],
+      "name": "仿效",
+      "type": "一般",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "051",
+          "name": "三地鼠"
+        },
+        {
+          "id": "051A",
+          "name": "三地鼠"
+        },
+        {
+          "id": "052A",
+          "name": "喵喵"
+        },
+        {
+          "id": "053A",
+          "name": "猫老大"
+        },
+        {
+          "id": "434",
+          "name": "臭鼬噗"
+        },
+        {
+          "id": "435",
+          "name": "坦克臭鼬"
+        },
+        {
+          "id": "461",
+          "name": "玛狃拉"
+        },
+        {
+          "id": "571",
+          "name": "索罗亚克"
+        },
+        {
+          "id": "908",
+          "name": "魔幻假面喵"
+        }
+      ],
+      "name": "暗袭要害",
+      "type": "恶",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "空气之刃",
+      "type": "飞行",
+      "category": "特殊",
+      "power": "75",
+      "accuracy": "95",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "圣剑",
+      "type": "格斗",
+      "category": "物理",
+      "power": "90",
+      "accuracy": "100",
+      "pp": "15"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "水波刀",
+      "type": "水",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "20"
     }
   ],
   "home_images": [

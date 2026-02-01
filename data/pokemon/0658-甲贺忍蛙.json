@@ -90,6 +90,34 @@
         "水中1群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 3
+        }
+      ],
+      "base_exp": "239",
+      "battle_exp": "2391",
       "gender_ratio": {
         "male": 87.5,
         "female": 12.5
@@ -120,6 +148,34 @@
         "未发现群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 3
+        }
+      ],
+      "base_exp": "288",
+      "battle_exp": "2881",
       "gender_ratio": {
         "male": 100,
         "female": 0
@@ -150,6 +206,34 @@
         "水中1群"
       ],
       "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 3
+        }
+      ],
+      "base_exp": "239",
+      "battle_exp": "2391",
       "gender_ratio": {
         "male": 87.5,
         "female": 12.5
@@ -998,7 +1082,97 @@
       "pp": "15"
     }
   ],
-  "egg_moves": [],
+  "egg_moves": [
+    {
+      "parents": [
+        {
+          "id": "0833",
+          "name": "咬咬龟"
+        },
+        {
+          "id": "0834",
+          "name": "暴噬龟"
+        }
+      ],
+      "name": "双倍奉还",
+      "type": "格斗",
+      "category": "物理",
+      "power": "变化",
+      "accuracy": "100",
+      "pp": "20"
+    },
+    {
+      "parents": [],
+      "name": "撒菱",
+      "type": "地面",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0194P",
+          "name": "乌波"
+        },
+        {
+          "id": "0747",
+          "name": "好坏星"
+        },
+        {
+          "id": "0748",
+          "name": "超坏星"
+        },
+        {
+          "id": "0980",
+          "name": "土王"
+        }
+      ],
+      "name": "毒菱",
+      "type": "毒",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "—",
+      "pp": "20"
+    },
+    {
+      "parents": [
+        {
+          "id": "0686",
+          "name": "好啦鱿"
+        },
+        {
+          "id": "0687",
+          "name": "乌贼王"
+        }
+      ],
+      "name": "掉包",
+      "type": "恶",
+      "category": "变化",
+      "power": "—",
+      "accuracy": "100",
+      "pp": "10"
+    },
+    {
+      "parents": [
+        {
+          "id": null,
+          "name": "模仿香草"
+        },
+        {
+          "id": null,
+          "name": "模仿香草（道具）"
+        }
+      ],
+      "name": "报仇",
+      "type": "一般",
+      "category": "物理",
+      "power": "70",
+      "accuracy": "100",
+      "pp": "5"
+    }
+  ],
   "home_images": [
     {
       "name": "甲贺忍蛙",

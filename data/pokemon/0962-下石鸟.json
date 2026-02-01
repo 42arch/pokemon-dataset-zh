@@ -79,6 +79,34 @@
         "飞行群"
       ],
       "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 2
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "0",
+      "battle_exp": "1",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -193,19 +221,7 @@
       ]
     }
   ],
-  "evolution_chains": [
-    [
-      {
-        "name": "下石鸟",
-        "stage": "不进化",
-        "text": null,
-        "image": "962Bombirdier_Dream.png",
-        "back_text": null,
-        "from": null,
-        "form_name": null
-      }
-    ]
-  ],
+  "evolution_chains": [],
   "mega_evolution": [],
   "gigantamax_evolution": [],
   "learnable_moves": [

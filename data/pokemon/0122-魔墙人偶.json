@@ -104,6 +104,34 @@
         "人型群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 2
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "161",
+      "battle_exp": "1611",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -142,6 +170,34 @@
         "人型群"
       ],
       "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 2
+        }
+      ],
+      "base_exp": "",
+      "battle_exp": "",
       "gender_ratio": {
         "male": 50,
         "female": 50
@@ -466,18 +522,18 @@
       {
         "name": "魔墙人偶",
         "stage": "1阶进化",
-        "text": "学会模仿时提升等级（在其他地区）",
+        "text": "学会模仿时提升等级（在其他地区） ；携带奇异薰香生蛋；生蛋",
         "image": "122Mr._Mime_Dream.png",
-        "back_text": "携带奇异薰香生蛋",
+        "back_text": "携带奇异薰香生蛋；生蛋",
         "from": "魔尼尼",
         "form_name": null
       },
       {
         "name": "魔墙人偶",
         "stage": "1阶进化",
-        "text": "学会模仿时提升等级（在伽勒尔地区）",
+        "text": "学会模仿时提升等级（在伽勒尔地区） ；携带奇异薰香生蛋；生蛋",
         "image": "122Mr._Mime-Galar_Dream.png",
-        "back_text": "携带奇异薰香生蛋",
+        "back_text": "携带奇异薰香生蛋；生蛋",
         "from": "魔尼尼",
         "form_name": "伽勒尔的样子"
       },
@@ -494,579 +550,9 @@
   ],
   "mega_evolution": [],
   "gigantamax_evolution": [],
-  "learnable_moves": [
-    {
-      "level": "—",
-      "name": "力量互换",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "—",
-      "name": "防守互换",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "—",
-      "name": "再来一次",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "5"
-    },
-    {
-      "level": "—",
-      "name": "快速防守",
-      "type": "格斗",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "15"
-    },
-    {
-      "level": "—",
-      "name": "仿效",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "level": "—",
-      "name": "拍击",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "level": "—",
-      "name": "接棒",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "40"
-    },
-    {
-      "level": "—",
-      "name": "广域防守",
-      "type": "岩石",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "12",
-      "name": "念力",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "50",
-      "accuracy": "100",
-      "pp": "25"
-    },
-    {
-      "level": "16",
-      "name": "扮演",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "20",
-      "name": "守住",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "24",
-      "name": "回收利用",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "28",
-      "name": "幻象光线",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "65",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "level": "32",
-      "name": "模仿",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "level": "36",
-      "name": "光墙",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "30"
-    },
-    {
-      "level": "36",
-      "name": "神秘守护",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "25"
-    },
-    {
-      "level": "36",
-      "name": "反射壁",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "level": "40",
-      "name": "突袭",
-      "type": "恶",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "5"
-    },
-    {
-      "level": "44",
-      "name": "魔法闪耀",
-      "type": "妖精",
-      "category": "特殊",
-      "power": "80",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "level": "48",
-      "name": "精神强念",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "90",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "level": "52",
-      "name": "摇晃舞",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "20"
-    }
-  ],
-  "machine_moves": [
-    {
-      "machine": "—",
-      "name": "力量互换",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "防守互换",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "再来一次",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "5"
-    },
-    {
-      "machine": "—",
-      "name": "快速防守",
-      "type": "格斗",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "15"
-    },
-    {
-      "machine": "—",
-      "name": "仿效",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "拍击",
-      "type": "一般",
-      "category": "物理",
-      "power": "40",
-      "accuracy": "100",
-      "pp": "35"
-    },
-    {
-      "machine": "—",
-      "name": "接棒",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "40"
-    },
-    {
-      "machine": "—",
-      "name": "广域防守",
-      "type": "岩石",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "念力",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "50",
-      "accuracy": "100",
-      "pp": "25"
-    },
-    {
-      "machine": "—",
-      "name": "扮演",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "守住",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "回收利用",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "幻象光线",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "65",
-      "accuracy": "100",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "模仿",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "光墙",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "30"
-    },
-    {
-      "machine": "—",
-      "name": "神秘守护",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "25"
-    },
-    {
-      "machine": "—",
-      "name": "反射壁",
-      "type": "超能力",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "—",
-      "pp": "20"
-    },
-    {
-      "machine": "—",
-      "name": "突袭",
-      "type": "恶",
-      "category": "物理",
-      "power": "70",
-      "accuracy": "100",
-      "pp": "5"
-    },
-    {
-      "machine": "—",
-      "name": "魔法闪耀",
-      "type": "妖精",
-      "category": "特殊",
-      "power": "80",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "精神强念",
-      "type": "超能力",
-      "category": "特殊",
-      "power": "90",
-      "accuracy": "100",
-      "pp": "10"
-    },
-    {
-      "machine": "—",
-      "name": "摇晃舞",
-      "type": "一般",
-      "category": "变化",
-      "power": "—",
-      "accuracy": "100",
-      "pp": "20"
-    }
-  ],
-  "egg_moves": [
-    {
-      "parents": [],
-      "name": "—",
-      "type": "力量互换[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "防守互换[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "再来一次[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "快速防守[详]",
-      "category": "格斗",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "仿效[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "拍击[详]",
-      "category": "一般",
-      "power": "物理",
-      "accuracy": "40",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "接棒[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "广域防守[详]",
-      "category": "岩石",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "念力[详]",
-      "category": "超能力",
-      "power": "特殊",
-      "accuracy": "50",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "扮演[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "守住[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "回收利用[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "幻象光线[详]",
-      "category": "超能力",
-      "power": "特殊",
-      "accuracy": "65",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "模仿[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "光墙[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "神秘守护[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "反射壁[详]",
-      "category": "超能力",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "—"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "突袭[详]",
-      "category": "恶",
-      "power": "物理",
-      "accuracy": "70",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "魔法闪耀[详]",
-      "category": "妖精",
-      "power": "特殊",
-      "accuracy": "80",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "精神强念[详]",
-      "category": "超能力",
-      "power": "特殊",
-      "accuracy": "90",
-      "pp": "100"
-    },
-    {
-      "parents": [],
-      "name": "—",
-      "type": "摇晃舞[详]",
-      "category": "一般",
-      "power": "变化",
-      "accuracy": "—",
-      "pp": "100"
-    }
-  ],
+  "learnable_moves": [],
+  "machine_moves": [],
+  "egg_moves": [],
   "home_images": [
     {
       "name": "魔墙人偶",
