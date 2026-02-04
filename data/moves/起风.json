@@ -1,0 +1,594 @@
+{
+  "name_zh": "起风",
+  "name_ja": "かぜおこし",
+  "name_en": "Gust",
+  "type": "飞行",
+  "category": "特殊",
+  "pp": "35 （最大 56）",
+  "power": "40",
+  "accuracy": "100",
+  "range": "除自身以外场上一只宝可梦",
+  "description": "用翅膀将刮起的狂风袭向对手进行攻击。",
+  "intro": "起风（日文︰かぜおこし，英文︰Gust）是第一世代引入的飞行属性招式。",
+  "effect": [
+    "不是接触类招式",
+    "受守住影响",
+    "不受魔法反射影响",
+    "不可以被化为己用",
+    "受鹦鹉学舌影响",
+    "受王者之证等类似道具影响",
+    "是远程招式"
+  ],
+  "additional_effect": "攻击目标造成伤害。\n如果目标处于飞翔状态，威力翻倍。\n可以击中处于飞翔状态的宝可梦。",
+  "details": "在《红／绿／蓝》中，起风是波波、比比鸟和大比鸟家族的专用招式。\n起风是第二世代改变属性的四个招式之一（空手劈、起风、泼沙、咬住），它们在第一世代都是一般属性。\n尽管起风在各版游戏中的描述都提到了“用翅膀”刮起狂风，一些没有翅膀的宝可梦（例如水君、风妖精）也能学会该招式。\n这可能是因为这些宝可梦与风有所关联，水君“据说是北风的化身”“会随北风奔跑着离去”，风妖精“像风一样无孔不入”。\n起风是ＰＰ最多的特殊招式。",
+  "move_changes": "第二世代\n增加效果：可以击中处于飞翔状态的宝可梦，且若目标处于飞翔状态，威力翻倍。\n属性：一般.mw-parser-output .type-box-9,.mw-parser-output .type-box-9-other{position:relative;display:inline-block;overflow:hidden;margin:0 1px;height:20px;border-radius:10px;text-align:center;vertical-align:middle;white-space:nowrap;font-size:14px;line-height:20px}.mw-parser-output .type-box-9{padding-left:17px;width:60px}.mw-parser-output .type-box-9-other{width:80px}.mw-parser-output .type-box-9-icon{position:absolute;top:0;left:2px;width:20px;height:20px}.mw-parser-output .type-box-9-text{color:#fff}.mw-parser-output .type-box-9-一般{background-color:#9fa19f}.mw-parser-output .type-box-9-格斗,.mw-parser-output .type-box-9-格鬥{background-color:#ff8000}.mw-parser-output .type-box-9-飞行,.mw-parser-output .type-box-9-飛行{background-color:#81b9ef}.mw-parser-output .type-box-9-毒{background-color:#9141cb}.mw-parser-output .type-box-9-地面{background-color:#915121}.mw-parser-output .type-box-9-岩石{background-color:#afa981}.mw-parser-output .type-box-9-虫,.mw-parser-output .type-box-9-蟲{background-color:#91a119}.mw-parser-output .type-box-9-幽灵,.mw-parser-output .type-box-9-幽靈{background-color:#704170}.mw-parser-output .type-box-9-钢,.mw-parser-output .type-box-9-鋼{background-color:#60a1b8}.mw-parser-output .type-box-9-火{background-color:#e62829}.mw-parser-output .type-box-9-水{background-color:#2980ef}.mw-parser-output .type-box-9-草{background-color:#3fa129}.mw-parser-output .type-box-9-电,.mw-parser-output .type-box-9-電{background-color:#fac000}.mw-parser-output .type-box-9-超能力{background-color:#ef4179}.mw-parser-output .type-box-9-冰{background-color:#3fd8ff}.mw-parser-output .type-box-9-龙,.mw-parser-output .type-box-9-龍{background-color:#5060e1}.mw-parser-output .type-box-9-恶,.mw-parser-output .type-box-9-惡{background-color:#50413f}.mw-parser-output .type-box-9-妖精{background-color:#ef70ef}.mw-parser-output .type-box-9-星晶{background-color:#73c6bc} → 飞行\n仅在《传说 阿尔宙斯》中",
+  "learn_by_level_up": [
+    {
+      "id": "0012",
+      "name": "巴大蝶",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-22em 0"
+    },
+    {
+      "id": "0016",
+      "name": "波波",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-29em 0"
+    },
+    {
+      "id": "0017",
+      "name": "比比鸟",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-30em 0"
+    },
+    {
+      "id": "0018",
+      "name": "大比鸟",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-31em 0"
+    },
+    {
+      "id": "0041",
+      "name": "超音蝠",
+      "types": [
+        "毒",
+        "飞行"
+      ],
+      "icon": "-2em -2em"
+    },
+    {
+      "id": "0042",
+      "name": "大嘴蝠",
+      "types": [
+        "毒",
+        "飞行"
+      ],
+      "icon": "-4em -2em"
+    },
+    {
+      "id": "0049",
+      "name": "摩鲁蛾",
+      "types": [
+        "虫",
+        "毒"
+      ],
+      "icon": "-14em -2em"
+    },
+    {
+      "id": "0144",
+      "name": "急冻鸟",
+      "types": [
+        "冰",
+        "飞行"
+      ],
+      "icon": "-5em -6em"
+    },
+    {
+      "id": "0144",
+      "name": "急冻鸟-伽勒尔的样子",
+      "types": [
+        "超能力",
+        "飞行"
+      ],
+      "icon": "-6em -6em"
+    },
+    {
+      "id": "0146",
+      "name": "火焰鸟",
+      "types": [
+        "火",
+        "飞行"
+      ],
+      "icon": "-9em -6em"
+    },
+    {
+      "id": "0146",
+      "name": "火焰鸟-伽勒尔的样子",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "icon": "-10em -6em"
+    },
+    {
+      "id": "0169",
+      "name": "叉字蝠",
+      "types": [
+        "毒",
+        "飞行"
+      ],
+      "icon": "-39em -6em"
+    },
+    {
+      "id": "0193",
+      "name": "蜻蜻蜓",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-29em -7em"
+    },
+    {
+      "id": "0198",
+      "name": "黑暗鸦",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "icon": "-37em -7em"
+    },
+    {
+      "id": "0245",
+      "name": "水君",
+      "types": [
+        "水"
+      ],
+      "icon": "-13em -10em"
+    },
+    {
+      "id": "0249",
+      "name": "洛奇亚",
+      "types": [
+        "超能力",
+        "飞行"
+      ],
+      "icon": "-18em -10em"
+    },
+    {
+      "id": "0250",
+      "name": "凤王",
+      "types": [
+        "火",
+        "飞行"
+      ],
+      "icon": "-19em -10em"
+    },
+    {
+      "id": "0267",
+      "name": "狩猎凤蝶",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-3em -11em"
+    },
+    {
+      "id": "0269",
+      "name": "毒粉蛾",
+      "types": [
+        "虫",
+        "毒"
+      ],
+      "icon": "-6em -11em"
+    },
+    {
+      "id": "0284",
+      "name": "雨翅蛾",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-26em -11em"
+    },
+    {
+      "id": "0357",
+      "name": "热带龙",
+      "types": [
+        "草",
+        "飞行"
+      ],
+      "icon": "0 -14em"
+    },
+    {
+      "id": "0396",
+      "name": "姆克儿",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-12em -15em"
+    },
+    {
+      "id": "0397",
+      "name": "姆克鸟",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-14em -15em"
+    },
+    {
+      "id": "0398",
+      "name": "姆克鹰",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-16em -15em"
+    },
+    {
+      "id": "0413",
+      "name": "结草贵妇-草木蓑衣",
+      "types": [
+        "虫",
+        "草"
+      ],
+      "icon": "-2em -16em"
+    },
+    {
+      "id": "0413",
+      "name": "结草贵妇-砂土蓑衣",
+      "types": [
+        "虫",
+        "地面"
+      ],
+      "icon": "-3em -16em"
+    },
+    {
+      "id": "0413",
+      "name": "结草贵妇-垃圾蓑衣",
+      "types": [
+        "虫",
+        "钢"
+      ],
+      "icon": "-4em -16em"
+    },
+    {
+      "id": "0414",
+      "name": "绅士蛾",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-5em -16em"
+    },
+    {
+      "id": "0415",
+      "name": "三蜜蜂",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-6em -16em"
+    },
+    {
+      "id": "0416",
+      "name": "蜂女王",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-8em -16em"
+    },
+    {
+      "id": "0425",
+      "name": "飘飘球",
+      "types": [
+        "幽灵",
+        "飞行"
+      ],
+      "icon": "-24em -16em"
+    },
+    {
+      "id": "0426",
+      "name": "随风球",
+      "types": [
+        "幽灵",
+        "飞行"
+      ],
+      "icon": "-25em -16em"
+    },
+    {
+      "id": "0430",
+      "name": "乌鸦头头",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "icon": "-30em -16em"
+    },
+    {
+      "id": "0441",
+      "name": "聒噪鸟",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-1em -17em"
+    },
+    {
+      "id": "0456",
+      "name": "荧光鱼",
+      "types": [
+        "水"
+      ],
+      "icon": "-25em -17em"
+    },
+    {
+      "id": "0457",
+      "name": "霓虹鱼",
+      "types": [
+        "水"
+      ],
+      "icon": "-27em -17em"
+    },
+    {
+      "id": "0469",
+      "name": "远古巨蜓",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-6em -18em"
+    },
+    {
+      "id": "0519",
+      "name": "豆豆鸽",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-5em -20em"
+    },
+    {
+      "id": "0520",
+      "name": "咕咕鸽",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-6em -20em"
+    },
+    {
+      "id": "0521",
+      "name": "高傲雉鸡",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-7em -20em"
+    },
+    {
+      "id": "0527",
+      "name": "滚滚蝙蝠",
+      "types": [
+        "超能力",
+        "飞行"
+      ],
+      "icon": "-14em -20em"
+    },
+    {
+      "id": "0528",
+      "name": "心蝙蝠",
+      "types": [
+        "超能力",
+        "飞行"
+      ],
+      "icon": "-15em -20em"
+    },
+    {
+      "id": "0547",
+      "name": "风妖精",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "icon": "-35em -20em"
+    },
+    {
+      "id": "0561",
+      "name": "象征鸟",
+      "types": [
+        "超能力",
+        "飞行"
+      ],
+      "icon": "-17em -21em"
+    },
+    {
+      "id": "0629",
+      "name": "秃鹰丫头",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "icon": "-19em -23em"
+    },
+    {
+      "id": "0630",
+      "name": "秃鹰娜",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "icon": "-20em -23em"
+    },
+    {
+      "id": "0637",
+      "name": "火神蛾",
+      "types": [
+        "虫",
+        "火"
+      ],
+      "icon": "-27em -23em"
+    },
+    {
+      "id": "0641",
+      "name": "龙卷云",
+      "types": [
+        "飞行"
+      ],
+      "icon": "-31em -23em"
+    },
+    {
+      "id": "0666",
+      "name": "彩粉蝶",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-34em -24em"
+    },
+    {
+      "id": "0714",
+      "name": "嗡蝠",
+      "types": [
+        "飞行",
+        "龙"
+      ],
+      "icon": "-10em -27em"
+    },
+    {
+      "id": "0715",
+      "name": "音波龙",
+      "types": [
+        "飞行",
+        "龙"
+      ],
+      "icon": "-11em -27em"
+    },
+    {
+      "id": "0717",
+      "name": "伊裴尔塔尔",
+      "types": [
+        "恶",
+        "飞行"
+      ],
+      "icon": "-14em -27em"
+    },
+    {
+      "id": "0722",
+      "name": "木木枭",
+      "types": [
+        "草",
+        "飞行"
+      ],
+      "icon": "-23em -27em"
+    },
+    {
+      "id": "0723",
+      "name": "投羽枭",
+      "types": [
+        "草",
+        "飞行"
+      ],
+      "icon": "-24em -27em"
+    },
+    {
+      "id": "0724",
+      "name": "狙射树枭-洗翠的样子",
+      "types": [
+        "草",
+        "格斗"
+      ],
+      "icon": "-26em -27em"
+    },
+    {
+      "id": "0988",
+      "name": "爬地翅",
+      "types": [
+        "虫",
+        "格斗"
+      ],
+      "icon": "-38em -37em"
+    },
+    {
+      "id": "0994",
+      "name": "铁毒蛾",
+      "types": [
+        "火",
+        "毒"
+      ],
+      "icon": "-4em -38em"
+    }
+  ],
+  "learn_by_tm": [],
+  "learn_by_breeding": [
+    {
+      "id": "0041",
+      "name": "超音蝠",
+      "types": [
+        "毒",
+        "飞行"
+      ],
+      "icon": "-2em -2em"
+    },
+    {
+      "id": "0083",
+      "name": "大葱鸭",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-29em -3em"
+    },
+    {
+      "id": "0278",
+      "name": "长翅鸥",
+      "types": [
+        "水",
+        "飞行"
+      ],
+      "icon": "-19em -11em"
+    },
+    {
+      "id": "0290",
+      "name": "土居忍士",
+      "types": [
+        "虫",
+        "地面"
+      ],
+      "icon": "-32em -11em"
+    },
+    {
+      "id": "0328",
+      "name": "大颚蚁",
+      "types": [
+        "地面"
+      ],
+      "icon": "-4em -13em"
+    },
+    {
+      "id": "0580",
+      "name": "鸭宝宝",
+      "types": [
+        "水",
+        "飞行"
+      ],
+      "icon": "0 -22em"
+    }
+  ],
+  "learn_by_tutor": [],
+  "id": "16"
+}

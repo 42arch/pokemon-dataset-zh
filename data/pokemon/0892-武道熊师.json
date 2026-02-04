@@ -309,76 +309,166 @@
   ],
   "type_effectiveness": [
     {
-      "type": "一般",
-      "damage": "1"
+      "form": "一击流",
+      "types": [
+        "格斗",
+        "恶"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "2"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "0.5"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "0.5"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "0"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "0.25"
+        },
+        {
+          "type": "妖精",
+          "damage": "4"
+        }
+      ]
     },
     {
-      "type": "格斗",
-      "damage": "2"
-    },
-    {
-      "type": "飞行",
-      "damage": "2"
-    },
-    {
-      "type": "毒",
-      "damage": "1"
-    },
-    {
-      "type": "地面",
-      "damage": "1"
-    },
-    {
-      "type": "岩石",
-      "damage": "0.5"
-    },
-    {
-      "type": "虫",
-      "damage": "1"
-    },
-    {
-      "type": "幽灵",
-      "damage": "0.5"
-    },
-    {
-      "type": "钢",
-      "damage": "1"
-    },
-    {
-      "type": "火",
-      "damage": "1"
-    },
-    {
-      "type": "水",
-      "damage": "1"
-    },
-    {
-      "type": "草",
-      "damage": "1"
-    },
-    {
-      "type": "电",
-      "damage": "1"
-    },
-    {
-      "type": "超能力",
-      "damage": "0"
-    },
-    {
-      "type": "冰",
-      "damage": "1"
-    },
-    {
-      "type": "龙",
-      "damage": "1"
-    },
-    {
-      "type": "恶",
-      "damage": "0.25"
-    },
-    {
-      "type": "妖精",
-      "damage": "4"
+      "form": "连击流",
+      "types": [
+        "格斗",
+        "水"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "0.5"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "0.5"
+        },
+        {
+          "type": "火",
+          "damage": "0.5"
+        },
+        {
+          "type": "水",
+          "damage": "0.5"
+        },
+        {
+          "type": "草",
+          "damage": "2"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "2"
+        },
+        {
+          "type": "冰",
+          "damage": "0.5"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "0.5"
+        },
+        {
+          "type": "妖精",
+          "damage": "2"
+        }
+      ]
     }
   ],
   "pokedex_entries": [
@@ -414,7 +504,7 @@
         "stage": "1阶进化",
         "text": "查看恶之挂轴 ；使用恶之挂轴",
         "image": "892Urshifu-Single_Strike_Dream.png",
-        "back_text": "",
+        "back_text": null,
         "from": "熊徒弟",
         "form_name": "一击流"
       },
@@ -423,7 +513,7 @@
         "stage": "1阶进化",
         "text": "查看水之挂轴 ；使用水之挂轴",
         "image": "892Urshifu-Rapid_Strike_Dream.png",
-        "back_text": "",
+        "back_text": null,
         "from": "熊徒弟",
         "form_name": "连击流"
       }

@@ -216,76 +216,85 @@
   ],
   "type_effectiveness": [
     {
-      "type": "一般",
-      "damage": "0.5"
-    },
-    {
-      "type": "格斗",
-      "damage": "1"
-    },
-    {
-      "type": "飞行",
-      "damage": "0.5"
-    },
-    {
-      "type": "毒",
-      "damage": "0"
-    },
-    {
-      "type": "地面",
-      "damage": "0"
-    },
-    {
-      "type": "岩石",
-      "damage": "1"
-    },
-    {
-      "type": "虫",
-      "damage": "0.25"
-    },
-    {
-      "type": "幽灵",
-      "damage": "1"
-    },
-    {
-      "type": "钢",
-      "damage": "0.5"
-    },
-    {
-      "type": "火",
-      "damage": "2"
-    },
-    {
-      "type": "水",
-      "damage": "1"
-    },
-    {
-      "type": "草",
-      "damage": "0.25"
-    },
-    {
-      "type": "电",
-      "damage": "2"
-    },
-    {
-      "type": "超能力",
-      "damage": "0.5"
-    },
-    {
-      "type": "冰",
-      "damage": "1"
-    },
-    {
-      "type": "龙",
-      "damage": "0.5"
-    },
-    {
-      "type": "恶",
-      "damage": "1"
-    },
-    {
-      "type": "妖精",
-      "damage": "0.5"
+      "form": "",
+      "types": [
+        "钢",
+        "飞行"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "0.5"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "0.5"
+        },
+        {
+          "type": "毒",
+          "damage": "0"
+        },
+        {
+          "type": "地面",
+          "damage": "0"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "0.25"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "0.5"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.25"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "0.5"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "0.5"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "0.5"
+        }
+      ]
     }
   ],
   "pokedex_entries": [
@@ -470,7 +479,19 @@
       ]
     }
   ],
-  "evolution_chains": [],
+  "evolution_chains": [
+    [
+      {
+        "name": "盔甲鸟",
+        "stage": "不进化",
+        "text": null,
+        "image": "227Skarmory_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
+    ]
+  ],
   "mega_evolution": [
     {
       "name": "盔甲鸟",

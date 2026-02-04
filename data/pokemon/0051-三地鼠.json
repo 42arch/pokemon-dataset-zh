@@ -239,76 +239,165 @@
   ],
   "type_effectiveness": [
     {
-      "type": "一般",
-      "damage": "1"
+      "form": "",
+      "types": [
+        "地面"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "0.5"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "0.5"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "2"
+        },
+        {
+          "type": "草",
+          "damage": "2"
+        },
+        {
+          "type": "电",
+          "damage": "0"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "2"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
     },
     {
-      "type": "格斗",
-      "damage": "1"
-    },
-    {
-      "type": "飞行",
-      "damage": "1"
-    },
-    {
-      "type": "毒",
-      "damage": "0.5"
-    },
-    {
-      "type": "地面",
-      "damage": "1"
-    },
-    {
-      "type": "岩石",
-      "damage": "0.5"
-    },
-    {
-      "type": "虫",
-      "damage": "1"
-    },
-    {
-      "type": "幽灵",
-      "damage": "1"
-    },
-    {
-      "type": "钢",
-      "damage": "1"
-    },
-    {
-      "type": "火",
-      "damage": "1"
-    },
-    {
-      "type": "水",
-      "damage": "2"
-    },
-    {
-      "type": "草",
-      "damage": "2"
-    },
-    {
-      "type": "电",
-      "damage": "0"
-    },
-    {
-      "type": "超能力",
-      "damage": "1"
-    },
-    {
-      "type": "冰",
-      "damage": "2"
-    },
-    {
-      "type": "龙",
-      "damage": "1"
-    },
-    {
-      "type": "恶",
-      "damage": "1"
-    },
-    {
-      "type": "妖精",
-      "damage": "1"
+      "form": "阿罗拉",
+      "types": [
+        "地面",
+        "钢"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "0.5"
+        },
+        {
+          "type": "格斗",
+          "damage": "2"
+        },
+        {
+          "type": "飞行",
+          "damage": "0.5"
+        },
+        {
+          "type": "毒",
+          "damage": "0"
+        },
+        {
+          "type": "地面",
+          "damage": "2"
+        },
+        {
+          "type": "岩石",
+          "damage": "0.25"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "0.5"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "2"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "0"
+        },
+        {
+          "type": "超能力",
+          "damage": "0.5"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "0.5"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "0.5"
+        }
+      ]
     }
   ],
   "pokedex_entries": [
@@ -539,7 +628,7 @@
         "stage": "1阶进化",
         "text": "等级26以上",
         "image": "051Dugtrio_Dream.png",
-        "back_text": "",
+        "back_text": null,
         "from": "地鼠",
         "form_name": null
       }
@@ -559,7 +648,7 @@
         "stage": "1阶进化",
         "text": "等级26以上",
         "image": "051Dugtrio-Alola_Dream.png",
-        "back_text": "",
+        "back_text": null,
         "from": "地鼠",
         "form_name": "阿罗拉的样子"
       }

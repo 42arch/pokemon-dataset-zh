@@ -26,7 +26,28 @@ function cleanText(text) {
     return text.replace(/\[\d+\]/g, '').trim();
 }
 
-function scrapeMoveDetail(moveNameOrFile) {
+function scrapeMoveDetail(moveNameOrFile, is_z=false) {
+    // Load CSS for icons
+    const cssPath = path.join(__dirname, '../data/raw/msp.css');
+    const spriteMap = {};
+    if (fs.existsSync(cssPath)) {
+        const cssContent = fs.readFileSync(cssPath, 'utf8');
+        const rules = cssContent.split('}');
+        rules.forEach(rule => {
+            if (!rule.includes('{')) return;
+            const [selectorsPart, stylesPart] = rule.split('{');
+            const match = stylesPart.match(/background-position:([^;]+)/);
+            if (match) {
+                const position = match[1];
+                const selectors = selectorsPart.split(',');
+                selectors.forEach(sel => {
+                    const className = sel.trim().replace('.', '');
+                    spriteMap[className] = position;
+                });
+            }
+        });
+    }
+
     let htmlContent;
     let moveName;
 
@@ -36,7 +57,8 @@ function scrapeMoveDetail(moveNameOrFile) {
         moveName = path.basename(moveNameOrFile, '.html');
     } else {
         moveName = moveNameOrFile;
-        const url = `https://wiki.52poke.com/wiki/${encodeURIComponent(moveName)}?variant=zh-hans`;
+        const suffix = is_z ? '' : '（招式）';
+        const url = `https://wiki.52poke.com/wiki/${encodeURIComponent(moveName + suffix)}?variant=zh-hans`;
         htmlContent = fetchPage(url);
     }
 
@@ -117,15 +139,13 @@ function scrapeMoveDetail(moveNameOrFile) {
 
 
     // 3. Effect (formerly Collapsed Effects)
-    let effect = '';
+    let effect = [];
     const collapsedDiv = $('#mw-customcollapsible-moveBoxMore');
     if (collapsedDiv.length > 0) {
         const listItems = collapsedDiv.find('li');
-        const effects = [];
         listItems.each((i, li) => {
-            effects.push($(li).text().trim());
+            effect.push($(li).text().trim());
         });
-        effect = effects.join('\n');
     }
 
     // 4. Range (范围)
@@ -165,6 +185,7 @@ function scrapeMoveDetail(moveNameOrFile) {
     additional_effect = cleanText(additional_effect);
 
     // 5. Game Descriptions (招式说明)
+    /*
     const game_descriptions = [];
     const descHeader = $('#招式说明').closest('h2');
     if (descHeader.length > 0) {
@@ -180,6 +201,7 @@ function scrapeMoveDetail(moveNameOrFile) {
             });
         }
     }
+    */
 
     // 6. Details (细节)
     let details = '';
@@ -223,10 +245,13 @@ function scrapeMoveDetail(moveNameOrFile) {
                 const id = $(tds[0]).text().trim();
                 
                 const spriteSpan = $(tds[1]).find('span.sprite-icon');
-                let sprite_class = '';
+                let icon = '';
                 if (spriteSpan.length > 0) {
                     const classes = spriteSpan.attr('class').split(/\s+/);
-                    sprite_class = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    const iconClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                     if (iconClass && spriteMap[iconClass]) {
+                        icon = spriteMap[iconClass];
+                    }
                 }
 
                 const nameCell = $(tds[2]);
@@ -237,7 +262,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                 if (formSmall.length > 0) {
                     const formText = formSmall.text().trim();
                     if (formText) {
-                        name += `（${formText}）`;
+                        name += `-${formText}`;
                     }
                 }
 
@@ -275,7 +300,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                         id,
                         name,
                         types,
-                        sprite_class
+                        icon
                     });
                 }
             });
@@ -295,10 +320,13 @@ function scrapeMoveDetail(moveNameOrFile) {
                 const id = $(tds[0]).text().trim();
                 
                 const spriteSpan = $(tds[1]).find('span.sprite-icon');
-                let sprite_class = '';
+                let icon = '';
                 if (spriteSpan.length > 0) {
                     const classes = spriteSpan.attr('class').split(/\s+/);
-                    sprite_class = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    const iconClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    if (iconClass && spriteMap[iconClass]) {
+                        icon = spriteMap[iconClass];
+                    }
                 }
 
                 const nameCell = $(tds[2]);
@@ -309,7 +337,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                 if (formSmall.length > 0) {
                     const formText = formSmall.text().trim();
                     if (formText) {
-                        name += `（${formText}）`;
+                        name += `-${formText}`;
                     }
                 }
 
@@ -332,7 +360,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                         id,
                         name,
                         types,
-                        sprite_class
+                        icon
                     });
                 }
             });
@@ -352,10 +380,13 @@ function scrapeMoveDetail(moveNameOrFile) {
                 const id = $(tds[0]).text().trim();
                 
                 const spriteSpan = $(tds[1]).find('span.sprite-icon');
-                let sprite_class = '';
+                let icon = '';
                 if (spriteSpan.length > 0) {
                     const classes = spriteSpan.attr('class').split(/\s+/);
-                    sprite_class = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    const iconClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    if (iconClass && spriteMap[iconClass]) {
+                        icon = spriteMap[iconClass];
+                    }
                 }
 
                 const nameCell = $(tds[2]);
@@ -366,7 +397,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                 if (formSmall.length > 0) {
                     const formText = formSmall.text().trim();
                     if (formText) {
-                        name += `（${formText}）`;
+                        name += `-${formText}`;
                     }
                 }
 
@@ -389,7 +420,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                         id,
                         name,
                         types,
-                        sprite_class
+                        icon
                     });
                 }
             });
@@ -409,10 +440,13 @@ function scrapeMoveDetail(moveNameOrFile) {
                 const id = $(tds[0]).text().trim();
                 
                 const spriteSpan = $(tds[1]).find('span.sprite-icon');
-                let sprite_class = '';
+                let icon = '';
                 if (spriteSpan.length > 0) {
                     const classes = spriteSpan.attr('class').split(/\s+/);
-                    sprite_class = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    const iconClass = classes.find(c => c.startsWith('sprite-icon-') && c !== 'sprite-icon' && c !== 'sprite-icon-shiny') || '';
+                    if (iconClass && spriteMap[iconClass]) {
+                        icon = spriteMap[iconClass];
+                    }
                 }
 
                 const nameCell = $(tds[2]);
@@ -423,7 +457,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                 if (formSmall.length > 0) {
                     const formText = formSmall.text().trim();
                     if (formText) {
-                        name += `（${formText}）`;
+                        name += `-${formText}`;
                     }
                 }
 
@@ -446,7 +480,7 @@ function scrapeMoveDetail(moveNameOrFile) {
                         id,
                         name,
                         types,
-                        sprite_class
+                        icon
                     });
                 }
             });
@@ -467,7 +501,7 @@ function scrapeMoveDetail(moveNameOrFile) {
         intro,
         effect,
         additional_effect,
-        game_descriptions,
+        // game_descriptions,
         details,
         move_changes,
         learn_by_level_up,
@@ -476,18 +510,19 @@ function scrapeMoveDetail(moveNameOrFile) {
         learn_by_tutor
     };
 
-    console.log("Extracted Data:", JSON.stringify(result, null, 2));
-
-    const savePath = path.join(DATA_DIR, `${name_zh}.json`);
-    fs.writeFileSync(savePath, JSON.stringify(result, null, 2), 'utf8');
-    console.log(`Saved to ${savePath}`);
+    return result;
 }
 
 // CLI usage
 if (require.main === module) {
     const arg = process.argv[2];
     if (arg) {
-        scrapeMoveDetail(arg);
+        const result = scrapeMoveDetail(arg);
+        if (result) {
+            const savePath = path.join(DATA_DIR, `${result.name_zh}.json`);
+            fs.writeFileSync(savePath, JSON.stringify(result, null, 2), 'utf8');
+            console.log(`Saved to ${savePath}`);
+        }
     } else {
         console.log("Usage: node move_info_crawler.js <MoveName|FilePath>");
     }

@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const { scrapeAbilityDetail } = require('./ability_info_crawler');
 
-const DATA_FILE = path.join(__dirname, '../data/ability.json');
-const OUTPUT_DIR = path.join(__dirname, '../data/ability');
+const DATA_FILE = path.join(__dirname, '../data/ability_list.json');
+const OUTPUT_DIR = path.join(__dirname, '../data/abilities');
 
 async function runBatch() {
     if (!fs.existsSync(DATA_FILE)) {

@@ -714,15 +714,6 @@ async function scrapePokemonDetail(inputNameOrUrl) {
         fs.mkdirSync(dirPath, { recursive: true });
     }
 
-    // 6. Evolution Chain
-    let evolutionChains = [];
-    if (EVOLUTION_CHAINS[nameZh]) {
-        console.log(`Using fixed evolution data for ${nameZh}`);
-        evolutionChains = EVOLUTION_CHAINS[nameZh];
-    } else {
-        evolutionChains = extractEvolutionChain($, dirPath);
-    }
-
     // 7. Form Images
     const formImages = extractFormImages($, pokedexId, nameZh);
     
@@ -735,6 +726,28 @@ async function scrapePokemonDetail(inputNameOrUrl) {
             form.image = null;
         }
     });
+
+    // 6. Evolution Chain
+    let evolutionChains = [];
+    if (EVOLUTION_CHAINS[nameZh]) {
+        console.log(`Using fixed evolution data for ${nameZh}`);
+        evolutionChains = EVOLUTION_CHAINS[nameZh];
+    } else {
+        evolutionChains = extractEvolutionChain($, dirPath);
+    }
+
+    // Fallback for Pokemon with no evolution: Create a single-node chain
+    if (evolutionChains.length === 0 && forms.length > 0) {
+        evolutionChains = [[{
+            name: nameZh,
+            stage: "未进化",
+            text: null,
+            image: forms[0].image, // Fallback to official artwork
+            back_text: null,
+            from: null,
+            form_name: forms[0].name === nameZh ? null : forms[0].name
+        }]];
+    }
 
     // 8. Learnable Moves
     const learnableMoves = extractLearnableMoves($);
@@ -1225,69 +1238,38 @@ function processEvolutionTable($, evolutionTable, downloadDir) {
         
         for (let index = 0; index < allTdList.length; index++) {
             const $td = allTdList[index];
-            const node = {
-                name: null, stage: null, text: null, image: null, back_text: null, from: null, form_name: null, imageUrl: null
-            };
-
-            // Heuristic: If current cell is a Pokemon, add it.
-            // If it's an arrow/condition, store it for next pokemon.
-            
             const res = extractPokemonData($, $td);
             if (res) {
-                console.log(`Found pokemon: ${res.name} (${res.form_name}) at index ${index}`);
-                Object.assign(node, res);
-                
-                // Link to previous node
-                // We look backwards for the condition and the source
+                const node = { ...res, text: null, back_text: null, from: null };
                 
                 // If this is a "Basic" stage, it starts a new chain, so no parent.
-                if (node.stage === '未进化' || node.stage === '幼年') {
+                if (node.stage === '未进化' || node.stage === '幼年' || node.stage === '不进化') {
                     node.from = null;
-                } else {
-                    // Look back
-                    if (index > 0) {
-                        let prevIndex = index - 1;
-                        let condition = { text: '', back_text: '' };
-                        
-                        // Check if previous cell is condition (not a pokemon)
-                        const prevRes = extractPokemonData($, allTdList[prevIndex]);
-                        if (!prevRes) {
-                            condition = getCondition(allTdList[prevIndex]);
-                            prevIndex--;
-                        }
-                        
-                        // Now prevIndex should be the parent Pokemon
-                        if (prevIndex >= 0) {
-                            const parentRes = extractPokemonData($, allTdList[prevIndex]);
-                            if (parentRes) {
-                                node.from = parentRes.name;
-                                node.text = condition.text;
-                                node.back_text = condition.back_text;
-                                
-                                // Handle branching siblings:
-                                // If parent has same stage as current, it's likely a sibling, so they share the same parent.
-                                // E.g. Eevee -> Vaporeon | Jolteon
-                                // [Eevee] [Arrow] [Vaporeon] [Jolteon] (if jolteon is next cell?) 
-                                // No, usually [Eevee] [Arrow] [Vaporeon] [Arrow] [Jolteon] is invalid.
-                                // Usually structure is:
-                                // [Eevee]
-                                // [Arr] [Vap]
-                                // [Arr] [Jolt]
-                                
-                                // If we flattened, it becomes: [Eevee] [Arr] [Vap] [Arr] [Jolt]
-                                // Index 0: Eevee
-                                // Index 2: Vap. Prev is Arr. PrevPrev is Eevee. Link Eevee.
-                                // Index 4: Jolt. Prev is Arr. PrevPrev is Vap (Index 2).
-                                // Vap is Stage 1. Jolt is Stage 1.
-                                // If parent (Vap) is same stage as me (Jolt), we are siblings.
-                                // So my parent is Vap's parent.
-                                
-                                if (parentRes.stage === node.stage) {
-                                    // Find parent node in `nodes` array
-                                    const parentNode = nodes.find(n => n.name === parentRes.name);
-                                    if (parentNode) {
-                                        node.from = parentNode.from;
-                                    }
+                    node.text = null;
+                    node.back_text = null;
+                } else if (index > 0) {
+                    let prevIndex = index - 1;
+                    let condition = { text: null, back_text: null };
+                    
+                    // Check if previous cell is condition (not a pokemon)
+                    const prevRes = extractPokemonData($, allTdList[prevIndex]);
+                    if (!prevRes) {
+                        condition = getCondition(allTdList[prevIndex]);
+                        prevIndex--;
+                    }
+                    
+                    // Now prevIndex should be the parent Pokemon
+                    if (prevIndex >= 0) {
+                        const parentRes = extractPokemonData($, allTdList[prevIndex]);
+                        if (parentRes) {
+                            node.from = parentRes.name;
+                            node.text = condition.text;
+                            node.back_text = condition.back_text;
+                            
+                            if (parentRes.stage === node.stage) {
+                                const parentNode = nodes.find(n => n.name === parentRes.name);
+                                if (parentNode) {
+                                    node.from = parentNode.from;
                                 }
                             }
                         }
@@ -1330,7 +1312,7 @@ function processEvolutionTable($, evolutionTable, downloadDir) {
 
             if (!node.from) {
                 // New root starts a new chain segment
-                if (currentChain.length >= 2) {
+                if (currentChain.length >= 1) {
                     groupedChains.push(currentChain);
                 }
                 currentChain = [node];
@@ -1338,7 +1320,7 @@ function processEvolutionTable($, evolutionTable, downloadDir) {
                 currentChain.push(node);
             }
         }
-        if (currentChain.length >= 2) {
+        if (currentChain.length >= 1) {
             groupedChains.push(currentChain);
         }
         
@@ -1375,7 +1357,11 @@ function getCondition($td) {
     evoText = evoText.replace(/；+/g, '；').replace(/^；|；$/g, '').trim();
     
     // Clean up special characters like * and references
-    const clean = (str) => str ? str.replace(/[\*＊]/g, '').replace(/\[\d+\]/g, '').trim() : '';
+    const clean = (str) => {
+        if (!str) return null;
+        const res = str.replace(/[\*＊]/g, '').replace(/\[\d+\]/g, '').trim();
+        return res || null;
+    };
     
     return { text: clean(evoText), back_text: clean(backText) };
 }
@@ -1788,146 +1774,142 @@ function extractDetails($) {
 }
 
 function extractTypeEffectiveness($) {
-    let table = null;
+    const results = [];
     const header = $('#属性相性').closest('h3');
-    
-    if (header.length > 0) {
-        // Check for tabber structure first
-        const tabber = header.nextAll('.tabber').first();
-        // Ensure the tabber is actually belonging to this section (e.g. before next header)
-        // Usually nextAll finds siblings. If tabber is immediately after, it's fine.
-        
-        if (tabber.length > 0) {
-            // Try to find "一般" tab
-            let tab = tabber.find('.tabbertab[title="一般"]').first();
-            if (tab.length === 0) {
-                // If no "一般" tab, maybe "普通"? Or just the first tab?
-                // For safety, default to first tab if "一般" not found, 
-                // but usually "一般" or the Pokemon's name is used.
-                // Let's try to match form names or default to first.
-                tab = tabber.find('.tabbertab').first();
-            }
+    if (header.length === 0) return [];
+
+    const tabber = header.nextAll('.tabber').first();
+    const tableEntries = [];
+
+    if (tabber.length > 0) {
+        tabber.find('.tabbertab').each((i, el) => {
+            const tabTitle = $(el).attr('title');
+            // Skip Inverse Battle tabs
+            if (tabTitle && tabTitle.includes('反转对战')) return;
             
-            if (tab.length > 0) {
-                table = tab.find('table').first();
+            const table = $(el).find('table').first();
+            if (table.length > 0) {
+                tableEntries.push({ form: tabTitle, table: table });
             }
-        }
-        
-        // If no table found in tabber (or no tabber), try direct sibling table
-        if (!table || table.length === 0) {
-            table = header.nextAll('table').first();
-        }
+        });
     } else {
-        // Fallback: Global search (risky, but kept for compatibility if header missing)
-        // But header missing is rare for Type Effectiveness.
-        const tab = $('.tabbertab[title="一般"]').first();
-        if (tab.length > 0) {
-            table = tab.find('table').first();
+        const table = header.nextAll('table').first();
+        if (table.length > 0) {
+            tableEntries.push({ form: null, table: table });
         }
     }
 
-    if (!table || table.length === 0) return [];
+    tableEntries.forEach(entry => {
+        const table = entry.table;
+        const baseForm = entry.form;
 
-    // console.log('Type effectiveness table found:', table.attr('class'));
-
-    const headers = [];
-    // Header row is the first row
-    const headerRow = table.find('tr').first();
-    
-    // Helper to extract headers from row
-    const extractHeaders = (row) => {
-        row.children().each((i, el) => {
-             const text = $(el).text().trim();
-             if (text !== '进攻招式属性') {
-                 headers.push(text);
-             }
-        });
-    };
-    
-    extractHeaders(headerRow);
-
-    // console.log('Headers:', headers);
-
-    // Now find the target row (Default form)
-    // We look for a row where the "variation" cell is empty
-    let targetRow = null;
-    
-    table.find('tr').each((i, tr) => {
-        if (i === 0) return; // Skip header
-        
-        const $tr = $(tr);
-        const variationCell = $tr.find('td.bd-变化');
-        
-        // If there is no variation cell (maybe single form table?), or it's empty
-        if (variationCell.length > 0) {
-            const text = variationCell.text().trim();
-            if (!text) {
-                targetRow = $tr;
-                return false; // Found it
+        const headers = [];
+        const headerRow = table.find('tr').first();
+        headerRow.children().each((i, el) => {
+            const text = $(el).text().trim();
+            if (text !== '进攻招式属性') {
+                headers.push(text);
             }
-        } else {
-            // No variation cell found? 
-            // In Corviknight html, the variation cell EXISTS but is empty. 
-            // If it didn't exist, we might be in a different table structure.
-        }
-    });
+        });
 
-    // Fallback: If no empty variation cell found, maybe it's a single form pokemon where parsing failed
-    // or simply the first data row is what we want.
-    if (!targetRow) {
+        if (headers.length === 0) return;
+
         table.find('tr').each((i, tr) => {
-            if (i === 0) return;
+            if (i === 0) return; // Skip header
             const $tr = $(tr);
             
-            // Check if it looks like a data row.
-            // It should have damage values.
-            // Corviknight: 2 type cells + 1 var cell + 18 damage cells = 21 cells.
+            // Use only visible cells - some use .hide, some use inline style
+            const tds = $tr.children('td').filter((idx, el) => {
+                const $el = $(el);
+                return !$el.hasClass('hide') && !($el.attr('style') || "").includes('display:none');
+            });
             
-            if ($tr.find('td').length >= headers.length) {
-                targetRow = $tr;
-                return false;
+            // A valid data row should have at least as many cells as headers
+            if (tds.length < headers.length) return;
+
+            // Extract variation/form info from the row
+            const variationCell = $tr.find('td.bd-变化');
+            let formName = variationCell.text().trim();
+            
+            // Skip Inverse Battle rows or specific generation data
+            if (formName && (formName.includes('反转对战') || formName.includes('Gen') || formName.includes('世代'))) return;
+
+            // Helper to wrap abilities in parentheses
+            const formatFormName = (name) => {
+                if (!name) return "";
+                const abilities = ['厚脂肪', '食草', '耐热', '干燥皮肤', '引火', '储水', '避雷针', '蓄电', '避震', '神奇守护', '飘浮', '漂浮'];
+                let formatted = name;
+                abilities.forEach(ability => {
+                    if (formatted.includes(ability) && !formatted.includes(`(${ability})`) && !formatted.includes(`（${ability}）`)) {
+                        formatted = formatted.replace(ability, `(${ability})`);
+                    }
+                });
+                return formatted;
+            };
+            
+            // Construct the final form name
+            let finalForm = "";
+            let baseName = baseForm === "一般" ? "" : (baseForm || "");
+            
+            // Skip if the base tab is a generation marker
+            if (baseName.includes('Gen') || baseName.includes('世代')) return;
+
+            formName = formatFormName(formName);
+            baseName = formatFormName(baseName);
+
+            if (baseName && formName) {
+                finalForm = `${baseName}-${formName}`;
+            } else {
+                finalForm = baseName || formName || "";
             }
+            // Clean up: handle cases like "超级进化-(厚脂肪)" -> "超级进化 (厚脂肪)"
+            finalForm = finalForm.replace(/-\(/g, ' (').replace(/\)$/, ')');
+
+            // Extract Types for this specific row
+            const damageStartIdx = tds.length - headers.length;
+            const types = [];
+            for (let j = 0; j < damageStartIdx; j++) {
+                const $cell = tds.eq(j);
+                if ($cell.hasClass('bd-变化')) continue;
+                const typeText = $cell.text().trim();
+                // Valid types are short and don't contain the word "属性"
+                if (typeText && typeText.length <= 4 && !typeText.includes('属性') && typeText !== '未知') {
+                    types.push(typeText);
+                }
+            }
+
+            const data = [];
+            for (let j = 0; j < headers.length; j++) {
+                const cell = tds.eq(damageStartIdx + j);
+                let damageText = cell.text().trim();
+                
+                if (damageText.includes('1⁄2') || damageText.includes('1/2')) {
+                    damageText = '0.5';
+                } else if (damageText.includes('1⁄4') || damageText.includes('1/4')) {
+                    damageText = '0.25';
+                } else if (damageText.includes('1⁄8') || damageText.includes('1/8')) {
+                    damageText = '0.125';
+                } else if (damageText === '') {
+                    damageText = '1';
+                } else {
+                    damageText = damageText.replace(/[^\d.]/g, '');
+                }
+                
+                data.push({
+                    type: headers[j],
+                    damage: damageText
+                });
+            }
+
+            results.push({
+                form: finalForm,
+                types: types,
+                data: data
+            });
         });
-    }
+    });
 
-    if (!targetRow) return [];
-
-    const result = [];
-    
-    // Extract data cells.
-    const cells = targetRow.find('td');
-    
-    // Calculate start index.
-    // The cells array includes Type cells (1 or 2), Variation cell (1), and Damage cells (18).
-    // The headers array has 18 types.
-    // So we want the last 18 cells.
-    
-    const startIdx = cells.length - headers.length;
-    
-    if (startIdx < 0) return []; // Something is wrong
-
-    for (let i = 0; i < headers.length; i++) {
-        const cell = cells.eq(startIdx + i);
-        let damageText = cell.text().trim();
-        
-        // Parse damage
-        if (damageText.includes('1⁄2') || damageText.includes('1/2')) {
-            damageText = '0.5';
-        } else if (damageText.includes('1⁄4') || damageText.includes('1/4')) {
-            damageText = '0.25';
-        } else if (damageText.includes('1⁄8') || damageText.includes('1/8')) {
-            damageText = '0.125';
-        } else if (damageText === '') {
-             damageText = '1'; // Default
-        }
-        
-        result.push({
-            type: headers[i],
-            damage: damageText
-        });
-    }
-
-    return result;
+    return results;
 }
 
 

@@ -1,0 +1,702 @@
+{
+  "name_zh": "围攻",
+  "name_ja": "ふくろだたき",
+  "name_en": "Beat Up",
+  "type": "恶",
+  "category": "物理",
+  "pp": "10 （最大 16）",
+  "power": "变化",
+  "accuracy": "100",
+  "range": "除自身以外场上一只可以攻击到的宝可梦",
+  "description": "我方全员进行攻击。同行的宝可梦越多，招式的攻击次数越多。",
+  "intro": "围攻（日文︰ふくろだたき，英文︰Beat Up）是第二世代引入的恶属性招式。",
+  "effect": [
+    "不是接触类招式",
+    "受守住影响",
+    "不受魔法反射影响",
+    "不可以被化为己用",
+    "受鹦鹉学舌影响",
+    "受王者之证等类似道具影响"
+  ],
+  "additional_effect": "攻击目标造成伤害，没有异常状态或昏厥的全部同行宝可梦都会攻击对手。招式的威力会根据同行宝可梦的攻击种族值变化。\n每一击的威力=使用方的一只同行宝可梦的攻击种族值⁄10 + 5。\n使用方的每一只同行宝可梦都会参与计算1次攻击的威力。\n每一击击中要害的概率都相等。\n如果某一下触发了目标的气势披带、气势头带、结实特性或打破了替身，招式会继续攻击。\n忍耐、金属爆炸和双倍奉还只计算最后一次的伤害。\n如果使用者持有王者之证或锐利之牙，或具有恶臭特性，每一下攻击都有相同的概率造成对手畏缩。\n如果目标拥有咒术之躯、碎裂铠甲特性，每一下攻击都会触发效果。即使特性发动令攻击方陷入一些可能无法行动的状态（如麻痹、畏缩、着迷、定身法状态），也不会影响本次攻击，但陷入睡眠和昏厥时攻击即刻停止。\n目标的变色特性在最后一下攻击完成后才发动。\n狙击手特性无效。",
+  "details": "",
+  "move_changes": "第三世代\n新增效果：如果在双打中用围攻攻击队友，队友会攻击自己。\n新增效果：如果使用者持有王者之证，每一下连续的攻击都会有相同的几率造成对手畏缩。\n效果变更：如果某一下打破了替身，招式会立刻停止 → 会继续攻击。\n第四世代\n新增效果：如果使用者持有锐利之牙，每一下连续的攻击都会有相同的几率造成对手畏缩。\n第五世代\n伤害属性：无属性.mw-parser-output .type-box-9,.mw-parser-output .type-box-9-other{position:relative;display:inline-block;overflow:hidden;margin:0 1px;height:20px;border-radius:10px;text-align:center;vertical-align:middle;white-space:nowrap;font-size:14px;line-height:20px}.mw-parser-output .type-box-9{padding-left:17px;width:60px}.mw-parser-output .type-box-9-other{width:80px}.mw-parser-output .type-box-9-icon{position:absolute;top:0;left:2px;width:20px;height:20px}.mw-parser-output .type-box-9-text{color:#fff}.mw-parser-output .type-box-9-一般{background-color:#9fa19f}.mw-parser-output .type-box-9-格斗,.mw-parser-output .type-box-9-格鬥{background-color:#ff8000}.mw-parser-output .type-box-9-飞行,.mw-parser-output .type-box-9-飛行{background-color:#81b9ef}.mw-parser-output .type-box-9-毒{background-color:#9141cb}.mw-parser-output .type-box-9-地面{background-color:#915121}.mw-parser-output .type-box-9-岩石{background-color:#afa981}.mw-parser-output .type-box-9-虫,.mw-parser-output .type-box-9-蟲{background-color:#91a119}.mw-parser-output .type-box-9-幽灵,.mw-parser-output .type-box-9-幽靈{background-color:#704170}.mw-parser-output .type-box-9-钢,.mw-parser-output .type-box-9-鋼{background-color:#60a1b8}.mw-parser-output .type-box-9-火{background-color:#e62829}.mw-parser-output .type-box-9-水{background-color:#2980ef}.mw-parser-output .type-box-9-草{background-color:#3fa129}.mw-parser-output .type-box-9-电,.mw-parser-output .type-box-9-電{background-color:#fac000}.mw-parser-output .type-box-9-超能力{background-color:#ef4179}.mw-parser-output .type-box-9-冰{background-color:#3fd8ff}.mw-parser-output .type-box-9-龙,.mw-parser-output .type-box-9-龍{background-color:#5060e1}.mw-parser-output .type-box-9-恶,.mw-parser-output .type-box-9-惡{background-color:#50413f}.mw-parser-output .type-box-9-妖精{background-color:#ef70ef}.mw-parser-output .type-box-9-星晶{background-color:#73c6bc} → 恶\n效果变更：围攻造成的伤害无法被神奇守护阻挡 → 可以被神奇守护阻挡。\n新增效果：如果目标拥有正义之心特性，每一击都会发动效果。\n新增效果：如果目标拥有碎裂铠甲特性，每一击都会发动效果。\n新增效果：如果使用者有恶臭特性，每一下连续的攻击都会有相同的几率造成对手畏缩，但不能和王者之证或锐利之牙共同作用。\n取消效果：每一下攻击时出现提示<宝可梦的名字>的攻击！ → 不出现提示。\n效果变更：连击尚未结束时如果触发了目标的气势披带、气势头带或结实特性，则之后的攻击无效 → 则下一击可以击倒目标。气势头带仍旧有可能发挥作用，但几率与之前要分开计算。\n效果变更：每一下攻击威力为10，伤害用每一只攻击的宝可梦的攻击和受到攻击的宝可梦的防御计算，忽略能力变化 → 用使用者的攻击代替使用围攻一方所有同行宝可梦的攻击来计算伤害，受到能力变化的影响。基础威力会根据同行宝可梦的攻击种族值变化。\n每一下攻击基础威力=使用围攻方的每一只同行宝可梦的攻击种族值⁄10 + 5。",
+  "learn_by_level_up": [
+    {
+      "id": "0215",
+      "name": "狃拉",
+      "types": [
+        "恶",
+        "冰"
+      ],
+      "icon": "-13em -9em"
+    },
+    {
+      "id": "0228",
+      "name": "戴鲁比",
+      "types": [
+        "恶",
+        "火"
+      ],
+      "icon": "-33em -9em"
+    },
+    {
+      "id": "0229",
+      "name": "黑鲁加",
+      "types": [
+        "恶",
+        "火"
+      ],
+      "icon": "-34em -9em"
+    },
+    {
+      "id": "0275",
+      "name": "狡猾天狗",
+      "types": [
+        "草",
+        "恶"
+      ],
+      "icon": "-15em -11em"
+    },
+    {
+      "id": "0461",
+      "name": "玛狃拉",
+      "types": [
+        "恶",
+        "冰"
+      ],
+      "icon": "-35em -17em"
+    },
+    {
+      "id": "0559",
+      "name": "滑滑小子",
+      "types": [
+        "恶",
+        "格斗"
+      ],
+      "icon": "-15em -21em"
+    },
+    {
+      "id": "0560",
+      "name": "头巾混混",
+      "types": [
+        "恶",
+        "格斗"
+      ],
+      "icon": "-16em -21em"
+    },
+    {
+      "id": "0632",
+      "name": "铁蚁",
+      "types": [
+        "虫",
+        "钢"
+      ],
+      "icon": "-22em -23em"
+    },
+    {
+      "id": "0746",
+      "name": "弱丁鱼",
+      "types": [
+        "水"
+      ],
+      "icon": "-13em -28em"
+    },
+    {
+      "id": "0766",
+      "name": "投掷猴",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-34em -28em"
+    },
+    {
+      "id": "0827",
+      "name": "狡小狐",
+      "types": [
+        "恶"
+      ],
+      "icon": "-10em -31em"
+    },
+    {
+      "id": "0828",
+      "name": "猾大狐",
+      "types": [
+        "恶"
+      ],
+      "icon": "-11em -31em"
+    },
+    {
+      "id": "0924",
+      "name": "一对鼠",
+      "types": [
+        "一般"
+      ],
+      "icon": "-1em -36em"
+    },
+    {
+      "id": "0925",
+      "name": "一家鼠",
+      "types": [
+        "一般"
+      ],
+      "icon": "-2em -36em"
+    },
+    {
+      "id": "1016",
+      "name": "吉雉鸡",
+      "types": [
+        "毒",
+        "妖精"
+      ],
+      "icon": "-29em -38em"
+    }
+  ],
+  "learn_by_tm": [
+    {
+      "id": "0004",
+      "name": "小火龙",
+      "types": [
+        "火"
+      ],
+      "icon": "-9em 0"
+    },
+    {
+      "id": "0005",
+      "name": "火恐龙",
+      "types": [
+        "火"
+      ],
+      "icon": "-10em 0"
+    },
+    {
+      "id": "0006",
+      "name": "喷火龙",
+      "types": [
+        "火",
+        "飞行"
+      ],
+      "icon": "-11em 0"
+    },
+    {
+      "id": "0029",
+      "name": "尼多兰",
+      "types": [
+        "毒"
+      ],
+      "icon": "-28em -1em"
+    },
+    {
+      "id": "0030",
+      "name": "尼多娜",
+      "types": [
+        "毒"
+      ],
+      "icon": "-29em -1em"
+    },
+    {
+      "id": "0031",
+      "name": "尼多后",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "icon": "-30em -1em"
+    },
+    {
+      "id": "0032",
+      "name": "尼多朗",
+      "types": [
+        "毒"
+      ],
+      "icon": "-31em -1em"
+    },
+    {
+      "id": "0033",
+      "name": "尼多力诺",
+      "types": [
+        "毒"
+      ],
+      "icon": "-32em -1em"
+    },
+    {
+      "id": "0034",
+      "name": "尼多王",
+      "types": [
+        "毒",
+        "地面"
+      ],
+      "icon": "-33em -1em"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "types": [
+        "地面"
+      ],
+      "icon": "-15em -2em"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠",
+      "types": [
+        "地面"
+      ],
+      "icon": "-17em -2em"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠-阿罗拉的样子",
+      "types": [
+        "地面",
+        "钢"
+      ],
+      "icon": "-16em -2em"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠-阿罗拉的样子",
+      "types": [
+        "地面",
+        "钢"
+      ],
+      "icon": "-18em -2em"
+    },
+    {
+      "id": "0053",
+      "name": "猫老大-阿罗拉的样子",
+      "types": [
+        "恶"
+      ],
+      "icon": "-24em -2em"
+    },
+    {
+      "id": "0115",
+      "name": "袋兽",
+      "types": [
+        "一般"
+      ],
+      "icon": "-38em -4em"
+    },
+    {
+      "id": "0151",
+      "name": "梦幻",
+      "types": [
+        "超能力"
+      ],
+      "icon": "-17em -6em"
+    },
+    {
+      "id": "0215",
+      "name": "狃拉",
+      "types": [
+        "恶",
+        "冰"
+      ],
+      "icon": "-13em -9em"
+    },
+    {
+      "id": "0273",
+      "name": "橡实果",
+      "types": [
+        "草"
+      ],
+      "icon": "-12em -11em"
+    },
+    {
+      "id": "0274",
+      "name": "长鼻叶",
+      "types": [
+        "草",
+        "恶"
+      ],
+      "icon": "-13em -11em"
+    },
+    {
+      "id": "0275",
+      "name": "狡猾天狗",
+      "types": [
+        "草",
+        "恶"
+      ],
+      "icon": "-15em -11em"
+    },
+    {
+      "id": "0416",
+      "name": "蜂女王",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-8em -16em"
+    },
+    {
+      "id": "0461",
+      "name": "玛狃拉",
+      "types": [
+        "恶",
+        "冰"
+      ],
+      "icon": "-35em -17em"
+    },
+    {
+      "id": "0546",
+      "name": "木棉球",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "icon": "-34em -20em"
+    },
+    {
+      "id": "0547",
+      "name": "风妖精",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "icon": "-35em -20em"
+    },
+    {
+      "id": "0551",
+      "name": "黑眼鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-3em -21em"
+    },
+    {
+      "id": "0552",
+      "name": "混混鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-4em -21em"
+    },
+    {
+      "id": "0553",
+      "name": "流氓鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-5em -21em"
+    },
+    {
+      "id": "0559",
+      "name": "滑滑小子",
+      "types": [
+        "恶",
+        "格斗"
+      ],
+      "icon": "-15em -21em"
+    },
+    {
+      "id": "0560",
+      "name": "头巾混混",
+      "types": [
+        "恶",
+        "格斗"
+      ],
+      "icon": "-16em -21em"
+    },
+    {
+      "id": "0584",
+      "name": "双倍多多冰",
+      "types": [
+        "冰"
+      ],
+      "icon": "-4em -22em"
+    },
+    {
+      "id": "0624",
+      "name": "驹刀小兵",
+      "types": [
+        "恶",
+        "钢"
+      ],
+      "icon": "-13em -23em"
+    },
+    {
+      "id": "0625",
+      "name": "劈斩司令",
+      "types": [
+        "恶",
+        "钢"
+      ],
+      "icon": "-14em -23em"
+    },
+    {
+      "id": "0632",
+      "name": "铁蚁",
+      "types": [
+        "虫",
+        "钢"
+      ],
+      "icon": "-22em -23em"
+    },
+    {
+      "id": "0634",
+      "name": "双首暴龙",
+      "types": [
+        "恶",
+        "龙"
+      ],
+      "icon": "-24em -23em"
+    },
+    {
+      "id": "0635",
+      "name": "三首恶龙",
+      "types": [
+        "恶",
+        "龙"
+      ],
+      "icon": "-25em -23em"
+    },
+    {
+      "id": "0675",
+      "name": "霸道熊猫",
+      "types": [
+        "格斗",
+        "恶"
+      ],
+      "icon": "-30em -25em"
+    },
+    {
+      "id": "0688",
+      "name": "龟脚脚",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-14em -26em"
+    },
+    {
+      "id": "0689",
+      "name": "龟足巨铠",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-15em -26em"
+    },
+    {
+      "id": "0746",
+      "name": "弱丁鱼",
+      "types": [
+        "水"
+      ],
+      "icon": "-13em -28em"
+    },
+    {
+      "id": "0757",
+      "name": "夜盗火蜥",
+      "types": [
+        "毒",
+        "火"
+      ],
+      "icon": "-25em -28em"
+    },
+    {
+      "id": "0758",
+      "name": "焰后蜥",
+      "types": [
+        "毒",
+        "火"
+      ],
+      "icon": "-26em -28em"
+    },
+    {
+      "id": "0766",
+      "name": "投掷猴",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-34em -28em"
+    },
+    {
+      "id": "0778",
+      "name": "谜拟丘",
+      "types": [
+        "幽灵",
+        "妖精"
+      ],
+      "icon": "-30em -29em"
+    },
+    {
+      "id": "0827",
+      "name": "狡小狐",
+      "types": [
+        "恶"
+      ],
+      "icon": "-10em -31em"
+    },
+    {
+      "id": "0828",
+      "name": "猾大狐",
+      "types": [
+        "恶"
+      ],
+      "icon": "-11em -31em"
+    },
+    {
+      "id": "0870",
+      "name": "列阵兵",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-8em -34em"
+    },
+    {
+      "id": "0886",
+      "name": "多龙奇",
+      "types": [
+        "龙",
+        "幽灵"
+      ],
+      "icon": "-29em -34em"
+    },
+    {
+      "id": "0887",
+      "name": "多龙巴鲁托",
+      "types": [
+        "龙",
+        "幽灵"
+      ],
+      "icon": "-30em -34em"
+    },
+    {
+      "id": "0892",
+      "name": "武道熊师-一击流",
+      "types": [
+        "格斗",
+        "恶"
+      ],
+      "icon": "-38em -34em"
+    }
+  ],
+  "learn_by_breeding": [
+    {
+      "id": "0004",
+      "name": "小火龙",
+      "types": [
+        "火"
+      ],
+      "icon": "-9em 0"
+    },
+    {
+      "id": "0023",
+      "name": "阿柏蛇",
+      "types": [
+        "毒"
+      ],
+      "icon": "-1em -1em"
+    },
+    {
+      "id": "0029",
+      "name": "尼多兰",
+      "types": [
+        "毒"
+      ],
+      "icon": "-28em -1em"
+    },
+    {
+      "id": "0032",
+      "name": "尼多朗",
+      "types": [
+        "毒"
+      ],
+      "icon": "-31em -1em"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "types": [
+        "地面"
+      ],
+      "icon": "-15em -2em"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠-阿罗拉的样子阿罗拉的样子",
+      "types": [
+        "地面",
+        "钢"
+      ],
+      "icon": "-16em -2em"
+    },
+    {
+      "id": "0056",
+      "name": "猴怪",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-27em -2em"
+    },
+    {
+      "id": "0190",
+      "name": "长尾怪手",
+      "types": [
+        "一般"
+      ],
+      "icon": "-25em -7em"
+    },
+    {
+      "id": "0203",
+      "name": "麒麟奇",
+      "types": [
+        "一般",
+        "超能力"
+      ],
+      "icon": "-32em -8em"
+    },
+    {
+      "id": "0228",
+      "name": "戴鲁比",
+      "types": [
+        "恶",
+        "火"
+      ],
+      "icon": "-33em -9em"
+    },
+    {
+      "id": "0273",
+      "name": "橡实果",
+      "types": [
+        "草"
+      ],
+      "icon": "-12em -11em"
+    },
+    {
+      "id": "0546",
+      "name": "木棉球",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "icon": "-34em -20em"
+    },
+    {
+      "id": "0551",
+      "name": "黑眼鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-3em -21em"
+    },
+    {
+      "id": "0946",
+      "name": "纳噬草",
+      "types": [
+        "草",
+        "幽灵"
+      ],
+      "icon": "-27em -36em"
+    }
+  ],
+  "learn_by_tutor": [],
+  "id": "251"
+}

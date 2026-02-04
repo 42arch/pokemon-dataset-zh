@@ -1,0 +1,983 @@
+{
+  "name_zh": "泼沙",
+  "name_ja": "すなかけ",
+  "name_en": "Sand Attack",
+  "type": "地面",
+  "category": "变化",
+  "pp": "15 （最大 24）",
+  "power": "—",
+  "accuracy": "100",
+  "range": "除自身以外场上一只可以攻击到的宝可梦",
+  "description": "向对手脸上泼沙子，从而降低命中率。",
+  "intro": "泼沙（日文︰すなかけ，英文︰Sand Attack）是第一世代引入的地面属性招式。",
+  "effect": [
+    "不是接触类招式",
+    "受守住影响",
+    "受魔法反射影响",
+    "不可以被化为己用",
+    "受鹦鹉学舌影响",
+    "不受王者之证等类似道具影响"
+  ],
+  "additional_effect": "令目标的命中率降低1级。\n无视属性相性，可以命中飞行属性和飘浮宝可梦。",
+  "details": "泼沙的非官方的常用译名有扔沙、扬沙。\n泼沙是第二世代改变属性的四个招式之一，其余分别是空手劈、起风、咬住，这些招式在第一世代都是一般属性。",
+  "move_changes": "第二世代\n属性：一般.mw-parser-output .type-box-9,.mw-parser-output .type-box-9-other{position:relative;display:inline-block;overflow:hidden;margin:0 1px;height:20px;border-radius:10px;text-align:center;vertical-align:middle;white-space:nowrap;font-size:14px;line-height:20px}.mw-parser-output .type-box-9{padding-left:17px;width:60px}.mw-parser-output .type-box-9-other{width:80px}.mw-parser-output .type-box-9-icon{position:absolute;top:0;left:2px;width:20px;height:20px}.mw-parser-output .type-box-9-text{color:#fff}.mw-parser-output .type-box-9-一般{background-color:#9fa19f}.mw-parser-output .type-box-9-格斗,.mw-parser-output .type-box-9-格鬥{background-color:#ff8000}.mw-parser-output .type-box-9-飞行,.mw-parser-output .type-box-9-飛行{background-color:#81b9ef}.mw-parser-output .type-box-9-毒{background-color:#9141cb}.mw-parser-output .type-box-9-地面{background-color:#915121}.mw-parser-output .type-box-9-岩石{background-color:#afa981}.mw-parser-output .type-box-9-虫,.mw-parser-output .type-box-9-蟲{background-color:#91a119}.mw-parser-output .type-box-9-幽灵,.mw-parser-output .type-box-9-幽靈{background-color:#704170}.mw-parser-output .type-box-9-钢,.mw-parser-output .type-box-9-鋼{background-color:#60a1b8}.mw-parser-output .type-box-9-火{background-color:#e62829}.mw-parser-output .type-box-9-水{background-color:#2980ef}.mw-parser-output .type-box-9-草{background-color:#3fa129}.mw-parser-output .type-box-9-电,.mw-parser-output .type-box-9-電{background-color:#fac000}.mw-parser-output .type-box-9-超能力{background-color:#ef4179}.mw-parser-output .type-box-9-冰{background-color:#3fd8ff}.mw-parser-output .type-box-9-龙,.mw-parser-output .type-box-9-龍{background-color:#5060e1}.mw-parser-output .type-box-9-恶,.mw-parser-output .type-box-9-惡{background-color:#50413f}.mw-parser-output .type-box-9-妖精{background-color:#ef70ef}.mw-parser-output .type-box-9-星晶{background-color:#73c6bc}→地面",
+  "learn_by_level_up": [
+    {
+      "id": "0016",
+      "name": "波波",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-29em 0"
+    },
+    {
+      "id": "0017",
+      "name": "比比鸟",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-30em 0"
+    },
+    {
+      "id": "0018",
+      "name": "大比鸟",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-31em 0"
+    },
+    {
+      "id": "0027",
+      "name": "穿山鼠",
+      "types": [
+        "地面"
+      ],
+      "icon": "-24em -1em"
+    },
+    {
+      "id": "0028",
+      "name": "穿山王",
+      "types": [
+        "地面"
+      ],
+      "icon": "-26em -1em"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠",
+      "types": [
+        "地面"
+      ],
+      "icon": "-15em -2em"
+    },
+    {
+      "id": "0050",
+      "name": "地鼠-阿罗拉的样子",
+      "types": [
+        "地面",
+        "钢"
+      ],
+      "icon": "-16em -2em"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠",
+      "types": [
+        "地面"
+      ],
+      "icon": "-17em -2em"
+    },
+    {
+      "id": "0051",
+      "name": "三地鼠-阿罗拉的样子",
+      "types": [
+        "地面",
+        "钢"
+      ],
+      "icon": "-18em -2em"
+    },
+    {
+      "id": "0074",
+      "name": "小拳石",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "icon": "-12em -3em"
+    },
+    {
+      "id": "0075",
+      "name": "隆隆石",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "icon": "-14em -3em"
+    },
+    {
+      "id": "0076",
+      "name": "隆隆岩",
+      "types": [
+        "岩石",
+        "地面"
+      ],
+      "icon": "-16em -3em"
+    },
+    {
+      "id": "0083",
+      "name": "大葱鸭",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-29em -3em"
+    },
+    {
+      "id": "0083",
+      "name": "大葱鸭-伽勒尔的样子",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-30em -3em"
+    },
+    {
+      "id": "0111",
+      "name": "独角犀牛",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "icon": "-32em -4em"
+    },
+    {
+      "id": "0112",
+      "name": "钻角犀兽",
+      "types": [
+        "地面",
+        "岩石"
+      ],
+      "icon": "-34em -4em"
+    },
+    {
+      "id": "0133",
+      "name": "伊布",
+      "types": [
+        "一般"
+      ],
+      "icon": "-29em -5em"
+    },
+    {
+      "id": "0134",
+      "name": "水伊布",
+      "types": [
+        "水"
+      ],
+      "icon": "-33em -5em"
+    },
+    {
+      "id": "0135",
+      "name": "雷伊布",
+      "types": [
+        "电"
+      ],
+      "icon": "-34em -5em"
+    },
+    {
+      "id": "0136",
+      "name": "火伊布",
+      "types": [
+        "火"
+      ],
+      "icon": "-35em -5em"
+    },
+    {
+      "id": "0138",
+      "name": "菊石兽",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-37em -5em"
+    },
+    {
+      "id": "0139",
+      "name": "多刺菊石兽",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-38em -5em"
+    },
+    {
+      "id": "0140",
+      "name": "化石盔",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-39em -5em"
+    },
+    {
+      "id": "0141",
+      "name": "镰刀盔",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "0 -6em"
+    },
+    {
+      "id": "0190",
+      "name": "长尾怪手",
+      "types": [
+        "一般"
+      ],
+      "icon": "-25em -7em"
+    },
+    {
+      "id": "0196",
+      "name": "太阳伊布",
+      "types": [
+        "超能力"
+      ],
+      "icon": "-35em -7em"
+    },
+    {
+      "id": "0197",
+      "name": "月亮伊布",
+      "types": [
+        "恶"
+      ],
+      "icon": "-36em -7em"
+    },
+    {
+      "id": "0207",
+      "name": "天蝎",
+      "types": [
+        "地面",
+        "飞行"
+      ],
+      "icon": "-37em -8em"
+    },
+    {
+      "id": "0227",
+      "name": "盔甲鸟",
+      "types": [
+        "钢",
+        "飞行"
+      ],
+      "icon": "-32em -9em"
+    },
+    {
+      "id": "0234",
+      "name": "惊角鹿",
+      "types": [
+        "一般"
+      ],
+      "icon": "-2em -10em"
+    },
+    {
+      "id": "0255",
+      "name": "火稚鸡",
+      "types": [
+        "火"
+      ],
+      "icon": "-25em -10em"
+    },
+    {
+      "id": "0256",
+      "name": "力壮鸡",
+      "types": [
+        "火",
+        "格斗"
+      ],
+      "icon": "-26em -10em"
+    },
+    {
+      "id": "0257",
+      "name": "火焰鸡",
+      "types": [
+        "火",
+        "格斗"
+      ],
+      "icon": "-28em -10em"
+    },
+    {
+      "id": "0261",
+      "name": "土狼犬",
+      "types": [
+        "恶"
+      ],
+      "icon": "-35em -10em"
+    },
+    {
+      "id": "0262",
+      "name": "大狼犬",
+      "types": [
+        "恶"
+      ],
+      "icon": "-36em -10em"
+    },
+    {
+      "id": "0263",
+      "name": "蛇纹熊",
+      "types": [
+        "一般"
+      ],
+      "icon": "-37em -10em"
+    },
+    {
+      "id": "0263",
+      "name": "蛇纹熊-伽勒尔的样子",
+      "types": [
+        "恶",
+        "一般"
+      ],
+      "icon": "-38em -10em"
+    },
+    {
+      "id": "0264",
+      "name": "直冲熊",
+      "types": [
+        "一般"
+      ],
+      "icon": "-39em -10em"
+    },
+    {
+      "id": "0264",
+      "name": "直冲熊-伽勒尔的样子",
+      "types": [
+        "恶",
+        "一般"
+      ],
+      "icon": "0 -11em"
+    },
+    {
+      "id": "0290",
+      "name": "土居忍士",
+      "types": [
+        "虫",
+        "地面"
+      ],
+      "icon": "-32em -11em"
+    },
+    {
+      "id": "0291",
+      "name": "铁面忍者",
+      "types": [
+        "虫",
+        "飞行"
+      ],
+      "icon": "-33em -11em"
+    },
+    {
+      "id": "0292",
+      "name": "脱壳忍者",
+      "types": [
+        "虫",
+        "幽灵"
+      ],
+      "icon": "-34em -11em"
+    },
+    {
+      "id": "0296",
+      "name": "幕下力士",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-38em -11em"
+    },
+    {
+      "id": "0297",
+      "name": "铁掌力士",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-39em -11em"
+    },
+    {
+      "id": "0328",
+      "name": "大颚蚁",
+      "types": [
+        "地面"
+      ],
+      "icon": "-4em -13em"
+    },
+    {
+      "id": "0329",
+      "name": "超音波幼虫",
+      "types": [
+        "地面",
+        "龙"
+      ],
+      "icon": "-5em -13em"
+    },
+    {
+      "id": "0330",
+      "name": "沙漠蜻蜓",
+      "types": [
+        "地面",
+        "龙"
+      ],
+      "icon": "-6em -13em"
+    },
+    {
+      "id": "0331",
+      "name": "刺球仙人掌",
+      "types": [
+        "草"
+      ],
+      "icon": "-7em -13em"
+    },
+    {
+      "id": "0332",
+      "name": "梦歌仙人掌",
+      "types": [
+        "草",
+        "恶"
+      ],
+      "icon": "-8em -13em"
+    },
+    {
+      "id": "0424",
+      "name": "双尾怪手",
+      "types": [
+        "一般"
+      ],
+      "icon": "-22em -16em"
+    },
+    {
+      "id": "0443",
+      "name": "圆陆鲨",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "icon": "-3em -17em"
+    },
+    {
+      "id": "0444",
+      "name": "尖牙陆鲨",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "icon": "-5em -17em"
+    },
+    {
+      "id": "0445",
+      "name": "烈咬陆鲨",
+      "types": [
+        "龙",
+        "地面"
+      ],
+      "icon": "-7em -17em"
+    },
+    {
+      "id": "0449",
+      "name": "沙河马",
+      "types": [
+        "地面"
+      ],
+      "icon": "-14em -17em"
+    },
+    {
+      "id": "0450",
+      "name": "河马兽",
+      "types": [
+        "地面"
+      ],
+      "icon": "-16em -17em"
+    },
+    {
+      "id": "0470",
+      "name": "叶伊布",
+      "types": [
+        "草"
+      ],
+      "icon": "-7em -18em"
+    },
+    {
+      "id": "0471",
+      "name": "冰伊布",
+      "types": [
+        "冰"
+      ],
+      "icon": "-8em -18em"
+    },
+    {
+      "id": "0472",
+      "name": "天蝎王",
+      "types": [
+        "地面",
+        "飞行"
+      ],
+      "icon": "-9em -18em"
+    },
+    {
+      "id": "0504",
+      "name": "探探鼠",
+      "types": [
+        "一般"
+      ],
+      "icon": "-30em -19em"
+    },
+    {
+      "id": "0505",
+      "name": "步哨鼠",
+      "types": [
+        "一般"
+      ],
+      "icon": "-31em -19em"
+    },
+    {
+      "id": "0509",
+      "name": "扒手猫",
+      "types": [
+        "恶"
+      ],
+      "icon": "-35em -19em"
+    },
+    {
+      "id": "0510",
+      "name": "酷豹",
+      "types": [
+        "恶"
+      ],
+      "icon": "-36em -19em"
+    },
+    {
+      "id": "0524",
+      "name": "石丸子",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-11em -20em"
+    },
+    {
+      "id": "0525",
+      "name": "地幔岩",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-12em -20em"
+    },
+    {
+      "id": "0526",
+      "name": "庞岩怪",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-13em -20em"
+    },
+    {
+      "id": "0551",
+      "name": "黑眼鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-3em -21em"
+    },
+    {
+      "id": "0552",
+      "name": "混混鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-4em -21em"
+    },
+    {
+      "id": "0553",
+      "name": "流氓鳄",
+      "types": [
+        "地面",
+        "恶"
+      ],
+      "icon": "-5em -21em"
+    },
+    {
+      "id": "0557",
+      "name": "石居蟹",
+      "types": [
+        "虫",
+        "岩石"
+      ],
+      "icon": "-13em -21em"
+    },
+    {
+      "id": "0558",
+      "name": "岩殿居蟹",
+      "types": [
+        "虫",
+        "岩石"
+      ],
+      "icon": "-14em -21em"
+    },
+    {
+      "id": "0559",
+      "name": "滑滑小子",
+      "types": [
+        "恶",
+        "格斗"
+      ],
+      "icon": "-15em -21em"
+    },
+    {
+      "id": "0560",
+      "name": "头巾混混",
+      "types": [
+        "恶",
+        "格斗"
+      ],
+      "icon": "-16em -21em"
+    },
+    {
+      "id": "0585",
+      "name": "四季鹿",
+      "types": [
+        "一般",
+        "草"
+      ],
+      "icon": "-5em -22em"
+    },
+    {
+      "id": "0586",
+      "name": "萌芽鹿",
+      "types": [
+        "一般",
+        "草"
+      ],
+      "icon": "-9em -22em"
+    },
+    {
+      "id": "0632",
+      "name": "铁蚁",
+      "types": [
+        "虫",
+        "钢"
+      ],
+      "icon": "-22em -23em"
+    },
+    {
+      "id": "0676",
+      "name": "多丽米亚",
+      "types": [
+        "一般"
+      ],
+      "icon": "-31em -25em"
+    },
+    {
+      "id": "0688",
+      "name": "龟脚脚",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-14em -26em"
+    },
+    {
+      "id": "0689",
+      "name": "龟足巨铠",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-15em -26em"
+    },
+    {
+      "id": "0700",
+      "name": "仙子伊布",
+      "types": [
+        "妖精"
+      ],
+      "icon": "-26em -26em"
+    },
+    {
+      "id": "0734",
+      "name": "猫鼬少",
+      "types": [
+        "一般"
+      ],
+      "icon": "-36em -27em"
+    },
+    {
+      "id": "0735",
+      "name": "猫鼬探长",
+      "types": [
+        "一般"
+      ],
+      "icon": "-37em -27em"
+    },
+    {
+      "id": "0744",
+      "name": "岩狗狗",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-9em -28em"
+    },
+    {
+      "id": "0745",
+      "name": "鬃岩狼人",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-10em -28em"
+    },
+    {
+      "id": "0745",
+      "name": "鬃岩狼人-黑夜的样子",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-11em -28em"
+    },
+    {
+      "id": "0745",
+      "name": "鬃岩狼人-黄昏的样子",
+      "types": [
+        "岩石"
+      ],
+      "icon": "-12em -28em"
+    },
+    {
+      "id": "0767",
+      "name": "胆小虫",
+      "types": [
+        "虫",
+        "水"
+      ],
+      "icon": "-35em -28em"
+    },
+    {
+      "id": "0768",
+      "name": "具甲武者",
+      "types": [
+        "虫",
+        "水"
+      ],
+      "icon": "-36em -28em"
+    },
+    {
+      "id": "0769",
+      "name": "沙丘娃",
+      "types": [
+        "幽灵",
+        "地面"
+      ],
+      "icon": "-37em -28em"
+    },
+    {
+      "id": "0770",
+      "name": "噬沙堡爷",
+      "types": [
+        "幽灵",
+        "地面"
+      ],
+      "icon": "-38em -28em"
+    },
+    {
+      "id": "0843",
+      "name": "沙包蛇",
+      "types": [
+        "地面"
+      ],
+      "icon": "-30em -31em"
+    },
+    {
+      "id": "0844",
+      "name": "沙螺蟒",
+      "types": [
+        "地面"
+      ],
+      "icon": "-31em -31em"
+    },
+    {
+      "id": "0862",
+      "name": "堵拦熊",
+      "types": [
+        "恶",
+        "一般"
+      ],
+      "icon": "-17em -32em"
+    },
+    {
+      "id": "0865",
+      "name": "葱游兵",
+      "types": [
+        "格斗"
+      ],
+      "icon": "-20em -32em"
+    },
+    {
+      "id": "0899",
+      "name": "诡角鹿",
+      "types": [
+        "一般",
+        "超能力"
+      ],
+      "icon": "-11em -35em"
+    },
+    {
+      "id": "0953",
+      "name": "虫滚泥",
+      "types": [
+        "虫"
+      ],
+      "icon": "-34em -36em"
+    },
+    {
+      "id": "0954",
+      "name": "虫甲圣",
+      "types": [
+        "虫",
+        "超能力"
+      ],
+      "icon": "-35em -36em"
+    },
+    {
+      "id": "0960",
+      "name": "海地鼠",
+      "types": [
+        "水"
+      ],
+      "icon": "-1em -37em"
+    },
+    {
+      "id": "0961",
+      "name": "三海地鼠",
+      "types": [
+        "水"
+      ],
+      "icon": "-2em -37em"
+    },
+    {
+      "id": "0992",
+      "name": "铁臂膀",
+      "types": [
+        "格斗",
+        "电"
+      ],
+      "icon": "-2em -38em"
+    }
+  ],
+  "learn_by_tm": [],
+  "learn_by_breeding": [
+    {
+      "id": "0179",
+      "name": "咩利羊",
+      "types": [
+        "电"
+      ],
+      "icon": "-11em -7em"
+    },
+    {
+      "id": "0347",
+      "name": "太古羽虫",
+      "types": [
+        "岩石",
+        "虫"
+      ],
+      "icon": "-25em -13em"
+    },
+    {
+      "id": "0396",
+      "name": "姆克儿",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "icon": "-12em -15em"
+    },
+    {
+      "id": "0431",
+      "name": "魅力喵",
+      "types": [
+        "一般"
+      ],
+      "icon": "-31em -16em"
+    },
+    {
+      "id": "0451",
+      "name": "钳尾蝎",
+      "types": [
+        "毒",
+        "虫"
+      ],
+      "icon": "-18em -17em"
+    },
+    {
+      "id": "0506",
+      "name": "小约克",
+      "types": [
+        "一般"
+      ],
+      "icon": "-32em -19em"
+    },
+    {
+      "id": "0522",
+      "name": "斑斑马",
+      "types": [
+        "电"
+      ],
+      "icon": "-9em -20em"
+    },
+    {
+      "id": "0568",
+      "name": "破破袋",
+      "types": [
+        "毒"
+      ],
+      "icon": "-25em -21em"
+    },
+    {
+      "id": "0688",
+      "name": "龟脚脚",
+      "types": [
+        "岩石",
+        "水"
+      ],
+      "icon": "-14em -26em"
+    },
+    {
+      "id": "0757",
+      "name": "夜盗火蜥",
+      "types": [
+        "毒",
+        "火"
+      ],
+      "icon": "-25em -28em"
+    },
+    {
+      "id": "0813",
+      "name": "炎兔儿",
+      "types": [
+        "火"
+      ],
+      "icon": "-32em -30em"
+    },
+    {
+      "id": "0821",
+      "name": "稚山雀",
+      "types": [
+        "飞行"
+      ],
+      "icon": "-2em -31em"
+    },
+    {
+      "id": "0835",
+      "name": "来电汪",
+      "types": [
+        "电"
+      ],
+      "icon": "-19em -31em"
+    }
+  ],
+  "learn_by_tutor": [],
+  "id": "28"
+}

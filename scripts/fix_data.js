@@ -397,33 +397,33 @@ const EVOLUTION_CHAINS = {
         {
             "name": "肯泰罗",
             "stage": "不进化",
-            "text": "肯泰罗帕底亚的样子（斗战种）",
+            "text": null,
             "image": "128Tauros-Combat_Dream.png",
-            "back_text": "",
+            "back_text": null,
             "from": null,
-            "form_name": "斗战种"
+            "form_name": "帕底亚的样子（斗战种）"
         }
       ],
       [
         {
             "name": "肯泰罗",
             "stage": "不进化",
-            "text": "肯泰罗帕底亚的样子（火炽种）",
+            "text": null,
             "image": "128Tauros-Blaze_Dream.png",
-            "back_text": "",
+            "back_text": null,
             "from": null,
-            "form_name": "火炽种"
+            "form_name": "帕底亚的样子（火炽种）"
         }
       ],
       [
         {
             "name": "肯泰罗",
             "stage": "不进化",
-            "text": "肯泰罗帕底亚的样子（水澜种）",
+            "text": null,
             "image": "128Tauros-Aqua_Dream.png",
-            "back_text": "",
+            "back_text": null,
             "from": null,
-            "form_name": "水澜种"
+            "form_name": "帕底亚的样子（水澜种）"
         }
       ]
     ],
