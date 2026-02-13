@@ -19,6 +19,17 @@ const EVOLUTION_CHAINS = {
         "back_text": null,
         "from": "伊布",
         "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
       },
       {
         "name": "雷伊布",
@@ -27,6 +38,17 @@ const EVOLUTION_CHAINS = {
         "image": "135Jolteon_Dream.png",
         "back_text": null,
         "from": "伊布",
+        "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
         "form_name": null
       },
       {
@@ -37,6 +59,17 @@ const EVOLUTION_CHAINS = {
         "back_text": null,
         "from": "伊布",
         "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
       },
       {
         "name": "叶伊布",
@@ -45,6 +78,17 @@ const EVOLUTION_CHAINS = {
         "image": "470Leafeon_Dream.png",
         "back_text": null,
         "from": "伊布",
+        "form_name": null
+      }
+    ],
+    [     
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
         "form_name": null
       },
       {
@@ -55,6 +99,17 @@ const EVOLUTION_CHAINS = {
         "back_text": null,
         "from": "伊布",
         "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
       },
       {
         "name": "仙子伊布",
@@ -63,6 +118,17 @@ const EVOLUTION_CHAINS = {
         "image": "700Sylveon_Dream.png",
         "back_text": null,
         "from": "伊布",
+        "form_name": null
+      }
+    ],
+    [      
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
         "form_name": null
       },
       {
@@ -73,6 +139,17 @@ const EVOLUTION_CHAINS = {
         "back_text": null,
         "from": "伊布",
         "form_name": null
+      }
+    ],
+    [
+      {
+        "name": "伊布",
+        "stage": "未进化",
+        "text": null,
+        "image": "133Eevee_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
       },
       {
         "name": "月亮伊布",
@@ -82,7 +159,7 @@ const EVOLUTION_CHAINS = {
         "back_text": null,
         "from": "伊布",
         "form_name": null
-      },
+      }
     ]
   ],
     "结草儿": [
@@ -281,163 +358,164 @@ const EVOLUTION_CHAINS = {
   ],
   "岩狗狗": [
     [
-        {
-            "name": "岩狗狗",
-            "stage": "未进化",
-            "text": null,
-            "image": "744Rockruff_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": null
-        },
-        {
-            "name": "鬃岩狼人",
-            "stage": "1阶进化",
-            "text": "等级25以上（白天）（特定版本无进化方式）",
-            "image": "745Lycanroc-Midday_Dream.png",
-            "back_text": "",
-            "from": "岩狗狗",
-            "form_name": "白昼的样子"
-        },
-        {
-            "name": "鬃岩狼人",
-            "stage": "1阶进化",
-            "text": "等级25以上（夜晚）（特定版本无进化方式）",
-            "image": "745Lycanroc-Midnight_Dream.png",
-            "back_text": "",
-            "from": "岩狗狗",
-            "form_name": "黑夜的样子"
-        }
+      {
+        "name": "岩狗狗",
+        "stage": "未进化",
+        "text": null,
+        "image": "744Rockruff_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "鬃岩狼人",
+        "stage": "1阶进化",
+        "text": "等级25以上（白天）（特定版本无进化方式）",
+        "image": "745Lycanroc-Midday_Dream.png",
+        "back_text": "",
+        "from": "岩狗狗",
+        "form_name": "白昼的样子"
+      },
+      {
+        "name": "鬃岩狼人",
+        "stage": "1阶进化",
+        "text": "等级25以上（夜晚）（特定版本无进化方式）",
+        "image": "745Lycanroc-Midnight_Dream.png",
+        "back_text": "",
+        "from": "岩狗狗",
+        "form_name": "黑夜的样子"
+      }
     ],
     [
-        {
-            "name": "岩狗狗",
-            "stage": "未进化",
-            "text": null,
-            "image": "744Rockruff_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": "特殊岩狗狗（特性为我行我素）"
-        },
-        {
-            "name": "鬃岩狼人",
-            "stage": "1阶进化",
-            "text": "等级25以上（黄昏）",
-            "image": "745Lycanroc-Dusk_Dream.png",
-            "back_text": "",
-            "from": "岩狗狗",
-            "form_name": "黄昏的样子"
-        }
-      ]
+      {
+        "name": "岩狗狗",
+        "stage": "未进化",
+        "text": null,
+        "image": "744Rockruff_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "特殊岩狗狗（特性为我行我素）"
+      },
+      {
+        "name": "鬃岩狼人",
+        "stage": "1阶进化",
+        "text": "等级25以上（黄昏）",
+        "image": "745Lycanroc-Dusk_Dream.png",
+        "back_text": "",
+        "from": "岩狗狗",
+        "form_name": "黄昏的样子"
+      }
+    ]
   ],
   "鬃岩狼人": [
     [
-        {
-            "name": "岩狗狗",
-            "stage": "未进化",
-            "text": null,
-            "image": "744Rockruff_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": null
-        },
-        {
-            "name": "鬃岩狼人",
-            "stage": "1阶进化",
-            "text": "等级25以上（白天）（特定版本无进化方式）",
-            "image": "745Lycanroc-Midday_Dream.png",
-            "back_text": "",
-            "from": "岩狗狗",
-            "form_name": "白昼的样子"
-        },
-        {
-            "name": "鬃岩狼人",
-            "stage": "1阶进化",
-            "text": "等级25以上（夜晚）（特定版本无进化方式）",
-            "image": "745Lycanroc-Midnight_Dream.png",
-            "back_text": "",
-            "from": "岩狗狗",
-            "form_name": "黑夜的样子"
-        }
+      {
+        "name": "岩狗狗",
+        "stage": "未进化",
+        "text": null,
+        "image": "744Rockruff_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "鬃岩狼人",
+        "stage": "1阶进化",
+        "text": "等级25以上（白天）（特定版本无进化方式）",
+        "image": "745Lycanroc-Midday_Dream.png",
+        "back_text": "",
+        "from": "岩狗狗",
+        "form_name": "白昼的样子"
+      },
+      {
+        "name": "鬃岩狼人",
+        "stage": "1阶进化",
+        "text": "等级25以上（夜晚）（特定版本无进化方式）",
+        "image": "745Lycanroc-Midnight_Dream.png",
+        "back_text": "",
+        "from": "岩狗狗",
+        "form_name": "黑夜的样子"
+      }
     ],
     [
-        {
-            "name": "岩狗狗",
-            "stage": "未进化",
-            "text": null,
-            "image": "744Rockruff_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": "特殊岩狗狗（特性为我行我素）"
-        },
-        {
-            "name": "鬃岩狼人",
-            "stage": "1阶进化",
-            "text": "等级25以上（黄昏）",
-            "image": "745Lycanroc-Dusk_Dream.png",
-            "back_text": "",
-            "from": "岩狗狗",
-            "form_name": "黄昏的样子"
-        }
-      ]
+      {
+        "name": "岩狗狗",
+        "stage": "未进化",
+        "text": null,
+        "image": "744Rockruff_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "特殊岩狗狗（特性为我行我素）"
+      },
+      {
+        "name": "鬃岩狼人",
+        "stage": "1阶进化",
+        "text": "等级25以上（黄昏）",
+        "image": "745Lycanroc-Dusk_Dream.png",
+        "back_text": "",
+        "from": "岩狗狗",
+        "form_name": "黄昏的样子"
+      }
+    ]
   ],
   "肯泰罗": [
       [
         {
-            "name": "肯泰罗",
-            "stage": "不进化",
-            "text": null,
-            "image": "128Tauros_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": null
+          "name": "肯泰罗",
+          "stage": "不进化",
+          "text": null,
+          "image": "128Tauros_Dream.png",
+          "back_text": null,
+          "from": null,
+          "form_name": null
         }
       ],
       [
         {
-            "name": "肯泰罗",
-            "stage": "不进化",
-            "text": null,
-            "image": "128Tauros-Combat_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": "帕底亚的样子（斗战种）"
+          "name": "肯泰罗",
+          "stage": "不进化",
+          "text": null,
+          "image": "128Tauros-Combat_Dream.png",
+          "back_text": null,
+          "from": null,
+          "form_name": "帕底亚的样子（斗战种）"
         }
       ],
       [
         {
-            "name": "肯泰罗",
-            "stage": "不进化",
-            "text": null,
-            "image": "128Tauros-Blaze_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": "帕底亚的样子（火炽种）"
+          "name": "肯泰罗",
+          "stage": "不进化",
+          "text": null,
+          "image": "128Tauros-Blaze_Dream.png",
+          "back_text": null,
+          "from": null,
+          "form_name": "帕底亚的样子（火炽种）"
         }
       ],
       [
         {
-            "name": "肯泰罗",
-            "stage": "不进化",
-            "text": null,
-            "image": "128Tauros-Aqua_Dream.png",
-            "back_text": null,
-            "from": null,
-            "form_name": "帕底亚的样子（水澜种）"
+          "name": "肯泰罗",
+          "stage": "不进化",
+          "text": null,
+          "image": "128Tauros-Aqua_Dream.png",
+          "back_text": null,
+          "from": null,
+          "form_name": "帕底亚的样子（水澜种）"
         }
       ]
     ],
   "小陨星": [
-      [
-          {
-              "name": "小陨星",
-              "stage": "不进化",
-              "image": "774Minior_Dream.png",
-              "text": null,
-              "back_text": null,
-              "from": null
-          }
-      ]
+    [
+      {
+        "name": "小陨星",
+        "stage": "不进化",
+        "image": "774Minior_Dream.png",
+        "text": null,
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
+    ]
   ],
   "太乐巴戈斯": [
       [
@@ -457,7 +535,8 @@ const EVOLUTION_CHAINS = {
       "text": null,
       "image": "531Audino_Dream.png",
       "back_text": null,
-      "from": null
+      "from": null,
+      "form_name": null
   }]],
   "谜拟Ｑ": [[{
       "name": "谜拟Ｑ",
@@ -465,8 +544,53 @@ const EVOLUTION_CHAINS = {
       "text": null,
       "image": "778Mimikyu_Dream.png",
       "back_text": null,
-      "from": null
-  }]]
+      "from": null,
+      "form_name": null
+  }]],
+  "小仙奶": [
+    [
+      {
+        "name": "小仙奶",
+        "stage": "未进化",
+        "text": null,
+        "image": "868Milcery_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "霜奶仙",
+        "stage": "1阶进化",
+        "text": "主角结束原地旋转（携带糖饰）",
+        "image": "869Alcremie_Dream.png",
+        "back_text": null,
+        "from": "小仙奶",
+        "form_name": null
+      }
+    ]
+  ],
+  "霜奶仙": [
+    [
+      {
+        "name": "小仙奶",
+        "stage": "未进化",
+        "text": null,
+        "image": "868Milcery_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "霜奶仙",
+        "stage": "1阶进化",
+        "text": "主角结束原地旋转（携带糖饰）",
+        "image": "869Alcremie_Dream.png",
+        "back_text": null,
+        "from": "小仙奶",
+        "form_name": null
+      }
+    ]
+  ]
 }
 
 module.exports = { EVOLUTION_CHAINS };

@@ -839,33 +839,113 @@ function findMoveTable(header) {
     return null;
 }
 
-function extractEggMoves($) {
-    let eggHeader = null;
+function extractMoveSection($, keywords, rowExtractor) {
+    let header = null;
     $('h3, h4, h5').each((i, el) => {
         const text = $(el).text().trim();
-        if (text === '蛋招式') {
-            eggHeader = $(el);
+        if (keywords.some(kw => text.includes(kw) || text === kw)) {
+            header = $(el);
             return false;
         }
     });
+
+    if (!header) return [];
+
+    const forms = [];
+    // Scope is until the next header of same or higher level (h2-h5)
+    // Using nextUntil might be tricky if structure varies, but usually sections are well defined.
+    // We'll grab everything until the next header.
+    const scope = header.nextUntil('h2, h3, h4, h5');
     
-    if (!eggHeader) return [];
+    // Check for toggles (Forms)
+    const toggleMap = new Map();
     
-    const moveTable = findMoveTable(eggHeader);
-    if (!moveTable || moveTable.length === 0) return [];
+    // Look for the toggles in the immediate siblings (usually just one center tag)
+    scope.filter('center').each((i, center) => {
+        $(center).find('span[class*="_toggle"]').each((j, span) => {
+            const $span = $(span);
+            const text = $span.text().trim();
+            if (!text) return;
+            
+            const classes = ($span.attr('class') || '').split(/\s+/);
+            for (const cls of classes) {
+                // Ignore generic classes
+                if (['_toggle', 'textblack', 'mw-headline'].includes(cls) || cls.startsWith('_toggler') || cls.startsWith('inact')) continue;
+                
+                // Usually the class we want is something like 'varformn', 'varformalola', 'form1', etc.
+                if (!toggleMap.has(cls)) {
+                    toggleMap.set(cls, text);
+                }
+            }
+        });
+    });
+
+    if (toggleMap.size > 0) {
+        // Iterate over identified forms
+        const sortedForms = Array.from(toggleMap.keys());
+        
+        for (const formId of sortedForms) {
+            const formName = toggleMap.get(formId);
+            
+            // Find the container for this form
+            let container = scope.filter(`.${formId}`);
+            if (container.length === 0) container = scope.find(`.${formId}`);
+            
+            if (container.length > 0) {
+                const table = container.find('table.roundy').first();
+                if (table.length > 0) {
+                    const moves = [];
+                    table.find('tr').each((k, row) => {
+                         const data = rowExtractor($, row);
+                         if (data) moves.push(data);
+                    });
+                    
+                    if (moves.length > 0) {
+                        forms.push({
+                            form: formName,
+                            data: moves
+                        });
+                    }
+                }
+            }
+        }
+    } else {
+        // No toggles, assume single form "General" or Default
+        // Find the first roundy table in scope
+        let table = scope.filter('table.roundy').first();
+        if (table.length === 0) table = scope.find('table.roundy').first();
+        
+        // Sometimes the table is inside a toggle-content that isn't a form toggle (like tabs)
+        // But if toggleMap is empty, we just take the first table we see.
+        
+        if (table.length > 0) {
+             const moves = [];
+             table.find('tr').each((k, row) => {
+                 const data = rowExtractor($, row);
+                 if (data) moves.push(data);
+             });
+             
+             if (moves.length > 0) {
+                 forms.push({
+                     form: '一般',
+                     data: moves
+                 });
+             }
+        }
+    }
     
-    const moves = [];
-    
-    moveTable.find('tr').each((i, row) => {
+    return forms;
+}
+
+function extractEggMoves($) {
+    const rowProcessor = ($, row) => {
         const tds = $(row).find('td');
-        if (tds.length === 0) return;
+        if (tds.length === 0) return null;
         
         // Col 0: Parents
-        // Parents are usually links with title OR elements with data-msp
         const parents = [];
         const seenParents = new Set();
 
-        // Helper to add parent
         const addParent = (id, name) => {
             const key = `${id}|${name}`;
             if (!seenParents.has(key)) {
@@ -874,30 +954,24 @@ function extractEggMoves($) {
             }
         };
 
-        // Check data-msp attributes on spans (often used for icons)
-        // Format seems to be "ID\Name,ID\Name"
         $(tds[0]).find('[data-msp]').each((j, el) => {
             const msp = $(el).attr('data-msp');
             if (msp) {
-                // Split by comma first to get individual entries
                 const entries = msp.split(',');
                 entries.forEach(entry => {
                     const parts = entry.split('\\');
                     if (parts.length >= 2) {
                         addParent(parts[0], parts[1]);
                     } else {
-                        // Fallback if no ID or different format
                         addParent(null, entry);
                     }
                 });
             }
         });
 
-        // Try links if data-msp didn't cover it (or as fallback)
         $(tds[0]).find('a').each((j, link) => {
             const title = $(link).attr('title');
             if (title) {
-                // Check if we already have this name
                 let exists = false;
                 for (const p of parents) {
                     if (p.name === title) {
@@ -915,7 +989,7 @@ function extractEggMoves($) {
         moveName = moveName.replace('[详]', '').trim();
         
         if (moveName) {
-            moves.push({
+            return {
                 parents: parents,
                 name: moveName,
                 type: $(tds[2]).text().trim(),
@@ -923,40 +997,25 @@ function extractEggMoves($) {
                 power: $(tds[4]).text().trim(),
                 accuracy: $(tds[5]).text().trim(),
                 pp: $(tds[6]).text().trim()
-            });
+            };
         }
-    });
+        return null;
+    };
     
-    return moves;
+    return extractMoveSection($, ['蛋招式'], rowProcessor);
 }
 
 function extractMachineMoves($) {
-    let tmHeader = null;
-    $('h3, h4, h5').each((i, el) => {
-        const text = $(el).text().trim();
-        if (text.includes('能使用的招式学习器')) {
-            tmHeader = $(el);
-            return false;
-        }
-    });
-    
-    if (!tmHeader) return [];
-    
-    const moveTable = findMoveTable(tmHeader);
-    if (!moveTable || moveTable.length === 0) return [];
-    
-    const moves = [];
-    
-    moveTable.find('tr').each((i, row) => {
+    const rowProcessor = ($, row) => {
         const tds = $(row).find('td');
-        if (tds.length === 0) return;
+        if (tds.length === 0) return null;
         
         let machine = $(tds[1]).text().trim();
         let moveName = $(tds[2]).text().trim();
         moveName = moveName.replace('[详]', '').trim();
         
         if (moveName) {
-            moves.push({
+            return {
                 machine: machine,
                 name: moveName,
                 type: $(tds[3]).text().trim(),
@@ -964,40 +1023,25 @@ function extractMachineMoves($) {
                 power: $(tds[5]).text().trim(),
                 accuracy: $(tds[6]).text().trim(),
                 pp: $(tds[7]).text().trim()
-            });
+            };
         }
-    });
+        return null;
+    };
     
-    return moves;
+    return extractMoveSection($, ['能使用的招式学习器'], rowProcessor);
 }
 
 function extractLearnableMoves($) {
-    let levelUpHeader = null;
-    $('h3, h4, h5').each((i, el) => {
-        const text = $(el).text().trim();
-        if (text.includes('能通过升级学会的招式') || text === '可学会的招式') {
-            levelUpHeader = $(el);
-            return false;
-        }
-    });
-    
-    if (!levelUpHeader) return [];
-    
-    const moveTable = findMoveTable(levelUpHeader);
-    if (!moveTable || moveTable.length === 0) return [];
-    
-    const moves = [];
-    
-    moveTable.find('tr').each((i, row) => {
+    const rowProcessor = ($, row) => {
         const tds = $(row).find('td');
-        if (tds.length === 0) return;
+        if (tds.length === 0) return null;
         
         const level = $(tds[0]).text().trim();
         let moveName = $(tds[2]).text().trim();
         moveName = moveName.replace('[详]', '').trim();
         
         if (moveName) {
-            moves.push({
+            return {
                 level: level,
                 name: moveName,
                 type: $(tds[3]).text().trim(),
@@ -1005,11 +1049,12 @@ function extractLearnableMoves($) {
                 power: $(tds[5]).text().trim(),
                 accuracy: $(tds[6]).text().trim(),
                 pp: $(tds[7]).text().trim()
-            });
+            };
         }
-    });
-    
-    return moves;
+        return null;
+    };
+
+    return extractMoveSection($, ['能通过升级学会的招式', '可学会的招式'], rowProcessor);
 }
 
 function extractFormImages($, pokedexId, name) {
