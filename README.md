@@ -7,9 +7,9 @@
 
 最全最详细的中文宝可梦图鉴数据集，截至目前，收录了第一世代到第九世代所有的宝可梦中文信息。数据抓取自[神奇宝贝百科](https://wiki.52poke.com/wiki/主页)。
 
-访问使用此数据集开发的图鉴应用： https://pokedex.starllow.com/
+扫下方二维码可以访问使用此数据集开发的微信小程序：
 
-仓库地址：https://github.com/42arch/pokedex-zh
+![pokedex](https://github.com/user-attachments/assets/21461048-834d-4c8c-87d6-6f5e47d60453)
 
 ## 数据
 
@@ -36,3 +36,4 @@
   dream: 宝可梦的版权绘图；
 
   home: Pokemon Home 中的形象绘图
+
