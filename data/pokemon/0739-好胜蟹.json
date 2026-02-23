@@ -1,0 +1,889 @@
+{
+  "name_zh": "好胜蟹",
+  "name_ja": "マケンカニ",
+  "name_en": "Crabrawler",
+  "pokedex_id": "0739",
+  "description": "好胜蟹（日文︰マケンカニ，英文︰Crabrawler）是格斗属性宝可梦。",
+  "profile": "好胜蟹是一只紫色的螃蟹宝可梦，它头上分叉的角、手臂和腹部等部位是米黄色的。好胜蟹的腹部下端到背部都有蓝色的横纹，巨大的钳子和脚的末端也是蓝色的。它的左眼是瞪大的，右眼却有一半被蓝色的眼睑遮挡，像是被击中眼睛的拳击手。好胜蟹利用钳子一边保护脸和胸口，一边接近对方等候时机出拳，该拳头的力量甚至会贯穿树干。\n好胜蟹的性格很好强，不只是伙伴间的地位，甚至连占取地方的位置也持有瞄准最高处的特性。因为这个缘故，好胜蟹有时会黏附在个子高的人和大厦的墙壁上。若勉强扯掉它们的话便会受到拳头的还击。它会利用钳子一边保护脸和胸口，一边接近对方等候时机出拳，拳头的力量甚至会贯穿树干。坚硬的钳子攻守皆宜，同类之间的战斗就像是拳击一样，输了的话会吐泡泡倒下。因为打架太频繁，它的钳子常常掉落，但很快又会长出来。不同于铁螯龙虾钳子里面的肉有臭泥味，实在很难吃，好胜蟹钳子里的肉很少，但味道浓郁非常鲜美。外壳可以提取出美味的汤头，是很受欢迎的海鲜炖饭食材。它喜欢树果，会击打并摇动树干，让成熟的树果掉下来才进食。同时进行训练和觅食，可谓是一举两得。有时它会把椰蛋树错认为椰子树而爬上去，惹怒椰蛋树后被抖落下来，并遭到踩踏。他也会袭击蛋蛋，但是会被蛋蛋用念力击退。它会聚集在树的周围，只有与同伴的战斗中取得胜利的好胜蟹才可进食成熟的树果。",
+  "prototype": "好胜蟹基于椰子蟹，为世界最大的陆生节肢动物，属于陆寄居蟹科。椰子蟹完全陆生，擅长爬到树顶采食椰子，这和好胜蟹没有水属性、喜欢攀登高处的习性类似。\n异色好胜蟹的螯可能来源于拳击手套；而好胜蟹的右眼可能基于拳击手的眼睛被拳头打伤后的模样。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "マケンカニ Makenkani",
+      "origin": "来自“負（ま）けん気（き）”（不服输）、“喧（けん）嘩（か）”（吵架）和“蟹（かに）”（螃蟹）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "好勝蟹好胜蟹",
+      "origin": "来自“好胜”和“螃蟹”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "好勝蟹",
+      "origin": "来自“好胜”和“螃蟹”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "好勝蟹",
+      "origin": "来自“好胜”和“螃蟹”。"
+    },
+    {
+      "language": "英文",
+      "name": "Crabrawler",
+      "origin": "来自 crab（螃蟹）和 brawler（打架者）。"
+    },
+    {
+      "language": "法文",
+      "name": "Crabagarre",
+      "origin": "来自 crabe（螃蟹）和 bagarre（打群架、殴斗）。"
+    },
+    {
+      "language": "德文",
+      "name": "Krabbox",
+      "origin": "来自 Krabbe（螃蟹）和 Boxen（拳击）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Crabrawler",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Crabrawler",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "오기지게 Ogijige",
+      "origin": "来自“오기〈傲氣〉”（傲气；好胜心）、“기지〈機智〉”（机智）和“게”（蟹）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "好胜蟹",
+      "types": [
+        "格斗"
+      ],
+      "category": "拳斗宝可梦",
+      "abilities": [
+        {
+          "name": "怪力钳",
+          "is_hidden": false
+        },
+        {
+          "name": "铁拳",
+          "is_hidden": false
+        },
+        {
+          "name": "愤怒穴位",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.6m",
+      "weight": "7.0kg",
+      "color": "紫色",
+      "catch_rate": "225（29.4%）",
+      "egg_groups": [
+        "水中3群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 1
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "68",
+      "battle_exp": "681",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body14.png",
+      "footprint": "FUnknown.png",
+      "image": "0739-好胜蟹.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "47",
+        "attack": "82",
+        "defense": "57",
+        "sp_attack": "42",
+        "sp_defense": "47",
+        "speed": "63"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "格斗"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "0.5"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "2"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "0.5"
+        },
+        {
+          "type": "妖精",
+          "damage": "2"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "用钳子保护自己的弱点，同时伺机出拳。输了的话会吐泡泡倒下。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "因为打架太频繁，钳子常常掉落，但很快又会长出来。钳子里的肉很少，但味道浓郁非常鲜美。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "会击落树上的树果来吃。同时进行训练和觅食，可谓是一举两得。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "钳子即使脱落也会马上长出来。外壳可以提取出美味的汤头，是很受欢迎的海鲜炖饭食材。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "坚硬的钳子攻守皆宜。好胜蟹同类之间的战斗就像是拳击一样。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "好胜蟹",
+        "stage": "未进化",
+        "text": null,
+        "image": "739Crabrawler_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "好胜毛蟹",
+        "stage": "1阶进化",
+        "text": "来到拉纳基拉山附近提升等级 ；使用冰之石（第九世代起）",
+        "image": "740Crabominable_Dream.png",
+        "back_text": null,
+        "from": "好胜蟹",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "夹住",
+          "type": "一般",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "5",
+          "name": "碎岩",
+          "type": "格斗",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "9",
+          "name": "瞪眼",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "13",
+          "name": "泡沫光线",
+          "type": "水",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "17",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "22",
+          "name": "劈瓦",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "25",
+          "name": "摔打",
+          "type": "一般",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "75",
+          "pp": "20"
+        },
+        {
+          "level": "29",
+          "name": "以牙还牙",
+          "type": "恶",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "33",
+          "name": "绝处逢生",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "37",
+          "name": "蟹钳锤",
+          "type": "水",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "level": "42",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "45",
+          "name": "爆裂拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "50",
+          "pp": "5"
+        },
+        {
+          "level": "49",
+          "name": "近身战",
+          "type": "格斗",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "5"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００５",
+          "name": "掷泥",
+          "type": "地面",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１８",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０２２",
+          "name": "泼冷水",
+          "type": "水",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２８",
+          "name": "重踏",
+          "type": "地面",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３２",
+          "name": "高速星星",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３５",
+          "name": "泥巴射击",
+          "type": "地面",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０３６",
+          "name": "岩石封锁",
+          "type": "岩石",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０４３",
+          "name": "投掷",
+          "type": "恶",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４９",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５０",
+          "name": "求雨",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５５",
+          "name": "挖洞",
+          "type": "地面",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５８",
+          "name": "劈瓦",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０５９",
+          "name": "意念头锤",
+          "type": "超能力",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "90",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６４",
+          "name": "健美",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０６６",
+          "name": "泰山压顶",
+          "type": "一般",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６８",
+          "name": "雷电拳",
+          "type": "电",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６９",
+          "name": "冰冻拳",
+          "type": "冰",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７３",
+          "name": "吸取拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８４",
+          "name": "跺脚",
+          "type": "地面",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０８６",
+          "name": "岩崩",
+          "type": "岩石",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０９９",
+          "name": "铁头",
+          "type": "钢",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０２",
+          "name": "垃圾射击",
+          "type": "毒",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０４",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１０",
+          "name": "水流裂破",
+          "type": "水",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２８",
+          "name": "瞬间失忆",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３０",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３４",
+          "name": "绝处逢生",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１４９",
+          "name": "地震",
+          "type": "地面",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５８",
+          "name": "真气弹",
+          "type": "格斗",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６７",
+          "name": "近身战",
+          "type": "格斗",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１８１",
+          "name": "拍落",
+          "type": "恶",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１９２",
+          "name": "真气拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２０５",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２１３",
+          "name": "指导",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２２９",
+          "name": "快手还击",
+          "type": "格斗",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "真气拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "蛮力",
+          "type": "格斗",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": "0341",
+              "name": "龙虾小兵"
+            },
+            {
+              "id": "0342",
+              "name": "铁螯龙虾"
+            }
+          ],
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "广域防守",
+          "type": "岩石",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "好胜蟹",
+      "image": "0739-好胜蟹.png",
+      "shiny": "0739-好胜蟹-shiny.png"
+    }
+  ]
+}

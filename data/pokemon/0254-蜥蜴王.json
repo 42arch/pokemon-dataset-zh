@@ -1,0 +1,1822 @@
+{
+  "name_zh": "蜥蜴王",
+  "name_ja": "ジュカイン",
+  "name_en": "Sceptile",
+  "pokedex_id": "0254",
+  "description": "蜥蜴王（日文︰ジュカイン，英文︰Sceptile）是草属性宝可梦。",
+  "profile": "蜥蜴王身体的颜色为绿色。它有着大大的尾巴，两腕上长出的叶子像刀刃般锋利。它背上的种子里贮存了许多能让树木生机盎然的营养。超级蜥蜴王的胸前长出绿色的护甲状物体，全身的叶子变得更加锋利了并且末端变为红色。尾巴的巨大叶片上也多了锋利的尖端，背后多了一对橙色和一对红色的球体，尾部的花纹跟颜色也有了颜色上的改变。\n蜥蜴王是会小心培育森林里树木的宝可梦，会晒太阳来调节体温。它在雨林中强悍得无人能敌，能轻快地在丛林里跑来跑去，用敏捷的动作在树枝间跳来跳去。它会从敌人的头上或背后猛扑过去。并用手臂上长出的锋利叶子解决猎物。手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。\n超级蜥蜴王会运用高速的脚力快速接近对手。它会切断巨大的尾巴，诱爆背部积蓄了超级进化能量的种子，可以像导弹一般将尾巴的前端发射出去攻击对手。因发射而失去的尾巴可以在超级进化能量用尽为止再继续生长。",
+  "prototype": "蜥蜴王可能来源于蜥蜴及双冠龙。\n尾巴可能基于松柏目树木（据说双冠龙的皮肤和足迹化石附近发现了类似羽毛的痕迹，但有学者怀疑那是植物）。\n背上的球状物可能基于许多与根瘤菌互利共生的豆科植物，或如根瘤。\n超级蜥蜴王融入了圣诞树的元素，色彩更为丰富的背部球状物可能基于彩灯球，红色的尾尖可能指向树顶的伯利恒之星。\n“将尾巴尖断掉射出去攻击敌人、并且断尾能够迅速再生”的设定来源于壁虎，与进化前的木守宫相呼应。（壁虎以外的蜥蜴的尾巴也可以再生。）",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ジュカイン Jukain",
+      "origin": "来自“樹（じゅ）海（かい）”（林海，像海一般广阔无边的森林）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "蜥蜴王",
+      "origin": "来自“蜥蜴”和“王”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "蜥蜴王",
+      "origin": "来自“蜥蜴”和“王”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "蜥蜴王",
+      "origin": "来自“蜥蜴”和“王”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "蜥蜴王",
+      "origin": "来自“蜥蜴”和“王”。"
+    },
+    {
+      "language": "英文",
+      "name": "Sceptile",
+      "origin": "来自 scepter（权杖）和 reptile（爬行动物）。"
+    },
+    {
+      "language": "法文",
+      "name": "Jungko",
+      "origin": "来自 jungle（丛林）和 gecko（壁虎）。"
+    },
+    {
+      "language": "德文",
+      "name": "Gewaldro",
+      "origin": "来自 Gewalt（权力）、Gecko（壁虎）、Wald（森林）和 -dro（怪兽风格的词尾）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Sceptile",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Sceptile",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "나무킹 Namuking",
+      "origin": "来自“나무”（树）和英文 king（王）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "蜥蜴王",
+      "types": [
+        "草"
+      ],
+      "category": "密林宝可梦",
+      "abilities": [
+        {
+          "name": "茂盛",
+          "is_hidden": false
+        },
+        {
+          "name": "轻装",
+          "is_hidden": true
+        }
+      ],
+      "height": "1.7m",
+      "weight": "52.2kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "怪兽",
+        "龙群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 3
+        }
+      ],
+      "base_exp": "239",
+      "battle_exp": "2391",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body06.png",
+      "footprint": "F254.png",
+      "image": "0254-蜥蜴王.png"
+    },
+    {
+      "name": "超级蜥蜴王",
+      "types": [
+        "草",
+        "龙"
+      ],
+      "category": "密林宝可梦",
+      "abilities": [
+        {
+          "name": "避雷针",
+          "is_hidden": false
+        }
+      ],
+      "height": "1.9m",
+      "weight": "55.2kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "怪兽",
+        "龙群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 3
+        }
+      ],
+      "base_exp": "284",
+      "battle_exp": "2841",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body06.png",
+      "footprint": "F254.png",
+      "image": "0254-蜥蜴王-超级蜥蜴王.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "70",
+        "attack": "85",
+        "defense": "65",
+        "sp_attack": "105",
+        "sp_defense": "85",
+        "speed": "120"
+      }
+    },
+    {
+      "form": "超级进化",
+      "data": {
+        "hp": "70",
+        "attack": "110",
+        "defense": "75",
+        "sp_attack": "145",
+        "sp_defense": "85",
+        "speed": "145"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "超级进化(避雷针)",
+      "types": [
+        "草",
+        "龙"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "2"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "2"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "0.25"
+        },
+        {
+          "type": "草",
+          "damage": "0.25"
+        },
+        {
+          "type": "电",
+          "damage": "0"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "4"
+        },
+        {
+          "type": "龙",
+          "damage": "2"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "2"
+        }
+      ]
+    },
+    {
+      "form": "超级进化",
+      "types": [
+        "草",
+        "龙"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "2"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "2"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "0.25"
+        },
+        {
+          "type": "草",
+          "damage": "0.25"
+        },
+        {
+          "type": "电",
+          "damage": "0.25"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "4"
+        },
+        {
+          "type": "龙",
+          "damage": "2"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "2"
+        }
+      ]
+    },
+    {
+      "form": "",
+      "types": [
+        "草"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "2"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "2"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "0.5"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "0.5"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "2"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "体内长出的叶子非常锋利。会用敏捷的动作在树枝间跳来跳去，从敌人的头上或背后猛扑过去。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "据说背上的种子里贮存了许多能让树木生机盎然的营养。是会小心培育森林里树木的宝可梦。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "在雨林中强悍得无人能敌。小心培育草木的宝可梦，会晒太阳来调节体温。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "手臂上长出的叶子锋利如刀。能轻巧地在树枝之间跳跃，向敌人发起袭击。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "手臂上长出的叶子锋利如刀。能轻巧地在树枝之间跳跃，向敌人发起袭击。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。在密林中战斗无人能敌。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。在密林中战斗无人能敌。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。在密林中战斗无人能敌。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "会轻快地在丛林里跑来跑去，并用手臂上长出的锋利叶子解决猎物。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "会轻快地在丛林里跑来跑去，并用手臂上长出的锋利叶子解决猎物。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "手臂上长出的叶子锋利得连大树都能“唰”地一刀砍倒。在密林中战斗无人能敌。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "手臂上长出的叶子锋利得连大树都能“唰”地一刀砍倒。在密林中战斗无人能敌。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "手臂上长出的叶子锋利得连大树都能“唰”地一刀砍倒。在密林中战斗无人能敌。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "会轻快地在丛林里跑来跑去，并用手臂上长出的锋利叶子解决猎物。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "体内长出的叶子非常锋利。会用敏捷的动作在树枝间跳来跳去，从敌人的头上或背后猛扑过去。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "据说背上的种子里贮存了许多能让树木生机盎然的营养。是会小心培育森林里树木的宝可梦。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。在密林中战斗无人能敌。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "手臂上长出的叶子锋利得连大树都能唰地一刀砍倒。在密林中战斗无人能敌。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "会轻快地在丛林里跑来跑去，并用手臂上长出的锋利叶子解决猎物。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "手臂上长出的叶子锋利如刀。能轻巧地在树枝之间跳跃，向敌人发起袭击。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "手臂上长出的叶子锋利得连大树都能“唰”地一刀砍倒。在密林中战斗无人能敌。会引爆背部积蓄了超级进化能量的种子，将尾巴的前端发射出去。（超级进化）"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "木守宫",
+        "stage": "未进化",
+        "text": null,
+        "image": "252Treecko_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "森林蜥蜴",
+        "stage": "1阶进化",
+        "text": "等级16以上",
+        "image": "253Grovyle_Dream.png",
+        "back_text": null,
+        "from": "木守宫",
+        "form_name": null
+      },
+      {
+        "name": "蜥蜴王",
+        "stage": "2阶进化",
+        "text": "等级36以上",
+        "image": "254Sceptile_Dream.png",
+        "back_text": null,
+        "from": "森林蜥蜴",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [
+    {
+      "name": "蜥蜴王",
+      "form_name": "超级蜥蜴王",
+      "image": "254Sceptile_Mega_Dream.png"
+    }
+  ],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "进化",
+          "name": "叶刃",
+          "type": "草",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "拍击",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "瞪眼",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "电光一闪",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "树叶",
+          "type": "草",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "level": "5",
+          "name": "超级吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "12",
+          "name": "看穿",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "15",
+          "name": "快速防守",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "20",
+          "name": "恶意追击",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "25",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "30",
+          "name": "摔打",
+          "type": "一般",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "75",
+          "pp": "20"
+        },
+        {
+          "level": "35",
+          "name": "影子分身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "42",
+          "name": "刺耳声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "40"
+        },
+        {
+          "level": "49",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "level": "56",
+          "name": "飞叶风暴",
+          "type": "草",
+          "category": "特殊",
+          "power": "130",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "level": "回忆",
+          "name": "点到为止",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "level": "回忆",
+          "name": "连斩",
+          "type": "虫",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "95",
+          "pp": "20"
+        },
+        {
+          "level": "回忆",
+          "name": "十字剪",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "回忆",
+          "name": "能量球",
+          "type": "草",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "回忆",
+          "name": "断尾",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００４",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１２",
+          "name": "踢倒",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０１４",
+          "name": "杂技",
+          "type": "飞行",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０１８",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０２０",
+          "name": "起草",
+          "type": "草",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２７",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２８",
+          "name": "重踏",
+          "type": "地面",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３２",
+          "name": "高速星星",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３３",
+          "name": "魔法叶",
+          "type": "草",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３６",
+          "name": "岩石封锁",
+          "type": "岩石",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０３９",
+          "name": "下盘踢",
+          "type": "格斗",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０４３",
+          "name": "投掷",
+          "type": "恶",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４４",
+          "name": "龙尾",
+          "type": "龙",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４９",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５５",
+          "name": "挖洞",
+          "type": "地面",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５６",
+          "name": "种子机关枪",
+          "type": "草",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０５７",
+          "name": "点到为止",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "machine": "招式学习器０５８",
+          "name": "劈瓦",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６６",
+          "name": "泰山压顶",
+          "type": "一般",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６８",
+          "name": "雷电拳",
+          "type": "电",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７１",
+          "name": "种子炸弹",
+          "type": "草",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７３",
+          "name": "吸取拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７８",
+          "name": "龙爪",
+          "type": "龙",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０８１",
+          "name": "打草结",
+          "type": "草",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０８６",
+          "name": "岩崩",
+          "type": "岩石",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８８",
+          "name": "剑舞",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１００",
+          "name": "龙之舞",
+          "type": "龙",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０５",
+          "name": "十字剪",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０８",
+          "name": "咬碎",
+          "type": "恶",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１１",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１５",
+          "name": "龙之波动",
+          "type": "龙",
+          "category": "特殊",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１９",
+          "name": "能量球",
+          "type": "草",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１３０",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３７",
+          "name": "青草场地",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１４６",
+          "name": "草之誓约",
+          "type": "草",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１４９",
+          "name": "地震",
+          "type": "地面",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５２",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５５",
+          "name": "疯狂植物",
+          "type": "草",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５６",
+          "name": "逆鳞",
+          "type": "龙",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５８",
+          "name": "真气弹",
+          "type": "格斗",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５９",
+          "name": "飞叶风暴",
+          "type": "草",
+          "category": "特殊",
+          "power": "130",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６３",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６８",
+          "name": "日光束",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７２",
+          "name": "吼叫",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１８４",
+          "name": "真空波",
+          "type": "格斗",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器１９０",
+          "name": "日光刃",
+          "type": "草",
+          "category": "物理",
+          "power": "125",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９２",
+          "name": "真气拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１９４",
+          "name": "青草滑梯",
+          "type": "草",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２００",
+          "name": "鳞射",
+          "type": "龙",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "90",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２０４",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２０５",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２２１",
+          "name": "深渊突刺",
+          "type": "恶",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２２２",
+          "name": "广域破坏",
+          "type": "龙",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２２６",
+          "name": "龙声鼓舞",
+          "type": "龙",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２２９",
+          "name": "快手还击",
+          "type": "格斗",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "二连踢",
+          "type": "格斗",
+          "category": "物理",
+          "power": "30",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "parents": [
+            {
+              "id": "0387",
+              "name": "草苗龟"
+            },
+            {
+              "id": "0388",
+              "name": "树林龟"
+            },
+            {
+              "id": "0389",
+              "name": "土台龟"
+            },
+            {
+              "id": "0704",
+              "name": "黏黏宝"
+            },
+            {
+              "id": "0705",
+              "name": "黏美儿"
+            },
+            {
+              "id": "0705H",
+              "name": "黏美儿"
+            },
+            {
+              "id": "0706",
+              "name": "黏美龙"
+            },
+            {
+              "id": "0706H",
+              "name": "黏美龙"
+            },
+            {
+              "id": "0714",
+              "name": "嗡蝠"
+            },
+            {
+              "id": "0715",
+              "name": "音波龙"
+            }
+          ],
+          "name": "吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "parents": [
+            {
+              "id": "0001",
+              "name": "妙蛙种子"
+            },
+            {
+              "id": "0002",
+              "name": "妙蛙草"
+            },
+            {
+              "id": "0003",
+              "name": "妙蛙花"
+            },
+            {
+              "id": "0152",
+              "name": "菊草叶"
+            },
+            {
+              "id": "0153",
+              "name": "月桂叶"
+            },
+            {
+              "id": "0154",
+              "name": "大竺葵"
+            },
+            {
+              "id": "0387",
+              "name": "草苗龟"
+            },
+            {
+              "id": "0388",
+              "name": "树林龟"
+            },
+            {
+              "id": "0389",
+              "name": "土台龟"
+            },
+            {
+              "id": "0841",
+              "name": "苹裹龙"
+            },
+            {
+              "id": "0842",
+              "name": "丰蜜龙"
+            }
+          ],
+          "name": "寄生种子",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": "0004",
+              "name": "小火龙"
+            },
+            {
+              "id": "0005",
+              "name": "火恐龙"
+            },
+            {
+              "id": "0006",
+              "name": "喷火龙"
+            },
+            {
+              "id": "0158",
+              "name": "小锯鳄"
+            },
+            {
+              "id": "0159",
+              "name": "蓝鳄"
+            },
+            {
+              "id": "0160",
+              "name": "大力鳄"
+            },
+            {
+              "id": "0443",
+              "name": "圆陆鲨"
+            },
+            {
+              "id": "0444",
+              "name": "尖牙陆鲨"
+            },
+            {
+              "id": "0445",
+              "name": "烈咬陆鲨"
+            },
+            {
+              "id": "0610",
+              "name": "牙牙"
+            },
+            {
+              "id": "0611",
+              "name": "斧牙龙"
+            },
+            {
+              "id": "0612",
+              "name": "双斧战龙"
+            }
+          ],
+          "name": "劈开",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "0004",
+              "name": "小火龙"
+            },
+            {
+              "id": "0005",
+              "name": "火恐龙"
+            },
+            {
+              "id": "0006",
+              "name": "喷火龙"
+            },
+            {
+              "id": "0116",
+              "name": "墨海马"
+            },
+            {
+              "id": "0117",
+              "name": "海刺龙"
+            },
+            {
+              "id": "0230",
+              "name": "刺龙王"
+            },
+            {
+              "id": "0329",
+              "name": "超音波幼虫"
+            },
+            {
+              "id": "0330",
+              "name": "沙漠蜻蜓"
+            },
+            {
+              "id": "0333",
+              "name": "青绵鸟"
+            },
+            {
+              "id": "0334",
+              "name": "七夕青鸟"
+            },
+            {
+              "id": "0371",
+              "name": "宝贝龙"
+            },
+            {
+              "id": "0372",
+              "name": "甲壳龙"
+            },
+            {
+              "id": "0373",
+              "name": "暴飞龙"
+            },
+            {
+              "id": "0443",
+              "name": "圆陆鲨"
+            },
+            {
+              "id": "0444",
+              "name": "尖牙陆鲨"
+            },
+            {
+              "id": "0445",
+              "name": "烈咬陆鲨"
+            },
+            {
+              "id": "0633",
+              "name": "单首龙"
+            },
+            {
+              "id": "0634",
+              "name": "双首暴龙"
+            },
+            {
+              "id": "0635",
+              "name": "三首恶龙"
+            },
+            {
+              "id": "0704",
+              "name": "黏黏宝"
+            },
+            {
+              "id": "0705",
+              "name": "黏美儿"
+            },
+            {
+              "id": "0705H",
+              "name": "黏美儿"
+            },
+            {
+              "id": "0706",
+              "name": "黏美龙"
+            },
+            {
+              "id": "0706H",
+              "name": "黏美龙"
+            },
+            {
+              "id": "0841",
+              "name": "苹裹龙"
+            },
+            {
+              "id": "0887",
+              "name": "多龙巴鲁托"
+            },
+            {
+              "id": "0996",
+              "name": "凉脊龙"
+            },
+            {
+              "id": "0997",
+              "name": "冻脊龙"
+            },
+            {
+              "id": "0998",
+              "name": "戟脊龙"
+            },
+            {
+              "id": "1011",
+              "name": "裹蜜虫"
+            },
+            {
+              "id": "1019",
+              "name": "蜜集大蛇"
+            }
+          ],
+          "name": "龙息",
+          "type": "龙",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "0001",
+              "name": "妙蛙种子"
+            },
+            {
+              "id": "0002",
+              "name": "妙蛙草"
+            },
+            {
+              "id": "0003",
+              "name": "妙蛙花"
+            },
+            {
+              "id": "0152",
+              "name": "菊草叶"
+            },
+            {
+              "id": "0153",
+              "name": "月桂叶"
+            },
+            {
+              "id": "0154",
+              "name": "大竺葵"
+            },
+            {
+              "id": "0357",
+              "name": "热带龙"
+            },
+            {
+              "id": "0387",
+              "name": "草苗龟"
+            },
+            {
+              "id": "0388",
+              "name": "树林龟"
+            },
+            {
+              "id": "0389",
+              "name": "土台龟"
+            }
+          ],
+          "name": "光合作用",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": "0001",
+              "name": "妙蛙种子"
+            },
+            {
+              "id": "0002",
+              "name": "妙蛙草"
+            },
+            {
+              "id": "0003",
+              "name": "妙蛙花"
+            }
+          ],
+          "name": "烦恼种子",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": "0336",
+              "name": "饭匙蛇"
+            },
+            {
+              "id": "0610",
+              "name": "牙牙"
+            },
+            {
+              "id": "0884",
+              "name": "铝钢龙"
+            }
+          ],
+          "name": "暗袭要害*",
+          "type": "恶",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "蜥蜴王",
+      "image": "0254-蜥蜴王.png",
+      "shiny": "0254-蜥蜴王-shiny.png"
+    },
+    {
+      "name": "蜥蜴王-超级蜥蜴王",
+      "image": "0254-蜥蜴王-超级蜥蜴王.png",
+      "shiny": "0254-蜥蜴王-超级蜥蜴王-shiny.png"
+    }
+  ]
+}

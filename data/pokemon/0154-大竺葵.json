@@ -1,0 +1,1405 @@
+{
+  "name_zh": "大竺葵",
+  "name_ja": "メガニウム",
+  "name_en": "Meganium",
+  "pokedex_id": "0154",
+  "description": "大竺葵（日文︰メガニウム，英文︰Meganium）是草属性宝可梦。",
+  "profile": "大竺葵是外貌类似蜥脚下目恐龙的宝可梦，身体是绿色的。它的触角像两根蕊状突起，每根顶端都有花药。它的虹膜是黄色的，四只脚分别有三根脚趾。围绕脖子开出了一朵粉红色的大花，中央有黄色的图案，末梢是白色的。雄性大竺葵的触角更长。\n大竺葵花瓣中散发出的气味含有能够平息争斗情绪的成分。战斗的时候，它会散发出香味来削弱对手的战意。它呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量，在大竺葵身边就好象沐浴过森林浴一样变得清爽。\n超级大竺葵的花朵增加为4朵，会储蓄大量太阳能量，产生有特殊气味的成分，花瓣中散发出的气味成分也加强了威力。如果适量吸入这种成分，会有抚平情绪的效果，但若吸入过度则会让情绪变得兴奋。在4朵花储蓄了大量太阳能量的影响之下，变得可以立刻发射日光束了，别名超级日光炮。它善于活用巨大的肉身进行战斗，会踩扁日光束不容易命中的对手，并将其打倒。超级进化之后，开始使用大胆的战斗方式，但似乎偶尔也会显得粗枝大叶。",
+  "prototype": "大竺葵有着蜥脚类动物的外观，尤其类似于迷惑龙。\n其花朵对应为老鹳草、木槿或巨花魔芋，也带有朱顶红的设计。\n超级大竺葵颈部的4朵花在可能参考了襞襟，或音译作拉夫领，是一种用于装饰衣领的丝织品，于16世纪中期至17世纪中期流行于西欧地区的上流社会之间。其腿部的褶皱则可能借鉴了欧洲古典服饰中常见的华丽袖口设计，比如羊腿袖。",
+  "detail": "大竺葵与妙蛙花有相同的种族值，只不过数据分布不一样。\n尽管图鉴说它可以放出香味来镇定情绪，但大竺葵家族直到第四世代才能通过升级学习甜甜香气。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "メガニウム Meganium",
+      "origin": "来自英文前缀 mega-（表示“巨大”或“百万”）和英文 geranium（天竺葵的通称）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "大竺葵",
+      "origin": "来自“大”和“天竺葵”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "大菊花",
+      "origin": "来自“大”、“菊草叶”和“花”或“菊花”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "大菊花",
+      "origin": "来自“大”、“菊草叶”和“花”或“菊花”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "大菊花",
+      "origin": "来自“大”、“菊草叶”和“花”或“菊花”。"
+    },
+    {
+      "language": "英文",
+      "name": "Meganium",
+      "origin": "来自日文名。"
+    },
+    {
+      "language": "法文",
+      "name": "Méganium",
+      "origin": "来自 méga（大的）和 géranium（天竺葵的通称）。"
+    },
+    {
+      "language": "德文",
+      "name": "Meganie",
+      "origin": "来自 mega（大的）和 Geranie（天竺葵的通称）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Meganium",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Meganium",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "메가니움 Meganium",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "大竺葵",
+      "types": [
+        "草"
+      ],
+      "category": "芳草宝可梦",
+      "abilities": [
+        {
+          "name": "茂盛",
+          "is_hidden": false
+        },
+        {
+          "name": "叶子防守",
+          "is_hidden": true
+        }
+      ],
+      "height": "1.8m",
+      "weight": "100.5kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "怪兽",
+        "植物群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 1
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 2
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "236",
+      "battle_exp": "2361",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "F154.png",
+      "image": "0154-大竺葵.png"
+    },
+    {
+      "name": "超级大竺葵",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "category": "芳草宝可梦",
+      "abilities": [
+        {
+          "name": "未知",
+          "is_hidden": false
+        }
+      ],
+      "height": "2.4m",
+      "weight": "201.0kg",
+      "color": "绿色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "怪兽",
+        "植物群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 1
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 2
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "236",
+      "battle_exp": "2361",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body08.png",
+      "footprint": "F154.png",
+      "image": "0154-大竺葵-超级大竺葵.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "普通",
+      "data": {
+        "hp": "80",
+        "attack": "82",
+        "defense": "100",
+        "sp_attack": "83",
+        "sp_defense": "100",
+        "speed": "80"
+      }
+    },
+    {
+      "form": "超级进化",
+      "data": {
+        "hp": "80",
+        "attack": "92",
+        "defense": "115",
+        "sp_attack": "143",
+        "sp_defense": "115",
+        "speed": "80"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "超级大竺葵",
+      "types": [
+        "草",
+        "妖精"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.5"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "4"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "2"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "0.5"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "0.5"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "2"
+        },
+        {
+          "type": "龙",
+          "damage": "0"
+        },
+        {
+          "type": "恶",
+          "damage": "0.5"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    },
+    {
+      "form": "",
+      "types": [
+        "草"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "2"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "2"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "0.5"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "0.5"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "2"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的草木复苏的力量。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "只要待在大竺葵身边，就会像享受了森林浴一样，让心情变得清新舒畅。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "花的香味能够平复情绪。战斗的时候，它会散发出香味来削弱对手的战意。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "花的香味能够平复情绪。战斗的时候，它会散发出香味来削弱对手的战意。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "花的香味能够平复情绪。战斗的时候，它会散发出香味来削弱对手的战意。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的草木复苏的力量。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的草木复苏的力量。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的草木复苏的力量。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "花的香味能够平复情绪。战斗的时候，它会散发出香味来削弱对手的战意。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "花的香味能够平复情绪。战斗的时候，它会散发出香味来削弱对手的战意。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的花草复苏的神奇力量。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "只要待在大竺葵身边，就会像享受了森林浴一样，让心情变得清新舒畅。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "大竺葵呼出的气息中蕴含着能让枯萎的草木复苏的力量。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。从４朵花中放出的日光束威力巨大。别名超级日光炮。（超级进化）"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "菊草叶",
+        "stage": "未进化",
+        "text": null,
+        "image": "152Chikorita_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "月桂叶",
+        "stage": "1阶进化",
+        "text": "等级16以上",
+        "image": "153Bayleef_Dream.png",
+        "back_text": null,
+        "from": "菊草叶",
+        "form_name": null
+      },
+      {
+        "name": "大竺葵",
+        "stage": "2阶进化",
+        "text": "等级32以上",
+        "image": "154Meganium_Dream.png",
+        "back_text": null,
+        "from": "月桂叶",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [
+    {
+      "name": "大竺葵",
+      "form_name": "超级大竺葵",
+      "image": "154Meganium-Mega.png"
+    }
+  ],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "进化",
+          "name": "花瓣舞",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "—",
+          "name": "撞击",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "叫声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "level": "—",
+          "name": "飞叶快刀",
+          "type": "草",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "25"
+        },
+        {
+          "level": "—",
+          "name": "毒粉",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "75",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "落英缤纷",
+          "type": "草",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "12",
+          "name": "光合作用",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "18",
+          "name": "反射壁",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "22",
+          "name": "魔法叶",
+          "type": "草",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "26",
+          "name": "寄生种子",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "level": "34",
+          "name": "甜甜香气",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "40",
+          "name": "光墙",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "46",
+          "name": "泰山压顶",
+          "type": "一般",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "54",
+          "name": "神秘守护",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "25"
+        },
+        {
+          "level": "60",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "65",
+          "name": "日光束",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００２",
+          "name": "撒娇",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００３",
+          "name": "假哭",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００５",
+          "name": "掷泥",
+          "type": "地面",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０２０",
+          "name": "起草",
+          "type": "草",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２８",
+          "name": "重踏",
+          "type": "地面",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３３",
+          "name": "魔法叶",
+          "type": "草",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０４４",
+          "name": "龙尾",
+          "type": "龙",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４９",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５６",
+          "name": "种子机关枪",
+          "type": "草",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０５９",
+          "name": "意念头锤",
+          "type": "超能力",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "90",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６６",
+          "name": "泰山压顶",
+          "type": "一般",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７１",
+          "name": "种子炸弹",
+          "type": "草",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７４",
+          "name": "反射壁",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０７５",
+          "name": "光墙",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０８１",
+          "name": "打草结",
+          "type": "草",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８４",
+          "name": "跺脚",
+          "type": "地面",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０８８",
+          "name": "剑舞",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８９",
+          "name": "扑击",
+          "type": "格斗",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１１",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１９",
+          "name": "能量球",
+          "type": "草",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２２",
+          "name": "再来一次",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１３０",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３７",
+          "name": "青草场地",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１４６",
+          "name": "草之誓约",
+          "type": "草",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１４９",
+          "name": "地震",
+          "type": "地面",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５２",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５５",
+          "name": "疯狂植物",
+          "type": "草",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５６",
+          "name": "逆鳞",
+          "type": "龙",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５９",
+          "name": "飞叶风暴",
+          "type": "草",
+          "category": "特殊",
+          "power": "130",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６３",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６８",
+          "name": "日光束",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１８１",
+          "name": "拍落",
+          "type": "恶",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１９０",
+          "name": "日光刃",
+          "type": "草",
+          "category": "物理",
+          "power": "125",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９３",
+          "name": "气象球",
+          "type": "一般",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９４",
+          "name": "青草滑梯",
+          "type": "草",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２０４",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２０５",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２０６",
+          "name": "落英缤纷",
+          "type": "草",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２２４",
+          "name": "咒术",
+          "type": "幽灵",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "0001",
+              "name": "妙蛙种子"
+            },
+            {
+              "id": "0002",
+              "name": "妙蛙草"
+            },
+            {
+              "id": "0003",
+              "name": "妙蛙花"
+            },
+            {
+              "id": "0069",
+              "name": "喇叭芽"
+            },
+            {
+              "id": "0070",
+              "name": "口呆花"
+            },
+            {
+              "id": "0071",
+              "name": "大食花"
+            },
+            {
+              "id": "0495",
+              "name": "藤藤蛇"
+            },
+            {
+              "id": "0496",
+              "name": "青藤蛇"
+            },
+            {
+              "id": "0497",
+              "name": "君主蛇"
+            },
+            {
+              "id": "0764",
+              "name": "花疗环环"
+            }
+          ],
+          "name": "藤鞭",
+          "type": "草",
+          "category": "物理",
+          "power": "45",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "parents": [
+            {
+              "id": "0286",
+              "name": "斗笠菇"
+            },
+            {
+              "id": "0833",
+              "name": "咬咬龟"
+            },
+            {
+              "id": "0834",
+              "name": "暴噬龟"
+            }
+          ],
+          "name": "双倍奉还",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "0143",
+              "name": "卡比兽"
+            },
+            {
+              "id": "0158",
+              "name": "小锯鳄"
+            },
+            {
+              "id": "0159",
+              "name": "蓝鳄"
+            },
+            {
+              "id": "0160",
+              "name": "大力鳄"
+            },
+            {
+              "id": "0270",
+              "name": "莲叶童子"
+            },
+            {
+              "id": "0271",
+              "name": "莲帽小童"
+            },
+            {
+              "id": "0928",
+              "name": "迷你芙"
+            },
+            {
+              "id": "0929",
+              "name": "奥利纽"
+            },
+            {
+              "id": "0930",
+              "name": "奥利瓦"
+            }
+          ],
+          "name": "抓狂",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "parents": [
+            {
+              "id": "0408",
+              "name": "头盖龙"
+            },
+            {
+              "id": "0409",
+              "name": "战槌龙"
+            },
+            {
+              "id": "0410",
+              "name": "盾甲龙"
+            },
+            {
+              "id": "0411",
+              "name": "护城龙"
+            }
+          ],
+          "name": "原始之力",
+          "type": "岩石",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": "0192",
+              "name": "向日花怪"
+            },
+            {
+              "id": "0331",
+              "name": "刺球仙人掌"
+            },
+            {
+              "id": "0332",
+              "name": "梦歌仙人掌"
+            },
+            {
+              "id": "0459",
+              "name": "雪笠怪"
+            },
+            {
+              "id": "0460",
+              "name": "暴雪王"
+            },
+            {
+              "id": "0590",
+              "name": "哎呀球菇"
+            },
+            {
+              "id": "0591",
+              "name": "败露球菇"
+            },
+            {
+              "id": "0708",
+              "name": "小木灵"
+            },
+            {
+              "id": "0709",
+              "name": "朽木妖"
+            },
+            {
+              "id": "0753",
+              "name": "伪螳草"
+            },
+            {
+              "id": "0754",
+              "name": "兰螳花"
+            }
+          ],
+          "name": "扎根",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "0079",
+              "name": "呆呆兽"
+            },
+            {
+              "id": "0079G",
+              "name": "呆呆兽"
+            },
+            {
+              "id": "0080",
+              "name": "呆壳兽"
+            },
+            {
+              "id": "0080G",
+              "name": "呆壳兽"
+            },
+            {
+              "id": "0199",
+              "name": "呆呆王"
+            },
+            {
+              "id": "0199G",
+              "name": "呆呆王"
+            }
+          ],
+          "name": "治愈波动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "大竺葵-雄性",
+      "image": "0154-大竺葵-雄性.png",
+      "shiny": "0154-大竺葵-雄性-shiny.png"
+    },
+    {
+      "name": "大竺葵-雌性",
+      "image": "0154-大竺葵-雌性.png",
+      "shiny": "0154-大竺葵-雌性-shiny.png"
+    }
+  ]
+}

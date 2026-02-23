@@ -1,0 +1,995 @@
+{
+  "name_zh": "古空棘鱼",
+  "name_ja": "ジーランス",
+  "name_en": "Relicanth",
+  "pokedex_id": "0369",
+  "description": "古空棘鱼（日文︰ジーランス，英文︰Relicanth）是水属性／岩石属性宝可梦。",
+  "profile": "古空棘鱼是一条身上有著地图般斑纹的大鱼，头部是浅棕色的。它深棕色的身体上有分布浅棕色的花纹以及一个大红点。雌性古空棘鱼的鳃盖更短。\n古空棘鱼一直生活在深海，原本被认为是已经绝种的宝可梦。它是在深海调查中被发现的珍奇品种，古空棘鱼的名字是模仿发现者的名字而起的。好像作为生命已是完成状态，所以在1亿年间样子完全没有变化，被人们称为活化石。它身体表面覆盖着的如岩石般坚硬的凹凸不平的鳞片和富含脂肪的浮囊使它能够耐得住深海的水压。它牙齿退化，靠吸食来摄取微生物，能利用胸鳍在海底里行走。",
+  "prototype": "设计理念来自腔棘鱼，尤其是现代仅存的两种腔棘鱼类西印度洋矛尾鱼和印尼矛尾鱼。\n腔棘鱼类曾一度被认为在6500万年前就已全部灭绝，直到1938年一条西印度洋矛尾鱼被捕获并命名。古空棘鱼曾被认为已经灭绝的设定正来源于此。\n《究极之日》的图鉴中提及古空棘鱼的名字是模仿发现者的名字起的。这可能源于现实中矛尾鱼属(Latimeria)的命名来自将那条西印度洋矛尾鱼保存并交付给命名者的博物馆馆员玛罗丽·考特内-拉蒂迈。\n图鉴中提及的牙齿退化吸食微生物的习性，以及坚硬脑袋的特性和凸起的鳃，这些特征可能参考了骨甲鱼。\n其身体上的花纹可能参考了地图，红点可能来自画在地图上的标记点。\n在现实中，腔棘鱼和蓝鲸在生物学上都属于肉鳍鱼类，存在进化关系，这可能是在布告石室的关键之厅解密时需要携带古空棘鱼和吼鲸王的用意。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步古空棘鱼（Pokémon GO）。\n←\nNo.0368：樱花鱼\n宝可梦\nNo.0370：爱心鱼\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ジーランス Glanth",
+      "origin": "来自“爺（じい）”（老爷子）和英文 coelacanth（腔棘鱼）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "古空棘魚古空棘鱼",
+      "origin": "来自“古”和“空棘鱼”（腔棘鱼）。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "古空棘鱼",
+      "origin": "来自“古”和“空棘鱼”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "古空棘魚",
+      "origin": "来自“古”和“空棘鱼”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "古空棘魚",
+      "origin": "来自“古”和“空棘鱼”。"
+    },
+    {
+      "language": "英文",
+      "name": "Relicanth",
+      "origin": "来自 relic（遗迹、遗物）和 coelacanth（腔棘鱼）。"
+    },
+    {
+      "language": "法文",
+      "name": "Relicanth",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Relicanth",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Relicanth",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Relicanth",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "시라칸 Sirakan",
+      "origin": "来自英文 coelacanth（腔棘鱼）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "古空棘鱼",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "category": "长寿宝可梦",
+      "abilities": [
+        {
+          "name": "悠游自如",
+          "is_hidden": false
+        },
+        {
+          "name": "坚硬脑袋",
+          "is_hidden": false
+        },
+        {
+          "name": "结实",
+          "is_hidden": true
+        }
+      ],
+      "height": "1.0m",
+      "weight": "23.4kg",
+      "color": "灰色",
+      "catch_rate": "25（3.3%）",
+      "egg_groups": [
+        "水中1",
+        "水中2群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 1
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 1
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "170",
+      "battle_exp": "1701",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "40 孵化周期（10280步）",
+      "shape": "Body03.png",
+      "footprint": "F369.png",
+      "image": "0369-古空棘鱼.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "100",
+        "attack": "90",
+        "defense": "130",
+        "sp_attack": "45",
+        "sp_defense": "65",
+        "speed": "55"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "水",
+        "岩石"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "0.5"
+        },
+        {
+          "type": "格斗",
+          "damage": "2"
+        },
+        {
+          "type": "飞行",
+          "damage": "0.5"
+        },
+        {
+          "type": "毒",
+          "damage": "0.5"
+        },
+        {
+          "type": "地面",
+          "damage": "2"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "0.25"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "4"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "0.5"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "在漫长的１亿年间，样子完全没变，一直生活在深海的宝可梦。用没有牙齿的嘴只吃微生物。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "在深海调查中被发现的珍奇品种。身体表面覆盖着如岩石般凹凸不平的鳞片，能忍耐海底的水压。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "原本被认为是已经绝种的宝可梦。这一亿年间外表完全没有改变。能利用胸鳍在海底里行走。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "样子从１亿年前开始就没有变化的宝可梦。在调查深海时被发现。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "样子从１亿年前开始就没有变化的宝可梦。在调查深海时被发现。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "在对深海的调查中偶然被发现，一亿年里体形并没有发生变化。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "在对深海的调查中偶然被发现，一亿年里体形并没有发生变化。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "样子从１亿年前开始就没有变化的宝可梦。在调查深海时被发现。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "在漫长的１亿年间，样子完全没变，一直生活在深海的宝可梦。用没有牙齿的嘴只吃微生物。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "在深海调查中被发现的珍奇品种。身体表面覆盖着如岩石般凹凸不平的鳞片，能忍耐海底的水压。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "从１亿年前起就是相同的样子。因为体内富含脂肪，所以可以承受深海的水压。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "在深海调查中被偶然发现。牙齿退化，靠吸食来摄取微生物。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "如岩石般坚硬的鳞片和富含脂肪的浮囊使它能够耐得住深海的水压。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "在深海调查中被发现的宝可梦。样子在１亿年间都没有任何变化，被人们称为活化石。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "在深海调查中被发现的珍奇宝可梦。１亿年间样子都没变化过。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "古空棘鱼",
+        "stage": "不进化",
+        "text": null,
+        "image": "369Relicanth_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "撞击",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "变硬",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "5",
+          "name": "水枪",
+          "type": "水",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "10",
+          "name": "原始之力",
+          "type": "岩石",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "level": "15",
+          "name": "哈欠",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "20",
+          "name": "潜水",
+          "type": "水",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "25",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "level": "30",
+          "name": "水流尾",
+          "type": "水",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "level": "35",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "40",
+          "name": "抓狂",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "45",
+          "name": "水炮",
+          "type": "水",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "level": "50",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "55",
+          "name": "双刃头锤",
+          "type": "岩石",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "80",
+          "pp": "5"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器０８",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０９",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１９",
+          "name": "神秘守护",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器２１",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２２",
+          "name": "岩崩",
+          "type": "岩石",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２４",
+          "name": "打鼾",
+          "type": "一般",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２５",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２７",
+          "name": "冰冻之风",
+          "type": "冰",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器３１",
+          "name": "迷人",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器３２",
+          "name": "沙暴",
+          "type": "岩石",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器３３",
+          "name": "求雨",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器３５",
+          "name": "冰雹",
+          "type": "冰",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器３６",
+          "name": "潮旋",
+          "type": "水",
+          "category": "特殊",
+          "power": "35",
+          "accuracy": "85",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器３９",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器４５",
+          "name": "潜水",
+          "type": "水",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器４８",
+          "name": "岩石封锁",
+          "type": "岩石",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器５２",
+          "name": "弹跳",
+          "type": "飞行",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "85",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器５３",
+          "name": "泥巴射击",
+          "type": "地面",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器５４",
+          "name": "岩石爆击",
+          "type": "岩石",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器５５",
+          "name": "盐水",
+          "type": "水",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器７６",
+          "name": "轮唱",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器８１",
+          "name": "重踏",
+          "type": "地面",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器９８",
+          "name": "跺脚",
+          "type": "地面",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录０１",
+          "name": "泰山压顶",
+          "type": "一般",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录０３",
+          "name": "水炮",
+          "type": "水",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式记录０４",
+          "name": "冲浪",
+          "type": "水",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录０５",
+          "name": "冰冻光束",
+          "type": "冰",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录０６",
+          "name": "暴风雪",
+          "type": "冰",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "machine": "招式记录１０",
+          "name": "地震",
+          "type": "地面",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录１６",
+          "name": "攀瀑",
+          "type": "水",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录１７",
+          "name": "瞬间失忆",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录２０",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２６",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２７",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录４５",
+          "name": "浊流",
+          "type": "水",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录４６",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录４９",
+          "name": "冥想",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录６７",
+          "name": "大地之力",
+          "type": "地面",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录６９",
+          "name": "意念头锤",
+          "type": "超能力",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "90",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录７５",
+          "name": "尖石攻击",
+          "type": "岩石",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式记录７６",
+          "name": "隐形岩",
+          "type": "岩石",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录８４",
+          "name": "热水",
+          "type": "水",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录９８",
+          "name": "水流裂破",
+          "type": "水",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录９９",
+          "name": "扑击",
+          "type": "格斗",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "339",
+              "name": "泥泥鳅"
+            },
+            {
+              "id": "340",
+              "name": "鲶鱼王"
+            },
+            {
+              "id": "422",
+              "name": "无壳海兔"
+            },
+            {
+              "id": "422E",
+              "name": "无壳海兔"
+            },
+            {
+              "id": "423",
+              "name": "海兔兽"
+            },
+            {
+              "id": "423E",
+              "name": "海兔兽"
+            },
+            {
+              "id": null,
+              "name": "泥巴鱼"
+            }
+          ],
+          "name": "掷泥",
+          "type": "地面",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": "007",
+              "name": "杰尼龟"
+            },
+            {
+              "id": "008",
+              "name": "卡咪龟"
+            },
+            {
+              "id": "009",
+              "name": "水箭龟"
+            }
+          ],
+          "name": "火箭头锤",
+          "type": "一般",
+          "category": "物理",
+          "power": "130",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "古空棘鱼-雄性",
+      "image": "0369-古空棘鱼-雄性.png",
+      "shiny": "0369-古空棘鱼-雄性-shiny.png"
+    },
+    {
+      "name": "古空棘鱼-雌性",
+      "image": "0369-古空棘鱼-雌性.png",
+      "shiny": "0369-古空棘鱼-雌性-shiny.png"
+    }
+  ]
+}

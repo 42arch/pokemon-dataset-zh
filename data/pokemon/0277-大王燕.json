@@ -1,0 +1,938 @@
+{
+  "name_zh": "大王燕",
+  "name_ja": "オオスバメ",
+  "name_en": "Swellow",
+  "pokedex_id": "0277",
+  "description": "大王燕（日文︰オオスバメ，英文︰Swellow）是一般属性／飞行属性宝可梦。",
+  "profile": "大王燕是一种类似家燕的宝可梦，羽毛颜色主要为墨蓝色，颈、尾尖和额头上有朱红色的纹路，而肚子则为白色。2根尾羽笔直地竖起就是健康的证明。它的爪子是红色的，而喙是黄色。\n大王燕为了寻找温暖的土地而不断移动，会在空中优雅地飞来飞去。它会盘旋在遥远的高空，发现居住在森林里的猎物后就会俯冲而下，用锋利的爪子紧紧抓住猎物，被盯上的猎物绝对无法逃脱。刺尾虫会把尾部的刺对准想捉自己当食物的大王燕进行抵抗。大王燕不会疏于修整自己那光鲜的羽毛，两只大王燕聚集在一起后一定会把对方的羽毛修整得更漂亮。",
+  "prototype": "设计基于燕子，尤其是家燕。它的动作可能取自隼和雨燕。",
+  "detail": "如果您在寻找此宝可梦在Pokémon GO里的资料，请移步大王燕（Pokémon GO）。\n←\nNo.0276：傲骨燕\n宝可梦\nNo.0278：长翅鸥\n→",
+  "names": [
+    {
+      "language": "日文",
+      "name": "オオスバメ Ohsubame",
+      "origin": "来自“大（おお）きい”（大的）、“王（おう）” （王）和“スバメ ”（傲骨燕）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "大王燕",
+      "origin": "来自“大王”和“燕”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "大王燕",
+      "origin": "来自“大王”和“燕”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "大王燕",
+      "origin": "来自“大王”和“燕”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "大王燕",
+      "origin": "来自“大王”和“燕”。"
+    },
+    {
+      "language": "英文",
+      "name": "Swellow",
+      "origin": "来自口语 swell（一流的）和 swallow（燕子）。"
+    },
+    {
+      "language": "法文",
+      "name": "Hélédelle",
+      "origin": "来自 hirondelle（燕子）和 élégant（优雅的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Schwalboss",
+      "origin": "来自 Schwalbe（燕子）和 Boss（老大、首领）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Swellow",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Swellow",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "스왈로 Swalow",
+      "origin": "来自英文 swallow（燕子）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "大王燕",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "category": "燕子宝可梦",
+      "abilities": [
+        {
+          "name": "毅力",
+          "is_hidden": false
+        },
+        {
+          "name": "胆量",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.7m",
+      "weight": "19.8kg",
+      "color": "蓝色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "飞行群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 2
+        }
+      ],
+      "base_exp": "159",
+      "battle_exp": "1591",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body09.png",
+      "footprint": "F277.png",
+      "image": "0277-大王燕.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "第七世代起",
+      "data": {
+        "hp": "60",
+        "attack": "85",
+        "defense": "60",
+        "sp_attack": "75",
+        "sp_defense": "50",
+        "speed": "125"
+      }
+    },
+    {
+      "form": "第七世代之前",
+      "data": {
+        "hp": "60",
+        "attack": "85",
+        "defense": "60",
+        "sp_attack": "50",
+        "sp_defense": "50",
+        "speed": "125"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "0"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "0"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "2"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "会盘旋在遥远的高空，发现猎物后就会俯冲而下，用脚爪紧紧抓住猎物令其无法逃脱。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "不会疏于修整自己那光鲜的羽毛。２只大王燕聚集在一起后，一定会把对方的羽毛修整得更漂亮。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "从遥远的高空俯冲而下，被盯上的猎物绝对无法逃脱。为了寻找温暖的土地而不断移动。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "２根尾羽笔直地竖起就是健康的证明。会在空中优雅地飞来飞去。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "２根尾羽笔直地竖起就是健康的证明。会在空中优雅地飞来飞去。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "发现居住在森林里的猎物后，就会从高空俯冲而下。会用锋利的爪子捕捉猎物。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "发现居住在森林里的猎物后，就会从高空俯冲而下。会用锋利的爪子捕捉猎物。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "２根尾羽笔直地竖起就是健康的证明。会在空中优雅地飞来飞去。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "发现居住在森林里的猎物后，就会从高空俯冲而下。会用锋利的爪子捕捉猎物。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "会盘旋在遥远的高空，发现猎物后就会俯冲而下，用脚爪紧紧抓住猎物令其无法逃脱。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "不会疏于修整自己那光鲜的羽毛。２只大王燕聚集在一起后，一定会把对方的羽毛修整得更漂亮。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "边在高空盘旋边搜寻猎物，发现猎物后会头朝下急速俯冲将其捕获。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "傲骨燕",
+        "stage": "未进化",
+        "text": null,
+        "image": "276Taillow_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "大王燕",
+        "stage": "1阶进化",
+        "text": "等级22以上",
+        "image": "277Swellow_Dream.png",
+        "back_text": null,
+        "from": "傲骨燕",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "勇鸟猛攻",
+          "type": "飞行",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "空气之刃",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "啄食",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "—",
+          "name": "啄",
+          "type": "飞行",
+          "category": "物理",
+          "power": "35",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "叫声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "level": "—",
+          "name": "聚气",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "电光一闪",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "5",
+          "name": "聚气",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "9",
+          "name": "电光一闪",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "13",
+          "name": "翅膀攻击",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "17",
+          "name": "影子分身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "21",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "27",
+          "name": "快速防守",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "33",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "39",
+          "name": "空气之刃",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "level": "45",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "level": "51",
+          "name": "勇鸟猛攻",
+          "type": "飞行",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "57",
+          "name": "绝处逢生",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器１０",
+          "name": "自我激励",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器１１",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１８",
+          "name": "求雨",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器３２",
+          "name": "影子分身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器４０",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器４２",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器４４",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器４５",
+          "name": "迷人",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器４６",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器４７",
+          "name": "钢翼",
+          "type": "钢",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "90",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器５１",
+          "name": "羽栖",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器５８",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器６８",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器８２",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器８７",
+          "name": "虚张声势",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器８８",
+          "name": "啄食",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器８９",
+          "name": "急速折返",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器９０",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器９４",
+          "name": "飞翔",
+          "type": "飞行",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器９７",
+          "name": "清除浓雾",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "041",
+              "name": "超音蝠"
+            },
+            {
+              "id": "042",
+              "name": "大嘴蝠"
+            },
+            {
+              "id": "142",
+              "name": "化石翼龙"
+            },
+            {
+              "id": "169",
+              "name": "叉字蝠"
+            },
+            {
+              "id": "278",
+              "name": "长翅鸥"
+            },
+            {
+              "id": "279",
+              "name": "大嘴鸥"
+            }
+          ],
+          "name": "超音波",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "55",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "164",
+              "name": "猫头夜鹰"
+            },
+            {
+              "id": "334",
+              "name": "七夕青鸟"
+            },
+            {
+              "id": "468",
+              "name": "波克基斯"
+            }
+          ],
+          "name": "神鸟猛击",
+          "type": "飞行",
+          "category": "物理",
+          "power": "140",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": "016",
+              "name": "波波"
+            },
+            {
+              "id": "017",
+              "name": "比比鸟"
+            },
+            {
+              "id": "018",
+              "name": "大比鸟"
+            },
+            {
+              "id": "396",
+              "name": "姆克儿"
+            },
+            {
+              "id": "397",
+              "name": "姆克鸟"
+            },
+            {
+              "id": "398",
+              "name": "姆克鹰"
+            }
+          ],
+          "name": "吹飞",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "083",
+              "name": "大葱鸭"
+            },
+            {
+              "id": "227",
+              "name": "盔甲鸟"
+            },
+            {
+              "id": "276",
+              "name": "傲骨燕"
+            },
+            {
+              "id": "277",
+              "name": "大王燕"
+            },
+            {
+              "id": "396",
+              "name": "姆克儿"
+            },
+            {
+              "id": "397",
+              "name": "姆克鸟"
+            },
+            {
+              "id": "398",
+              "name": "姆克鹰"
+            }
+          ],
+          "name": "勇鸟猛攻",
+          "type": "飞行",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "parents": [],
+          "name": "爆音波",
+          "type": "一般",
+          "category": "特殊",
+          "power": "140",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": "016",
+              "name": "波波"
+            },
+            {
+              "id": "017",
+              "name": "比比鸟"
+            },
+            {
+              "id": "018",
+              "name": "大比鸟"
+            },
+            {
+              "id": "278",
+              "name": "长翅鸥"
+            },
+            {
+              "id": "279",
+              "name": "大嘴鸥"
+            },
+            {
+              "id": "334",
+              "name": "七夕青鸟"
+            }
+          ],
+          "name": "暴风",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "大王燕",
+      "image": "0277-大王燕.png",
+      "shiny": "0277-大王燕-shiny.png"
+    }
+  ]
+}

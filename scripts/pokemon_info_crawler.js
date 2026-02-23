@@ -853,14 +853,12 @@ function extractMoveSection($, keywords, rowExtractor) {
 
     const forms = [];
     // Scope is until the next header of same or higher level (h2-h5)
-    // Using nextUntil might be tricky if structure varies, but usually sections are well defined.
-    // We'll grab everything until the next header.
     const scope = header.nextUntil('h2, h3, h4, h5');
     
     // Check for toggles (Forms)
     const toggleMap = new Map();
     
-    // Look for the toggles in the immediate siblings (usually just one center tag)
+    // Strategy 1: Look for center > span._toggle (Old/Standard style like Rapidash)
     scope.filter('center').each((i, center) => {
         $(center).find('span[class*="_toggle"]').each((j, span) => {
             const $span = $(span);
@@ -869,10 +867,7 @@ function extractMoveSection($, keywords, rowExtractor) {
             
             const classes = ($span.attr('class') || '').split(/\s+/);
             for (const cls of classes) {
-                // Ignore generic classes
                 if (['_toggle', 'textblack', 'mw-headline'].includes(cls) || cls.startsWith('_toggler') || cls.startsWith('inact')) continue;
-                
-                // Usually the class we want is something like 'varformn', 'varformalola', 'form1', etc.
                 if (!toggleMap.has(cls)) {
                     toggleMap.set(cls, text);
                 }
@@ -880,14 +875,38 @@ function extractMoveSection($, keywords, rowExtractor) {
         });
     });
 
+    // Strategy 2: Look for .toggle-p / .toggle-l structure (Newer style like Growlithe)
+    // Structure: <span class="toggle-p toggle-p-1">Name</span> ...
+    // Content: <div class="toggle-content toggle-c toggle-1">...</div>
+    if (toggleMap.size === 0) {
+        scope.find('[class*="toggle-p-"]').each((i, el) => {
+            const $el = $(el);
+            const text = $el.text().trim();
+            if (!text) return;
+            
+            const classes = ($el.attr('class') || '').split(/\s+/);
+            for (const cls of classes) {
+                const match = cls.match(/toggle-p-(\d+)/);
+                if (match) {
+                    const id = match[1];
+                    const contentClass = `toggle-${id}`; // The content div has this class
+                    if (!toggleMap.has(contentClass)) {
+                        toggleMap.set(contentClass, text);
+                    }
+                }
+            }
+        });
+    }
+
     if (toggleMap.size > 0) {
-        // Iterate over identified forms
         const sortedForms = Array.from(toggleMap.keys());
         
         for (const formId of sortedForms) {
             const formName = toggleMap.get(formId);
             
             // Find the container for this form
+            // For Strategy 1: .formId
+            // For Strategy 2: .toggle-content.formId (where formId is like 'toggle-1')
             let container = scope.filter(`.${formId}`);
             if (container.length === 0) container = scope.find(`.${formId}`);
             
@@ -911,12 +930,8 @@ function extractMoveSection($, keywords, rowExtractor) {
         }
     } else {
         // No toggles, assume single form "General" or Default
-        // Find the first roundy table in scope
         let table = scope.filter('table.roundy').first();
         if (table.length === 0) table = scope.find('table.roundy').first();
-        
-        // Sometimes the table is inside a toggle-content that isn't a form toggle (like tabs)
-        // But if toggleMap is empty, we just take the first table we see.
         
         if (table.length > 0) {
              const moves = [];

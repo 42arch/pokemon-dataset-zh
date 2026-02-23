@@ -1,0 +1,966 @@
+{
+  "name_zh": "多边兽",
+  "name_ja": "ポリゴン",
+  "name_en": "Porygon",
+  "pokedex_id": "0137",
+  "description": "多边兽（日文︰ポリゴン，英文︰Porygon）是一般属性宝可梦。",
+  "profile": "多边兽的身体由程序构成，它的头是红色的，嘴巴是蓝色的。它的身体后部是红色的，尾部和胸前则是蓝色的。\n多边兽是为了宝可梦研究使用最先进的科学技术，终于成功制造出人工的宝可梦。它是人工制造出来的宝可梦，只被编入了一些基本动作，没编程的动作就做不出来。它由大约20年前的科学力量创造出来的宝可梦，所以现在很多部分已经过时了。因为它能将身体化为数字数据，所以可以将全身转回程序数据并进入电子空间，有着能在电子空间自由移动的能力。因为有防拷贝保护，所以无法复制。因为不需要呼吸，人们期待它能成为唯一能够飞到宇宙的宝可梦，然而至今也努力未果。近年来它十分活跃于电脑空间，到处检查有没有可疑的数据。",
+  "prototype": "多边兽基于由原始3D设计软件建模出来的形象，特点是棱角分明。\n它的形状有些类似纸鹤。\n从图鉴设定来看，多边兽的本体是计算机程序。",
+  "detail": "多边兽是唯一因为进化以外的原因使分类发生过变化的宝可梦：在日文版《红／绿》中，其分类为“CG宝可梦”；从日文版《蓝》起，则改为“虚拟宝可梦”，国际版《红／蓝》沿用日文版《蓝》设定，为“虚拟宝可梦”。但这之后有其他衍生游戏，如日文版《宝可梦弹珠台》中，其分类又变为“CG宝可梦”。\n虽然官绘上多边兽的瞳孔看起来像圆形的，但在模型上为菱形。\n在《太阳／月亮》的图鉴中出现了“大约20年前”的描述，这说明《太阳／月亮》的时间线在多边兽首次登场的《红／绿》的大约20年后。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ポリゴン Porygon",
+      "origin": "来自英文 polygon（多边形）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "多邊獸多边兽",
+      "origin": "来自“多边形”和“兽”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "3D龙",
+      "origin": "来自“3D”和 “龙”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "多邊獸",
+      "origin": "来自“多边形”和“兽”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "3D龍",
+      "origin": "来自“3D”和 “龙”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "多邊獸",
+      "origin": "来自“多边形”和“兽”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "立方獸",
+      "origin": "来自“立方体”和“兽”。"
+    },
+    {
+      "language": "英文",
+      "name": "Porygon",
+      "origin": "来自 polygon（多边形）。"
+    },
+    {
+      "language": "法文",
+      "name": "Porygon",
+      "origin": "来自日文名和英文名。"
+    },
+    {
+      "language": "德文",
+      "name": "Porygon",
+      "origin": "来自日文名和英文名。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Porygon",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Porygon",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "폴리곤 Porygon",
+      "origin": "来自日文名的音译。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "多边兽",
+      "types": [
+        "一般"
+      ],
+      "category": "虚拟宝可梦",
+      "abilities": [
+        {
+          "name": "复制",
+          "is_hidden": false
+        },
+        {
+          "name": "下载",
+          "is_hidden": false
+        },
+        {
+          "name": "分析",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.8m",
+      "weight": "36.5kg",
+      "color": "粉红色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "矿物群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 1
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "79",
+      "battle_exp": "791",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body07.png",
+      "footprint": "F137.png",
+      "image": "0137-多边兽.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "65",
+        "attack": "60",
+        "defense": "70",
+        "sp_attack": "85",
+        "sp_defense": "75",
+        "speed": "40"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "一般"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "2"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "0"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第一世代",
+      "versions": [
+        {
+          "name": "红",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "使用最先进的科学技术，终于成功制造出人工的宝可梦。"
+        },
+        {
+          "name": "绿",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "使用最先进的科学技术，终于成功制造出人工的宝可梦。"
+        },
+        {
+          "name": "蓝",
+          "group": "宝可梦 红／绿／蓝",
+          "text": "身体由程序构成。有着能在电子空间自由移动的能力。"
+        },
+        {
+          "name": "皮卡丘",
+          "group": "宝可梦 皮卡丘",
+          "text": "人们期待它能成为唯一能够飞到宇宙的宝可梦，然而至今也努力未果。"
+        }
+      ]
+    },
+    {
+      "name": "第二世代",
+      "versions": [
+        {
+          "name": "金",
+          "group": "宝可梦 金／银",
+          "text": "因为不需要呼吸而被期待在任何地方都能大显身手的人工宝可梦。"
+        },
+        {
+          "name": "银",
+          "group": "宝可梦 金／银",
+          "text": "经过研究而诞生出的人工宝可梦。只被编入了一些基本动作。"
+        },
+        {
+          "name": "水晶版",
+          "group": "宝可梦 水晶版",
+          "text": "为了宝可梦研究而诞生的人工宝可梦。没编程的动作就做不出来。"
+        }
+      ]
+    },
+    {
+      "name": "第三世代",
+      "versions": [
+        {
+          "name": "红宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "可以将全身转回程序数据并进入电子空间。因为有防拷贝保护，所以无法复制。"
+        },
+        {
+          "name": "蓝宝石",
+          "group": "宝可梦 红宝石／蓝宝石",
+          "text": "可以将全身转回程序数据并进入电子空间。因为有防拷贝保护，所以无法复制。"
+        },
+        {
+          "name": "绿宝石",
+          "group": "宝可梦 绿宝石",
+          "text": "可以将全身转回程序数据并进入电子空间。因为有防拷贝保护，所以无法复制。"
+        },
+        {
+          "name": "火红",
+          "group": "宝可梦 火红／叶绿",
+          "text": "使用最先进的科学技术，终于成功制造出人工的宝可梦。"
+        },
+        {
+          "name": "叶绿",
+          "group": "宝可梦 火红／叶绿",
+          "text": "身体由程序构成。有着能在电子空间自由移动的能力。"
+        }
+      ]
+    },
+    {
+      "name": "第四世代",
+      "versions": [
+        {
+          "name": "钻石",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "它是世界上第一只人工制造出来的宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "珍珠",
+          "group": "宝可梦 钻石／珍珠",
+          "text": "它是世界上第一只人工制造出来的宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "白金",
+          "group": "宝可梦 白金",
+          "text": "利用最顶尖的科学力量创造出的人工宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "心金",
+          "group": "宝可梦 心金／魂银",
+          "text": "因为不需要呼吸而被期待在任何地方都能大显身手的人工宝可梦。"
+        },
+        {
+          "name": "魂银",
+          "group": "宝可梦 心金／魂银",
+          "text": "经过研究而诞生出的人工宝可梦。只被编入了一些基本动作。"
+        }
+      ]
+    },
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "利用最顶尖的科学力量创造出的人工宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "利用最顶尖的科学力量创造出的人工宝可梦。能够在电子空间移动。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "经过研究而诞生出的人工宝可梦。只被编入了一些基本动作。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "身体由程序构成。有着能在电子空间自由移动的能力。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "可以将全身转回程序数据并进入电子空间。因为有防拷贝保护，所以无法复制。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "可以将全身转回程序数据并进入电子空间。因为有防拷贝保护，所以无法复制。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "大约２０年前，集当时的科学力量于一身，创造出来的人工宝可梦。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "因为能将身体化为数字数据，所以可以进入电脑空间。"
+        },
+        {
+          "name": "Let's Go! 皮卡丘",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "人们期待它能成为唯一能够飞到宇宙的宝可梦，然而至今也努力未果。"
+        },
+        {
+          "name": "Let's Go! 伊布",
+          "group": "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布",
+          "text": "人们期待它能成为唯一能够飞到宇宙的宝可梦，然而至今也努力未果。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "它是世界上第一个由程序编成的人工宝可梦。运用最先进的科技制成。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "近年来十分活跃于电脑空间。到处检查有没有可疑的数据。"
+        },
+        {
+          "name": "晶灿钻石",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "它是世界上第一只人工制造出来的宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "明亮珍珠",
+          "group": "宝可梦 晶灿钻石／明亮珍珠",
+          "text": "它是世界上第一只人工制造出来的宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "传说 阿尔宙斯",
+          "group": "宝可梦传说 阿尔宙斯",
+          "text": "听不见心脏鼓动，亦感受不到它的呼吸，但毫不影响它的行动。太过不可思议以致完全无法理解。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "因为不需要呼吸而被期待在任何地方都能大显身手的人工宝可梦。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "利用最顶尖的科学力量创造出的人工宝可梦。能够在电子空间移动。"
+        },
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "经过研究而诞生出的人工宝可梦。只被编入了一些基本动作。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "多边兽",
+        "stage": "未进化",
+        "text": null,
+        "image": "137Porygon_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "多边兽２型",
+        "stage": "1阶进化",
+        "text": "携带升级数据连接交换 ；使用升级数据（传说 阿尔宙斯中）",
+        "image": "233Porygon2_Dream.png",
+        "back_text": null,
+        "from": "多边兽",
+        "form_name": null
+      },
+      {
+        "name": "多边兽乙型",
+        "stage": "2阶进化",
+        "text": "携带可疑补丁连接交换 ；使用可疑补丁（传说 阿尔宙斯中）",
+        "image": "474Porygon-Z_Dream.png",
+        "back_text": null,
+        "from": "多边兽２型",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "撞击",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "纹理",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "5",
+          "name": "回收利用",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "10",
+          "name": "电磁飘浮",
+          "type": "电",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "15",
+          "name": "电击",
+          "type": "电",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "20",
+          "name": "幻象光线",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "25",
+          "name": "纹理２",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "30",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "35",
+          "name": "自我再生",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "40",
+          "name": "放电",
+          "type": "电",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "45",
+          "name": "三重攻击",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "50",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "55",
+          "name": "锁定",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "60",
+          "name": "电磁炮",
+          "type": "电",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "50",
+          "pp": "5"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００４",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１６",
+          "name": "幻象光线",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０１８",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０２３",
+          "name": "充电光束",
+          "type": "电",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３２",
+          "name": "高速星星",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３４",
+          "name": "冰冻之风",
+          "type": "冰",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４９",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５０",
+          "name": "求雨",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５４",
+          "name": "精神冲击",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５９",
+          "name": "意念头锤",
+          "type": "超能力",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "90",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６２",
+          "name": "移花接木",
+          "type": "恶",
+          "category": "物理",
+          "power": "95",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８２",
+          "name": "电磁波",
+          "type": "电",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０９６",
+          "name": "怪异电波",
+          "type": "电",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０９",
+          "name": "戏法",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１４",
+          "name": "暗影球",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１２０",
+          "name": "精神强念",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２６",
+          "name": "十万伏特",
+          "type": "电",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１３５",
+          "name": "冰冻光束",
+          "type": "冰",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１４３",
+          "name": "暴风雪",
+          "type": "冰",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１５２",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６１",
+          "name": "戏法空间",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６３",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６６",
+          "name": "打雷",
+          "type": "电",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１６８",
+          "name": "日光束",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７３",
+          "name": "充电",
+          "type": "电",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１７８",
+          "name": "重力",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２０４",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２１１",
+          "name": "电网",
+          "type": "电",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "多边兽",
+      "image": "0137-多边兽.png",
+      "shiny": "0137-多边兽-shiny.png"
+    }
+  ]
+}

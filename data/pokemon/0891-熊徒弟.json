@@ -1,0 +1,703 @@
+{
+  "name_zh": "熊徒弟",
+  "name_ja": "ダクマ",
+  "name_en": "Kubfu",
+  "pokedex_id": "0891",
+  "description": "熊徒弟（日文︰ダクマ，英文︰Kubfu）是格斗属性传说的宝可梦，它的设计者是大村祐介。",
+  "profile": "熊徒弟从外表看起来就像是双足站立的小熊，它的毛发偏向米色，眼神看起来很坚毅，它的身上有着白色的花纹，主要集中在头部的位置以及胸部上方的位置，头部的后面也垂着白色的毛发，这让熊徒弟看起来就像是系着一条白色的头巾。拉紧头上又白又长的体毛，就会变得斗气势高昂，并从丹田涌出力量。它的爪子是黑色的，脚部的爪子向上翘起，且比较锋利。它的下腹部有着能产生“格斗能量”的器官，会通过独特的呼吸法和集中精神来增强自身的能力，迎接对战。\n熊徒弟努力锻炼身心，日积月累地进行艰苦锻炼，认真钻研招式，是一种性情认真的宝可梦。要是在对战中输掉了，它会更热衷于锻炼，发奋图强。虽然熊徒弟主要栖息在远离伽勒尔地区的山区，但其实它曾经是生活在伽勒尔地区的宝可梦。历史书有这样的一段记载：“熊徒弟经常和人们一同前往未开拓的地区进行交易和探险。来到远方的熊徒弟最终野生化，在山区定居下来。”熊徒弟进化后的样子会根据所习得的招式不同而改变。",
+  "prototype": "熊徒弟与武道熊师的形象可能来自大熊座的黄色双星与小熊座α（北极星）。\n熊徒弟被马士德称之为秘传铠甲。结合伽勒尔地区其他传说的宝可梦来看，熊徒弟的概念可能也来自蒙茅斯的杰弗里所著《不列颠诸王史》和诺曼诗人韦斯所著《布鲁特传奇》中，亚瑟王所拥有的魔法铠甲。\n熊的形象可能参考了近现代语言学对亚瑟王传奇的解读，即亚瑟王以及人名亚瑟得名于凯尔特语族的熊。在民族大迁徙时期至维京时代，包括铠岛的原型马恩岛在内的凯尔特地区都有与亚瑟相近、得名于熊的人名，见于文献和碑铭记载。\n熊徒弟的具体造型是棕熊或黑熊幼崽与习武少年的结合，头部的白毛可能来自发带，胸部的V形白毛可能来自亚洲黑熊腹部月牙形花纹与武术衫的结合。\n官方网站介绍称熊徒弟被从远方的山区重新引回伽勒尔地区，可能参考了大型食肉目动物在不列颠群岛的生态史：熊属约在公元11世纪时在英伦三岛全面灭绝，现代从欧洲和海外重新引入，恢复了小规模的野生种群。",
+  "detail": "在《朱／紫》Ver1.0.0中，熊徒弟的隐藏特性为无防守，但当时在游戏中并无获得熊徒弟的方法。这一设定在Ver1.2.0中被取消。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ダクマ Dakuma",
+      "origin": "来自“打（だ）”（打）、“琢（たく）磨（ま）”（琢磨）和“熊（くま）”（熊）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "熊徒弟",
+      "origin": "来自“熊”和“徒弟”。"
+    },
+    {
+      "language": "英文",
+      "name": "Kubfu",
+      "origin": "来自 cub（熊崽）和 kung fu（功夫）。"
+    },
+    {
+      "language": "法文",
+      "name": "Wushours",
+      "origin": "来自中文“武术”和 ours（熊）。"
+    },
+    {
+      "language": "德文",
+      "name": "Dakuma",
+      "origin": "来自日文名的音译。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Kubfu",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Kubfu",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "치고마 Chigoma",
+      "origin": "来自“치다”（打）、“곰”（熊）、“탁마〈琢磨〉”（琢磨）和“꼬마”（小孩）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "熊徒弟",
+      "types": [
+        "格斗"
+      ],
+      "category": "拳法宝可梦",
+      "abilities": [
+        {
+          "name": "精神力",
+          "is_hidden": false
+        }
+      ],
+      "height": "0.6m",
+      "weight": "12.0kg",
+      "color": "灰色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 1
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "77",
+      "battle_exp": "771",
+      "gender_ratio": {
+        "male": 87.5,
+        "female": 12.5
+      },
+      "egg_cycles": "120 孵化周期（30840步）",
+      "shape": "Body06.png",
+      "footprint": "FUnknown.png",
+      "image": "0891-熊徒弟.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "60",
+        "attack": "90",
+        "defense": "60",
+        "sp_attack": "53",
+        "sp_defense": "50",
+        "speed": "72"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "格斗"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "0.5"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "2"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "0.5"
+        },
+        {
+          "type": "妖精",
+          "damage": "2"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "日积月累地进行艰苦锻炼，认真钻研招式。进化后的样子会根据所习得的招式不同而改变。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "拉紧头上又白又长的体毛，就会变得斗气势高昂，并从丹田涌出力量。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "熊徒弟",
+        "stage": "未进化",
+        "text": null,
+        "image": "891Kubfu_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "武道熊师",
+        "stage": "1阶进化",
+        "text": "查看恶之挂轴 ；使用恶之挂轴",
+        "image": "892Urshifu-Single_Strike_Dream.png",
+        "back_text": null,
+        "from": "熊徒弟",
+        "form_name": "一击流"
+      }
+    ],
+    [
+      {
+        "name": "熊徒弟",
+        "stage": "未进化",
+        "text": null,
+        "image": "891Kubfu_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "武道熊师",
+        "stage": "1阶进化",
+        "text": "查看水之挂轴 ；使用水之挂轴",
+        "image": "892Urshifu-Rapid_Strike_Dream.png",
+        "back_text": null,
+        "from": "熊徒弟",
+        "form_name": "连击流"
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "瞪眼",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "碎岩",
+          "type": "格斗",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "4",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "8",
+          "name": "聚气",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "12",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "16",
+          "name": "可怕面孔",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "20",
+          "name": "头锤",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "24",
+          "name": "劈瓦",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "28",
+          "name": "看穿",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "32",
+          "name": "健美",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "36",
+          "name": "铁头",
+          "type": "钢",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "40",
+          "name": "爆裂拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "50",
+          "pp": "5"
+        },
+        {
+          "level": "44",
+          "name": "双倍奉还",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "48",
+          "name": "近身战",
+          "type": "格斗",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "level": "52",
+          "name": "真气拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "100",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００６",
+          "name": "可怕面孔",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１２",
+          "name": "踢倒",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０１４",
+          "name": "杂技",
+          "type": "飞行",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２７",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３１",
+          "name": "金属爪",
+          "type": "钢",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "95",
+          "pp": "35"
+        },
+        {
+          "machine": "招式学习器０３９",
+          "name": "下盘踢",
+          "type": "格斗",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０４３",
+          "name": "投掷",
+          "type": "恶",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５５",
+          "name": "挖洞",
+          "type": "地面",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５８",
+          "name": "劈瓦",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０５９",
+          "name": "意念头锤",
+          "type": "超能力",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "90",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６０",
+          "name": "急速折返",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０６４",
+          "name": "健美",
+          "type": "格斗",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０６６",
+          "name": "泰山压顶",
+          "type": "一般",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６７",
+          "name": "火焰拳",
+          "type": "火",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６８",
+          "name": "雷电拳",
+          "type": "电",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６９",
+          "name": "冰冻拳",
+          "type": "冰",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０８８",
+          "name": "剑舞",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０９９",
+          "name": "铁头",
+          "type": "钢",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１３０",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３４",
+          "name": "绝处逢生",
+          "type": "格斗",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１６７",
+          "name": "近身战",
+          "type": "格斗",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９２",
+          "name": "真气拳",
+          "type": "格斗",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２０４",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "熊徒弟",
+      "image": "0891-熊徒弟.png",
+      "shiny": "0891-熊徒弟-shiny.png"
+    }
+  ]
+}

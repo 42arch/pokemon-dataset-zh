@@ -1,0 +1,847 @@
+{
+  "name_zh": "迷你冰",
+  "name_ja": "バニプッチ",
+  "name_en": "Vanillite",
+  "pokedex_id": "0582",
+  "description": "迷你冰（日文︰バニプッチ，英文︰Vanillite）是冰属性宝可梦，它的设计者是James Turner。",
+  "profile": "迷你冰长得类似冰淇淋，其上半的冰的部分仅仅只是盖了一层薄薄的雪状奶油，奶油下面的冰才是本体。它的瞳孔呈蓝色，脸部两旁有个四边形的物体，而它的下半身是蓝色的冰柱，比头部小很多，两旁有两只小手，周围有一些寒气。\n迷你冰被认为是从朝阳照射但仍不愿融化的冰柱中诞生的宝可梦，到了晚上会把身体埋在雪里睡觉。它无法在炎热的地方生存，会为了能让自己生活得更舒适吐出零下50度的冷气冻住四周。如果呆在温暖的场所，就会一点点地变小。冰鬼护喜欢吃的是迷你冰等原本就冻着的宝可梦。它能用冰冷的气息制造雪的结晶，让天上下雪。抱紧它的话就会感觉凉凉的非常舒服。在炎热地区，是每家必备一只的便利宝可梦。",
+  "prototype": "迷你冰来源于美式冰淇淋（圣代）。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "バニプッチ Vanipeti",
+      "origin": "来自英文 vanilla（香草）和法文 petit（小的）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "迷你冰",
+      "origin": "来自“迷你”和“冰”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "迷你冰",
+      "origin": "来自“迷你”和“冰”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "迷你冰",
+      "origin": "来自“迷你”和“冰”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "迷你冰",
+      "origin": "来自“迷你”和“冰”。"
+    },
+    {
+      "language": "英文",
+      "name": "Vanillite",
+      "origin": "来自 vanilla（香草）和 lite（淡的；低糖的、低热量'的）。"
+    },
+    {
+      "language": "法文",
+      "name": "Sorbébé",
+      "origin": "来自 sorbet（雪葩）和 bébé（婴儿）。"
+    },
+    {
+      "language": "德文",
+      "name": "Gelatini",
+      "origin": "来自意大利文 gelato（冰淇淋、吉拉朵）和 mini（迷你的）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Vanillite",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Vanillite",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "바닐프티 Vanipeti",
+      "origin": "来自英文 vanilla（香草）和法文 petit（小的）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "迷你冰",
+      "types": [
+        "冰"
+      ],
+      "category": "新雪宝可梦",
+      "abilities": [
+        {
+          "name": "冰冻之躯",
+          "is_hidden": false
+        },
+        {
+          "name": "雪隐",
+          "is_hidden": false
+        },
+        {
+          "name": "碎裂铠甲",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.4m",
+      "weight": "5.7kg",
+      "color": "白色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "矿物群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 1
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "61",
+      "battle_exp": "611",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body05.png",
+      "footprint": "Fnone.png",
+      "image": "0582-迷你冰.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "36",
+        "attack": "50",
+        "defense": "50",
+        "sp_attack": "65",
+        "sp_defense": "60",
+        "speed": "44"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "冰"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "2"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "2"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "0.5"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "吐出零下５０度的气息，制作雪的结晶，让周围下雪。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "冰柱沐浴了朝阳的能量之后，变成了宝可梦。会把身体埋在雪里睡觉。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "吐出零下５０度的气息，制作雪的结晶，让周围下雪。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "冰柱沐浴了朝阳的能量之后，变成了宝可梦。会把身体埋在雪里睡觉。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "吐出零下５０度的气息，制作雪的结晶，让周围下雪。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "冰柱沐浴了朝阳的能量之后，变成了宝可梦。会把身体埋在雪里睡觉。"
+        }
+      ]
+    },
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "从冰柱中诞生的宝可梦。用冰冷的气息制造雪的结晶，让天上下雪。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "抱紧的话，就会感觉凉凉的非常舒服。在炎热地区，是每家必备１只的便利宝可梦。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "无法在炎热的地方生存。会吐出冷气来降雪，然后窝在积雪里睡觉。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "据说它是从冰柱中诞生的。为了能让自己生活得更舒适，会吐出零下５０度的冷气冻住四周。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "吐出零下５０度的气息，制作雪的结晶，让周围下雪。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "迷你冰",
+        "stage": "未进化",
+        "text": null,
+        "image": "582Vanillite_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "多多冰",
+        "stage": "1阶进化",
+        "text": "等级35以上",
+        "image": "583Vanillish_Dream.png",
+        "back_text": null,
+        "from": "迷你冰",
+        "form_name": null
+      },
+      {
+        "name": "双倍多多冰",
+        "stage": "2阶进化",
+        "text": "等级47以上",
+        "image": "584Vanilluxe_Dream.png",
+        "back_text": null,
+        "from": "多多冰",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "变硬",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "惊吓",
+          "type": "幽灵",
+          "category": "物理",
+          "power": "30",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "4",
+          "name": "挑衅",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "8",
+          "name": "白雾",
+          "type": "冰",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "12",
+          "name": "冰冻之风",
+          "type": "冰",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "level": "16",
+          "name": "雪崩",
+          "type": "冰",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "20",
+          "name": "冰雹",
+          "type": "冰",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "24",
+          "name": "冰锥",
+          "type": "冰",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "28",
+          "name": "吵闹",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "32",
+          "name": "溶化",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "36",
+          "name": "镜面反射",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "40",
+          "name": "冰冻光束",
+          "type": "冰",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "44",
+          "name": "暴风雪",
+          "type": "冰",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "level": "48",
+          "name": "绝对零度",
+          "type": "冰",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "—",
+          "pp": "5"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器１７",
+          "name": "光墙",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器２０",
+          "name": "玉石俱碎",
+          "type": "一般",
+          "category": "物理",
+          "power": "200",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２１",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２４",
+          "name": "打鼾",
+          "type": "一般",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２５",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２７",
+          "name": "冰冻之风",
+          "type": "冰",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器３１",
+          "name": "迷人",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器３３",
+          "name": "求雨",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器３５",
+          "name": "冰雹",
+          "type": "冰",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器３９",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器４４",
+          "name": "封印",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器５１",
+          "name": "冰锥",
+          "type": "冰",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器６４",
+          "name": "雪崩",
+          "type": "冰",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器７６",
+          "name": "轮唱",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录０５",
+          "name": "冰冻光束",
+          "type": "冰",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录０６",
+          "name": "暴风雪",
+          "type": "冰",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "machine": "招式记录２０",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２６",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２７",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录３５",
+          "name": "吵闹",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录３７",
+          "name": "挑衅",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录４２",
+          "name": "巨声",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录４６",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录７０",
+          "name": "加农光炮",
+          "type": "钢",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录８３",
+          "name": "交换场地",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "208",
+              "name": "大钢蛇"
+            },
+            {
+              "id": "679",
+              "name": "独剑鞘"
+            },
+            {
+              "id": "680",
+              "name": "双剑鞘"
+            },
+            {
+              "id": null,
+              "name": "坚盾剑怪"
+            }
+          ],
+          "name": "身体轻量化",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "大钢蛇"
+            }
+          ],
+          "name": "电磁飘浮",
+          "type": "电",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "雪童子"
+            },
+            {
+              "id": null,
+              "name": "冰鬼护"
+            }
+          ],
+          "name": "冰砾",
+          "type": "冰",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "parents": [
+            {
+              "id": "524",
+              "name": "石丸子"
+            },
+            {
+              "id": "525",
+              "name": "地幔岩"
+            },
+            {
+              "id": "526",
+              "name": "庞岩怪"
+            },
+            {
+              "id": "568",
+              "name": "破破袋"
+            },
+            {
+              "id": "569",
+              "name": "灰尘山"
+            },
+            {
+              "id": "597",
+              "name": "种子铁球"
+            },
+            {
+              "id": null,
+              "name": "坚果哑铃"
+            }
+          ],
+          "name": "大爆炸",
+          "type": "一般",
+          "category": "物理",
+          "power": "250",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "冰宝"
+            }
+          ],
+          "name": "极光幕*",
+          "type": "冰",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "双倍多多冰"
+            }
+          ],
+          "name": "冰柱坠击",
+          "type": "冰",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "90",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "迷你冰",
+      "image": "0582-迷你冰.png",
+      "shiny": "0582-迷你冰-shiny.png"
+    }
+  ]
+}

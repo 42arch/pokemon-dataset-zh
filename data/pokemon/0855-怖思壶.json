@@ -1,0 +1,811 @@
+{
+  "name_zh": "怖思壶",
+  "name_ja": "ポットデス",
+  "name_en": "Polteageist",
+  "pokedex_id": "0855",
+  "description": "怖思壶（日文︰ポットデス，英文︰Polteageist）是幽灵属性宝可梦，它的设计者是James Turner[1]。",
+  "profile": "怖思壶住在古董茶壶里，身体由红茶构成。虽然大多数都是赝品，但偶尔也能发现真货。相比赝品形态，真品形态的底部有底款，但平时由于视角问题难以辨别，通过极巨化等手段可以更清楚地辨别。每当发现喝剩的红茶，它就会把自己的身体倒进去，让那壶红茶变成怖思壶。不管住在什么茶壶里，对它都不会有影响，但原本的红茶却似乎会给它的性情带来变化。\n怖思壶的头上有一个类似漩涡状的斑纹。\n许多怖思壶会混入酒店及餐厅的大堆餐具之中，以拟态的形式生活。因为怖思壶有着往喝剩的红茶里注入自身力量，借此增加自己同伴的能力，所以多数情况下它很不受欢迎。据说它的红茶有着独特的味道与茶香，口感和香味十分独特。会让自己信赖的训练家稍稍地品尝一下味道。需要注意的是，如果喝过头的话，有可能会引起胃胀胃痛等身体不适的状况。虽然喝下它会有危险，但味道很好，不怕危险的美食家们每天都喝怖思壶。它生气时会朝对方的嘴里喷射自己茶一样的身体，一旦喝下便会遭到恶寒侵袭。",
+  "prototype": "怖思壶的原型可能是基于茶壶、红茶和骚灵。\n在传说中，骚灵是一种会打碎家里的茶杯、锅碗，发出喧闹声的恶灵。\n怖思壶的造型可能参考了洛可可风格的茶具，代表特征是非对称的曲线纹样和暖色粉彩配色（尤其是浅蓝色），在18世纪时随着茶叶传入而风行欧洲。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ポットデス Potdeath",
+      "origin": "来自英文 pot（壶）和英文 death（死亡），谐音“ポットです”（这是壶）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "怖思壺怖思壶",
+      "origin": "来自“恐怖”、“不死”和“茶壶”，谐音“不是壶”、“不舒服”。"
+    },
+    {
+      "language": "英文",
+      "name": "Polteageist",
+      "origin": "来自 poltergeist（骚灵）和 tea（茶）。"
+    },
+    {
+      "language": "法文",
+      "name": "Polthégeist",
+      "origin": "来自 poltergeist（骚灵）和 thé（茶）。"
+    },
+    {
+      "language": "德文",
+      "name": "Mortipot",
+      "origin": "来自拉丁文 mors（死亡）和英文 teapot（茶壶）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Polteageist",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Polteageist",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "포트데스 Potdeath",
+      "origin": "来自英文 pot（壶）和英文 death（死亡）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "怖思壶",
+      "types": [
+        "幽灵"
+      ],
+      "category": "红茶宝可梦",
+      "abilities": [
+        {
+          "name": "碎裂铠甲",
+          "is_hidden": false
+        },
+        {
+          "name": "咒术之躯",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.2m",
+      "weight": "0.4kg",
+      "color": "紫色",
+      "catch_rate": "60（7.8%）",
+      "egg_groups": [
+        "矿物",
+        "不定形群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 2
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "178",
+      "battle_exp": "1781",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body01.png",
+      "footprint": "FUnknown.png",
+      "image": "0855-怖思壶.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "60",
+        "attack": "65",
+        "defense": "65",
+        "sp_attack": "134",
+        "sp_defense": "114",
+        "speed": "70"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "幽灵"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "0"
+        },
+        {
+          "type": "格斗",
+          "damage": "0"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "0.5"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "2"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "2"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "住在古董茶壶里。虽然大多数都是赝品，但偶尔也能发现真货。（赝品形态）口感和香味十分独特。会让自己信赖的训练家稍稍地品尝一下味道。（真品形态）"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "每当发现喝剩的红茶，它就会把自己的身体倒进去，让那壶红茶变成怖思壶。（赝品形态）生气时会朝对方的嘴里喷射自己茶一样的身体。一旦喝下便会遭到恶寒侵袭。（真品形态）"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "由红茶组成的身体风味独特又不失美味，但饮用过量可能会致死。（赝品形态）不管住在什么茶壶里，对它都不会有影响。但原本的红茶却似乎会给它的性情带来变化。（真品形态）"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "会潜入茶壶里，然后把自己倒进喝到一半的红茶里来增加份量。（赝品形态）虽然喝下它会有危险，但味道很好。不怕危险的美食家们每天都喝怖思壶。（真品形态）"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "来悲茶",
+        "stage": "未进化",
+        "text": null,
+        "image": "854Sinistea_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "赝品形态"
+      },
+      {
+        "name": "怖思壶",
+        "stage": "1阶进化",
+        "text": "使用破裂的茶壶",
+        "image": "855Polteageist_Dream.png",
+        "back_text": null,
+        "from": "来悲茶",
+        "form_name": "赝品形态"
+      }
+    ],
+    [
+      {
+        "name": "来悲茶",
+        "stage": "未进化",
+        "text": null,
+        "image": "854Sinistea_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": "真品形态"
+      },
+      {
+        "name": "怖思壶",
+        "stage": "1阶进化",
+        "text": "使用缺损的茶壶",
+        "image": "855Polteageist_Dream.png",
+        "back_text": null,
+        "from": "来悲茶",
+        "form_name": "真品形态"
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "进化",
+          "name": "茶会",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "—",
+          "name": "超级吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "缩入壳中",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "40"
+        },
+        {
+          "level": "—",
+          "name": "惊吓",
+          "type": "幽灵",
+          "category": "物理",
+          "power": "30",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "芳香薄雾",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "—",
+          "name": "吸取力量",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "18",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "24",
+          "name": "突袭",
+          "type": "恶",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "level": "30",
+          "name": "甜甜香气",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "36",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "42",
+          "name": "诡计",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "48",
+          "name": "暗影球",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "54",
+          "name": "临别礼物",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "60",
+          "name": "破壳",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "66",
+          "name": "咒术",
+          "type": "幽灵",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１６",
+          "name": "幻象光线",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０１７",
+          "name": "奇异之光",
+          "type": "幽灵",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２９",
+          "name": "祸不单行",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０３３",
+          "name": "魔法叶",
+          "type": "草",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０４１",
+          "name": "辅助力量",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４２",
+          "name": "黑夜魔影",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５４",
+          "name": "精神冲击",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０６２",
+          "name": "移花接木",
+          "type": "恶",
+          "category": "物理",
+          "power": "95",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７４",
+          "name": "反射壁",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０７５",
+          "name": "光墙",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０８０",
+          "name": "挥指",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０９２",
+          "name": "封印",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０９４",
+          "name": "恶之波动",
+          "type": "恶",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０９８",
+          "name": "特性互换",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０７",
+          "name": "磷火",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０９",
+          "name": "戏法",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１１",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１４",
+          "name": "暗影球",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１２０",
+          "name": "精神强念",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２９",
+          "name": "冥想",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３２",
+          "name": "接棒",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "40"
+        },
+        {
+          "machine": "招式学习器１４０",
+          "name": "诡计",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１５１",
+          "name": "潜灵奇袭",
+          "type": "幽灵",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５２",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６１",
+          "name": "戏法空间",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６３",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７７",
+          "name": "怨恨",
+          "type": "幽灵",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９８",
+          "name": "灵骚",
+          "type": "幽灵",
+          "category": "物理",
+          "power": "110",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２０２",
+          "name": "分担痛楚",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２２４",
+          "name": "咒术",
+          "type": "幽灵",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "交换场地",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "怖思壶",
+      "image": "0855-怖思壶.png",
+      "shiny": "0855-怖思壶-shiny.png"
+    },
+    {
+      "name": "怖思壶-赝品形态",
+      "image": "0855-怖思壶-赝品形态.png",
+      "shiny": "0855-怖思壶-赝品形态-shiny.png"
+    },
+    {
+      "name": "怖思壶-真品形态",
+      "image": "0855-怖思壶-真品形态.png",
+      "shiny": "0855-怖思壶-真品形态-shiny.png"
+    }
+  ]
+}

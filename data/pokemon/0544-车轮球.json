@@ -1,0 +1,826 @@
+{
+  "name_zh": "车轮球",
+  "name_ja": "ホイーガ",
+  "name_en": "Whirlipede",
+  "pokedex_id": "0544",
+  "description": "车轮球（日文︰ホイーガ，英文︰Whirlipede）是虫属性／毒属性宝可梦，它的设计者是北风友裕。[1]",
+  "profile": "车轮球是一种像轮胎的宝可梦。它的身体大部分呈淡紫色，并有少数黑色。整个身体可分为六段，每一段的中心都有红圈的图案，而其中四段都有一对刺，其中两段没有刺，但有触角。如车轮般踡曲的身体中心是它的眼睛，瞳仁呈黄色。\n车轮球用坚硬的壳和带毒的刺保护自己的身体，积蓄进化所需的能量。虽说它总是一动不动地为进化蓄积能量，但当敌人靠近的时候会动起来用毒击戳向敌人。它平时一动不动，可一旦受袭就会像轮胎那样地高速旋转奔跑，并用撞击来猛烈地反击敌人，最高时速可以达到100公里左右。",
+  "prototype": "车轮球的主要原型为球马陆，同时正如其名字一样，造型上可能也参考了轮胎。\n现实中的球马陆既不是蜈蚣，也不是虫茧，然而在分类上车轮球仍被分类为“茧蜈蚣宝可梦”。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ホイーガ Wheega",
+      "origin": "来自英文 wheel（车轮）和“毬（いが）”（刺球、刺果）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "車輪毬车轮球",
+      "origin": "来自“车轮”和“球”。"
+    },
+    {
+      "language": "中文-大陆",
+      "name": "车轮球",
+      "origin": "来自“车轮”和“球”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "車輪毬",
+      "origin": "来自“车轮”和“球”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "車輪毬",
+      "origin": "来自“车轮”和“球”。"
+    },
+    {
+      "language": "英文",
+      "name": "Whirlipede",
+      "origin": "来自 whirl（旋转）和 centipede（蜈蚣）或 millipede（马陆）。"
+    },
+    {
+      "language": "法文",
+      "name": "Scobolide",
+      "origin": "来自 scolopendre（蜈蚣）和 bolide（高速车）。"
+    },
+    {
+      "language": "德文",
+      "name": "Rollum",
+      "origin": "来自 herumrollen（滚来滚去）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Whirlipede",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Whirlipede",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "휠구 Hwilgu",
+      "origin": "来自英文 wheel（车轮）和“구〈毬〉”（球）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "车轮球",
+      "types": [
+        "虫",
+        "毒"
+      ],
+      "category": "茧蜈蚣宝可梦",
+      "abilities": [
+        {
+          "name": "毒刺",
+          "is_hidden": false
+        },
+        {
+          "name": "虫之预感",
+          "is_hidden": false
+        },
+        {
+          "name": "加速",
+          "is_hidden": true
+        }
+      ],
+      "height": "1.2m",
+      "weight": "58.5kg",
+      "color": "灰色",
+      "catch_rate": "120（15.7%）",
+      "egg_groups": [
+        "虫群"
+      ],
+      "experience_100": "1,059,860（较慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 2
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "126",
+      "battle_exp": "1261",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body01.png",
+      "footprint": "Fnone.png",
+      "image": "0544-车轮球.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "40",
+        "attack": "55",
+        "defense": "99",
+        "sp_attack": "40",
+        "sp_defense": "79",
+        "speed": "47"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "虫",
+        "毒"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.25"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "0.5"
+        },
+        {
+          "type": "地面",
+          "damage": "1"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.25"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "2"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "0.5"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第五世代",
+      "versions": [
+        {
+          "name": "黑",
+          "group": "宝可梦 黑／白",
+          "text": "被坚硬的壳保护着。像轮胎那样地旋转，猛烈地撞击敌人。"
+        },
+        {
+          "name": "白",
+          "group": "宝可梦 黑／白",
+          "text": "平时一动不动，可一旦受袭就会高速旋转奔跑，并用撞击来反击。"
+        }
+      ]
+    },
+    {
+      "name": "第六世代",
+      "versions": [
+        {
+          "name": "Ｘ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "被坚硬的壳保护着。像轮胎那样地旋转，猛烈地撞击敌人。"
+        },
+        {
+          "name": "Ｙ",
+          "group": "宝可梦 Ｘ／Ｙ",
+          "text": "平时一动不动，可一旦受袭就会高速旋转奔跑，并用撞击来反击。"
+        },
+        {
+          "name": "欧米伽红宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "被坚硬的壳保护着。像轮胎那样地旋转，猛烈地撞击敌人。"
+        },
+        {
+          "name": "阿尔法蓝宝石",
+          "group": "宝可梦 欧米伽红宝石／阿尔法蓝宝石",
+          "text": "平时一动不动，可一旦受袭就会高速旋转奔跑，并用撞击来反击。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "高速旋转突击对方。最高时速可以达到１００公里左右。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "用坚硬的壳和带毒的刺保护自己的身体，积蓄进化所需的能量。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "传说 Z-A",
+          "group": "宝可梦传说 Z-A",
+          "text": "被坚硬的壳保护着。像轮胎那样地旋转，猛烈地撞击敌人。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "百足蜈蚣",
+        "stage": "未进化",
+        "text": null,
+        "image": "543Venipede_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "车轮球",
+        "stage": "1阶进化",
+        "text": "等级22以上",
+        "image": "544Whirlipede_Dream.png",
+        "back_text": null,
+        "from": "百足蜈蚣",
+        "form_name": null
+      },
+      {
+        "name": "蜈蚣王",
+        "stage": "2阶进化",
+        "text": "等级30以上",
+        "image": "545Scolipede_Dream.png",
+        "back_text": null,
+        "from": "车轮球",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "进化",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "毒针",
+          "type": "毒",
+          "category": "物理",
+          "power": "15",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "变圆",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "40"
+        },
+        {
+          "level": "—",
+          "name": "滚动",
+          "type": "岩石",
+          "category": "物理",
+          "power": "30",
+          "accuracy": "90",
+          "pp": "20"
+        },
+        {
+          "level": "—",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "level": "12",
+          "name": "毒尾",
+          "type": "毒",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "16",
+          "name": "刺耳声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "40"
+        },
+        {
+          "level": "20",
+          "name": "虫咬",
+          "type": "虫",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "26",
+          "name": "毒液冲击",
+          "type": "毒",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "32",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "level": "38",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "level": "44",
+          "name": "剧毒",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "level": "50",
+          "name": "毒液陷阱",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "56",
+          "name": "舍身冲撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器０７",
+          "name": "飞弹针",
+          "type": "虫",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "95",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１１",
+          "name": "日光束",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１６",
+          "name": "刺耳声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "40"
+        },
+        {
+          "machine": "招式学习器２１",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２４",
+          "name": "打鼾",
+          "type": "一般",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２５",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器３１",
+          "name": "迷人",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器３４",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器３９",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器５７",
+          "name": "以牙还牙",
+          "type": "恶",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器７４",
+          "name": "毒液冲击",
+          "type": "毒",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器７６",
+          "name": "轮唱",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器７７",
+          "name": "祸不单行",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录１２",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式记录２０",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２２",
+          "name": "污泥炸弹",
+          "type": "毒",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２３",
+          "name": "撒菱",
+          "type": "地面",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录２６",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２７",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录４６",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录５２",
+          "name": "陀螺球",
+          "type": "钢",
+          "category": "物理",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式记录５４",
+          "name": "毒菱",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录５７",
+          "name": "毒击",
+          "type": "毒",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录９１",
+          "name": "毒液陷阱",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "328",
+              "name": "大颚蚁"
+            },
+            {
+              "id": "329",
+              "name": "超音波幼虫"
+            },
+            {
+              "id": "330",
+              "name": "沙漠蜻蜓"
+            },
+            {
+              "id": "451",
+              "name": "钳尾蝎"
+            },
+            {
+              "id": "452",
+              "name": "龙王蝎"
+            },
+            {
+              "id": "632",
+              "name": "铁蚁"
+            },
+            {
+              "id": "736",
+              "name": "强颚鸡母虫"
+            },
+            {
+              "id": "737",
+              "name": "虫电宝"
+            },
+            {
+              "id": "738",
+              "name": "锹农炮虫"
+            },
+            {
+              "id": "751",
+              "name": "滴蛛"
+            },
+            {
+              "id": "752",
+              "name": "滴蛛霸"
+            },
+            {
+              "id": "850",
+              "name": "烧火蚣"
+            },
+            {
+              "id": null,
+              "name": "焚焰蚣"
+            }
+          ],
+          "name": "咬住",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "parents": [
+            {
+              "id": "123",
+              "name": "飞天螳螂"
+            },
+            {
+              "id": "212",
+              "name": "巨钳螳螂"
+            },
+            {
+              "id": "291",
+              "name": "铁面忍者"
+            },
+            {
+              "id": "557",
+              "name": "石居蟹"
+            },
+            {
+              "id": "558",
+              "name": "岩殿居蟹"
+            },
+            {
+              "id": "588",
+              "name": "盖盖虫"
+            },
+            {
+              "id": "589",
+              "name": "骑士蜗牛"
+            },
+            {
+              "id": "595",
+              "name": "电电虫"
+            },
+            {
+              "id": "596",
+              "name": "电蜘蛛"
+            },
+            {
+              "id": null,
+              "name": "铁蚁"
+            },
+            {
+              "id": null,
+              "name": "具甲武者"
+            }
+          ],
+          "name": "连斩",
+          "type": "虫",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "95",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "车轮球",
+      "image": "0544-车轮球.png",
+      "shiny": "0544-车轮球-shiny.png"
+    }
+  ]
+}

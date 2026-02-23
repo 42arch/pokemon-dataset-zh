@@ -1,0 +1,981 @@
+{
+  "name_zh": "滴蛛",
+  "name_ja": "シズクモ",
+  "name_en": "Dewpider",
+  "pokedex_id": "0751",
+  "description": "滴蛛（日文︰シズクモ，英文︰Dewpider）是水属性／虫属性宝可梦。",
+  "profile": "滴蛛的头部为黑色，腿为黄绿色，关节处有菱形突起。身体为黑色，并有黄绿色花纹。头部被水泡包围，水泡则被三条黄绿色的组织所包围，眼睛为蓝色，并有浅蓝色条纹；嘴巴为黄绿色；头顶有两个蓝色突起。\n滴蛛平时生活在水中，也会戴上水泡去陆地上寻找食物。因为只吸收溶解在水中的氧气，所以在陆地上会为了呼吸戴着水泡，以及保护柔软的头部。发现猎物或敌人后，它会将头上戴着的水泡弹出，将水砸出去。滴蛛会用臀部让水泡膨胀，并包裹住自己的头部。如果滴蛛同类之间相遇，它们会自豪地用头上的水泡炫耀，水泡小的一方就会让路。溜溜糖球会经常和栖息地以及食物都与自己相近的滴蛛争斗。",
+  "prototype": "滴蛛基于水蛛。它在呼吸过程中使气泡中的氧浓度逐渐下降，将空气聚集到腹部周围的气泡中呼吸，并用腹部细毛把气泡注入到其巢穴里。\n滴蛛及滴蛛霸在水中生活时并不需要水泡，上岸后反而依赖水泡进行呼吸，与现实中的水蛛习性恰好相反，这一点在动画中也有体现。\n如果您在寻找此宝可梦在Pokémon GO里的资料，请移步滴蛛（Pokémon GO）。\n←\nNo.0750：重泥挽马\n宝可梦\nNo.0752：滴蛛霸\n→",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "シズクモ Shizukumo",
+      "origin": "来自“滴（しずく）”（滴）和“蜘蛛（くも）”（蜘蛛）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "滴蛛",
+      "origin": "来自“滴”和“蜘蛛”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "滴蛛",
+      "origin": "来自“滴”和“蜘蛛”。"
+    },
+    {
+      "language": "英文",
+      "name": "Dewpider",
+      "origin": "来自 dew（露）和 spider（蜘蛛）。"
+    },
+    {
+      "language": "法文",
+      "name": "Araqua",
+      "origin": "来自 arachnide（蛛形纲）和拉丁文 aqua（水）。"
+    },
+    {
+      "language": "德文",
+      "name": "Araqua",
+      "origin": "来自学名 Arachnida（蛛形纲）和拉丁文 aqua（水）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Dewpider",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Dewpider",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "물거미 Mulgeomi",
+      "origin": "来自“물”（水）和“거미”（蜘蛛）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "滴蛛",
+      "types": [
+        "水",
+        "虫"
+      ],
+      "category": "水泡宝可梦",
+      "abilities": [
+        {
+          "name": "水泡",
+          "is_hidden": false
+        },
+        {
+          "name": "储水",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.3m",
+      "weight": "4.0kg",
+      "color": "绿色",
+      "catch_rate": "200（26.1%）",
+      "egg_groups": [
+        "水中1",
+        "虫群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 1
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "54",
+      "battle_exp": "541",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body07.png",
+      "footprint": "FUnknown.png",
+      "image": "0751-滴蛛.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "38",
+        "attack": "40",
+        "defense": "52",
+        "sp_attack": "40",
+        "sp_defense": "72",
+        "speed": "27"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "水",
+        "虫"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.5"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "0.5"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "0.5"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "0.5"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    },
+    {
+      "form": "水泡",
+      "types": [
+        "水",
+        "虫"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.5"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "0.5"
+        },
+        {
+          "type": "火",
+          "damage": "0.5"
+        },
+        {
+          "type": "水",
+          "damage": "0.5"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "0.5"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    },
+    {
+      "form": "(储水)",
+      "types": [
+        "水",
+        "虫"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.5"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "1"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "0.5"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "0"
+        },
+        {
+          "type": "草",
+          "damage": "1"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "0.5"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "为了寻找食物而到地面上来。戴着水泡是为了呼吸，以及保护柔软的头部。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "发现猎物或敌人后，会将头上戴着的水泡弹出，将水砸出去。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "用臀部让水泡膨胀，并包裹住自己的头部。会和同类比拼水泡的大小。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "平时生活在水中，也会戴上水泡去陆地上寻找食物。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "由于包裹头部的水泡是由粘稠的丝制作而成，因此很少会破掉。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "用３条腿支撑包裹头部的水泡。有时会偷偷地换腿。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "滴蛛",
+        "stage": "未进化",
+        "text": null,
+        "image": "751Dewpider_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "滴蛛霸",
+        "stage": "1阶进化",
+        "text": "等级22以上",
+        "image": "752Araquanid_Dream.png",
+        "back_text": null,
+        "from": "滴蛛",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "水枪",
+          "type": "水",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "—",
+          "name": "纠缠不休",
+          "type": "虫",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "4",
+          "name": "虫咬",
+          "type": "虫",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "8",
+          "name": "咬住",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "12",
+          "name": "泡沫光线",
+          "type": "水",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "16",
+          "name": "水流环",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "20",
+          "name": "头锤",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "24",
+          "name": "咬碎",
+          "type": "恶",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "28",
+          "name": "浸水",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "32",
+          "name": "找伙伴",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "36",
+          "name": "猛扑",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "40",
+          "name": "水流裂破",
+          "type": "水",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "44",
+          "name": "汲取",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "48",
+          "name": "镜面反射",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１１",
+          "name": "水之波动",
+          "type": "水",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２０",
+          "name": "起草",
+          "type": "草",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２１",
+          "name": "虫扑",
+          "type": "虫",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２２",
+          "name": "泼冷水",
+          "type": "水",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３４",
+          "name": "冰冻之风",
+          "type": "冰",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０５０",
+          "name": "求雨",
+          "type": "水",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７７",
+          "name": "攀瀑",
+          "type": "水",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０８３",
+          "name": "毒击",
+          "type": "毒",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０９５",
+          "name": "汲取",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０４",
+          "name": "铁壁",
+          "type": "钢",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０５",
+          "name": "十字剪",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０８",
+          "name": "咬碎",
+          "type": "恶",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１０",
+          "name": "水流裂破",
+          "type": "水",
+          "category": "物理",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１１",
+          "name": "终极吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２３",
+          "name": "冲浪",
+          "type": "水",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１３５",
+          "name": "冰冻光束",
+          "type": "冰",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１４２",
+          "name": "水炮",
+          "type": "水",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１４３",
+          "name": "暴风雪",
+          "type": "冰",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６２",
+          "name": "虫鸣",
+          "type": "虫",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１８２",
+          "name": "虫咬",
+          "type": "虫",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１８５",
+          "name": "猛扑",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２０５",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２１９",
+          "name": "爬击",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "90",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "0279",
+              "name": "大嘴鸥"
+            },
+            {
+              "id": "0845",
+              "name": "古月鸟"
+            }
+          ],
+          "name": "蓄力",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "0279",
+              "name": "大嘴鸥"
+            },
+            {
+              "id": "0845",
+              "name": "古月鸟"
+            }
+          ],
+          "name": "喷出",
+          "type": "一般",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "力量平分",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "parents": [
+            {
+              "id": "0167",
+              "name": "圆丝蛛"
+            },
+            {
+              "id": "0168",
+              "name": "阿利多斯"
+            },
+            {
+              "id": "0283",
+              "name": "溜溜糖球"
+            },
+            {
+              "id": "0402",
+              "name": "音箱蟀"
+            },
+            {
+              "id": "0540",
+              "name": "虫宝包"
+            },
+            {
+              "id": "0541",
+              "name": "宝包茧"
+            },
+            {
+              "id": "0596",
+              "name": "电蜘蛛"
+            },
+            {
+              "id": "0736",
+              "name": "强颚鸡母虫"
+            },
+            {
+              "id": "0737",
+              "name": "虫电宝"
+            },
+            {
+              "id": "0738",
+              "name": "锹农炮虫"
+            },
+            {
+              "id": "0917",
+              "name": "团珠蛛"
+            },
+            {
+              "id": "0918",
+              "name": "操陷蛛"
+            }
+          ],
+          "name": "黏黏网",
+          "type": "虫",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "home_images": []
+}

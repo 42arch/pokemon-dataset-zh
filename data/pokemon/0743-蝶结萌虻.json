@@ -1,0 +1,962 @@
+{
+  "name_zh": "蝶结萌虻",
+  "name_ja": "アブリボン",
+  "name_en": "Ribombee",
+  "pokedex_id": "0743",
+  "description": "蝶结萌虻（日文︰アブリボン，英文︰Ribombee）是虫属性／妖精属性宝可梦。",
+  "profile": "蝶结萌虻是一只小精灵一样的、体型小巧的宝可梦。它拥有一双黑色的大眼睛，眼里有方形的瞳孔。身体大部分是淡黄色的，而脸和腹部是奶油色的，脸上的奶油色构成了类似于心形的样子。它脖子上有一圈咖啡色的绒毛，如同一条长围巾，而两端类似于缎带。一对大大的翅膀形似蝶翼，通体透明，靠近身体的一端有花瓣状的可可色花纹。四只脚尤为细长，形状酷似音符，而头顶有一对梭子状的触角。相比萌虻，它的翅膀更像蝴蝶的翅膀，而原本尖锐的口器变成了小妖精一样小巧的嘴。整体上看，它更像一只蝴蝶，而不像虻。\n蝶结萌虻会采集花粉和花蜜来做成花粉团，依调配的种类和剂量不同，团子的效果也不一样。只要感受到人和宝可梦失落的情绪，它便会送上自制的花粉团来为其打气。它做出来的花粉团中有些具有令人放松或治愈疲劳的效果，这类花粉团以高价营养补给品的形式在阿罗拉地区里流通着。被称为高手的蝶结萌虻所制作的花粉团能消除疲倦，因此是很受欢迎的商品。花粉团不只可供食用，有些花粉团还具有引起麻痹或头晕的效果，会在战斗中被扔向对手。蝶结萌虻身体一旦弄湿，采集的花粉便会令蓬松的体毛变脏，因此它十分讨厌下雨。它能够从湿度和风向预测天气状况，如果开始阴云密布了，它就会静静地躲在树洞里不行动。只有在持续晴天的时候才能看见它的样子，阿罗拉的人们都知道当蝶结萌虻在花圃中飞舞时便代表晴天会持续。因为伽勒尔地区阴天居多，所以很难见得到它的身影。",
+  "prototype": "蝶结萌虻基于蜂虻与小妖精。\n它的翅膀加入了缎带蝴蝶结的元素。",
+  "detail": "蝶结萌虻是有唯一属性组合的宝可梦，虫属性／妖精属性组合。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "アブリボン Aburibbon",
+      "origin": "来自“吊虻（つりあぶ）”（蜂虻）、英文 lovely（可爱的）和英文 ribbon（缎带）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "蝶結萌虻蝶结萌虻",
+      "origin": "来自“蝴蝶结”、“萌”和“蜂虻”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "蝶結萌虻",
+      "origin": "来自“蝴蝶结”、“萌”和“蜂虻”。"
+    },
+    {
+      "language": "英文",
+      "name": "Ribombee",
+      "origin": "来自 ribbon（缎带）、bomber fly（蜂虻）和 bee（蜂）。"
+    },
+    {
+      "language": "法文",
+      "name": "Rubombelle",
+      "origin": "来自 ruban（缎带）、bombyle（蜂虻）和 belle（【阴性】美丽的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Bandelby",
+      "origin": "来自 Band（缎带）、Hummel（熊蜂）和学名 Bombyliidae（蜂虻科）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Ribombee",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Ribombee",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "에리본 Eribon",
+      "origin": "来自“재니등에”（蜂虻）和英文 ribbon（缎带）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "蝶结萌虻",
+      "types": [
+        "虫",
+        "妖精"
+      ],
+      "category": "蜂虻宝可梦",
+      "abilities": [
+        {
+          "name": "采蜜",
+          "is_hidden": false
+        },
+        {
+          "name": "鳞粉",
+          "is_hidden": false
+        },
+        {
+          "name": "甜幕",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.2m",
+      "weight": "0.5kg",
+      "color": "黄色",
+      "catch_rate": "75（9.8%）",
+      "egg_groups": [
+        "虫",
+        "妖精群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 2
+        }
+      ],
+      "base_exp": "162",
+      "battle_exp": "1621",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "20 孵化周期（5140步）",
+      "shape": "Body13.png",
+      "footprint": "FUnknown.png",
+      "image": "0743-蝶结萌虻.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "60",
+        "attack": "55",
+        "defense": "60",
+        "sp_attack": "95",
+        "sp_defense": "70",
+        "speed": "124"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "虫",
+        "妖精"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.25"
+        },
+        {
+          "type": "飞行",
+          "damage": "2"
+        },
+        {
+          "type": "毒",
+          "damage": "2"
+        },
+        {
+          "type": "地面",
+          "damage": "0.5"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "2"
+        },
+        {
+          "type": "火",
+          "damage": "2"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "0"
+        },
+        {
+          "type": "恶",
+          "damage": "0.5"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "把花粉做成圆形的团子。可以食用或战斗中使用，有许多的种类哦。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "蝶结萌虻的花粉团里也有富含营养的东西。有时候也作为营养补给品出售。"
+        }
+      ]
+    },
+    {
+      "name": "第八世代",
+      "versions": [
+        {
+          "name": "剑",
+          "group": "宝可梦 剑／盾",
+          "text": "用花粉和花蜜制作团子。依调配的种类和剂量不同，团子的效果也不一样。"
+        },
+        {
+          "name": "盾",
+          "group": "宝可梦 剑／盾",
+          "text": "最讨厌雨水弄湿自己。因为伽勒尔地区阴天居多，所以很难见得到它的身影。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "只要感受到人和宝可梦失落的情绪，便会送上自制的花粉团来为其打气。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "被称为高手的蝶结萌虻所制作的花粉团能消除疲倦，因此是很受欢迎的商品。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "萌虻",
+        "stage": "未进化",
+        "text": null,
+        "image": "742Cutiefly_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "蝶结萌虻",
+        "stage": "1阶进化",
+        "text": "等级25以上",
+        "image": "743Ribombee_Dream.png",
+        "back_text": null,
+        "from": "萌虻",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "进化",
+          "name": "花粉团",
+          "type": "虫",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "—",
+          "name": "吸取",
+          "type": "草",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "—",
+          "name": "麻痹粉",
+          "type": "草",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "75",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "甜甜香气",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "—",
+          "name": "妖精之风",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "18",
+          "name": "吸取之吻",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "24",
+          "name": "虫之抵抗",
+          "type": "虫",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "32",
+          "name": "渴望",
+          "type": "一般",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "40",
+          "name": "掉包",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "48",
+          "name": "魔法闪耀",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "56",
+          "name": "虫鸣",
+          "type": "虫",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "64",
+          "name": "蝶舞",
+          "type": "虫",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００２",
+          "name": "撒娇",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００３",
+          "name": "假哭",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００４",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１４",
+          "name": "杂技",
+          "type": "飞行",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０１５",
+          "name": "虫之抵抗",
+          "type": "虫",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０１８",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０２０",
+          "name": "起草",
+          "type": "草",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２１",
+          "name": "虫扑",
+          "type": "虫",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３２",
+          "name": "高速星星",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３３",
+          "name": "魔法叶",
+          "type": "草",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３７",
+          "name": "吸取之吻",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４１",
+          "name": "辅助力量",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "20",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４９",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０６０",
+          "name": "急速折返",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７４",
+          "name": "反射壁",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０７５",
+          "name": "光墙",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０７９",
+          "name": "魔法闪耀",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８１",
+          "name": "打草结",
+          "type": "草",
+          "category": "特殊",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０９２",
+          "name": "封印",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０９５",
+          "name": "汲取",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０９８",
+          "name": "特性互换",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１０９",
+          "name": "戏法",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１３",
+          "name": "顺风",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１９",
+          "name": "能量球",
+          "type": "草",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２０",
+          "name": "精神强念",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２７",
+          "name": "嬉闹",
+          "type": "妖精",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２９",
+          "name": "冥想",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３０",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１３１",
+          "name": "花粉团",
+          "type": "虫",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１３２",
+          "name": "接棒",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "40"
+        },
+        {
+          "machine": "招式学习器１５２",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６２",
+          "name": "虫鸣",
+          "type": "虫",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１６３",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６８",
+          "name": "日光束",
+          "type": "草",
+          "category": "特殊",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１８２",
+          "name": "虫咬",
+          "type": "虫",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１８５",
+          "name": "猛扑",
+          "type": "虫",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１９７",
+          "name": "双翼",
+          "type": "飞行",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２０３",
+          "name": "自我暗示",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２１９",
+          "name": "爬击",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２２７",
+          "name": "魅诱之声",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２２８",
+          "name": "精神噪音",
+          "type": "超能力",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "0167",
+              "name": "圆丝蛛"
+            },
+            {
+              "id": "0168",
+              "name": "阿利多斯"
+            },
+            {
+              "id": "0283",
+              "name": "溜溜糖球"
+            },
+            {
+              "id": "0402",
+              "name": "音箱蟀"
+            },
+            {
+              "id": "0540",
+              "name": "虫宝包"
+            },
+            {
+              "id": "0541",
+              "name": "宝包茧"
+            },
+            {
+              "id": "0596",
+              "name": "电蜘蛛"
+            },
+            {
+              "id": "0736",
+              "name": "强颚鸡母虫"
+            },
+            {
+              "id": "0737",
+              "name": "虫电宝"
+            },
+            {
+              "id": "0738",
+              "name": "锹农炮虫"
+            },
+            {
+              "id": "0917",
+              "name": "团珠蛛"
+            },
+            {
+              "id": "0918",
+              "name": "操陷蛛"
+            }
+          ],
+          "name": "黏黏网",
+          "type": "虫",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "parents": [
+            {
+              "id": "0035",
+              "name": "皮皮"
+            },
+            {
+              "id": "0036",
+              "name": "皮可西"
+            },
+            {
+              "id": "0547",
+              "name": ""
+            }
+          ],
+          "name": "月亮之力",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "95",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "芳香薄雾",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "home_images": []
+}

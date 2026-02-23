@@ -1,0 +1,842 @@
+{
+  "name_zh": "吉雉鸡",
+  "name_ja": "キチキギス",
+  "name_en": "Fezandipiti",
+  "pokedex_id": "1016",
+  "description": "吉雉鸡（日文︰キチキギス，英文︰Fezandipiti）是毒属性／妖精属性传说的宝可梦。它是宝伴之一。吉雉鸡在2023年2月27日正式公布。",
+  "profile": "够赞狗、愿增猿和吉雉鸡被当做曾经守护过北上乡的英雄而备受村民喜爱，村民为表感谢之情还为它们建了石像。\n吉雉鸡只有雄性，没有对应的雌性宝可梦。据翠绿镇的村民说，敬奉它似乎会运气变旺，诸事顺利。它原本羽毛很短，颜色也很暗淡，是截然不同的宝可梦，但因其渴望变得美丽，于是获得了秀丽的容姿。有种说法认为，桃歹郎为了得到在很久以前和自己一起生活的老夫妇想要的面具，而用“锁链粘糕”让宝伴随从自己，并动身前往了北上乡。吉雉鸡受到卷在身上的锁链所释放的毒素刺激，获得了美妙的身姿和声音。它能扇动艳丽的翅膀抛撒费洛蒙让人和宝可梦为其神魂颠倒。",
+  "prototype": "吉雉鸡的原型可能是日本民间传说桃太郎中帮助桃太郎打败鬼的雉鸡，结合北上乡的取景地北东北来看可能基于秋田县的县鸟铜长尾雉。这种鸟类不论雌雄都有相近的棕红色羽色，唯雄性头部、颈部羽毛更具铜色金属光泽。\n吉雉鸡的羽色分布和毒锁链融合了和服及丸带等元素，头冠的形状类似发簪。结合其性别只有雄性来看，吉雉鸡的拟人化元素可能参考了在歌舞伎舞台扮演花魁的男性演员。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "キチキギス Kichikigisu",
+      "origin": "来自“吉（きち）”（吉）和“雉子（きぎす）”（雉鸡）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "吉雉雞吉雉鸡",
+      "origin": "来自“吉祥”和“雉鸡”。其中“吉”和“鸡”发音相近。"
+    },
+    {
+      "language": "英文",
+      "name": "Fezandipiti",
+      "origin": "来自 pheasant（雉鸡）和 serendipity（机缘）。"
+    },
+    {
+      "language": "法文",
+      "name": "Favianos",
+      "origin": "来自拉丁文 favor（善意；支持）和古希腊文 φᾱσῐᾱνός（雉鸡）。"
+    },
+    {
+      "language": "德文",
+      "name": "Beatori​",
+      "origin": "来自拉丁文 beatus（幸福的）和日文“鳥（とり）”（鸟）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Fezandipiti",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Fezandipiti",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "기로치 Girochi",
+      "origin": "来自“길〈吉〉”（吉）、“그렇지”（“是啊”、“没错”）和“치〈雉〉”（雉）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "吉雉鸡",
+      "types": [
+        "毒",
+        "妖精"
+      ],
+      "category": "随从宝可梦",
+      "abilities": [
+        {
+          "name": "毒锁链",
+          "is_hidden": false
+        },
+        {
+          "name": "技术高手",
+          "is_hidden": true
+        }
+      ],
+      "height": "1.4m",
+      "weight": "30.1kg",
+      "color": "黑色",
+      "catch_rate": "3（0.4%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 3
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "278",
+      "battle_exp": "2781",
+      "gender_ratio": {
+        "male": 100,
+        "female": 0
+      },
+      "egg_cycles": "120 孵化周期*（30840步）",
+      "shape": "Body09.png",
+      "footprint": "FUnknown.png",
+      "image": "1016-吉雉鸡.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "88",
+        "attack": "91",
+        "defense": "82",
+        "sp_attack": "70",
+        "sp_defense": "125",
+        "speed": "99"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "毒",
+        "妖精"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.25"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "2"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "0.25"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "2"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "2"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "0"
+        },
+        {
+          "type": "恶",
+          "damage": "0.5"
+        },
+        {
+          "type": "妖精",
+          "damage": "0.5"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "受到卷在身上的锁链所释放的毒素刺激，获得了美妙的身姿和声音。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "扇动艳丽的翅膀抛撒费洛蒙让人和宝可梦为其神魂颠倒。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "吉雉鸡",
+        "stage": "不进化",
+        "text": null,
+        "image": "1016Fezandipiti_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "二连踢",
+          "type": "格斗",
+          "category": "物理",
+          "power": "30",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "—",
+          "name": "啄",
+          "type": "飞行",
+          "category": "物理",
+          "power": "35",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "毒瓦斯",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "40"
+        },
+        {
+          "level": "—",
+          "name": "魅惑之声",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "level": "8",
+          "name": "电光一闪",
+          "type": "一般",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "16",
+          "name": "迷人",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "24",
+          "name": "翅膀攻击",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "32",
+          "name": "十字毒刃",
+          "type": "毒",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "40",
+          "name": "扫尾拍打",
+          "type": "一般",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "85",
+          "pp": "10"
+        },
+        {
+          "level": "48",
+          "name": "围攻",
+          "type": "恶",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "56",
+          "name": "虚张声势",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "15"
+        },
+        {
+          "level": "56",
+          "name": "吹捧",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "64",
+          "name": "羽栖",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "72",
+          "name": "月亮之力",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "95",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００２",
+          "name": "撒娇",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００４",
+          "name": "高速移动",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１３",
+          "name": "酸液炸弹",
+          "type": "毒",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０１４",
+          "name": "杂技",
+          "type": "飞行",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０１８",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０１９",
+          "name": "魅惑之声",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２６",
+          "name": "毒尾",
+          "type": "毒",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０２７",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２９",
+          "name": "祸不单行",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０３２",
+          "name": "高速星星",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３４",
+          "name": "冰冻之风",
+          "type": "冰",
+          "category": "特殊",
+          "power": "55",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０４０",
+          "name": "空气利刃",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "95",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０４５",
+          "name": "毒液冲击",
+          "type": "毒",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０６０",
+          "name": "急速折返",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０６１",
+          "name": "暗影爪",
+          "type": "幽灵",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６５",
+          "name": "空气之刃",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０７５",
+          "name": "光墙",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０７９",
+          "name": "魔法闪耀",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８３",
+          "name": "毒击",
+          "type": "毒",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０８７",
+          "name": "挑衅",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０８８",
+          "name": "剑舞",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０９４",
+          "name": "恶之波动",
+          "type": "恶",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０９７",
+          "name": "飞翔",
+          "type": "飞行",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０２",
+          "name": "垃圾射击",
+          "type": "毒",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１３",
+          "name": "顺风",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１４",
+          "name": "暗影球",
+          "type": "幽灵",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１８",
+          "name": "热风",
+          "type": "火",
+          "category": "特殊",
+          "power": "95",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２７",
+          "name": "嬉闹",
+          "type": "妖精",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１２９",
+          "name": "冥想",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１４０",
+          "name": "诡计",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１４８",
+          "name": "污泥炸弹",
+          "type": "毒",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１５２",
+          "name": "终极冲击",
+          "type": "一般",
+          "category": "物理",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６０",
+          "name": "暴风",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "110",
+          "accuracy": "70",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１６３",
+          "name": "破坏光线",
+          "type": "一般",
+          "category": "特殊",
+          "power": "150",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１６４",
+          "name": "勇鸟猛攻",
+          "type": "飞行",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７５",
+          "name": "剧毒",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７７",
+          "name": "怨恨",
+          "type": "幽灵",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９１",
+          "name": "吵闹",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９７",
+          "name": "双翼",
+          "type": "飞行",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９９",
+          "name": "泄愤",
+          "type": "恶",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２０３",
+          "name": "自我暗示",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２２７",
+          "name": "魅诱之声",
+          "type": "妖精",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "吉雉鸡",
+      "image": "1016-吉雉鸡.png",
+      "shiny": "1016-吉雉鸡-shiny.png"
+    }
+  ]
+}

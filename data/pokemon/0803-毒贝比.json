@@ -1,0 +1,582 @@
+{
+  "name_zh": "毒贝比",
+  "name_ja": "ベベノム",
+  "name_en": "Poipole",
+  "pokedex_id": "0803",
+  "description": "毒贝比（日文︰ベベノム，英文︰Poipole）是毒属性究极异兽，它的设计者是James Turner。",
+  "profile": "毒贝比是究极异兽的一种，代号为“ＵＢ：沾黏”。毒贝比的外观看起来有点趋于人形，它顶着一个非常大的脑袋，脑袋的顶上有三根管状的毒针，中间的毒针相对来说比其它的两根毒针大一些，在动画中可以很形象地看出毒贝比可以把身子倒立然后利用毒针在地上或者是墙上涂鸦，它有着比较短的手臂，还有着比较长的尾巴，眼睛呈现为椭圆形。毒贝比巨大的头部里注满了毒液，可以从头部尖端的毒针发射。\n毒贝比存在于被奈克洛兹玛夺去了光的世界，被四颚针龙当作自己的孩子来养育。它在异世界是亲切的究极异兽，甚至能被选为踏上旅程的同伴。它会从头部的毒针朝对手喷出毒液，咯咯咯大笑。毒贝比属于感情丰富的宝可梦，据说如果与它长时间接触，它也会理解人类的语言。",
+  "prototype": "毒贝比的原型是黄蜂的幼虫，在此基础上融入了外星人的婴儿、西方龙的幼崽或小恶魔的元素。\n异色的毒贝比及其进化型配色与马蜂的幼虫和成虫相符。\n毒贝比头部储存毒液的器官造型类似胶水瓶，这可能是其代号的由来。",
+  "detail": "",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ベベノム Bevenom",
+      "origin": "来自法文 bébé（婴儿）和英文 venom（毒液）[2]。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "毒貝比毒贝比",
+      "origin": "来自“毒”和英文 baby（婴儿）的音译。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "毒貝比",
+      "origin": "来自“毒”和英文 baby（婴儿）的音译。"
+    },
+    {
+      "language": "英文",
+      "name": "Poipole",
+      "origin": "来自 poison（毒）、pole（柱、竿）和 purple（紫色）[3]。"
+    },
+    {
+      "language": "法文",
+      "name": "Vémini",
+      "origin": "来自 venin（毒液）和 mini（迷你的）。"
+    },
+    {
+      "language": "德文",
+      "name": "Venicro",
+      "origin": "来自英文 venom（毒液）和前缀 micro-（表示“微小”）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Poipole",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Poipole",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "베베놈 Vevenom",
+      "origin": "来自法文 bébé（婴儿）和英文 venom（毒液）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "毒贝比",
+      "types": [
+        "毒"
+      ],
+      "category": "毒针宝可梦",
+      "abilities": [
+        {
+          "name": "异兽提升",
+          "is_hidden": false
+        }
+      ],
+      "height": "0.6m",
+      "weight": "1.8kg",
+      "color": "紫色",
+      "catch_rate": "45（5.9%）",
+      "egg_groups": [
+        "未发现群"
+      ],
+      "experience_100": "1,250,000（慢）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 0
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 1
+        }
+      ],
+      "base_exp": "189",
+      "battle_exp": "1891",
+      "gender_ratio": {
+        "male": 0,
+        "female": 0
+      },
+      "egg_cycles": "120 孵化周期*（30840步）",
+      "shape": "Body06.png",
+      "footprint": "FUnknown.png",
+      "image": "0803-毒贝比.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "67",
+        "attack": "73",
+        "defense": "67",
+        "sp_attack": "73",
+        "sp_defense": "67",
+        "speed": "73"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "毒"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "0.5"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "0.5"
+        },
+        {
+          "type": "地面",
+          "damage": "2"
+        },
+        {
+          "type": "岩石",
+          "damage": "1"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "1"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "1"
+        },
+        {
+          "type": "超能力",
+          "damage": "2"
+        },
+        {
+          "type": "冰",
+          "damage": "1"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "0.5"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [],
+  "evolution_chains": [
+    [
+      {
+        "name": "毒贝比",
+        "stage": "未进化",
+        "text": null,
+        "image": "803Poipole_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "四颚针龙",
+        "stage": "1阶进化",
+        "text": "学会龙之波动时提升等级",
+        "image": "804Naganadel_Dream.png",
+        "back_text": null,
+        "from": "毒贝比",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "龙之波动",
+          "type": "龙",
+          "category": "特殊",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "—",
+          "name": "啄",
+          "type": "飞行",
+          "category": "物理",
+          "power": "35",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "—",
+          "name": "叫声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "level": "—",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "—",
+          "name": "溶解液",
+          "type": "毒",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "7",
+          "name": "乱击",
+          "type": "一般",
+          "category": "物理",
+          "power": "15",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "level": "14",
+          "name": "致命针刺",
+          "type": "虫",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "level": "21",
+          "name": "撒娇",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "28",
+          "name": "毒液冲击",
+          "type": "毒",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "35",
+          "name": "毒液陷阱",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "42",
+          "name": "诡计",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "level": "49",
+          "name": "毒击",
+          "type": "毒",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "56",
+          "name": "胃液",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "level": "63",
+          "name": "剧毒",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "90",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器０７",
+          "name": "飞弹针",
+          "type": "虫",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "95",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器２１",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２４",
+          "name": "打鼾",
+          "type": "一般",
+          "category": "特殊",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器２５",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２９",
+          "name": "撒娇",
+          "type": "妖精",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器３９",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器４１",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器７４",
+          "name": "毒液冲击",
+          "type": "毒",
+          "category": "特殊",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器７６",
+          "name": "轮唱",
+          "type": "一般",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录２０",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２２",
+          "name": "污泥炸弹",
+          "type": "毒",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２６",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录２７",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录３１",
+          "name": "铁尾",
+          "type": "钢",
+          "category": "物理",
+          "power": "100",
+          "accuracy": "75",
+          "pp": "15"
+        },
+        {
+          "machine": "招式记录３５",
+          "name": "吵闹",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录５４",
+          "name": "毒菱",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录５７",
+          "name": "毒击",
+          "type": "毒",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录６２",
+          "name": "龙之波动",
+          "type": "龙",
+          "category": "特殊",
+          "power": "85",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录６８",
+          "name": "诡计",
+          "type": "恶",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式记录７３",
+          "name": "垃圾射击",
+          "type": "毒",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式记录７８",
+          "name": "污泥波",
+          "type": "毒",
+          "category": "特殊",
+          "power": "95",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式记录９１",
+          "name": "毒液陷阱",
+          "type": "毒",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "20"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [],
+  "home_images": [
+    {
+      "name": "毒贝比",
+      "image": "0803-毒贝比.png",
+      "shiny": "0803-毒贝比-shiny.png"
+    }
+  ]
+}

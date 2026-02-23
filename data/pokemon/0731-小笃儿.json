@@ -1,0 +1,791 @@
+{
+  "name_zh": "小笃儿",
+  "name_ja": "ツツケラ",
+  "name_en": "Pikipek",
+  "pokedex_id": "0731",
+  "description": "小笃儿（日文︰ツツケラ，英文︰Pikipek）是一般属性／飞行属性宝可梦。",
+  "profile": "小笃儿是类似啄木鸟外形的宝可梦。它全身呈黑色，头部有著白色的羽毛和蓝色的眼睛，头顶前端有一条带状的羽毛，后端则主要为黑色。小笃儿的喙黑灰相间，并有一对灰色的鸟爪。它拥有看着很细，却很强韧的颈部肌肉。\n小笃儿的鸟嘴可以在1秒间连续啄16次，其威力别说是坚硬的树木，就连岩石也能粉碎。它会用坚硬的鸟嘴啄树木，在树干上啄开的洞穴被它用作收藏食物的仓库和巢穴。电飞鼠也会以小笃儿啄空的树洞为主要巢穴。不过铁甲蛹的外壳非常坚硬，即使受到小笃儿的啄击也能安然无恙。由于喜欢会发光的物品，它会把这些物品和食物储存在一起，因此“会有找寻遗失物品时，先搜寻小笃儿的巢穴吧”的说法。树果是小笃儿的食物，它会向在远处的对手发射种子进行攻击。其威力甚至可以陷入树干。但有时也会被烈箭鹰从空中打落到地面捕食。小笃儿会通过利用鸟嘴啄木的声音，和伙伴取得交流。它可以清楚分辨警告讯号和与伙伴打招呼的啄木声，也会让其训练家知悉。通过啄击的节奏，大致就能知道它当时的心情和身体状况。",
+  "prototype": "小笃儿的原型为啄木鸟，其外形尤其像北美黑啄木鸟（Dryocopus pileatus）。\n但现实中的北美黑啄木鸟主要吃昆虫而不是果实，从爱吃树果和在树干上啄出洞穴收藏食物的特点来看，小笃儿更类似橡树啄木鸟。\n图鉴中的说明“每秒１６连击”，可能来自日本游戏艺人高桥名人著名的FC手柄16连打。",
+  "detail": "在2月26日晚11点的宝可梦20周年发布影像中，曾经出现小笃儿的部分原稿和3D建模，当时尚未公布这只宝可梦的具体信息。",
+  "names": [
+    {
+      "language": "日文",
+      "name": "ツツケラ Tsutsukera",
+      "origin": "来自“啄木鳥（けらつつき）”（啄木鸟的别名）。"
+    },
+    {
+      "language": "中文-任天堂",
+      "name": "小篤兒小笃儿",
+      "origin": "来自“笃”（啄木鸟啄树的声音）和“小儿”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "小篤兒",
+      "origin": "来自“笃”和“小儿”。"
+    },
+    {
+      "language": "中文-台湾",
+      "name": "小篤鳥",
+      "origin": "来自“小”、“笃”和“鸟”。"
+    },
+    {
+      "language": "中文-香港",
+      "name": "小篤兒",
+      "origin": "来自“笃”和“小儿”。"
+    },
+    {
+      "language": "英文",
+      "name": "Pikipek",
+      "origin": "来自 pick（尖嘴镐）和 peck（啄）或 woodpecker（啄木鸟）。"
+    },
+    {
+      "language": "法文",
+      "name": "Picassaut",
+      "origin": "来自 pic（啄木鸟；尖嘴镐）和 assaut（袭击），谐音 Picasso（毕卡索）。"
+    },
+    {
+      "language": "德文",
+      "name": "Peppeck",
+      "origin": "来自英文 peck（啄）。"
+    },
+    {
+      "language": "意大利文",
+      "name": "Pikipek",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "西班牙文",
+      "name": "Pikipek",
+      "origin": "同英文名。"
+    },
+    {
+      "language": "韩文",
+      "name": "콕코구리 Kokkoguri",
+      "origin": "来自“콕콕”（连续猛刺貌）、“꼬마”（小孩）和“딱따구리”（啄木鸟）。"
+    }
+  ],
+  "forms": [
+    {
+      "name": "小笃儿",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "category": "啄木鸟宝可梦",
+      "abilities": [
+        {
+          "name": "锐利目光",
+          "is_hidden": false
+        },
+        {
+          "name": "连续攻击",
+          "is_hidden": false
+        },
+        {
+          "name": "捡拾",
+          "is_hidden": true
+        }
+      ],
+      "height": "0.3m",
+      "weight": "1.2kg",
+      "color": "黑色",
+      "catch_rate": "255（33.3%）",
+      "egg_groups": [
+        "飞行群"
+      ],
+      "experience_100": "1,000,000（较快）",
+      "base_points": [
+        {
+          "stat": "hp",
+          "value": 0
+        },
+        {
+          "stat": "attack",
+          "value": 1
+        },
+        {
+          "stat": "defense",
+          "value": 0
+        },
+        {
+          "stat": "sp_attack",
+          "value": 0
+        },
+        {
+          "stat": "sp_defense",
+          "value": 0
+        },
+        {
+          "stat": "speed",
+          "value": 0
+        }
+      ],
+      "base_exp": "53",
+      "battle_exp": "531",
+      "gender_ratio": {
+        "male": 50,
+        "female": 50
+      },
+      "egg_cycles": "15 孵化周期（3855步）",
+      "shape": "Body09.png",
+      "footprint": "FUnknown.png",
+      "image": "0731-小笃儿.png"
+    }
+  ],
+  "stats": [
+    {
+      "form": "一般",
+      "data": {
+        "hp": "35",
+        "attack": "75",
+        "defense": "30",
+        "sp_attack": "30",
+        "sp_defense": "30",
+        "speed": "65"
+      }
+    }
+  ],
+  "type_effectiveness": [
+    {
+      "form": "",
+      "types": [
+        "一般",
+        "飞行"
+      ],
+      "data": [
+        {
+          "type": "一般",
+          "damage": "1"
+        },
+        {
+          "type": "格斗",
+          "damage": "1"
+        },
+        {
+          "type": "飞行",
+          "damage": "1"
+        },
+        {
+          "type": "毒",
+          "damage": "1"
+        },
+        {
+          "type": "地面",
+          "damage": "0"
+        },
+        {
+          "type": "岩石",
+          "damage": "2"
+        },
+        {
+          "type": "虫",
+          "damage": "0.5"
+        },
+        {
+          "type": "幽灵",
+          "damage": "0"
+        },
+        {
+          "type": "钢",
+          "damage": "1"
+        },
+        {
+          "type": "火",
+          "damage": "1"
+        },
+        {
+          "type": "水",
+          "damage": "1"
+        },
+        {
+          "type": "草",
+          "damage": "0.5"
+        },
+        {
+          "type": "电",
+          "damage": "2"
+        },
+        {
+          "type": "超能力",
+          "damage": "1"
+        },
+        {
+          "type": "冰",
+          "damage": "2"
+        },
+        {
+          "type": "龙",
+          "damage": "1"
+        },
+        {
+          "type": "恶",
+          "damage": "1"
+        },
+        {
+          "type": "妖精",
+          "damage": "1"
+        }
+      ]
+    }
+  ],
+  "pokedex_entries": [
+    {
+      "name": "第七世代",
+      "versions": [
+        {
+          "name": "太阳",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "以每秒１６连击在树干上啄出洞来。啄开的洞穴用作收藏食物的仓库和巢穴。"
+        },
+        {
+          "name": "月亮",
+          "group": "精灵宝可梦 太阳／月亮",
+          "text": "树果是它的食物。将吃剩下的种子作为子弹从嘴里发射出，用来攻击。"
+        }
+      ]
+    },
+    {
+      "name": "第九世代",
+      "versions": [
+        {
+          "name": "朱",
+          "group": "宝可梦 朱／紫",
+          "text": "无论多么坚硬的树木都会被它每秒１６连击的鸟嘴攻击啄出洞。"
+        },
+        {
+          "name": "紫",
+          "group": "宝可梦 朱／紫",
+          "text": "颈部的肌肉很强壮，因此即使激烈摇晃头部，也完全不会有损伤。"
+        }
+      ]
+    }
+  ],
+  "evolution_chains": [
+    [
+      {
+        "name": "小笃儿",
+        "stage": "未进化",
+        "text": null,
+        "image": "731Pikipek_Dream.png",
+        "back_text": null,
+        "from": null,
+        "form_name": null
+      },
+      {
+        "name": "喇叭啄鸟",
+        "stage": "1阶进化",
+        "text": "等级14以上",
+        "image": "732Trumbeak_Dream.png",
+        "back_text": null,
+        "from": "小笃儿",
+        "form_name": null
+      },
+      {
+        "name": "铳嘴大鸟",
+        "stage": "2阶进化",
+        "text": "等级28以上",
+        "image": "733Toucannon_Dream.png",
+        "back_text": null,
+        "from": "喇叭啄鸟",
+        "form_name": null
+      }
+    ]
+  ],
+  "mega_evolution": [],
+  "gigantamax_evolution": [],
+  "learnable_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "level": "—",
+          "name": "啄",
+          "type": "飞行",
+          "category": "物理",
+          "power": "35",
+          "accuracy": "100",
+          "pp": "35"
+        },
+        {
+          "level": "3",
+          "name": "叫声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "40"
+        },
+        {
+          "level": "7",
+          "name": "回声",
+          "type": "一般",
+          "category": "特殊",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "9",
+          "name": "碎岩",
+          "type": "格斗",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "13",
+          "name": "超音波",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "55",
+          "pp": "20"
+        },
+        {
+          "level": "15",
+          "name": "啄食",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "19",
+          "name": "羽栖",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "level": "21",
+          "name": "乱击",
+          "type": "一般",
+          "category": "物理",
+          "power": "15",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "level": "25",
+          "name": "刺耳声",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "85",
+          "pp": "40"
+        },
+        {
+          "level": "27",
+          "name": "啄钻",
+          "type": "飞行",
+          "category": "物理",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "level": "31",
+          "name": "种子机关枪",
+          "type": "草",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "level": "33",
+          "name": "羽毛舞",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "level": "37",
+          "name": "巨声",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "machine_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "machine": "招式学习器００１",
+          "name": "猛撞",
+          "type": "一般",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "85",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器００７",
+          "name": "守住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０１４",
+          "name": "杂技",
+          "type": "飞行",
+          "category": "物理",
+          "power": "55",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０１８",
+          "name": "小偷",
+          "type": "恶",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "100",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０２５",
+          "name": "硬撑",
+          "type": "一般",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０２７",
+          "name": "燕返",
+          "type": "飞行",
+          "category": "物理",
+          "power": "60",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０３８",
+          "name": "蓄能焰袭",
+          "type": "火",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０４０",
+          "name": "空气利刃",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "60",
+          "accuracy": "95",
+          "pp": "25"
+        },
+        {
+          "machine": "招式学习器０４７",
+          "name": "挺住",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０４９",
+          "name": "大晴天",
+          "type": "火",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０５６",
+          "name": "种子机关枪",
+          "type": "草",
+          "category": "物理",
+          "power": "25",
+          "accuracy": "100",
+          "pp": "30"
+        },
+        {
+          "machine": "招式学习器０５８",
+          "name": "劈瓦",
+          "type": "格斗",
+          "category": "物理",
+          "power": "75",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０６０",
+          "name": "急速折返",
+          "type": "虫",
+          "category": "物理",
+          "power": "70",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０６５",
+          "name": "空气之刃",
+          "type": "飞行",
+          "category": "特殊",
+          "power": "75",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器０７０",
+          "name": "梦话",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器０８５",
+          "name": "睡觉",
+          "type": "超能力",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器０８８",
+          "name": "剑舞",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器０９７",
+          "name": "飞翔",
+          "type": "飞行",
+          "category": "物理",
+          "power": "90",
+          "accuracy": "95",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１０２",
+          "name": "垃圾射击",
+          "type": "毒",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器１０３",
+          "name": "替身",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１３",
+          "name": "顺风",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１１７",
+          "name": "巨声",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１１８",
+          "name": "热风",
+          "type": "火",
+          "category": "特殊",
+          "power": "95",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１３０",
+          "name": "帮助",
+          "type": "一般",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "—",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１６４",
+          "name": "勇鸟猛攻",
+          "type": "飞行",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１７１",
+          "name": "太晶爆发",
+          "type": "一般",
+          "category": "特殊",
+          "power": "80",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１７９",
+          "name": "击落",
+          "type": "岩石",
+          "category": "物理",
+          "power": "50",
+          "accuracy": "100",
+          "pp": "15"
+        },
+        {
+          "machine": "招式学习器１８１",
+          "name": "拍落",
+          "type": "恶",
+          "category": "物理",
+          "power": "65",
+          "accuracy": "100",
+          "pp": "20"
+        },
+        {
+          "machine": "招式学习器１９１",
+          "name": "吵闹",
+          "type": "一般",
+          "category": "特殊",
+          "power": "90",
+          "accuracy": "100",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器１９７",
+          "name": "双翼",
+          "type": "飞行",
+          "category": "物理",
+          "power": "40",
+          "accuracy": "90",
+          "pp": "10"
+        },
+        {
+          "machine": "招式学习器２０５",
+          "name": "蛮干",
+          "type": "一般",
+          "category": "物理",
+          "power": "变化",
+          "accuracy": "100",
+          "pp": "5"
+        },
+        {
+          "machine": "招式学习器２１６",
+          "name": "羽毛舞",
+          "type": "飞行",
+          "category": "变化",
+          "power": "—",
+          "accuracy": "100",
+          "pp": "15"
+        }
+      ]
+    }
+  ],
+  "egg_moves": [
+    {
+      "form": "一般",
+      "data": [
+        {
+          "parents": [
+            {
+              "id": "0164",
+              "name": "猫头夜鹰"
+            },
+            {
+              "id": "334",
+              "name": "七夕青鸟"
+            },
+            {
+              "id": "628",
+              "name": "勇士雄鹰"
+            },
+            {
+              "id": "0628H",
+              "name": "勇士雄鹰"
+            },
+            {
+              "id": "0701",
+              "name": "摔角鹰人"
+            }
+          ],
+          "name": "神鸟猛击",
+          "type": "飞行",
+          "category": "物理",
+          "power": "140",
+          "accuracy": "90",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "模仿香草"
+            },
+            {
+              "id": null,
+              "name": "模仿香草（道具）"
+            }
+          ],
+          "name": "垃圾射击",
+          "type": "毒",
+          "category": "物理",
+          "power": "120",
+          "accuracy": "80",
+          "pp": "5"
+        },
+        {
+          "parents": [
+            {
+              "id": null,
+              "name": "音波龙"
+            }
+          ],
+          "name": "爆音波",
+          "type": "一般",
+          "category": "特殊",
+          "power": "140",
+          "accuracy": "100",
+          "pp": "10"
+        }
+      ]
+    }
+  ],
+  "home_images": [
+    {
+      "name": "小笃儿",
+      "image": "0731-小笃儿.png",
+      "shiny": "0731-小笃儿-shiny.png"
+    }
+  ]
+}
