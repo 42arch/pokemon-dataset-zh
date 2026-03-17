@@ -1689,14 +1689,24 @@ function extractHomeImages($, pokedexId, nameZh) {
     const appearanceHeader = $('#形象').closest('h3');
     if (appearanceHeader.length === 0) return [];
 
-    const container = appearanceHeader.next('div');
-    if (container.length === 0) return [];
-
     let homeTable = null;
-    container.find('table').each((i, table) => {
-        if ($(table).find('a[title="Pokémon HOME"]').length > 0) {
-            homeTable = $(table);
-            return false;
+    // Search in subsequent elements until the next header
+    appearanceHeader.nextUntil('h2, h3').each((i, el) => {
+        const $el = $(el);
+        // If it's a div, check tables inside it
+        if ($el.is('div')) {
+            const table = $el.find('table').filter((j, t) => $(t).find('a[title="Pokémon HOME"]').length > 0).first();
+            if (table.length > 0) {
+                homeTable = table;
+                return false;
+            }
+        }
+        // If it's a table directly
+        if ($el.is('table')) {
+            if ($el.find('a[title="Pokémon HOME"]').length > 0) {
+                homeTable = $el;
+                return false;
+            }
         }
     });
 
